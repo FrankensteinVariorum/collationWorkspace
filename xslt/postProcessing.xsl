@@ -46,17 +46,17 @@
     **************************************************************************************
     -->
     
-    <xsl:variable name="collection" as="document-node()+" select="collection('../simpleOutputEpsilon/?select=*.xml')"/>
+   <!-- <xsl:variable name="collection" as="document-node()+" select="collection('../simpleOutputEpsilon/?select=*.xml')"/>-->
     
     <xsl:template match="/">
-       <xsl:for-each select="$collection">
-           <xsl:variable name="filename" as="xs:string" select="current() ! base-uri() ! tokenize(., '/')[last()]"/>
-           <xsl:result-document
+      <!-- <xsl:for-each select="$collection">
+           <xsl:variable name="filename" as="xs:string" select="current() ! base-uri() ! tokenize(., '/')[last()]"/>-->
+        <!--   <xsl:result-document
                href="../postprocOutputEpsilon/{$filename}"
-               method="xml" indent="yes">
+               method="xml" indent="yes">-->
            <xsl:apply-templates/>
-           </xsl:result-document>
-       </xsl:for-each> 
+           <!--</xsl:result-document>-->
+       <!--</xsl:for-each>--> 
     </xsl:template>
 
 
