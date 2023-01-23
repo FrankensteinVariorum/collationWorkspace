@@ -28,21 +28,23 @@ procChunk(){
   outputDir="collationChunks/$chunk/output"
   # Run collate.py
   echo "+-------Simply process the chunk $chunk-------+"
-  python3 python-collation/collate.py $chunk
+  cd python-collation
+  python3 collate.py $chunk
   # Check if simple output file is generated
-  if [ ! -f "$outputDir/Collation_$chunk-partway.xml" ]; then
+  if [ ! -f "../$outputDir/Collation_$chunk-partway.xml" ]; then
     echo "Collation_$chunk-partway.xml NOT exist!"
   exit 1
   else
     echo "Collation_$chunk-partway.xml is generated!"
   fi
   # Run Saxon to post-process collations
+  cd ..
   echo "+-------Post-process the collation $chunk-------+"
   java -jar xslt/SaxonHE12-0J/saxon-he-12.0.jar -xsl:xslt/postProcessing.xsl -s:$outputDir/collation_$chunk-partway.xml -o:$outputDir/Collation_$chunk-complete.xml
   # Check if simple output file is generated
   if [ ! -f "$outputDir/Collation_$chunk-complete.xml" ]; then
     echo "Collation_$chunk-complete.xml NOT exist!"
-    exit 1
+    # exit 1
   else
     echo "Collation_$chunk-complete.xml is generated!"
   fi

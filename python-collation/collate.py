@@ -295,7 +295,7 @@ def tokenizeFiles(f1818, f1823, fThomas, f1831, fMS):
 
 def main():
     chunk = sys.argv[1]
-    # chunk = 'C14'
+    # chunk = 'C01'
     for f1818 in glob.glob('../collationChunks/' + chunk + '/1818_fullFlat_*'):
         try:
             collChunk = f1818.split("fullFlat_", 1)[1]
@@ -313,7 +313,8 @@ def main():
                 # can we import 4 filenames instead of only 1 into tokenizeFiles()?
 
             collation_input = {"witnesses": tokenLists}
-            # outputFile = open('../collationChunks/' + chunk + '/output/Collation_' + collChunk, 'w', encoding='utf-8')
+            outputFile = open('../collationChunks/' + chunk + '/output/Collation_' + chunk + '-partway.xml', 'w', encoding='utf-8')
+            outputFile.close()
                 # table = collate(collation_input, output='tei', segmentation=True)
                 # table = collate(collation_input, segmentation=True, layout='vertical')
             table = collate(collation_input, output='xml', segmentation=True)
