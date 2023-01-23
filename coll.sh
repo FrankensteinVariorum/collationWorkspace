@@ -1,17 +1,20 @@
 #!/bin/bash
 
 isInt="^[0-9]+$"
-
+Red="\e[0;31m"
+Green="\e[0;32m"
+Yellow="\e[0;33m"
+resetColor="\e[0m"
 checkInput(){
   chunk=$1
   while ! [[ "$chunk" =~ $isInt ]] || [[ $chunk -lt 1 ]] || [[ $chunk -gt 33 ]]
   do
     if ! [[ "$chunk" =~ $isInt ]]; then
-      echo "Invalid input! Your input not a whole number. "
+      echo -e "${Red}Invalid input! Your input not a whole number.${resetColor}"
     elif [ $chunk -lt 1 ]; then
-      echo "Invalid input! Your input is less than 1. "
+      echo -e "${Red}Invalid input! Your input is less than 1. ${resetColor}"
     elif [ $chunk -gt 33 ]; then
-      echo "Invalid input! Your input is larger than 33. "
+      echo -e "${Red}Invalid input! Your input is larger than 33. ${resetColor}"
     fi
     read -p "Please input a whole number between 1 and 33: " chunk
   done
@@ -25,36 +28,36 @@ procChunk(){
   chunk="C$chunk"
   outputDir="collationChunks/$chunk/output"
   # Run collate.py
-  echo "+-------This starts the Python processing of the collation chunk $chunk-------+"
+  echo -e "${Yellow}+-------This starts the Python processing of the collation chunk $chunk-------+${resetColor}"
   cd python-collation
   python3 collate.py $chunk
   cd ..
   # Check if simple output file is generated
   if [ ! -f "$outputDir/Collation_$chunk-partway.xml" ]; then
-    echo "Collation_$chunk-partway.xml DOES NOT exist!"
+    echo -e "${Red}Collation_$chunk-partway.xml DOES NOT exist!${resetColor}"
     exit 1
   else
-    echo "Collation_$chunk-partway.xml is generated!"
+    echo -e "${Green}Collation_$chunk-partway.xml is generated!${resetColor}"
   fi
   sleep 2
   # Run Saxon to post-process collations
-  echo "+-------This starts the xslt post-Processing of the collation chunk $chunk-------+"
+  echo -e "${Yellow}+-------This starts the xslt post-Processing of the collation chunk $chunk-------+${resetColor}"
   java -jar xslt/SaxonHE12-0J/saxon-he-12.0.jar -xsl:xslt/postProcessing.xsl -s:$outputDir/collation_$chunk-partway.xml -o:$outputDir/Collation_$chunk-complete.xml
   # Check if simple output file is generated
   if [ ! -f "$outputDir/Collation_$chunk-complete.xml" ]; then
-    echo "Oops! Collation_$chunk-complete.xml DOES NOT exist!"
+    echo -e "${Red}Oops! Collation_$chunk-complete.xml DOES NOT exist!${resetColor}"
     # exit 1
   else
-    echo "Yeah! Collation_$chunk-complete.xml is created. "
-    echo "The collation processing is COMPLETE!"
+    echo -e "${Green}Yeah! Collation_$chunk-complete.xml is created. ${resetColor}"
+    echo -e "${Green}The collation processing is COMPLETE!${resetColor}"
   fi
 }
 
-echo "Welcome to the Frankenstein Collation Station!"
+echo -e "${Yellow}Welcome to the Frankenstein Collation Station!${resetColor} "
 read -p "Are you working with ONLY ONE collation chunk? Enter [y/n]: " opt
 while [[ $opt =~ $isInt ]]
 do
-  echo "Invalid input! Your input is an integer."
+  echo -e "${Red}Invalid input! Your input is an integer.${resetColor}"
   read -p "Are you working with ONLY ONE collation chunk? Enter [y/n]: " opt
 done
 if [[ $opt == "Y" ]] || [[ $opt == "y" ]]; then
