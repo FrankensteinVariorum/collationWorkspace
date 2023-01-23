@@ -6,10 +6,12 @@ Before you can begin collating, we need to verify that you have the following in
 * A version of Python 3. 
     * To see if you have python installed and which version, type this in your Git Bash shell (Windows) or Terminal (Mac):
      
-          `python --version`
+          python --version
           
      If you think you have multiple versions of python installed, try 
       
-           `which -a python`
+           which -a python
+           
+    
        
 
