@@ -28,7 +28,7 @@ procChunk(){
   outputDir="collationChunks/$chunk/output"
   # Run collate.py
   echo "+-------Simply process the chunk $chunk-------+"
-  python3.9 python-collation/collate.py $chunk
+  python3 python-collation/collate.py $chunk
   # Check if simple output file is generated
   if [ ! -f "$outputDir/Collation_$chunk-partway.xml" ]; then
     echo "Collation_$chunk-partway.xml NOT exist!"
