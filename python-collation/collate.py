@@ -13,6 +13,7 @@ from xml.dom import pulldom
 import re
 import glob
 from datetime import datetime, date
+import sys
 
 now = datetime.utcnow()
 nowStr = str(now)
@@ -293,32 +294,33 @@ def tokenizeFiles(f1818, f1823, fThomas, f1831, fMS):
 
 
 def main():
-    chunks = ['C13', 'C14']
-    for chunk in chunks:
-        for f1818 in glob.glob('../collationChunks/' + chunk + '/1818_fullFlat_*'):
-            try:
-                collChunk = f1818.split("fullFlat_", 1)[1]
+    #chunk = sys.argv[1]
+    chunk = 'C14'
+    for f1818 in glob.glob('../collationChunks/' + chunk + '/1818_fullFlat_*'):
+        try:
+            collChunk = f1818.split("fullFlat_", 1)[1]
                 # ebb: above gets C30.xml for example
                 # matchStr = matchString.split(".", 1)[0]
                 # ebb: above strips off the file extension
 
-                f1823 = '../collationChunks/' + chunk + '/1823_fullFlat_' + collChunk
-                fThomas = '../collationChunks/' + chunk + '/Thomas_fullFlat_' + collChunk
-                f1831 = '../collationChunks/' + chunk + '/1831_fullFlat_' + collChunk
-                fMS = '../collationChunks/' + chunk + '/msColl_' + collChunk
-                tokenLists = tokenizeFiles(f1818, f1823, fThomas, f1831, fMS)
-                print(tokenLists)
+            f1823 = '../collationChunks/' + chunk + '/1823_fullFlat_' + collChunk
+            fThomas = '../collationChunks/' + chunk + '/Thomas_fullFlat_' + collChunk
+            f1831 = '../collationChunks/' + chunk + '/1831_fullFlat_' + collChunk
+            fMS = '../collationChunks/' + chunk + '/msColl_' + collChunk
+            tokenLists = tokenizeFiles(f1818, f1823, fThomas, f1831, fMS)
+            print(tokenLists)
                 # 2022-11-14 yxj: For easier doing unit testing,
                 # can we import 4 filenames instead of only 1 into tokenizeFiles()?
 
-                collation_input = {"witnesses": tokenLists}
-                outputFile = open('../collationChunks/' + chunk + '/output/Collation_' + collChunk, 'w', encoding='utf-8')
+            collation_input = {"witnesses": tokenLists}
+            # outputFile = open('../collationChunks/' + chunk + '/output/Collation_' + collChunk, 'w', encoding='utf-8')
                 # table = collate(collation_input, output='tei', segmentation=True)
                 # table = collate(collation_input, segmentation=True, layout='vertical')
-                table = collate(collation_input, output='xml', segmentation=True)
+            table = collate(collation_input, output='xml', segmentation=True)
 
-                print(table + '<!-- ' + nowStr + ' -->', file=outputFile)
+            # print(table + '<!-- ' + nowStr + ' -->', file=outputFile)
+            print(table + '<!-- ' + nowStr + ' -->')
 
-            except IOError:
-                pass
+        except IOError:
+            pass
 main()
