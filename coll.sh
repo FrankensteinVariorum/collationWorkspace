@@ -1,45 +1,44 @@
 #!/bin/bash
 
-#### create or remove output folders
-#for i in $(seq -w 01 33)
-#do
-#  outputDir="collationChunks/C$i/output"
-##  mkdir $outputDir; touch "$outputDir/Readme.md"
-##  rm -r $outputDir
-#done
-
 isInt="^[0-9]+$"
 
 checkInput(){
   chunk=$1
   while ! [[ "$chunk" =~ $isInt ]] || [[ $chunk -lt 1 ]] || [[ $chunk -gt 33 ]]
   do
+    if ! [[ "$chunk" =~ $isInt ]]; then
+      echo "Invalid input! Your input not an integer. "
+    elif [ $chunk -lt 1 ]; then
+      echo "Invalid input! Your input is less than 1. "
+    elif [ $chunk -gt 33 ]; then
+      echo "Invalid input! Your input is larger than 33. "
+    fi
     read -p "Please input an integer between 1 and 33: " chunk
   done
   return $chunk
 }
 procChunk(){
   chunk=$1
-  outputDir="collationChunks/$chunk/output"
   if [ ${#chunk} -lt 2 ]; then
     chunk="0$chunk"
   fi
   chunk="C$chunk"
   outputDir="collationChunks/$chunk/output"
   # Run collate.py
-  echo "+-------Simply process the chunk $chunk-------+"
+  echo "+-------Simply process the collation chunk $chunk-------+"
   cd python-collation
   python3 collate.py $chunk
+  cd ..
   # Check if simple output file is generated
-  if [ ! -f "../$outputDir/Collation_$chunk-partway.xml" ]; then
+  if [ ! -f "$outputDir/Collation_$chunk-partway.xml" ]; then
     echo "Collation_$chunk-partway.xml NOT exist!"
-  exit 1
+    exit 1
   else
     echo "Collation_$chunk-partway.xml is generated!"
   fi
+  sleep 2
   # Run Saxon to post-process collations
-  cd ..
-  echo "+-------Post-process the collation $chunk-------+"
+  echo "+-------Post-process the collation chunk $chunk-------+"
   java -jar xslt/SaxonHE12-0J/saxon-he-12.0.jar -xsl:xslt/postProcessing.xsl -s:$outputDir/collation_$chunk-partway.xml -o:$outputDir/Collation_$chunk-complete.xml
   # Check if simple output file is generated
   if [ ! -f "$outputDir/Collation_$chunk-complete.xml" ]; then
@@ -50,7 +49,13 @@ procChunk(){
   fi
 }
 
+
 read -p "Only one collation chunk? Enter [y/n]: " opt
+while [[ $opt =~ $isInt ]]
+do
+  echo "Invalid input! Your input is an integer."
+  read -p "Only one collation chunk? Enter [y/n]: " opt
+done
 if [[ $opt == "Y" ]] || [[ $opt == "y" ]]; then
   read -p "Enter the num of the chunk: " chunk
   checkInput $chunk
@@ -58,7 +63,7 @@ if [[ $opt == "Y" ]] || [[ $opt == "y" ]]; then
   # Process chunk
   procChunk $chunk
 else # If multiple chunks, then...
-  echo Enter the range of the collation to output:
+  echo "Enter the range of the collation to output:"
   read -p "From: " start
   checkInput $start
   start=$?
