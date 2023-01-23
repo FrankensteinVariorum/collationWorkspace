@@ -32,7 +32,7 @@ procChunk(){
   # Check if simple output file is generated
   if [ ! -f "$outputDir/Collation_$chunk-partway.xml" ]; then
     echo "Collation_$chunk-partway.xml NOT exist!"
-  # exit 1
+  exit 1
   else
     echo "Collation_$chunk-partway.xml is generated!"
   fi
