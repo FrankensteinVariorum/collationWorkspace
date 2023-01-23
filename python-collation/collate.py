@@ -314,13 +314,13 @@ def main():
 
             collation_input = {"witnesses": tokenLists}
             outputFile = open('../collationChunks/' + chunk + '/output/Collation_' + chunk + '-partway.xml', 'w', encoding='utf-8')
-            outputFile.close()
+                
                 # table = collate(collation_input, output='tei', segmentation=True)
                 # table = collate(collation_input, segmentation=True, layout='vertical')
             table = collate(collation_input, output='xml', segmentation=True)
-
-            # print(table + '<!-- ' + nowStr + ' -->', file=outputFile)
-            print(table + '<!-- ' + nowStr + ' -->')
+            print(table + '<!-- ' + nowStr + ' -->', file=outputFile)
+            # print(table + '<!-- ' + nowStr + ' -->')
+            outputFile.close()
 
         except IOError:
             pass

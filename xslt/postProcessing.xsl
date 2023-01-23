@@ -46,18 +46,18 @@
     **************************************************************************************
     -->
     
-    <xsl:variable name="collection" as="document-node()+" select="collection('../simpleOutputEpsilon/?select=*.xml')"/>
+<!--    <xsl:variable name="collection" as="document-node()+" select="collection('../simpleOutput/?select=*.xml')"/>
     
     <xsl:template match="/">
        <xsl:for-each select="$collection">
            <xsl:variable name="filename" as="xs:string" select="current() ! base-uri() ! tokenize(., '/')[last()]"/>
            <xsl:result-document
-               href="../postprocOutputEpsilon/{$filename}"
+               href="../postprocOutput/{$filename}"
                method="xml" indent="yes">
            <xsl:apply-templates/>
            </xsl:result-document>
        </xsl:for-each> 
-    </xsl:template>
+    </xsl:template>-->
 
 
     <xsl:function name="fv:ampFix"  as="xs:string">
@@ -83,18 +83,18 @@
             </xsl:apply-templates>
         </xsl:if>
     </xsl:template>
-    
+
     <!-- ********************************************************************************************
        DELETIONS ALIGNED WITH EMPTY NORMALIZED PASSAGES
-       The next template handles app elements that hold an orphaned rdgGrp with a deleted span that's aligned with rdgGrp(s) that are semantically empty (around markup). 
-       In these cases, the following-sibling::app tends to hold more meaningful content for comparison. (If we did not move these, they would not appear in the collation view 
-       as meaningfully contrasted with passages in the other witnesses.) 
-       
-       2023-01-01 ebb:With the next template we migrate solitary "orphaned deletions" to the next app. 
+       The next template handles app elements that hold an orphaned rdgGrp with a deleted span that's aligned with rdgGrp(s) that are semantically empty (around markup).
+       In these cases, the following-sibling::app tends to hold more meaningful content for comparison. (If we did not move these, they would not appear in the collation view
+       as meaningfully contrasted with passages in the other witnesses.)
+
+       2023-01-01 ebb:With the next template we migrate solitary "orphaned deletions" to the next app.
        We then rearrange the app wtih the orphaned deletion (preserve it but remove the rdgGrp with the solitary deletion).
        We also destroy the original version of its first following-sibling app.
-       
-     ********************************************************************************************* -->    
+
+     ********************************************************************************************* -->
     <xsl:template match="app[rdgGrp[@n ! contains(., 'delstart')]/rdg => count() = 1][count(descendant::rdg) gt 1]" name="mergeOutofPlace">
         <xsl:variable name="currentApp" as="element()" select="current()"/>
        <!-- <xsl:variable name="testMatches" as="xs:string+" select="rdgGrp/@n[contains(., 'delstart')] ! substring-after(., '&lt;delstart/&gt;') ! substring-before(., '&lt;delend/&gt;')"/>-->
@@ -105,11 +105,11 @@
                 <!--<xsl:value-of select="$delPassageAtt ! contains(. ! replace(., '\W', ''), current() ! replace(., '\W', ''))"/>-->
                 <xsl:value-of select="matches(., '^\W+$')"/>
                 <!-- This means, the other rdgGrps must contain nothing by empty (non-alphanumeric characters) in the normalized tokens.
-                That way, there is nothing comparable to the words in the deleted passage. The witness with the deleted passage has just been aligned to witnesses with empty tokens. 
+                That way, there is nothing comparable to the words in the deleted passage. The witness with the deleted passage has just been aligned to witnesses with empty tokens.
                 -->
             </xsl:for-each>
         </xsl:variable>
-        <xsl:choose> 
+        <xsl:choose>
              <xsl:when test="not($currentApp/rdgGrp[@n[contains(., 'delstart')] and rdg => count() = 1]/rdg/@wit = following-sibling::app[1]//rdg/@wit)
                  and $testOtherRdgGrpsEmpty => distinct-values() = true()">
                  <xsl:variable name="nextApp" as="element()" select="($currentApp/following-sibling::app)[1]"/>
@@ -122,25 +122,25 @@
                      <xsl:with-param as="attribute()" name="norm" select="$currentApp/rdgGrp[rdg => count() = 1]/@n[contains(., 'delstart')]" tunnel="yes"/>
                   </xsl:apply-templates>
                 <!-- <xsl:apply-templates select="$nextApp" mode="removeAppAfterProblemDel"/>-->
-            </xsl:when>   
+            </xsl:when>
          <xsl:otherwise>
              <xsl:apply-templates mode="copyOriginal" select="$currentApp"/>
          </xsl:otherwise>
        </xsl:choose>
-  
+
     </xsl:template>
-    
+
     <xsl:template match="app" mode="copyOriginal">
-       <app> 
+       <app>
            <xsl:apply-templates/>
        </app>
     </xsl:template>
-    
+
     <!-- ********************************************************************************************
        DELETIONS (OR LONGTOKENS) ALIGNED WITH ONLY THEMSELVES
-      2023-01-01 ebb: Reviewing the collation of C13, I discover this phenomenon. It may be rare, but it seems like 
+      2023-01-01 ebb: Reviewing the collation of C13, I discover this phenomenon. It may be rare, but it seems like
       a predictable pattern:
-      
+
         <app>
       <rdgGrp n="['']">
          <rdg wit="fThomas">&lt;pb xml:id="F1818_v1_163" n="151"/&gt; </rdg>
@@ -162,33 +162,33 @@
          <rdg wit="fMS">– &lt;del rend="strikethrough" xml:id="c56-0084__main__d5e18152"&gt;the com&lt;/del&gt; &lt;lb n="c56-0085__main__1"/&gt;mon people would believe it to &lt;lb n="c56-0085__main__2"/&gt;be a real devil and who could attempt &lt;lb n="c56-0085__left_margin__1"/&gt;Besides </rdg>
       </rdgGrp>
    </app>
-      
-      
-      This is the first time I've seen a case where we should move a special passage to an immediately preceding app. 
+
+
+      This is the first time I've seen a case where we should move a special passage to an immediately preceding app.
       It may sometimes happen with longToken passages or delstart....delend passages. Because Thomas AND fMS are involved, this wouldn't
-      be picked up as a loner rdgGrp and runs the risk of being invisible in the Variorum viewer unless moved. 
-      
+      be picked up as a loner rdgGrp and runs the risk of being invisible in the Variorum viewer unless moved.
+
       WHAT TO DO:
-      1. Spot the pattern: 
-         * app contains less than 4 rdg elements, and may have one more more rdgGrp 
+      1. Spot the pattern:
+         * app contains less than 4 rdg elements, and may have one more more rdgGrp
          * (If it only had one rdgGrp and one rdg it would be picked up by our other postprocessing templates)
          * rdgGrp/@n contains "delstart" or rdg contains longToken
-         
-     2. Look at first preceding-sibling app for 
-         * matching content in their rdgGrp/@n 
+
+     2. Look at first preceding-sibling app for
+         * matching content in their rdgGrp/@n
          * the outright absence of the rdg/@wit present in this app
-         * the presence of the witnesses but with empty (non-meaningful) content in rdgGrp/@n 
+         * the presence of the witnesses but with empty (non-meaningful) content in rdgGrp/@n
          * NOTE: we run into ambiguous rule matches with the restructuring templates that move the other direction.
          So maybe best to ONLY handle preceding-sibling restructuring here?
-         
+
      3. Where we find this, we move to process and restructure those apps (and delete their original forms)
 
-     ********************************************************************************************* -->    
+     ********************************************************************************************* -->
     <!-- BUGGY TEMPLATE -->
     <xsl:template match="app[count(descendant::rdg) gt 1 and count(descendant::rdg) lt 4][rdgGrp/@n[contains(., 'delstart')] (:  :)
-        or descendant::rdg[contains(., 'longToken')]][preceding-sibling::app[1]/rdgGrp[@n ! matches(., '^\W+$')]/rdg/@wit = descendant::rdg/@wit 
+        or descendant::rdg[contains(., 'longToken')]][preceding-sibling::app[1]/rdgGrp[@n ! matches(., '^\W+$')]/rdg/@wit = descendant::rdg/@wit
         (:  :)
-        or not(preceding-sibling::app[1]//rdg/@wit = descendant::rdg/@wit)][not(preceding-sibling::app[1]/rdgGrp[contains(@n, 'delstart') 
+        or not(preceding-sibling::app[1]//rdg/@wit = descendant::rdg/@wit)][not(preceding-sibling::app[1]/rdgGrp[contains(@n, 'delstart')
         or rdg[contains(., 'longToken')]])]
         (:  :)
         ">
@@ -218,11 +218,11 @@
             <xsl:otherwise>
                 <xsl:apply-templates mode="copyOriginal" select="$currentApp"/>
             </xsl:otherwise>
-            
+
         </xsl:choose>
     </xsl:template>
-    
-    
+
+
 
     <!-- **************************************************************************
     DESTRUCTION MODES: Destroy the original app or rdgGrp elements that are being modified by
@@ -232,12 +232,12 @@
     <xsl:template match="app[preceding-sibling::app[1][count(descendant::rdg) = 1]]" name="removeApp"/>
     <!-- The template above prevents the old unrestructured app from being output with the new one.
     -->
-    
+
     <xsl:template match="app" mode="reduceCurrentApp">
       <xsl:param name="witToRemove" tunnel="yes"/>
         <app>
            <xsl:apply-templates mode="destroy" select="rdgGrp[rdg/@wit = $witToRemove]"/>
-                
+
            <xsl:apply-templates select="rdgGrp[not(rdg/@wit = $witToRemove)]"/>
         </app>
     </xsl:template>
@@ -246,10 +246,10 @@
     -->
 
     <xsl:template match="rdgGrp" mode="destroy"/>
-    
-    <!--  The next template locates the app elements that met the conditions for accepting deleted passages from a preceding app, 
+
+    <!--  The next template locates the app elements that met the conditions for accepting deleted passages from a preceding app,
         and it eliminates the original version. We have set LOTS of predicate conditions set below to make sure we don't eliminate the wrong apps -->
-    <xsl:template match="app[preceding-sibling::app[1][rdgGrp[@n ! matches(., '^\W+$')] and rdgGrp[@n ! contains(., 'delstart') and count(rdg) = 1]]][not(.//rdg/@wit = preceding-sibling::app[1]/rdgGrp[@n ! contains(., 'delstart') and count(rdg) = 1]/rdg/@wit)][count(descendant::rdg) gt 1] " 
+    <xsl:template match="app[preceding-sibling::app[1][rdgGrp[@n ! matches(., '^\W+$')] and rdgGrp[@n ! contains(., 'delstart') and count(rdg) = 1]]][not(.//rdg/@wit = preceding-sibling::app[1]/rdgGrp[@n ! contains(., 'delstart') and count(rdg) = 1]/rdg/@wit)][count(descendant::rdg) gt 1] "
         name="removeAppAfterProblemDel"/>
     
     
