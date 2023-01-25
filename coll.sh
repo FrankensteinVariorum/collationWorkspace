@@ -30,7 +30,7 @@ procChunk(){
   # Run collate.py
   echo -e "${Yellow}+-------This starts the Python processing of the collation chunk $chunk-------+${resetColor}"
   cd python-collation
-  python3 collate.py $chunk
+  python collate.py $chunk
   cd ..
   # Check if simple output file is generated
   if [ ! -f "$outputDir/Collation_$chunk-partway.xml" ]; then
