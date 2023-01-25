@@ -51,6 +51,19 @@ You will be assigned a collation unit (or units) to help with collating. These u
 
 Here is an overview of the process you'll be following. 
 
+* BEFORE YOU START WORK on collating a chunk: check out a branch using an identifier for you (like your initials) and the Collation Unit you are working on. Example: 
+
+```
+git checkout -b yxj-C25
+```
+
+You will need to push your branch to the remote repo. You can do that with:
+
+```
+git push -u origin yxj-C25
+```
+Or simply use `git push` and follow the instructions in your shell to push the branch. 
+
 * We run our programming scripts to compare the five versions of the novel one "chunk" at a time. 
      * Our Python script *tokenizes* the five input edition files, basically on words or words with punctuation marks attached. It provides normalizing information to show that strings like `&` mean the same thing as the word `and` and to help us identify meaningful XML markup that should be compared across the texts.
      * The output files come out in two stages: 
@@ -81,6 +94,8 @@ The complete Collation output file is a single XML file showing segments in `<ap
 * Inspect the output again to see the effects of your insertion of a `<longToken>`. 
 
 You may be confused at first by this process. Keep trying, adjust the position of the `<longToken>` and try your best to improve the alignment by strategically positioning these. 
+
+When you would like the rest of the team to review your work, please open a Pull Request on this repo, and assign to @ebeshero for review. We will review and discuss issues with your alignments during weekly project meetings. 
      
 
 
