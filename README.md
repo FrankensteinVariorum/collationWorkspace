@@ -44,7 +44,9 @@ Download the latest stable version here: https://www.python.org/downloads/macos/
 ### Linux Users? 
 Let me know if you use Linux and we'll find some guidance if you need it!
 
-## How to proceed
+*****
+
+## How to collate your "chunk"
 
 ### Getting to know your "chunk"
 You will be assigned a collation unit (or units) to help with collating. These units are commonly known as "chunks" and they are numbered from 1 to 33. Each "chunk" represents a unit about the size of a chapter in the novel. Usually "chunks" are chapters, but sometimes they are parts of chapters in the novel. Most importantly, each "chunk" is a passage in which *the very beginning* and *the very end* are close to the same across all five versions of the novel. So we know that each "chunk" starts and ends in very much the same way. 
