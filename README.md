@@ -1,5 +1,10 @@
 # Welcome to the collationWorkspace for the Frankenstein Variorum Project!
 
+## Quick Links
+
+* **[Installation instructions](#installations-needed)**
+* **[Collation instructions](#how-to-collate-your-chunk)**
+
 We're glad you're here to help the project and see how collation works! You're helping us with collating five versions of the novel *Frankenstein: or The Modern Prometheus* by Mary Wollstonecraft Godwin Shelley. Computationally-assisted collation involves running programs that help mark moments when different versions of a text run the same together and when they diverge from each other. Our collation process produces data about these moments and outputs them in XML that we use to build our Variorum edition of the novel, designed to show "hotspots" of change as you read each version. We are collating five versions of this novel: 
 
 1. Manuscript notebooks written in 1816
@@ -44,12 +49,61 @@ Download the latest stable version here: https://www.python.org/downloads/macos/
 ### Linux Users? 
 Let me know if you use Linux and we'll find some guidance if you need it!
 
-## How to proceed
+*****
+
+## How to collate your "chunk"
 
 ### Getting to know your "chunk"
-You will be assigned a collation unit (or units) to help with collating. These units are commonly known as "chunks" and they are numbered from 1 to 33. Each "chunk" represents a unit about the size of a chapter in the novel. Usually "chunks" are chapters, but sometimes they are parts of chapters in the novel. Each "chunk" is a unit in which all five versions of the novel *Frankenstein* line up with each other, so we know they start and end in very much the same way. 
+You will be assigned a collation unit (or units) to help with collating. These units are commonly known as "chunks" and they are numbered from 1 to 33. Each "chunk" represents a unit about the size of a chapter in the novel. Usually "chunks" are chapters, but sometimes they are parts of chapters in the novel. Most importantly, each "chunk" is a passage in which *the very beginning* and *the very end* are close to the same across all five versions of the novel. So we know that each "chunk" starts and ends in very much the same way. 
 
-Here is the process you'll be following. 
+Here is an overview of the process you'll be following. 
+
+* BEFORE YOU START WORK on collating a chunk: check out a branch using an identifier for you (like your initials) and the Collation Unit you are working on. Example: 
+
+```
+git checkout -b yxj-C25
+```
+
+You will need to push your branch to the remote repo. You can do that with:
+
+```
+git push -u origin yxj-C25
+```
+Or simply use `git push` and follow the instructions in your shell to push the branch. 
+
+* We run our programming scripts to compare the five versions of the novel one "chunk" at a time. 
+     * Our Python script *tokenizes* the five input edition files, basically on words or words with punctuation marks attached. It provides normalizing information to show that strings like `&` mean the same thing as the word `and` and to help us identify meaningful XML markup that should be compared across the texts.
+     * The output files come out in two stages: 
+
+* We need to review the output carefully. The output will be stored in a folder inside your assigned collation unit, and it will consist of two files named like this example for Collation unit 1:
+     1. Collation_C01-partway.xml  (This is the output of our python collation script.) 
+     2. Collation_C01-complete.xml (This is an improvement on the python output made with XSLT.)
+When you run the coll.sh file, it will output both of these in sequence. 
+**Expect to wait a few minutes, or several minutes for the script to complete.** 
+
+The "complete" version is completely processed with some automatic adjustments made with XSLT. We want to keep the partway version in case we need to inspect it, but usually we will not need to refer to it. 
+The complete Collation output file is a single XML file showing segments in `<app>` elements where passages compare and diverge. 
+
+* We study the output carefully and notice **misalignments**. These are problems where some words or phrases do not belong in the same comparison unit.
+     * We now try to identify what causes the misalignment. (You may need some help with this at first!)
+     * **Important! We do NOT edit the output file!** This is brittle and can introduce terrible errors! 
+     * Instead we will add some simple markup to the input files to control their tokenization.
+     
+* **Now we move to correct for misalignments.** We identify passages in the source edition files to wrap in a special `<longToken>` element.
+     * Ideally, we do not have to add this `<longToken>` to every file! 
+     * Try to identify a location in one edition, where inserting the longToken alters the alignment. 
+     * Most often we insert the `<longToken>` in the 1831 edition or the msColl edition.
+     * You will learn your way with adjusting alignments by trial and error.
+     * **When you begin** your collation, you should open the **msColl** edition and look for chapter headings to wrap in a `<longToken>`. 
+     
+* Re-run the collation script and this will generate new output files. (If you want to keep the old files around, add something to their filenames so they are not overwitten.) 
+
+* Inspect the output again to see the effects of your insertion of a `<longToken>`. 
+
+You may be confused at first by this process. Keep trying, adjust the position of the `<longToken>` and try your best to improve the alignment by strategically positioning these. 
+
+When you would like the rest of the team to review your work, please open a Pull Request on this repo, and assign to @ebeshero for review. We will review and discuss issues with your alignments during weekly project meetings. 
+     
 
 
 
