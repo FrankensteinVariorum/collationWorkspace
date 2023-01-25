@@ -2,8 +2,8 @@
 
 ## Quick Links
 
-* ###[Installation instructions](#installations-needed)
-* ###[Collation instructions](#how-to-collate-your-chunk)
+* [Installation instructions](#installations-needed)
+* [Collation instructions](#how-to-collate-your-chunk)
 
 We're glad you're here to help the project and see how collation works! You're helping us with collating five versions of the novel *Frankenstein: or The Modern Prometheus* by Mary Wollstonecraft Godwin Shelley. Computationally-assisted collation involves running programs that help mark moments when different versions of a text run the same together and when they diverge from each other. Our collation process produces data about these moments and outputs them in XML that we use to build our Variorum edition of the novel, designed to show "hotspots" of change as you read each version. We are collating five versions of this novel: 
 
