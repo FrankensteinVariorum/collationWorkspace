@@ -15,8 +15,6 @@ We're glad you're here to help the project and see how collation works! You're h
 
 ## Installations needed
 
-
-
 Before you can begin collating, we need to verify that you have the following installed on your computer:
 
 * A version of Python 3. 
@@ -56,9 +54,8 @@ Let me know if you use Linux and we'll find some guidance if you need it!
 ### Getting to know your "chunk"
 You will be assigned a collation unit (or units) to help with collating. These units are commonly known as "chunks" and they are numbered from 1 to 33. Each "chunk" represents a unit about the size of a chapter in the novel. Usually "chunks" are chapters, but sometimes they are parts of chapters in the novel. Most importantly, each "chunk" is a passage in which *the very beginning* and *the very end* are close to the same across all five versions of the novel. So we know that each "chunk" starts and ends in very much the same way. 
 
-Here is an overview of the process you'll be following. 
-
-* BEFORE YOU START WORK on collating a chunk: check out a branch using an identifier for you (like your initials) and the Collation Unit you are working on. Example: 
+Here is the process:
+* BEFORE YOU START WORK on collating a chunk: **check out a branch** using an identifier for you (like your initials) and the Collation Unit you are working on. Example: 
 
 ```
 git checkout -b yxj-C25
@@ -70,13 +67,22 @@ You will need to push your branch to the remote repo. You can do that with:
 git push -u origin yxj-C25
 ```
 Or simply use `git push` and follow the instructions in your shell to push the branch. 
+ 
 
 * We run our programming scripts to compare the five versions of the novel one "chunk" at a time. 
-     * Our Python script *tokenizes* the five input edition files, basically on words or words with punctuation marks attached. It provides normalizing information to show that strings like `&` mean the same thing as the word `and` and to help us identify meaningful XML markup that should be compared across the texts.
-     * The output files come out in two stages: 
+     * In your Bash shell (Windows) or Terminal (Mac), at the collationWorkspace outermost directory, run this command to activate the shell script that activates the collation processing:
 
-* We need to review the output carefully. The output will be stored in a folder inside your assigned collation unit, and it will consist of two files named like this example for Collation unit 1:
-     1. Collation_C01-partway.xml  (This is the output of our python collation script.) 
+     ```
+     ./coll.sh
+     ``` 
+     This shell script will ask you some input questions: Which collation unit(s) are you processing? When you answer them it should run, show you a view of the collation processing in action, and output some files. It will be running a Python script first, followed by an XSLT script. 
+
+     * Our Python script *tokenizes* the five input edition files, basically on words or words with punctuation marks attached. It provides normalizing information to show that strings like `&` mean the same thing as the word `and` and to help us identify meaningful XML markup that should be compared across the texts.
+     * Our XSLT script then begins running to "tidy up" some common problems in the Python output. 
+     * The output files come out in two stages: a "partway" file (the Python output) and a "complete" file (the XSLT output) as described next.
+
+* We need to review the output carefully. The output will be stored in a folder named `output/` inside your assigned collation unit, and it will consist of two files named like this example for Collation unit 1:
+     1. Collation_C01-partway.xml  (This is the output of our Python collation script.) 
      2. Collation_C01-complete.xml (This is an improvement on the python output made with XSLT.)
 When you run the coll.sh file, it will output both of these in sequence. 
 **Expect to wait a few minutes, or several minutes for the script to complete.** 
