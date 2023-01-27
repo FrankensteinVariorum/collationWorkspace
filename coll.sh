@@ -30,6 +30,11 @@ procChunk(){
   # Run collate.py
   echo -e "${Yellow}+-------This starts the Python processing of the collation chunk $chunk-------+${resetColor}"
   cd python-collation
+  # ebb: Diagnostic: let's see what verson of python and python3 the shell script is aware of:
+  echo "The Python3 version is " 
+  python3 --version
+  echo "The Python version is " 
+  python --version
   python collate.py $chunk
   cd ..
   # Check if simple output file is generated
