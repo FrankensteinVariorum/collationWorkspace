@@ -31,7 +31,8 @@ from pickle import HIGHEST_PROTOCOL as _HIGHEST_PROTOCOL
 from pickle import dumps  as _dumps
 from pickle import loads  as _loads
 from gzip import GzipFile
-from inspect import getargspec
+# from inspect import getargspec
+from inspect import getfullargspec
 from optparse import OptionParser
 from os.path import getsize
 from sys import argv   as _argv
