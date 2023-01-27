@@ -2,7 +2,8 @@
 
 ## Quick Links
 
-* **[Installation instructions](#installations-needed)**
+* **[Python installation instructions](#installations-needed)**
+* **[Collatex installation instructions]()
 * **[Collation instructions](#how-to-collate-your-chunk)**
 
 We're glad you're here to help the project and see how collation works! You're helping us with collating five versions of the novel *Frankenstein: or The Modern Prometheus* by Mary Wollstonecraft Godwin Shelley. Computationally-assisted collation involves running programs that help mark moments when different versions of a text run the same together and when they diverge from each other. Our collation process produces data about these moments and outputs them in XML that we use to build our Variorum edition of the novel, designed to show "hotspots" of change as you read each version. We are collating five versions of this novel: 
@@ -47,6 +48,31 @@ Download the latest stable version here: https://www.python.org/downloads/macos/
 ### Linux Users? 
 Let me know if you use Linux and we'll find some guidance if you need it!
 
+*****
+
+## CollateX installation instructions
+
+To install collateX and its dependencies, we'll use the **pip** Python package manager.
+
+* First find out if you have pip on your computer. In your Bash shell or terminal, enter:
+`pip -V`
+     * If you see pip version information, you're ready to install stuff--go on to the next step. 
+     * If you see an error or nothing, we'll need to install Pip. Here are instructions: 
+          * **Windows**: https://phoenixnap.com/kb/install-pip-windows
+          * **Mac**: https://phoenixnap.com/kb/install-pip-mac
+          * **Linux**: https://www.educative.io/answers/installing-pip3-in-ubuntu
+          
+* With pip ready, navigate in your shell to our GitHub repo and step into the python-collation folder.
+You would be going here on your computer `cd your/filepath/down/to/collationWorkspace/python-collation`
+(We are not really sure this is necessary, but we have collateX here on file, so in case it's helpful let's go here for this part.)
+
+Enter: `pip install collatex`
+
+* Next we'll install Levenshtein, which collatex uses to measure differences between strings as it is collating documents. 
+**Be careful with the spelling of this**
+`pip install python-levenshtein`
+
+That *should* be everything we need to begin, but be alert to errors in your shell as we proceed, alert us, and we will update these instructions as we go.
 *****
 
 ## How to collate your "chunk"
