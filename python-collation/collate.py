@@ -295,7 +295,7 @@ def tokenizeFiles(f1818, f1823, fThomas, f1831, fMS):
 
 def main():
     chunk = sys.argv[1]
-    # chunk = 'C01'
+    # chunk = 'C05'
     for f1818 in glob.glob('../collationChunks/' + chunk + '/1818_fullFlat_*'):
         try:
             collChunk = f1818.split("fullFlat_", 1)[1]
