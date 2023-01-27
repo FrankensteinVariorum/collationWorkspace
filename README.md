@@ -52,7 +52,8 @@ Let me know if you use Linux and we'll find some guidance if you need it!
 
 ## CollateX installation instructions
 
-To install collateX and its dependencies, we'll use the **pip** Python package manager.
+For this section, we are distilling this helpful but slightly dated guide: https://github.com/DiXiT-eu/collatex-tutorial/blob/master/unit1/Installation.ipynb 
+ To install collateX and its dependencies, we'll use the **pip** Python package manager.
 
 * First find out if you have pip on your computer. In your Bash shell or terminal, enter:
 `pip -V`
