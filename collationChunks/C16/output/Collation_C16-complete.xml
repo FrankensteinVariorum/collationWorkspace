@@ -3,30 +3,21 @@
 		<rdgGrp n="['']">
 			<rdg wit="f1818"/>
 			<rdg wit="fThomas"/>
-			<rdg wit="fMS">&lt;lb n="c56-0119__main__1"/&gt;</rdg>
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['']">
-			<rdg wit="f1818">&lt;milestone unit="chapter" type="start" n="9"/&gt;</rdg>
-			<rdg wit="f1823">&lt;pb xml:id="F1823_v1_216" n="197"/&gt;</rdg>
-			<rdg wit="fThomas">&lt;milestone unit="chapter" type="start" n="9"/&gt;</rdg>
-			<rdg wit="f1831"/>
-			<rdg wit="fMS">&lt;milestone spanTo="#c56-0119.01" unit="tei:head"/&gt;</rdg>
-		</rdgGrp>
-	</app>
-	<app>
-		<rdgGrp n="['']">
-			<rdg wit="f1818">&lt;pb xml:id="F1818_v2_020" n="016"/&gt;</rdg>
-			<rdg wit="f1823">&lt;milestone unit="chapter" type="start" n="9"/&gt;</rdg>
-			<rdg wit="fThomas">&lt;pb xml:id="F1818_v2_020" n="016"/&gt;</rdg>
+		<rdgGrp n="['', '']">
+			<rdg wit="f1818">&lt;milestone unit="chapter" type="start" n="9"/&gt; &lt;pb xml:id="F1818_v2_020" n="016"/&gt;</rdg>
+			<rdg wit="f1823">&lt;pb xml:id="F1823_v1_216" n="197"/&gt; &lt;milestone unit="chapter" type="start" n="9"/&gt;</rdg>
+			<rdg wit="fThomas">&lt;milestone unit="chapter" type="start" n="9"/&gt; &lt;pb xml:id="F1818_v2_020" n="016"/&gt;</rdg>
 			<rdg wit="f1831">&lt;milestone unit="chapter" type="start" n="10"/&gt;</rdg>
-		</rdgGrp>
-		<rdgGrp n="['chap.', '14']">
-			<rdg wit="fMS">Chap. 14</rdg>
+			<rdg wit="fMS">&lt;lb n="c56-0119__main__1"/&gt; &lt;milestone spanTo="#c56-0119.01" unit="tei:head"/&gt;</rdg>
 		</rdgGrp>
 	</app>
 	<app>
+		<rdgGrp n="['chap. 14']">
+			<rdg wit="fMS">&lt;longToken&gt;Chap. 14&lt;/longToken&gt;</rdg>
+		</rdgGrp>
 		<rdgGrp n="['chapter ii.']">
 			<rdg wit="f1818">&lt;head&gt;CHAPTER II.&lt;/head&gt;</rdg>
 			<rdg wit="fThomas">&lt;head&gt;CHAPTER II.&lt;/head&gt;</rdg>
@@ -8111,4 +8102,4 @@
 	</app>
 	<app><rdgGrp n="['', '']"><rdg wit="f1818">&lt;milestone unit="chapter" type="end" n="9"/&gt;  </rdg><rdg wit="fThomas">&lt;milestone unit="chapter" type="end" n="9"/&gt;  </rdg><rdg wit="f1831">&lt;milestone unit="chapter" type="end" n="10"/&gt;  </rdg><rdg wit="f1823">&lt;pb xml:id="F1823_v1_232" n="213"/&gt;&lt;milestone unit="chapter" type="end" n="9"/&gt;</rdg></rdgGrp></app>
 	
-</cx:apparatus><!-- 2023-01-27 21:40:24.985250 -->
+</cx:apparatus><!-- 2023-01-27 22:00:28.127017 -->
