@@ -6,3 +6,12 @@
 
 * Simultaneous divergence found in Thomas in line 547. Monitor carefully, changes may not be necessary to Thomas.
 
+## 1-30-2023
+
+* After pretty printing, 1831 starts to diverge around line 473 and continues until line 665. 
+
+* Lines 686 to 699 diverge for 1831, debating if it is too brief to make a longToken for.
+
+* Possible divergence for 1831 spotted at line 772. Next time 1831 appears, some common words are shared, but there are a lot of different phrases and the divergence stops at line 1069.
+
+* After previous note, no divergence until at least line 3000
