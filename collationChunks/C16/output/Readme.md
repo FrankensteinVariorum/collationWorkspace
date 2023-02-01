@@ -23,3 +23,7 @@
 * Have the texts open for side-by-side comparison when planting long tokens.
 
 * Carefully evaluate the manuscript to find long tokens.
+
+* Take note of minor divergences/stacking issues in the manuscript. May be significant.
+
+* Ending point: "Contempt - Devil"
