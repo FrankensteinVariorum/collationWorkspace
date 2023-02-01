@@ -15,3 +15,11 @@
 * Possible divergence for 1831 spotted at line 772. Next time 1831 appears, some common words are shared, but there are a lot of different phrases and the divergence stops at line 1069.
 
 * After previous note, no divergence until at least line 3000
+
+## 2-1-2023
+
+* **Mental Note:** Search for a phrase rather than a line number when writing up divergences. Pretty print and shell script will cause the numbers to change.
+
+* Have the texts open for side-by-side comparison when planting long tokens.
+
+* Carefully evaluate the manuscript to find long tokens.
