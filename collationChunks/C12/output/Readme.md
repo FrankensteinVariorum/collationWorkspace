@@ -4,7 +4,8 @@ Notice: Press the `Format and Indent` button
 
 ## Misalignments
 
-### From 2436 to 2464
+
+- [x] Done by @ebeshero  From 2436 to 2464
 
 Two words `for` and `the ` are joint in the first `<app>`. 
 
@@ -42,7 +43,8 @@ We might need to add a space before `<lb>` to separate words before and after `<
 	</app>
 ```
 
-### From 2567 to 2588
+- [x] REVISED by @ebeshero : improved alignment for these next two: 
+From 2567 to 2588
 
 `persian` and `arabic` for `FMS` in the first `<app>` should go down.
 
@@ -71,7 +73,7 @@ We might need to add a space before `<lb>` to separate words before and after `<
 	</app>
 ```
 
-### From 2598 to 2618
+* From 2598 to 2618
 
 `engaged` should go down.
 
