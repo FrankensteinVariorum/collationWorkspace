@@ -2439,14 +2439,12 @@
 			<rdg wit="f1823">for</rdg>
 			<rdg wit="fThomas">for</rdg>
 			<rdg wit="f1831">for</rdg>
-			<rdg wit="fMS">for</rdg>
+		</rdgGrp>
+		<rdgGrp n="['forthe', 'minutiæ']">
+			<rdg wit="fMS">for&lt;lb n="c56-0069__main__1"/&gt;the minutiæ</rdg>
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['', 'the minutiæ']">
-			<rdg wit="fMS">&lt;lb n="c56-0069__main__1"/&gt; &lt;longToken&gt;the
-				minutiæ&lt;/longToken&gt;</rdg>
-		</rdgGrp>
 		<rdgGrp n="['natural', 'science;']">
 			<rdg wit="f1831">natural science;</rdg>
 		</rdgGrp>
@@ -2535,11 +2533,10 @@
 	</app>
 	<app>
 		<rdgGrp
-			n="['for the plan of life he had marked out for himself. resolved to', 'pursue no inglorious career, he turned his eyes toward the east, as affording scope for', 'his spirit of enterprise.', 'the persian, arabic, and sanscrit languages', 'engaged']">
+			n="['for the plan of life he had marked out for himself. resolved to', 'pursue no inglorious career, he turned his eyes toward the east, as affording scope for', 'his spirit of enterprise.', 'the']">
 			<rdg wit="f1831">&lt;longToken&gt;for the plan of life he had marked out for himself.
 				Resolved to pursue no inglorious career, he turned his eyes toward the East, as
-				affording scope for his spirit of enterprise.&lt;/longToken&gt; &lt;longToken&gt;The
-				Persian, Arabic, and Sanscrit languages&lt;/longToken&gt; engaged</rdg>
+				affording scope for his spirit of enterprise.&lt;/longToken&gt; The</rdg>
 		</rdgGrp>
 		<rdgGrp n="['for']">
 			<rdg wit="f1818">for</rdg>
@@ -2549,13 +2546,13 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['self-instruction', 'on', 'his']">
-			<rdg wit="f1818">self-instruction on his</rdg>
-			<rdg wit="f1823">self-instruction on his</rdg>
-			<rdg wit="fThomas">self-instruction on his</rdg>
+		<rdgGrp n="['self-instruction', 'on', 'his', 'return']">
+			<rdg wit="f1818">self-instruction on his return</rdg>
+			<rdg wit="f1823">self-instruction on his return</rdg>
+			<rdg wit="fThomas">self-instruction on his return</rdg>
 		</rdgGrp>
 		<rdgGrp
-			n="['&lt;delstart/&gt;', '', '', '', 'him ', '&lt;delend/&gt;', 'self-instruction', 'on', 'his']">
+			n="['&lt;delstart/&gt;', '', '', '', 'him ', '&lt;delend/&gt;', 'self-instruction', 'on', 'his', 'return']">
 			<rdg wit="fMS">&lt;del rend="strikethrough" xml:id="c56-0069__main__d5e14224"&gt;
 				&lt;sga-add place="sublinear" sID="c56-0069__main__d5e14226"/&gt; &lt;metamark
 				function="insert"&gt;^&lt;/metamark&gt; &lt;sga-add
@@ -2563,22 +2560,30 @@
 				sID="c56-0069__main__d5e14232"/&gt;him &lt;sga-add
 				eID="c56-0069__main__d5e14232"/&gt; &lt;/del&gt; &lt;w
 				ana="start"/&gt;self-instruc&lt;lb n="c56-0069__main__4"/&gt;tion&lt;w
-				ana="end"/&gt; on his</rdg>
+				ana="end"/&gt; on his return</rdg>
 		</rdgGrp>
 	</app>
 
 	<app>
+		<rdgGrp n="['to', 'geneva.']">
+			<rdg wit="f1818">to Geneva.</rdg>
+			<rdg wit="f1823">to Geneva.</rdg>
+			<rdg wit="fThomas">to Geneva.</rdg>
+		</rdgGrp>
 		<rdgGrp
-			n="['return –', '&lt;delstart/&gt;greek&lt;delend/&gt;', 'persian', '', '&lt;delstart/&gt;and&lt;delend/&gt;', 'arabic']">
-			<rdg wit="fMS">&lt;longToken&gt;return –&lt;/longToken&gt; &lt;del rend="strikethrough"
+			n="['–', '&lt;delstart/&gt;greek&lt;delend/&gt;', 'persian', '', '&lt;delstart/&gt;and&lt;delend/&gt;', 'arabic']">
+			<rdg wit="fMS">– &lt;del rend="strikethrough"
 				xml:id="c56-0069__main__d5e14244"&gt;Greek&lt;/del&gt; Persian &lt;lb
 				n="c56-0069__main__5"/&gt; &lt;del rend="strikethrough"
 				xml:id="c56-0069__main__d5e14249"&gt;&amp;&lt;/del&gt; Arabic</rdg>
 		</rdgGrp>
-		<rdgGrp n="['return', 'to', 'geneva.', 'persian,', 'arabic,']">
-			<rdg wit="f1818">return to Geneva. Persian, Arabic,</rdg>
-			<rdg wit="f1823">return to Geneva. Persian, Arabic,</rdg>
-			<rdg wit="fThomas">return to Geneva. Persian, Arabic,</rdg>
+	</app>
+	<app>
+		<rdgGrp n="['persian,', 'arabic,']">
+			<rdg wit="f1818">Persian, Arabic,</rdg>
+			<rdg wit="f1823">Persian, Arabic,</rdg>
+			<rdg wit="fThomas">Persian, Arabic,</rdg>
+			<rdg wit="f1831">Persian, Arabic,</rdg>
 		</rdgGrp>
 	</app>
 	<app>
@@ -2586,6 +2591,7 @@
 			<rdg wit="f1818">and</rdg>
 			<rdg wit="f1823">and</rdg>
 			<rdg wit="fThomas">and</rdg>
+			<rdg wit="f1831">and</rdg>
 			<rdg wit="fMS">&amp;</rdg>
 		</rdgGrp>
 	</app>
@@ -2597,6 +2603,9 @@
 			<rdg wit="f1818">Hebrew,</rdg>
 			<rdg wit="f1823">Hebrew,</rdg>
 			<rdg wit="fThomas">Hebrew,</rdg>
+		</rdgGrp>
+		<rdgGrp n="['sanscrit', 'languages', 'engaged']">
+			<rdg wit="f1831">Sanscrit languages engaged</rdg>
 		</rdgGrp>
 	</app>
 	<app>
@@ -5509,4 +5518,4 @@
 		</rdgGrp>
 	</app>
 </cx:apparatus>
-<!-- 2023-02-05 19:30:13.787641 -->
+<!-- 2023-02-01 19:50:52.982883 -->
