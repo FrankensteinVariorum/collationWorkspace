@@ -31,3 +31,7 @@
 ## 2-8-2023
 
 * Manuscript has issues aligning "Dust and Oh." Possibly too short for a longToken.
+
+* Note: reposition longToken for "be calm" in MS
+
+* Finishing Point: "and said- Be calm!"
