@@ -27,3 +27,7 @@
 * Take note of minor divergences/stacking issues in the manuscript. May be significant.
 
 * Ending point: "Contempt - Devil"
+
+## 2-8-2023
+
+* Manuscript has issues aligning "Dust and Oh." Possibly too short for a longToken.
