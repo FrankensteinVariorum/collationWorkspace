@@ -57,3 +57,40 @@
 * Confusing alignment for a section including remembrance and circumstances. 
 
 * Final note: read through section! Aside from today's notes, not too much revision appears to be necessary.
+
+### 2023-02-12 ebb Review Comments
+Reviewing the output, I'm adding several adjustments:
+
+- [x] "My father was pleased, and Elizabeth overjoyed.": msColl is breaking up the alignment due to punctuation changes in a passage revised via Thomas.
+Attempting to improve alignment by setting a longToken here:
+
+```xml
+ <longToken>My <w ana="start"/>fa<lb n="c56-0119__main__17"/>ther<w ana="end"/> was pleased and Elizabeth overjoyed;</longToken>
+``` 
+
+- [x] "summits of the mountains" passage: "the mountains," is pulled out of context in 1831, just before a lengthy longToken passage.
+I'm attempting to set the lengthy longToken passage a little earlier to start around "the mountains, "
+
+     * stretched the same 1831 longToken one word further to include the "and" before I resolved--it's misaligned. 
+- [x] MSColl has deleted: "tranquillizing the" followed by "solemnizing" : Other editions have just "tranquillizing" and 1831 spells it "tranquillising".
+This is coming out splitting in two app elements rather than one, so we can try to align them. 
+I am wrapping a longToken around the MSColl deletion and insertion to see if that will align the editions in one app.
+
+- [x] MSColl: adjusted "terrifical <lb/> ly" to set these on one line and remove the space (it's not different from the other editions here)
+
+- [ ] MSColl: added space before `<zone>` element to split up "leaningupon" **NOT fixed** Now trying adding another newline
+- [x] MSColl: adjusted spacing for "the opposite mountain is a bare perpendicular" passage
+- [x] multiple witnesses messed up (1823 w/ pb element): "dependent mountains"
+- [x] MSColl: adjusted spacing here to unite parts of word: `approached seem<lb n="c56-0123__main__25"/>ed`
+- [x] MSColl: parenthetical passage: "sight tremendous and" : added longToken like this:
+`<longToken>(<del rend="strikethrough" xml:id="c56-0124__main__d5e25745">oh</del> sight tremendous and abhorred)</longToken>`
+- [x] MSColl: need to split alignment: added longToken: `<longToken>this–</longToken> anger`
+- [ ] "rather stay,": 1831 and msColl split off in separate app. Added longToken to 1831: `<longToken>rather, stay,</longToken>` **NOT fixed** Now trying another longToken in msColl
+- [x] MSColl: add space to unfuse `&the`: `&amp; <lb n="c56-0125__main__7"/> the`
+- [x] MSColl: `<longToken>clemency, thy affection</longToken>`
+- [x] MSColl: added space to split up fused token: `with&lt;lb n="c56-0127__main__1"/&gt;love`
+- [ ] Odd 1823 and 1831 alignment adds "I rejoined": `remembrance,” I rejoined, “circumstances,` 
+while other editions have `remembrance circumstances`  and it's splitting across two apps badly. **NOT fixed** Trying longTokens around the other editions form here, all longTokens to include "circumstances"
+Trying a longToken in both 1823 and 1831 here: `<longToken>remembrance,” I rejoined,</longToken>`
+- [x] MSColl: split up fused token around `the&lt;lb n="c56-0129__main__1"/&gt;heavens –`
+- [x] MSColl: split up fused token around `heavy&lt;lb n="c56-0130__main__1"/&gt;heart`
