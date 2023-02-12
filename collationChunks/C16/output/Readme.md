@@ -35,3 +35,25 @@
 * Note: reposition longToken for "be calm" in MS
 
 * Finishing Point: "and said- Be calm!"
+
+## 2-12-23
+
+* Trying to adjust the longToken for "and said - be calm!" so it aligns with teh rest of the text in the manuscript. Next note will describe if it works.
+
+* Update: It didn't work. I'm wondering if I have to put the phrase in longTokens across the all the drafts in order for it to align, but I'll wait for evaluation.
+
+* MS: "Although it be only an accumulation of anguish," "be" is detected in every draft except this one. The word is there, don't know why it wasn't detected.
+
+* MS Confusion: The manuscript has "do not be equitable" while every other version has "be not equitable" MS has different word order, but "not" and "be" are isolated from the other drafts. Can't tell if it's supposed to be this way.
+
+* MS: Clemency from "thy clemency and affection". Clemency is grouped with thy rather than with affection. Full statement may be "They clemency, thy affection," But I'm not certain and a misalignment may be possible here.
+
+* MS: "Begone replied I-" properly aligned, but has extra words. Statements afterwards align properly, but write it down anyway. The same applies for "You? said the fiend;" properly aligned, just extra words.
+
+* MS: "Mankind knew of my existence, they would do as you do." First "do" is missing in collation despite the phrase being identical in the MS.
+
+* "Bloody as they are" (1823 + 1831), "Bloody as they may be" (1818 + Thomas), "Bloody as they be" (MS). Double-check realignment, token may be necessary. 
+
+* Confusing alignment for a section including remembrance and circumstances. 
+
+* Final note: read through section! Aside from today's notes, not too much revision appears to be necessary.
