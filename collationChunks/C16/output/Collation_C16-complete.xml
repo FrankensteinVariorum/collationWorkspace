@@ -1584,15 +1584,23 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['bent', 'leaningupon', '&lt;delstart/&gt;juts in&lt;delend/&gt;']">
-			<rdg wit="fMS">bent leaning&lt;lb n="c56-0121__main__1"/&gt;upon &lt;del
-				rend="strikethrough" xml:id="c56-0121__main__d5e25123"&gt;juts in&lt;/del&gt;</rdg>
+		<rdgGrp n="['bent']">
+			<rdg wit="fMS">bent</rdg>
 		</rdgGrp>
-		<rdgGrp n="['bent,', 'leaning', 'upon']">
-			<rdg wit="f1818">bent, leaning upon</rdg>
-			<rdg wit="f1823">bent, leaning upon</rdg>
-			<rdg wit="fThomas">bent, leaning upon</rdg>
-			<rdg wit="f1831">bent, leaning upon</rdg>
+		<rdgGrp n="['bent,']">
+			<rdg wit="f1818">bent,</rdg>
+			<rdg wit="f1823">bent,</rdg>
+			<rdg wit="fThomas">bent,</rdg>
+			<rdg wit="f1831">bent,</rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['leaning', 'upon']">
+			<rdg wit="f1818">leaning upon</rdg>
+			<rdg wit="f1823">leaning upon</rdg>
+			<rdg wit="fThomas">leaning upon</rdg>
+			<rdg wit="f1831">leaning upon</rdg>
+			<rdg wit="fMS">leaning&lt;lb n="c56-0121__main__1"/&gt; upon</rdg>
 		</rdgGrp>
 	</app>
 	<app>
@@ -1601,9 +1609,13 @@
 			<rdg wit="f1823">the jutting</rdg>
 			<rdg wit="fThomas">the jutting</rdg>
 			<rdg wit="f1831">the jutting</rdg>
-			<rdg wit="fMS">the jutting</rdg>
+		</rdgGrp>
+		<rdgGrp n="['&lt;delstart/&gt;juts in&lt;delend/&gt;', 'the', 'jutting']">
+			<rdg wit="fMS">&lt;del rend="strikethrough" xml:id="c56-0121__main__d5e25123"&gt;juts
+				in&lt;/del&gt; the jutting</rdg>
 		</rdgGrp>
 	</app>
+
 	<app>
 		<rdgGrp n="['rocks']">
 			<rdg wit="f1818">rocks</rdg>
@@ -4563,31 +4575,21 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['', '']">
+		<rdgGrp n="['', '', '', 'rather &lt;mod eid=&#34;c56-0124__main__d5e25885&#34;/&gt; stay']">
 			<rdg wit="fMS">&lt;sga-add place="sublinear" sID="c56-0124__main__d5e25887"/&gt;
-				&lt;metamark function="insert"&gt;^&lt;/metamark&gt;</rdg>
+				&lt;metamark function="insert"&gt;^&lt;/metamark&gt; &lt;sga-add
+				eID="c56-0124__main__d5e25887"/&gt;&lt;sga-add place="superlinear"
+				sID="c56-0124__main__d5e25893"/&gt; &lt;longToken&gt;rather &lt;sga-add
+				eID="c56-0124__main__d5e25893"/&gt;&lt;mod eID="c56-0124__main__d5e25885"/&gt;
+				Stay&lt;/longToken&gt;</rdg>
+		</rdgGrp>
+		<rdgGrp n="['rather', 'stay,']">
+			<rdg wit="f1818">rather stay,</rdg>
+			<rdg wit="f1823">rather stay,</rdg>
+			<rdg wit="fThomas">rather stay,</rdg>
 		</rdgGrp>
 		<rdgGrp n="['rather, stay,']">
 			<rdg wit="f1831">&lt;longToken&gt;rather, stay,&lt;/longToken&gt;</rdg>
-		</rdgGrp>
-	</app>
-	<app>
-		<rdgGrp n="['rather']">
-			<rdg wit="f1818">rather</rdg>
-			<rdg wit="f1823">rather</rdg>
-			<rdg wit="fThomas">rather</rdg>
-			<rdg wit="fMS">&lt;sga-add eID="c56-0124__main__d5e25887"/&gt;&lt;sga-add
-				place="superlinear" sID="c56-0124__main__d5e25893"/&gt;rather</rdg>
-		</rdgGrp>
-	</app>
-	<app>
-		<rdgGrp n="['', 'stay']">
-			<rdg wit="fMS">&lt;sga-add eID="c56-0124__main__d5e25893"/&gt; Stay</rdg>
-		</rdgGrp>
-		<rdgGrp n="['stay,']">
-			<rdg wit="f1818">stay,</rdg>
-			<rdg wit="f1823">stay,</rdg>
-			<rdg wit="fThomas">stay,</rdg>
 		</rdgGrp>
 	</app>
 	<app>
@@ -8368,10 +8370,14 @@
 	</app>
 
 	<app>
-		<rdgGrp n="['remembrance']">
-			<rdg wit="f1818">remembrance</rdg>
-			<rdg wit="fThomas">remembrance</rdg>
-			<rdg wit="fMS">&lt;lb n="c56-0128__main__8"/&gt;remembrance</rdg>
+		<rdgGrp n="['', 'remembrance &lt;delstart/&gt;those&lt;delend/&gt; circumstances']">
+			<rdg wit="fMS">&lt;lb n="c56-0128__main__8"/&gt; &lt;longToken&gt;remembrance &lt;del
+				rend="strikethrough" xml:id="c56-0128__main__d5e26976"&gt;those&lt;/del&gt;
+				circumstances&lt;/longToken&gt;</rdg>
+		</rdgGrp>
+		<rdgGrp n="['remembrance circumstances']">
+			<rdg wit="f1818">&lt;longToken&gt;remembrance circumstances&lt;/longToken&gt;</rdg>
+			<rdg wit="fThomas">&lt;longToken&gt;remembrance circumstances&lt;/longToken&gt;</rdg>
 		</rdgGrp>
 		<rdgGrp n="['remembrance,&#34; i rejoined,', '&#34;circumstances,']">
 			<rdg wit="f1823">&lt;longToken&gt;remembrance,” I rejoined,&lt;/longToken&gt;
@@ -8380,17 +8386,6 @@
 				“circumstances,</rdg>
 		</rdgGrp>
 	</app>
-	<app>
-		<rdgGrp n="['circumstances']">
-			<rdg wit="f1818">circumstances</rdg>
-			<rdg wit="fThomas">circumstances</rdg>
-		</rdgGrp>
-		<rdgGrp n="['&lt;delstart/&gt;those&lt;delend/&gt;', 'circumstances']">
-			<rdg wit="fMS">&lt;del rend="strikethrough"
-				xml:id="c56-0128__main__d5e26976"&gt;those&lt;/del&gt; circumstances</rdg>
-		</rdgGrp>
-	</app>
-
 	<app>
 		<rdgGrp n="['of']">
 			<rdg wit="f1818">of</rdg>
@@ -9950,4 +9945,4 @@
 	</app>
 
 </cx:apparatus>
-<!-- 2023-02-12 23:13:59.077049 -->
+<!-- 2023-02-12 23:55:10.681639 -->
