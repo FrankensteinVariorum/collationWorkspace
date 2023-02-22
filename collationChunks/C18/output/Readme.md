@@ -8,8 +8,9 @@
 
 # 2-17-2023
 
-- [ ] MS mentions departing on a mammal rather than a first meal. It's in a different reading group, but in the same app as the meals. It's mainly sligned with the meal statements because they all end with the same word: **This**
-- [ ] All versions: does a new chapter start after "benevolent smiles?" Should I add a token? The code confuses me, should I change anything in this code block?
+- [X] MS mentions departing on a mammal rather than a first meal. It's in a different reading group, but in the same app as the meals. It's mainly sligned with the meal statements because they all end with the same word: **This** **EDIT: Solved!**
+- [X] All versions: does a new chapter start after "benevolent smiles?" Should I add a token? The code confuses me, should I change anything in this code block?
+- Edit: Respaced Benevolent for MS
 
 ```
 <app>
@@ -30,7 +31,8 @@
 		</rdgGrp>
 	</app>
 ```	
-- [ ] MS: "Company and speech has "and speech and" in the same reading group, whereas every other iteration has "and" in an individual group, with "speech, interchanging" in a separate reading group. The manuscript's phrase is "and speech and interchanged." Debating adding a longToken and/or adjusting the spacing. Code samples listed below:
+- [X] MS: "Company and speech has "and speech and" in the same reading group, whereas every other iteration has "and" in an individual group, with "speech, interchanging" in a separate reading group. The manuscript's phrase is "and speech and interchanged." Debating adding a longToken and/or adjusting the spacing. Code samples listed below:
+- Tried removing space after "speech," not resolved yet.
 
 ```
 <rdgGrp n="['and']">
@@ -62,9 +64,9 @@
 		</rdgGrp>
 	</app>
 ```
-- [ ] MS: "seemed at first enigmatic" seemed is missing, not in the same app as "were," not detected at all by shellScript. Debating what to do here.
+- [X] MS: "seemed at first enigmatic" seemed is missing, not in the same app as "were," not detected at all by shellScript. Debating what to do here.
 - [ ] **Added Note:** seemed appears to be in a different reading group, with enigmatic and the chapter header entwined into it. Other versions only have entwined and the chpater header intertwined. Seemed is definitely in the wrong place, though.
-
+- Enigmatic was not a problem, but we found a different problem in the process.
 ```
 <rdgGrp n="['enigmatic.', '&lt;p-end/&gt;', '&lt;p-start/&gt;', '&#34;a']">
 			<rdg wit="f1818">enigmatic. &lt;p eID="novel1_letter4_chapter11_div4_div12_p4"/&gt;
@@ -96,7 +98,8 @@
 		</rdgGrp>
 ```
 
-- [ ] Thomas: Possible Divergence detected! Similarities end after degree, and degree is isolate from its respective reading group. It's aligned again when discussing nourishment, however.
+- [X] Thomas: Possible Divergence detected! Similarities end after degree, and degree is isolate from its respective reading group. It's aligned again when discussing nourishment, however.
+- Made a space edit in MS around this point too.
 
 ```
 <rdgGrp
@@ -113,6 +116,14 @@
 
 - [ ] This section of code is confusing me. The group below it has "I" listed for everything but the manuscript, but why is this big code block here? 
 
+- We're trying this as a solution:
+
+```
+<longToken><sga-add place="sublinear" sID="c57-0019__main__d4e4024"/>
+   <metamark function="insert">^</metamark>
+    <sga-add eID="c57-0019__main__d4e4024"/>
+    <sga-add place="superlinear" sID="c57-0019__main__d4e4030"/>sometimes</longToken>```
+    
 ```
 <rdgGrp n="['', 'i', '&lt;delstart/&gt;found&lt;delend/&gt;', '', '']">
 			<rdg wit="fMS">&lt;sga-add eID="c57-0018__main__d4e3742"/&gt; I &lt;del
