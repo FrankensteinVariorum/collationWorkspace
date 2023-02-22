@@ -136,3 +136,29 @@
 ```	
 
 - Stopping point: "That he did not go to the forest that day"
+
+# 2-22-2023
+
+- [ ] MS: "Feelings to" includes the words grouped together, where every other edition has them grouped separately
+- [ ] 1823 and 1831 are in separate apps rather than reading groups for the word "sometimes." Code listed below, could be a concern:
+
+```
+<app>
+		<rdgGrp n="['', '']">
+			<rdg wit="fMS">&lt;sga-add place="sublinear" sID="c57-0019__main__d4e4024"/&gt;
+				&lt;metamark function="insert"&gt;^&lt;/metamark&gt;</rdg>
+		</rdgGrp>
+		<rdgGrp n="['sometimes,']">
+			<rdg wit="f1823">sometimes,</rdg>
+			<rdg wit="f1831">sometimes,</rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['sometimes']">
+			<rdg wit="f1818">sometimes</rdg>
+			<rdg wit="fThomas">sometimes</rdg>
+			<rdg wit="fMS">&lt;sga-add eID="c57-0019__main__d4e4024"/&gt;&lt;sga-add
+				place="superlinear" sID="c57-0019__main__d4e4030"/&gt;sometimes</rdg>
+		</rdgGrp>
+	</app>
+```	
