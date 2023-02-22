@@ -10,7 +10,7 @@
 
 - [X] MS mentions departing on a mammal rather than a first meal. It's in a different reading group, but in the same app as the meals. It's mainly sligned with the meal statements because they all end with the same word: **This** **EDIT: Solved!**
 - [X] All versions: does a new chapter start after "benevolent smiles?" Should I add a token? The code confuses me, should I change anything in this code block?
-- Edit: Respaced Benevolent for MS
+- Edit: Problem Solved!
 
 ```
 <app>
@@ -65,8 +65,9 @@
 	</app>
 ```
 - [X] MS: "seemed at first enigmatic" seemed is missing, not in the same app as "were," not detected at all by shellScript. Debating what to do here.
-- [ ] **Added Note:** seemed appears to be in a different reading group, with enigmatic and the chapter header entwined into it. Other versions only have entwined and the chpater header intertwined. Seemed is definitely in the wrong place, though.
-- Enigmatic was not a problem, but we found a different problem in the process.
+- [X] **Added Note:** seemed appears to be in a different reading group, with enigmatic and the chapter header entwined into it. Other versions only have entwined and the chpater header intertwined. Seemed is definitely in the wrong place, though.
+- Enigmatic was not a problem, but we found a different problem in the process. **Problem Solved!**
+
 ```
 <rdgGrp n="['enigmatic.', '&lt;p-end/&gt;', '&lt;p-start/&gt;', '&#34;a']">
 			<rdg wit="f1818">enigmatic. &lt;p eID="novel1_letter4_chapter11_div4_div12_p4"/&gt;
@@ -114,15 +115,18 @@
 		</rdgGrp>
 ```
 
-- [ ] This section of code is confusing me. The group below it has "I" listed for everything but the manuscript, but why is this big code block here? 
+- [X] This section of code is confusing me. The group below it has "I" listed for everything but the manuscript, but why is this big code block here? 
 
 - We're trying this as a solution:
-
 ```
-<longToken><sga-add place="sublinear" sID="c57-0019__main__d4e4024"/>
+<longToken>I  <mod sID="c57-0018__main__d4e3746"/>
+   <del rend="strikethrough" xml:id="c57-0018__main__d4e3748">found</del>
+    <sga-add place="sublinear" sID="c57-0018__main__d4e3751"/>
    <metamark function="insert">^</metamark>
-    <sga-add eID="c57-0019__main__d4e4024"/>
-    <sga-add place="superlinear" sID="c57-0019__main__d4e4030"/>sometimes</longToken>```
+    <sga-add eID="c57-0018__main__d4e3751"/>
+    <sga-add place="superlinear" sID="c57-0018__main__d4e3757"/>discovered<sga-add eID="c57-0018__main__d4e3757"/></longToken>
+```    
+
     
 ```
 <rdgGrp n="['', 'i', '&lt;delstart/&gt;found&lt;delend/&gt;', '', '']">
@@ -145,14 +149,14 @@
 				sID="novel1_letter4_chapter12_div4_div12_p7"/&gt;</rdg>
 		</rdgGrp>
 ```	
-
+- **Problem Solved!**
 - Stopping point: "That he did not go to the forest that day"
 
 # 2-22-2023
 
-- [ ] MS: "Feelings to" includes the words grouped together, where every other edition has them grouped separately
+- [X] MS: "feelings to" includes the words grouped together, where every other edition has them grouped separately
 - [ ] 1823 and 1831 are in separate apps rather than reading groups for the word "sometimes." Code listed below, could be a concern:
-
+- **Problem Solved!**
 ```
 <app>
 		<rdgGrp n="['', '']">
@@ -173,3 +177,12 @@
 		</rdgGrp>
 	</app>
 ```	
+
+- Solution code:
+```
+<longToken><sga-add place="sublinear" sID="c57-0019__main__d4e4024"/>
+   <metamark function="insert">^</metamark>
+    <sga-add eID="c57-0019__main__d4e4024"/>
+    <sga-add place="superlinear" sID="c57-0019__main__d4e4030"/>sometimes</longToken>```
+
+- Finishing Point: "Pain, smiles, or sadness"  

@@ -1386,31 +1386,17 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['company']">
-			<rdg wit="f1818">company </rdg>
-			<rdg wit="f1823">company </rdg>
-			<rdg wit="fThomas">company </rdg>
-			<rdg wit="f1831">company </rdg>
-			<rdg wit="fMS">company </rdg>
+		<rdgGrp n="['company', 'and']">
+			<rdg wit="f1818">company and </rdg>
+			<rdg wit="f1823">company and </rdg>
+			<rdg wit="fThomas">company and </rdg>
+			<rdg wit="f1831">company and </rdg>
+			<rdg wit="fMS">company &lt;sga-add place=&quot;superlinear&quot; sID=&quot;c57-0017__main__d4e3460&quot;/&gt;&amp; </rdg>
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['and', 'speech', '—']">
-			<rdg wit="fMS">&lt;sga-add place=&quot;superlinear&quot; sID=&quot;c57-0017__main__d4e3460&quot;/&gt;&amp; speech&lt;sga-add eID=&quot;c57-0017__main__d4e3460&quot;/&gt; — </rdg>
-		</rdgGrp>
-	</app>
-	<app>
-		<rdgGrp n="['and']">
-			<rdg wit="f1818">and </rdg>
-			<rdg wit="f1823">and </rdg>
-			<rdg wit="fThomas">and </rdg>
-			<rdg wit="f1831">and </rdg>
-			<rdg wit="fMS">and </rdg>
-		</rdgGrp>
-	</app>
-	<app>
-		<rdgGrp n="['&lt;delstart/&gt;saw&lt;delend/&gt;', 'interchanged']">
-			<rdg wit="fMS">&lt;del rend=&quot;strikethrough&quot; xml:id=&quot;c57-0017__main__d4e3464&quot;&gt;saw&lt;/del&gt; &lt;lb n=&quot;c57-0017__main__10&quot;/&gt;&lt;lb n=&quot;c57-0017__left_margin__1&quot;/&gt;&lt;sga-add sID=&quot;c57-0017__left_margin__d4e3475&quot;/&gt;interchanged </rdg>
+		<rdgGrp n="['speech — and &lt;delstart/&gt;saw&lt;delend/&gt;', '   ', '   &lt;anchor xml:id=&quot;c57-0017.02&quot;/&gt;', '   &lt;zone corresp=&quot;#c57-0017.02&quot; type=&quot;left_margin&quot; sid=&quot;c57-0017__left_margin&quot;/&gt;', '   ', '    interchanged']">
+			<rdg wit="fMS">&lt;longToken&gt;speech&lt;sga-add eID=&quot;c57-0017__main__d4e3460&quot;/&gt; — and &lt;del rend=&quot;strikethrough&quot; xml:id=&quot;c57-0017__main__d4e3464&quot;&gt;saw&lt;/del&gt;    &lt;lb n=&quot;c57-0017__main__10&quot;/&gt;    &lt;anchor xml:id=&quot;c57-0017.02&quot;/&gt;    &lt;zone corresp=&quot;#c57-0017.02&quot; type=&quot;left_margin&quot; sID=&quot;c57-0017__left_margin&quot;/&gt;    &lt;lb n=&quot;c57-0017__left_margin__1&quot;/&gt;     &lt;sga-add sID=&quot;c57-0017__left_margin__d4e3475&quot;/&gt;interchanged&lt;/longToken&gt; </rdg>
 		</rdgGrp>
 		<rdgGrp n="['speech,', 'interchanging']">
 			<rdg wit="f1818">speech, interchanging </rdg>
@@ -2184,38 +2170,16 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['', 'i', '&lt;delstart/&gt;found&lt;delend/&gt;', '', '']">
-			<rdg wit="fMS">&lt;sga-add eID=&quot;c57-0018__main__d4e3742&quot;/&gt; I &lt;del rend=&quot;strikethrough&quot; xml:id=&quot;c57-0018__main__d4e3748&quot;&gt;found&lt;/del&gt; &lt;sga-add place=&quot;sublinear&quot; sID=&quot;c57-0018__main__d4e3751&quot;/&gt; &lt;metamark function=&quot;insert&quot;&gt;^&lt;/metamark&gt; </rdg>
+		<rdgGrp n="['', 'i  ', '      &lt;mod sid=&quot;c57-0018__main__d4e3746&quot;/&gt;', '   &lt;delstart/&gt;found&lt;delend/&gt;', '    ', '   ', '    ', '    discovered']">
+			<rdg wit="fMS">&lt;sga-add eID=&quot;c57-0018__main__d4e3742&quot;/&gt; &lt;longToken&gt;I         &lt;mod sID=&quot;c57-0018__main__d4e3746&quot;/&gt;    &lt;del rend=&quot;strikethrough&quot; xml:id=&quot;c57-0018__main__d4e3748&quot;&gt;found&lt;/del&gt;     &lt;sga-add place=&quot;sublinear&quot; sID=&quot;c57-0018__main__d4e3751&quot;/&gt;    &lt;metamark function=&quot;insert&quot;&gt;^&lt;/metamark&gt;     &lt;sga-add eID=&quot;c57-0018__main__d4e3751&quot;/&gt;     &lt;sga-add place=&quot;superlinear&quot; sID=&quot;c57-0018__main__d4e3757&quot;/&gt;discovered&lt;sga-add eID=&quot;c57-0018__main__d4e3757&quot;/&gt;&lt;/longToken&gt; </rdg>
 		</rdgGrp>
-		<rdgGrp n="['&lt;note_start/&gt;thomas copy: pencil mark joins paragraphs.&lt;note_end/&gt;']">
-			<rdg wit="fThomas">&lt;note resp=&quot;#ebb&quot;&gt;Thomas copy: pencil mark joins paragraphs.&lt;/note&gt; </rdg>
+		<rdgGrp n="['&lt;note_start/&gt;thomas copy: pencil mark joins paragraphs.&lt;note_end/&gt; &quot;i discovered']">
+			<rdg wit="fThomas">&lt;longToken&gt;&lt;note resp=&quot;#ebb&quot;&gt;Thomas copy: pencil mark joins paragraphs.&lt;/note&gt; “I discovered&lt;/longToken&gt; </rdg>
 		</rdgGrp>
-		<rdgGrp n="['&lt;p-end/&gt;', '&lt;p-start/&gt;']">
-			<rdg wit="f1818">&lt;p eID=&quot;novel1_letter4_chapter11_div4_div12_p6&quot;/&gt; &lt;p sID=&quot;novel1_letter4_chapter11_div4_div12_p7&quot;/&gt; </rdg>
-			<rdg wit="f1823">&lt;p eID=&quot;novel1_letter4_chapter11_div4_div11_p6&quot;/&gt; &lt;p sID=&quot;novel1_letter4_chapter11_div4_div11_p7&quot;/&gt; </rdg>
-			<rdg wit="f1831">&lt;p eID=&quot;novel1_letter4_chapter12_div4_div12_p6&quot;/&gt; &lt;p sID=&quot;novel1_letter4_chapter12_div4_div12_p7&quot;/&gt; </rdg>
-		</rdgGrp>
-	</app>
-	<app>
-		<rdgGrp n="['&quot;i']">
-			<rdg wit="f1818">“I </rdg>
-			<rdg wit="f1823">“I </rdg>
-			<rdg wit="fThomas">“I </rdg>
-			<rdg wit="f1831">“I </rdg>
-		</rdgGrp>
-	</app>
-	<app>
-		<rdgGrp n="['discovered']">
-			<rdg wit="f1818">discovered </rdg>
-			<rdg wit="f1823">discovered </rdg>
-			<rdg wit="fThomas">discovered </rdg>
-			<rdg wit="f1831">discovered </rdg>
-			<rdg wit="fMS">&lt;sga-add eID=&quot;c57-0018__main__d4e3751&quot;/&gt;&lt;sga-add place=&quot;superlinear&quot; sID=&quot;c57-0018__main__d4e3757&quot;/&gt;discovered </rdg>
-		</rdgGrp>
-	</app>
-	<app>
-		<rdgGrp n="['']">
-			<rdg wit="fMS">&lt;sga-add eID=&quot;c57-0018__main__d4e3757&quot;/&gt; </rdg>
+		<rdgGrp n="['&lt;p-end/&gt;', '&lt;p-start/&gt;', '&quot;i', 'discovered']">
+			<rdg wit="f1818">&lt;p eID=&quot;novel1_letter4_chapter11_div4_div12_p6&quot;/&gt; &lt;p sID=&quot;novel1_letter4_chapter11_div4_div12_p7&quot;/&gt; “I discovered </rdg>
+			<rdg wit="f1823">&lt;p eID=&quot;novel1_letter4_chapter11_div4_div11_p6&quot;/&gt; &lt;p sID=&quot;novel1_letter4_chapter11_div4_div11_p7&quot;/&gt; “I discovered </rdg>
+			<rdg wit="f1831">&lt;p eID=&quot;novel1_letter4_chapter12_div4_div12_p6&quot;/&gt; &lt;p sID=&quot;novel1_letter4_chapter12_div4_div12_p7&quot;/&gt; “I discovered </rdg>
 		</rdgGrp>
 	</app>
 	<app>
@@ -5645,4 +5609,4 @@
 		</rdgGrp>
 	</app>
 </cx:apparatus>
-<!-- 2023-02-22 22:06:27.973640 -->
+<!-- 2023-02-22 22:44:45.046815 -->
