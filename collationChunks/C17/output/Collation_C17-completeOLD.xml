@@ -2,12 +2,11 @@
 <cx:apparatus xmlns:cx="http://interedition.eu/collatex/ns/1.0">
 	<app>
 		<rdgGrp n="['']">
-			<rdg wit="f1818"> </rdg>
-			<rdg wit="fThomas"> </rdg>
-			<rdg wit="fMS">&lt;milestone spanTo="#c57-0002.07" unit="tei:head"/&gt;</rdg>
+			<rdg wit="f1818"/>
+			<rdg wit="fThomas"/>
+			<rdg wit="fMS"/>
 		</rdgGrp>
 	</app>
-
 	<app>
 		<rdgGrp n="['', '']">
 			<rdg wit="f1818">&lt;milestone unit="chapter" type="start" n="10"/&gt; &lt;pb
@@ -16,10 +15,8 @@
 			<rdg wit="fThomas">&lt;milestone unit="chapter" type="start" n="10"/&gt; &lt;pb
 				xml:id="F1818_v2_036" n="032"/&gt;</rdg>
 			<rdg wit="f1831">&lt;milestone unit="chapter" type="start" n="11"/&gt;</rdg>
-		</rdgGrp>
-		<rdgGrp n="['vol.', 'ii', 'chap', 'i']">
-			<rdg wit="fMS">&lt;lb n="c57-0002__main__1"/&gt;Vol. II &lt;lb
-				n="c57-0002__main__2"/&gt;Chap I</rdg>
+			<rdg wit="fMS">&lt;milestone spanTo="#c57-0002.07" unit="tei:head"/&gt; &lt;lb
+				n="c57-0002__main__1"/&gt;</rdg>
 		</rdgGrp>
 	</app>
 	<app>
@@ -32,6 +29,10 @@
 		</rdgGrp>
 		<rdgGrp n="['chapter xi.']">
 			<rdg wit="f1831">&lt;head&gt;CHAPTER XI.&lt;/head&gt;</rdg>
+		</rdgGrp>
+		<rdgGrp n="['vol. iichap i ']">
+			<rdg wit="fMS">&lt;longToken&gt;Vol. II &lt;lb n="c57-0002__main__2"/&gt;Chap I
+				&lt;/longToken&gt;</rdg>
 		</rdgGrp>
 	</app>
 	<app>
@@ -1151,25 +1152,25 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['finding', 'myself', 'so', 'desolate.', 'before', 'i', 'had', 'quitted']">
-			<rdg wit="f1818">finding myself so desolate. Before I had quitted</rdg>
-			<rdg wit="f1823">finding myself so desolate. Before I had quitted</rdg>
-			<rdg wit="fThomas">finding myself so desolate. Before I had quitted</rdg>
-			<rdg wit="f1831">finding myself so desolate. Before I had quitted</rdg>
+		<rdgGrp
+			n="['finding', 'myself', 'so', 'desolate.', 'before', 'i', 'had', 'quitted', 'your']">
+			<rdg wit="f1818">finding myself so desolate. Before I had quitted your</rdg>
+			<rdg wit="f1823">finding myself so desolate. Before I had quitted your</rdg>
+			<rdg wit="fThomas">finding myself so desolate. Before I had quitted your</rdg>
+			<rdg wit="f1831">finding myself so desolate. Before I had quitted your</rdg>
 			<rdg wit="fMS">finding myself so desolate. &lt;lb n="c57-0003__main__8"/&gt;Before I had
-				quitted</rdg>
+				quitted you&lt;sga-add place="intralinear" sID="c57-0003__main__d4e252"/&gt;r</rdg>
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['you', 'r', '', 'appartment']">
-			<rdg wit="fMS">you &lt;sga-add place="intralinear" sID="c57-0003__main__d4e252"/&gt;r
-				&lt;sga-add eID="c57-0003__main__d4e252"/&gt; appartment</rdg>
+		<rdgGrp n="['', 'appartment']">
+			<rdg wit="fMS">&lt;sga-add eID="c57-0003__main__d4e252"/&gt; appartment</rdg>
 		</rdgGrp>
-		<rdgGrp n="['your', 'apartment,']">
-			<rdg wit="f1818">your apartment,</rdg>
-			<rdg wit="f1823">your apartment,</rdg>
-			<rdg wit="fThomas">your apartment,</rdg>
-			<rdg wit="f1831">your apartment,</rdg>
+		<rdgGrp n="['apartment,']">
+			<rdg wit="f1818">apartment,</rdg>
+			<rdg wit="f1823">apartment,</rdg>
+			<rdg wit="fThomas">apartment,</rdg>
+			<rdg wit="f1831">apartment,</rdg>
 		</rdgGrp>
 	</app>
 	<app>
@@ -1193,32 +1194,12 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['i', 'had', 'covered']">
-			<rdg wit="f1818">I had covered</rdg>
-			<rdg wit="f1823">I had covered</rdg>
-			<rdg wit="fThomas">I had covered</rdg>
-			<rdg wit="f1831">I had covered</rdg>
-			<rdg wit="fMS">I had covered</rdg>
-		</rdgGrp>
-	</app>
-	<app>
-		<rdgGrp n="['my', 'self']">
-			<rdg wit="fMS">my &lt;lb n="c57-0003__main__10"/&gt;self</rdg>
-		</rdgGrp>
-		<rdgGrp n="['myself']">
-			<rdg wit="f1818">myself</rdg>
-			<rdg wit="f1823">myself</rdg>
-			<rdg wit="fThomas">myself</rdg>
-			<rdg wit="f1831">myself</rdg>
-		</rdgGrp>
-	</app>
-	<app>
-		<rdgGrp n="['with', 'some']">
-			<rdg wit="f1818">with some</rdg>
-			<rdg wit="f1823">with some</rdg>
-			<rdg wit="fThomas">with some</rdg>
-			<rdg wit="f1831">with some</rdg>
-			<rdg wit="fMS">with some</rdg>
+		<rdgGrp n="['i', 'had', 'covered', 'myself', 'with', 'some']">
+			<rdg wit="f1818">I had covered myself with some</rdg>
+			<rdg wit="f1823">I had covered myself with some</rdg>
+			<rdg wit="fThomas">I had covered myself with some</rdg>
+			<rdg wit="f1831">I had covered myself with some</rdg>
+			<rdg wit="fMS">I had covered my&lt;lb n="c57-0003__main__10"/&gt;self with some</rdg>
 		</rdgGrp>
 	</app>
 	<app>
@@ -1461,74 +1442,37 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['from', 'among']">
-			<rdg wit="f1818">from among</rdg>
-			<rdg wit="f1823">from among</rdg>
-			<rdg wit="fThomas">from among</rdg>
-			<rdg wit="f1831">from among</rdg>
+		<rdgGrp n="['from', 'among', 'the', 'trees.']">
+			<rdg wit="f1818">from among the trees.</rdg>
+			<rdg wit="f1823">from among the trees.</rdg>
+			<rdg wit="fThomas">from among the trees.</rdg>
+			<rdg wit="f1831">from among the trees.</rdg>
 		</rdgGrp>
-		<rdgGrp n="['&lt;delstart/&gt;am&lt;delend/&gt;', 'from', 'among']">
+		<rdgGrp n="['&lt;delstart/&gt;am&lt;delend/&gt;', 'from', 'among', 'the', 'trees.']">
 			<rdg wit="fMS">&lt;del rend="strikethrough"
-				xml:id="c57-0003__main__d4e316"&gt;am&lt;/del&gt; from among</rdg>
+				xml:id="c57-0003__main__d4e316"&gt;am&lt;/del&gt; from among the trees.</rdg>
 		</rdgGrp>
 	</app>
 
 	<app>
-		<rdgGrp n="['the']">
-			<rdg wit="f1823">the</rdg>
-			<rdg wit="f1831">the</rdg>
-		</rdgGrp>
-	</app>
-	<app>
-		<rdgGrp n="['trees*']">
-			<rdg wit="f1823">trees*</rdg>
-		</rdgGrp>
-		<rdgGrp n="['trees.*']">
-			<rdg wit="f1831">trees.*</rdg>
-		</rdgGrp>
-	</app>
-	<app>
-		<rdgGrp n="['&lt;note_start/&gt;', '*']">
-			<rdg wit="f1823">&lt;note sID="novel1_letter4_chapter10_div4_div10_p3_note1"/&gt;
-				*</rdg>
-			<rdg wit="f1831">&lt;note sID="novel1_letter4_chapter11_div4_div11_p3_note1"/&gt;
-				*</rdg>
-		</rdgGrp>
-	</app>
-	<app>
-		<rdgGrp n="['the']">
-			<rdg wit="f1818">the</rdg>
-			<rdg wit="f1823">The</rdg>
-			<rdg wit="fThomas">the</rdg>
-			<rdg wit="f1831">The</rdg>
-			<rdg wit="fMS">the</rdg>
-		</rdgGrp>
-	</app>
-	<app>
-		<rdgGrp n="['moon.', '&lt;note_start/&gt;']">
-			<rdg wit="f1823">moon. &lt;note
-				eID="novel1_letter4_chapter10_div4_div10_p3_note1"/&gt;</rdg>
-			<rdg wit="f1831">moon. &lt;note
-				eID="novel1_letter4_chapter11_div4_div11_p3_note1"/&gt;</rdg>
-		</rdgGrp>
-		<rdgGrp n="['trees.']">
-			<rdg wit="f1818">trees.</rdg>
-			<rdg wit="fThomas">trees.</rdg>
-			<rdg wit="fMS">trees.</rdg>
+		<rdgGrp n="['*&lt;note_start/&gt;* the moon.&lt;note_start/&gt;']">
+			<rdg wit="f1823">&lt;longToken&gt;*&lt;note
+				sID="novel1_letter4_chapter10_div4_div10_p3_note1"/&gt;* The moon.&lt;note
+				eID="novel1_letter4_chapter10_div4_div10_p3_note1"/&gt;&lt;/longToken&gt;</rdg>
+			<rdg wit="f1831">&lt;longToken&gt;*&lt;note
+				sID="novel1_letter4_chapter11_div4_div11_p3_note1"/&gt;* The moon.&lt;note
+				eID="novel1_letter4_chapter11_div4_div11_p3_note1"/&gt;&lt;/longToken&gt;</rdg>
 		</rdgGrp>
 	</app>
 	<app>
 		<rdgGrp n="['i', 'gazed', 'with', 'a', 'kind', 'of']">
 			<rdg wit="f1818">I gazed with a kind of</rdg>
+			<rdg wit="f1823">I gazed with a kind of</rdg>
 			<rdg wit="fThomas">I gazed with a kind of</rdg>
 			<rdg wit="f1831">I gazed with a kind of</rdg>
 			<rdg wit="fMS">I gazed with &lt;lb n="c57-0003__main__21"/&gt;a kind of</rdg>
 		</rdgGrp>
-		<rdgGrp n="['.', 'i', 'gazed', 'with', 'a', 'kind', 'of']">
-			<rdg wit="f1823">. I gazed with a kind of</rdg>
-		</rdgGrp>
 	</app>
-
 	<app>
 		<rdgGrp n="['wonder', '–']">
 			<rdg wit="fMS">wonder –</rdg>
@@ -1817,24 +1761,25 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['the', 'only', 'object', 'that', 'i', 'could', 'distinguish', 'was', 'the']">
-			<rdg wit="f1818">the only object that I could distinguish was the</rdg>
-			<rdg wit="f1823">the only object that I could distinguish was the</rdg>
-			<rdg wit="fThomas">the only object that I could distinguish was the</rdg>
-			<rdg wit="f1831">the only object that I could distinguish was the</rdg>
+		<rdgGrp
+			n="['the', 'only', 'object', 'that', 'i', 'could', 'distinguish', 'was', 'the', 'bright']">
+			<rdg wit="f1818">the only object that I could distinguish was the bright</rdg>
+			<rdg wit="f1823">the only object that I could distinguish was the bright</rdg>
+			<rdg wit="fThomas">the only object that I could distinguish was the bright</rdg>
+			<rdg wit="f1831">the only object that I could distinguish was the bright</rdg>
 			<rdg wit="fMS">the only object &lt;lb n="c57-0003__main__32"/&gt;that I could
-				distinguish was the</rdg>
+				distinguish was the bright&lt;lb n="c57-0004__main__1"/&gt;</rdg>
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['bright', 'moon,']">
-			<rdg wit="f1818">bright moon,</rdg>
-			<rdg wit="f1823">bright moon,</rdg>
-			<rdg wit="fThomas">bright moon,</rdg>
-			<rdg wit="f1831">bright moon,</rdg>
+		<rdgGrp n="['moon']">
+			<rdg wit="fMS">moon</rdg>
 		</rdgGrp>
-		<rdgGrp n="['brightmoon']">
-			<rdg wit="fMS">bright&lt;lb n="c57-0004__main__1"/&gt;moon</rdg>
+		<rdgGrp n="['moon,']">
+			<rdg wit="f1818">moon,</rdg>
+			<rdg wit="f1823">moon,</rdg>
+			<rdg wit="fThomas">moon,</rdg>
+			<rdg wit="f1831">moon,</rdg>
 		</rdgGrp>
 	</app>
 	<app>
@@ -2168,11 +2113,11 @@
 	</app>
 
 	<app>
-		<rdgGrp n="['a', '', 'ni', '', 'mals']">
+		<rdgGrp n="['a', '', 'nimals']">
 			<rdg wit="fMS">&lt;sga-add eID="c57-0004__main__d4e464"/&gt;&lt;lb
 				n="c57-0004__main__12"/&gt;&lt;w ana="start"/&gt;a &lt;mdel&gt;m&lt;/mdel&gt;
-				&lt;sga-add place="intralinear" sID="c57-0004__main__d4e477"/&gt;ni &lt;sga-add
-				eID="c57-0004__main__d4e477"/&gt; mals&lt;w ana="end"/&gt;</rdg>
+				&lt;sga-add place="intralinear" sID="c57-0004__main__d4e477"/&gt;ni&lt;sga-add
+				eID="c57-0004__main__d4e477"/&gt;mals&lt;w ana="end"/&gt;</rdg>
 		</rdgGrp>
 		<rdgGrp n="['animals']">
 			<rdg wit="f1818">animals</rdg>
@@ -2424,27 +2369,17 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['', 'unco', 'u', 'th']">
-			<rdg wit="fMS">&lt;sga-add eID="c57-0004__main__d4e523"/&gt; unco &lt;sga-add
-				hand="#pbs" place="superlinear" sID="c57-0004__main__d4e526"/&gt;u &lt;sga-add
-				eID="c57-0004__main__d4e526"/&gt;th</rdg>
-		</rdgGrp>
-		<rdgGrp n="['uncouth']">
-			<rdg wit="f1818">uncouth</rdg>
-			<rdg wit="f1823">uncouth</rdg>
-			<rdg wit="fThomas">uncouth</rdg>
-			<rdg wit="f1831">uncouth</rdg>
+		<rdgGrp n="['uncouth', 'and']">
+			<rdg wit="f1818">uncouth and </rdg>
+			<rdg wit="f1823">uncouth and </rdg>
+			<rdg wit="fThomas">uncouth and </rdg>
+			<rdg wit="f1831">uncouth and </rdg>
+			<rdg wit="fMS">&lt;sga-add eID="c57-0004__main__d4e523"/&gt;unco&lt;sga-add hand="#pbs"
+				place="superlinear" sID="c57-0004__main__d4e526"/&gt;u&lt;sga-add
+				eID="c57-0004__main__d4e526"/&gt;th and</rdg>
 		</rdgGrp>
 	</app>
-	<app>
-		<rdgGrp n="['and']">
-			<rdg wit="f1818">and</rdg>
-			<rdg wit="f1823">and</rdg>
-			<rdg wit="fThomas">and</rdg>
-			<rdg wit="f1831">and</rdg>
-			<rdg wit="fMS">and</rdg>
-		</rdgGrp>
-	</app>
+
 	<app>
 		<rdgGrp n="['inarticulate', 'sounds']">
 			<rdg wit="f1818">inarticulate sounds</rdg>
@@ -2534,23 +2469,23 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['from', 'the', 'night,']">
-			<rdg wit="f1818">from the night,</rdg>
-			<rdg wit="f1823">from the night,</rdg>
-			<rdg wit="fThomas">from the night,</rdg>
-			<rdg wit="f1831">from the night,</rdg>
-			<rdg wit="fMS">from the night,</rdg>
+		<rdgGrp n="['from', 'the', 'night,', 'and']">
+			<rdg wit="f1818">from the night, and</rdg>
+			<rdg wit="f1823">from the night, and</rdg>
+			<rdg wit="fThomas">from the night, and</rdg>
+			<rdg wit="f1831">from the night, and</rdg>
+			<rdg wit="fMS">from the night, &amp;&lt;lb n="c57-0004__main__25"/&gt;</rdg>
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['and', 'again,']">
-			<rdg wit="f1818">and again,</rdg>
-			<rdg wit="f1823">and again,</rdg>
-			<rdg wit="fThomas">and again,</rdg>
-			<rdg wit="f1831">and again,</rdg>
+		<rdgGrp n="['again']">
+			<rdg wit="fMS">again</rdg>
 		</rdgGrp>
-		<rdgGrp n="['andagain']">
-			<rdg wit="fMS">&amp;&lt;lb n="c57-0004__main__25"/&gt;again</rdg>
+		<rdgGrp n="['again,']">
+			<rdg wit="f1818">again,</rdg>
+			<rdg wit="f1823">again,</rdg>
+			<rdg wit="fThomas">again,</rdg>
+			<rdg wit="f1831">again,</rdg>
 		</rdgGrp>
 	</app>
 	<app>
@@ -12247,4 +12182,4 @@
 	</app>
 
 </cx:apparatus>
-<!-- 2023-02-15 23:04:52.450981 -->
+<!-- 2023-02-23 19:26:04.291751 -->
