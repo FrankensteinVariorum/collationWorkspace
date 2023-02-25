@@ -1192,12 +1192,12 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['poss', '', '', 'ess', '', 'ed']">
-			<rdg wit="fMS">poss &lt;sga-add place="sublinear" sID="c57-0017__main__d4e3397"/&gt;
+		<rdgGrp n="['poss', '', 'essed']">
+			<rdg wit="fMS">poss&lt;sga-add place="sublinear" sID="c57-0017__main__d4e3397"/&gt;
 				&lt;metamark function="insert"&gt;^&lt;/metamark&gt; &lt;sga-add
 				eID="c57-0017__main__d4e3397"/&gt;&lt;sga-add place="superlinear"
-				sID="c57-0017__main__d4e3403"/&gt;ess &lt;sga-add eID="c57-0017__main__d4e3403"/&gt;
-				ed</rdg>
+				sID="c57-0017__main__d4e3403"/&gt;ess&lt;sga-add
+				eID="c57-0017__main__d4e3403"/&gt;ed</rdg>
 		</rdgGrp>
 		<rdgGrp n="['possessed']">
 			<rdg wit="f1818">possessed</rdg>
@@ -1368,27 +1368,29 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['in']">
-			<rdg wit="f1818">in</rdg>
-			<rdg wit="f1823">in</rdg>
-			<rdg wit="fThomas">in</rdg>
-			<rdg wit="f1831">in</rdg>
+		<rdgGrp n="['in', 'excellent']">
+			<rdg wit="f1818">in excellent</rdg>
+			<rdg wit="f1823">in excellent</rdg>
+			<rdg wit="fThomas">in excellent</rdg>
+			<rdg wit="f1831">in excellent</rdg>
 		</rdgGrp>
-		<rdgGrp n="['', '&lt;delstart/&gt;in clothes that kept t&lt;delend/&gt;', 'in']">
+		<rdgGrp
+			n="['', '&lt;delstart/&gt;in clothes that kept t&lt;delend/&gt;', 'in', 'excellent']">
 			<rdg wit="fMS">&lt;lb n="c57-0017__main__7"/&gt; &lt;del rend="strikethrough"
-				xml:id="c57-0017__main__d4e3453"&gt;in clothes that kept t&lt;/del&gt; in</rdg>
+				xml:id="c57-0017__main__d4e3453"&gt;in clothes that kept t&lt;/del&gt; in
+				excel&lt;lb n="c57-0017__main__8"/&gt;lent</rdg>
 		</rdgGrp>
 	</app>
 
 	<app>
-		<rdgGrp n="['excel', 'lent', 'clothes', 'and']">
-			<rdg wit="fMS">excel &lt;lb n="c57-0017__main__8"/&gt;lent clothes and</rdg>
+		<rdgGrp n="['clothes', 'and']">
+			<rdg wit="fMS">clothes and</rdg>
 		</rdgGrp>
-		<rdgGrp n="['excellent', 'clothes;', 'and,']">
-			<rdg wit="f1818">excellent clothes; and,</rdg>
-			<rdg wit="f1823">excellent clothes; and,</rdg>
-			<rdg wit="fThomas">excellent clothes; and,</rdg>
-			<rdg wit="f1831">excellent clothes; and,</rdg>
+		<rdgGrp n="['clothes;', 'and,']">
+			<rdg wit="f1818">clothes; and,</rdg>
+			<rdg wit="f1823">clothes; and,</rdg>
+			<rdg wit="fThomas">clothes; and,</rdg>
+			<rdg wit="f1831">clothes; and,</rdg>
 		</rdgGrp>
 	</app>
 	<app>
@@ -1412,32 +1414,12 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['they']">
-			<rdg wit="f1818">they</rdg>
-			<rdg wit="f1823">they</rdg>
-			<rdg wit="fThomas">they</rdg>
-			<rdg wit="f1831">they</rdg>
-			<rdg wit="fMS">they</rdg>
-		</rdgGrp>
-	</app>
-	<app>
-		<rdgGrp n="['enjoy', 'ed']">
-			<rdg wit="fMS">enjoy &lt;lb n="c57-0017__main__9"/&gt;ed</rdg>
-		</rdgGrp>
-		<rdgGrp n="['enjoyed']">
-			<rdg wit="f1818">enjoyed</rdg>
-			<rdg wit="f1823">enjoyed</rdg>
-			<rdg wit="fThomas">enjoyed</rdg>
-			<rdg wit="f1831">enjoyed</rdg>
-		</rdgGrp>
-	</app>
-	<app>
-		<rdgGrp n="['one']">
-			<rdg wit="f1818">one</rdg>
-			<rdg wit="f1823">one</rdg>
-			<rdg wit="fThomas">one</rdg>
-			<rdg wit="f1831">one</rdg>
-			<rdg wit="fMS">one</rdg>
+		<rdgGrp n="['they', 'enjoyed', 'one']">
+			<rdg wit="f1818">they enjoyed one</rdg>
+			<rdg wit="f1823">they enjoyed one</rdg>
+			<rdg wit="fThomas">they enjoyed one</rdg>
+			<rdg wit="f1831">they enjoyed one</rdg>
+			<rdg wit="fMS">they enjoy&lt;lb n="c57-0017__main__9"/&gt;ed one</rdg>
 		</rdgGrp>
 	</app>
 	<app>
@@ -1675,16 +1657,16 @@
 	</app>
 
 	<app>
-		<rdgGrp n="['cause', 's', '']">
-			<rdg wit="fMS">&lt;sga-add eID="c57-0018__left_margin__d4e3545"/&gt;cause &lt;sga-add
-				hand="#pbs" sID="c57-0018__main__d4e3549"/&gt;s &lt;sga-add
-				eID="c57-0018__main__d4e3549"/&gt;</rdg>
-		</rdgGrp>
 		<rdgGrp n="['causes']">
 			<rdg wit="f1818">causes</rdg>
 			<rdg wit="f1823">causes</rdg>
 			<rdg wit="fThomas">causes</rdg>
 			<rdg wit="f1831">causes</rdg>
+		</rdgGrp>
+		<rdgGrp n="['s']">
+			<rdg wit="fMS">&lt;sga-add eID="c57-0018__left_margin__d4e3545"/&gt;cause&lt;sga-add
+				hand="#pbs" sID="c57-0018__main__d4e3549"/&gt;s&lt;sga-add
+				eID="c57-0018__main__d4e3549"/&gt;</rdg>
 		</rdgGrp>
 	</app>
 	<app>
@@ -2006,8 +1988,8 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['poi', 'gnantly']">
-			<rdg wit="fMS">poi &lt;lb n="c57-0018__main__15"/&gt;gnantly</rdg>
+		<rdgGrp n="['poignantly']">
+			<rdg wit="fMS">poi&lt;lb n="c57-0018__main__15"/&gt;gnantly</rdg>
 		</rdgGrp>
 		<rdgGrp n="['poignantly,']">
 			<rdg wit="f1818">poignantly,</rdg>
@@ -2210,43 +2192,24 @@
 	</app>
 	<app>
 		<rdgGrp
-			n="['to', 'steal', 'a', 'part', 'of', 'their', 'store', 'for', 'my', 'own', 'consumption;', 'but', 'when', 'i', 'found', 'that', 'in', 'doing', 'this', 'i', 'inflicted', 'pain', 'on', 'the', 'cottagers,', 'i', 'abstained,', 'and', 'satisfied']">
+			n="['to', 'steal', 'a', 'part', 'of', 'their', 'store', 'for', 'my', 'own', 'consumption;', 'but', 'when', 'i', 'found', 'that', 'in', 'doing', 'this', 'i', 'inflicted', 'pain', 'on', 'the', 'cottagers,', 'i', 'abstained,', 'and', 'satisfied', 'myself', 'with']">
 			<rdg wit="f1818">to steal a part of their store for my own consumption; but when I found
 				that in doing this I inflicted pain on the cottagers, I abstained, &lt;pb
-				xml:id="F1818_v2_061" n="057"/&gt;and satisfied</rdg>
+				xml:id="F1818_v2_061" n="057"/&gt;and satisfied myself with</rdg>
 			<rdg wit="f1823">to steal a part of their store for my own consumption; but when I found
 				that in doing this I inflicted pain on the cottagers, I abstained, &lt;pb
-				xml:id="F1823_v1_257" n="238"/&gt;and satisfied</rdg>
+				xml:id="F1823_v1_257" n="238"/&gt;and satisfied myself with</rdg>
 			<rdg wit="fThomas">to steal a part of their store for my own consumption; but when I
 				found that in doing this I inflicted pain on the cottagers, I abstained, &lt;pb
-				xml:id="F1818_v2_061" n="057"/&gt;and satisfied</rdg>
+				xml:id="F1818_v2_061" n="057"/&gt;and satisfied myself with</rdg>
 			<rdg wit="f1831">to steal a part of their store &lt;pb xml:id="F1831_v_111"
 				n="95"/&gt;for my own consumption; but when I found that in doing this I inflicted
-				pain on the cottagers, I abstained, and satisfied</rdg>
+				pain on the cottagers, I abstained, and satisfied myself with</rdg>
 			<rdg wit="fMS">&lt;lb n="c57-0018__main__21"/&gt;to steal a part of their store for my
 				&lt;lb n="c57-0018__main__22"/&gt;own consumption; but when I found &lt;lb
 				n="c57-0018__main__23"/&gt;that in doing this I inflicted pain on the &lt;lb
-				n="c57-0018__main__24"/&gt;cottagers, I abstained, and satisfied</rdg>
-		</rdgGrp>
-	</app>
-	<app>
-		<rdgGrp n="['my', 'self']">
-			<rdg wit="fMS">my &lt;lb n="c57-0018__main__25"/&gt;self</rdg>
-		</rdgGrp>
-		<rdgGrp n="['myself']">
-			<rdg wit="f1818">myself</rdg>
-			<rdg wit="f1823">myself</rdg>
-			<rdg wit="fThomas">myself</rdg>
-			<rdg wit="f1831">myself</rdg>
-		</rdgGrp>
-	</app>
-	<app>
-		<rdgGrp n="['with']">
-			<rdg wit="f1818">with</rdg>
-			<rdg wit="f1823">with</rdg>
-			<rdg wit="fThomas">with</rdg>
-			<rdg wit="f1831">with</rdg>
-			<rdg wit="fMS">with</rdg>
+				n="c57-0018__main__24"/&gt;cottagers, I abstained, and satisfied my&lt;lb
+				n="c57-0018__main__25"/&gt;self with</rdg>
 		</rdgGrp>
 	</app>
 	<app>
@@ -2382,33 +2345,19 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['to', 'assist', 'their', 'labours.', 'i', 'found', 'that']">
-			<rdg wit="f1818">to assist their labours. I found that</rdg>
-			<rdg wit="f1823">to assist their labours. I found that</rdg>
-			<rdg wit="fThomas">to assist their labours. I found that</rdg>
-			<rdg wit="f1831">to assist their labours. I found that</rdg>
-			<rdg wit="fMS">&lt;lb n="c57-0018__main__28"/&gt;to assist their labours. I found
-				that</rdg>
-		</rdgGrp>
-	</app>
-	<app>
-		<rdgGrp n="['the', 'youth']">
-			<rdg wit="f1818">the youth</rdg>
-			<rdg wit="f1823">the youth</rdg>
-			<rdg wit="fThomas">the youth</rdg>
-			<rdg wit="f1831">the youth</rdg>
-		</rdgGrp>
-		<rdgGrp n="['theyouth']">
-			<rdg wit="fMS">the&lt;lb n="c57-0019__main__1"/&gt;youth</rdg>
-		</rdgGrp>
-	</app>
-	<app>
-		<rdgGrp n="['spent', 'a', 'great', 'part', 'of', 'each', 'day', 'in']">
-			<rdg wit="f1818">spent a great part of each day in</rdg>
-			<rdg wit="f1823">spent a great part of each day in</rdg>
-			<rdg wit="fThomas">spent a great part of each day in</rdg>
-			<rdg wit="f1831">spent a great part of each day in</rdg>
-			<rdg wit="fMS">spent a great part of each &lt;lb n="c57-0019__main__2"/&gt;day in</rdg>
+		<rdgGrp
+			n="['to', 'assist', 'their', 'labours.', 'i', 'found', 'that', 'the', 'youth', 'spent', 'a', 'great', 'part', 'of', 'each', 'day', 'in']">
+			<rdg wit="f1818">to assist their labours. I found that the youth spent a great part of
+				each day in</rdg>
+			<rdg wit="f1823">to assist their labours. I found that the youth spent a great part of
+				each day in</rdg>
+			<rdg wit="fThomas">to assist their labours. I found that the youth spent a great part of
+				each day in</rdg>
+			<rdg wit="f1831">to assist their labours. I found that the youth spent a great part of
+				each day in</rdg>
+			<rdg wit="fMS">&lt;lb n="c57-0018__main__28"/&gt;to assist their labours. I found that
+				the&lt;lb n="c57-0019__main__1"/&gt; youth spent a great part of each &lt;lb
+				n="c57-0019__main__2"/&gt;day in</rdg>
 		</rdgGrp>
 	</app>
 	<app>
@@ -3248,35 +3197,15 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['in', 'the', 'minds']">
-			<rdg wit="f1818">in the minds</rdg>
-			<rdg wit="f1823">in the minds</rdg>
-			<rdg wit="fThomas">in the minds</rdg>
-			<rdg wit="f1831">in the minds</rdg>
+		<rdgGrp n="['in', 'the', 'minds', 'and', 'countenances', 'of', 'the']">
+			<rdg wit="f1818">in the minds and countenances of the</rdg>
+			<rdg wit="f1823">in the minds and countenances of the</rdg>
+			<rdg wit="fThomas">in the minds and countenances of the</rdg>
+			<rdg wit="f1831">in the minds and countenances of the</rdg>
 			<rdg wit="fMS">in the &lt;lb n="c57-0019__main__25"/&gt;&lt;lb
 				n="c57-0019__left_margin__1"/&gt;&lt;sga-add
-				sID="c57-0019__left_margin__d4e4044"/&gt;minds</rdg>
-		</rdgGrp>
-	</app>
-	<app>
-		<rdgGrp n="['and', 'countenances']">
-			<rdg wit="f1818">and countenances</rdg>
-			<rdg wit="f1823">and countenances</rdg>
-			<rdg wit="fThomas">and countenances</rdg>
-			<rdg wit="f1831">and countenances</rdg>
-		</rdgGrp>
-		<rdgGrp n="['andcountenances']">
-			<rdg wit="fMS">&amp;&lt;sga-add
-				eID="c57-0019__left_margin__d4e4044"/&gt;countenances</rdg>
-		</rdgGrp>
-	</app>
-	<app>
-		<rdgGrp n="['of', 'the']">
-			<rdg wit="f1818">of the</rdg>
-			<rdg wit="f1823">of the</rdg>
-			<rdg wit="fThomas">of the</rdg>
-			<rdg wit="f1831">of the</rdg>
-			<rdg wit="fMS">of the</rdg>
+				sID="c57-0019__left_margin__d4e4044"/&gt;minds &amp;&lt;sga-add
+				eID="c57-0019__left_margin__d4e4044"/&gt; countenances of the</rdg>
 		</rdgGrp>
 	</app>
 	<app>
@@ -3435,29 +3364,39 @@
 	</app>
 	<app>
 		<rdgGrp
-			n="['uttered', '&lt;delstart/&gt;seemed&lt;delend/&gt;', '&lt;delstart/&gt;had&lt;delend/&gt;', 'no', 't', '', 'havingany']">
+			n="['uttered', '&lt;delstart/&gt;seemed&lt;delend/&gt;', '&lt;delstart/&gt;had&lt;delend/&gt;']">
 			<rdg wit="fMS">uttered &lt;del rend="strikethrough"
 				xml:id="c57-0019__main__d4e4094"&gt;seemed&lt;/del&gt; &lt;del rend="strikethrough"
-				xml:id="c57-0019__main__d4e4097"&gt;had&lt;/del&gt; no &lt;sga-add
-				place="intralinear" sID="c57-0019__main__d4e4100"/&gt;t &lt;sga-add
-				eID="c57-0019__main__d4e4100"/&gt; having&lt;lb n="c57-0020__main__1"/&gt;any</rdg>
+				xml:id="c57-0019__main__d4e4097"&gt;had&lt;/del&gt;</rdg>
 		</rdgGrp>
-		<rdgGrp n="['uttered,', 'not', 'having', 'any']">
-			<rdg wit="f1818">uttered, not having any</rdg>
-			<rdg wit="f1823">uttered, not having any</rdg>
-			<rdg wit="fThomas">uttered, not having any</rdg>
-			<rdg wit="f1831">uttered, not having any</rdg>
+		<rdgGrp n="['uttered,']">
+			<rdg wit="f1818">uttered,</rdg>
+			<rdg wit="f1823">uttered,</rdg>
+			<rdg wit="fThomas">uttered,</rdg>
+			<rdg wit="f1831">uttered,</rdg>
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['apparent']">
-			<rdg wit="f1818">apparent</rdg>
-			<rdg wit="f1823">apparent</rdg>
-			<rdg wit="fThomas">apparent</rdg>
-			<rdg wit="f1831">apparent</rdg>
-			<rdg wit="fMS">apparent</rdg>
+		<rdgGrp n="['not']">
+			<rdg wit="f1818">not</rdg>
+			<rdg wit="f1823">not</rdg>
+			<rdg wit="fThomas">not</rdg>
+			<rdg wit="f1831">not</rdg>
+			<rdg wit="fMS">no&lt;sga-add place="intralinear"
+				sID="c57-0019__main__d4e4100"/&gt;t</rdg>
 		</rdgGrp>
 	</app>
+	<app>
+		<rdgGrp n="['having', 'any', 'apparent']">
+			<rdg wit="f1818">having any apparent </rdg>
+			<rdg wit="f1823">having any apparent </rdg>
+			<rdg wit="fThomas">having any apparent </rdg>
+			<rdg wit="f1831">having any apparent </rdg>
+			<rdg wit="fMS">&lt;sga-add eID="c57-0019__main__d4e4100"/&gt;having &lt;lb
+				n="c57-0020__main__1"/&gt;any apparent</rdg>
+		</rdgGrp>
+	</app>
+
 	<app>
 		<rdgGrp n="['&lt;delstart/&gt;co&lt;delend/&gt;']">
 			<rdg wit="fMS">&lt;del rend="strikethrough"
@@ -3568,8 +3507,8 @@
 	</app>
 
 	<app>
-		<rdgGrp n="['application', 'how', 'ever']">
-			<rdg wit="fMS">application how &lt;lb n="c57-0020__main__5"/&gt;ever</rdg>
+		<rdgGrp n="['application', 'however']">
+			<rdg wit="fMS">application how&lt;lb n="c57-0020__main__5"/&gt;ever</rdg>
 		</rdgGrp>
 		<rdgGrp n="['application,', 'however,']">
 			<rdg wit="f1818">application, however,</rdg>
@@ -3775,11 +3714,11 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['themsel', '', 'v', '', 'es–', '&lt;delstart/&gt;but as&lt;delend/&gt;']">
+		<rdgGrp n="['themsel', '', 'v', 'es–', '&lt;delstart/&gt;but as&lt;delend/&gt;']">
 			<rdg wit="fMS">themsel &lt;mdel&gt;f&lt;/mdel&gt; &lt;sga-add place="intralinear"
-				sID="c57-0020__main__d4e4207"/&gt;v &lt;sga-add eID="c57-0020__main__d4e4207"/&gt;
-				es– &lt;del rend="strikethrough" xml:id="c57-0020__main__d4e4212"&gt;but
-				as&lt;/del&gt;</rdg>
+				sID="c57-0020__main__d4e4207"/&gt;v &lt;sga-add
+				eID="c57-0020__main__d4e4207"/&gt;es– &lt;del rend="strikethrough"
+				xml:id="c57-0020__main__d4e4212"&gt;but as&lt;/del&gt;</rdg>
 		</rdgGrp>
 		<rdgGrp n="['themselves.']">
 			<rdg wit="f1818">themselves.</rdg>
@@ -4314,27 +4253,36 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['me:', 'when', 'they']">
-			<rdg wit="f1818">me: when they</rdg>
-			<rdg wit="f1823">me: when they</rdg>
-			<rdg wit="fThomas">me: when they</rdg>
-			<rdg wit="f1831">me: when they</rdg>
+		<rdgGrp n="['me:']">
+			<rdg wit="f1818">me:</rdg>
+			<rdg wit="f1823">me:</rdg>
+			<rdg wit="fThomas">me:</rdg>
+			<rdg wit="f1831">me:</rdg>
 		</rdgGrp>
-		<rdgGrp n="['me–when', 'the', 'y', '']">
-			<rdg wit="fMS">me–When &lt;lb n="c57-0020__main__27"/&gt;the &lt;sga-add hand="#pbs"
-				place="intralinear" sID="c57-0020__main__d4e4360"/&gt;y &lt;sga-add
-				eID="c57-0020__main__d4e4360"/&gt;</rdg>
+		<rdgGrp n="['me–']">
+			<rdg wit="fMS">me–</rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['when', 'they']">
+			<rdg wit="f1818">when they</rdg>
+			<rdg wit="f1823">when they</rdg>
+			<rdg wit="fThomas">when they</rdg>
+			<rdg wit="f1831">when they</rdg>
+			<rdg wit="fMS">When &lt;lb n="c57-0020__main__27"/&gt;the&lt;sga-add hand="#pbs"
+				place="intralinear" sID="c57-0020__main__d4e4360"/&gt;y</rdg>
 		</rdgGrp>
 	</app>
 	<app>
 		<rdgGrp n="['were']">
-			<rdg wit="f1818">were</rdg>
-			<rdg wit="f1823">were</rdg>
-			<rdg wit="fThomas">were</rdg>
-			<rdg wit="f1831">were</rdg>
-			<rdg wit="fMS">were</rdg>
+			<rdg wit="f1818">were </rdg>
+			<rdg wit="f1823">were </rdg>
+			<rdg wit="fThomas">were </rdg>
+			<rdg wit="f1831">were </rdg>
+			<rdg wit="fMS">&lt;sga-add eID="c57-0020__main__d4e4360"/&gt;were</rdg>
 		</rdgGrp>
 	</app>
+
 	<app>
 		<rdgGrp n="['unhappy']">
 			<rdg wit="fMS">unhappy</rdg>
@@ -5203,28 +5151,20 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['', '', 'i', '', 'n']">
+		<rdgGrp n="['in', 'the']">
+			<rdg wit="f1818">in the</rdg>
+			<rdg wit="f1823">in the</rdg>
+			<rdg wit="fThomas">in the</rdg>
+			<rdg wit="f1831">in the</rdg>
+		</rdgGrp>
+		<rdgGrp n="['', '', 'in', 'the']">
 			<rdg wit="fMS">&lt;sga-add eID="c57-0022__left_margin__d4e4631"/&gt;
 				&lt;mdel&gt;I&lt;/mdel&gt; &lt;sga-add place="intralinear"
-				sID="c57-0022__main__d4e4639"/&gt;i &lt;sga-add eID="c57-0022__main__d4e4639"/&gt;
-				n</rdg>
-		</rdgGrp>
-		<rdgGrp n="['in']">
-			<rdg wit="f1818">in</rdg>
-			<rdg wit="f1823">in</rdg>
-			<rdg wit="fThomas">in</rdg>
-			<rdg wit="f1831">in</rdg>
+				sID="c57-0022__main__d4e4639"/&gt;i&lt;sga-add eID="c57-0022__main__d4e4639"/&gt;n
+				the</rdg>
 		</rdgGrp>
 	</app>
-	<app>
-		<rdgGrp n="['the']">
-			<rdg wit="f1818">the</rdg>
-			<rdg wit="f1823">the</rdg>
-			<rdg wit="fThomas">the</rdg>
-			<rdg wit="f1831">the</rdg>
-			<rdg wit="fMS">the</rdg>
-		</rdgGrp>
-	</app>
+
 	<app>
 		<rdgGrp n="['morning']">
 			<rdg wit="f1818">morning</rdg>
@@ -5295,12 +5235,12 @@
 	</app>
 
 	<app>
-		<rdgGrp n="['obst', '', '', 'r', '', 'ucted']">
-			<rdg wit="fMS">obst &lt;sga-add place="sublinear" sID="c57-0022__main__d4e4655"/&gt;
+		<rdgGrp n="['obst', '', 'ructed']">
+			<rdg wit="fMS">obst&lt;sga-add place="sublinear" sID="c57-0022__main__d4e4655"/&gt;
 				&lt;metamark function="insert"&gt;^&lt;/metamark&gt; &lt;sga-add
 				eID="c57-0022__main__d4e4655"/&gt;&lt;sga-add place="superlinear"
-				sID="c57-0022__main__d4e4661"/&gt;r &lt;sga-add eID="c57-0022__main__d4e4661"/&gt;
-				ucted</rdg>
+				sID="c57-0022__main__d4e4661"/&gt;r&lt;sga-add
+				eID="c57-0022__main__d4e4661"/&gt;ucted</rdg>
 		</rdgGrp>
 		<rdgGrp n="['obstructed']">
 			<rdg wit="f1818">obstructed</rdg>
@@ -6300,4 +6240,4 @@
 		</rdgGrp>
 	</app>
 </cx:apparatus>
-<!-- 2023-02-22 22:44:45.046815 -->
+<!-- 2023-02-25 20:08:15.555551 -->
