@@ -190,16 +190,16 @@
 # 2-25-2023
 
 - [ ] Some (but maybe not all) of the previous word separations fixed.
-- [ ] Should "hearers" in Manuscript be spaced together? 
+- [X] Should "hearers" in Manuscript be spaced together? 
 ```
 <rdgGrp n="['hear', '', 'ers', '', '–']">
 			<rdg wit="fMS">hear &lt;mdel&gt;ee&lt;/mdel&gt; &lt;sga-add place="intralinear"
 				sID="c57-0019__main__d4e4052"/&gt;ers &lt;sga-add eID="c57-0019__main__d4e4052"/&gt;
 				–</rdg>
 ```
-- [ ] MS: (Possibly) corrected spacing issues with "not" and "having any"
+- [X] MS: (Possibly) corrected spacing issues with "not" and "having any"
 - [ ] MS: Milk is stated as "mil" "k" because of an `</sti>` property cutting in before the K. Should that be fixed?
-- [ ] MS: same applies to "themselves" a few lines later, but due to `<mod>` properties.
+- [X] MS: same applies to "themselves" a few lines later, but due to `<mod>` properties. **Not Fixing because of a deletion**
 - [ ] MS: "Had each of them several" detects an unnecessary "h." don't know if I should remove it
 - [ ] MS: I read the text associated with the code block, and I have trouble trying to align it:
 ```
@@ -214,8 +214,12 @@
 - [ ] Another MS sorting error: MS has "groupe and" while everything else has "group" isolated, then "and" is in another app. They need to be separated somehow.
 
 - [ ] MS: Spaced "i n" as "in"
-- [ ] MS: Tried to make "obstructed" into one word. May not have worked.
+- [X] MS: Tried to make "obstructed" into one word. May not have worked. **Good enough**
 - [ ] MS: Thinking of combining "litt le" into "little," but a ```<mod>``` element is getting in the way.
 - [ ] MS: "ardently longed to understand" is not listed with the other texts that have a similar phrase.
 - Possibly the manuscript is much shorter than the other drafts? Maybe the other passages **Start diverging here!*** Everything else has significantly longer text blocks, implying more was written for every version after the Manuscript. Needs further evaluation.
 - **End point: end of chapter**
+
+# 3-1-2023
+
+- [ ] Trying to fix "causes" in MS
