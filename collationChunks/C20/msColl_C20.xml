@@ -4,9 +4,11 @@
    <zone type="main" sID="c57-0031__main"/>
    <lb n="c57-0031__main__1"/>
    <milestone spanTo="#c57-0031.11" unit="tei:head"/>
-    <longToken><sga-add hand="#pbs" sID="c57-0031__main__d4e4824"/>another Chapter <sga-add eID="c57-0031__main__d4e4824"/></longToken>
+    <sga-add hand="#pbs" sID="c57-0031__main__d4e4824"/><longToken>another Chapter</longToken> 
+   <sga-add eID="c57-0031__main__d4e4824"/>
    <anchor xml:id="c57-0031.11"/>
-   <lb n="c57-0031__main__2"/>Sometime elapsed before I <del next="#c57-0031.02" rend="strikethrough" xml:id="c57-0031__main__d4e4832">became informed</del>
+   <lb n="c57-0031__main__2"/>
+   <longToken>Sometime elapsed before I</longToken> <del next="#c57-0031.02" rend="strikethrough" xml:id="c57-0031__main__d4e4832">became informed</del>
    <lb n="c57-0031__main__3"/>
    <anchor xml:id="c57-0031.03"/>
    <zone corresp="#c57-0031.03" type="left_margin" sID="c57-0031__left_margin"/>
@@ -41,16 +43,15 @@
    <milestone unit="tei:p-START"/>
    <lb n="c57-0031__main__9"/>The name of the old man was De Lacey.  
 <lb n="c57-0031__main__10"/>He was decended from a good family in France <delSpan rend="strikethrough" spanTo="#c57-0031.06"/>&amp;  
-<lb n="c57-0031__main__11"/>untill very lately had lived 
-<anchor xml:id="c57-0031.06"/> where for many years  
-<lb n="c57-0031__main__12"/>he had lived in affluence respected by his superiors  
+<lb n="c57-0031__main__11"/>
+   untill very lately had lived 
+<anchor xml:id="c57-0031.06"/> <longToken>where for many years <lb n="c57-0031__main__12"/>he had lived</longToken> in affluence respected by his superiors  
 <lb n="c57-0031__main__13"/>&amp; beloved by his equals. <delSpan rend="strikethrough" spanTo="#c57-0031.07"/>His two
       children Felix &amp; <w ana="start"/>Aga<lb n="c57-0031__main__14"/>tha<w ana="end"/>
    <anchor xml:id="c57-0031.07"/> His son was bred  
 <mod sID="c57-0031__main__d4e4939"/>
    <mdel>t</mdel>
-    <sga-add place="intralinear" sID="c57-0031__main__d4e4943"/>i <sga-add eID="c57-0031__main__d4e4943"/>
-   <mod eID="c57-0031__main__d4e4939"/> n the service of his country  
+    <sga-add place="intralinear" sID="c57-0031__main__d4e4943"/>i<sga-add eID="c57-0031__main__d4e4943"/><mod eID="c57-0031__main__d4e4939"/>n the service of his country  
 <lb n="c57-0031__main__15"/>&amp; Agatha had  
 <mod sID="c57-0031__main__d4e4949"/>
    <del rend="strikethrough" xml:id="c57-0031__main__d4e4951">been</del>
@@ -65,7 +66,8 @@
    <lb n="c57-0031__main__17"/>
    <del rend="strikethrough" xml:id="c57-0031__main__d4e4978">to</del>
    <anchor xml:id="c57-0031.08"/> my
-      arrival they had lived in a large &amp; <w ana="start"/>lux<lb n="c57-0031__main__18"/>urious<w ana="end"/> city called Paris, surrounded by friends  
+      arrival they had lived in a large &amp; 
+   <w ana="start"/>lux<lb n="c57-0031__main__18"/>urious<w ana="end"/> city called Paris, surrounded by friends  
 <lb n="c57-0031__main__19"/>&amp; possessed of every enjoyment that  
 <mod sID="c57-0031__main__d4e4992"/>
    <del rend="strikethrough" xml:id="c57-0031__main__d4e4994">that</del>
@@ -92,8 +94,7 @@
    <mod eID="c57-0031__main__d4e5038"/>  He was a  
 <mod sID="c57-0031__main__d4e5047"/>
    <mdel>t</mdel>
-    <sga-add place="intralinear" sID="c57-0031__main__d4e5051"/>T <sga-add eID="c57-0031__main__d4e5051"/>
-   <mod eID="c57-0031__main__d4e5047"/> urkish Merchant and had  
+    <sga-add place="intralinear" sID="c57-0031__main__d4e5051"/>T<sga-add eID="c57-0031__main__d4e5051"/><mod eID="c57-0031__main__d4e5047"/>urkish Merchant and had  
 <lb n="c57-0031__main__24"/>
    <del instant="true" rend="strikethrough" xml:id="c57-0031__main__d4e5057">li</del> inhabited Paris for many years. When his
       person <lb n="c57-0031__main__25"/>became  

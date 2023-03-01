@@ -4,6 +4,7 @@
 		<rdgGrp n="['']">
 			<rdg wit="f1818"> </rdg>
 			<rdg wit="fThomas"> </rdg>
+			<rdg wit="fMS">&lt;lb n=&quot;c57-0031__main__1&quot;/&gt; </rdg>
 		</rdgGrp>
 	</app>
 	<app>
@@ -12,12 +13,12 @@
 			<rdg wit="f1823"> &lt;milestone unit=&quot;chapter&quot; type=&quot;start&quot; n=&quot;13&quot;/&gt; </rdg>
 			<rdg wit="fThomas">&lt;milestone unit=&quot;chapter&quot; type=&quot;start&quot; n=&quot;13&quot;/&gt; &lt;pb xml:id=&quot;F1818_v2_088&quot; n=&quot;084&quot;/&gt; </rdg>
 			<rdg wit="f1831"> &lt;milestone unit=&quot;chapter&quot; type=&quot;start&quot; n=&quot;14&quot;/&gt; </rdg>
-			<rdg wit="fMS">&lt;lb n=&quot;c57-0031__main__1&quot;/&gt; &lt;milestone spanTo=&quot;#c57-0031.11&quot; unit=&quot;tei:head&quot;/&gt; </rdg>
+			<rdg wit="fMS">&lt;milestone spanTo=&quot;#c57-0031.11&quot; unit=&quot;tei:head&quot;/&gt; &lt;sga-add hand=&quot;#pbs&quot; sID=&quot;c57-0031__main__d4e4824&quot;/&gt; </rdg>
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['another chapter ', 'sometime']">
-			<rdg wit="fMS">&lt;longToken&gt;&lt;sga-add hand=&quot;#pbs&quot; sID=&quot;c57-0031__main__d4e4824&quot;/&gt;another Chapter &lt;sga-add eID=&quot;c57-0031__main__d4e4824&quot;/&gt;&lt;/longToken&gt; &lt;lb n=&quot;c57-0031__main__2&quot;/&gt;Sometime </rdg>
+		<rdgGrp n="['another chapter', '', 'sometime']">
+			<rdg wit="fMS">&lt;longToken&gt;another Chapter&lt;/longToken&gt; &lt;sga-add eID=&quot;c57-0031__main__d4e4824&quot;/&gt;&lt;lb n=&quot;c57-0031__main__2&quot;/&gt; Sometime </rdg>
 		</rdgGrp>
 		<rdgGrp n="['chapter ii.']">
 			<rdg wit="f1823">&lt;head&gt;CHAPTER II.&lt;/head&gt; </rdg>
@@ -238,42 +239,14 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['france', 'anduntill', 'very', 'lately']">
-			<rdg wit="fMS">France &amp;&lt;lb n=&quot;c57-0031__main__11&quot;/&gt;untill very lately </rdg>
+		<rdgGrp n="['france', 'and', 'untill', 'very', 'lately', 'had', 'lived', 'where for many years he had lived']">
+			<rdg wit="fMS">France &amp;&lt;lb n=&quot;c57-0031__main__11&quot;/&gt; untill very lately had lived &lt;longToken&gt;where for many years &lt;lb n=&quot;c57-0031__main__12&quot;/&gt;he had lived&lt;/longToken&gt; </rdg>
 		</rdgGrp>
-		<rdgGrp n="['france,', 'where', 'he']">
-			<rdg wit="f1818">France, where he </rdg>
-			<rdg wit="f1823">France, where he </rdg>
-			<rdg wit="fThomas">France, where he </rdg>
-			<rdg wit="f1831">France, where he </rdg>
-		</rdgGrp>
-	</app>
-	<app>
-		<rdgGrp n="['had', 'lived']">
-			<rdg wit="f1818">had lived </rdg>
-			<rdg wit="f1823">had lived </rdg>
-			<rdg wit="fThomas">had lived </rdg>
-			<rdg wit="f1831">had &lt;pb xml:id=&quot;F1831_v_121&quot; n=&quot;105&quot;/&gt;lived </rdg>
-			<rdg wit="fMS">had lived </rdg>
-		</rdgGrp>
-	</app>
-	<app>
-		<rdgGrp n="['where']">
-			<rdg wit="fMS">where </rdg>
-		</rdgGrp>
-	</app>
-	<app>
-		<rdgGrp n="['for', 'many', 'years']">
-			<rdg wit="f1818">for many years </rdg>
-			<rdg wit="f1823">for many years </rdg>
-			<rdg wit="fThomas">for many years </rdg>
-			<rdg wit="f1831">for many years </rdg>
-			<rdg wit="fMS">for many years </rdg>
-		</rdgGrp>
-	</app>
-	<app>
-		<rdgGrp n="['he', 'had', 'lived']">
-			<rdg wit="fMS">&lt;lb n=&quot;c57-0031__main__12&quot;/&gt;he had lived </rdg>
+		<rdgGrp n="['france,', 'where he had lived for many years']">
+			<rdg wit="f1818">France, &lt;longToken&gt;where he had lived for many years&lt;/longToken&gt; </rdg>
+			<rdg wit="f1823">France, &lt;longToken&gt;where he had lived for many years&lt;/longToken&gt; </rdg>
+			<rdg wit="fThomas">France, &lt;longToken&gt;where he had lived for many years&lt;/longToken&gt; </rdg>
+			<rdg wit="f1831">France, &lt;longToken&gt;where he had &lt;pb xml:id=&quot;F1831_v_121&quot; n=&quot;105&quot;/&gt;lived for many years&lt;/longToken&gt; </rdg>
 		</rdgGrp>
 	</app>
 	<app>
@@ -340,23 +313,17 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['', 'i', '', 'n']">
-			<rdg wit="fMS">&lt;mdel&gt;t&lt;/mdel&gt; &lt;sga-add place=&quot;intralinear&quot; sID=&quot;c57-0031__main__d4e4943&quot;/&gt;i &lt;sga-add eID=&quot;c57-0031__main__d4e4943&quot;/&gt; n </rdg>
-		</rdgGrp>
-		<rdgGrp n="['in']">
-			<rdg wit="f1818">in </rdg>
-			<rdg wit="f1823">in </rdg>
-			<rdg wit="fThomas">in </rdg>
-			<rdg wit="f1831">in </rdg>
+		<rdgGrp n="['']">
+			<rdg wit="fMS">&lt;mdel&gt;t&lt;/mdel&gt; </rdg>
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['the', 'service', 'of', 'his']">
-			<rdg wit="f1818">the ser&lt;pb xml:id=&quot;F1818_v2_089&quot; n=&quot;085&quot;/&gt;vice of his </rdg>
-			<rdg wit="f1823">the ser&lt;pb xml:id=&quot;F1823_v2_290&quot; n=&quot;17&quot;/&gt;vice of his </rdg>
-			<rdg wit="fThomas">the ser&lt;pb xml:id=&quot;F1818_v2_089&quot; n=&quot;085&quot;/&gt;vice of his </rdg>
-			<rdg wit="f1831">the service of his </rdg>
-			<rdg wit="fMS">the service of his </rdg>
+		<rdgGrp n="['in', 'the', 'service', 'of', 'his']">
+			<rdg wit="f1818">in the ser&lt;pb xml:id=&quot;F1818_v2_089&quot; n=&quot;085&quot;/&gt;vice of his </rdg>
+			<rdg wit="f1823">in the ser&lt;pb xml:id=&quot;F1823_v2_290&quot; n=&quot;17&quot;/&gt;vice of his </rdg>
+			<rdg wit="fThomas">in the ser&lt;pb xml:id=&quot;F1818_v2_089&quot; n=&quot;085&quot;/&gt;vice of his </rdg>
+			<rdg wit="f1831">in the service of his </rdg>
+			<rdg wit="fMS">&lt;sga-add place=&quot;intralinear&quot; sID=&quot;c57-0031__main__d4e4943&quot;/&gt;i&lt;sga-add eID=&quot;c57-0031__main__d4e4943&quot;/&gt;n the service of his </rdg>
 		</rdgGrp>
 	</app>
 	<app>
@@ -672,14 +639,28 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['', 't', '', 'urkish', 'merchant']">
-			<rdg wit="fMS">&lt;mdel&gt;t&lt;/mdel&gt; &lt;sga-add place=&quot;intralinear&quot; sID=&quot;c57-0031__main__d4e5051&quot;/&gt;T &lt;sga-add eID=&quot;c57-0031__main__d4e5051&quot;/&gt; urkish Merchant </rdg>
+		<rdgGrp n="['']">
+			<rdg wit="fMS">&lt;mdel&gt;t&lt;/mdel&gt; </rdg>
 		</rdgGrp>
-		<rdgGrp n="['turkish', 'merchant,']">
-			<rdg wit="f1818">Turkish merchant, </rdg>
-			<rdg wit="f1823">Turkish merchant, </rdg>
-			<rdg wit="fThomas">Turkish merchant, </rdg>
-			<rdg wit="f1831">Turkish merchant, </rdg>
+	</app>
+	<app>
+		<rdgGrp n="['turkish']">
+			<rdg wit="f1818">Turkish </rdg>
+			<rdg wit="f1823">Turkish </rdg>
+			<rdg wit="fThomas">Turkish </rdg>
+			<rdg wit="f1831">Turkish </rdg>
+			<rdg wit="fMS">&lt;sga-add place=&quot;intralinear&quot; sID=&quot;c57-0031__main__d4e5051&quot;/&gt;T&lt;sga-add eID=&quot;c57-0031__main__d4e5051&quot;/&gt;urkish </rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['merchant']">
+			<rdg wit="fMS">Merchant </rdg>
+		</rdgGrp>
+		<rdgGrp n="['merchant,']">
+			<rdg wit="f1818">merchant, </rdg>
+			<rdg wit="f1823">merchant, </rdg>
+			<rdg wit="fThomas">merchant, </rdg>
+			<rdg wit="f1831">merchant, </rdg>
 		</rdgGrp>
 	</app>
 	<app>
@@ -3422,4 +3403,4 @@
 		</rdgGrp>
 	</app>
 </cx:apparatus>
-<!-- 2023-03-01 21:52:30.536833 -->
+<!-- 2023-03-01 22:18:41.713416 -->
