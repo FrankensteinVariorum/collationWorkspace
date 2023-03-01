@@ -209,15 +209,15 @@
 		</rdgGrp>
 ```
 
-- [ ] MS: Another word order issue: towards the last quarter, everything but MS has "sometimes I" while MS has "I sometimes," and the "I" is sorted with sometimes rather than the I's in the rest of the readings.
+- [X] MS: Another word order issue: towards the last quarter, everything but MS has "sometimes I" while MS has "I sometimes," and the "I" is sorted with sometimes rather than the I's in the rest of the readings.
 
-- [ ] Another MS sorting error: MS has "groupe and" while everything else has "group" isolated, then "and" is in another app. They need to be separated somehow.
+- [X] Another MS sorting error: MS has "groupe and" while everything else has "group" isolated, then "and" is in another app. They need to be separated somehow.
 - **Trying a longToken to "and even"**
 
-- [ ] MS: Spaced "i n" as "in"
+- [X] MS: Spaced "i n" as "in"
 - [X] MS: Tried to make "obstructed" into one word. May not have worked. **Good enough**
-- [ ] MS: Thinking of combining "litt le" into "little," but a ```<mod>``` element is getting in the way.
-- [ ] MS: "ardently longed to understand" is not listed with the other texts that have a similar phrase.
+- [X] MS: Thinking of combining "litt le" into "little," but a ```<mod>``` element is getting in the way.
+- [X] MS: "ardently longed to understand" is not listed with the other texts that have a similar phrase.
 - **MASSIVE LongToken to end of MS**
 - Possibly the manuscript is much shorter than the other drafts? Maybe the other passages **Start diverging here!*** Everything else has significantly longer text blocks, implying more was written for every version after the Manuscript. Needs further evaluation.
 - **End point: end of chapter**
@@ -225,3 +225,5 @@
 # 3-1-2023
 
 - [X] Trying to fix "causes" in MS
+
+- [ ] trying to group "connection" in 1831 with "connection" from everything else
