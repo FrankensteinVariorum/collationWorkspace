@@ -189,7 +189,7 @@
 
 # 2-25-2023
 
-- [ ] Some (but maybe not all) of the previous word separations fixed.
+- [X] Some (but maybe not all) of the previous word separations fixed.
 - [X] Should "hearers" in Manuscript be spaced together? 
 ```
 <rdgGrp n="['hear', '', 'ers', '', '–']">
@@ -200,8 +200,8 @@
 - [X] MS: (Possibly) corrected spacing issues with "not" and "having any"
 - [ ] MS: Milk is stated as "mil" "k" because of an `</sti>` property cutting in before the K. Should that be fixed?
 - [X] MS: same applies to "themselves" a few lines later, but due to `<mod>` properties. **Not Fixing because of a deletion**
-- [ ] MS: "Had each of them several" detects an unnecessary "h." don't know if I should remove it
-- [ ] MS: I read the text associated with the code block, and I have trouble trying to align it:
+- [X] MS: "Had each of them several" detects an unnecessary "h." don't know if I should remove it **Won't Fix, but verified**
+- [X] MS: I read the text associated with the code block, and I have trouble trying to align it. **Tiny Little Deletion, leave alone**
 ```
 <rdgGrp n="['call', '&lt;delstart/&gt;ed sist&lt;delend/&gt;', 'sister']">
 			<rdg wit="fMS">call &lt;del rend="strikethrough" xml:id="c57-0020__main__d4e4242"&gt;ed
@@ -212,14 +212,16 @@
 - [ ] MS: Another word order issue: towards the last quarter, everything but MS has "sometimes I" while MS has "I sometimes," and the "I" is sorted with sometimes rather than the I's in the rest of the readings.
 
 - [ ] Another MS sorting error: MS has "groupe and" while everything else has "group" isolated, then "and" is in another app. They need to be separated somehow.
+- **Trying a longToken to "and even"**
 
 - [ ] MS: Spaced "i n" as "in"
 - [X] MS: Tried to make "obstructed" into one word. May not have worked. **Good enough**
 - [ ] MS: Thinking of combining "litt le" into "little," but a ```<mod>``` element is getting in the way.
 - [ ] MS: "ardently longed to understand" is not listed with the other texts that have a similar phrase.
+- **MASSIVE LongToken to end of MS**
 - Possibly the manuscript is much shorter than the other drafts? Maybe the other passages **Start diverging here!*** Everything else has significantly longer text blocks, implying more was written for every version after the Manuscript. Needs further evaluation.
 - **End point: end of chapter**
 
 # 3-1-2023
 
-- [ ] Trying to fix "causes" in MS
+- [X] Trying to fix "causes" in MS
