@@ -1663,9 +1663,9 @@
 			<rdg wit="fThomas">causes</rdg>
 			<rdg wit="f1831">causes</rdg>
 		</rdgGrp>
-		<rdgGrp n="['s', '']">
+		<rdgGrp n="['s']">
 			<rdg wit="fMS">&lt;sga-add eID="c57-0018__left_margin__d4e3545"/&gt;cause&lt;sga-add
-				hand="#pbs" sID="c57-0018__main__d4e3549"/&gt;s &lt;sga-add
+				hand="#pbs" sID="c57-0018__main__d4e3549"/&gt;s&lt;sga-add
 				eID="c57-0018__main__d4e3549"/&gt;</rdg>
 		</rdgGrp>
 	</app>
@@ -3364,29 +3364,39 @@
 	</app>
 	<app>
 		<rdgGrp
-			n="['uttered', '&lt;delstart/&gt;seemed&lt;delend/&gt;', '&lt;delstart/&gt;had&lt;delend/&gt;', 'no', 't', '', 'havingany']">
+			n="['uttered', '&lt;delstart/&gt;seemed&lt;delend/&gt;', '&lt;delstart/&gt;had&lt;delend/&gt;']">
 			<rdg wit="fMS">uttered &lt;del rend="strikethrough"
 				xml:id="c57-0019__main__d4e4094"&gt;seemed&lt;/del&gt; &lt;del rend="strikethrough"
-				xml:id="c57-0019__main__d4e4097"&gt;had&lt;/del&gt; no &lt;sga-add
-				place="intralinear" sID="c57-0019__main__d4e4100"/&gt;t &lt;sga-add
-				eID="c57-0019__main__d4e4100"/&gt; having&lt;lb n="c57-0020__main__1"/&gt;any</rdg>
+				xml:id="c57-0019__main__d4e4097"&gt;had&lt;/del&gt;</rdg>
 		</rdgGrp>
-		<rdgGrp n="['uttered,', 'not', 'having', 'any']">
-			<rdg wit="f1818">uttered, not having any</rdg>
-			<rdg wit="f1823">uttered, not having any</rdg>
-			<rdg wit="fThomas">uttered, not having any</rdg>
-			<rdg wit="f1831">uttered, not having any</rdg>
+		<rdgGrp n="['uttered,']">
+			<rdg wit="f1818">uttered,</rdg>
+			<rdg wit="f1823">uttered,</rdg>
+			<rdg wit="fThomas">uttered,</rdg>
+			<rdg wit="f1831">uttered,</rdg>
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['apparent']">
-			<rdg wit="f1818">apparent</rdg>
-			<rdg wit="f1823">apparent</rdg>
-			<rdg wit="fThomas">apparent</rdg>
-			<rdg wit="f1831">apparent</rdg>
-			<rdg wit="fMS">apparent</rdg>
+		<rdgGrp n="['not']">
+			<rdg wit="f1818">not</rdg>
+			<rdg wit="f1823">not</rdg>
+			<rdg wit="fThomas">not</rdg>
+			<rdg wit="f1831">not</rdg>
+			<rdg wit="fMS">no&lt;sga-add place="intralinear"
+				sID="c57-0019__main__d4e4100"/&gt;t</rdg>
 		</rdgGrp>
 	</app>
+	<app>
+		<rdgGrp n="['having', 'any', 'apparent']">
+			<rdg wit="f1818">having any apparent </rdg>
+			<rdg wit="f1823">having any apparent </rdg>
+			<rdg wit="fThomas">having any apparent </rdg>
+			<rdg wit="f1831">having any apparent </rdg>
+			<rdg wit="fMS">&lt;sga-add eID="c57-0019__main__d4e4100"/&gt;having &lt;lb
+				n="c57-0020__main__1"/&gt;any apparent</rdg>
+		</rdgGrp>
+	</app>
+
 	<app>
 		<rdgGrp n="['&lt;delstart/&gt;co&lt;delend/&gt;']">
 			<rdg wit="fMS">&lt;del rend="strikethrough"
@@ -3497,8 +3507,8 @@
 	</app>
 
 	<app>
-		<rdgGrp n="['application', 'how', 'ever']">
-			<rdg wit="fMS">application how &lt;lb n="c57-0020__main__5"/&gt;ever</rdg>
+		<rdgGrp n="['application', 'however']">
+			<rdg wit="fMS">application how&lt;lb n="c57-0020__main__5"/&gt;ever</rdg>
 		</rdgGrp>
 		<rdgGrp n="['application,', 'however,']">
 			<rdg wit="f1818">application, however,</rdg>
@@ -3704,11 +3714,11 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['themsel', '', 'v', '', 'es–', '&lt;delstart/&gt;but as&lt;delend/&gt;']">
+		<rdgGrp n="['themsel', '', 'v', 'es–', '&lt;delstart/&gt;but as&lt;delend/&gt;']">
 			<rdg wit="fMS">themsel &lt;mdel&gt;f&lt;/mdel&gt; &lt;sga-add place="intralinear"
-				sID="c57-0020__main__d4e4207"/&gt;v &lt;sga-add eID="c57-0020__main__d4e4207"/&gt;
-				es– &lt;del rend="strikethrough" xml:id="c57-0020__main__d4e4212"&gt;but
-				as&lt;/del&gt;</rdg>
+				sID="c57-0020__main__d4e4207"/&gt;v &lt;sga-add
+				eID="c57-0020__main__d4e4207"/&gt;es– &lt;del rend="strikethrough"
+				xml:id="c57-0020__main__d4e4212"&gt;but as&lt;/del&gt;</rdg>
 		</rdgGrp>
 		<rdgGrp n="['themselves.']">
 			<rdg wit="f1818">themselves.</rdg>
@@ -4243,27 +4253,36 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['me:', 'when', 'they']">
-			<rdg wit="f1818">me: when they</rdg>
-			<rdg wit="f1823">me: when they</rdg>
-			<rdg wit="fThomas">me: when they</rdg>
-			<rdg wit="f1831">me: when they</rdg>
+		<rdgGrp n="['me:']">
+			<rdg wit="f1818">me:</rdg>
+			<rdg wit="f1823">me:</rdg>
+			<rdg wit="fThomas">me:</rdg>
+			<rdg wit="f1831">me:</rdg>
 		</rdgGrp>
-		<rdgGrp n="['me–when', 'the', 'y', '']">
-			<rdg wit="fMS">me–When &lt;lb n="c57-0020__main__27"/&gt;the &lt;sga-add hand="#pbs"
-				place="intralinear" sID="c57-0020__main__d4e4360"/&gt;y &lt;sga-add
-				eID="c57-0020__main__d4e4360"/&gt;</rdg>
+		<rdgGrp n="['me–']">
+			<rdg wit="fMS">me–</rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['when', 'they']">
+			<rdg wit="f1818">when they</rdg>
+			<rdg wit="f1823">when they</rdg>
+			<rdg wit="fThomas">when they</rdg>
+			<rdg wit="f1831">when they</rdg>
+			<rdg wit="fMS">When &lt;lb n="c57-0020__main__27"/&gt;the&lt;sga-add hand="#pbs"
+				place="intralinear" sID="c57-0020__main__d4e4360"/&gt;y</rdg>
 		</rdgGrp>
 	</app>
 	<app>
 		<rdgGrp n="['were']">
-			<rdg wit="f1818">were</rdg>
-			<rdg wit="f1823">were</rdg>
-			<rdg wit="fThomas">were</rdg>
-			<rdg wit="f1831">were</rdg>
-			<rdg wit="fMS">were</rdg>
+			<rdg wit="f1818">were </rdg>
+			<rdg wit="f1823">were </rdg>
+			<rdg wit="fThomas">were </rdg>
+			<rdg wit="f1831">were </rdg>
+			<rdg wit="fMS">&lt;sga-add eID="c57-0020__main__d4e4360"/&gt;were</rdg>
 		</rdgGrp>
 	</app>
+
 	<app>
 		<rdgGrp n="['unhappy']">
 			<rdg wit="fMS">unhappy</rdg>
@@ -5132,28 +5151,20 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['', '', 'i', '', 'n']">
+		<rdgGrp n="['in', 'the']">
+			<rdg wit="f1818">in the</rdg>
+			<rdg wit="f1823">in the</rdg>
+			<rdg wit="fThomas">in the</rdg>
+			<rdg wit="f1831">in the</rdg>
+		</rdgGrp>
+		<rdgGrp n="['', '', 'in', 'the']">
 			<rdg wit="fMS">&lt;sga-add eID="c57-0022__left_margin__d4e4631"/&gt;
 				&lt;mdel&gt;I&lt;/mdel&gt; &lt;sga-add place="intralinear"
-				sID="c57-0022__main__d4e4639"/&gt;i &lt;sga-add eID="c57-0022__main__d4e4639"/&gt;
-				n</rdg>
-		</rdgGrp>
-		<rdgGrp n="['in']">
-			<rdg wit="f1818">in</rdg>
-			<rdg wit="f1823">in</rdg>
-			<rdg wit="fThomas">in</rdg>
-			<rdg wit="f1831">in</rdg>
+				sID="c57-0022__main__d4e4639"/&gt;i&lt;sga-add eID="c57-0022__main__d4e4639"/&gt;n
+				the</rdg>
 		</rdgGrp>
 	</app>
-	<app>
-		<rdgGrp n="['the']">
-			<rdg wit="f1818">the</rdg>
-			<rdg wit="f1823">the</rdg>
-			<rdg wit="fThomas">the</rdg>
-			<rdg wit="f1831">the</rdg>
-			<rdg wit="fMS">the</rdg>
-		</rdgGrp>
-	</app>
+
 	<app>
 		<rdgGrp n="['morning']">
 			<rdg wit="f1818">morning</rdg>
@@ -5224,12 +5235,12 @@
 	</app>
 
 	<app>
-		<rdgGrp n="['obst', '', '', 'r', '', 'ucted']">
-			<rdg wit="fMS">obst &lt;sga-add place="sublinear" sID="c57-0022__main__d4e4655"/&gt;
+		<rdgGrp n="['obst', '', 'ructed']">
+			<rdg wit="fMS">obst&lt;sga-add place="sublinear" sID="c57-0022__main__d4e4655"/&gt;
 				&lt;metamark function="insert"&gt;^&lt;/metamark&gt; &lt;sga-add
 				eID="c57-0022__main__d4e4655"/&gt;&lt;sga-add place="superlinear"
-				sID="c57-0022__main__d4e4661"/&gt;r &lt;sga-add eID="c57-0022__main__d4e4661"/&gt;
-				ucted</rdg>
+				sID="c57-0022__main__d4e4661"/&gt;r&lt;sga-add
+				eID="c57-0022__main__d4e4661"/&gt;ucted</rdg>
 		</rdgGrp>
 		<rdgGrp n="['obstructed']">
 			<rdg wit="f1818">obstructed</rdg>
@@ -6229,4 +6240,4 @@
 		</rdgGrp>
 	</app>
 </cx:apparatus>
-<!-- 2023-02-25 19:16:49.257423 -->
+<!-- 2023-02-25 20:08:15.555551 -->
