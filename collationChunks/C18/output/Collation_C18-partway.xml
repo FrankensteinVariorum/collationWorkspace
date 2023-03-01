@@ -3430,8 +3430,8 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['', 'mil', 'k', '', 'bread']">
-			<rdg wit="fMS">&lt;/shi&gt; &lt;shi rend=&quot;underline&quot;&gt;mil&lt;/shi&gt; k &lt;lb n=&quot;c57-0020__main__10&quot;/&gt; &lt;shi rend=&quot;underline&quot;&gt;bread&lt;/shi&gt; </rdg>
+		<rdgGrp n="['', 'mil', 'k', 'bread']">
+			<rdg wit="fMS">&lt;/shi&gt; &lt;shi rend=&quot;underline&quot;&gt;mil&lt;/shi&gt; k&lt;lb n=&quot;c57-0020__main__10&quot;/&gt; &lt;shi rend=&quot;underline&quot;&gt;bread&lt;/shi&gt; </rdg>
 		</rdgGrp>
 		<rdgGrp n="['milk,', 'bread,']">
 			<rdg wit="f1818">&lt;hi sID=&quot;novel1_letter4_chapter11_div4_div12_p9_hi2&quot;/&gt;milk&lt;hi eID=&quot;novel1_letter4_chapter11_div4_div12_p9_hi2&quot;/&gt;, &lt;hi sID=&quot;novel1_letter4_chapter11_div4_div12_p9_hi3&quot;/&gt;bread&lt;hi eID=&quot;novel1_letter4_chapter11_div4_div12_p9_hi3&quot;/&gt;, </rdg>
@@ -4156,25 +4156,14 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['i']">
-			<rdg wit="fMS">I </rdg>
+		<rdgGrp n="['i', 'sometimes']">
+			<rdg wit="fMS">I sometimes </rdg>
 		</rdgGrp>
-	</app>
-	<app>
-		<rdgGrp n="['sometimes']">
-			<rdg wit="f1818">sometimes </rdg>
-			<rdg wit="f1823">sometimes </rdg>
-			<rdg wit="fThomas">sometimes </rdg>
-			<rdg wit="f1831">sometimes </rdg>
-			<rdg wit="fMS">sometimes </rdg>
-		</rdgGrp>
-	</app>
-	<app>
-		<rdgGrp n="['i']">
-			<rdg wit="f1818">I </rdg>
-			<rdg wit="f1823">I </rdg>
-			<rdg wit="fThomas">I </rdg>
-			<rdg wit="f1831">I </rdg>
+		<rdgGrp n="['sometimes i']">
+			<rdg wit="f1818">&lt;longToken&gt;sometimes I&lt;/longToken&gt; </rdg>
+			<rdg wit="f1823">&lt;longToken&gt;sometimes I&lt;/longToken&gt; </rdg>
+			<rdg wit="fThomas">&lt;longToken&gt;sometimes I&lt;/longToken&gt; </rdg>
+			<rdg wit="f1831">&lt;longToken&gt;sometimes I&lt;/longToken&gt; </rdg>
 		</rdgGrp>
 	</app>
 	<app>
@@ -4482,8 +4471,8 @@
 		<rdgGrp n="['group;']">
 			<rdg wit="f1831">group; </rdg>
 		</rdgGrp>
-		<rdgGrp n="['groupe', 'and']">
-			<rdg wit="fMS">groupe And </rdg>
+		<rdgGrp n="['groupe', 'and', 'even']">
+			<rdg wit="fMS">groupe And&lt;lb n=&quot;c57-0021__main__21&quot;/&gt; even </rdg>
 		</rdgGrp>
 		<rdgGrp n="['groupe;']">
 			<rdg wit="f1818">groupe; </rdg>
@@ -4492,20 +4481,22 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['and,']">
-			<rdg wit="f1818">and, </rdg>
-			<rdg wit="f1823">and, </rdg>
-			<rdg wit="fThomas">and, </rdg>
-			<rdg wit="f1831">and, </rdg>
+		<rdgGrp n="['and, even']">
+			<rdg wit="f1818">&lt;longToken&gt;and, even&lt;/longToken&gt; </rdg>
+			<rdg wit="fThomas">&lt;longToken&gt;and, even&lt;/longToken&gt; </rdg>
+			<rdg wit="f1831">&lt;longToken&gt;and, even&lt;/longToken&gt; </rdg>
+		</rdgGrp>
+		<rdgGrp n="['and,', '            even']">
+			<rdg wit="f1823">&lt;longToken&gt;and,             even&lt;/longToken&gt; </rdg>
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['even', 'to', 'my', 'unpractised']">
-			<rdg wit="f1818">even to my unpractised </rdg>
-			<rdg wit="f1823">even to my unpractised </rdg>
-			<rdg wit="fThomas">even to my unpractised </rdg>
-			<rdg wit="f1831">even to my unpractised </rdg>
-			<rdg wit="fMS">&lt;lb n=&quot;c57-0021__main__21&quot;/&gt;even to my unpractised </rdg>
+		<rdgGrp n="['to', 'my', 'unpractised']">
+			<rdg wit="f1818">to my unpractised </rdg>
+			<rdg wit="f1823">to my unpractised </rdg>
+			<rdg wit="fThomas">to my unpractised </rdg>
+			<rdg wit="f1831">to my unpractised </rdg>
+			<rdg wit="fMS">to my unpractised </rdg>
 		</rdgGrp>
 	</app>
 	<app>
@@ -5322,6 +5313,9 @@
 		</rdgGrp>
 	</app>
 	<app>
+		<rdgGrp n="['longed  ', 'to  ', '&lt;mod sid=&quot;c57-0022__main__d4e4790&quot;/&gt;', '   &lt;delstart/&gt;understand&lt;delend/&gt;', '    ', '   ', '    ', '    comprehend ', '   &lt;mod eid=&quot;c57-0022__main__d4e4790&quot;/&gt;  these &lt;delstart/&gt;', '      &lt;unclear&gt;b&lt;/unclear&gt;', '   &lt;delend/&gt; also; but how was&lt;zone eid=&quot;c57-0022__main&quot;/&gt;', '   &lt;surface eid=&quot;ox-ms_abinger_c57-0022&quot;/&gt;']">
+			<rdg wit="fMS">&lt;longToken&gt;longed   &lt;lb n=&quot;c57-0022__main__28&quot;/&gt;to   &lt;mod sID=&quot;c57-0022__main__d4e4790&quot;/&gt;    &lt;del rend=&quot;strikethrough&quot; xml:id=&quot;c57-0022__main__d4e4792&quot;&gt;understand&lt;/del&gt;     &lt;sga-add place=&quot;sublinear&quot; sID=&quot;c57-0022__main__d4e4795&quot;/&gt;    &lt;metamark function=&quot;insert&quot;&gt;^&lt;/metamark&gt;     &lt;sga-add eID=&quot;c57-0022__main__d4e4795&quot;/&gt;     &lt;sga-add place=&quot;superlinear&quot; sID=&quot;c57-0022__main__d4e4801&quot;/&gt;comprehend &lt;sga-add eID=&quot;c57-0022__main__d4e4801&quot;/&gt;    &lt;mod eID=&quot;c57-0022__main__d4e4790&quot;/&gt;  these &lt;del rend=&quot;strikethrough&quot; xml:id=&quot;c57-0022__main__d4e4805&quot;&gt;       &lt;unclear&gt;b&lt;/unclear&gt;    &lt;/del&gt; also; but how was&lt;zone eID=&quot;c57-0022__main&quot;/&gt;    &lt;surface eID=&quot;ox-ms_abinger_c57-0022&quot;/&gt;&lt;/longToken&gt; </rdg>
+		</rdgGrp>
 		<rdgGrp n="['longed', 'to', 'comprehend', 'these', 'also;', 'but', 'how', 'was', 'that', 'possible,', 'when', 'i', 'did', 'not', 'even', 'understand', 'the', 'sounds', 'for', 'which', 'they', 'stood', 'as', 'signs?', 'i', 'improved,', 'however,', 'sensibly', 'in', 'this', 'science,', 'but', 'not', 'sufficiently', 'to', 'follow', 'up', 'any', 'kind', 'of', 'conversation,', 'although', 'i', 'applied', 'my', 'whole', 'mind', 'to', 'the', 'endeavour:', 'for', 'i', 'easily', 'perceived', 'that,', 'although', 'i', 'eagerly', 'longed', 'to', 'discover', 'myself', 'to', 'the', 'cottagers,', 'i', 'ought', 'not', 'to', 'make', 'the', 'attempt', 'until', 'i', 'had', 'first', 'become', 'master', 'of', 'their', 'language;', 'which', 'knowledge', 'might', 'enable', 'me', 'to', 'make', 'them', 'overlook', 'the', 'deformity', 'of', 'my', 'figure;', 'for', 'with', 'this', 'also', 'the', 'contrast', 'perpetually', 'presented', 'to', 'my', 'eyes', 'had', 'made', 'me', 'acquainted.', '&lt;p-end/&gt;', '&lt;p-start/&gt;', '&quot;i', 'had', 'admired', 'the', 'perfect', 'forms', 'of', 'my', 'cottagers—their', 'grace,', 'beauty,', 'and', 'delicate', 'complexions:', 'but', 'how', 'was', 'i', 'terrified,', 'when', 'i', 'viewed', 'myself', 'in', 'a', 'transparent', 'pool!', 'at', 'first', 'i', 'started', 'back,', 'unable', 'to', 'believe', 'that', 'it', 'was', 'indeed', 'i', 'who', 'was', 'reflected', 'in', 'the', 'mirror;', 'and', 'when', 'i', 'became', 'fully', 'convinced', 'that', 'i', 'was', 'in', 'reality', 'the', 'monster', 'that', 'i', 'am,', 'i', 'was', 'filled', 'with', 'the', 'bitterest', 'sensations', 'of', 'despondence', 'and', 'mortification.', 'alas!', 'i', 'did', 'not', 'yet', 'entirely', 'know', 'the', 'fatal', 'effects', 'of', 'this', 'miserable', 'deformity.', '&lt;p-end/&gt;', '&lt;p-start/&gt;', '&quot;as', 'the', 'sun', 'became', 'warmer,', 'and', 'the', 'light', 'of', 'day', 'longer,', 'the', 'snow', 'vanished,', 'and', 'i', 'beheld', 'the', 'bare', 'trees', 'and', 'the', 'black', 'earth.', 'from', 'this', 'time', 'felix', 'was', 'more']">
 			<rdg wit="f1818">longed to comprehend these also; but how was that possible, when I did not even understand the sounds for which they stood as signs? I improved, however, sensibly in this science, but not sufficiently to follow up any kind of &lt;pb xml:id=&quot;F1818_v2_067&quot; n=&quot;063&quot;/&gt;conversation, although I applied my whole mind to the endeavour: for I easily perceived that, although I eagerly longed to discover myself to the cottagers, I ought not to make the attempt until I had first become master of their language; which knowledge might enable me to make them overlook the deformity of my figure; for with this also the contrast perpetually presented to my eyes had made me acquainted. &lt;p eID=&quot;novel1_letter4_chapter11_div4_div12_p12&quot;/&gt; &lt;p sID=&quot;novel1_letter4_chapter11_div4_div12_p13&quot;/&gt; “I had admired the perfect forms of my cottagers—their grace, beauty, and delicate complexions: but how was I terrified, when I viewed myself in a transparent pool! At first I started back, unable to believe that it was indeed I who was reflected in the mirror; and when I became fully convinced that I was in reality the monster that I am, I was filled with the bitterest sen&lt;pb xml:id=&quot;F1818_v2_068&quot; n=&quot;064&quot;/&gt;sations of despondence and mortification. Alas! I did not yet entirely know the fatal effects of this miserable deformity. &lt;p eID=&quot;novel1_letter4_chapter11_div4_div12_p13&quot;/&gt; &lt;p sID=&quot;novel1_letter4_chapter11_div4_div12_p14&quot;/&gt; “As the sun became warmer, and the light of day longer, the snow vanished, and I beheld the bare trees and the black earth. From this time Felix was more </rdg>
 			<rdg wit="f1823">longed to comprehend these also; but how was that possible, when I did not even understand the sounds for which they stood as signs? I improved, however, sensibly in this science, but not sufficiently to follow up any kind of &lt;pb xml:id=&quot;F1823_v1_263&quot; n=&quot;244&quot;/&gt;conversation, although I applied my whole mind to the endeavour: for I easily perceived that, although I eagerly longed to discover myself to the cottagers, I ought not to make the attempt until I had first become master of their language; which knowledge might enable me to make them overlook the deformity of my figure; for with this also the contrast perpetually presented to my eyes had made me acquainted. &lt;p eID=&quot;novel1_letter4_chapter11_div4_div11_p12&quot;/&gt; &lt;p sID=&quot;novel1_letter4_chapter11_div4_div11_p13&quot;/&gt; “I had admired the perfect forms of my cottagers—their grace, beauty, and delicate complexions: but how was I terrified, when I viewed myself in a transparent pool! At first I started back, unable to believe that it was indeed I who was reflected in the mirror; and when I became fully convinced that I was in reality the monster that I am, I was filled with the bitterest sen&lt;pb xml:id=&quot;F1823_v1_264&quot; n=&quot;245&quot;/&gt;sations of despondence and mortification. Alas! I did not yet entirely know the fatal effects of this miserable deformity. &lt;p eID=&quot;novel1_letter4_chapter11_div4_div11_p13&quot;/&gt; &lt;p sID=&quot;novel1_letter4_chapter11_div4_div11_p14&quot;/&gt; “As the sun became warmer, and the light of day longer, the snow vanished, and I beheld the bare trees and the black earth. From this time Felix was more </rdg>
@@ -5358,88 +5352,11 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['i', 'attended', 'the', 'motions', 'of', 'the', 'cottagers;', 'and', 'when', 'they', 'were', 'dispersed', 'in', 'various', 'occupations,', 'i', 'slept:', 'the', 'remainder', 'of', 'the', 'day', 'was', 'spent', 'in', 'observing', 'my', 'friends.', 'when', 'they', 'had', 'retired', 'to', 'rest,', 'if', 'there', 'was', 'any', 'moon,', 'or', 'the', 'night', 'was', 'star-light,', 'i', 'went', 'into', 'the', 'woods,', 'and', 'collected', 'my', 'own', 'food', 'and', 'fuel', 'for', 'the', 'cottage.', 'when', 'i', 'returned,', 'as', 'often', 'as', 'it', 'was', 'necessary,', 'i', 'cleared', 'their', 'path', 'from', 'the', 'snow,', 'and', 'performed', 'those', 'offices', 'that', 'i', 'had', 'seen', 'done', 'by', 'felix.', 'i', 'afterwards', 'found', 'that', 'these', 'labours,', 'performed', 'by', 'an', 'invisible', 'hand,', 'greatly', 'astonished', 'them;', 'and', 'once', 'or', 'twice', 'i', 'heard', 'them,', 'on', 'these', 'occasions,', 'utter', 'the', 'words', 'good', 'spirit,', 'wonderful;', 'but', 'i', 'did', 'not', 'then', 'understand', 'the', 'signification', 'of', 'these', 'terms.', '&lt;p-end/&gt;', '&lt;p-start/&gt;', '&quot;my', 'thoughts', 'now', 'became', 'more', 'active,', 'and', 'i']">
-			<rdg wit="f1818">I attended the motions of the cottagers; and when they were dispersed in various occupations, I slept: the remainder of the day was spent in observing my friends. When they had retired to rest, if there was any moon, or the night was star-light, I went into the woods, and collected my own food and fuel for the cottage. When I returned, as often as it was necessary, I cleared their path from the snow, and performed those offices that I had seen done by Felix. I afterwards found that these labours, performed by an invisible hand, greatly astonished them; and once or twice I heard them, on these &lt;pb xml:id=&quot;F1818_v2_070&quot; n=&quot;066&quot;/&gt;occasions, utter the words &lt;hi sID=&quot;novel1_letter4_chapter11_div4_div12_p16_hi1&quot;/&gt;good spirit&lt;hi eID=&quot;novel1_letter4_chapter11_div4_div12_p16_hi1&quot;/&gt;, &lt;hi sID=&quot;novel1_letter4_chapter11_div4_div12_p16_hi2&quot;/&gt;wonderful&lt;hi eID=&quot;novel1_letter4_chapter11_div4_div12_p16_hi2&quot;/&gt;; but I did not then understand the signification of these terms. &lt;p eID=&quot;novel1_letter4_chapter11_div4_div12_p16&quot;/&gt; &lt;p sID=&quot;novel1_letter4_chapter11_div4_div12_p17&quot;/&gt; “My thoughts now became more active, and I </rdg>
-			<rdg wit="f1823">I attended the motions of the cottagers; and when they were dispersed in various occupations, I slept: the remainder of the day was spent in observing my friends. When they had retired to rest, if there was any moon, or the night was star-light, I went into the woods, and collected my own food and fuel for the cottage. When I returned, as often as it was necessary, I cleared their path from the snow, and performed those offices that I had seen done by Felix. I afterwards found that these labours, performed by an invisible hand, greatly astonished them; and once or twice I heard them, on these &lt;pb xml:id=&quot;F1823_v1_266&quot; n=&quot;246&quot;/&gt;occasions, utter the words &lt;hi sID=&quot;novel1_letter4_chapter11_div4_div11_p16_hi1&quot;/&gt;good spirit&lt;hi eID=&quot;novel1_letter4_chapter11_div4_div11_p16_hi1&quot;/&gt;, &lt;hi sID=&quot;novel1_letter4_chapter11_div4_div11_p16_hi2&quot;/&gt;wonderful&lt;hi eID=&quot;novel1_letter4_chapter11_div4_div11_p16_hi2&quot;/&gt;; but I did not then understand the signification of these terms. &lt;p eID=&quot;novel1_letter4_chapter11_div4_div11_p16&quot;/&gt; &lt;p sID=&quot;novel1_letter4_chapter11_div4_div11_p17&quot;/&gt; “My thoughts now became more active, and I </rdg>
-			<rdg wit="fThomas">I attended the motions of the cottagers; and when they were dispersed in various occupations, I slept: the remainder of the day was spent in observing my friends. When they had retired to rest, if there was any moon, or the night was star-light, I went into the woods, and collected my own food and fuel for the cottage. When I returned, as often as it was necessary, I cleared their path from the snow, and performed those offices that I had seen done by Felix. I afterwards found that these labours, performed by an invisible hand, greatly astonished them; and once or twice I heard them, on these &lt;pb xml:id=&quot;F1818_v2_070&quot; n=&quot;066&quot;/&gt;occasions, utter the words &lt;hi sID=&quot;novel1_letter4_chapter11_div4_div12_p15_hi1&quot;/&gt;good spirit&lt;hi eID=&quot;novel1_letter4_chapter11_div4_div12_p15_hi1&quot;/&gt;, &lt;hi sID=&quot;novel1_letter4_chapter11_div4_div12_p15_hi2&quot;/&gt;wonderful&lt;hi eID=&quot;novel1_letter4_chapter11_div4_div12_p15_hi2&quot;/&gt;; but I did not then understand the signification of these terms. &lt;p eID=&quot;novel1_letter4_chapter11_div4_div12_p15&quot;/&gt; &lt;p sID=&quot;novel1_letter4_chapter11_div4_div12_p16&quot;/&gt; “My thoughts now became more active, and I </rdg>
-			<rdg wit="f1831">I attended the motions of the cottagers; and when they were dispersed in various occupations, I slept: the remainder of the day was spent in observing my friends. When they had retired to rest, if there was any moon, or the night was star-light, I went into the woods, and collected my own food and fuel for the cottage. When I returned, as often as it was necessary, I cleared their path from the snow, and performed those offices that I had seen done by Felix. I afterwards found that these labours, performed by an invisible hand, greatly astonished them; and once or twice I heard them, on these occasions, utter the words &lt;hi sID=&quot;novel1_letter4_chapter12_div4_div12_p16_hi1&quot;/&gt;good spirit&lt;hi eID=&quot;novel1_letter4_chapter12_div4_div12_p16_hi1&quot;/&gt;, &lt;hi sID=&quot;novel1_letter4_chapter12_div4_div12_p16_hi2&quot;/&gt;wonderful&lt;hi eID=&quot;novel1_letter4_chapter12_div4_div12_p16_hi2&quot;/&gt;; but I did not then understand the signification of these terms. &lt;p eID=&quot;novel1_letter4_chapter12_div4_div12_p16&quot;/&gt; &lt;p sID=&quot;novel1_letter4_chapter12_div4_div12_p17&quot;/&gt; “My thoughts now became more active, and I </rdg>
-		</rdgGrp>
-	</app>
-	<app>
-		<rdgGrp n="['longed']">
-			<rdg wit="f1818">longed </rdg>
-			<rdg wit="f1823">longed </rdg>
-			<rdg wit="fThomas">longed </rdg>
-			<rdg wit="f1831">longed </rdg>
-			<rdg wit="fMS">longed </rdg>
-		</rdgGrp>
-	</app>
-	<app>
-		<rdgGrp n="['to', 'discover', 'the', 'motives', 'and', 'feelings', 'of', 'these', 'lovely', 'creatures;', 'i', 'was', 'inquisitive']">
-			<rdg wit="f1818">to discover the motives and feelings of these lovely creatures; I was inquisitive </rdg>
-			<rdg wit="f1823">to discover the motives and feelings of these lovely creatures; I was inquisitive </rdg>
-			<rdg wit="fThomas">to discover the motives and feelings of these lovely creatures; I was inquisitive </rdg>
-			<rdg wit="f1831">to discover the motives and feelings of these lovely creatures; I was inquisitive </rdg>
-		</rdgGrp>
-	</app>
-	<app>
-		<rdgGrp n="['to']">
-			<rdg wit="f1818">to </rdg>
-			<rdg wit="f1823">to </rdg>
-			<rdg wit="fThomas">to </rdg>
-			<rdg wit="f1831">to </rdg>
-			<rdg wit="fMS">&lt;lb n=&quot;c57-0022__main__28&quot;/&gt;to </rdg>
-		</rdgGrp>
-	</app>
-	<app>
-		<rdgGrp n="['&lt;delstart/&gt;understand&lt;delend/&gt;', '', '', 'comprehend', '']">
-			<rdg wit="fMS">&lt;del rend=&quot;strikethrough&quot; xml:id=&quot;c57-0022__main__d4e4792&quot;&gt;understand&lt;/del&gt; &lt;sga-add place=&quot;sublinear&quot; sID=&quot;c57-0022__main__d4e4795&quot;/&gt; &lt;metamark function=&quot;insert&quot;&gt;^&lt;/metamark&gt; &lt;sga-add eID=&quot;c57-0022__main__d4e4795&quot;/&gt;&lt;sga-add place=&quot;superlinear&quot; sID=&quot;c57-0022__main__d4e4801&quot;/&gt;comprehend &lt;sga-add eID=&quot;c57-0022__main__d4e4801&quot;/&gt; </rdg>
-		</rdgGrp>
-		<rdgGrp n="['know', 'why', 'felix', 'appeared', 'so', 'miserable,', 'and', 'agatha', 'so', 'sad.', 'i', 'thought', '(foolish', 'wretch!)', 'that', 'it', 'might', 'be', 'in', 'my', 'power', 'to', 'restore', 'happiness', 'to']">
-			<rdg wit="f1818">know why Felix appeared so miserable, and Agatha so sad. I thought (foolish wretch!) that it might be in my power to restore happiness to </rdg>
-			<rdg wit="f1823">know why Felix appeared so miserable, and Agatha so sad. I thought (foolish wretch!) that it might be in my power to restore happiness to </rdg>
-			<rdg wit="fThomas">know why Felix appeared so miserable, and Agatha so sad. I thought (foolish wretch!) that it might be in my power to restore happiness to </rdg>
-			<rdg wit="f1831">know why Felix appeared so miserable, and Agatha so sad. I thought (foolish wretch!) that it might be in my power to restore happiness to </rdg>
-		</rdgGrp>
-	</app>
-	<app>
-		<rdgGrp n="['these']">
-			<rdg wit="f1818">these </rdg>
-			<rdg wit="f1823">these </rdg>
-			<rdg wit="fThomas">these </rdg>
-			<rdg wit="f1831">these </rdg>
-			<rdg wit="fMS">these </rdg>
-		</rdgGrp>
-	</app>
-	<app>
-		<rdgGrp n="['&lt;delstart/&gt;', '      &lt;unclear&gt;b&lt;/unclear&gt;', '   &lt;delend/&gt;', 'also;']">
-			<rdg wit="fMS">&lt;del rend=&quot;strikethrough&quot; xml:id=&quot;c57-0022__main__d4e4805&quot;&gt;       &lt;unclear&gt;b&lt;/unclear&gt;    &lt;/del&gt; also; </rdg>
-		</rdgGrp>
-		<rdgGrp n="['deserving', 'people.', 'when', 'i', 'slept,', 'or', 'was', 'absent,', 'the', 'forms', 'of', 'the', 'venerable', 'blind', 'father,', 'the', 'gentle', 'agatha,', 'and', 'the', 'excellent', 'felix,', 'flitted', 'before', 'me.', 'i', 'looked', 'upon', 'them', 'as', 'superior', 'beings,', 'who', 'would', 'be', 'the', 'arbiters', 'of', 'my', 'future', 'destiny.', 'i', 'formed', 'in', 'my', 'imagination', 'a', 'thousand', 'pictures', 'of', 'presenting', 'myself', 'to', 'them,', 'and', 'their', 'reception', 'of', 'me.', 'i', 'imagined', 'that', 'they', 'would', 'be', 'disgusted,', 'until,', 'by', 'my', 'gentle', 'demeanour', 'and', 'conciliating', 'words,', 'i', 'should', 'first', 'win', 'their', 'favour,', 'and', 'afterwards', 'their', 'love.', '&lt;p-end/&gt;', '&lt;p-start/&gt;', '&quot;these', 'thoughts', 'exhilarated', 'me,', 'and', 'led', 'me', 'to', 'apply', 'with', 'fresh', 'ardour', 'to', 'the', 'acquiring', 'the', 'art', 'of', 'language.', 'my', 'organs', 'were', 'indeed', 'harsh,']">
-			<rdg wit="f1818">deserving people. When I slept, or was absent, the forms of the venerable blind father, the gentle Agatha, and the excellent Felix, flitted before me. I looked upon them as superior beings, who would be the arbiters of my future destiny. I formed in my imagination a thousand pictures of presenting myself to them, and their reception of me. I imagined that they would be disgusted, until, by my gentle demeanour and conciliating &lt;pb xml:id=&quot;F1818_v2_071&quot; n=&quot;067&quot;/&gt;words, I should first win their favour, and afterwards their love. &lt;p eID=&quot;novel1_letter4_chapter11_div4_div12_p17&quot;/&gt; &lt;p sID=&quot;novel1_letter4_chapter11_div4_div12_p18&quot;/&gt; “These thoughts exhilarated me, and led me to apply with fresh ardour to the acquiring the art of language. My organs were indeed harsh, </rdg>
-			<rdg wit="f1823">deserving people. When I slept, or was absent, the forms of the venerable blind father, the gentle Agatha, and the excellent Felix, flitted before me. I looked upon them as superior beings, who would be the arbiters of my future destiny. I formed in my imagination a thousand pictures of presenting myself to them, and their reception of me. I imagined that they would be disgusted, until, by my gentle demeanour and conciliating &lt;pb xml:id=&quot;F1823_v1_267&quot; n=&quot;248&quot;/&gt;words, I should first win their favour, and afterwards their love. &lt;p eID=&quot;novel1_letter4_chapter11_div4_div11_p17&quot;/&gt; &lt;p sID=&quot;novel1_letter4_chapter11_div4_div11_p18&quot;/&gt; “These thoughts exhilarated me, and led me to apply with fresh ardour to the acquiring the art of language. My organs were indeed harsh, </rdg>
-			<rdg wit="fThomas">deserving people. When I slept, or was absent, the forms of the venerable blind father, the gentle Agatha, and the excellent Felix, flitted before me. I looked upon them as superior beings, who would be the arbiters of my future destiny. I formed in my imagination a thousand pictures of presenting myself to them, and their reception of me. I imagined that they would be disgusted, until, by my gentle demeanour and conciliating &lt;pb xml:id=&quot;F1818_v2_071&quot; n=&quot;067&quot;/&gt;words, I should first win their favour, and afterwards their love. &lt;p eID=&quot;novel1_letter4_chapter11_div4_div12_p16&quot;/&gt; &lt;p sID=&quot;novel1_letter4_chapter11_div4_div12_p17&quot;/&gt; “These thoughts exhilarated me, and led me to apply with fresh ardour to the acquiring the art of language. My organs were indeed harsh, </rdg>
-			<rdg wit="f1831">deserving people. When I slept, or was absent, the forms of the venerable blind father, the gentle Agatha, and the excellent Felix, flitted before me. I looked upon them as superior beings, who would be the arbiters of my future destiny. I formed in my imagination a thousand pictures of presenting myself to them, and their reception of me. I imagined that they would be disgusted, until, by my gentle demeanour and conciliating words, I should first win their favour, and afterwards their love. &lt;p eID=&quot;novel1_letter4_chapter12_div4_div12_p17&quot;/&gt; &lt;p sID=&quot;novel1_letter4_chapter12_div4_div12_p18&quot;/&gt; “These thoughts exhilarated me, and led me to apply with fresh ardour to the acquiring the art of language. My organs were indeed harsh, </rdg>
-		</rdgGrp>
-	</app>
-	<app>
-		<rdgGrp n="['but']">
-			<rdg wit="f1818">but </rdg>
-			<rdg wit="f1823">but </rdg>
-			<rdg wit="fThomas">but </rdg>
-			<rdg wit="f1831">but </rdg>
-			<rdg wit="fMS">but </rdg>
-		</rdgGrp>
-	</app>
-	<app>
-		<rdgGrp n="['how']">
-			<rdg wit="fMS">how </rdg>
-		</rdgGrp>
-		<rdgGrp n="['supple;', 'and', 'although', 'my', 'voice', 'was', 'very', 'unlike', 'the', 'soft', 'music', 'of', 'their', 'tones,', 'yet', 'i', 'pronounced', 'such', 'words', 'as', 'i', 'understood', 'with', 'tolerable', 'ease.', 'it', 'was', 'as', 'the', 'ass', 'and', 'the', 'lap-dog;', 'yet', 'surely', 'the', 'gentle']">
-			<rdg wit="f1818">supple; and although my voice was very unlike the soft music of their tones, yet I pronounced such words as I understood with tolerable ease. It was as the ass and the lap-dog; yet surely the gentle </rdg>
-			<rdg wit="f1823">supple; and although my voice was very unlike the soft music of their tones, yet I pronounced such words as I understood with tolerable ease. It was as the ass and the lap-dog; yet surely the gentle </rdg>
-			<rdg wit="fThomas">supple; and although my voice was very unlike the soft music of their tones, yet I pronounced such words as I understood with tolerable ease. It was as the ass and the lap-dog; yet surely the gentle </rdg>
-			<rdg wit="f1831">supple; and although my voice was very unlike the soft music of their tones, yet I pronounced such words as I understood with tolerable ease. It was as the ass and the lap-dog; yet surely the gentle </rdg>
+		<rdgGrp n="['i', 'attended', 'the', 'motions', 'of', 'the', 'cottagers;', 'and', 'when', 'they', 'were', 'dispersed', 'in', 'various', 'occupations,', 'i', 'slept:', 'the', 'remainder', 'of', 'the', 'day', 'was', 'spent', 'in', 'observing', 'my', 'friends.', 'when', 'they', 'had', 'retired', 'to', 'rest,', 'if', 'there', 'was', 'any', 'moon,', 'or', 'the', 'night', 'was', 'star-light,', 'i', 'went', 'into', 'the', 'woods,', 'and', 'collected', 'my', 'own', 'food', 'and', 'fuel', 'for', 'the', 'cottage.', 'when', 'i', 'returned,', 'as', 'often', 'as', 'it', 'was', 'necessary,', 'i', 'cleared', 'their', 'path', 'from', 'the', 'snow,', 'and', 'performed', 'those', 'offices', 'that', 'i', 'had', 'seen', 'done', 'by', 'felix.', 'i', 'afterwards', 'found', 'that', 'these', 'labours,', 'performed', 'by', 'an', 'invisible', 'hand,', 'greatly', 'astonished', 'them;', 'and', 'once', 'or', 'twice', 'i', 'heard', 'them,', 'on', 'these', 'occasions,', 'utter', 'the', 'words', 'good', 'spirit,', 'wonderful;', 'but', 'i', 'did', 'not', 'then', 'understand', 'the', 'signification', 'of', 'these', 'terms.', '&lt;p-end/&gt;', '&lt;p-start/&gt;', '&quot;my', 'thoughts', 'now', 'became', 'more', 'active,', 'and', 'i', 'longed', 'to', 'discover', 'the', 'motives', 'and', 'feelings', 'of', 'these', 'lovely', 'creatures;', 'i', 'was', 'inquisitive', 'to', 'know', 'why', 'felix', 'appeared', 'so', 'miserable,', 'and', 'agatha', 'so', 'sad.', 'i', 'thought', '(foolish', 'wretch!)', 'that', 'it', 'might', 'be', 'in', 'my', 'power', 'to', 'restore', 'happiness', 'to', 'these', 'deserving', 'people.', 'when', 'i', 'slept,', 'or', 'was', 'absent,', 'the', 'forms', 'of', 'the', 'venerable', 'blind', 'father,', 'the', 'gentle', 'agatha,', 'and', 'the', 'excellent', 'felix,', 'flitted', 'before', 'me.', 'i', 'looked', 'upon', 'them', 'as', 'superior', 'beings,', 'who', 'would', 'be', 'the', 'arbiters', 'of', 'my', 'future', 'destiny.', 'i', 'formed', 'in', 'my', 'imagination', 'a', 'thousand', 'pictures', 'of', 'presenting', 'myself', 'to', 'them,', 'and', 'their', 'reception', 'of', 'me.', 'i', 'imagined', 'that', 'they', 'would', 'be', 'disgusted,', 'until,', 'by', 'my', 'gentle', 'demeanour', 'and', 'conciliating', 'words,', 'i', 'should', 'first', 'win', 'their', 'favour,', 'and', 'afterwards', 'their', 'love.', '&lt;p-end/&gt;', '&lt;p-start/&gt;', '&quot;these', 'thoughts', 'exhilarated', 'me,', 'and', 'led', 'me', 'to', 'apply', 'with', 'fresh', 'ardour', 'to', 'the', 'acquiring', 'the', 'art', 'of', 'language.', 'my', 'organs', 'were', 'indeed', 'harsh,', 'but', 'supple;', 'and', 'although', 'my', 'voice', 'was', 'very', 'unlike', 'the', 'soft', 'music', 'of', 'their', 'tones,', 'yet', 'i', 'pronounced', 'such', 'words', 'as', 'i', 'understood', 'with', 'tolerable', 'ease.', 'it', 'was', 'as', 'the', 'ass', 'and', 'the', 'lap-dog;', 'yet', 'surely', 'the', 'gentle']">
+			<rdg wit="f1818">I attended the motions of the cottagers; and when they were dispersed in various occupations, I slept: the remainder of the day was spent in observing my friends. When they had retired to rest, if there was any moon, or the night was star-light, I went into the woods, and collected my own food and fuel for the cottage. When I returned, as often as it was necessary, I cleared their path from the snow, and performed those offices that I had seen done by Felix. I afterwards found that these labours, performed by an invisible hand, greatly astonished them; and once or twice I heard them, on these &lt;pb xml:id=&quot;F1818_v2_070&quot; n=&quot;066&quot;/&gt;occasions, utter the words &lt;hi sID=&quot;novel1_letter4_chapter11_div4_div12_p16_hi1&quot;/&gt;good spirit&lt;hi eID=&quot;novel1_letter4_chapter11_div4_div12_p16_hi1&quot;/&gt;, &lt;hi sID=&quot;novel1_letter4_chapter11_div4_div12_p16_hi2&quot;/&gt;wonderful&lt;hi eID=&quot;novel1_letter4_chapter11_div4_div12_p16_hi2&quot;/&gt;; but I did not then understand the signification of these terms. &lt;p eID=&quot;novel1_letter4_chapter11_div4_div12_p16&quot;/&gt; &lt;p sID=&quot;novel1_letter4_chapter11_div4_div12_p17&quot;/&gt; “My thoughts now became more active, and I longed to discover the motives and feelings of these lovely creatures; I was inquisitive to know why Felix appeared so miserable, and Agatha so sad. I thought (foolish wretch!) that it might be in my power to restore happiness to these deserving people. When I slept, or was absent, the forms of the venerable blind father, the gentle Agatha, and the excellent Felix, flitted before me. I looked upon them as superior beings, who would be the arbiters of my future destiny. I formed in my imagination a thousand pictures of presenting myself to them, and their reception of me. I imagined that they would be disgusted, until, by my gentle demeanour and conciliating &lt;pb xml:id=&quot;F1818_v2_071&quot; n=&quot;067&quot;/&gt;words, I should first win their favour, and afterwards their love. &lt;p eID=&quot;novel1_letter4_chapter11_div4_div12_p17&quot;/&gt; &lt;p sID=&quot;novel1_letter4_chapter11_div4_div12_p18&quot;/&gt; “These thoughts exhilarated me, and led me to apply with fresh ardour to the acquiring the art of language. My organs were indeed harsh, but supple; and although my voice was very unlike the soft music of their tones, yet I pronounced such words as I understood with tolerable ease. It was as the ass and the lap-dog; yet surely the gentle </rdg>
+			<rdg wit="f1823">I attended the motions of the cottagers; and when they were dispersed in various occupations, I slept: the remainder of the day was spent in observing my friends. When they had retired to rest, if there was any moon, or the night was star-light, I went into the woods, and collected my own food and fuel for the cottage. When I returned, as often as it was necessary, I cleared their path from the snow, and performed those offices that I had seen done by Felix. I afterwards found that these labours, performed by an invisible hand, greatly astonished them; and once or twice I heard them, on these &lt;pb xml:id=&quot;F1823_v1_266&quot; n=&quot;246&quot;/&gt;occasions, utter the words &lt;hi sID=&quot;novel1_letter4_chapter11_div4_div11_p16_hi1&quot;/&gt;good spirit&lt;hi eID=&quot;novel1_letter4_chapter11_div4_div11_p16_hi1&quot;/&gt;, &lt;hi sID=&quot;novel1_letter4_chapter11_div4_div11_p16_hi2&quot;/&gt;wonderful&lt;hi eID=&quot;novel1_letter4_chapter11_div4_div11_p16_hi2&quot;/&gt;; but I did not then understand the signification of these terms. &lt;p eID=&quot;novel1_letter4_chapter11_div4_div11_p16&quot;/&gt; &lt;p sID=&quot;novel1_letter4_chapter11_div4_div11_p17&quot;/&gt; “My thoughts now became more active, and I longed to discover the motives and feelings of these lovely creatures; I was inquisitive to know why Felix appeared so miserable, and Agatha so sad. I thought (foolish wretch!) that it might be in my power to restore happiness to these deserving people. When I slept, or was absent, the forms of the venerable blind father, the gentle Agatha, and the excellent Felix, flitted before me. I looked upon them as superior beings, who would be the arbiters of my future destiny. I formed in my imagination a thousand pictures of presenting myself to them, and their reception of me. I imagined that they would be disgusted, until, by my gentle demeanour and conciliating &lt;pb xml:id=&quot;F1823_v1_267&quot; n=&quot;248&quot;/&gt;words, I should first win their favour, and afterwards their love. &lt;p eID=&quot;novel1_letter4_chapter11_div4_div11_p17&quot;/&gt; &lt;p sID=&quot;novel1_letter4_chapter11_div4_div11_p18&quot;/&gt; “These thoughts exhilarated me, and led me to apply with fresh ardour to the acquiring the art of language. My organs were indeed harsh, but supple; and although my voice was very unlike the soft music of their tones, yet I pronounced such words as I understood with tolerable ease. It was as the ass and the lap-dog; yet surely the gentle </rdg>
+			<rdg wit="fThomas">I attended the motions of the cottagers; and when they were dispersed in various occupations, I slept: the remainder of the day was spent in observing my friends. When they had retired to rest, if there was any moon, or the night was star-light, I went into the woods, and collected my own food and fuel for the cottage. When I returned, as often as it was necessary, I cleared their path from the snow, and performed those offices that I had seen done by Felix. I afterwards found that these labours, performed by an invisible hand, greatly astonished them; and once or twice I heard them, on these &lt;pb xml:id=&quot;F1818_v2_070&quot; n=&quot;066&quot;/&gt;occasions, utter the words &lt;hi sID=&quot;novel1_letter4_chapter11_div4_div12_p15_hi1&quot;/&gt;good spirit&lt;hi eID=&quot;novel1_letter4_chapter11_div4_div12_p15_hi1&quot;/&gt;, &lt;hi sID=&quot;novel1_letter4_chapter11_div4_div12_p15_hi2&quot;/&gt;wonderful&lt;hi eID=&quot;novel1_letter4_chapter11_div4_div12_p15_hi2&quot;/&gt;; but I did not then understand the signification of these terms. &lt;p eID=&quot;novel1_letter4_chapter11_div4_div12_p15&quot;/&gt; &lt;p sID=&quot;novel1_letter4_chapter11_div4_div12_p16&quot;/&gt; “My thoughts now became more active, and I longed to discover the motives and feelings of these lovely creatures; I was inquisitive to know why Felix appeared so miserable, and Agatha so sad. I thought (foolish wretch!) that it might be in my power to restore happiness to these deserving people. When I slept, or was absent, the forms of the venerable blind father, the gentle Agatha, and the excellent Felix, flitted before me. I looked upon them as superior beings, who would be the arbiters of my future destiny. I formed in my imagination a thousand pictures of presenting myself to them, and their reception of me. I imagined that they would be disgusted, until, by my gentle demeanour and conciliating &lt;pb xml:id=&quot;F1818_v2_071&quot; n=&quot;067&quot;/&gt;words, I should first win their favour, and afterwards their love. &lt;p eID=&quot;novel1_letter4_chapter11_div4_div12_p16&quot;/&gt; &lt;p sID=&quot;novel1_letter4_chapter11_div4_div12_p17&quot;/&gt; “These thoughts exhilarated me, and led me to apply with fresh ardour to the acquiring the art of language. My organs were indeed harsh, but supple; and although my voice was very unlike the soft music of their tones, yet I pronounced such words as I understood with tolerable ease. It was as the ass and the lap-dog; yet surely the gentle </rdg>
+			<rdg wit="f1831">I attended the motions of the cottagers; and when they were dispersed in various occupations, I slept: the remainder of the day was spent in observing my friends. When they had retired to rest, if there was any moon, or the night was star-light, I went into the woods, and collected my own food and fuel for the cottage. When I returned, as often as it was necessary, I cleared their path from the snow, and performed those offices that I had seen done by Felix. I afterwards found that these labours, performed by an invisible hand, greatly astonished them; and once or twice I heard them, on these occasions, utter the words &lt;hi sID=&quot;novel1_letter4_chapter12_div4_div12_p16_hi1&quot;/&gt;good spirit&lt;hi eID=&quot;novel1_letter4_chapter12_div4_div12_p16_hi1&quot;/&gt;, &lt;hi sID=&quot;novel1_letter4_chapter12_div4_div12_p16_hi2&quot;/&gt;wonderful&lt;hi eID=&quot;novel1_letter4_chapter12_div4_div12_p16_hi2&quot;/&gt;; but I did not then understand the signification of these terms. &lt;p eID=&quot;novel1_letter4_chapter12_div4_div12_p16&quot;/&gt; &lt;p sID=&quot;novel1_letter4_chapter12_div4_div12_p17&quot;/&gt; “My thoughts now became more active, and I longed to discover the motives and feelings of these lovely creatures; I was inquisitive to know why Felix appeared so miserable, and Agatha so sad. I thought (foolish wretch!) that it might be in my power to restore happiness to these deserving people. When I slept, or was absent, the forms of the venerable blind father, the gentle Agatha, and the excellent Felix, flitted before me. I looked upon them as superior beings, who would be the arbiters of my future destiny. I formed in my imagination a thousand pictures of presenting myself to them, and their reception of me. I imagined that they would be disgusted, until, by my gentle demeanour and conciliating words, I should first win their favour, and afterwards their love. &lt;p eID=&quot;novel1_letter4_chapter12_div4_div12_p17&quot;/&gt; &lt;p sID=&quot;novel1_letter4_chapter12_div4_div12_p18&quot;/&gt; “These thoughts exhilarated me, and led me to apply with fresh ardour to the acquiring the art of language. My organs were indeed harsh, but supple; and although my voice was very unlike the soft music of their tones, yet I pronounced such words as I understood with tolerable ease. It was as the ass and the lap-dog; yet surely the gentle </rdg>
 		</rdgGrp>
 	</app>
 	<app>
@@ -5471,28 +5388,11 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['this', 'change', 'seemed', 'to', 'have', 'been', 'hid', 'in', 'caves,', 'dispersed', 'themselves,', 'and', 'were', 'employed', 'in', 'various', 'arts', 'of', 'cultivation.', 'the', 'birds', 'sang', 'in', 'more', 'cheerful', 'notes,', 'and', 'the', 'leaves', 'began', 'to', 'bud', 'forth', 'on', 'the', 'trees.', 'happy,', 'happy', 'earth!', 'fit', 'habitation', 'for', 'gods,', 'which,', 'so', 'short', 'a', 'time', 'before,', 'was', 'bleak,', 'damp,', 'and', 'unwholesome.', 'my', 'spirits', 'were', 'elevated', 'by', 'the', 'enchanting', 'appearance', 'of', 'nature;', 'the', 'past', 'was', 'blotted', 'from', 'my', 'memory,', 'the', 'present']">
-			<rdg wit="f1818">this change seemed to have been hid in caves, dispersed themselves, and were employed in various arts of cultivation. The birds sang in more cheer&lt;pb xml:id=&quot;F1818_v2_072&quot; n=&quot;068&quot;/&gt;ful notes, and the leaves began to bud forth on the trees. Happy, happy earth! fit habitation for gods, which, so short a time before, was bleak, damp, and unwholesome. My spirits were elevated by the enchanting appearance of nature; the past was blotted from my memory, the present </rdg>
-			<rdg wit="f1823">this change seemed to have been hid in caves, dispersed themselves, and were employed in various arts of cultivation. The birds sang in more cheer&lt;pb xml:id=&quot;F1823_v1_268&quot; n=&quot;249&quot;/&gt;ful notes, and the leaves began to bud forth on the trees. Happy, happy earth! fit habitation for gods, which, so short a time before, was bleak, damp, and unwholesome. My spirits were elevated by the enchanting appearance of nature; the past was blotted from my memory, the present </rdg>
-			<rdg wit="fThomas">this change seemed to have been hid in caves, dispersed themselves, and were employed in various arts of cultivation. The birds sang in more cheer&lt;pb xml:id=&quot;F1818_v2_072&quot; n=&quot;068&quot;/&gt;ful notes, and the leaves began to bud forth on the trees. Happy, happy earth! fit habitation for gods, which, so short a time before, was bleak, damp, and unwholesome. My spirits were elevated by the enchanting appearance of nature; the past was blotted from my memory, the present </rdg>
-			<rdg wit="f1831">this change seemed to have been hid in caves, dispersed themselves, and were employed in various arts of cultiva&lt;pb xml:id=&quot;F1831_v_115&quot; n=&quot;99&quot;/&gt;tion. The birds sang in more cheerful notes, and the leaves began to bud forth on the trees. Happy, happy earth! fit habitation for gods, which, so short a time before, was bleak, damp, and unwholesome. My spirits were elevated by the enchanting appearance of nature; the past was blotted from my memory, the present </rdg>
-		</rdgGrp>
-	</app>
-	<app>
-		<rdgGrp n="['was']">
-			<rdg wit="f1818">was </rdg>
-			<rdg wit="f1823">was </rdg>
-			<rdg wit="fThomas">was </rdg>
-			<rdg wit="f1831">was </rdg>
-			<rdg wit="fMS">was </rdg>
-		</rdgGrp>
-	</app>
-	<app>
-		<rdgGrp n="['tranquil,', 'and', 'the', 'future', 'gilded', 'by', 'bright', 'rays', 'of', 'hope,', 'and', 'anticipations', 'of']">
-			<rdg wit="f1818">tranquil, and the future gilded by bright rays of hope, and anticipations of </rdg>
-			<rdg wit="f1823">tranquil, and the future gilded by bright rays of hope, and anticipations of </rdg>
-			<rdg wit="fThomas">tranquil, and the future gilded by bright rays of hope, and anticipations of </rdg>
-			<rdg wit="f1831">tranquil, and the future gilded by bright rays of hope, and anticipations of </rdg>
+		<rdgGrp n="['this', 'change', 'seemed', 'to', 'have', 'been', 'hid', 'in', 'caves,', 'dispersed', 'themselves,', 'and', 'were', 'employed', 'in', 'various', 'arts', 'of', 'cultivation.', 'the', 'birds', 'sang', 'in', 'more', 'cheerful', 'notes,', 'and', 'the', 'leaves', 'began', 'to', 'bud', 'forth', 'on', 'the', 'trees.', 'happy,', 'happy', 'earth!', 'fit', 'habitation', 'for', 'gods,', 'which,', 'so', 'short', 'a', 'time', 'before,', 'was', 'bleak,', 'damp,', 'and', 'unwholesome.', 'my', 'spirits', 'were', 'elevated', 'by', 'the', 'enchanting', 'appearance', 'of', 'nature;', 'the', 'past', 'was', 'blotted', 'from', 'my', 'memory,', 'the', 'present', 'was', 'tranquil,', 'and', 'the', 'future', 'gilded', 'by', 'bright', 'rays', 'of', 'hope,', 'and', 'anticipations', 'of']">
+			<rdg wit="f1818">this change seemed to have been hid in caves, dispersed themselves, and were employed in various arts of cultivation. The birds sang in more cheer&lt;pb xml:id=&quot;F1818_v2_072&quot; n=&quot;068&quot;/&gt;ful notes, and the leaves began to bud forth on the trees. Happy, happy earth! fit habitation for gods, which, so short a time before, was bleak, damp, and unwholesome. My spirits were elevated by the enchanting appearance of nature; the past was blotted from my memory, the present was tranquil, and the future gilded by bright rays of hope, and anticipations of </rdg>
+			<rdg wit="f1823">this change seemed to have been hid in caves, dispersed themselves, and were employed in various arts of cultivation. The birds sang in more cheer&lt;pb xml:id=&quot;F1823_v1_268&quot; n=&quot;249&quot;/&gt;ful notes, and the leaves began to bud forth on the trees. Happy, happy earth! fit habitation for gods, which, so short a time before, was bleak, damp, and unwholesome. My spirits were elevated by the enchanting appearance of nature; the past was blotted from my memory, the present was tranquil, and the future gilded by bright rays of hope, and anticipations of </rdg>
+			<rdg wit="fThomas">this change seemed to have been hid in caves, dispersed themselves, and were employed in various arts of cultivation. The birds sang in more cheer&lt;pb xml:id=&quot;F1818_v2_072&quot; n=&quot;068&quot;/&gt;ful notes, and the leaves began to bud forth on the trees. Happy, happy earth! fit habitation for gods, which, so short a time before, was bleak, damp, and unwholesome. My spirits were elevated by the enchanting appearance of nature; the past was blotted from my memory, the present was tranquil, and the future gilded by bright rays of hope, and anticipations of </rdg>
+			<rdg wit="f1831">this change seemed to have been hid in caves, dispersed themselves, and were employed in various arts of cultiva&lt;pb xml:id=&quot;F1831_v_115&quot; n=&quot;99&quot;/&gt;tion. The birds sang in more cheerful notes, and the leaves began to bud forth on the trees. Happy, happy earth! fit habitation for gods, which, so short a time before, was bleak, damp, and unwholesome. My spirits were elevated by the enchanting appearance of nature; the past was blotted from my memory, the present was tranquil, and the future gilded by bright rays of hope, and anticipations of </rdg>
 		</rdgGrp>
 	</app>
 	<app>
@@ -5542,7 +5442,8 @@
 			<rdg wit="f1823"> </rdg>
 			<rdg wit="fThomas"> </rdg>
 			<rdg wit="f1831"> </rdg>
+			<rdg wit="fMS"> </rdg>
 		</rdgGrp>
 	</app>
 </cx:apparatus>
-<!-- 2023-03-01 19:39:24.401008 -->
+<!-- 2023-03-01 20:36:22.889466 -->
