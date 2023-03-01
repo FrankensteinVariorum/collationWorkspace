@@ -3388,20 +3388,17 @@
 	</app>
 
 	<app>
-		<rdgGrp n="['&lt;delstart/&gt;co&lt;delend/&gt;']">
-			<rdg wit="fMS">&lt;del rend="strikethrough"
-				xml:id="c57-0020__main__d4e4113"&gt;co&lt;/del&gt;</rdg>
+		<rdgGrp n="['&lt;delstart/&gt;co&lt;delend/&gt; connexion']">
+			<rdg wit="fMS">&lt;longToken&gt;&lt;del rend="strikethrough"
+				xml:id="c57-0020__main__d4e4113"&gt;co&lt;/del&gt; connexion&lt;/longToken&gt;</rdg>
 		</rdgGrp>
 		<rdgGrp n="['connection']">
 			<rdg wit="f1831">connection</rdg>
 		</rdgGrp>
-	</app>
-	<app>
 		<rdgGrp n="['connexion']">
 			<rdg wit="f1818">connexion</rdg>
 			<rdg wit="f1823">connexion</rdg>
 			<rdg wit="fThomas">connexion</rdg>
-			<rdg wit="fMS">connexion</rdg>
 		</rdgGrp>
 	</app>
 	<app>
@@ -4294,14 +4291,23 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['depressed', 'andi']">
-			<rdg wit="fMS">depressed and&lt;lb n="c57-0021__main__1"/&gt;I</rdg>
+		<rdgGrp n="['depressed', 'and']">
+			<rdg wit="fMS">depressed and&lt;lb n="c57-0021__main__1"/&gt;</rdg>
 		</rdgGrp>
-		<rdgGrp n="['depressed;', 'when', 'they', 'rejoiced,', 'i']">
-			<rdg wit="f1818">depressed; when they rejoiced, I</rdg>
-			<rdg wit="f1823">depressed; when they rejoiced, I</rdg>
-			<rdg wit="fThomas">depressed; when they rejoiced, I</rdg>
-			<rdg wit="f1831">depressed; when they rejoiced, I</rdg>
+		<rdgGrp n="['depressed;', 'when', 'they', 'rejoiced,']">
+			<rdg wit="f1818">depressed; when they rejoiced,</rdg>
+			<rdg wit="f1823">depressed; when they rejoiced,</rdg>
+			<rdg wit="fThomas">depressed; when they rejoiced,</rdg>
+			<rdg wit="f1831">depressed; when they rejoiced,</rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['i']">
+			<rdg wit="f1818">I</rdg>
+			<rdg wit="f1823">I</rdg>
+			<rdg wit="fThomas">I</rdg>
+			<rdg wit="f1831">I</rdg>
+			<rdg wit="fMS">I</rdg>
 		</rdgGrp>
 	</app>
 	<app>
@@ -5689,18 +5695,18 @@
 	</app>
 	<app>
 		<rdgGrp
-			n="['longed', 'to', '&lt;mod sid=&#34;c57-0022__main__d4e4790&#34;/&gt;', '&lt;delstart/&gt;understand&lt;delend/&gt;', '', '', '', 'comprehend ', '&lt;mod eid=&#34;c57-0022__main__d4e4790&#34;/&gt;these &lt;delstart/&gt;', '&lt;unclear&gt;b&lt;/unclear&gt;', '&lt;delend/&gt; also; but how was&lt;zone eid=&#34;c57-0022__main&#34;/&gt;', '&lt;surface eid=&#34;ox-ms_abinger_c57-0022&#34;/&gt;']">
+			n="['longed to&lt;mod sid=&#34;c57-0022__main__d4e4790&#34;/&gt;&lt;delstart/&gt;understand&lt;delend/&gt;comprehend &lt;mod eid=&#34;c57-0022__main__d4e4790&#34;/&gt;these &lt;delstart/&gt;&lt;unclear&gt;b&lt;/unclear&gt;&lt;delend/&gt; also; but how was&lt;zone eid=&#34;c57-0022__main&#34;/&gt;&lt;surface eid=&#34;ox-ms_abinger_c57-0022&#34;/&gt;']">
 			<rdg wit="fMS">&lt;longToken&gt;longed &lt;lb n="c57-0022__main__28"/&gt;to &lt;mod
-				sID="c57-0022__main__d4e4790"/&gt; &lt;del rend="strikethrough"
-				xml:id="c57-0022__main__d4e4792"&gt;understand&lt;/del&gt; &lt;sga-add
-				place="sublinear" sID="c57-0022__main__d4e4795"/&gt; &lt;metamark
-				function="insert"&gt;^&lt;/metamark&gt; &lt;sga-add
-				eID="c57-0022__main__d4e4795"/&gt; &lt;sga-add place="superlinear"
+				sID="c57-0022__main__d4e4790"/&gt;&lt;del rend="strikethrough"
+				xml:id="c57-0022__main__d4e4792"&gt;understand&lt;/del&gt;&lt;sga-add
+				place="sublinear" sID="c57-0022__main__d4e4795"/&gt;&lt;metamark
+				function="insert"&gt;^&lt;/metamark&gt;&lt;sga-add
+				eID="c57-0022__main__d4e4795"/&gt;&lt;sga-add place="superlinear"
 				sID="c57-0022__main__d4e4801"/&gt;comprehend &lt;sga-add
-				eID="c57-0022__main__d4e4801"/&gt; &lt;mod eID="c57-0022__main__d4e4790"/&gt; these
-				&lt;del rend="strikethrough" xml:id="c57-0022__main__d4e4805"&gt;
-				&lt;unclear&gt;b&lt;/unclear&gt; &lt;/del&gt; also; but how was&lt;zone
-				eID="c57-0022__main"/&gt; &lt;surface
+				eID="c57-0022__main__d4e4801"/&gt;&lt;mod eID="c57-0022__main__d4e4790"/&gt; these
+				&lt;del rend="strikethrough"
+				xml:id="c57-0022__main__d4e4805"&gt;&lt;unclear&gt;b&lt;/unclear&gt;&lt;/del&gt;
+				also; but how was&lt;zone eID="c57-0022__main"/&gt;&lt;surface
 				eID="ox-ms_abinger_c57-0022"/&gt;&lt;/longToken&gt;</rdg>
 		</rdgGrp>
 		<rdgGrp
@@ -6089,41 +6095,32 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['&lt;p-end/&gt;']">
-			<rdg wit="f1818">&lt;p eID="novel1_letter4_chapter11_div4_div12_p19"/&gt;</rdg>
-			<rdg wit="f1823">&lt;p eID="novel1_letter4_chapter11_div4_div11_p19"/&gt;</rdg>
-			<rdg wit="fThomas">&lt;p eID="novel1_letter4_chapter11_div4_div12_p18"/&gt;</rdg>
-			<rdg wit="f1831">&lt;p eID="novel1_letter4_chapter12_div4_div12_p19"/&gt;</rdg>
+		<rdgGrp n="['&lt;p-end/&gt;', '']">
+			<rdg wit="f1818">&lt;p eID="novel1_letter4_chapter11_div4_div12_p19"/&gt; &lt;milestone
+				unit="chapter" type="end" n="11"/&gt;</rdg>
+			<rdg wit="f1823">&lt;p eID="novel1_letter4_chapter11_div4_div11_p19"/&gt;
+				&lt;longToken&gt;&lt;milestone unit="chapter" type="end" n="11"/&gt;</rdg>
+			<rdg wit="fThomas">&lt;p eID="novel1_letter4_chapter11_div4_div12_p18"/&gt;
+				&lt;milestone unit="chapter" type="end" n="11"/&gt;</rdg>
+			<rdg wit="f1831">&lt;p eID="novel1_letter4_chapter12_div4_div12_p19"/&gt; &lt;milestone
+				unit="chapter" type="end" n="12"/&gt;</rdg>
 		</rdgGrp>
 	</app>
-	<app>
-		<rdgGrp n="['']">
-			<rdg wit="f1818">&lt;milestone unit="chapter" type="end" n="11"/&gt; </rdg>
-			<rdg wit="f1823">&lt;milestone unit="chapter" type="end" n="11"/&gt;&lt;head&gt;</rdg>
-		</rdgGrp>
-	</app>
-
-	<app>
-		<rdgGrp n="['']">
-			<rdg wit="fThomas">&lt;milestone unit="chapter" type="end" n="11"/&gt;</rdg>
-			<rdg wit="f1831">&lt;milestone unit="chapter" type="end" n="12"/&gt;</rdg>
-		</rdgGrp>
-		<rdgGrp n="['end of vol. i.', '', '', '', '']">
-			<rdg wit="f1823"> &lt;hi sID="novel1_letter4_div4_head6_hi1"/&gt;END OF VOL. I.&lt;hi
-				eID="novel1_letter4_div4_head6_hi1"/&gt; &lt;/head&gt; &lt;milestone unit="volume"
-				n="2"/&gt; &lt;milestone unit="frontmatter" type="start" n="2"/&gt; &lt;milestone
-				unit="frontmatter" type="end" n="2"/&gt;</rdg>
-		</rdgGrp>
-	</app>
-
 	<app>
 		<rdgGrp n="['']">
 			<rdg wit="f1818"/>
-			<rdg wit="f1823"/>
 			<rdg wit="fThomas"/>
 			<rdg wit="f1831"/>
 			<rdg wit="fMS"/>
 		</rdgGrp>
+		<rdgGrp n="['', 'end of vol. i.', '', '', '', '', '', '']">
+			<rdg wit="f1823"> &lt;head&gt; &lt;hi sID="novel1_letter4_div4_head6_hi1"/&gt;END OF
+				VOL. I.&lt;hi eID="novel1_letter4_div4_head6_hi1"/&gt; &lt;/head&gt; &lt;milestone
+				unit="volume" n="2"/&gt; &lt;milestone unit="frontmatter" type="start" n="2"/&gt;
+				&lt;include href="../standOff_Includes/1823_frontMatter2.xml" parse="xml"/&gt;
+				&lt;milestone unit="frontmatter" type="end" n="2"/&gt;&lt;/longToken&gt; </rdg>
+		</rdgGrp>
 	</app>
+
 </cx:apparatus>
-<!-- 2023-03-01 20:48:55.241033 -->
+<!-- 2023-03-01 21:38:04.718540 -->

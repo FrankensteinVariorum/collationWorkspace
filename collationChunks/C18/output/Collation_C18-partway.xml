@@ -3187,19 +3187,16 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['&lt;delstart/&gt;co&lt;delend/&gt;']">
-			<rdg wit="fMS">&lt;del rend=&quot;strikethrough&quot; xml:id=&quot;c57-0020__main__d4e4113&quot;&gt;co&lt;/del&gt; </rdg>
+		<rdgGrp n="['&lt;delstart/&gt;co&lt;delend/&gt; connexion']">
+			<rdg wit="fMS">&lt;longToken&gt;&lt;del rend=&quot;strikethrough&quot; xml:id=&quot;c57-0020__main__d4e4113&quot;&gt;co&lt;/del&gt; connexion&lt;/longToken&gt; </rdg>
 		</rdgGrp>
 		<rdgGrp n="['connection']">
 			<rdg wit="f1831">connection </rdg>
 		</rdgGrp>
-	</app>
-	<app>
 		<rdgGrp n="['connexion']">
 			<rdg wit="f1818">connexion </rdg>
 			<rdg wit="f1823">connexion </rdg>
 			<rdg wit="fThomas">connexion </rdg>
-			<rdg wit="fMS">connexion </rdg>
 		</rdgGrp>
 	</app>
 	<app>
@@ -3983,14 +3980,23 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['depressed', 'andi']">
-			<rdg wit="fMS">depressed and&lt;lb n=&quot;c57-0021__main__1&quot;/&gt;I </rdg>
+		<rdgGrp n="['depressed', 'and']">
+			<rdg wit="fMS">depressed and&lt;lb n=&quot;c57-0021__main__1&quot;/&gt; </rdg>
 		</rdgGrp>
-		<rdgGrp n="['depressed;', 'when', 'they', 'rejoiced,', 'i']">
-			<rdg wit="f1818">depressed; when they rejoiced, I </rdg>
-			<rdg wit="f1823">depressed; when they rejoiced, I </rdg>
-			<rdg wit="fThomas">depressed; when they rejoiced, I </rdg>
-			<rdg wit="f1831">depressed; when they rejoiced, I </rdg>
+		<rdgGrp n="['depressed;', 'when', 'they', 'rejoiced,']">
+			<rdg wit="f1818">depressed; when they rejoiced, </rdg>
+			<rdg wit="f1823">depressed; when they rejoiced, </rdg>
+			<rdg wit="fThomas">depressed; when they rejoiced, </rdg>
+			<rdg wit="f1831">depressed; when they rejoiced, </rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['i']">
+			<rdg wit="f1818">I </rdg>
+			<rdg wit="f1823">I </rdg>
+			<rdg wit="fThomas">I </rdg>
+			<rdg wit="f1831">I </rdg>
+			<rdg wit="fMS">I </rdg>
 		</rdgGrp>
 	</app>
 	<app>
@@ -5303,8 +5309,8 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['longed  ', 'to  ', '&lt;mod sid=&quot;c57-0022__main__d4e4790&quot;/&gt;', '   &lt;delstart/&gt;understand&lt;delend/&gt;', '    ', '   ', '    ', '    comprehend ', '   &lt;mod eid=&quot;c57-0022__main__d4e4790&quot;/&gt;  these &lt;delstart/&gt;', '      &lt;unclear&gt;b&lt;/unclear&gt;', '   &lt;delend/&gt; also; but how was&lt;zone eid=&quot;c57-0022__main&quot;/&gt;', '   &lt;surface eid=&quot;ox-ms_abinger_c57-0022&quot;/&gt;']">
-			<rdg wit="fMS">&lt;longToken&gt;longed   &lt;lb n=&quot;c57-0022__main__28&quot;/&gt;to   &lt;mod sID=&quot;c57-0022__main__d4e4790&quot;/&gt;    &lt;del rend=&quot;strikethrough&quot; xml:id=&quot;c57-0022__main__d4e4792&quot;&gt;understand&lt;/del&gt;     &lt;sga-add place=&quot;sublinear&quot; sID=&quot;c57-0022__main__d4e4795&quot;/&gt;    &lt;metamark function=&quot;insert&quot;&gt;^&lt;/metamark&gt;     &lt;sga-add eID=&quot;c57-0022__main__d4e4795&quot;/&gt;     &lt;sga-add place=&quot;superlinear&quot; sID=&quot;c57-0022__main__d4e4801&quot;/&gt;comprehend &lt;sga-add eID=&quot;c57-0022__main__d4e4801&quot;/&gt;    &lt;mod eID=&quot;c57-0022__main__d4e4790&quot;/&gt;  these &lt;del rend=&quot;strikethrough&quot; xml:id=&quot;c57-0022__main__d4e4805&quot;&gt;       &lt;unclear&gt;b&lt;/unclear&gt;    &lt;/del&gt; also; but how was&lt;zone eID=&quot;c57-0022__main&quot;/&gt;    &lt;surface eID=&quot;ox-ms_abinger_c57-0022&quot;/&gt;&lt;/longToken&gt; </rdg>
+		<rdgGrp n="['longed to  &lt;mod sid=&quot;c57-0022__main__d4e4790&quot;/&gt;&lt;delstart/&gt;understand&lt;delend/&gt;comprehend &lt;mod eid=&quot;c57-0022__main__d4e4790&quot;/&gt;  these &lt;delstart/&gt;&lt;unclear&gt;b&lt;/unclear&gt;&lt;delend/&gt; also; but how was&lt;zone eid=&quot;c57-0022__main&quot;/&gt;&lt;surface eid=&quot;ox-ms_abinger_c57-0022&quot;/&gt;']">
+			<rdg wit="fMS">&lt;longToken&gt;longed &lt;lb n=&quot;c57-0022__main__28&quot;/&gt;to  &lt;mod sID=&quot;c57-0022__main__d4e4790&quot;/&gt;&lt;del rend=&quot;strikethrough&quot; xml:id=&quot;c57-0022__main__d4e4792&quot;&gt;understand&lt;/del&gt;&lt;sga-add place=&quot;sublinear&quot; sID=&quot;c57-0022__main__d4e4795&quot;/&gt;&lt;metamark function=&quot;insert&quot;&gt;^&lt;/metamark&gt;&lt;sga-add eID=&quot;c57-0022__main__d4e4795&quot;/&gt;&lt;sga-add place=&quot;superlinear&quot; sID=&quot;c57-0022__main__d4e4801&quot;/&gt;comprehend &lt;sga-add eID=&quot;c57-0022__main__d4e4801&quot;/&gt;&lt;mod eID=&quot;c57-0022__main__d4e4790&quot;/&gt;  these &lt;del rend=&quot;strikethrough&quot; xml:id=&quot;c57-0022__main__d4e4805&quot;&gt;&lt;unclear&gt;b&lt;/unclear&gt;&lt;/del&gt; also; but how was&lt;zone eID=&quot;c57-0022__main&quot;/&gt;&lt;surface eID=&quot;ox-ms_abinger_c57-0022&quot;/&gt;&lt;/longToken&gt; </rdg>
 		</rdgGrp>
 		<rdgGrp n="['longed', 'to', 'comprehend', 'these', 'also;', 'but', 'how', 'was', 'that', 'possible,', 'when', 'i', 'did', 'not', 'even', 'understand', 'the', 'sounds', 'for', 'which', 'they', 'stood', 'as', 'signs?', 'i', 'improved,', 'however,', 'sensibly', 'in', 'this', 'science,', 'but', 'not', 'sufficiently', 'to', 'follow', 'up', 'any', 'kind', 'of', 'conversation,', 'although', 'i', 'applied', 'my', 'whole', 'mind', 'to', 'the', 'endeavour:', 'for', 'i', 'easily', 'perceived', 'that,', 'although', 'i', 'eagerly', 'longed', 'to', 'discover', 'myself', 'to', 'the', 'cottagers,', 'i', 'ought', 'not', 'to', 'make', 'the', 'attempt', 'until', 'i', 'had', 'first', 'become', 'master', 'of', 'their', 'language;', 'which', 'knowledge', 'might', 'enable', 'me', 'to', 'make', 'them', 'overlook', 'the', 'deformity', 'of', 'my', 'figure;', 'for', 'with', 'this', 'also', 'the', 'contrast', 'perpetually', 'presented', 'to', 'my', 'eyes', 'had', 'made', 'me', 'acquainted.', '&lt;p-end/&gt;', '&lt;p-start/&gt;', '&quot;i', 'had', 'admired', 'the', 'perfect', 'forms', 'of', 'my', 'cottagers—their', 'grace,', 'beauty,', 'and', 'delicate', 'complexions:', 'but', 'how', 'was', 'i', 'terrified,', 'when', 'i', 'viewed', 'myself', 'in', 'a', 'transparent', 'pool!', 'at', 'first', 'i', 'started', 'back,', 'unable', 'to', 'believe', 'that', 'it', 'was', 'indeed', 'i', 'who', 'was', 'reflected', 'in', 'the', 'mirror;', 'and', 'when', 'i', 'became', 'fully', 'convinced', 'that', 'i', 'was', 'in', 'reality', 'the', 'monster', 'that', 'i', 'am,', 'i', 'was', 'filled', 'with', 'the', 'bitterest', 'sensations', 'of', 'despondence', 'and', 'mortification.', 'alas!', 'i', 'did', 'not', 'yet', 'entirely', 'know', 'the', 'fatal', 'effects', 'of', 'this', 'miserable', 'deformity.', '&lt;p-end/&gt;', '&lt;p-start/&gt;', '&quot;as', 'the', 'sun', 'became', 'warmer,', 'and', 'the', 'light', 'of', 'day', 'longer,', 'the', 'snow', 'vanished,', 'and', 'i', 'beheld', 'the', 'bare', 'trees', 'and', 'the', 'black', 'earth.', 'from', 'this', 'time', 'felix', 'was', 'more']">
 			<rdg wit="f1818">longed to comprehend these also; but how was that possible, when I did not even understand the sounds for which they stood as signs? I improved, however, sensibly in this science, but not sufficiently to follow up any kind of &lt;pb xml:id=&quot;F1818_v2_067&quot; n=&quot;063&quot;/&gt;conversation, although I applied my whole mind to the endeavour: for I easily perceived that, although I eagerly longed to discover myself to the cottagers, I ought not to make the attempt until I had first become master of their language; which knowledge might enable me to make them overlook the deformity of my figure; for with this also the contrast perpetually presented to my eyes had made me acquainted. &lt;p eID=&quot;novel1_letter4_chapter11_div4_div12_p12&quot;/&gt; &lt;p sID=&quot;novel1_letter4_chapter11_div4_div12_p13&quot;/&gt; “I had admired the perfect forms of my cottagers—their grace, beauty, and delicate complexions: but how was I terrified, when I viewed myself in a transparent pool! At first I started back, unable to believe that it was indeed I who was reflected in the mirror; and when I became fully convinced that I was in reality the monster that I am, I was filled with the bitterest sen&lt;pb xml:id=&quot;F1818_v2_068&quot; n=&quot;064&quot;/&gt;sations of despondence and mortification. Alas! I did not yet entirely know the fatal effects of this miserable deformity. &lt;p eID=&quot;novel1_letter4_chapter11_div4_div12_p13&quot;/&gt; &lt;p sID=&quot;novel1_letter4_chapter11_div4_div12_p14&quot;/&gt; “As the sun became warmer, and the light of day longer, the snow vanished, and I beheld the bare trees and the black earth. From this time Felix was more </rdg>
@@ -5396,34 +5402,16 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['&lt;p-end/&gt;']">
-			<rdg wit="f1818">&lt;p eID=&quot;novel1_letter4_chapter11_div4_div12_p19&quot;/&gt; </rdg>
-			<rdg wit="f1823">&lt;p eID=&quot;novel1_letter4_chapter11_div4_div11_p19&quot;/&gt; </rdg>
-			<rdg wit="fThomas">&lt;p eID=&quot;novel1_letter4_chapter11_div4_div12_p18&quot;/&gt; </rdg>
-			<rdg wit="f1831">&lt;p eID=&quot;novel1_letter4_chapter12_div4_div12_p19&quot;/&gt; </rdg>
+		<rdgGrp n="['&lt;p-end/&gt;', '']">
+			<rdg wit="f1818">&lt;p eID=&quot;novel1_letter4_chapter11_div4_div12_p19&quot;/&gt; &lt;milestone unit=&quot;chapter&quot; type=&quot;end&quot; n=&quot;11&quot;/&gt; </rdg>
+			<rdg wit="f1823">&lt;p eID=&quot;novel1_letter4_chapter11_div4_div11_p19&quot;/&gt; &lt;longToken&gt;&lt;milestone unit=&quot;chapter&quot; type=&quot;end&quot; n=&quot;11&quot;/&gt; </rdg>
+			<rdg wit="fThomas">&lt;p eID=&quot;novel1_letter4_chapter11_div4_div12_p18&quot;/&gt; &lt;milestone unit=&quot;chapter&quot; type=&quot;end&quot; n=&quot;11&quot;/&gt; </rdg>
+			<rdg wit="f1831">&lt;p eID=&quot;novel1_letter4_chapter12_div4_div12_p19&quot;/&gt; &lt;milestone unit=&quot;chapter&quot; type=&quot;end&quot; n=&quot;12&quot;/&gt; </rdg>
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['']">
-			<rdg wit="f1823">&lt;milestone unit=&quot;chapter&quot; type=&quot;end&quot; n=&quot;11&quot;/&gt; </rdg>
-		</rdgGrp>
-	</app>
-	<app>
-		<rdgGrp n="['']">
-			<rdg wit="f1818">&lt;milestone unit=&quot;chapter&quot; type=&quot;end&quot; n=&quot;11&quot;/&gt; </rdg>
-			<rdg wit="f1823">&lt;head&gt; </rdg>
-		</rdgGrp>
-	</app>
-	<app>
-		<rdgGrp n="['      end of vol. i.', '   ', '', '']">
-			<rdg wit="f1823">      &lt;hi sID=&quot;novel1_letter4_div4_head6_hi1&quot;/&gt;END OF VOL. I.&lt;hi eID=&quot;novel1_letter4_div4_head6_hi1&quot;/&gt;    &lt;/head&gt; &lt;milestone unit=&quot;volume&quot; n=&quot;2&quot;/&gt; &lt;milestone unit=&quot;frontmatter&quot; type=&quot;start&quot; n=&quot;2&quot;/&gt; </rdg>
-		</rdgGrp>
-	</app>
-	<app>
-		<rdgGrp n="['']">
-			<rdg wit="f1823">&lt;milestone unit=&quot;frontmatter&quot; type=&quot;end&quot; n=&quot;2&quot;/&gt; </rdg>
-			<rdg wit="fThomas">&lt;milestone unit=&quot;chapter&quot; type=&quot;end&quot; n=&quot;11&quot;/&gt; </rdg>
-			<rdg wit="f1831">&lt;milestone unit=&quot;chapter&quot; type=&quot;end&quot; n=&quot;12&quot;/&gt; </rdg>
+		<rdgGrp n="['   ', '      end of vol. i.', '   ', '   ', '   ', '   ', '   ']">
+			<rdg wit="f1823">   &lt;head&gt;       &lt;hi sID=&quot;novel1_letter4_div4_head6_hi1&quot;/&gt;END OF VOL. I.&lt;hi eID=&quot;novel1_letter4_div4_head6_hi1&quot;/&gt;    &lt;/head&gt;    &lt;milestone unit=&quot;volume&quot; n=&quot;2&quot;/&gt;    &lt;milestone unit=&quot;frontmatter&quot; type=&quot;start&quot; n=&quot;2&quot;/&gt;    &lt;include href=&quot;../standOff_Includes/1823_frontMatter2.xml&quot; parse=&quot;xml&quot;/&gt;    &lt;milestone unit=&quot;frontmatter&quot; type=&quot;end&quot; n=&quot;2&quot;/&gt;&lt;/longToken&gt; </rdg>
 		</rdgGrp>
 	</app>
 	<app>
@@ -5436,4 +5424,4 @@
 		</rdgGrp>
 	</app>
 </cx:apparatus>
-<!-- 2023-03-01 20:48:55.241033 -->
+<!-- 2023-03-01 21:38:04.718540 -->
