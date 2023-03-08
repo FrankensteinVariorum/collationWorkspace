@@ -40,3 +40,11 @@
    - [ ] MS: Text jumble detected: `['', '&lt;delstart/&gt;lef&lt;delend/&gt;', '&lt;delstart/&gt;deserted by her father&lt;delend/&gt;']`
    - [ ] **Finishing point:** "In her own mind, the plan"
    
+   # 3-8-2023
+   - [ ] MS: Has a passage `fathers that` while 1823 and 1831 have `father` and both 1818 and Thomas have `Father's` The next reading group has `which`, so I'm thinking `that` from the MS should be in the same reading group as `which`   
+   - [ ] MS: Spacing fix possible, but maybe unnecessary: `['a', 'n', '', '&lt;delstart/&gt;servant who&lt;delend/&gt;', 'attendant']`
+   - [ ] MS: Spacing fix possible: `['tur', 'kish', 'arabic', '']`
+   - [ ] All passages: there are two sections that may need altering: `leagues from the cottage of De` and `Lacey, when`. Should De Lacey be in the same statement? 
+   - [ ] MS: at the end, "Lover" is mentioned twice in two subsequent reading groups: `her lover`, `lover in his retreat`. Should anything be altered? This feels redundant, or possibly a mistake slipped through.
+   - **Finishing Point:** End of Chapter
+   
