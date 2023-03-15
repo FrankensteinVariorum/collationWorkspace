@@ -8,16 +8,15 @@
    
   # 3-7-2023
   
-  - [ ] MS: "interesting and wonderful" is sorted as `inter`, `esting`, `andwonderful`. "And wonderful" can possibly be split up, but "inter" has a delete tag between it and "esting," may not be fixable.
-  - [ ] MS: Spacing fix possible: `andagatha`
-  - [ ] MS: Spacing fix possible: `andluxurious`
-  - [ ] MS: Spacing fix possible: `['relig', '&lt;delstart/&gt;i&lt;delend/&gt;', 'ion']` into "religion"
-  - [ ] Alignment question: all categories end with "Felix Had" at one point, but 1823 and 1831 include the word "accidentally" before converging with every category (except the manuscript) at "been." Debating is they should stay as-is.
-  - [ ] MS: Spacing fix possible: `['in', 'dignation', '', '', 'w', '', 'ere', '', 'uncontrolable']`
-  - [ ] Alignment Question: all the passages have the phrase `['and', 'then', 'looked', 'around', 'for', 'the', 'means.', 'after', 'many', 'fruitless', 'attempts', 'to', 'gain', 'admittance', 'to', 'the']`, but the phrase ends with `Prison`, which is its own separate reading group/app. Should they be combined to complete the phrase?
-  - [ ] MS: Spacing fix possible: `['st', '', '', 'r', '', 'ongly']`
-  - [ ] MS: Spacing fix possible: `['know', 'n', '']`
-  - [ ] MS: an area is aligned properly, but the MS is a massive text jumble (see below). May possibly need fixing.
+  - [X] MS: "interesting and wonderful" is sorted as `inter`, `esting`, `andwonderful`. "And wonderful" can possibly be split up, but "inter" has a delete tag between it and "esting," may not be fixable.
+  - [X] MS: Spacing fix possible: `andagatha`
+  - [X] MS: Spacing fix possible: `andluxurious`
+  - [X] MS: Spacing fix possible: `['relig', '&lt;delstart/&gt;i&lt;delend/&gt;', 'ion']` into "religion"
+  - [X] MS: Spacing fix possible: `['in', 'dignation', '', '', 'w', '', 'ere', '', 'uncontrolable']`
+  - [X] Alignment Question: all the passages have the phrase `['and', 'then', 'looked', 'around', 'for', 'the', 'means.', 'after', 'many', 'fruitless', 'attempts', 'to', 'gain', 'admittance', 'to', 'the']`, but the phrase ends with `Prison`, which is its own separate reading group/app. Should they be combined to complete the phrase?
+  - [X] MS: Spacing fix possible: `['st', '', '', 'r', '', 'ongly']`
+  - [X] MS: Spacing fix possible: `['know', 'n', '']`
+  - [X] MS: an area is aligned properly, but the MS is a massive text jumble (see below). May possibly need fixing.
   
   `<rdg wit="fMS">&lt;sga-add place="sublinear" sID="c57-0032__main__d4e5325"/&gt;
 				&lt;metamark function="insert"&gt;^&lt;/metamark&gt; &lt;sga-add
@@ -28,17 +27,13 @@
 				n="c57-0032__main__27"/&gt;toil &amp; hazard. &lt;milestone unit="tei:p-END"/&gt;
 				&lt;milestone unit="tei:p-START"/&gt;</rdg>`
    - [ ] MS: **Misalignment detected!** "onheart of Felix" in the MS is different from the other passages, where it appears a few reading groups later. May be the result of "on" and "heart" being combined, but when "heart of Felix" shows up for the other passages, MS has "Full Zeal" in the same reading group. Not 100% sure about this one.
-   - [ ] MS: For "in his interests", it has a blank token and no text. Why is that there?
-   - [ ] Possible divergence: MS disappears after "consummation of his happiness" and shows up again for a milestone unit before reappearing fully starting with "The Turk." Should any action be taken?
+
    - [ ] MS: Possible divergence, as "The Turk informed Safie has more going on in the MS, but it is not written and the MS disappears for several passages, only appearing in three of the next several: "of", "his". "intentions". It begins getting complicated after this.
    - [ ]  MS: "Rank" is included in the same reading group as "across mont cenis to leghorn, where", but the mont is never mentioned in MS. Should it be isolated?
-   - [ ] MS stops briefly after "The commander", but the other four readings have lengthy blocks of text, with the MS reappearing starting with "his daughter." Should something be done about this?
    - [ ] MS: Appears in a reading group with a blank token for a second time during this section: `['with', 'him', 'when', 'he', 'departed.', 'his', 'plans', 'were']`
    -  **Side Note:** MS once again disappears after the blank token and reappears starting at "to think no more of"
-   - [ ] MS: `['government–', 'he', 'had', 'just', 'heard', 'of', 'a', 'small', 'vessel', 'bound', 'for', 'constantinople', 'which']` is all grouped together, but many elements from this string appear in separated reading groups. This may need fixing, but I'm skeptical because the same text appears in those reading groups. 
    - [ ] MS: Spacing fix possible: `himto`	
-   - [ ] MS: Text jumble detected: `['', '&lt;delstart/&gt;lef&lt;delend/&gt;', '&lt;delstart/&gt;deserted by her father&lt;delend/&gt;']`
-   - [ ] **Finishing point:** "In her own mind, the plan"
+   - [X] MS: Text jumble detected: `['', '&lt;delstart/&gt;lef&lt;delend/&gt;', '&lt;delstart/&gt;deserted by her father&lt;delend/&gt;']`
    
    # 3-8-2023
    - [ ] MS: Has a passage `fathers that` while 1823 and 1831 have `father` and both 1818 and Thomas have `Father's` The next reading group has `which`, so I'm thinking `that` from the MS should be in the same reading group as `which`   
@@ -48,3 +43,11 @@
    - [ ] MS: at the end, "Lover" is mentioned twice in two subsequent reading groups: `her lover`, `lover in his retreat`. Should anything be altered? This feels redundant, or possibly a mistake slipped through.
    - **Finishing Point:** End of Chapter
    
+   # 3-15-2023 
+   - [ ] All editions: Some time at the start of the passage is a tricky fix. **Decision to do manually.**
+   - [ ] **Fix "Condemnation" manually**
+   - [X] Possible divergence: MS disappears after "consummation of his happiness" and shows up again for a milestone unit before reappearing fully starting with "The Turk." Should any action be taken? **Would have to add longToken to all 5 editions**
+ - [ ] MS stops briefly after "The commander", but the other four readings have lengthy blocks of text, with the MS reappearing starting with "his daughter." Should something be done about this? **Yes, Check the Paragraph alignment, put longTokens in all editions**
+  - [ ] Alignment question: all categories end with "Felix Had" at one point, but 1823 and 1831 include the word "accidentally" before converging with every category (except the manuscript) at "been." Debating is they should stay as-is.
+  - [ ] MS: `['government–', 'he', 'had', 'just', 'heard', 'of', 'a', 'small', 'vessel', 'bound', 'for', 'constantinople', 'which']` is all grouped together, but many elements from this string appear in separated reading groups. This may need fixing, but I'm skeptical because the same text appears in those reading groups. 
+  - [ ] MS: For "in his interests", it has a blank token and no text. Why is that there? **Not Fixed Yet**
