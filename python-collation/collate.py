@@ -106,12 +106,12 @@ RE_DOTDASH = re.compile(r'\.–')
 # 2017-05-30 ebb: collated but the tags are not). Decision to make the comments into self-closing elements with text
 # 2017-05-30 ebb: contents as attribute values, and content such as tags simplified to be legal attribute values.
 # 2017-05-22 ebb: I've set anchor elements with @xml:ids to be the indicators of collation "chunks" to process together
-ignore = ['mod', 'sourceDoc', 'xml', 'comment', 'include', 'addSpan', 'handShift', 'damage',
+ignore = ['sourceDoc', 'xml', 'comment', 'include', 'addSpan', 'handShift', 'damage',
           'restore', 'zone', 'surface', 'graphic', 'unclear', 'retrace']
 blockEmpty = ['p', 'div', 'milestone', 'lg', 'l', 'cit', 'quote', 'bibl']
-inlineEmpty = ['pb', 'sga-add', 'delSpan', 'anchor', 'lb', 'gap', 'hi', 'w', 'ab']
-inlineContent = ['del-INNER', 'add-INNER', 'metamark', 'mdel', 'shi']
-inlineVariationEvent = ['head', 'del', 'add', 'note', 'longToken']
+inlineEmpty = ['mod', 'pb', 'sga-add', 'delSpan', 'anchor', 'lb', 'gap', 'hi', 'w', 'ab']
+inlineContent = ['del-INNER', 'add-INNER', 'metamark', 'shi']
+inlineVariationEvent = ['head', 'del', 'mdel', 'add', 'note', 'longToken']
 
 
 # 10-23-2017 ebb rv:
@@ -200,8 +200,8 @@ def normalize(inputText):
     # The lower() at the end lowercases all the normalized strings to simplify the comparison.
 
     normalized = RE_METAMARK.sub('', inputText)
-    #  normalized = RE_MOD.sub('', normalized)
-    # <mod> is in the ignore list like anchor, etc, so why are we presuming it's being read?
+    normalized = RE_MOD.sub('', normalized)
+    # 2023-03-16 How about we actually read it this time? <mod> is in the ignore list like anchor, etc, so why are we presuming it's being read?
     normalized = RE_GAP.sub('', normalized)
     normalized = RE_CLOSEQT.sub('"', normalized)
     normalized = RE_OPENQT.sub('"', normalized)
@@ -252,7 +252,8 @@ def normalize(inputText):
     # Example: <shi rend="underline">should be</shi>
     # Previously, we were eliminating these passages entirely from the normalization, which was a serious error!
     # We have not been considering highlighting or emphasis <hi> or <shi> as a significant difference in the normalization.
-    normalized = RE_MDEL.sub('', normalized)
+    # 2023-03-16 ebb: We have moved mdel to inlineVariationEvent, and do not want to normalize its token, so we are commenting out the next line.
+    # normalized = RE_MDEL.sub('', normalized)
     # 2022-08-08 ebb: <mdel> elements are tiny struck-out characters in the S-GA edition.
     # We do not think these are significant for comparison with the other editions, so we normalize them out.
     normalized = RE_DOTDASH.sub('. ', normalized)
