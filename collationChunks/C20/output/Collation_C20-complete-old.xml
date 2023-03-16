@@ -4,49 +4,26 @@
 		<rdgGrp n="['']">
 			<rdg wit="f1818"/>
 			<rdg wit="fThomas"/>
-		</rdgGrp>
-		<rdgGrp n="['', '', '']">
-			<rdg wit="fMS">&lt;lb n="c57-0031__main__1"/&gt; &lt;milestone spanTo="#ci57-0031.11"
-				unit="tei:head"/&gt; &lt;sga-add hand="#pbs"
-				sID="c57-0031__main__d4e4824"/&gt;</rdg>
+			<rdg wit="fMS">&lt;lb n="c57-0031__main__1"/&gt;</rdg>
 		</rdgGrp>
 	</app>
-
 	<app>
-		<rdgGrp n="['']">
-			<rdg wit="f1818">&lt;milestone unit="chapter" type="start" n="13"/&gt;</rdg>
-			<rdg wit="f1823"/>
-			<rdg wit="fThomas">&lt;milestone unit="chapter" type="start" n="13"/&gt;</rdg>
-			<rdg wit="f1831"/>
-		</rdgGrp>
-		<rdgGrp
-			n="['another chapter&lt;anchor xml:id=&#34;c57-0031.11&#34;/&gt;', ' sometime elapsed before i', '&lt;delstart/&gt;became informed&lt;delend/&gt;', '']">
-			<rdg wit="fMS">&lt;longToken&gt;another Chapter&lt;sga-add
-				eID="c57-0031__main__d4e4824"/&gt;&lt;anchor
-				xml:id="c57-0031.11"/&gt;&lt;/longToken&gt; &lt;longToken&gt;&lt;lb
-				n="c57-0031__main__2"/&gt; Sometime elapsed before I&lt;/longToken&gt; &lt;del
-				next="#c57-0031.02" rend="strikethrough" xml:id="c57-0031__main__d4e4832"&gt;became
-				informed&lt;/del&gt; &lt;lb n="c57-0031__main__3"/&gt;&lt;lb
-				n="c57-0031__left_margin__1"/&gt;</rdg>
-		</rdgGrp>
-	</app>
-
-	<app>
-		<rdgGrp n="['']">
-			<rdg wit="f1818">&lt;pb xml:id="F1818_v2_088" n="084"/&gt;</rdg>
+		<rdgGrp n="['', '']">
+			<rdg wit="f1818">&lt;milestone unit="chapter" type="start" n="13"/&gt; &lt;pb
+				xml:id="F1818_v2_088" n="084"/&gt;</rdg>
 			<rdg wit="f1823">&lt;milestone unit="chapter" type="start" n="13"/&gt;</rdg>
-			<rdg wit="fThomas">&lt;pb xml:id="F1818_v2_088" n="084"/&gt;</rdg>
+			<rdg wit="fThomas">&lt;milestone unit="chapter" type="start" n="13"/&gt; &lt;pb
+				xml:id="F1818_v2_088" n="084"/&gt;</rdg>
 			<rdg wit="f1831">&lt;milestone unit="chapter" type="start" n="14"/&gt;</rdg>
-		</rdgGrp>
-		<rdgGrp n="['&lt;delstart/&gt; of th &lt;delend/&gt;', '', '', '']">
-			<rdg wit="fMS">&lt;del rend="strikethrough" xml:id="c57-0031__left_margin__d4e4843"&gt;
-				of th &lt;/del&gt; &lt;mdel&gt;of&lt;/mdel&gt; &lt;sga-add place="sublinear"
-				sID="c57-0031__main__d4e4853"/&gt; &lt;metamark
-				function="insert"&gt;^&lt;/metamark&gt;</rdg>
+			<rdg wit="fMS">&lt;milestone spanTo="#ci57-0031.11" unit="tei:head"/&gt; &lt;sga-add
+				hand="#pbs" sID="c57-0031__main__d4e4824"/&gt;</rdg>
 		</rdgGrp>
 	</app>
-
 	<app>
+		<rdgGrp n="['another chapter', '', 'sometime']">
+			<rdg wit="fMS">&lt;longToken&gt;another Chapter&lt;/longToken&gt; &lt;sga-add
+				eID="c57-0031__main__d4e4824"/&gt;&lt;lb n="c57-0031__main__2"/&gt; Sometime</rdg>
+		</rdgGrp>
 		<rdgGrp n="['chapter ii.']">
 			<rdg wit="f1823">&lt;head&gt;CHAPTER II.&lt;/head&gt;</rdg>
 		</rdgGrp>
@@ -59,27 +36,28 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['&lt;p-start/&gt; &#34;some time elapsed before i']">
-			<rdg wit="f1818">&lt;longToken&gt;&lt;p
-				sID="novel1_letter4_chapter13_div4_div14_p1"/&gt; “S&lt;hi
+		<rdgGrp n="['&lt;p-start/&gt;', '&#34;some', 'time']">
+			<rdg wit="f1818">&lt;p sID="novel1_letter4_chapter13_div4_div14_p1"/&gt; “S&lt;hi
 				sID="novel1_letter4_chapter13_div4_div14_p1_hi1"/&gt;OME&lt;hi
-				eID="novel1_letter4_chapter13_div4_div14_p1_hi1"/&gt; time elapsed before
-				I&lt;/longToken&gt;</rdg>
-			<rdg wit="f1823">&lt;longToken&gt;&lt;p
-				sID="novel1_letter4_chapter13_div4_div14_p1"/&gt; “S&lt;hi
+				eID="novel1_letter4_chapter13_div4_div14_p1_hi1"/&gt; time</rdg>
+			<rdg wit="f1823">&lt;p sID="novel1_letter4_chapter13_div4_div14_p1"/&gt; “S&lt;hi
 				sID="novel1_letter4_chapter13_div4_div14_p1_hi1"/&gt;OME&lt;hi
-				eID="novel1_letter4_chapter13_div4_div14_p1_hi1"/&gt; time elapsed before
-				I&lt;/longToken&gt;</rdg>
-			<rdg wit="fThomas">&lt;longToken&gt;&lt;p
-				sID="novel1_letter4_chapter13_div4_div14_p1"/&gt; “S&lt;hi
+				eID="novel1_letter4_chapter13_div4_div14_p1_hi1"/&gt; time</rdg>
+			<rdg wit="fThomas">&lt;p sID="novel1_letter4_chapter13_div4_div14_p1"/&gt; “S&lt;hi
 				sID="novel1_letter4_chapter13_div4_div14_p1_hi1"/&gt;OME&lt;hi
-				eID="novel1_letter4_chapter13_div4_div14_p1_hi1"/&gt; time elapsed before
-				I&lt;/longToken&gt;</rdg>
-			<rdg wit="f1831">&lt;longToken&gt;&lt;p
-				sID="novel1_letter4_chapter14_div4_div14_p1"/&gt; “S&lt;hi
+				eID="novel1_letter4_chapter13_div4_div14_p1_hi1"/&gt; time</rdg>
+			<rdg wit="f1831">&lt;p sID="novel1_letter4_chapter14_div4_div14_p1"/&gt; “S&lt;hi
 				sID="novel1_letter4_chapter14_div4_div14_p1_hi1"/&gt;OME&lt;hi
-				eID="novel1_letter4_chapter14_div4_div14_p1_hi1"/&gt; time elapsed before
-				I&lt;/longToken&gt;</rdg>
+				eID="novel1_letter4_chapter14_div4_div14_p1_hi1"/&gt; time</rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['elapsed', 'before', 'i']">
+			<rdg wit="f1818">elapsed before I</rdg>
+			<rdg wit="f1823">elapsed before I</rdg>
+			<rdg wit="fThomas">elapsed before I</rdg>
+			<rdg wit="f1831">elapsed before I</rdg>
+			<rdg wit="fMS">elapsed before I</rdg>
 		</rdgGrp>
 	</app>
 	<app>
@@ -88,10 +66,21 @@
 			<rdg wit="f1823">learned</rdg>
 			<rdg wit="fThomas">learned</rdg>
 			<rdg wit="f1831">learned</rdg>
-			<rdg wit="fMS">&lt;sga-add eID="c57-0031__main__d4e4853"/&gt;&lt;sga-add
-				place="superlinear" sID="c57-0031__main__d4e4859"/&gt;learned</rdg>
+		</rdgGrp>
+		<rdgGrp
+			n="['&lt;delstart/&gt;became informed&lt;delend/&gt;', '', '&lt;delstart/&gt; of th &lt;delend/&gt;', '', '', '', 'learned']">
+			<rdg wit="fMS">&lt;del next="#c57-0031.02" rend="strikethrough"
+				xml:id="c57-0031__main__d4e4832"&gt;became informed&lt;/del&gt; &lt;lb
+				n="c57-0031__main__3"/&gt;&lt;lb n="c57-0031__left_margin__1"/&gt; &lt;del
+				rend="strikethrough" xml:id="c57-0031__left_margin__d4e4843"&gt; of th &lt;/del&gt;
+				&lt;mdel&gt;of&lt;/mdel&gt; &lt;sga-add place="sublinear"
+				sID="c57-0031__main__d4e4853"/&gt; &lt;metamark
+				function="insert"&gt;^&lt;/metamark&gt; &lt;sga-add
+				eID="c57-0031__main__d4e4853"/&gt;&lt;sga-add place="superlinear"
+				sID="c57-0031__main__d4e4859"/&gt;learned</rdg>
 		</rdgGrp>
 	</app>
+
 	<app>
 		<rdgGrp n="['the', 'history', 'of', 'my', 'friends.', 'it', 'was', 'one']">
 			<rdg wit="f1818">the history of my friends. It was one </rdg>
@@ -1658,14 +1647,12 @@
 				pr&lt;/del&gt; &lt;sga-add place="sublinear" sID="c57-0033__main__d4e5410"/&gt;
 				&lt;metamark function="insert"&gt;^&lt;/metamark&gt; &lt;sga-add
 				eID="c57-0033__main__d4e5410"/&gt;&lt;sga-add place="superlinear"
-				sID="c57-0033__main__d4e5416"/&gt;more entirely</rdg>
+				sID="c57-0033__main__d4e5416"/&gt;more entirely&lt;sga-add
+				eID="c57-0033__main__d4e5416"/&gt;</rdg>
 		</rdgGrp>
 	</app>
 
 	<app>
-		<rdgGrp n="['']">
-			<rdg wit="fMS">&lt;sga-add eID="c57-0033__main__d4e5416"/&gt;</rdg>
-		</rdgGrp>
 		<rdgGrp n="['in', 'his', 'interests']">
 			<rdg wit="f1818">in his interests</rdg>
 			<rdg wit="f1823">in his interests</rdg>
@@ -3870,42 +3857,29 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['at', 'the', 'cottage', 'of']">
-			<rdg wit="f1818">at the cottage of</rdg>
-			<rdg wit="f1823">at the cottage of</rdg>
-			<rdg wit="fThomas">at the cottage of</rdg>
-			<rdg wit="f1831">at the cottage of</rdg>
-			<rdg wit="fMS">at the cottage of</rdg>
+		<rdgGrp n="['at', 'the', 'cottage', 'of', 'her', 'lover.']">
+			<rdg wit="f1818">at the cottage of her lover.</rdg>
+			<rdg wit="f1823">at the cottage of her lover.</rdg>
+			<rdg wit="fThomas">at the cottage of her lover.</rdg>
+			<rdg wit="f1831">at the cottage of her lover.</rdg>
+			<rdg wit="fMS">at the cottage of her lover.&lt;lb n="c57-0037__main__1"/&gt;</rdg>
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['her']">
-			<rdg wit="f1818">her</rdg>
-			<rdg wit="f1823">her</rdg>
-			<rdg wit="fThomas">her</rdg>
-			<rdg wit="f1831">her</rdg>
+		<rdgGrp n="['&lt;p-end/&gt;', '']">
+			<rdg wit="f1818">&lt;p eID="novel1_letter4_chapter13_div4_div14_p20"/&gt; &lt;milestone
+				unit="chapter" type="end" n="13"/&gt;</rdg>
+			<rdg wit="f1823">&lt;p eID="novel1_letter4_chapter13_div4_div14_p20"/&gt; &lt;milestone
+				unit="chapter" type="end" n="13"/&gt;</rdg>
+			<rdg wit="fThomas">&lt;p eID="novel1_letter4_chapter13_div4_div14_p18"/&gt;
+				&lt;milestone unit="chapter" type="end" n="13"/&gt;</rdg>
+			<rdg wit="f1831">&lt;p eID="novel1_letter4_chapter14_div4_div14_p20"/&gt; &lt;milestone
+				unit="chapter" type="end" n="14"/&gt;</rdg>
 		</rdgGrp>
 		<rdgGrp
-			n="['her', 'lover.having', 'overcome', 'many', 'difficulties', 'succeeded', 'at', 'length', 'in', 'joining', 'her']">
-			<rdg wit="fMS">her lover.&lt;lb n="c57-0037__main__1"/&gt;having overcome many
-				difficulties succeeded &lt;lb n="c57-0037__main__2"/&gt;at length in joining
-				her</rdg>
-		</rdgGrp>
-	</app>
-
-	<app>
-		<rdgGrp n="['lover', 'in', 'his', 'retreat']">
-			<rdg wit="fMS">lover in his retreat</rdg>
-		</rdgGrp>
-		<rdgGrp n="['lover.', '&lt;p-end/&gt;', '']">
-			<rdg wit="f1818">lover. &lt;p eID="novel1_letter4_chapter13_div4_div14_p20"/&gt;
-				&lt;milestone unit="chapter" type="end" n="13"/&gt;</rdg>
-			<rdg wit="f1823">lover. &lt;p eID="novel1_letter4_chapter13_div4_div14_p20"/&gt;
-				&lt;milestone unit="chapter" type="end" n="13"/&gt;</rdg>
-			<rdg wit="fThomas">lover. &lt;p eID="novel1_letter4_chapter13_div4_div14_p18"/&gt;
-				&lt;milestone unit="chapter" type="end" n="13"/&gt;</rdg>
-			<rdg wit="f1831">lover. &lt;p eID="novel1_letter4_chapter14_div4_div14_p20"/&gt;
-				&lt;milestone unit="chapter" type="end" n="14"/&gt;</rdg>
+			n="['having', 'overcome', 'many', 'difficulties', 'succeeded', 'at', 'length', 'in', 'joining', 'her', 'lover', 'in', 'his', 'retreat']">
+			<rdg wit="fMS">having overcome many difficulties succeeded &lt;lb
+				n="c57-0037__main__2"/&gt;at length in joining her lover in his retreat</rdg>
 		</rdgGrp>
 	</app>
 	<app>
@@ -3918,4 +3892,4 @@
 		</rdgGrp>
 	</app>
 </cx:apparatus>
-<!-- 2023-03-16 00:14:20.434896 -->
+<!-- 2023-03-16 03:48:12.211504 -->
