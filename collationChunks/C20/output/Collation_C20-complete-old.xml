@@ -4,27 +4,49 @@
 		<rdgGrp n="['']">
 			<rdg wit="f1818"/>
 			<rdg wit="fThomas"/>
-			<rdg wit="fMS">&lt;lb n="c57-0031__main__1"/&gt;</rdg>
+		</rdgGrp>
+		<rdgGrp n="['', '', '']">
+			<rdg wit="fMS">&lt;lb n="c57-0031__main__1"/&gt; &lt;milestone spanTo="#ci57-0031.11"
+				unit="tei:head"/&gt; &lt;sga-add hand="#pbs"
+				sID="c57-0031__main__d4e4824"/&gt;</rdg>
 		</rdgGrp>
 	</app>
+
 	<app>
-		<rdgGrp n="['', '']">
-			<rdg wit="f1818">&lt;milestone unit="chapter" type="start" n="13"/&gt; &lt;pb
-				xml:id="F1818_v2_088" n="084"/&gt;</rdg>
+		<rdgGrp n="['']">
+			<rdg wit="f1818">&lt;milestone unit="chapter" type="start" n="13"/&gt;</rdg>
+			<rdg wit="f1823"/>
+			<rdg wit="fThomas">&lt;milestone unit="chapter" type="start" n="13"/&gt;</rdg>
+			<rdg wit="f1831"/>
+		</rdgGrp>
+		<rdgGrp
+			n="['another chapter&lt;anchor xml:id=&#34;c57-0031.11&#34;/&gt;', ' sometime elapsed before i', '&lt;delstart/&gt;became informed&lt;delend/&gt;', '']">
+			<rdg wit="fMS">&lt;longToken&gt;another Chapter&lt;sga-add
+				eID="c57-0031__main__d4e4824"/&gt;&lt;anchor
+				xml:id="c57-0031.11"/&gt;&lt;/longToken&gt; &lt;longToken&gt;&lt;lb
+				n="c57-0031__main__2"/&gt; Sometime elapsed before I&lt;/longToken&gt; &lt;del
+				next="#c57-0031.02" rend="strikethrough" xml:id="c57-0031__main__d4e4832"&gt;became
+				informed&lt;/del&gt; &lt;lb n="c57-0031__main__3"/&gt;&lt;lb
+				n="c57-0031__left_margin__1"/&gt;</rdg>
+		</rdgGrp>
+	</app>
+
+	<app>
+		<rdgGrp n="['']">
+			<rdg wit="f1818">&lt;pb xml:id="F1818_v2_088" n="084"/&gt;</rdg>
 			<rdg wit="f1823">&lt;milestone unit="chapter" type="start" n="13"/&gt;</rdg>
-			<rdg wit="fThomas">&lt;milestone unit="chapter" type="start" n="13"/&gt; &lt;pb
-				xml:id="F1818_v2_088" n="084"/&gt;</rdg>
+			<rdg wit="fThomas">&lt;pb xml:id="F1818_v2_088" n="084"/&gt;</rdg>
 			<rdg wit="f1831">&lt;milestone unit="chapter" type="start" n="14"/&gt;</rdg>
-			<rdg wit="fMS">&lt;milestone spanTo="#c57-0031.11" unit="tei:head"/&gt; &lt;sga-add
-				hand="#pbs" sID="c57-0031__main__d4e4824"/&gt;</rdg>
+		</rdgGrp>
+		<rdgGrp n="['&lt;delstart/&gt; of th &lt;delend/&gt;', '', '', '']">
+			<rdg wit="fMS">&lt;del rend="strikethrough" xml:id="c57-0031__left_margin__d4e4843"&gt;
+				of th &lt;/del&gt; &lt;mdel&gt;of&lt;/mdel&gt; &lt;sga-add place="sublinear"
+				sID="c57-0031__main__d4e4853"/&gt; &lt;metamark
+				function="insert"&gt;^&lt;/metamark&gt;</rdg>
 		</rdgGrp>
 	</app>
+
 	<app>
-		<rdgGrp n="['another chapter', '', 'sometime']">
-			<rdg wit="fMS">&lt;longToken&gt;another Chapter&lt;/longToken&gt; &lt;sga-add
-				eID="c57-0031__main__d4e4824"/&gt;&lt;lb n="c57-0031__main__2"/&gt;
-				&lt;longToken&gt;Sometime&lt;/longToken&gt;</rdg>
-		</rdgGrp>
 		<rdgGrp n="['chapter ii.']">
 			<rdg wit="f1823">&lt;head&gt;CHAPTER II.&lt;/head&gt;</rdg>
 		</rdgGrp>
@@ -37,32 +59,27 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['&lt;p-start/&gt;', '&#34;some time']">
-			<rdg wit="f1818">&lt;p sID="novel1_letter4_chapter13_div4_div14_p1"/&gt;
-				&lt;longToken&gt;“S&lt;hi
+		<rdgGrp n="['&lt;p-start/&gt; &#34;some time elapsed before i']">
+			<rdg wit="f1818">&lt;longToken&gt;&lt;p
+				sID="novel1_letter4_chapter13_div4_div14_p1"/&gt; “S&lt;hi
 				sID="novel1_letter4_chapter13_div4_div14_p1_hi1"/&gt;OME&lt;hi
-				eID="novel1_letter4_chapter13_div4_div14_p1_hi1"/&gt; time&lt;/longToken&gt;</rdg>
-			<rdg wit="f1823">&lt;p sID="novel1_letter4_chapter13_div4_div14_p1"/&gt;
-				&lt;longToken&gt;“S&lt;hi
+				eID="novel1_letter4_chapter13_div4_div14_p1_hi1"/&gt; time elapsed before
+				I&lt;/longToken&gt;</rdg>
+			<rdg wit="f1823">&lt;longToken&gt;&lt;p
+				sID="novel1_letter4_chapter13_div4_div14_p1"/&gt; “S&lt;hi
 				sID="novel1_letter4_chapter13_div4_div14_p1_hi1"/&gt;OME&lt;hi
-				eID="novel1_letter4_chapter13_div4_div14_p1_hi1"/&gt; time&lt;/longToken&gt;</rdg>
-			<rdg wit="fThomas">&lt;p sID="novel1_letter4_chapter13_div4_div14_p1"/&gt;
-				&lt;longToken&gt;“S&lt;hi
+				eID="novel1_letter4_chapter13_div4_div14_p1_hi1"/&gt; time elapsed before
+				I&lt;/longToken&gt;</rdg>
+			<rdg wit="fThomas">&lt;longToken&gt;&lt;p
+				sID="novel1_letter4_chapter13_div4_div14_p1"/&gt; “S&lt;hi
 				sID="novel1_letter4_chapter13_div4_div14_p1_hi1"/&gt;OME&lt;hi
-				eID="novel1_letter4_chapter13_div4_div14_p1_hi1"/&gt; time&lt;/longToken&gt;</rdg>
-			<rdg wit="f1831">&lt;p sID="novel1_letter4_chapter14_div4_div14_p1"/&gt;
-				&lt;longToken&gt;“S&lt;hi
+				eID="novel1_letter4_chapter13_div4_div14_p1_hi1"/&gt; time elapsed before
+				I&lt;/longToken&gt;</rdg>
+			<rdg wit="f1831">&lt;longToken&gt;&lt;p
+				sID="novel1_letter4_chapter14_div4_div14_p1"/&gt; “S&lt;hi
 				sID="novel1_letter4_chapter14_div4_div14_p1_hi1"/&gt;OME&lt;hi
-				eID="novel1_letter4_chapter14_div4_div14_p1_hi1"/&gt; time&lt;/longToken&gt;</rdg>
-		</rdgGrp>
-	</app>
-	<app>
-		<rdgGrp n="['elapsed', 'before', 'i']">
-			<rdg wit="f1818">elapsed before I</rdg>
-			<rdg wit="f1823">elapsed before I</rdg>
-			<rdg wit="fThomas">elapsed before I</rdg>
-			<rdg wit="f1831">elapsed before I</rdg>
-			<rdg wit="fMS">elapsed before I</rdg>
+				eID="novel1_letter4_chapter14_div4_div14_p1_hi1"/&gt; time elapsed before
+				I&lt;/longToken&gt;</rdg>
 		</rdgGrp>
 	</app>
 	<app>
@@ -71,21 +88,10 @@
 			<rdg wit="f1823">learned</rdg>
 			<rdg wit="fThomas">learned</rdg>
 			<rdg wit="f1831">learned</rdg>
-		</rdgGrp>
-		<rdgGrp
-			n="['&lt;delstart/&gt;became informed&lt;delend/&gt;', '', '&lt;delstart/&gt; of th &lt;delend/&gt;', '', '', '', 'learned']">
-			<rdg wit="fMS">&lt;del next="#c57-0031.02" rend="strikethrough"
-				xml:id="c57-0031__main__d4e4832"&gt;became informed&lt;/del&gt; &lt;lb
-				n="c57-0031__main__3"/&gt;&lt;lb n="c57-0031__left_margin__1"/&gt; &lt;del
-				rend="strikethrough" xml:id="c57-0031__left_margin__d4e4843"&gt; of th &lt;/del&gt;
-				&lt;mdel&gt;of&lt;/mdel&gt; &lt;sga-add place="sublinear"
-				sID="c57-0031__main__d4e4853"/&gt; &lt;metamark
-				function="insert"&gt;^&lt;/metamark&gt; &lt;sga-add
-				eID="c57-0031__main__d4e4853"/&gt;&lt;sga-add place="superlinear"
-				sID="c57-0031__main__d4e4859"/&gt;learned</rdg>
+			<rdg wit="fMS">&lt;sga-add eID="c57-0031__main__d4e4853"/&gt;&lt;sga-add
+				place="superlinear" sID="c57-0031__main__d4e4859"/&gt;learned</rdg>
 		</rdgGrp>
 	</app>
-
 	<app>
 		<rdgGrp n="['the', 'history', 'of', 'my', 'friends.', 'it', 'was', 'one']">
 			<rdg wit="f1818">the history of my friends. It was one </rdg>
@@ -1652,12 +1658,14 @@
 				pr&lt;/del&gt; &lt;sga-add place="sublinear" sID="c57-0033__main__d4e5410"/&gt;
 				&lt;metamark function="insert"&gt;^&lt;/metamark&gt; &lt;sga-add
 				eID="c57-0033__main__d4e5410"/&gt;&lt;sga-add place="superlinear"
-				sID="c57-0033__main__d4e5416"/&gt;more entirely&lt;sga-add
-				eID="c57-0033__main__d4e5416"/&gt;</rdg>
+				sID="c57-0033__main__d4e5416"/&gt;more entirely</rdg>
 		</rdgGrp>
 	</app>
 
 	<app>
+		<rdgGrp n="['']">
+			<rdg wit="fMS">&lt;sga-add eID="c57-0033__main__d4e5416"/&gt;</rdg>
+		</rdgGrp>
 		<rdgGrp n="['in', 'his', 'interests']">
 			<rdg wit="f1818">in his interests</rdg>
 			<rdg wit="f1823">in his interests</rdg>
@@ -2918,27 +2926,14 @@
 	</app>
 
 	<app>
-		<rdgGrp n="['to', 'the', 'french']">
-			<rdg wit="f1818">to the French </rdg>
-			<rdg wit="f1823">to the French </rdg>
-			<rdg wit="fThomas">to the French </rdg>
-			<rdg wit="f1831">to the French </rdg>
-			<rdg wit="fMS">&lt;sga-add eID="c57-0033__main__d4e5560"/&gt;to the French</rdg>
-		</rdgGrp>
-	</app>
-
-	<app>
-		<rdgGrp n="['government;']">
-			<rdg wit="f1818">government;</rdg>
-			<rdg wit="f1823">government;</rdg>
-			<rdg wit="fThomas">government;</rdg>
-			<rdg wit="f1831">government;</rdg>
-		</rdgGrp>
 		<rdgGrp
-			n="['government–', '', 'he had just heard of a small vessel bound for constantinople which &lt;anchor xml:id=&#34;c57-0033.04&#34;/&gt; he hadconsequently hired a vessel to convey him &lt;zone eid=&#34;c57-0033__main&#34;/&gt;&lt;surface eid=&#34;ox-ms_abinger_c57-0033&#34;/&gt;&lt;surface lrx=&#34;5368&#34; lry=&#34;7104&#34; partof=&#34;ox-frankenstein_notebook_b.xml#ox-frankenstein_volume_ii&#34; ulx=&#34;0&#34; uly=&#34;0&#34; folio=&#34;17v&#34; shelfmark=&#34;ms. abinger c. 57&#34; base=&#34;ox-ms_abinger_c57/ox-ms_abinger_c57-0034.xml&#34; id=&#34;ox-ms_abinger_c57-0034&#34; sid=&#34;ox-ms_abinger_c57-0034&#34;/&gt;&lt;graphic url=&#34;http://shelleygodwinarchive.org/images/ox/ms_abinger_c57/ms_abinger_c57-0034.jp2&#34;/&gt;&lt;zone type=&#34;main&#34; sid=&#34;c57-0034__main&#34;/&gt;to &lt;delstart/&gt;can&lt;delend/&gt; constantinople', '']">
-			<rdg wit="fMS">Government– &lt;lb n="c57-0033__main__26"/&gt; &lt;longToken&gt;He had
-				just heard of a small vessel &lt;lb n="c57-0033__main__27"/&gt;bound for
-				Constantinople which &lt;anchor xml:id="c57-0033.04"/&gt; He had &lt;lb
+			n="['', 'to the french government–', '&lt;delstart/&gt;he had just heard of a small vessel bound for constantinople which &lt;anchor xml:id=&#34;c57-0033.04&#34;/&gt;', 'he had consequently hired a vessel to convey him &lt;zone eid=&#34;c57-0033__main&#34;/&gt;&lt;surface eid=&#34;ox-ms_abinger_c57-0033&#34;/&gt;&lt;surface lrx=&#34;5368&#34; lry=&#34;7104&#34; partof=&#34;ox-frankenstein_notebook_b.xml#ox-frankenstein_volume_ii&#34; ulx=&#34;0&#34; uly=&#34;0&#34; folio=&#34;17v&#34; shelfmark=&#34;ms. abinger c. 57&#34; base=&#34;ox-ms_abinger_c57/ox-ms_abinger_c57-0034.xml&#34; id=&#34;ox-ms_abinger_c57-0034&#34; sid=&#34;ox-ms_abinger_c57-0034&#34;/&gt;&lt;graphic url=&#34;http://shelleygodwinarchive.org/images/ox/ms_abinger_c57/ms_abinger_c57-0034.jp2&#34;/&gt;&lt;zone type=&#34;main&#34; sid=&#34;c57-0034__main&#34;/&gt;to &lt;delstart/&gt;can&lt;delend/&gt; constantinople', '']">
+			<rdg wit="fMS">&lt;sga-add eID="c57-0033__main__d4e5560"/&gt; &lt;longToken&gt;to the
+				French Government–&lt;/longToken&gt; &lt;longToken&gt;&lt;lb
+				n="c57-0033__main__26"/&gt;&lt;delSpan rend="strikethrough"
+				spanTo="#c57-0033.04"/&gt;He had just heard of a small vessel &lt;lb
+				n="c57-0033__main__27"/&gt;bound for Constantinople which &lt;anchor
+				xml:id="c57-0033.04"/&gt;&lt;/longToken&gt; &lt;longToken&gt;He had &lt;lb
 				n="c57-0033__main__28"/&gt;consequently hired a vessel to convey him &lt;zone
 				eID="c57-0033__main"/&gt;&lt;surface eID="ox-ms_abinger_c57-0033"/&gt;&lt;surface
 				lrx="5368" lry="7104"
@@ -2950,6 +2945,12 @@
 				type="main" sID="c57-0034__main"/&gt;&lt;lb n="c57-0034__main__1"/&gt;to &lt;del
 				rend="strikethrough" xml:id="c57-0034__main__d4e5585"&gt;Can&lt;/del&gt;
 				Constantinople&lt;/longToken&gt; &lt;mdel&gt;in&lt;/mdel&gt;</rdg>
+		</rdgGrp>
+		<rdgGrp n="['to the french government; ']">
+			<rdg wit="f1818">&lt;longToken&gt;to the French government; &lt;/longToken&gt;</rdg>
+			<rdg wit="f1823">&lt;longToken&gt;to the French government; &lt;/longToken&gt;</rdg>
+			<rdg wit="fThomas">&lt;longToken&gt;to the French government; &lt;/longToken&gt;</rdg>
+			<rdg wit="f1831">&lt;longToken&gt;to the French government; &lt;/longToken&gt;</rdg>
 		</rdgGrp>
 	</app>
 	<app>
@@ -3917,4 +3918,4 @@
 		</rdgGrp>
 	</app>
 </cx:apparatus>
-<!-- 2023-03-15 22:07:38.609467 -->
+<!-- 2023-03-16 00:14:20.434896 -->

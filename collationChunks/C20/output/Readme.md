@@ -44,10 +44,10 @@
    - **Finishing Point:** End of Chapter
    
    # 3-15-2023 
-   - [ ] All editions: Some time at the start of the passage is a tricky fix. **Decision to do manually.**
+   - [ ] All editions: `Some time` vs `Sometime` at the start of the chapter is a tricky fix. **Decision to do manually.**
    - [ ] **Fix "Condemnation" manually**
    - [X] Possible divergence: MS disappears after "consummation of his happiness" and shows up again for a milestone unit before reappearing fully starting with "The Turk." Should any action be taken? **Would have to add longToken to all 5 editions**
  - [ ] MS stops briefly after "The commander", but the other four readings have lengthy blocks of text, with the MS reappearing starting with "his daughter." Should something be done about this? **Yes, Check the Paragraph alignment, put longTokens in all editions**
   - [ ] Alignment question: all categories end with "Felix Had" at one point, but 1823 and 1831 include the word "accidentally" before converging with every category (except the manuscript) at "been." Debating is they should stay as-is.
   - [ ] MS: `['government–', 'he', 'had', 'just', 'heard', 'of', 'a', 'small', 'vessel', 'bound', 'for', 'constantinople', 'which']` is all grouped together, but many elements from this string appear in separated reading groups. This may need fixing, but I'm skeptical because the same text appears in those reading groups. 
-  - [ ] MS: For "in his interests", it has a blank token and no text. Why is that there? **Not Fixed Yet**
+  - [X] MS: For "in his interests", it has a blank token and no text. Why is that there? **ebb: repaired: we were correct to realign and remove the empty token**
