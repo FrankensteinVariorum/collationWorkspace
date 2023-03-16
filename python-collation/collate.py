@@ -51,6 +51,8 @@ RE_NOTE_START = re.compile(r'<note.*?>')
 RE_NOTE_END = re.compile(r'</note>')
 RE_DELSTART = re.compile(r'<del.*?>')
 RE_DELEND = re.compile(r'</del>')
+RE_DELSPAN = re.compile(r'<delSpan.+?/>')
+RE_ANCHOR = re.compile(r'<anchor.+?/>')
 RE_SGA_ADDSTART = re.compile(r'<sga-add.+?sID.+?/>')
 RE_SGA_ADDEND = re.compile(r'<sga-add.+?eID.+?/>')
 RE_MDEL = re.compile(r'<mdel.*?>.+?</mdel>')
@@ -104,10 +106,10 @@ RE_DOTDASH = re.compile(r'\.–')
 # 2017-05-30 ebb: collated but the tags are not). Decision to make the comments into self-closing elements with text
 # 2017-05-30 ebb: contents as attribute values, and content such as tags simplified to be legal attribute values.
 # 2017-05-22 ebb: I've set anchor elements with @xml:ids to be the indicators of collation "chunks" to process together
-ignore = ['mod', 'sourceDoc', 'xml', 'comment', 'anchor', 'include', 'delSpan', 'addSpan', 'handShift', 'damage',
+ignore = ['mod', 'sourceDoc', 'xml', 'comment', 'include', 'addSpan', 'handShift', 'damage',
           'restore', 'zone', 'surface', 'graphic', 'unclear', 'retrace']
 blockEmpty = ['p', 'div', 'milestone', 'lg', 'l', 'cit', 'quote', 'bibl']
-inlineEmpty = ['pb', 'sga-add', 'lb', 'gap', 'hi', 'w', 'ab']
+inlineEmpty = ['pb', 'sga-add', 'delSpan', 'anchor', 'lb', 'gap', 'hi', 'w', 'ab']
 inlineContent = ['del-INNER', 'add-INNER', 'metamark', 'mdel', 'shi']
 inlineVariationEvent = ['head', 'del', 'add', 'note', 'longToken']
 
@@ -215,6 +217,9 @@ def normalize(inputText):
     normalized = RE_sgaPEND.sub('<p-end/>', normalized)
     normalized = RE_MILESTONE.sub('', normalized)
     normalized = RE_PB.sub('', normalized)
+    # 2023-03-15 ebb: freshly outputting delSpan and anchor from S-GA, need to normalize
+    normalized = RE_DELSPAN.sub('', normalized)
+    normalized = RE_ANCHOR.sub('', normalized)
     normalized = RE_LT_AMP.sub('and', normalized)
     normalized = RE_AMP.sub('and', normalized)
     normalized = RE_LB.sub('', normalized)
