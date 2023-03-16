@@ -2,23 +2,23 @@
 <cx:apparatus xmlns:cx="http://interedition.eu/collatex/ns/1.0">
 	<app>
 		<rdgGrp n="['']">
-			<rdg wit="f1818"> </rdg>
-			<rdg wit="fThomas"> </rdg>
-			<rdg wit="fMS">&lt;lb n=&quot;c57-0031__main__1&quot;/&gt; </rdg>
+			<rdg wit="f1818">&lt;anchor type=&quot;collate&quot; xml:id=&quot;C20&quot;/&gt; </rdg>
+			<rdg wit="fThomas">&lt;anchor type=&quot;collate&quot; xml:id=&quot;C20&quot;/&gt; </rdg>
+			<rdg wit="fMS">&lt;anchor type=&quot;collate&quot; xml:id=&quot;C20&quot;/&gt;&lt;lb n=&quot;c57-0031__main__1&quot;/&gt; </rdg>
 		</rdgGrp>
 	</app>
 	<app>
 		<rdgGrp n="['', '']">
 			<rdg wit="f1818">&lt;milestone unit=&quot;chapter&quot; type=&quot;start&quot; n=&quot;13&quot;/&gt; &lt;pb xml:id=&quot;F1818_v2_088&quot; n=&quot;084&quot;/&gt; </rdg>
-			<rdg wit="f1823"> &lt;milestone unit=&quot;chapter&quot; type=&quot;start&quot; n=&quot;13&quot;/&gt; </rdg>
+			<rdg wit="f1823">&lt;anchor type=&quot;collate&quot; xml:id=&quot;C20&quot;/&gt; &lt;milestone unit=&quot;chapter&quot; type=&quot;start&quot; n=&quot;13&quot;/&gt; </rdg>
 			<rdg wit="fThomas">&lt;milestone unit=&quot;chapter&quot; type=&quot;start&quot; n=&quot;13&quot;/&gt; &lt;pb xml:id=&quot;F1818_v2_088&quot; n=&quot;084&quot;/&gt; </rdg>
-			<rdg wit="f1831"> &lt;milestone unit=&quot;chapter&quot; type=&quot;start&quot; n=&quot;14&quot;/&gt; </rdg>
+			<rdg wit="f1831">&lt;anchor type=&quot;collate&quot; xml:id=&quot;C20&quot;/&gt; &lt;milestone unit=&quot;chapter&quot; type=&quot;start&quot; n=&quot;14&quot;/&gt; </rdg>
 			<rdg wit="fMS">&lt;milestone spanTo=&quot;#ci57-0031.11&quot; unit=&quot;tei:head&quot;/&gt; &lt;sga-add hand=&quot;#pbs&quot; sID=&quot;c57-0031__main__d4e4824&quot;/&gt; </rdg>
 		</rdgGrp>
 	</app>
 	<app>
 		<rdgGrp n="['another chapter', '', 'sometime']">
-			<rdg wit="fMS">&lt;longToken&gt;another Chapter&lt;/longToken&gt; &lt;sga-add eID=&quot;c57-0031__main__d4e4824&quot;/&gt;&lt;lb n=&quot;c57-0031__main__2&quot;/&gt; Sometime </rdg>
+			<rdg wit="fMS">&lt;longToken&gt;another Chapter&lt;/longToken&gt; &lt;sga-add eID=&quot;c57-0031__main__d4e4824&quot;/&gt;&lt;anchor xml:id=&quot;c57-0031.11&quot;/&gt;&lt;lb n=&quot;c57-0031__main__2&quot;/&gt; Sometime </rdg>
 		</rdgGrp>
 		<rdgGrp n="['chapter ii.']">
 			<rdg wit="f1823">&lt;head&gt;CHAPTER II.&lt;/head&gt; </rdg>
@@ -49,8 +49,8 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['&lt;delstart/&gt;became informed&lt;delend/&gt;', '', '&lt;delstart/&gt; of th &lt;delend/&gt;', '', '', '']">
-			<rdg wit="fMS">&lt;del next=&quot;#c57-0031.02&quot; rend=&quot;strikethrough&quot; xml:id=&quot;c57-0031__main__d4e4832&quot;&gt;became informed&lt;/del&gt; &lt;lb n=&quot;c57-0031__main__3&quot;/&gt;&lt;lb n=&quot;c57-0031__left_margin__1&quot;/&gt; &lt;del rend=&quot;strikethrough&quot; xml:id=&quot;c57-0031__left_margin__d4e4843&quot;&gt; of th &lt;/del&gt; &lt;mdel&gt;of&lt;/mdel&gt; &lt;sga-add place=&quot;sublinear&quot; sID=&quot;c57-0031__main__d4e4853&quot;/&gt; &lt;metamark function=&quot;insert&quot;&gt;^&lt;/metamark&gt; </rdg>
+		<rdgGrp n="['&lt;delstart/&gt;became informed&lt;delend/&gt;', '', '&lt;delstart/&gt; of th &lt;delend/&gt;', '', '', '', '']">
+			<rdg wit="fMS">&lt;del next=&quot;#c57-0031.02&quot; rend=&quot;strikethrough&quot; xml:id=&quot;c57-0031__main__d4e4832&quot;&gt;became informed&lt;/del&gt; &lt;lb n=&quot;c57-0031__main__3&quot;/&gt;&lt;anchor xml:id=&quot;c57-0031.03&quot;/&gt;&lt;lb n=&quot;c57-0031__left_margin__1&quot;/&gt; &lt;del rend=&quot;strikethrough&quot; xml:id=&quot;c57-0031__left_margin__d4e4843&quot;&gt; of th &lt;/del&gt; &lt;anchor xml:id=&quot;c57-0031.01&quot;/&gt; &lt;mdel&gt;of&lt;/mdel&gt; &lt;sga-add place=&quot;sublinear&quot; sID=&quot;c57-0031__main__d4e4853&quot;/&gt; &lt;metamark function=&quot;insert&quot;&gt;^&lt;/metamark&gt; </rdg>
 		</rdgGrp>
 	</app>
 	<app>
@@ -78,7 +78,7 @@
 	</app>
 	<app>
 		<rdgGrp n="['&lt;delstart/&gt;that&lt;delend/&gt;', '']">
-			<rdg wit="fMS">&lt;del rend=&quot;strikethrough&quot; xml:id=&quot;c57-0031__main__d4e4864&quot;&gt;that&lt;/del&gt; &lt;lb n=&quot;c57-0031__main__4&quot;/&gt;&lt;lb n=&quot;c57-0031__left_margin__1&quot;/&gt;&lt;sga-add hand=&quot;#pbs&quot; sID=&quot;c57-0031__left_margin__d4e4875&quot;/&gt; </rdg>
+			<rdg wit="fMS">&lt;del rend=&quot;strikethrough&quot; xml:id=&quot;c57-0031__main__d4e4864&quot;&gt;that&lt;/del&gt; &lt;lb n=&quot;c57-0031__main__4&quot;/&gt;&lt;anchor xml:id=&quot;c57-0031.05&quot;/&gt;&lt;lb n=&quot;c57-0031__left_margin__1&quot;/&gt;&lt;sga-add hand=&quot;#pbs&quot; sID=&quot;c57-0031__left_margin__d4e4875&quot;/&gt; </rdg>
 		</rdgGrp>
 	</app>
 	<app>
@@ -87,7 +87,7 @@
 			<rdg wit="f1823">which could not fail to impress itself deeply </rdg>
 			<rdg wit="fThomas">which could not fail to impress itself deeply </rdg>
 			<rdg wit="f1831">which could not fail to impress itself deeply </rdg>
-			<rdg wit="fMS">which &lt;sga-add eID=&quot;c57-0031__left_margin__d4e4875&quot;/&gt;could not fail to impress itself deeply </rdg>
+			<rdg wit="fMS">which &lt;sga-add eID=&quot;c57-0031__left_margin__d4e4875&quot;/&gt;&lt;anchor xml:id=&quot;c57-0031.04&quot;/&gt;could not fail to impress itself deeply </rdg>
 		</rdgGrp>
 	</app>
 	<app>
@@ -239,8 +239,8 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['france', 'and', 'untill', 'very', 'lately', 'had', 'lived', 'where for many years he had lived']">
-			<rdg wit="fMS">France &amp;&lt;lb n=&quot;c57-0031__main__11&quot;/&gt; untill very lately had lived &lt;longToken&gt;where for many years &lt;lb n=&quot;c57-0031__main__12&quot;/&gt;he had lived&lt;/longToken&gt; </rdg>
+		<rdgGrp n="['france', 'and', 'untill', 'very', 'lately', 'had', 'lived', '', 'where for many years he had lived']">
+			<rdg wit="fMS">France &lt;delSpan rend=&quot;strikethrough&quot; spanTo=&quot;#c57-0031.06&quot;/&gt;&amp;&lt;lb n=&quot;c57-0031__main__11&quot;/&gt; untill very lately had lived &lt;anchor xml:id=&quot;c57-0031.06&quot;/&gt; &lt;longToken&gt;where for many years &lt;lb n=&quot;c57-0031__main__12&quot;/&gt;he had lived&lt;/longToken&gt; </rdg>
 		</rdgGrp>
 		<rdgGrp n="['france,', 'where he had lived for many years']">
 			<rdg wit="f1818">France, &lt;longToken&gt;where he had lived for many years&lt;/longToken&gt; </rdg>
@@ -300,7 +300,7 @@
 	</app>
 	<app>
 		<rdgGrp n="['his', 'two', 'children', 'felix', 'andagatha']">
-			<rdg wit="fMS">His two children Felix &amp;&lt;w ana=&quot;start&quot;/&gt;Aga&lt;lb n=&quot;c57-0031__main__14&quot;/&gt;tha&lt;w ana=&quot;end&quot;/&gt; </rdg>
+			<rdg wit="fMS">&lt;delSpan rend=&quot;strikethrough&quot; spanTo=&quot;#c57-0031.07&quot;/&gt;His two children Felix &amp;&lt;w ana=&quot;start&quot;/&gt;Aga&lt;lb n=&quot;c57-0031__main__14&quot;/&gt;tha&lt;w ana=&quot;end&quot;/&gt;&lt;anchor xml:id=&quot;c57-0031.07&quot;/&gt; </rdg>
 		</rdgGrp>
 	</app>
 	<app>
@@ -403,8 +403,8 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['', '&lt;delstart/&gt;to&lt;delend/&gt;']">
-			<rdg wit="fMS">&lt;sga-add eID=&quot;c57-0031__main__d4e4973&quot;/&gt;&lt;lb n=&quot;c57-0031__main__17&quot;/&gt; &lt;del rend=&quot;strikethrough&quot; xml:id=&quot;c57-0031__main__d4e4978&quot;&gt;to&lt;/del&gt; </rdg>
+		<rdgGrp n="['', '&lt;delstart/&gt;to&lt;delend/&gt;', '']">
+			<rdg wit="fMS">&lt;sga-add eID=&quot;c57-0031__main__d4e4973&quot;/&gt;&lt;lb n=&quot;c57-0031__main__17&quot;/&gt; &lt;del rend=&quot;strikethrough&quot; xml:id=&quot;c57-0031__main__d4e4978&quot;&gt;to&lt;/del&gt; &lt;anchor xml:id=&quot;c57-0031.08&quot;/&gt; </rdg>
 		</rdgGrp>
 	</app>
 	<app>
@@ -828,7 +828,7 @@
 	</app>
 	<app>
 		<rdgGrp n="['wealth', '', '&lt;delstart/&gt;had been the causes of his condemnation rather&lt;delend/&gt;', '', '&lt;delstart/&gt;than&lt;delend/&gt;']">
-			<rdg wit="fMS">wealth &lt;lb n=&quot;c57-0031__main__32&quot;/&gt; &lt;del rend=&quot;strikethrough&quot; xml:id=&quot;c57-0031__main__d4e5105&quot;&gt;had been the causes of his condemnation rather&lt;/del&gt; &lt;lb n=&quot;c57-0032__main__1&quot;/&gt;&lt;lb n=&quot;c57-0032__left_margin__1&quot;/&gt; &lt;del rend=&quot;smear&quot; xml:id=&quot;c57-0032__left_margin__d4e5126&quot;&gt;than&lt;/del&gt; </rdg>
+			<rdg wit="fMS">wealth &lt;lb n=&quot;c57-0031__main__32&quot;/&gt; &lt;del rend=&quot;strikethrough&quot; xml:id=&quot;c57-0031__main__d4e5105&quot;&gt;had been the causes of his condemnation rather&lt;/del&gt; &lt;lb n=&quot;c57-0032__main__1&quot;/&gt;&lt;anchor xml:id=&quot;c57-0032.01&quot;/&gt;&lt;lb n=&quot;c57-0032__left_margin__1&quot;/&gt; &lt;del rend=&quot;smear&quot; xml:id=&quot;c57-0032__left_margin__d4e5126&quot;&gt;than&lt;/del&gt; </rdg>
 		</rdgGrp>
 		<rdgGrp n="['wealth,']">
 			<rdg wit="f1818">wealth, </rdg>
@@ -897,12 +897,12 @@
 			<rdg wit="f1823">had been the cause of his </rdg>
 			<rdg wit="fThomas">had been the cause of his </rdg>
 			<rdg wit="f1831">had been the cause of his </rdg>
-			<rdg wit="fMS">&lt;lb n=&quot;c57-0032__main__2&quot;/&gt;&lt;lb n=&quot;c57-0032__left_margin__1&quot;/&gt;had been the &lt;lb n=&quot;c57-0032__left_margin__2&quot;/&gt;cause of his </rdg>
+			<rdg wit="fMS">&lt;lb n=&quot;c57-0032__main__2&quot;/&gt;&lt;anchor xml:id=&quot;c57-0032.02&quot;/&gt;&lt;lb n=&quot;c57-0032__left_margin__1&quot;/&gt;had been the &lt;lb n=&quot;c57-0032__left_margin__2&quot;/&gt;cause of his </rdg>
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['condemnation', 'felix was present at his trial; &lt;delstart/&gt;and&lt;delend/&gt;']">
-			<rdg wit="fMS">&lt;lb n=&quot;c57-0032__left_margin__3&quot;/&gt;condemnation &lt;longToken&gt;Felix was present at his trial; &lt;del rend=&quot;strikethrough&quot; xml:id=&quot;c57-0032__main__d4e5155&quot;&gt;&amp;amp;&lt;/del&gt;&lt;/longToken&gt; </rdg>
+		<rdgGrp n="['condemnation', '', 'felix was present at his trial; &lt;delstart/&gt;and&lt;delend/&gt;']">
+			<rdg wit="fMS">&lt;lb n=&quot;c57-0032__left_margin__3&quot;/&gt;condemnation &lt;anchor xml:id=&quot;c57-0032.03&quot;/&gt; &lt;longToken&gt;Felix was present at his trial; &lt;del rend=&quot;strikethrough&quot; xml:id=&quot;c57-0032__main__d4e5155&quot;&gt;&amp;amp;&lt;/del&gt;&lt;/longToken&gt; </rdg>
 		</rdgGrp>
 		<rdgGrp n="['condemnation.']">
 			<rdg wit="f1818">condemnation. </rdg>
@@ -1042,7 +1042,7 @@
 	</app>
 	<app>
 		<rdgGrp n="['prison', '&lt;delstart/&gt;goal&lt;delend/&gt;', 'prison', '']">
-			<rdg wit="fMS">&lt;w ana=&quot;start&quot;/&gt;pri&lt;lb n=&quot;c57-0032__main__8&quot;/&gt;son&lt;w ana=&quot;end&quot;/&gt; &lt;del rend=&quot;strikethrough&quot; xml:id=&quot;c57-0032__main__d4e5216&quot;&gt;goal&lt;/del&gt; &lt;sga-add hand=&quot;#pbs&quot; place=&quot;superlinear&quot; sID=&quot;c57-0032__main__d4e5219&quot;/&gt;prison &lt;sga-add eID=&quot;c57-0032__main__d4e5219&quot;/&gt; </rdg>
+			<rdg wit="fMS">&lt;delSpan rend=&quot;strikethrough&quot; spanTo=&quot;#c57-0032.04&quot;/&gt;&lt;w ana=&quot;start&quot;/&gt;pri&lt;lb n=&quot;c57-0032__main__8&quot;/&gt;son&lt;w ana=&quot;end&quot;/&gt;&lt;anchor xml:id=&quot;c57-0032.04&quot;/&gt; &lt;del rend=&quot;strikethrough&quot; xml:id=&quot;c57-0032__main__d4e5216&quot;&gt;goal&lt;/del&gt; &lt;sga-add hand=&quot;#pbs&quot; place=&quot;superlinear&quot; sID=&quot;c57-0032__main__d4e5219&quot;/&gt;prison &lt;sga-add eID=&quot;c57-0032__main__d4e5219&quot;/&gt; </rdg>
 		</rdgGrp>
 		<rdgGrp n="['prison,']">
 			<rdg wit="f1818">prison, </rdg>
@@ -1233,7 +1233,7 @@
 			<rdg wit="f1823">kindle the zeal of his </rdg>
 			<rdg wit="fThomas">kindle the zeal of his </rdg>
 			<rdg wit="f1831">kindle the zeal of his </rdg>
-			<rdg wit="fMS">&lt;lb n=&quot;c57-0032__left_margin__1&quot;/&gt;&lt;sga-add hand=&quot;#pbs&quot; sID=&quot;c57-0032__left_margin__d4e5292&quot;/&gt;kindle &lt;sga-add eID=&quot;c57-0032__left_margin__d4e5292&quot;/&gt;&lt;lb n=&quot;c57-0032__main__18&quot;/&gt;the zeal of his </rdg>
+			<rdg wit="fMS">&lt;anchor xml:id=&quot;c57-0032.05&quot;/&gt;&lt;lb n=&quot;c57-0032__left_margin__1&quot;/&gt;&lt;sga-add hand=&quot;#pbs&quot; sID=&quot;c57-0032__left_margin__d4e5292&quot;/&gt;kindle &lt;sga-add eID=&quot;c57-0032__left_margin__d4e5292&quot;/&gt;&lt;lb n=&quot;c57-0032__main__18&quot;/&gt;the zeal of his </rdg>
 		</rdgGrp>
 	</app>
 	<app>
@@ -1425,8 +1425,8 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['felix', '&lt;delstart/&gt;and resolved to obtain&lt;delend/&gt;', 'his', 'at', 'any', 'price', 'the', 'full', 'zeal']">
-			<rdg wit="fMS">Felix &lt;del rend=&quot;strikethrough&quot; xml:id=&quot;c57-0033__main__d4e5361&quot;&gt;and resolved to obtain&lt;/del&gt; his &lt;lb n=&quot;c57-0033__main__2&quot;/&gt;at any price the full zeal </rdg>
+		<rdgGrp n="['felix', '&lt;delstart/&gt;and resolved to obtain&lt;delend/&gt;', 'his', 'at', 'any', 'price', 'the', 'full', 'zeal', '']">
+			<rdg wit="fMS">Felix &lt;del rend=&quot;strikethrough&quot; xml:id=&quot;c57-0033__main__d4e5361&quot;&gt;and resolved to obtain&lt;/del&gt; &lt;delSpan spanTo=&quot;#c57-0033.01&quot;/&gt;his &lt;lb n=&quot;c57-0033__main__2&quot;/&gt;at any price the full zeal &lt;anchor xml:id=&quot;c57-0033.01&quot;/&gt; </rdg>
 		</rdgGrp>
 		<rdgGrp n="['felix,']">
 			<rdg wit="f1818">Felix, </rdg>
@@ -1446,7 +1446,7 @@
 	</app>
 	<app>
 		<rdgGrp n="['&lt;delstart/&gt;re ', '&lt;mod sid=&quot;c57-0033__main__d4e5375&quot;/&gt;', '      &lt;mdel&gt;', '                  &lt;/mdel&gt;', '       s ', '      &lt;mod eid=&quot;c57-0033__main__d4e5375&quot;/&gt; olved&lt;delend/&gt;', 'endeavored']">
-			<rdg wit="fMS">&lt;del rend=&quot;strikethrough&quot; xml:id=&quot;c57-0033__main__d4e5373&quot;&gt;re  &lt;mod sID=&quot;c57-0033__main__d4e5375&quot;/&gt;       &lt;mdel&gt;                   &lt;/mdel&gt;        &lt;sga-add place=&quot;intralinear&quot; sID=&quot;c57-0033__main__d4e5382&quot;/&gt;s &lt;sga-add eID=&quot;c57-0033__main__d4e5382&quot;/&gt;       &lt;mod eID=&quot;c57-0033__main__d4e5375&quot;/&gt; olved&lt;/del&gt; &lt;lb n=&quot;c57-0033__left_margin__1&quot;/&gt;&lt;sga-add sID=&quot;c57-0033__left_margin__d4e5393&quot;/&gt;endeavored </rdg>
+			<rdg wit="fMS">&lt;del rend=&quot;strikethrough&quot; xml:id=&quot;c57-0033__main__d4e5373&quot;&gt;re  &lt;mod sID=&quot;c57-0033__main__d4e5375&quot;/&gt;       &lt;mdel&gt;                   &lt;/mdel&gt;        &lt;sga-add place=&quot;intralinear&quot; sID=&quot;c57-0033__main__d4e5382&quot;/&gt;s &lt;sga-add eID=&quot;c57-0033__main__d4e5382&quot;/&gt;       &lt;mod eID=&quot;c57-0033__main__d4e5375&quot;/&gt; olved&lt;/del&gt; &lt;anchor xml:id=&quot;c57-0033.02&quot;/&gt;&lt;lb n=&quot;c57-0033__left_margin__1&quot;/&gt;&lt;sga-add sID=&quot;c57-0033__left_margin__d4e5393&quot;/&gt;endeavored </rdg>
 		</rdgGrp>
 		<rdgGrp n="['endeavoured']">
 			<rdg wit="f1818">endeavoured </rdg>
@@ -2385,7 +2385,7 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['', 'to the french government–', '&lt;delstart/&gt;he had just heard of a small vessel bound for constantinople which &lt;anchor xml:id=&quot;c57-0033.04&quot;/&gt;', 'he had consequently hired a vessel to convey him &lt;zone eid=&quot;c57-0033__main&quot;/&gt;&lt;surface eid=&quot;ox-ms_abinger_c57-0033&quot;/&gt;&lt;surface lrx=&quot;5368&quot; lry=&quot;7104&quot; partof=&quot;ox-frankenstein_notebook_b.xml#ox-frankenstein_volume_ii&quot; ulx=&quot;0&quot; uly=&quot;0&quot; folio=&quot;17v&quot; shelfmark=&quot;ms. abinger c. 57&quot; base=&quot;ox-ms_abinger_c57/ox-ms_abinger_c57-0034.xml&quot; id=&quot;ox-ms_abinger_c57-0034&quot; sid=&quot;ox-ms_abinger_c57-0034&quot;/&gt;&lt;graphic url=&quot;http://shelleygodwinarchive.org/images/ox/ms_abinger_c57/ms_abinger_c57-0034.jp2&quot;/&gt;&lt;zone type=&quot;main&quot; sid=&quot;c57-0034__main&quot;/&gt;to &lt;delstart/&gt;can&lt;delend/&gt; constantinople', '']">
+		<rdgGrp n="['', 'to the french government–', 'he had just heard of a small vessel bound for constantinople which ', 'he had consequently hired a vessel to convey him &lt;zone eid=&quot;c57-0033__main&quot;/&gt;&lt;surface eid=&quot;ox-ms_abinger_c57-0033&quot;/&gt;&lt;surface lrx=&quot;5368&quot; lry=&quot;7104&quot; partof=&quot;ox-frankenstein_notebook_b.xml#ox-frankenstein_volume_ii&quot; ulx=&quot;0&quot; uly=&quot;0&quot; folio=&quot;17v&quot; shelfmark=&quot;ms. abinger c. 57&quot; base=&quot;ox-ms_abinger_c57/ox-ms_abinger_c57-0034.xml&quot; id=&quot;ox-ms_abinger_c57-0034&quot; sid=&quot;ox-ms_abinger_c57-0034&quot;/&gt;&lt;graphic url=&quot;http://shelleygodwinarchive.org/images/ox/ms_abinger_c57/ms_abinger_c57-0034.jp2&quot;/&gt;&lt;zone type=&quot;main&quot; sid=&quot;c57-0034__main&quot;/&gt;to &lt;delstart/&gt;can&lt;delend/&gt; constantinople', '']">
 			<rdg wit="fMS">&lt;sga-add eID=&quot;c57-0033__main__d4e5560&quot;/&gt; &lt;longToken&gt;to the French Government–&lt;/longToken&gt; &lt;longToken&gt;&lt;lb n=&quot;c57-0033__main__26&quot;/&gt;&lt;delSpan rend=&quot;strikethrough&quot; spanTo=&quot;#c57-0033.04&quot;/&gt;He had just heard of a small vessel &lt;lb n=&quot;c57-0033__main__27&quot;/&gt;bound for Constantinople which &lt;anchor xml:id=&quot;c57-0033.04&quot;/&gt;&lt;/longToken&gt; &lt;longToken&gt;He had &lt;lb n=&quot;c57-0033__main__28&quot;/&gt;consequently hired a vessel to convey him &lt;zone eID=&quot;c57-0033__main&quot;/&gt;&lt;surface eID=&quot;ox-ms_abinger_c57-0033&quot;/&gt;&lt;surface lrx=&quot;5368&quot; lry=&quot;7104&quot; partOf=&quot;ox-frankenstein_notebook_b.xml#ox-frankenstein_volume_ii&quot; ulx=&quot;0&quot; uly=&quot;0&quot; folio=&quot;17v&quot; shelfmark=&quot;MS. Abinger c. 57&quot; base=&quot;ox-ms_abinger_c57/ox-ms_abinger_c57-0034.xml&quot; id=&quot;ox-ms_abinger_c57-0034&quot; sID=&quot;ox-ms_abinger_c57-0034&quot;/&gt;&lt;graphic url=&quot;http://shelleygodwinarchive.org/images/ox/ms_abinger_c57/ms_abinger_c57-0034.jp2&quot;/&gt;&lt;zone type=&quot;main&quot; sID=&quot;c57-0034__main&quot;/&gt;&lt;lb n=&quot;c57-0034__main__1&quot;/&gt;to &lt;del rend=&quot;strikethrough&quot; xml:id=&quot;c57-0034__main__d4e5585&quot;&gt;Can&lt;/del&gt; Constantinople&lt;/longToken&gt; &lt;mdel&gt;in&lt;/mdel&gt; </rdg>
 		</rdgGrp>
 		<rdgGrp n="['to the french government; ']">
@@ -2892,7 +2892,7 @@
 			<rdg wit="f1831">the common language of Turkey, </rdg>
 		</rdgGrp>
 		<rdgGrp n="['tur', 'kish', 'arabic', '']">
-			<rdg wit="fMS">Tur &lt;lb n=&quot;c57-0034__main__22&quot;/&gt;kish &lt;sga-add hand=&quot;#pbs&quot; place=&quot;superlinear&quot; sID=&quot;c57-0034__main__d4e5695&quot;/&gt;Arabic &lt;sga-add eID=&quot;c57-0034__main__d4e5695&quot;/&gt; </rdg>
+			<rdg wit="fMS">&lt;delSpan rend=&quot;strikethrough&quot; spanTo=&quot;#c57-0034.02&quot;/&gt;Tur &lt;lb n=&quot;c57-0034__main__22&quot;/&gt;kish &lt;anchor xml:id=&quot;c57-0034.02&quot;/&gt;&lt;sga-add hand=&quot;#pbs&quot; place=&quot;superlinear&quot; sID=&quot;c57-0034__main__d4e5695&quot;/&gt;Arabic &lt;sga-add eID=&quot;c57-0034__main__d4e5695&quot;/&gt;&lt;anchor xml:id=&quot;c57-0034.01&quot;/&gt; </rdg>
 		</rdgGrp>
 	</app>
 	<app>
@@ -3167,8 +3167,8 @@
 			<rdg wit="fThomas">hands. </rdg>
 			<rdg wit="f1831">hands. </rdg>
 		</rdgGrp>
-		<rdgGrp n="['hands–', 'the', 'hostess', 'of', 'the', 'inn', 'was', 'interrested', 'in', 'her', 'fate', '&lt;delstart/&gt;and&lt;delend/&gt;', '&lt;delstart/&gt;and&lt;delend/&gt;']">
-			<rdg wit="fMS">hands– The hostess of the Inn was &lt;w ana=&quot;start&quot;/&gt;in&lt;lb n=&quot;c57-0035__main__4&quot;/&gt;terrested&lt;w ana=&quot;end&quot;/&gt; in her fate &lt;del rend=&quot;strikethrough&quot; xml:id=&quot;c57-0035__main__d4e5785&quot;&gt;And&lt;/del&gt; &lt;del rend=&quot;strikethrough&quot; xml:id=&quot;c57-0035__main__d4e5789&quot;&gt;and&lt;/del&gt; </rdg>
+		<rdgGrp n="['hands–', 'the', 'hostess', 'of', 'the', 'inn', 'was', 'interrested', 'in', 'her', 'fate', '', '&lt;delstart/&gt;and&lt;delend/&gt;', '&lt;delstart/&gt;and&lt;delend/&gt;']">
+			<rdg wit="fMS">hands– &lt;delSpan rend=&quot;strikethrough&quot; spanTo=&quot;#c57-0035.01&quot;/&gt;The hostess of the Inn was &lt;w ana=&quot;start&quot;/&gt;in&lt;lb n=&quot;c57-0035__main__4&quot;/&gt;terrested&lt;w ana=&quot;end&quot;/&gt; in her fate &lt;anchor xml:id=&quot;c57-0035.01&quot;/&gt; &lt;del rend=&quot;strikethrough&quot; xml:id=&quot;c57-0035__main__d4e5785&quot;&gt;And&lt;/del&gt; &lt;del rend=&quot;strikethrough&quot; xml:id=&quot;c57-0035__main__d4e5789&quot;&gt;and&lt;/del&gt; </rdg>
 		</rdgGrp>
 	</app>
 	<app>
@@ -3265,7 +3265,7 @@
 			<rdg wit="f1823">at the cottage of her lover. </rdg>
 			<rdg wit="fThomas">at the cottage of her lover. </rdg>
 			<rdg wit="f1831">at the cottage of her lover. </rdg>
-			<rdg wit="fMS">at the cottage of her lover.&lt;lb n=&quot;c57-0037__main__1&quot;/&gt; </rdg>
+			<rdg wit="fMS">at the cottage of her lover.&lt;lb n=&quot;c57-0037__main__1&quot;/&gt;&lt;delSpan rend=&quot;strikethrough&quot; spanTo=&quot;#c57-0037.01&quot;/&gt; </rdg>
 		</rdgGrp>
 	</app>
 	<app>
@@ -3285,8 +3285,8 @@
 			<rdg wit="f1823"> </rdg>
 			<rdg wit="fThomas"> </rdg>
 			<rdg wit="f1831"> </rdg>
-			<rdg wit="fMS"> </rdg>
+			<rdg wit="fMS">&lt;anchor xml:id=&quot;c57-0037.01&quot;/&gt; </rdg>
 		</rdgGrp>
 	</app>
 </cx:apparatus>
-<!-- 2023-03-16 03:48:12.211504 -->
+<!-- 2023-03-16 04:16:53.735493 -->
