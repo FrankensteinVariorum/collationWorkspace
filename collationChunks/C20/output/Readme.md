@@ -51,3 +51,6 @@
   - [ ] Alignment question: all categories end with "Felix Had" at one point, but 1823 and 1831 include the word "accidentally" before converging with every category (except the manuscript) at "been." Debating is they should stay as-is.
   - [ ] MS: `['government–', 'he', 'had', 'just', 'heard', 'of', 'a', 'small', 'vessel', 'bound', 'for', 'constantinople', 'which']` is all grouped together, but many elements from this string appear in separated reading groups. This may need fixing, but I'm skeptical because the same text appears in those reading groups. 
   - [X] MS: For "in his interests", it has a blank token and no text. Why is that there? **ebb: repaired: we were correct to realign and remove the empty token**
+  
+  # 3-22-2023
+  - [ ] left a long token for "full zeal." run shell script.
