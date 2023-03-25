@@ -54,3 +54,9 @@
   
   # 3-22-2023
   - [ ] left a long token for "full zeal." run shell script.
+ 
+ # 3-23-2023
+ - [ ] Tried resolving "On heart of Felix" issue with the Manuscript, but I don't think I solved it. May need to be fixed manually
+ - **Side Notes:** MS only has "Heart of Felix" once, every other version has it occur twice. In the versions wrapped in longTokens, some were punctuated and some were not. Running the script a second time to see if isolating the punctuation fixes anything.
+ - **Possibly Fixed!** The Manuscript shows up with the others, but other adjustments have followed it afterwards. Assess this before marking as fixed. 
+ - **Sending this branch for review:** Dr. Bondar can give this a look, and hopefully there are very few issues left. I will switch to main branch and create a branch for C22 now and make chapters into longTokens if necessary.
