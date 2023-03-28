@@ -42,3 +42,34 @@
 	</app>
 ```	
 - Finishing Point: "Arch-Fiend"
+
+# 3-28-2023
+- [] **Misalignment Detected:** "To have familiarized" in the MS has the entire phrase grouped with `to have`, but `familiarized` is not grouped with the other four sections. `longToken` may be necessary for isolation.:
+```
+<app>
+		<rdgGrp n="['to', 'have']">
+			<rdg wit="f1818">to have</rdg>
+			<rdg wit="f1823">to have</rdg>
+			<rdg wit="fThomas">to have</rdg>
+			<rdg wit="f1831">to have</rdg>
+		</rdgGrp>
+		<rdgGrp n="['tohave', 'familia', '&lt;delstart/&gt;rzi&lt;delend/&gt;', 'r', '', 'ized']">
+			<rdg wit="fMS">to&lt;lb n="c57-0053__main__1"/&gt;have familia &lt;del
+				rend="overwritten" xml:id="c57-0053__main__d4e10385"&gt;rzi&lt;/del&gt; &lt;sga-add
+				place="intralinear" sID="c57-0053__main__d4e10388"/&gt;r &lt;sga-add
+				eID="c57-0053__main__d4e10388"/&gt; ized</rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['familiarised']">
+			<rdg wit="f1831">familiarised</rdg>
+		</rdgGrp>
+		<rdgGrp n="['familiarized']">
+			<rdg wit="f1818">familiarized</rdg>
+			<rdg wit="f1823">familiarized</rdg>
+			<rdg wit="fThomas">familiarized</rdg>
+		</rdgGrp>
+	</app>
+```	
+
+- Finishing Point: "We can never again inhabit that cottage"
