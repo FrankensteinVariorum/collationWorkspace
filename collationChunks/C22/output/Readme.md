@@ -1,8 +1,8 @@
 # 3-25-2023
 
 - Establishing the branch, the complete files, and the readme. Running shell script here for the first time.
-- [ ] MS: `have` is written as `ha ve`. Can't remember if `<sga>` code prevents this from being fixable or not.
-- [ ] **Confusion::** MS has `in`, but every other version has `that had broken`. Those two statements align, and the next passages appear to be aligned. See below for reference:
+- [X] MS: `have` is written as `ha ve`. Can't remember if `<sga>` code prevents this from being fixable or not.
+- [X] **Confusion::** MS has `in`, but every other version has `that had broken`. Those two statements align, and the next passages appear to be aligned. See below for reference:
 ```<app>
 		<rdgGrp n="['in']">
 			<rdg wit="fMS">in</rdg>
@@ -16,7 +16,7 @@
 	</app>
 ```	
 
-- [ ] **Possible misalignment:** one app has `arch` and `arch-fiend,` in the same reading group, but everything except 1831 has `arch` and `fiend` in separate apps. May need to fix with longTokens, see code below for reference:
+- [X] **Possible misalignment:** one app has `arch` and `arch-fiend,` in the same reading group, but everything except 1831 has `arch` and `fiend` in separate apps. May need to fix with longTokens, see code below for reference:
 ```
 <app>
 		<rdgGrp n="['arch']">
@@ -44,7 +44,7 @@
 - Finishing Point: "Arch-Fiend"
 
 # 3-28-2023
-- [] **Misalignment Detected:** "To have familiarized" in the MS has the entire phrase grouped with `to have`, but `familiarized` is not grouped with the other four sections. `longToken` may be necessary for isolation.:
+- [X] **Misalignment Detected:** "To have familiarized" in the MS has the entire phrase grouped with `to have`, but `familiarized` is not grouped with the other four sections. `longToken` may be necessary for isolation.:
 ```
 <app>
 		<rdgGrp n="['to', 'have']">
@@ -73,3 +73,7 @@
 ```	
 
 - Finishing Point: "We can never again inhabit that cottage"
+
+# 3-29-2023
+- [X] Alignment error: garden misaligned in MS, being split up with the word "the" Find with "vestige of cultivation"
+- - Finishing Point: "and bitterness"
