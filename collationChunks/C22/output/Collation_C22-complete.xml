@@ -1593,30 +1593,21 @@
 	</app>
 
 	<app>
-		<rdgGrp n="['to', 'have']">
-			<rdg wit="f1818">to have</rdg>
-			<rdg wit="f1823">to have</rdg>
-			<rdg wit="fThomas">to have</rdg>
-			<rdg wit="f1831">to have</rdg>
+		<rdgGrp n="['to have familiarised']">
+			<rdg wit="f1831">&lt;longToken&gt;to have familiarised&lt;/longToken&gt;</rdg>
 		</rdgGrp>
-		<rdgGrp
-			n="['tohave', 'familia', '', '&lt;delstart/&gt;rzi&lt;delend/&gt;', 'r', '', 'ized']">
-			<rdg wit="fMS">to&lt;lb n="c57-0053__main__1"/&gt;have familia &lt;mod
+		<rdgGrp n="['to have familiarized']">
+			<rdg wit="f1818">&lt;longToken&gt;to have familiarized&lt;/longToken&gt;</rdg>
+			<rdg wit="f1823">&lt;longToken&gt;to have familiarized&lt;/longToken&gt;</rdg>
+			<rdg wit="fThomas">&lt;longToken&gt;to have familiarized&lt;/longToken&gt;</rdg>
+		</rdgGrp>
+		<rdgGrp n="['tohave', 'familia', '&lt;delstart/&gt;rzi&lt;delend/&gt;', 'rized']">
+			<rdg wit="fMS">to&lt;lb n="c57-0053__main__1"/&gt;have familia&lt;mod
 				sID="c57-0053__main__d4e10383"/&gt; &lt;del rend="overwritten"
 				xml:id="c57-0053__main__d4e10385"&gt;rzi&lt;/del&gt; &lt;sga-add place="intralinear"
-				sID="c57-0053__main__d4e10388"/&gt;r &lt;sga-add
-				eID="c57-0053__main__d4e10388"/&gt;&lt;mod eID="c57-0053__main__d4e10383"/&gt;
-				ized</rdg>
-		</rdgGrp>
-	</app>
-	<app>
-		<rdgGrp n="['familiarised']">
-			<rdg wit="f1831">familiarised</rdg>
-		</rdgGrp>
-		<rdgGrp n="['familiarized']">
-			<rdg wit="f1818">familiarized</rdg>
-			<rdg wit="f1823">familiarized</rdg>
-			<rdg wit="fThomas">familiarized</rdg>
+				sID="c57-0053__main__d4e10388"/&gt;r&lt;sga-add
+				eID="c57-0053__main__d4e10388"/&gt;&lt;mod
+				eID="c57-0053__main__d4e10383"/&gt;ized</rdg>
 		</rdgGrp>
 	</app>
 	<app>
@@ -2158,9 +2149,10 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['', 'chapt.', '8', 'when']">
-			<rdg wit="fMS">&lt;milestone spanTo="#c57-0054.01" unit="tei:head"/&gt; Chapt. 8
-				&lt;anchor xml:id="c57-0054.01"/&gt;&lt;lb n="c57-0054__main__2"/&gt;When</rdg>
+		<rdgGrp n="['', 'chapt. 8', 'when']">
+			<rdg wit="fMS">&lt;milestone spanTo="#c57-0054.01" unit="tei:head"/&gt;
+				&lt;longToken&gt;Chapt. 8&lt;/longToken&gt; &lt;anchor
+				xml:id="c57-0054.01"/&gt;&lt;lb n="c57-0054__main__2"/&gt;When</rdg>
 		</rdgGrp>
 		<rdgGrp n="['&lt;p-end/&gt;', '&lt;p-start/&gt;', '&#34;when']">
 			<rdg wit="f1818">&lt;p eID="novel1_letter4_chapter15_div4_div16_p6"/&gt; &lt;p
@@ -4028,31 +4020,19 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['the']">
-			<rdg wit="f1818">the</rdg>
-			<rdg wit="f1823">the</rdg>
-			<rdg wit="fThomas">the</rdg>
-			<rdg wit="f1831">the</rdg>
+		<rdgGrp n="['the garden,']">
+			<rdg wit="f1818">&lt;longToken&gt;the garden,&lt;/longToken&gt;</rdg>
+			<rdg wit="f1823">&lt;longToken&gt;the garden,&lt;/longToken&gt;</rdg>
+			<rdg wit="fThomas">&lt;longToken&gt;the garden,&lt;/longToken&gt;</rdg>
+			<rdg wit="f1831">&lt;longToken&gt;the garden,&lt;/longToken&gt;</rdg>
 		</rdgGrp>
 		<rdgGrp
-			n="['the', 'garden', '—', '&lt;delstart/&gt;when&lt;delend/&gt;', '&lt;delstart/&gt;the sun h&lt;delend/&gt;', 'the']">
+			n="['the', 'garden', '—', '&lt;delstart/&gt;when&lt;delend/&gt;', '&lt;delstart/&gt;the sun h&lt;delend/&gt;', 'the', 'moon', 'had', '']">
 			<rdg wit="fMS">the &lt;lb n="c57-0056__main__11"/&gt;garden — &lt;del
 				rend="strikethrough" xml:id="c57-0056__main__d4e10932"&gt;when&lt;/del&gt; &lt;del
 				rend="strikethrough" xml:id="c57-0056__main__d4e10935"&gt;the sun h&lt;/del&gt;
-				&lt;delSpan rend="strikethrough" spanTo="#c57-0056.01"/&gt;the</rdg>
-		</rdgGrp>
-	</app>
-
-	<app>
-		<rdgGrp n="['garden,']">
-			<rdg wit="f1818">garden,</rdg>
-			<rdg wit="f1823">garden,</rdg>
-			<rdg wit="fThomas">garden,</rdg>
-			<rdg wit="f1831">garden,</rdg>
-		</rdgGrp>
-		<rdgGrp n="['moon', 'had', '']">
-			<rdg wit="fMS">&lt;lb n="c57-0056__main__12"/&gt;moon had &lt;anchor
-				xml:id="c57-0056.01"/&gt;</rdg>
+				&lt;delSpan rend="strikethrough" spanTo="#c57-0056.01"/&gt;the &lt;lb
+				n="c57-0056__main__12"/&gt;moon had &lt;anchor xml:id="c57-0056.01"/&gt;</rdg>
 		</rdgGrp>
 	</app>
 	<app>
@@ -6077,29 +6057,17 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['and']">
-			<rdg wit="f1818">and</rdg>
-			<rdg wit="f1823">and</rdg>
-			<rdg wit="fThomas">and</rdg>
-			<rdg wit="f1831">and</rdg>
+		<rdgGrp n="['and bitterness.']">
+			<rdg wit="f1818">&lt;longToken&gt;and bitterness.&lt;/longToken&gt;</rdg>
+			<rdg wit="f1823">&lt;longToken&gt;and bitterness.&lt;/longToken&gt;</rdg>
+			<rdg wit="fThomas">&lt;longToken&gt;and bitterness.&lt;/longToken&gt;</rdg>
+			<rdg wit="f1831">&lt;longToken&gt;and bitterness.&lt;/longToken&gt;</rdg>
 		</rdgGrp>
 		<rdgGrp
-			n="['and', 'bitterness', '–', 'i', 'hated', 'de', 'lacey', 'and', 'his', 'family', 'and']">
+			n="['and', 'bitterness', '–', 'i', 'hated', 'de', 'lacey', 'and', 'his', 'family', 'and', '']">
 			<rdg wit="fMS">&lt;lb n="c57-0058__main__30"/&gt;&amp; bitterness – &lt;delSpan
 				rend="strikethrough" spanTo="#c57-0058.04"/&gt;I hated De Lacey and his family
-				&lt;lb n="c57-0058__main__31"/&gt;and</rdg>
-		</rdgGrp>
-	</app>
-
-	<app>
-		<rdgGrp n="['']">
-			<rdg wit="fMS">&lt;anchor xml:id="c57-0058.04"/&gt;</rdg>
-		</rdgGrp>
-		<rdgGrp n="['bitterness.']">
-			<rdg wit="f1818">bitterness.</rdg>
-			<rdg wit="f1823">bitterness.</rdg>
-			<rdg wit="fThomas">bitterness.</rdg>
-			<rdg wit="f1831">bitterness.</rdg>
+				&lt;lb n="c57-0058__main__31"/&gt;and &lt;anchor xml:id="c57-0058.04"/&gt;</rdg>
 		</rdgGrp>
 	</app>
 	<app>
@@ -9050,11 +9018,11 @@
 				n="c57-0062__main__19"/&gt;continued &lt;anchor xml:id="c57-0062.03"/&gt;&lt;anchor
 				xml:id="c57-0062.04"/&gt;&lt;lb n="c57-0063__main__1"/&gt; &lt;del
 				rend="strikethrough" xml:id="c57-0063__main__d4e12348"&gt; &lt;milestone
-				spanTo="#c57-0063.01" unit="tei:head"/&gt;Chap. 9&lt;shi rend="underline"&gt;
-				&lt;/shi&gt; &lt;anchor xml:id="c57-0063.01"/&gt; &lt;/del&gt; &lt;lb
-				n="c57-0063__main__2"/&gt; &lt;del rend="strikethrough"
-				xml:id="c57-0063__main__d4e12363"&gt;I now saw &lt;/del&gt; &lt;del
-				rend="strikethrough" xml:id="c57-0063__main__d4e12366"&gt;Thus my journey
+				spanTo="#c57-0063.01" unit="tei:head"/&gt;&lt;longToken&gt;Chap.
+				9&lt;/longToken&gt;&lt;shi rend="underline"&gt; &lt;/shi&gt; &lt;anchor
+				xml:id="c57-0063.01"/&gt; &lt;/del&gt; &lt;lb n="c57-0063__main__2"/&gt; &lt;del
+				rend="strikethrough" xml:id="c57-0063__main__d4e12363"&gt;I now saw &lt;/del&gt;
+				&lt;del rend="strikethrough" xml:id="c57-0063__main__d4e12366"&gt;Thus my journey
 				appeared&lt;/del&gt; &lt;milestone unit="tei:p-END"/&gt; &lt;milestone
 				unit="tei:p-START"/&gt;</rdg>
 		</rdgGrp>
@@ -12219,4 +12187,4 @@
 	</app>
 
 </cx:apparatus>
-<!-- 2023-03-28 22:35:18.766455 -->
+<!-- 2023-03-29 20:52:41.738205 -->
