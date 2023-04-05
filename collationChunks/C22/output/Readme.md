@@ -79,7 +79,8 @@
 - - Finishing Point: "and bitterness"
 
 # 4-2-2023
-- **Confusion:** What's up with the manuscript here?
+- [X] **Confusion:** What's up with the manuscript here?
+    - **Nothing wrong here!**
 
 ```
 <app>
@@ -249,7 +250,7 @@
 		</rdgGrp>
 	</app>
 ```
-- [] I'm confused. Why does the MS have so much stuff? (see below):
+- [X] I'm confused. Why does the MS have so much stuff? (see below):
 ```
 <app>
 		<rdgGrp n="['&lt;p-end/&gt;', '&lt;p-start/&gt;']">
@@ -279,7 +280,7 @@
 		</rdgGrp>
 	</app>
 ```	
-- [] Confusion: I'm pretty sure this just means that the MS is missing this part of the passage, but I can't say for sure:
+- [X] Confusion: I'm pretty sure this just means that the MS is missing this part of the passage, but I can't say for sure:
 ```
 <app>
 		<rdgGrp n="['']">
@@ -319,7 +320,7 @@
 		</rdgGrp>
 	</app>
 ```
-- [] Confusion: The MS has the boy demand the monster to let him go, but every other passage goes on about how the boy's father will punish the monster, with the MS being absent. Should any action be taken?
+- [X] Confusion: The MS has the boy demand the monster to let him go, but every other passage goes on about how the boy's father will punish the monster, with the MS being absent. Should any action be taken?
 
 ```
 <app>
