@@ -231,3 +231,186 @@
 ```
 
 - **Finishing point:** "The reward of my benevolence"
+
+# 4-5-2023
+
+-[] Possible spacing fix: `andmade`
+```
+<app>
+		<rdgGrp n="['and', 'made']">
+			<rdg wit="f1818">and made</rdg>
+			<rdg wit="f1823">and made</rdg>
+			<rdg wit="fThomas">and made</rdg>
+			<rdg wit="f1831">and made</rdg>
+		</rdgGrp>
+		<rdgGrp n="['andmade']">
+			<rdg wit="fMS">&amp;&lt;anchor xml:id="c57-0062.02"/&gt;&lt;mod
+				eID="c57-0062__main__d4e12278"/&gt;&lt;lb n="c57-0062__main__12"/&gt;made</rdg>
+		</rdgGrp>
+	</app>
+```
+- [] I'm confused. Why does the MS have so much stuff? (see below):
+```
+<app>
+		<rdgGrp n="['&lt;p-end/&gt;', '&lt;p-start/&gt;']">
+			<rdg wit="f1818">&lt;p eID="novel1_letter4_chapter15_div4_div16_p23"/&gt; &lt;p
+				sID="novel1_letter4_chapter15_div4_div16_p24"/&gt;</rdg>
+			<rdg wit="f1823">&lt;p eID="novel1_letter4_chapter15_div4_div16_p23"/&gt; &lt;p
+				sID="novel1_letter4_chapter15_div4_div16_p24"/&gt;</rdg>
+			<rdg wit="fThomas">&lt;p eID="novel1_letter4_chapter15_div4_div16_p23"/&gt; &lt;p
+				sID="novel1_letter4_chapter15_div4_div16_p24"/&gt;</rdg>
+			<rdg wit="f1831">&lt;p eID="novel1_letter4_chapter16_div4_div16_p23"/&gt; &lt;p
+				sID="novel1_letter4_chapter16_div4_div16_p24"/&gt;</rdg>
+		</rdgGrp>
+		<rdgGrp
+			n="['', 'the', 'same', 'chapter', 'continued', '', '&lt;delstart/&gt;', 'chap. 9', '', '', '&lt;delend/&gt;', '', '&lt;delstart/&gt;i now saw &lt;delend/&gt;', '&lt;delstart/&gt;thus my journey appeared&lt;delend/&gt;', '&lt;p-end/&gt;', '&lt;p-start/&gt;']">
+			<rdg wit="fMS">&lt;milestone spanTo="#c57-0062.04" unit="tei:head"/&gt; &lt;lb
+				n="c57-0062__main__17"/&gt;The same &lt;lb n="c57-0062__main__18"/&gt;chapter &lt;lb
+				n="c57-0062__main__19"/&gt;continued &lt;anchor xml:id="c57-0062.03"/&gt;&lt;anchor
+				xml:id="c57-0062.04"/&gt;&lt;lb n="c57-0063__main__1"/&gt; &lt;del
+				rend="strikethrough" xml:id="c57-0063__main__d4e12348"&gt; &lt;milestone
+				spanTo="#c57-0063.01" unit="tei:head"/&gt;&lt;longToken&gt;Chap.
+				9&lt;/longToken&gt;&lt;shi rend="underline"&gt; &lt;/shi&gt; &lt;anchor
+				xml:id="c57-0063.01"/&gt; &lt;/del&gt; &lt;lb n="c57-0063__main__2"/&gt; &lt;del
+				rend="strikethrough" xml:id="c57-0063__main__d4e12363"&gt;I now saw &lt;/del&gt;
+				&lt;del rend="strikethrough" xml:id="c57-0063__main__d4e12366"&gt;Thus my journey
+				appeared&lt;/del&gt; &lt;milestone unit="tei:p-END"/&gt; &lt;milestone
+				unit="tei:p-START"/&gt;</rdg>
+		</rdgGrp>
+	</app>
+```	
+- [] Confusion: I'm pretty sure this just means that the MS is missing this part of the passage, but I can't say for sure:
+```
+<app>
+		<rdgGrp n="['']">
+			<rdg wit="fMS">&lt;sga-add eID="c57-0063__main__d4e12428"/&gt;&lt;mod
+				eID="c57-0063__main__d4e12420"/&gt;</rdg>
+		</rdgGrp>
+		<rdgGrp n="['from', 'the', 'pain', 'of', 'reflection,']">
+			<rdg wit="f1818">from the pain of reflection,</rdg>
+			<rdg wit="f1823">from the pain of reflection,</rdg>
+			<rdg wit="fThomas">from the pain of reflection,</rdg>
+			<rdg wit="f1831">from the pain of reflection,</rdg>
+		</rdgGrp>
+	</app>
+```
+
+-[] **Misalignment Detected:** `let` needs to be moved down in the MS.
+```
+<app>
+		<rdgGrp n="['violently', 'let']">
+			<rdg wit="fMS">violently &lt;lb n="c57-0063__main__29"/&gt;Let</rdg>
+		</rdgGrp>
+		<rdgGrp n="['violently.']">
+			<rdg wit="f1831">violently.</rdg>
+		</rdgGrp>
+		<rdgGrp n="['violently;']">
+			<rdg wit="f1818">violently;</rdg>
+			<rdg wit="f1823">violently;</rdg>
+			<rdg wit="fThomas">violently;</rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['‘let']">
+			<rdg wit="f1818">‘Let</rdg>
+			<rdg wit="f1823">‘Let</rdg>
+			<rdg wit="fThomas">‘Let</rdg>
+			<rdg wit="f1831">‘Let</rdg>
+		</rdgGrp>
+	</app>
+```
+- [] Confusion: The MS has the boy demand the monster to let him go, but every other passage goes on about how the boy's father will punish the monster, with the MS being absent. Should any action be taken?
+
+```
+<app>
+		<rdgGrp n="['frankenstein—he']">
+			<rdg wit="f1818">Frankenstein—he</rdg>
+			<rdg wit="f1823">Frankenstein—he</rdg>
+			<rdg wit="fThomas">Frankenstein—he</rdg>
+			<rdg wit="f1831">Frankenstein—he</rdg>
+		</rdgGrp>
+		<rdgGrp n="['frankenstien', 'let', 'me', 'go']">
+			<rdg wit="fMS">Frankenstien let me go</rdg>
+		</rdgGrp>
+	</app>
+```
+
+- [] **Possible Misalignment Detected:** Should `exclaimed` in the MS be moved down?
+
+```
+<app>
+		<rdgGrp n="['hands', '&lt;delstart/&gt;and&lt;delend/&gt;', 'i', 'exclaimed']">
+			<rdg wit="fMS">hands &lt;del rend="strikethrough"
+				xml:id="c57-0064__main__d4e12662"&gt;&amp;&lt;/del&gt; I exclaimed</rdg>
+		</rdgGrp>
+		<rdgGrp n="['hands,']">
+			<rdg wit="f1818">hands,</rdg>
+			<rdg wit="f1823">hands,</rdg>
+			<rdg wit="fThomas">hands,</rdg>
+			<rdg wit="f1831">hands,</rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['i']">
+			<rdg wit="f1818">I</rdg>
+			<rdg wit="f1823">I</rdg>
+			<rdg wit="fThomas">I</rdg>
+			<rdg wit="f1831">I</rdg>
+			<rdg wit="fMS">&lt;lb n="c57-0064__main__10"/&gt;I</rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['', '&lt;delstart/&gt;too&lt;delend/&gt;', 'too', '']">
+			<rdg wit="fMS">&lt;mod sID="c57-0064__main__d4e12667"/&gt; &lt;del rend="strikethrough"
+				xml:id="c57-0064__main__d4e12669"&gt;too&lt;/del&gt; &lt;sga-add hand="#pbs"
+				place="superlinear" sID="c57-0064__main__d4e12672"/&gt;too &lt;sga-add
+				eID="c57-0064__main__d4e12672"/&gt;&lt;mod eID="c57-0064__main__d4e12667"/&gt;</rdg>
+		</rdgGrp>
+		<rdgGrp n="['exclaimed,', '‘i,', 'too,']">
+			<rdg wit="f1818">exclaimed, ‘I, too,</rdg>
+			<rdg wit="f1823">exclaimed, ‘I, too,</rdg>
+			<rdg wit="fThomas">exclaimed, ‘I, too,</rdg>
+			<rdg wit="f1831">exclaimed, ‘I, too,</rdg>
+		</rdgGrp>
+	</app>
+```
+
+- [] Confusion: MS has `I was the portrait`, but everything else has `it was a portrait`. May be misaligned.
+```
+<app>
+		<rdgGrp n="['it']">
+			<rdg wit="f1818">it</rdg>
+			<rdg wit="f1823">it</rdg>
+			<rdg wit="fThomas">it</rdg>
+			<rdg wit="f1831">it</rdg>
+			<rdg wit="fMS">it</rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['was']">
+			<rdg wit="f1818">was</rdg>
+			<rdg wit="f1823">was</rdg>
+			<rdg wit="fThomas">was</rdg>
+			<rdg wit="f1831">was</rdg>
+		</rdgGrp>
+		<rdgGrp n="['i', 'was']">
+			<rdg wit="fMS">&lt;lb n="c57-0064__main__16"/&gt;I was</rdg>
+		</rdgGrp>
+	</app>
+```
+
+- [] **Misalignment Detected:** The MS is more descriptive of the portrait, causing some alignment issues. Here's a snippet of them.
+```
+<app>
+		<rdgGrp n="['', 'eyes']">
+			<rdg wit="fMS">&lt;sga-add eID="c57-0064__main__d4e12756"/&gt;&lt;mod
+				eID="c57-0064__main__d4e12751"/&gt; eyes</rdg>
+		</rdgGrp>
+		<rdgGrp n="['lashes,']">
+			<rdg wit="f1818">lashes,</rdg>
+			<rdg wit="f1823">lashes,</rdg>
+			<rdg wit="fThomas">lashes,</rdg>
+			<rdg wit="f1831">lashes,</rdg>
+		</rdgGrp>
+	</app>
+```	
