@@ -1,16 +1,15 @@
 # Collation Chunk 17 (April 6, 2023):
 ## Notes: 
-- "agreable assylum from the snow" MS misaligned. line 5269
-- misalignment? 7933 - "f the cottage it was tolerably warm."
-- misalignment? 9181 - "the eye could just"
-- misalignment 9233 - "white-washed"
-- what do we do about notes? - "This chapter is too short"
-- Fixing "hair andbenevolent" to "hair and benevolent". 
-- misalightment? 9860 - "cottager"
-- misalignment? 10243
-- misalignment 11222 
-- misalightment 11904
-- misalignment 12274
+- [X] "agreable assylum from the snow" MS misaligned. line 5269
+- [X] misalignment? 7933 - "f the cottage it was tolerably warm."
+- [X] misalignment 9233 - "white-washed"
+- [X] what do we do about notes? - "This chapter is too short"
+- [X] Fixing "hair andbenevolent" to "hair and benevolent". 
+- [X] misalightment? 9860 - "cottager"
+- [X] misalignment? 10243
+- [] "and rain" manuscript 
+- [] "up the instrument" put comma in longToken, multiple witnesses 
+- [] "the family soon" misalignment - DR. B handfix
 
 
 ## Older Notes
