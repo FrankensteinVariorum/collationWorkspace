@@ -5479,10 +5479,10 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['rem', '', 'n', '', 'ants']">
+		<rdgGrp n="['rem', '', 'nants']">
 			<rdg wit="fMS">rem &lt;mdel&gt;m&lt;/mdel&gt; &lt;sga-add place="intralinear"
-				sID="c57-0008__main__d4e1314"/&gt;n &lt;sga-add eID="c57-0008__main__d4e1314"/&gt;
-				ants</rdg>
+				sID="c57-0008__main__d4e1314"/&gt;n&lt;sga-add
+				eID="c57-0008__main__d4e1314"/&gt;ants</rdg>
 		</rdgGrp>
 		<rdgGrp n="['remnants']">
 			<rdg wit="f1818">remnants</rdg>
@@ -5718,31 +5718,18 @@
 	</app>
 
 	<app>
-		<rdgGrp n="['the', 'sun,', 'which', 'shone', 'brightly', 'on']">
-			<rdg wit="f1818">the sun, which shone brightly on</rdg>
-			<rdg wit="f1823">the sun, which shone brightly on</rdg>
-			<rdg wit="fThomas">the sun, which shone brightly on</rdg>
-			<rdg wit="f1831">the sun, which shone brightly on</rdg>
+		<rdgGrp n="['the sun']">
+			<rdg wit="fMS">&lt;longToken&gt;the sun&lt;/longToken&gt;</rdg>
 		</rdgGrp>
-	</app>
-	<app>
-		<rdgGrp n="['the']">
-			<rdg wit="f1818">the</rdg>
-			<rdg wit="f1823">the</rdg>
-			<rdg wit="fThomas">the</rdg>
-			<rdg wit="f1831">the</rdg>
-			<rdg wit="fMS">the</rdg>
-		</rdgGrp>
-	</app>
-	<app>
-		<rdgGrp n="['sun']">
-			<rdg wit="fMS">sun</rdg>
-		</rdgGrp>
-		<rdgGrp n="['white', 'ground,']">
-			<rdg wit="f1818">white ground,</rdg>
-			<rdg wit="f1823">white ground,</rdg>
-			<rdg wit="fThomas">white ground,</rdg>
-			<rdg wit="f1831">white ground,</rdg>
+		<rdgGrp n="['the sun,', 'which', 'shone', 'brightly', 'on', 'the', 'white', 'ground,']">
+			<rdg wit="f1818">&lt;longToken&gt;the sun,&lt;/longToken&gt; which shone brightly on the
+				white ground,</rdg>
+			<rdg wit="f1823">&lt;longToken&gt;the sun,&lt;/longToken&gt; which shone brightly on the
+				white ground,</rdg>
+			<rdg wit="fThomas">&lt;longToken&gt;the sun,&lt;/longToken&gt; which shone brightly on
+				the white ground,</rdg>
+			<rdg wit="f1831">&lt;longToken&gt;the sun,&lt;/longToken&gt; which shone brightly on the
+				white ground,</rdg>
 		</rdgGrp>
 	</app>
 	<app>
@@ -12154,4 +12141,4 @@
 	</app>
 
 </cx:apparatus>
-<!-- 2023-02-23 20:21:47.679954 -->
+<!-- 2023-03-02 21:07:10.535057 -->
