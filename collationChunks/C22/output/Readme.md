@@ -130,7 +130,7 @@
 	</app>
 ```	
 
-- [] **Possible Misalignment Detected:** `Cypress` is differently aligned in the MS, but I can't say for sure. Needs evaluation.
+- [X] **Possible Misalignment Detected:** `Cypress` is differently aligned in the MS, but I can't say for sure. Needs evaluation.
 
 ```
 <app>
@@ -162,7 +162,7 @@
 		</rdgGrp>
 	</app>
 ```	
-- [] **Misalignment Detected:** `Hiding Place` is different in some readings of the story, and much like `arch-fiend,` It's separated into reading groups because of word separation. May need a similar fix, code is listed below:
+- [X] **Misalignment Detected:** `Hiding Place` is different in some readings of the story, and much like `arch-fiend,` It's separated into reading groups because of word separation. May need a similar fix, code is listed below:
 ```
 <app>
 		<rdgGrp n="['hiding']">
@@ -235,7 +235,7 @@
 
 # 4-5-2023
 
--[] Possible spacing fix: `andmade`
+-[X] Possible spacing fix: `andmade`
 ```
 <app>
 		<rdgGrp n="['and', 'made']">
@@ -296,7 +296,7 @@
 	</app>
 ```
 
--[] **Misalignment Detected:** `let` needs to be moved down in the MS.
+-[X] **Misalignment Detected:** `let` needs to be moved down in the MS.
 ```
 <app>
 		<rdgGrp n="['violently', 'let']">
@@ -336,7 +336,7 @@
 	</app>
 ```
 
-- [] **Possible Misalignment Detected:** Should `exclaimed` in the MS be moved down?
+- [X] **Possible Misalignment Detected:** Should `exclaimed` in the MS be moved down?
 
 ```
 <app>
@@ -376,7 +376,7 @@
 	</app>
 ```
 
-- [] Confusion: MS has `I was the portrait`, but everything else has `it was a portrait`. May be misaligned.
+- [X] Confusion: MS has `I was the portrait`, but everything else has `it was a portrait`. May be misaligned.
 ```
 <app>
 		<rdgGrp n="['it']">
@@ -400,7 +400,7 @@
 	</app>
 ```
 
-- [] **Misalignment Detected:** The MS is more descriptive of the portrait, causing some alignment issues. Here's a snippet of them.
+- [X] **Misalignment Detected:** The MS is more descriptive of the portrait, causing some alignment issues. Here's a snippet of them.
 ```
 <app>
 		<rdgGrp n="['', 'eyes']">
@@ -414,4 +414,7 @@
 			<rdg wit="f1831">lashes,</rdg>
 		</rdgGrp>
 	</app>
-```	
+```
+
+# 4-9-2023
+- Fixed Alignment issue with "hiding place"
