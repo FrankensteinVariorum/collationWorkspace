@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?><cx:apparatus xmlns:cx="http://interedition.eu/collatex/ns/1.0">
 	<app>
 		<rdgGrp n="['', '']">
-			<rdg wit="f1818">&lt;milestone unit="chapter" type="start" n="8"/&gt;</rdg>
-			<rdg wit="f1823">&lt;milestone unit="chapter" type="start" n="8"/&gt;</rdg>
-			<rdg wit="fThomas">&lt;milestone unit="chapter" type="start" n="8"/&gt;</rdg>
-			<rdg wit="f1831">&lt;milestone unit="chapter" type="start" n="9"/&gt;</rdg>
-			<rdg wit="fMS">&lt;lb n="c56-0108__main__1"/&gt; &lt;milestone spanTo="#c56-0108.08" unit="tei:head"/&gt;</rdg>
+			<rdg wit="f1818">&lt;anchor type="collate" xml:id="C15"/&gt; &lt;milestone unit="chapter" type="start" n="8"/&gt;</rdg>
+			<rdg wit="f1823">&lt;anchor type="collate" xml:id="C15"/&gt; &lt;milestone unit="chapter" type="start" n="8"/&gt;</rdg>
+			<rdg wit="fThomas">&lt;anchor type="collate" xml:id="C15"/&gt; &lt;milestone unit="chapter" type="start" n="8"/&gt;</rdg>
+			<rdg wit="f1831">&lt;anchor type="collate" xml:id="C15"/&gt; &lt;milestone unit="chapter" type="start" n="9"/&gt;</rdg>
+			<rdg wit="fMS">&lt;anchor type="collate" xml:id="C15"/&gt;&lt;lb n="c56-0108__main__1"/&gt; &lt;milestone spanTo="#c56-0108.08" unit="tei:head"/&gt;</rdg>
 		</rdgGrp>
 	</app>
 	<app>
@@ -37,12 +37,12 @@
 			<rdg wit="f1823">N&lt;hi sID="novel1_letter4_chapter8_div4_div8_p1_hi1"/&gt;OTHING&lt;hi eID="novel1_letter4_chapter8_div4_div8_p1_hi1"/&gt; is more painful</rdg>
 			<rdg wit="fThomas">N&lt;hi sID="novel1_letter4_chapter8_div4_div9_p1_hi1"/&gt;OTHING&lt;hi eID="novel1_letter4_chapter8_div4_div9_p1_hi1"/&gt; is more painful</rdg>
 			<rdg wit="f1831">N&lt;hi sID="novel1_letter4_chapter9_div4_div9_p1_hi1"/&gt;OTHING&lt;hi eID="novel1_letter4_chapter9_div4_div9_p1_hi1"/&gt; is more painful</rdg>
-			<rdg wit="fMS">&lt;lb n="c56-0108__main__2"/&gt;Nothing is more painful</rdg>
+			<rdg wit="fMS">&lt;anchor xml:id="c56-0108.08"/&gt;&lt;lb n="c56-0108__main__2"/&gt;Nothing is more painful</rdg>
 		</rdgGrp>
 	</app>
 	<app>
 		<rdgGrp n="['', '', 'than', '', 'when']">
-			<rdg wit="fMS">&lt;sga-add place="sublinear" sID="c56-0108__main__d5e22459"/&gt; &lt;metamark function="insert"&gt;^&lt;/metamark&gt; &lt;sga-add eID="c56-0108__main__d5e22459"/&gt;&lt;sga-add hand="#pbs" place="superlinear" sID="c56-0108__main__d5e22465"/&gt;than &lt;sga-add eID="c56-0108__main__d5e22465"/&gt; when</rdg>
+			<rdg wit="fMS">&lt;mod sID="c56-0108__main__d5e22457"/&gt;&lt;sga-add place="sublinear" sID="c56-0108__main__d5e22459"/&gt; &lt;metamark function="insert"&gt;^&lt;/metamark&gt; &lt;sga-add eID="c56-0108__main__d5e22459"/&gt;&lt;sga-add hand="#pbs" place="superlinear" sID="c56-0108__main__d5e22465"/&gt;than &lt;sga-add eID="c56-0108__main__d5e22465"/&gt;&lt;mod eID="c56-0108__main__d5e22457"/&gt; when</rdg>
 		</rdgGrp>
 		<rdgGrp n="['to', 'the', 'human', 'mind,', 'than,', 'after']">
 			<rdg wit="f1818">to the human mind, than, after</rdg>
@@ -90,7 +90,7 @@
 			<rdg wit="f1831">events, the</rdg>
 		</rdgGrp>
 		<rdgGrp n="['events,for', 'a']">
-			<rdg wit="fMS">events,for a</rdg>
+			<rdg wit="fMS">events,&lt;delSpan rend="strikethrough" spanTo="#c56-0108.01"/&gt;for a</rdg>
 		</rdgGrp>
 	</app>
 	<app>
@@ -119,14 +119,14 @@
 			<rdg wit="f1823">of inaction and certainty</rdg>
 			<rdg wit="fThomas">of inaction and certainty</rdg>
 			<rdg wit="f1831">of inaction and certainty</rdg>
-			<rdg wit="fMS">&lt;lb n="c56-0108__left_margin__1"/&gt;of inaction &amp; certainty</rdg>
+			<rdg wit="fMS">&lt;anchor xml:id="c56-0108.01"/&gt;&lt;anchor xml:id="c56-0108.02"/&gt;&lt;lb n="c56-0108__left_margin__1"/&gt;of inaction &amp; certainty</rdg>
 		</rdgGrp>
 	</app>
-	<app><rdgGrp n="['which']"><rdg wit="f1818">which</rdg><rdg wit="f1823">which</rdg><rdg wit="fThomas">which</rdg><rdg wit="f1831">which</rdg></rdgGrp><rdgGrp n="['', '', 'the', 'dead', 'calmness', '', '', 'which']"><rdg wit="fMS">&lt;lb n="c56-0108__left_margin__2"/&gt; &lt;milestone spanTo="#c56-0108.09" unit="tei:seg" xml:id="c56-0108.07"/&gt; the dead calmness &lt;sga-add sID="c56-0108__left_margin__d5e22501"/&gt; &lt;metamark function="insert"&gt;^&lt;/metamark&gt; which</rdg></rdgGrp></app>
+	<app><rdgGrp n="['which']"><rdg wit="f1818">which</rdg><rdg wit="f1823">which</rdg><rdg wit="fThomas">which</rdg><rdg wit="f1831">which</rdg></rdgGrp><rdgGrp n="['', '', 'the', 'dead', 'calmness', '', '', 'which']"><rdg wit="fMS">&lt;lb n="c56-0108__left_margin__2"/&gt; &lt;milestone spanTo="#c56-0108.09" unit="tei:seg" xml:id="c56-0108.07"/&gt; the dead calmness &lt;anchor xml:id="c56-0108.09"/&gt;&lt;sga-add sID="c56-0108__left_margin__d5e22501"/&gt; &lt;metamark function="insert"&gt;^&lt;/metamark&gt; which</rdg></rdgGrp></app>
 	
 	<app>
 		<rdgGrp n="['', 'follow', 's', '', '&lt;delstart/&gt;which&lt;delend/&gt;']">
-			<rdg wit="fMS">&lt;sga-add eID="c56-0108__left_margin__d5e22501"/&gt; follow &lt;sga-add hand="#pbs" place="intralinear" sID="c56-0108__main__d5e22512"/&gt;s &lt;sga-add eID="c56-0108__main__d5e22512"/&gt; &lt;del rend="strikethrough" xml:id="c56-0108__main__d5e22518"&gt;which&lt;/del&gt;</rdg>
+			<rdg wit="fMS">&lt;sga-add eID="c56-0108__left_margin__d5e22501"/&gt;&lt;anchor xml:id="c56-0108.03"/&gt;&lt;anchor xml:id="c56-0108.05"/&gt; follow &lt;sga-add hand="#pbs" place="intralinear" sID="c56-0108__main__d5e22512"/&gt;s &lt;sga-add eID="c56-0108__main__d5e22512"/&gt;&lt;mod sID="c56-0108__main__d5e22516"/&gt; &lt;del rend="strikethrough" xml:id="c56-0108__main__d5e22518"&gt;which&lt;/del&gt;</rdg>
 		</rdgGrp>
 		<rdgGrp n="['follows,']">
 			<rdg wit="f1818">follows,</rdg>
@@ -141,12 +141,12 @@
 			<rdg wit="f1823">and deprives the</rdg>
 			<rdg wit="fThomas">and deprives the</rdg>
 			<rdg wit="f1831">and deprives the</rdg>
-			<rdg wit="fMS">&lt;sga-add hand="#pbs" place="superlinear" sID="c56-0108__main__d5e22521"/&gt;and &lt;sga-add eID="c56-0108__main__d5e22521"/&gt;&lt;lb n="c56-0108__main__6"/&gt;deprives the</rdg>
+			<rdg wit="fMS">&lt;sga-add hand="#pbs" place="superlinear" sID="c56-0108__main__d5e22521"/&gt;and &lt;sga-add eID="c56-0108__main__d5e22521"/&gt;&lt;mod eID="c56-0108__main__d5e22516"/&gt;&lt;lb n="c56-0108__main__6"/&gt;deprives the</rdg>
 		</rdgGrp>
 	</app>
-	<app><rdgGrp n="['soul']"><rdg wit="f1818">soul</rdg><rdg wit="f1823">soul</rdg><rdg wit="fThomas">soul</rdg><rdg wit="f1831">soul</rdg></rdgGrp><rdgGrp n="['&lt;delstart/&gt;mind&lt;delend/&gt;', 'soul']"><rdg wit="fMS">&lt;del rend="strikethrough" xml:id="c56-0108__main__d5e22529"&gt;mind&lt;/del&gt; &lt;sga-add place="superlinear" sID="c56-0108__main__d5e22532"/&gt;soul</rdg></rdgGrp></app>
+	<app><rdgGrp n="['soul']"><rdg wit="f1818">soul</rdg><rdg wit="f1823">soul</rdg><rdg wit="fThomas">soul</rdg><rdg wit="f1831">soul</rdg></rdgGrp><rdgGrp n="['', '&lt;delstart/&gt;mind&lt;delend/&gt;', 'soul']"><rdg wit="fMS">&lt;mod sID="c56-0108__main__d5e22527"/&gt; &lt;del rend="strikethrough" xml:id="c56-0108__main__d5e22529"&gt;mind&lt;/del&gt; &lt;sga-add place="superlinear" sID="c56-0108__main__d5e22532"/&gt;soul</rdg></rdgGrp></app>
 	
-	<app><rdgGrp n="['both', 'of', 'hope']"><rdg wit="f1818">both of hope </rdg><rdg wit="f1823">both of hope </rdg><rdg wit="fThomas">both of hope </rdg><rdg wit="f1831">both of hope </rdg><rdg wit="fMS">&lt;sga-add eID="c56-0108__main__d5e22532"/&gt;both of hope</rdg></rdgGrp></app>
+	<app><rdgGrp n="['both', 'of', 'hope']"><rdg wit="f1818">both of hope </rdg><rdg wit="f1823">both of hope </rdg><rdg wit="fThomas">both of hope </rdg><rdg wit="f1831">both of hope </rdg><rdg wit="fMS">&lt;sga-add eID="c56-0108__main__d5e22532"/&gt;&lt;mod eID="c56-0108__main__d5e22527"/&gt;both of hope</rdg></rdgGrp></app>
 	
 	<app>
 		<rdgGrp n="['and']">
@@ -189,8 +189,8 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['rested.', '&lt;delstart/&gt;but&lt;delend/&gt;']">
-			<rdg wit="fMS">rested. &lt;del rend="strikethrough" xml:id="c56-0108__main__d5e22540"&gt;But&lt;/del&gt;</rdg>
+		<rdgGrp n="['rested.', '', '&lt;delstart/&gt;but&lt;delend/&gt;']">
+			<rdg wit="fMS">rested. &lt;mod sID="c56-0108__main__d5e22538"/&gt; &lt;del rend="strikethrough" xml:id="c56-0108__main__d5e22540"&gt;But&lt;/del&gt;</rdg>
 		</rdgGrp>
 		<rdgGrp n="['rested;']">
 			<rdg wit="f1818">rested;</rdg>
@@ -205,7 +205,7 @@
 			<rdg wit="f1823">and I was</rdg>
 			<rdg wit="fThomas">and I was</rdg>
 			<rdg wit="f1831">and I was</rdg>
-			<rdg wit="fMS">&lt;sga-add place="superlinear" sID="c56-0108__main__d5e22543"/&gt;&amp;&lt;sga-add eID="c56-0108__main__d5e22543"/&gt; I was</rdg>
+			<rdg wit="fMS">&lt;sga-add place="superlinear" sID="c56-0108__main__d5e22543"/&gt;&amp;&lt;sga-add eID="c56-0108__main__d5e22543"/&gt;&lt;mod eID="c56-0108__main__d5e22538"/&gt; I was</rdg>
 		</rdgGrp>
 	</app>
 	<app>
@@ -276,7 +276,7 @@
 			<rdg wit="f1831">remove.</rdg>
 		</rdgGrp>
 		<rdgGrp n="['remove–our', 'house', 'was', 'a', 'house', 'of', 'mourning–', 'my', 'fathers', 'health', 'was', 'deeply', 'shaken', 'by', 'the', 'horror', 'of', 'the', 'recent', 'events;elizabeth', 'was', 'sad', 'and', 'desponding–', 'she', 'no', 'longer', 'took', 'delight', 'in', 'her', 'ordinary', 'occupations', 'all', 'pleasure', 'seemed', 'to', 'her', 'sacriledge', 'towards', 'the', 'dead—', 'eternal', 'woe', 'and', 'tears', 'she', 'then', 'thought', 'was', 'the', 'just', 'tribute', 'she', 'ought', 'to', 'pay', 'to', 'innocence', 'thus', 'blasted', 'and', '&lt;delstart/&gt;destroyed&lt;delend/&gt;']">
-			<rdg wit="fMS">remove–&lt;lb n="c56-0108__main__11"/&gt;our house was a house of mourning– &lt;lb n="c56-0108__main__12"/&gt;My fathers health was deeply shaken by &lt;lb n="c56-0108__main__13"/&gt;the horror of the recent events;&lt;w ana="start"/&gt;Eliza&lt;lb n="c56-0108__main__14"/&gt;beth&lt;w ana="end"/&gt; was sad and desponding– She no longer &lt;lb n="c56-0108__main__15"/&gt;took delight in her ordinary &lt;w ana="start"/&gt;occupa&lt;lb n="c56-0108__main__16"/&gt;tions&lt;w ana="end"/&gt; all pleasure seemed to her &lt;w ana="start"/&gt;sacri&lt;lb n="c56-0108__main__17"/&gt;ledge&lt;w ana="end"/&gt; towards the dead— eternal woe &lt;lb n="c56-0108__main__18"/&gt;and tears she then thought was the &lt;lb n="c56-0108__main__19"/&gt;just tribute she ought to pay to &lt;w ana="start"/&gt;inno&lt;lb n="c56-0108__main__20"/&gt;cence&lt;w ana="end"/&gt; thus blasted &amp; &lt;del rend="strikethrough" xml:id="c56-0108__main__d5e22595"&gt;destroyed&lt;/del&gt;</rdg>
+			<rdg wit="fMS">remove–&lt;delSpan rend="vertical_line" spanTo="#c56-0108.04"/&gt;&lt;lb n="c56-0108__main__11"/&gt;our house was a house of mourning– &lt;lb n="c56-0108__main__12"/&gt;My fathers health was deeply shaken by &lt;lb n="c56-0108__main__13"/&gt;the horror of the recent events;&lt;w ana="start"/&gt;Eliza&lt;lb n="c56-0108__main__14"/&gt;beth&lt;w ana="end"/&gt; was sad and desponding– She no longer &lt;lb n="c56-0108__main__15"/&gt;took delight in her ordinary &lt;w ana="start"/&gt;occupa&lt;lb n="c56-0108__main__16"/&gt;tions&lt;w ana="end"/&gt; all pleasure seemed to her &lt;w ana="start"/&gt;sacri&lt;lb n="c56-0108__main__17"/&gt;ledge&lt;w ana="end"/&gt; towards the dead— eternal woe &lt;lb n="c56-0108__main__18"/&gt;and tears she then thought was the &lt;lb n="c56-0108__main__19"/&gt;just tribute she ought to pay to &lt;w ana="start"/&gt;inno&lt;lb n="c56-0108__main__20"/&gt;cence&lt;w ana="end"/&gt; thus blasted &amp; &lt;del rend="strikethrough" xml:id="c56-0108__main__d5e22595"&gt;destroyed&lt;/del&gt;</rdg>
 		</rdgGrp>
 	</app>
 	<app>
@@ -285,7 +285,7 @@
 			<rdg wit="f1823">Sleep fled from my</rdg>
 			<rdg wit="fThomas">Sleep fled from my</rdg>
 			<rdg wit="f1831">Sleep fled from my</rdg>
-			<rdg wit="fMS">Sleep fled &lt;lb n="c56-0108__main__21"/&gt;from my</rdg>
+			<rdg wit="fMS">&lt;anchor xml:id="c56-0108.04"/&gt;Sleep fled &lt;lb n="c56-0108__main__21"/&gt;from my</rdg>
 		</rdgGrp>
 	</app>
 	<app>
@@ -328,11 +328,11 @@
 			<rdg wit="fMS">for I</rdg>
 		</rdgGrp>
 	</app>
-	<app><rdgGrp n="['had', 'committed', 'deeds', 'of']"><rdg wit="f1818">had committed deeds of</rdg><rdg wit="f1823">had committed deeds of</rdg><rdg wit="fThomas">had committed deeds of</rdg><rdg wit="f1831">had committed deeds of</rdg></rdgGrp><rdgGrp n="['&lt;delstart/&gt;done&lt;delend/&gt;', '', '', 'had', 'committed', 'deeds', 'of']"><rdg wit="fMS">&lt;del rend="strikethrough" xml:id="c56-0108__main__d5e22610"&gt;done&lt;/del&gt; &lt;sga-add place="sublinear" sID="c56-0108__main__d5e22613"/&gt; &lt;metamark function="insert"&gt;^&lt;/metamark&gt; &lt;sga-add eID="c56-0108__main__d5e22613"/&gt;&lt;sga-add place="superlinear" sID="c56-0108__main__d5e22619"/&gt;had committed deeds of</rdg></rdgGrp></app>
+	<app><rdgGrp n="['had', 'committed', 'deeds', 'of']"><rdg wit="f1818">had committed deeds of</rdg><rdg wit="f1823">had committed deeds of</rdg><rdg wit="fThomas">had committed deeds of</rdg><rdg wit="f1831">had committed deeds of</rdg></rdgGrp><rdgGrp n="['', '&lt;delstart/&gt;done&lt;delend/&gt;', '', '', 'had', 'committed', 'deeds', 'of']"><rdg wit="fMS">&lt;mod sID="c56-0108__main__d5e22608"/&gt; &lt;del rend="strikethrough" xml:id="c56-0108__main__d5e22610"&gt;done&lt;/del&gt; &lt;sga-add place="sublinear" sID="c56-0108__main__d5e22613"/&gt; &lt;metamark function="insert"&gt;^&lt;/metamark&gt; &lt;sga-add eID="c56-0108__main__d5e22613"/&gt;&lt;sga-add place="superlinear" sID="c56-0108__main__d5e22619"/&gt;had committed deeds of</rdg></rdgGrp></app>
 	
 	<app>
 		<rdgGrp n="['']">
-			<rdg wit="fMS">&lt;sga-add eID="c56-0108__main__d5e22619"/&gt;</rdg>
+			<rdg wit="fMS">&lt;sga-add eID="c56-0108__main__d5e22619"/&gt;&lt;mod eID="c56-0108__main__d5e22608"/&gt;</rdg>
 		</rdgGrp>
 		<rdgGrp n="['mischiefbeyond']">
 			<rdg wit="f1823">mischief&lt;pb xml:id="F1823_v1_202" n="183"/&gt;beyond</rdg>
@@ -352,12 +352,12 @@
 			<rdg wit="f1823">description</rdg>
 			<rdg wit="fThomas">description</rdg>
 			<rdg wit="f1831">description</rdg>
-			<rdg wit="fMS">&lt;lb n="c56-0108__main__23"/&gt;description&lt;sga-add place="sublinear" sID="c56-0108__main__d5e22627"/&gt;</rdg>
+			<rdg wit="fMS">&lt;lb n="c56-0108__main__23"/&gt;description&lt;mod sID="c56-0108__main__d5e22625"/&gt;&lt;sga-add place="sublinear" sID="c56-0108__main__d5e22627"/&gt;</rdg>
 		</rdgGrp>
 	</app>
 	<app><rdgGrp n="['horrible,']"><rdg wit="f1818">horrible, </rdg><rdg wit="f1823">horrible, </rdg><rdg wit="fThomas">horrible, </rdg><rdg wit="f1831">horrible, </rdg><rdg wit="fMS">&lt;metamark function="insert"&gt;^&lt;/metamark&gt;&lt;sga-add eID="c56-0108__main__d5e22627"/&gt;&lt;sga-add place="superlinear" sID="c56-0108__main__d5e22633"/&gt;horrible,</rdg></rdgGrp></app>
 	
-	<app><rdgGrp n="['and']"><rdg wit="f1818">and </rdg><rdg wit="f1823">and </rdg><rdg wit="fThomas">and </rdg><rdg wit="f1831">and </rdg><rdg wit="fMS">&lt;sga-add eID="c56-0108__main__d5e22633"/&gt;and</rdg></rdgGrp></app>
+	<app><rdgGrp n="['and']"><rdg wit="f1818">and </rdg><rdg wit="f1823">and </rdg><rdg wit="fThomas">and </rdg><rdg wit="f1831">and </rdg><rdg wit="fMS">&lt;sga-add eID="c56-0108__main__d5e22633"/&gt;&lt;mod eID="c56-0108__main__d5e22625"/&gt;and</rdg></rdgGrp></app>
 	
 	<app>
 		<rdgGrp n="['&lt;delstart/&gt;', 'hor ', '&lt;delend/&gt;', 'more']">
@@ -462,8 +462,8 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['&lt;delstart/&gt;benevolence&lt;delend/&gt;', 'goodness', '', '–']">
-			<rdg wit="fMS">&lt;del rend="strikethrough" xml:id="c56-0108__main__d5e22656"&gt;benevolence&lt;/del&gt; &lt;sga-add place="superlinear" sID="c56-0108__main__d5e22659"/&gt;goodness &lt;sga-add eID="c56-0108__main__d5e22659"/&gt; –</rdg>
+		<rdgGrp n="['', '&lt;delstart/&gt;benevolence&lt;delend/&gt;', 'goodness', '', '–']">
+			<rdg wit="fMS">&lt;mod sID="c56-0108__main__d5e22654"/&gt; &lt;del rend="strikethrough" xml:id="c56-0108__main__d5e22656"&gt;benevolence&lt;/del&gt; &lt;sga-add place="superlinear" sID="c56-0108__main__d5e22659"/&gt;goodness &lt;sga-add eID="c56-0108__main__d5e22659"/&gt;&lt;mod eID="c56-0108__main__d5e22654"/&gt; –</rdg>
 		</rdgGrp>
 		<rdgGrp n="['the', 'love', 'of', 'virtue.']">
 			<rdg wit="f1818">the love of virtue.</rdg>
@@ -503,7 +503,7 @@
 	</app>
 	<app>
 		<rdgGrp n="['', '', 'could', '']">
-			<rdg wit="fMS">&lt;sga-add place="sublinear" sID="c56-0108__main__d5e22670"/&gt; &lt;metamark function="insert"&gt;^&lt;/metamark&gt; &lt;sga-add eID="c56-0108__main__d5e22670"/&gt;&lt;sga-add place="superlinear" sID="c56-0108__main__d5e22676"/&gt;could &lt;sga-add eID="c56-0108__main__d5e22676"/&gt;</rdg>
+			<rdg wit="fMS">&lt;mod sID="c56-0108__main__d5e22668"/&gt;&lt;sga-add place="sublinear" sID="c56-0108__main__d5e22670"/&gt; &lt;metamark function="insert"&gt;^&lt;/metamark&gt; &lt;sga-add eID="c56-0108__main__d5e22670"/&gt;&lt;sga-add place="superlinear" sID="c56-0108__main__d5e22676"/&gt;could &lt;sga-add eID="c56-0108__main__d5e22676"/&gt;&lt;mod eID="c56-0108__main__d5e22668"/&gt;</rdg>
 		</rdgGrp>
 		<rdgGrp n="['should']">
 			<rdg wit="f1818">should</rdg>
@@ -542,8 +542,8 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['fellow', 'beings.', '&lt;delstart/&gt;but&lt;delend/&gt;', '', 'n', '', 'ow']">
-			<rdg wit="fMS">fellow &lt;lb n="c56-0109__main__2"/&gt;beings. &lt;del rend="strikethrough" xml:id="c56-0109__main__d5e22692"&gt;But&lt;/del&gt; &lt;mdel&gt;n&lt;/mdel&gt; &lt;sga-add hand="#pbs" place="intralinear" sID="c56-0109__main__d5e22699"/&gt;N &lt;sga-add eID="c56-0109__main__d5e22699"/&gt; ow</rdg>
+		<rdgGrp n="['fellow', 'beings.', '&lt;delstart/&gt;but&lt;delend/&gt;', '', '&lt;mdel&gt;n&lt;/mdel&gt;', 'n', '', 'ow']">
+			<rdg wit="fMS">fellow &lt;lb n="c56-0109__main__2"/&gt;beings. &lt;del rend="strikethrough" xml:id="c56-0109__main__d5e22692"&gt;But&lt;/del&gt; &lt;mod sID="c56-0109__main__d5e22695"/&gt; &lt;mdel&gt;n&lt;/mdel&gt; &lt;sga-add hand="#pbs" place="intralinear" sID="c56-0109__main__d5e22699"/&gt;N &lt;sga-add eID="c56-0109__main__d5e22699"/&gt;&lt;mod eID="c56-0109__main__d5e22695"/&gt; ow</rdg>
 		</rdgGrp>
 		<rdgGrp n="['fellow-beings.', 'now']">
 			<rdg wit="f1818">fellow-beings. Now</rdg>
@@ -582,8 +582,8 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['seren', '', 'i', '', 'ty']">
-			<rdg wit="fMS">seren &lt;mdel&gt;e&lt;/mdel&gt; &lt;sga-add place="intralinear" sID="c56-0109__main__d5e22713"/&gt;i &lt;sga-add eID="c56-0109__main__d5e22713"/&gt; ty</rdg>
+		<rdgGrp n="['seren', '', '&lt;mdel&gt;e&lt;/mdel&gt;', 'i', '', 'ty']">
+			<rdg wit="fMS">seren &lt;mod sID="c56-0109__main__d5e22709"/&gt; &lt;mdel&gt;e&lt;/mdel&gt; &lt;sga-add place="intralinear" sID="c56-0109__main__d5e22713"/&gt;i &lt;sga-add eID="c56-0109__main__d5e22713"/&gt;&lt;mod eID="c56-0109__main__d5e22709"/&gt; ty</rdg>
 		</rdgGrp>
 		<rdgGrp n="['that', 'serenity']">
 			<rdg wit="f1818">that serenity</rdg>
@@ -661,11 +661,11 @@
 			<rdg wit="fMS">and from thence</rdg>
 		</rdgGrp>
 	</app>
-	<app><rdgGrp n="['to', 'gather', 'promise', 'of', 'new']"><rdg wit="f1818">to gather promise of new</rdg><rdg wit="f1823">to gather promise of new</rdg><rdg wit="fThomas">to gather promise of new</rdg><rdg wit="f1831">to gather promise of new</rdg></rdgGrp><rdgGrp n="['', '', 'to', 'gather', 'promise', 'of', 'new']"><rdg wit="fMS">&lt;sga-add place="sublinear" sID="c56-0109__main__d5e22728"/&gt; &lt;metamark function="insert"&gt;^&lt;/metamark&gt; &lt;sga-add eID="c56-0109__main__d5e22728"/&gt;&lt;sga-add hand="#pbs" place="superlinear" sID="c56-0109__main__d5e22734"/&gt;to gather promise of&lt;sga-add eID="c56-0109__main__d5e22734"/&gt; new</rdg></rdgGrp></app>
+	<app><rdgGrp n="['to', 'gather', 'promise', 'of', 'new']"><rdg wit="f1818">to gather promise of new</rdg><rdg wit="f1823">to gather promise of new</rdg><rdg wit="fThomas">to gather promise of new</rdg><rdg wit="f1831">to gather promise of new</rdg></rdgGrp><rdgGrp n="['', '', 'to', 'gather', 'promise', 'of', 'new']"><rdg wit="fMS">&lt;mod sID="c56-0109__main__d5e22726"/&gt;&lt;sga-add place="sublinear" sID="c56-0109__main__d5e22728"/&gt; &lt;metamark function="insert"&gt;^&lt;/metamark&gt; &lt;sga-add eID="c56-0109__main__d5e22728"/&gt;&lt;sga-add hand="#pbs" place="superlinear" sID="c56-0109__main__d5e22734"/&gt;to gather promise of&lt;sga-add eID="c56-0109__main__d5e22734"/&gt;&lt;mod eID="c56-0109__main__d5e22726"/&gt; new</rdg></rdgGrp></app>
 	
 	<app>
 		<rdgGrp n="['hopes', 'like', 'gay-sweet-smelling', 'flowers', 'to', 'spring', 'up', 'with', 'regard', 'to', 'futurity', '.']">
-			<rdg wit="fMS">hopes like &lt;lb n="c56-0109__main__6"/&gt;gay-sweet-smelling flowers to spring up &lt;lb n="c56-0109__main__7"/&gt;with &lt;shi rend="underline"&gt;regard&lt;/shi&gt; to futurity .</rdg>
+			<rdg wit="fMS">hopes &lt;delSpan rend="strikethrough" spanTo="#c56-0109.01"/&gt;like &lt;lb n="c56-0109__main__6"/&gt;gay-sweet-smelling flowers to spring up &lt;lb n="c56-0109__main__7"/&gt;with &lt;shi rend="underline"&gt;regard&lt;/shi&gt; to futurity &lt;anchor xml:id="c56-0109.01"/&gt;.</rdg>
 		</rdgGrp>
 		<rdgGrp n="['hopes,']">
 			<rdg wit="f1818">hopes,</rdg>
@@ -737,7 +737,7 @@
 			<rdg wit="fMS">away &lt;lb n="c56-0109__main__9"/&gt;to a hell</rdg>
 		</rdgGrp>
 	</app>
-	<app><rdgGrp n="['of', 'intense']"><rdg wit="f1818">of intense</rdg><rdg wit="f1823">of intense</rdg><rdg wit="fThomas">of intense</rdg><rdg wit="f1831">of intense</rdg></rdgGrp><rdgGrp n="['&lt;delstart/&gt;no tongue&lt;delend/&gt;', 'of', 'intense']"><rdg wit="fMS">&lt;del rend="strikethrough" xml:id="c56-0109__main__d5e22760"&gt;no tongue&lt;/del&gt; &lt;sga-add hand="#pbs" place="superlinear" sID="c56-0109__main__d5e22763"/&gt;of intense</rdg></rdgGrp></app>
+	<app><rdgGrp n="['of', 'intense']"><rdg wit="f1818">of intense</rdg><rdg wit="f1823">of intense</rdg><rdg wit="fThomas">of intense</rdg><rdg wit="f1831">of intense</rdg></rdgGrp><rdgGrp n="['', '&lt;delstart/&gt;no tongue&lt;delend/&gt;', 'of', 'intense']"><rdg wit="fMS">&lt;mod sID="c56-0109__main__d5e22758"/&gt; &lt;del rend="strikethrough" xml:id="c56-0109__main__d5e22760"&gt;no tongue&lt;/del&gt; &lt;sga-add hand="#pbs" place="superlinear" sID="c56-0109__main__d5e22763"/&gt;of intense</rdg></rdgGrp></app>
 	
 	<app>
 		<rdgGrp n="['tortures']">
@@ -759,7 +759,7 @@
 			<rdg wit="fMS">such as</rdg>
 		</rdgGrp>
 	</app>
-	<app><rdgGrp n="['no', 'language', 'can', 'describe.']"><rdg wit="f1818">no language can describe. </rdg><rdg wit="f1823">no language can describe. </rdg><rdg wit="fThomas">no language can describe. </rdg><rdg wit="f1831">no language can describe. </rdg><rdg wit="fMS">&lt;sga-add eID="c56-0109__main__d5e22763"/&gt;no language can &lt;lb n="c56-0109__main__10"/&gt;describe.</rdg></rdgGrp></app>
+	<app><rdgGrp n="['no', 'language', 'can', 'describe.']"><rdg wit="f1818">no language can describe. </rdg><rdg wit="f1823">no language can describe. </rdg><rdg wit="fThomas">no language can describe. </rdg><rdg wit="f1831">no language can describe. </rdg><rdg wit="fMS">&lt;sga-add eID="c56-0109__main__d5e22763"/&gt;&lt;mod eID="c56-0109__main__d5e22758"/&gt;no language can &lt;lb n="c56-0109__main__10"/&gt;describe.</rdg></rdgGrp></app>
 	
 	<app>
 		<rdgGrp n="['&lt;p-end/&gt;']">
@@ -778,9 +778,9 @@
 			<rdg wit="fMS">&lt;milestone unit="tei:p-START"/&gt; &lt;lb n="c56-0109__main__11"/&gt;This state of mind</rdg>
 		</rdgGrp>
 	</app>
-	<app><rdgGrp n="['preyed', 'upon']"><rdg wit="f1818">preyed upon</rdg><rdg wit="f1823">preyed upon</rdg><rdg wit="fThomas">preyed upon</rdg><rdg wit="f1831">preyed upon</rdg></rdgGrp><rdgGrp n="['&lt;delstart/&gt;allt&lt;delend/&gt;', '&lt;delstart/&gt;altered&lt;delend/&gt;', 'preyed', 'upon']"><rdg wit="fMS">&lt;del rend="strikethrough" xml:id="c56-0109__main__d5e22776"&gt;allt&lt;/del&gt; &lt;del rend="strikethrough" xml:id="c56-0109__main__d5e22779"&gt;altered&lt;/del&gt; &lt;sga-add hand="#pbs" place="superlinear" sID="c56-0109__main__d5e22782"/&gt;preyed upon</rdg></rdgGrp></app>
+	<app><rdgGrp n="['preyed', 'upon']"><rdg wit="f1818">preyed upon</rdg><rdg wit="f1823">preyed upon</rdg><rdg wit="fThomas">preyed upon</rdg><rdg wit="f1831">preyed upon</rdg></rdgGrp><rdgGrp n="['', '&lt;delstart/&gt;allt&lt;delend/&gt;', '&lt;delstart/&gt;altered&lt;delend/&gt;', 'preyed', 'upon']"><rdg wit="fMS">&lt;mod sID="c56-0109__main__d5e22774"/&gt; &lt;del rend="strikethrough" xml:id="c56-0109__main__d5e22776"&gt;allt&lt;/del&gt; &lt;del rend="strikethrough" xml:id="c56-0109__main__d5e22779"&gt;altered&lt;/del&gt; &lt;sga-add hand="#pbs" place="superlinear" sID="c56-0109__main__d5e22782"/&gt;preyed upon</rdg></rdgGrp></app>
 	
-	<app><rdgGrp n="['my']"><rdg wit="f1818">my </rdg><rdg wit="f1823">my </rdg><rdg wit="fThomas">my </rdg><rdg wit="f1831">my </rdg><rdg wit="fMS">&lt;sga-add eID="c56-0109__main__d5e22782"/&gt;my</rdg></rdgGrp></app>
+	<app><rdgGrp n="['my']"><rdg wit="f1818">my </rdg><rdg wit="f1823">my </rdg><rdg wit="fThomas">my </rdg><rdg wit="f1831">my </rdg><rdg wit="fMS">&lt;sga-add eID="c56-0109__main__d5e22782"/&gt;&lt;mod eID="c56-0109__main__d5e22774"/&gt;my</rdg></rdgGrp></app>
 	
 	<app>
 		<rdgGrp n="['health']">
@@ -803,8 +803,8 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['&lt;delstart/&gt;nearly&lt;delend/&gt;']">
-			<rdg wit="fMS">&lt;del rend="strikethrough" xml:id="c56-0109__main__d5e22790"&gt;nearly&lt;/del&gt;</rdg>
+		<rdgGrp n="['', '&lt;delstart/&gt;nearly&lt;delend/&gt;']">
+			<rdg wit="fMS">&lt;mod sID="c56-0109__main__d5e22788"/&gt; &lt;del rend="strikethrough" xml:id="c56-0109__main__d5e22790"&gt;nearly&lt;/del&gt;</rdg>
 		</rdgGrp>
 		<rdgGrp n="['perhaps', 'never']">
 			<rdg wit="f1831">perhaps never</rdg>
@@ -819,7 +819,7 @@
 			<rdg wit="fMS">&lt;sga-add place="superlinear" sID="c56-0109__main__d5e22793"/&gt;entirely</rdg>
 		</rdgGrp>
 	</app>
-	<app><rdgGrp n="['recovered', 'from', 'the', 'first', 'shock', 'it', 'had', 'sustained.', 'i', 'shunned', 'the', 'face', 'of', 'man;', 'all', 'sound', 'of', 'joy', 'or', 'complacency', 'was', 'torture', 'to']"><rdg wit="f1818">recovered &lt;pb xml:id="F1818_v2_007" n="003"/&gt;from the first shock it had sustained. I shunned the face of man; all sound of joy or complacency was torture to </rdg><rdg wit="f1823">recovered from the first shock it had sustained. I shunned the face of man; all sound of joy or complacency was torture to </rdg><rdg wit="fThomas">recovered &lt;pb xml:id="F1818_v2_007" n="003"/&gt;from the first shock it had sustained. I shunned the face of man; all sound of joy or complacency was torture to </rdg><rdg wit="f1831">recovered from the first shock it had sustained. I shunned the face of man; all sound of joy or complacency was torture to </rdg><rdg wit="fMS">&lt;sga-add eID="c56-0109__main__d5e22793"/&gt;recovered from the &lt;lb n="c56-0109__main__13"/&gt;first shock it had sustained. I shunned &lt;lb n="c56-0109__main__14"/&gt;the face of man; all sound of joy or &lt;lb n="c56-0109__main__15"/&gt;complacency was torture to</rdg></rdgGrp></app>
+	<app><rdgGrp n="['recovered', 'from', 'the', 'first', 'shock', 'it', 'had', 'sustained.', 'i', 'shunned', 'the', 'face', 'of', 'man;', 'all', 'sound', 'of', 'joy', 'or', 'complacency', 'was', 'torture', 'to']"><rdg wit="f1818">recovered &lt;pb xml:id="F1818_v2_007" n="003"/&gt;from the first shock it had sustained. I shunned the face of man; all sound of joy or complacency was torture to </rdg><rdg wit="f1823">recovered from the first shock it had sustained. I shunned the face of man; all sound of joy or complacency was torture to </rdg><rdg wit="fThomas">recovered &lt;pb xml:id="F1818_v2_007" n="003"/&gt;from the first shock it had sustained. I shunned the face of man; all sound of joy or complacency was torture to </rdg><rdg wit="f1831">recovered from the first shock it had sustained. I shunned the face of man; all sound of joy or complacency was torture to </rdg><rdg wit="fMS">&lt;sga-add eID="c56-0109__main__d5e22793"/&gt;&lt;mod eID="c56-0109__main__d5e22788"/&gt;recovered from the &lt;lb n="c56-0109__main__13"/&gt;first shock it had sustained. I shunned &lt;lb n="c56-0109__main__14"/&gt;the face of man; all sound of joy or &lt;lb n="c56-0109__main__15"/&gt;complacency was torture to</rdg></rdgGrp></app>
 	
 	<app>
 		<rdgGrp n="['me', ';', '']">
@@ -903,9 +903,9 @@
 			<rdg wit="fMS">My father observed &lt;lb n="c56-0109__main__18"/&gt;with pain</rdg>
 		</rdgGrp>
 	</app>
-	<app><rdgGrp n="['the', 'alteration', 'perceptible', 'in']"><rdg wit="f1818">the alteration perceptible in</rdg><rdg wit="f1823">the alteration perceptible in</rdg><rdg wit="fThomas">the alteration perceptible in</rdg><rdg wit="f1831">the alteration perceptible in</rdg></rdgGrp><rdgGrp n="['&lt;delstart/&gt;how&lt;delend/&gt;', 'the', 'alteration', 'perceptible', 'in']"><rdg wit="fMS">&lt;del rend="strikethrough" xml:id="c56-0109__main__d5e22819"&gt;how&lt;/del&gt; &lt;sga-add hand="#pbs" place="superlinear" sID="c56-0109__main__d5e22822"/&gt;the alteration perceptible in</rdg></rdgGrp></app>
+	<app><rdgGrp n="['the', 'alteration', 'perceptible', 'in']"><rdg wit="f1818">the alteration perceptible in</rdg><rdg wit="f1823">the alteration perceptible in</rdg><rdg wit="fThomas">the alteration perceptible in</rdg><rdg wit="f1831">the alteration perceptible in</rdg></rdgGrp><rdgGrp n="['', '&lt;delstart/&gt;how&lt;delend/&gt;', 'the', 'alteration', 'perceptible', 'in']"><rdg wit="fMS">&lt;mod sID="c56-0109__main__d5e22817"/&gt; &lt;del rend="strikethrough" xml:id="c56-0109__main__d5e22819"&gt;how&lt;/del&gt; &lt;sga-add hand="#pbs" place="superlinear" sID="c56-0109__main__d5e22822"/&gt;the alteration perceptible in</rdg></rdgGrp></app>
 	
-	<app><rdgGrp n="['my']"><rdg wit="f1818">my </rdg><rdg wit="f1823">my </rdg><rdg wit="fThomas">my </rdg><rdg wit="f1831">my </rdg><rdg wit="fMS">&lt;sga-add eID="c56-0109__main__d5e22822"/&gt;my</rdg></rdgGrp></app>
+	<app><rdgGrp n="['my']"><rdg wit="f1818">my </rdg><rdg wit="f1823">my </rdg><rdg wit="fThomas">my </rdg><rdg wit="f1831">my </rdg><rdg wit="fMS">&lt;sga-add eID="c56-0109__main__d5e22822"/&gt;&lt;mod eID="c56-0109__main__d5e22817"/&gt;my</rdg></rdgGrp></app>
 	
 	<app>
 		<rdgGrp n="['disposition']">
@@ -1072,15 +1072,15 @@
 			<rdg wit="fMS">no one</rdg>
 		</rdgGrp>
 	</app>
-	<app><rdgGrp n="['could']"><rdg wit="f1818">could</rdg><rdg wit="f1823">could</rdg><rdg wit="fThomas">could</rdg><rdg wit="f1831">could</rdg></rdgGrp><rdgGrp n="['', '', 'could']"><rdg wit="fMS">&lt;sga-add place="sublinear" sID="c56-0109__main__d5e22844"/&gt; &lt;metamark function="insert"&gt;^&lt;/metamark&gt; &lt;sga-add eID="c56-0109__main__d5e22844"/&gt;&lt;sga-add place="superlinear" sID="c56-0109__main__d5e22850"/&gt;could</rdg></rdgGrp></app>
+	<app><rdgGrp n="['could']"><rdg wit="f1818">could</rdg><rdg wit="f1823">could</rdg><rdg wit="fThomas">could</rdg><rdg wit="f1831">could</rdg></rdgGrp><rdgGrp n="['', '', 'could']"><rdg wit="fMS">&lt;mod sID="c56-0109__main__d5e22842"/&gt;&lt;sga-add place="sublinear" sID="c56-0109__main__d5e22844"/&gt; &lt;metamark function="insert"&gt;^&lt;/metamark&gt; &lt;sga-add eID="c56-0109__main__d5e22844"/&gt;&lt;sga-add place="superlinear" sID="c56-0109__main__d5e22850"/&gt;could</rdg></rdgGrp></app>
 	
-	<app><rdgGrp n="['love']"><rdg wit="f1818">love </rdg><rdg wit="f1823">love </rdg><rdg wit="fThomas">love </rdg><rdg wit="f1831">love </rdg><rdg wit="fMS">&lt;sga-add eID="c56-0109__main__d5e22850"/&gt;love</rdg></rdgGrp></app>
+	<app><rdgGrp n="['love']"><rdg wit="f1818">love </rdg><rdg wit="f1823">love </rdg><rdg wit="fThomas">love </rdg><rdg wit="f1831">love </rdg><rdg wit="fMS">&lt;sga-add eID="c56-0109__main__d5e22850"/&gt;&lt;mod eID="c56-0109__main__d5e22842"/&gt;love</rdg></rdgGrp></app>
 	
 	<app><rdgGrp n="['a', 'child', 'more', 'than', 'i']"><rdg wit="f1818">a child more than I</rdg><rdg wit="f1823">a child more than I</rdg><rdg wit="fThomas">a child more than I</rdg><rdg wit="f1831">a child more than I</rdg></rdgGrp><rdgGrp n="['&lt;delstart/&gt;d&lt;delend/&gt;', 'a', 'child', 'more', 'than', 'i']"><rdg wit="fMS">&lt;del rend="strikethrough" xml:id="c56-0109__main__d5e22854"&gt;d&lt;/del&gt; &lt;lb n="c56-0109__main__23"/&gt;a child more than I</rdg></rdgGrp></app>
 	
-	<app><rdgGrp n="['loved']"><rdg wit="f1818">loved</rdg><rdg wit="f1823">loved</rdg><rdg wit="fThomas">loved</rdg><rdg wit="f1831">loved</rdg></rdgGrp><rdgGrp n="['&lt;delstart/&gt;did&lt;delend/&gt;', 'loved']"><rdg wit="fMS">&lt;del rend="strikethrough" xml:id="c56-0109__main__d5e22862"&gt;did&lt;/del&gt; &lt;sga-add hand="#pbs" place="superlinear" sID="c56-0109__main__d5e22865"/&gt;loved</rdg></rdgGrp></app>
+	<app><rdgGrp n="['loved']"><rdg wit="f1818">loved</rdg><rdg wit="f1823">loved</rdg><rdg wit="fThomas">loved</rdg><rdg wit="f1831">loved</rdg></rdgGrp><rdgGrp n="['', '&lt;delstart/&gt;did&lt;delend/&gt;', 'loved']"><rdg wit="fMS">&lt;mod sID="c56-0109__main__d5e22860"/&gt; &lt;del rend="strikethrough" xml:id="c56-0109__main__d5e22862"&gt;did&lt;/del&gt; &lt;sga-add hand="#pbs" place="superlinear" sID="c56-0109__main__d5e22865"/&gt;loved</rdg></rdgGrp></app>
 	
-	<app><rdgGrp n="['your']"><rdg wit="f1818">your </rdg><rdg wit="f1823">your </rdg><rdg wit="fThomas">your </rdg><rdg wit="f1831">your </rdg><rdg wit="fMS">&lt;sga-add eID="c56-0109__main__d5e22865"/&gt;your</rdg></rdgGrp></app>
+	<app><rdgGrp n="['your']"><rdg wit="f1818">your </rdg><rdg wit="f1823">your </rdg><rdg wit="fThomas">your </rdg><rdg wit="f1831">your </rdg><rdg wit="fMS">&lt;sga-add eID="c56-0109__main__d5e22865"/&gt;&lt;mod eID="c56-0109__main__d5e22860"/&gt;your</rdg></rdgGrp></app>
 	
 	<app>
 		<rdgGrp n="['brother;&#34;', '(tears']">
@@ -1136,15 +1136,15 @@
 	</app>
 	<app><rdgGrp n="['not']"><rdg wit="f1818">not </rdg><rdg wit="f1823">not </rdg><rdg wit="fThomas">not </rdg><rdg wit="f1831">not </rdg><rdg wit="fMS">&lt;sga-add eID="c56-0109__main__d5e22879"/&gt;not</rdg></rdgGrp></app>
 	
-	<app><rdgGrp n="['a']"><rdg wit="f1818">a</rdg><rdg wit="f1823">a</rdg><rdg wit="fThomas">a</rdg><rdg wit="f1831">a</rdg></rdgGrp><rdgGrp n="['', '&lt;delstart/&gt;our&lt;delend/&gt;', 'a']"><rdg wit="fMS">&lt;mdel&gt;th&lt;/mdel&gt; &lt;del rend="strikethrough" xml:id="c56-0109__main__d5e22887"&gt;our&lt;/del&gt; &lt;sga-add hand="#pbs" place="superlinear" sID="c56-0109__main__d5e22890"/&gt;a</rdg></rdgGrp></app>
+	<app><rdgGrp n="['a']"><rdg wit="f1818">a</rdg><rdg wit="f1823">a</rdg><rdg wit="fThomas">a</rdg><rdg wit="f1831">a</rdg></rdgGrp><rdgGrp n="['', '&lt;mdel&gt;th&lt;/mdel&gt;', '&lt;delstart/&gt;our&lt;delend/&gt;', 'a']"><rdg wit="fMS">&lt;mod sID="c56-0109__main__d5e22883"/&gt; &lt;mdel&gt;th&lt;/mdel&gt; &lt;del rend="strikethrough" xml:id="c56-0109__main__d5e22887"&gt;our&lt;/del&gt; &lt;sga-add hand="#pbs" place="superlinear" sID="c56-0109__main__d5e22890"/&gt;a</rdg></rdgGrp></app>
 	
-	<app><rdgGrp n="['duty']"><rdg wit="f1818">duty </rdg><rdg wit="f1823">duty </rdg><rdg wit="fThomas">duty </rdg><rdg wit="f1831">duty </rdg><rdg wit="fMS">&lt;sga-add eID="c56-0109__main__d5e22890"/&gt;duty</rdg></rdgGrp></app>
+	<app><rdgGrp n="['duty']"><rdg wit="f1818">duty </rdg><rdg wit="f1823">duty </rdg><rdg wit="fThomas">duty </rdg><rdg wit="f1831">duty </rdg><rdg wit="fMS">&lt;sga-add eID="c56-0109__main__d5e22890"/&gt;&lt;mod eID="c56-0109__main__d5e22883"/&gt;duty</rdg></rdgGrp></app>
 	
-	<app><rdgGrp n="['to', 'the']"><rdg wit="f1818">to the</rdg><rdg wit="f1823">to the</rdg><rdg wit="fThomas">to the</rdg><rdg wit="f1831">to the</rdg></rdgGrp><rdgGrp n="['not', 'to', 'add', 'to', 'the', 'grief', 'of', '&lt;delstart/&gt;owed&lt;delend/&gt;', 'to', 'the']"><rdg wit="fMS">not to &lt;lb n="c56-0109__main__26"/&gt;add to the grief of &lt;del rend="strikethrough" xml:id="c56-0109__main__d5e22900"&gt;owed&lt;/del&gt; to the</rdg></rdgGrp></app>
+	<app><rdgGrp n="['to', 'the']"><rdg wit="f1818">to the</rdg><rdg wit="f1823">to the</rdg><rdg wit="fThomas">to the</rdg><rdg wit="f1831">to the</rdg></rdgGrp><rdgGrp n="['not', 'to', 'add', 'to', 'the', 'grief', 'of', '', '&lt;delstart/&gt;owed&lt;delend/&gt;', 'to', 'the']"><rdg wit="fMS">&lt;delSpan rend="strikethrough" spanTo="#c56-0109.02"/&gt;not to &lt;lb n="c56-0109__main__26"/&gt;add to the grief of &lt;anchor xml:id="c56-0109.02"/&gt; &lt;del rend="strikethrough" xml:id="c56-0109__main__d5e22900"&gt;owed&lt;/del&gt; to the</rdg></rdgGrp></app>
 	
 	<app>
-		<rdgGrp n="['&lt;delstart/&gt;ir&lt;delend/&gt;', 'survivors', '', '&lt;delstart/&gt;not&lt;delend/&gt;', '', '', '', '&lt;mdel&gt;&lt;/mdel&gt;', '&lt;delstart/&gt;add to&lt;delend/&gt;']">
-			<rdg wit="fMS">&lt;del rend="strikethrough" xml:id="c56-0109__main__d5e22903"&gt;ir&lt;/del&gt; survivors &lt;lb n="c56-0109__main__27"/&gt; &lt;del rend="strikethrough" xml:id="c56-0109__main__d5e22911"&gt;not&lt;/del&gt; &lt;sga-add place="sublinear" sID="c56-0109__main__d5e22914"/&gt; &lt;metamark function="insert"&gt;^&lt;/metamark&gt; &lt;sga-add eID="c56-0109__main__d5e22914"/&gt; &lt;mdel&gt;&lt;/mdel&gt; &lt;del rend="strikethrough" xml:id="c56-0109__main__d5e22926"&gt;add to&lt;/del&gt;</rdg>
+		<rdgGrp n="['&lt;delstart/&gt;ir&lt;delend/&gt;', 'survivors', '', '&lt;delstart/&gt;not&lt;delend/&gt;', '', '', '', '&lt;mdel&gt; &lt;/mdel&gt;', '&lt;delstart/&gt;add to&lt;delend/&gt;']">
+			<rdg wit="fMS">&lt;del rend="strikethrough" xml:id="c56-0109__main__d5e22903"&gt;ir&lt;/del&gt; survivors &lt;lb n="c56-0109__main__27"/&gt;&lt;mod sID="c56-0109__main__d5e22909"/&gt; &lt;del rend="strikethrough" xml:id="c56-0109__main__d5e22911"&gt;not&lt;/del&gt; &lt;sga-add place="sublinear" sID="c56-0109__main__d5e22914"/&gt; &lt;metamark function="insert"&gt;^&lt;/metamark&gt; &lt;sga-add eID="c56-0109__main__d5e22914"/&gt; &lt;mdel&gt; &lt;/mdel&gt; &lt;del rend="strikethrough" xml:id="c56-0109__main__d5e22926"&gt;add to&lt;/del&gt;</rdg>
 		</rdgGrp>
 		<rdgGrp n="['survivors,']">
 			<rdg wit="f1818">survivors,</rdg>
@@ -1159,10 +1159,12 @@
 			<rdg wit="f1823">that we should refrain from</rdg>
 			<rdg wit="fThomas">that we should refrain from</rdg>
 			<rdg wit="f1831">that we should refrain from</rdg>
-			<rdg wit="fMS">&lt;lb n="c56-0109__left_margin__1"/&gt;that we &lt;lb n="c56-0109__left_margin__2"/&gt;should &lt;w ana="start"/&gt;re&lt;lb n="c56-0109__left_margin__3"/&gt;frain&lt;w ana="end"/&gt; from</rdg>
+			<rdg wit="fMS">&lt;anchor xml:id="c56-0109.03"/&gt;&lt;lb n="c56-0109__left_margin__1"/&gt;that we &lt;lb n="c56-0109__left_margin__2"/&gt;should &lt;w ana="start"/&gt;re&lt;lb n="c56-0109__left_margin__3"/&gt;frain&lt;w ana="end"/&gt; from</rdg>
 		</rdgGrp>
 	</app>
-	<app><rdgGrp n="['augmenting', 'their', 'unhappiness', 'by', 'an', 'appearance', 'of', 'immoderate']"><rdg wit="f1818">augmenting their unhappiness by an appearance of immoderate</rdg><rdg wit="f1823">augmenting their unhappiness by an appearance of immoderate</rdg><rdg wit="fThomas">augmenting their unhappiness by an appearance of immoderate</rdg><rdg wit="f1831">augmenting their unhappiness by an appearance of immoderate</rdg></rdgGrp><rdgGrp n="['', '&lt;delstart/&gt;adding to&lt;delend/&gt;', 'augmenting', 'their', 'unhappiness', 'by', 'an', 'appearance', 'of', 'immoderate']"><rdg wit="fMS">&lt;lb n="c56-0109__left_margin__4"/&gt; &lt;del rend="strikethrough" xml:id="c56-0109__left_margin__d5e22949"&gt;adding to&lt;/del&gt; &lt;lb n="c56-0109__left_margin__5"/&gt;augmenting their unhappiness by an &lt;w ana="start"/&gt;appear&lt;lb n="c56-0109__main__28"/&gt;ance&lt;w ana="end"/&gt; of immoderate</rdg></rdgGrp></app>
+	<app><rdgGrp n="['augmenting']"><rdg wit="f1818">augmenting</rdg><rdg wit="f1823">augmenting</rdg><rdg wit="fThomas">augmenting</rdg><rdg wit="f1831">augmenting</rdg></rdgGrp><rdgGrp n="['', '&lt;delstart/&gt;adding to&lt;delend/&gt;', 'augmenting']"><rdg wit="fMS">&lt;lb n="c56-0109__left_margin__4"/&gt; &lt;del rend="strikethrough" xml:id="c56-0109__left_margin__d5e22949"&gt;adding to&lt;/del&gt; &lt;lb n="c56-0109__left_margin__5"/&gt;augmenting</rdg></rdgGrp></app>
+	
+	<app><rdgGrp n="['their', 'unhappiness', 'by', 'an', 'appearance', 'of', 'immoderate']"><rdg wit="f1818">their unhappiness by an appearance of immoderate </rdg><rdg wit="f1823">their unhappiness by an appearance of immoderate </rdg><rdg wit="fThomas">their unhappiness by an appearance of immoderate </rdg><rdg wit="f1831">their unhappiness by an appearance of immoderate </rdg><rdg wit="fMS">&lt;anchor xml:id="c56-0109.04"/&gt;&lt;mod eID="c56-0109__main__d5e22909"/&gt;their unhappiness by an &lt;w ana="start"/&gt;appear&lt;lb n="c56-0109__main__28"/&gt;ance&lt;w ana="end"/&gt; of immoderate</rdg></rdgGrp></app>
 	
 	<app>
 		<rdgGrp n="['grief.']">
@@ -1409,9 +1411,9 @@
 			<rdg wit="fMS">and the impossibility of</rdg>
 		</rdgGrp>
 	</app>
-	<app><rdgGrp n="['remaining']"><rdg wit="f1818">remaining</rdg><rdg wit="f1823">remaining</rdg><rdg wit="fThomas">remaining</rdg><rdg wit="f1831">remaining</rdg></rdgGrp><rdgGrp n="['', '&lt;delstart/&gt;stay&lt;delend/&gt;', '', '', '', '&lt;delstart/&gt;', 'ing ', '&lt;delend/&gt;', 'remaining']"><rdg wit="fMS">&lt;lb n="c56-0110__main__15"/&gt; &lt;del rend="strikethrough" xml:id="c56-0110__main__d5e23032"&gt;stay&lt;/del&gt; &lt;sga-add place="sublinear" sID="c56-0110__main__d5e23035"/&gt; &lt;metamark function="insert"&gt;^&lt;/metamark&gt; &lt;sga-add eID="c56-0110__main__d5e23035"/&gt; &lt;del rend="strikethrough" xml:id="c56-0110__main__d5e23041"&gt;       &lt;sga-add place="superlinear" sID="c56-0110__main__d5e23043"/&gt;ing &lt;sga-add eID="c56-0110__main__d5e23043"/&gt;    &lt;/del&gt; &lt;lb n="c56-0110__left_margin__1"/&gt;&lt;sga-add hand="#pbs" sID="c56-0110__left_margin__d5e23053"/&gt;remaining</rdg></rdgGrp></app>
+	<app><rdgGrp n="['remaining']"><rdg wit="f1818">remaining</rdg><rdg wit="f1823">remaining</rdg><rdg wit="fThomas">remaining</rdg><rdg wit="f1831">remaining</rdg></rdgGrp><rdgGrp n="['', '&lt;delstart/&gt;stay&lt;delend/&gt;', '', '', '', '&lt;delstart/&gt;', 'ing ', '&lt;delend/&gt;', 'remaining']"><rdg wit="fMS">&lt;lb n="c56-0110__main__15"/&gt;&lt;mod sID="c56-0110__main__d5e23030"/&gt; &lt;del rend="strikethrough" xml:id="c56-0110__main__d5e23032"&gt;stay&lt;/del&gt; &lt;sga-add place="sublinear" sID="c56-0110__main__d5e23035"/&gt; &lt;metamark function="insert"&gt;^&lt;/metamark&gt; &lt;sga-add eID="c56-0110__main__d5e23035"/&gt; &lt;del rend="strikethrough" xml:id="c56-0110__main__d5e23041"&gt;       &lt;sga-add place="superlinear" sID="c56-0110__main__d5e23043"/&gt;ing &lt;sga-add eID="c56-0110__main__d5e23043"/&gt;    &lt;/del&gt; &lt;anchor xml:id="c56-0110.01"/&gt;&lt;lb n="c56-0110__left_margin__1"/&gt;&lt;sga-add hand="#pbs" sID="c56-0110__left_margin__d5e23053"/&gt;remaining</rdg></rdgGrp></app>
 	
-	<app><rdgGrp n="['on', 'the', 'lake', 'after', 'that']"><rdg wit="f1818">on the lake after that </rdg><rdg wit="f1823">on the lake after that </rdg><rdg wit="fThomas">on the lake after that </rdg><rdg wit="f1831">on the lake after that </rdg><rdg wit="fMS">&lt;sga-add eID="c56-0110__left_margin__d5e23053"/&gt;on the lake after that</rdg></rdgGrp></app>
+	<app><rdgGrp n="['on', 'the', 'lake', 'after', 'that']"><rdg wit="f1818">on the lake after that </rdg><rdg wit="f1823">on the lake after that </rdg><rdg wit="fThomas">on the lake after that </rdg><rdg wit="f1831">on the lake after that </rdg><rdg wit="fMS">&lt;sga-add eID="c56-0110__left_margin__d5e23053"/&gt;&lt;mod eID="c56-0110__main__d5e23030"/&gt;on the lake after that</rdg></rdgGrp></app>
 	
 	<app>
 		<rdgGrp n="['hour']">
@@ -1615,9 +1617,9 @@
 			<rdg wit="fMS">I left the &lt;lb n="c56-0110__main__25"/&gt;boat to</rdg>
 		</rdgGrp>
 	</app>
-	<app><rdgGrp n="['pursue']"><rdg wit="f1818">pursue</rdg><rdg wit="f1823">pursue</rdg><rdg wit="fThomas">pursue</rdg><rdg wit="f1831">pursue</rdg></rdgGrp><rdgGrp n="['&lt;delstart/&gt;take&lt;delend/&gt;', '', '', 'pursue']"><rdg wit="fMS">&lt;del rend="strikethrough" xml:id="c56-0110__main__d5e23085"&gt;take&lt;/del&gt; &lt;sga-add place="sublinear" sID="c56-0110__main__d5e23088"/&gt; &lt;metamark function="insert"&gt;^&lt;/metamark&gt; &lt;sga-add eID="c56-0110__main__d5e23088"/&gt;&lt;sga-add place="superlinear" sID="c56-0110__main__d5e23094"/&gt;pursue</rdg></rdgGrp></app>
+	<app><rdgGrp n="['pursue']"><rdg wit="f1818">pursue</rdg><rdg wit="f1823">pursue</rdg><rdg wit="fThomas">pursue</rdg><rdg wit="f1831">pursue</rdg></rdgGrp><rdgGrp n="['', '&lt;delstart/&gt;take&lt;delend/&gt;', '', '', 'pursue']"><rdg wit="fMS">&lt;mod sID="c56-0110__main__d5e23083"/&gt; &lt;del rend="strikethrough" xml:id="c56-0110__main__d5e23085"&gt;take&lt;/del&gt; &lt;sga-add place="sublinear" sID="c56-0110__main__d5e23088"/&gt; &lt;metamark function="insert"&gt;^&lt;/metamark&gt; &lt;sga-add eID="c56-0110__main__d5e23088"/&gt;&lt;sga-add place="superlinear" sID="c56-0110__main__d5e23094"/&gt;pursue</rdg></rdgGrp></app>
 	
-	<app><rdgGrp n="['its', 'own']"><rdg wit="f1818">its own </rdg><rdg wit="f1823">its own </rdg><rdg wit="fThomas">its own </rdg><rdg wit="f1831">its own </rdg><rdg wit="fMS">&lt;sga-add eID="c56-0110__main__d5e23094"/&gt;its own</rdg></rdgGrp></app>
+	<app><rdgGrp n="['its', 'own']"><rdg wit="f1818">its own </rdg><rdg wit="f1823">its own </rdg><rdg wit="fThomas">its own </rdg><rdg wit="f1831">its own </rdg><rdg wit="fMS">&lt;sga-add eID="c56-0110__main__d5e23094"/&gt;&lt;mod eID="c56-0110__main__d5e23083"/&gt;its own</rdg></rdgGrp></app>
 	
 	<app>
 		<rdgGrp n="['course']">
@@ -1639,9 +1641,9 @@
 			<rdg wit="fMS">and</rdg>
 		</rdgGrp>
 	</app>
-	<app><rdgGrp n="['gave', 'way', 'to']"><rdg wit="f1818">gave way to</rdg><rdg wit="f1823">gave way to</rdg><rdg wit="fThomas">gave way to</rdg><rdg wit="f1831">gave way to</rdg></rdgGrp><rdgGrp n="['', '&lt;delstart/&gt;followed&lt;delend/&gt;', '', '', 'gave', 'way', 'to']"><rdg wit="fMS">&lt;lb n="c56-0110__main__26"/&gt; &lt;del rend="strikethrough" xml:id="c56-0110__main__d5e23102"&gt;followed&lt;/del&gt; &lt;sga-add place="sublinear" sID="c56-0110__main__d5e23105"/&gt; &lt;metamark function="insert"&gt;^&lt;/metamark&gt; &lt;sga-add eID="c56-0110__main__d5e23105"/&gt;&lt;lb n="c56-0110__left_margin__1"/&gt;&lt;sga-add next="#c56-0110.03" sID="c56-0110__left_margin__d5e23117"/&gt;gave way &lt;sga-add eID="c56-0110__left_margin__d5e23117"/&gt;&lt;sga-add place="superlinear" xml:id="c56-0110.03" sID="c56-0110__main__d5e23121"/&gt;to</rdg></rdgGrp></app>
+	<app><rdgGrp n="['gave', 'way', 'to']"><rdg wit="f1818">gave way to</rdg><rdg wit="f1823">gave way to</rdg><rdg wit="fThomas">gave way to</rdg><rdg wit="f1831">gave way to</rdg></rdgGrp><rdgGrp n="['', '&lt;delstart/&gt;followed&lt;delend/&gt;', '', '', 'gave', 'way', 'to']"><rdg wit="fMS">&lt;lb n="c56-0110__main__26"/&gt;&lt;mod sID="c56-0110__main__d5e23100"/&gt; &lt;del rend="strikethrough" xml:id="c56-0110__main__d5e23102"&gt;followed&lt;/del&gt; &lt;sga-add place="sublinear" sID="c56-0110__main__d5e23105"/&gt; &lt;metamark function="insert"&gt;^&lt;/metamark&gt; &lt;sga-add eID="c56-0110__main__d5e23105"/&gt;&lt;anchor xml:id="c56-0110.02"/&gt;&lt;lb n="c56-0110__left_margin__1"/&gt;&lt;sga-add next="#c56-0110.03" sID="c56-0110__left_margin__d5e23117"/&gt;gave way &lt;sga-add eID="c56-0110__left_margin__d5e23117"/&gt;&lt;sga-add place="superlinear" xml:id="c56-0110.03" sID="c56-0110__main__d5e23121"/&gt;to</rdg></rdgGrp></app>
 	
-	<app><rdgGrp n="['my', 'own', 'miserable', 'reflections.', 'i', 'was', 'often']"><rdg wit="f1818">my own miserable reflections. I was often </rdg><rdg wit="f1823">my own miserable reflections. I was often </rdg><rdg wit="fThomas">my own miserable reflections. I was often </rdg><rdg wit="f1831">my own miserable reflections. I was often </rdg><rdg wit="fMS">&lt;sga-add eID="c56-0110__main__d5e23121"/&gt;my own miserable reflections. &lt;lb n="c56-0110__main__27"/&gt;I was often</rdg></rdgGrp></app>
+	<app><rdgGrp n="['my', 'own', 'miserable', 'reflections.', 'i', 'was', 'often']"><rdg wit="f1818">my own miserable reflections. I was often </rdg><rdg wit="f1823">my own miserable reflections. I was often </rdg><rdg wit="fThomas">my own miserable reflections. I was often </rdg><rdg wit="f1831">my own miserable reflections. I was often </rdg><rdg wit="fMS">&lt;sga-add eID="c56-0110__main__d5e23121"/&gt;&lt;mod eID="c56-0110__main__d5e23100"/&gt;my own miserable reflections. &lt;lb n="c56-0110__main__27"/&gt;I was often</rdg></rdgGrp></app>
 	
 	<app>
 		<rdgGrp n="['tempted', '&lt;delstart/&gt;w&lt;delend/&gt;']">
@@ -1663,7 +1665,7 @@
 			<rdg wit="fMS">when all was</rdg>
 		</rdgGrp>
 	</app>
-	<app><rdgGrp n="['at', 'peace', 'around']"><rdg wit="f1818">at peace around</rdg><rdg wit="f1823">at peace around</rdg><rdg wit="fThomas">at peace around</rdg><rdg wit="f1831">at peace around</rdg></rdgGrp><rdgGrp n="['&lt;delstart/&gt;quiet&lt;delend/&gt;', '', '', 'at', 'peace', 'around']"><rdg wit="fMS">&lt;del rend="strikethrough" xml:id="c56-0110__main__d5e23133"&gt;quiet&lt;/del&gt; &lt;sga-add place="sublinear" sID="c56-0110__main__d5e23136"/&gt; &lt;metamark function="insert"&gt;^&lt;/metamark&gt; &lt;sga-add eID="c56-0110__main__d5e23136"/&gt;&lt;sga-add place="superlinear" sID="c56-0110__main__d5e23142"/&gt;at peace &lt;sga-add eID="c56-0110__main__d5e23142"/&gt;&lt;lb n="c56-0110__main__28"/&gt;around</rdg></rdgGrp></app>
+	<app><rdgGrp n="['at', 'peace', 'around']"><rdg wit="f1818">at peace around</rdg><rdg wit="f1823">at peace around</rdg><rdg wit="fThomas">at peace around</rdg><rdg wit="f1831">at peace around</rdg></rdgGrp><rdgGrp n="['', '&lt;delstart/&gt;quiet&lt;delend/&gt;', '', '', 'at', 'peace', 'around']"><rdg wit="fMS">&lt;mod sID="c56-0110__main__d5e23131"/&gt; &lt;del rend="strikethrough" xml:id="c56-0110__main__d5e23133"&gt;quiet&lt;/del&gt; &lt;sga-add place="sublinear" sID="c56-0110__main__d5e23136"/&gt; &lt;metamark function="insert"&gt;^&lt;/metamark&gt; &lt;sga-add eID="c56-0110__main__d5e23136"/&gt;&lt;sga-add place="superlinear" sID="c56-0110__main__d5e23142"/&gt;at peace &lt;sga-add eID="c56-0110__main__d5e23142"/&gt;&lt;mod eID="c56-0110__main__d5e23131"/&gt;&lt;lb n="c56-0110__main__28"/&gt;around</rdg></rdgGrp></app>
 	
 	<app>
 		<rdgGrp n="['me']">
@@ -1737,13 +1739,13 @@
 	</app>
 	<app><rdgGrp n="['some', 'bat,', 'or', 'the']"><rdg wit="f1818">some bat, or the</rdg><rdg wit="f1823">some bat, or the</rdg><rdg wit="fThomas">some bat, or the</rdg><rdg wit="f1831">some bat, or the</rdg></rdgGrp><rdgGrp n="['alone', 'some', 'bat,', 'or', 'the']"><rdg wit="fMS">&lt;lb n="c56-0111__main__2"/&gt;alone some bat, or the</rdg></rdgGrp></app>
 	
-	<app><rdgGrp n="['frogs,', 'whose']"><rdg wit="f1818">frogs, whose</rdg><rdg wit="f1823">frogs, whose</rdg><rdg wit="fThomas">frogs, whose</rdg><rdg wit="f1831">frogs, whose</rdg></rdgGrp><rdgGrp n="['', '', 'frogs,', 'whose']"><rdg wit="fMS">&lt;sga-add place="sublinear" sID="c56-0111__main__d5e23167"/&gt; &lt;metamark function="insert"&gt;^&lt;/metamark&gt; &lt;sga-add eID="c56-0111__main__d5e23167"/&gt;&lt;sga-add hand="#pbs" place="superlinear" sID="c56-0111__main__d5e23173"/&gt;frogs, whose</rdg></rdgGrp></app>
+	<app><rdgGrp n="['frogs,', 'whose']"><rdg wit="f1818">frogs, whose</rdg><rdg wit="f1823">frogs, whose</rdg><rdg wit="fThomas">frogs, whose</rdg><rdg wit="f1831">frogs, whose</rdg></rdgGrp><rdgGrp n="['', '', 'frogs,', 'whose']"><rdg wit="fMS">&lt;mod sID="c56-0111__main__d5e23165"/&gt;&lt;sga-add place="sublinear" sID="c56-0111__main__d5e23167"/&gt; &lt;metamark function="insert"&gt;^&lt;/metamark&gt; &lt;sga-add eID="c56-0111__main__d5e23167"/&gt;&lt;sga-add hand="#pbs" place="superlinear" sID="c56-0111__main__d5e23173"/&gt;frogs, whose</rdg></rdgGrp></app>
 	
-	<app><rdgGrp n="['harsh', 'and', 'interrupted', 'croaking']"><rdg wit="f1818">harsh and interrupted croaking </rdg><rdg wit="f1823">harsh and interrupted croaking </rdg><rdg wit="fThomas">harsh and interrupted croaking </rdg><rdg wit="f1831">harsh and interrupted croaking </rdg><rdg wit="fMS">&lt;sga-add eID="c56-0111__main__d5e23173"/&gt;harsh and &lt;lb n="c56-0111__main__3"/&gt;interrupted croaking</rdg></rdgGrp></app>
+	<app><rdgGrp n="['harsh', 'and', 'interrupted', 'croaking']"><rdg wit="f1818">harsh and interrupted croaking </rdg><rdg wit="f1823">harsh and interrupted croaking </rdg><rdg wit="fThomas">harsh and interrupted croaking </rdg><rdg wit="f1831">harsh and interrupted croaking </rdg><rdg wit="fMS">&lt;sga-add eID="c56-0111__main__d5e23173"/&gt;&lt;mod eID="c56-0111__main__d5e23165"/&gt;harsh and &lt;lb n="c56-0111__main__3"/&gt;interrupted croaking</rdg></rdgGrp></app>
 	
-	<app><rdgGrp n="['was']"><rdg wit="f1818">was</rdg><rdg wit="f1823">was</rdg><rdg wit="fThomas">was</rdg><rdg wit="f1831">was</rdg></rdgGrp><rdgGrp n="['&lt;delstart/&gt;of the frogs&lt;delend/&gt;', '&lt;delstart/&gt;which&lt;delend/&gt;', 'was']"><rdg wit="fMS">&lt;del rend="strikethrough" xml:id="c56-0111__main__d5e23180"&gt;of the frogs&lt;/del&gt; &lt;del rend="strikethrough" xml:id="c56-0111__main__d5e23185"&gt;which&lt;/del&gt; &lt;sga-add hand="#pbs" place="superlinear" sID="c56-0111__main__d5e23188"/&gt;was</rdg></rdgGrp></app>
+	<app><rdgGrp n="['was']"><rdg wit="f1818">was</rdg><rdg wit="f1823">was</rdg><rdg wit="fThomas">was</rdg><rdg wit="f1831">was</rdg></rdgGrp><rdgGrp n="['&lt;delstart/&gt;of the frogs&lt;delend/&gt;', '', '&lt;delstart/&gt;which&lt;delend/&gt;', 'was']"><rdg wit="fMS">&lt;del rend="strikethrough" xml:id="c56-0111__main__d5e23180"&gt;of the frogs&lt;/del&gt; &lt;mod sID="c56-0111__main__d5e23183"/&gt; &lt;del rend="strikethrough" xml:id="c56-0111__main__d5e23185"&gt;which&lt;/del&gt; &lt;sga-add hand="#pbs" place="superlinear" sID="c56-0111__main__d5e23188"/&gt;was</rdg></rdgGrp></app>
 	
-	<app><rdgGrp n="['heard', 'only', 'when', 'i', 'approached', 'the']"><rdg wit="f1818">heard only when I approached the</rdg><rdg wit="f1823">heard only when I approached the</rdg><rdg wit="fThomas">heard only when I approached the</rdg><rdg wit="f1831">heard only when I ap&lt;pb xml:id="F1831_v_092" n="76"/&gt;proached the</rdg></rdgGrp><rdgGrp n="['', '&lt;delstart/&gt;i&lt;delend/&gt;', 'heard', 'only', 'when', 'i', 'approached', 'the']"><rdg wit="fMS">&lt;sga-add eID="c56-0111__main__d5e23188"/&gt;&lt;lb n="c56-0111__main__4"/&gt; &lt;del rend="strikethrough" xml:id="c56-0111__main__d5e23194"&gt;I&lt;/del&gt; heard only when I approached the</rdg></rdgGrp></app>
+	<app><rdgGrp n="['heard', 'only', 'when', 'i', 'approached', 'the']"><rdg wit="f1818">heard only when I approached the</rdg><rdg wit="f1823">heard only when I approached the</rdg><rdg wit="fThomas">heard only when I approached the</rdg><rdg wit="f1831">heard only when I ap&lt;pb xml:id="F1831_v_092" n="76"/&gt;proached the</rdg></rdgGrp><rdgGrp n="['', '&lt;delstart/&gt;i&lt;delend/&gt;', 'heard', 'only', 'when', 'i', 'approached', 'the']"><rdg wit="fMS">&lt;sga-add eID="c56-0111__main__d5e23188"/&gt;&lt;mod eID="c56-0111__main__d5e23183"/&gt;&lt;lb n="c56-0111__main__4"/&gt; &lt;del rend="strikethrough" xml:id="c56-0111__main__d5e23194"&gt;I&lt;/del&gt; heard only when I approached the</rdg></rdgGrp></app>
 	
 	<app>
 		<rdgGrp n="['shore;', 'often']">
@@ -1769,7 +1771,7 @@
 	
 	<app>
 		<rdgGrp n="['lake', '', '&lt;delstart/&gt;and let&lt;delend/&gt;']">
-			<rdg wit="fMS">lake &lt;lb n="c56-0111__main__7"/&gt; &lt;del rend="strikethrough" xml:id="c56-0111__main__d5e23212"&gt;and let&lt;/del&gt;</rdg>
+			<rdg wit="fMS">lake &lt;lb n="c56-0111__main__7"/&gt;&lt;mod sID="c56-0111__main__d5e23210"/&gt; &lt;del rend="strikethrough" xml:id="c56-0111__main__d5e23212"&gt;and let&lt;/del&gt;</rdg>
 		</rdgGrp>
 		<rdgGrp n="['lake,']">
 			<rdg wit="f1818">lake,</rdg>
@@ -1787,11 +1789,11 @@
 			<rdg wit="fMS">&lt;sga-add hand="#pbs" place="superlinear" sID="c56-0111__main__d5e23215"/&gt;that</rdg>
 		</rdgGrp>
 	</app>
-	<app><rdgGrp n="['the', 'waters']"><rdg wit="f1818">the waters </rdg><rdg wit="f1823">the waters </rdg><rdg wit="fThomas">the waters </rdg><rdg wit="f1831">the waters </rdg><rdg wit="fMS">&lt;sga-add eID="c56-0111__main__d5e23215"/&gt;the waters</rdg></rdgGrp></app>
+	<app><rdgGrp n="['the', 'waters']"><rdg wit="f1818">the waters </rdg><rdg wit="f1823">the waters </rdg><rdg wit="fThomas">the waters </rdg><rdg wit="f1831">the waters </rdg><rdg wit="fMS">&lt;sga-add eID="c56-0111__main__d5e23215"/&gt;&lt;mod eID="c56-0111__main__d5e23210"/&gt;the waters</rdg></rdgGrp></app>
 	
-	<app><rdgGrp n="['might']"><rdg wit="f1818">might</rdg><rdg wit="f1823">might</rdg><rdg wit="fThomas">might</rdg><rdg wit="f1831">might</rdg></rdgGrp><rdgGrp n="['', '', 'might']"><rdg wit="fMS">&lt;sga-add place="sublinear" sID="c56-0111__main__d5e23221"/&gt; &lt;metamark function="insert"&gt;&gt;^&lt;/metamark&gt; &lt;sga-add eID="c56-0111__main__d5e23221"/&gt;&lt;sga-add hand="#pbs" place="superlinear" sID="c56-0111__main__d5e23227"/&gt;might</rdg></rdgGrp></app>
+	<app><rdgGrp n="['might']"><rdg wit="f1818">might</rdg><rdg wit="f1823">might</rdg><rdg wit="fThomas">might</rdg><rdg wit="f1831">might</rdg></rdgGrp><rdgGrp n="['', '', 'might']"><rdg wit="fMS">&lt;mod sID="c56-0111__main__d5e23219"/&gt;&lt;sga-add place="sublinear" sID="c56-0111__main__d5e23221"/&gt; &lt;metamark function="insert"&gt;&gt;^&lt;/metamark&gt; &lt;sga-add eID="c56-0111__main__d5e23221"/&gt;&lt;sga-add hand="#pbs" place="superlinear" sID="c56-0111__main__d5e23227"/&gt;might</rdg></rdgGrp></app>
 	
-	<app><rdgGrp n="['close', 'over', 'me']"><rdg wit="f1818">close over me </rdg><rdg wit="f1823">close over me </rdg><rdg wit="fThomas">close over me </rdg><rdg wit="f1831">close over me </rdg><rdg wit="fMS">&lt;sga-add eID="c56-0111__main__d5e23227"/&gt;close over me</rdg></rdgGrp></app>
+	<app><rdgGrp n="['close', 'over', 'me']"><rdg wit="f1818">close over me </rdg><rdg wit="f1823">close over me </rdg><rdg wit="fThomas">close over me </rdg><rdg wit="f1831">close over me </rdg><rdg wit="fMS">&lt;sga-add eID="c56-0111__main__d5e23227"/&gt;&lt;mod eID="c56-0111__main__d5e23219"/&gt;close over me</rdg></rdgGrp></app>
 	
 	<app>
 		<rdgGrp n="['and', 'my']">
@@ -1898,8 +1900,8 @@
 	<app><rdgGrp n="['by', 'my', 'base', 'desertion', 'leave', 'them', 'exposed', 'and', 'unprotected', 'to', 'the']"><rdg wit="f1818">by my base desertion leave them exposed and unprotected to the</rdg><rdg wit="f1823">by my base desertion leave them exposed and unprotected to the</rdg><rdg wit="fThomas">by my base desertion leave them exposed and unprotected to the</rdg><rdg wit="f1831">by my base desertion leave them exposed and unprotected to the</rdg></rdgGrp><rdgGrp n="['not', 'by', 'my', 'base', 'desertion', 'leave', 'them', 'exposed', 'and', 'unprotected', 'to', 'the']"><rdg wit="fMS">not by my base desertion leave &lt;lb n="c56-0111__main__15"/&gt;them exposed &amp; unprotected to the</rdg></rdgGrp></app>
 	
 	<app>
-		<rdgGrp n="['mali', '&lt;mdel&gt;&lt;/mdel&gt;', 'c', '', 'e']">
-			<rdg wit="fMS">&lt;lb n="c56-0111__main__16"/&gt;mali &lt;mdel&gt;&lt;/mdel&gt; &lt;sga-add place="intralinear" sID="c56-0111__main__d5e23264"/&gt;c &lt;sga-add eID="c56-0111__main__d5e23264"/&gt; e</rdg>
+		<rdgGrp n="['mali', '', '&lt;mdel&gt; &lt;/mdel&gt;', 'c', '', 'e']">
+			<rdg wit="fMS">&lt;lb n="c56-0111__main__16"/&gt;mali &lt;mod sID="c56-0111__main__d5e23257"/&gt; &lt;mdel&gt; &lt;/mdel&gt; &lt;sga-add place="intralinear" sID="c56-0111__main__d5e23264"/&gt;c &lt;sga-add eID="c56-0111__main__d5e23264"/&gt;&lt;mod eID="c56-0111__main__d5e23257"/&gt; e</rdg>
 		</rdgGrp>
 		<rdgGrp n="['malice']">
 			<rdg wit="f1818">malice</rdg>
@@ -2020,9 +2022,9 @@
 			<rdg wit="fMS">remorse</rdg>
 		</rdgGrp>
 	</app>
-	<app><rdgGrp n="['extinguished']"><rdg wit="f1818">extinguished</rdg><rdg wit="f1823">extinguished</rdg><rdg wit="fThomas">extinguished</rdg><rdg wit="f1831">extinguished</rdg></rdgGrp><rdgGrp n="['&lt;delstart/&gt;took away&lt;delend/&gt;', 'extinguished']"><rdg wit="fMS">&lt;del rend="strikethrough" xml:id="c56-0111__main__d5e23304"&gt;took away&lt;/del&gt; &lt;sga-add hand="#pbs" place="superlinear" sID="c56-0111__main__d5e23307"/&gt;extinguished</rdg></rdgGrp></app>
+	<app><rdgGrp n="['extinguished']"><rdg wit="f1818">extinguished</rdg><rdg wit="f1823">extinguished</rdg><rdg wit="fThomas">extinguished</rdg><rdg wit="f1831">extinguished</rdg></rdgGrp><rdgGrp n="['', '&lt;delstart/&gt;took away&lt;delend/&gt;', 'extinguished']"><rdg wit="fMS">&lt;mod sID="c56-0111__main__d5e23302"/&gt; &lt;del rend="strikethrough" xml:id="c56-0111__main__d5e23304"&gt;took away&lt;/del&gt; &lt;sga-add hand="#pbs" place="superlinear" sID="c56-0111__main__d5e23307"/&gt;extinguished</rdg></rdgGrp></app>
 	
-	<app><rdgGrp n="['every']"><rdg wit="f1818">every </rdg><rdg wit="f1823">every </rdg><rdg wit="fThomas">every </rdg><rdg wit="f1831">every </rdg><rdg wit="fMS">&lt;sga-add eID="c56-0111__main__d5e23307"/&gt;every</rdg></rdgGrp></app>
+	<app><rdgGrp n="['every']"><rdg wit="f1818">every </rdg><rdg wit="f1823">every </rdg><rdg wit="fThomas">every </rdg><rdg wit="f1831">every </rdg><rdg wit="fMS">&lt;sga-add eID="c56-0111__main__d5e23307"/&gt;&lt;mod eID="c56-0111__main__d5e23302"/&gt;every</rdg></rdgGrp></app>
 	
 	<app>
 		<rdgGrp n="['hope.']">
@@ -2044,9 +2046,9 @@
 			<rdg wit="fMS">&lt;lb n="c56-0111__main__23"/&gt;I had been the</rdg>
 		</rdgGrp>
 	</app>
-	<app><rdgGrp n="['author']"><rdg wit="f1818">author</rdg><rdg wit="f1823">author</rdg><rdg wit="fThomas">author</rdg><rdg wit="f1831">author</rdg></rdgGrp><rdgGrp n="['&lt;delstart/&gt;cause&lt;delend/&gt;', 'author']"><rdg wit="fMS">&lt;del rend="strikethrough" xml:id="c56-0111__main__d5e23315"&gt;cause&lt;/del&gt; &lt;sga-add hand="#pbs" place="superlinear" sID="c56-0111__main__d5e23318"/&gt;author</rdg></rdgGrp></app>
+	<app><rdgGrp n="['author']"><rdg wit="f1818">author</rdg><rdg wit="f1823">author</rdg><rdg wit="fThomas">author</rdg><rdg wit="f1831">author</rdg></rdgGrp><rdgGrp n="['', '&lt;delstart/&gt;cause&lt;delend/&gt;', 'author']"><rdg wit="fMS">&lt;mod sID="c56-0111__main__d5e23313"/&gt; &lt;del rend="strikethrough" xml:id="c56-0111__main__d5e23315"&gt;cause&lt;/del&gt; &lt;sga-add hand="#pbs" place="superlinear" sID="c56-0111__main__d5e23318"/&gt;author</rdg></rdgGrp></app>
 	
-	<app><rdgGrp n="['of', 'unalterable']"><rdg wit="f1818">of unalterable </rdg><rdg wit="f1823">of unalterable </rdg><rdg wit="fThomas">of unalterable </rdg><rdg wit="f1831">of unalterable </rdg><rdg wit="fMS">&lt;sga-add eID="c56-0111__main__d5e23318"/&gt;of unalterable</rdg></rdgGrp></app>
+	<app><rdgGrp n="['of', 'unalterable']"><rdg wit="f1818">of unalterable </rdg><rdg wit="f1823">of unalterable </rdg><rdg wit="fThomas">of unalterable </rdg><rdg wit="f1831">of unalterable </rdg><rdg wit="fMS">&lt;sga-add eID="c56-0111__main__d5e23318"/&gt;&lt;mod eID="c56-0111__main__d5e23313"/&gt;of unalterable</rdg></rdgGrp></app>
 	
 	<app>
 		<rdgGrp n="['evil,']">
@@ -2070,7 +2072,7 @@
 	</app>
 	<app>
 		<rdgGrp n="['fear', 'that', 'the', 'dæmon', 'of', 'some', 'new', 'wickedness', 'which', 'let', '']">
-			<rdg wit="fMS">fear that &lt;lb n="c56-0111__main__25"/&gt;the dæmon of some new wickedness &lt;lb n="c56-0111__main__26"/&gt;which &lt;sga-add place="superlinear" sID="c56-0111__main__d5e23337"/&gt;let &lt;sga-add eID="c56-0111__main__d5e23337"/&gt;</rdg>
+			<rdg wit="fMS">fear &lt;delSpan rend="strikethrough" spanTo="#c56-0111.04"/&gt;that &lt;lb n="c56-0111__main__25"/&gt;the dæmon &lt;anchor xml:id="c56-0111.04"/&gt;&lt;delSpan rend="strikethrough" spanTo="#c56-0111.05"/&gt;of some new wickedness &lt;lb n="c56-0111__main__26"/&gt;which &lt;anchor xml:id="c56-0111.05"/&gt;&lt;sga-add place="superlinear" sID="c56-0111__main__d5e23337"/&gt;let &lt;sga-add eID="c56-0111__main__d5e23337"/&gt;&lt;anchor xml:id="c56-0111.03"/&gt;</rdg>
 		</rdgGrp>
 		<rdgGrp n="['fear,', 'lest']">
 			<rdg wit="f1818">fear, lest</rdg>
@@ -2090,7 +2092,7 @@
 	</app>
 	<app>
 		<rdgGrp n="['might', '&lt;delstart/&gt;commit&lt;delend/&gt;']">
-			<rdg wit="fMS">might &lt;del rend="strikethrough" xml:id="c56-0111__main__d5e23347"&gt;commit&lt;/del&gt;</rdg>
+			<rdg wit="fMS">might&lt;mod sID="c56-0111__main__d5e23345"/&gt; &lt;del rend="strikethrough" xml:id="c56-0111__main__d5e23347"&gt;commit&lt;/del&gt;</rdg>
 		</rdgGrp>
 		<rdgGrp n="['should']">
 			<rdg wit="f1818">should</rdg>
@@ -2105,7 +2107,7 @@
 			<rdg wit="f1823">perpetrate some new wickedness.</rdg>
 			<rdg wit="fThomas">perpetrate some new wickedness.</rdg>
 			<rdg wit="f1831">perpetrate some new wickedness.</rdg>
-			<rdg wit="fMS">&lt;sga-add place="superlinear" sID="c56-0111__main__d5e23350"/&gt;perpetrate &lt;sga-add eID="c56-0111__main__d5e23350"/&gt;&lt;sga-add hand="#pbs" place="superlinear" sID="c56-0111__main__d5e23353"/&gt;some new wickedness.&lt;sga-add eID="c56-0111__main__d5e23353"/&gt;</rdg>
+			<rdg wit="fMS">&lt;sga-add place="superlinear" sID="c56-0111__main__d5e23350"/&gt;perpetrate &lt;sga-add eID="c56-0111__main__d5e23350"/&gt;&lt;sga-add hand="#pbs" place="superlinear" sID="c56-0111__main__d5e23353"/&gt;some new wickedness.&lt;sga-add eID="c56-0111__main__d5e23353"/&gt;&lt;mod eID="c56-0111__main__d5e23345"/&gt;</rdg>
 		</rdgGrp>
 	</app>
 	<app>
@@ -2130,7 +2132,7 @@
 	</app>
 	<app>
 		<rdgGrp n="['a', 'n']">
-			<rdg wit="fMS">a &lt;sga-add hand="#pbs" place="intralinear" sID="c56-0111__main__d5e23359"/&gt;n</rdg>
+			<rdg wit="fMS">a &lt;mod sID="c56-0111__main__d5e23357"/&gt;&lt;sga-add hand="#pbs" place="intralinear" sID="c56-0111__main__d5e23359"/&gt;n</rdg>
 		</rdgGrp>
 		<rdgGrp n="['an']">
 			<rdg wit="f1818">an</rdg>
@@ -2148,7 +2150,7 @@
 			<rdg wit="fMS">&lt;sga-add eID="c56-0111__main__d5e23359"/&gt;&lt;sga-add hand="#pbs" place="superlinear" sID="c56-0111__main__d5e23362"/&gt;obscure</rdg>
 		</rdgGrp>
 	</app>
-	<app><rdgGrp n="['feeling', 'that', 'all', 'was', 'not', 'over,', 'and', 'that', 'he', 'would', 'still', 'commit', 'some', 'signal']"><rdg wit="f1818">feeling that all was not over, and that he would still commit some signal </rdg><rdg wit="f1823">feeling that all was not over, and that he would still commit some signal </rdg><rdg wit="fThomas">feeling that all was not over, and that he would still commit some signal </rdg><rdg wit="f1831">feeling that all was not over, and that he would still commit some signal </rdg><rdg wit="fMS">&lt;sga-add eID="c56-0111__main__d5e23362"/&gt;feeling &lt;lb n="c56-0111__main__28"/&gt;that all was not over, and that &lt;lb n="c56-0111__main__29"/&gt;he would still commit some signal&lt;lb n="c56-0112__main__1"/&gt;</rdg></rdgGrp></app>
+	<app><rdgGrp n="['feeling', 'that', 'all', 'was', 'not', 'over,', 'and', 'that', 'he', 'would', 'still', 'commit', 'some', 'signal']"><rdg wit="f1818">feeling that all was not over, and that he would still commit some signal </rdg><rdg wit="f1823">feeling that all was not over, and that he would still commit some signal </rdg><rdg wit="fThomas">feeling that all was not over, and that he would still commit some signal </rdg><rdg wit="f1831">feeling that all was not over, and that he would still commit some signal </rdg><rdg wit="fMS">&lt;sga-add eID="c56-0111__main__d5e23362"/&gt;&lt;mod eID="c56-0111__main__d5e23357"/&gt;feeling &lt;lb n="c56-0111__main__28"/&gt;that all was not over, and that &lt;lb n="c56-0111__main__29"/&gt;he would still commit some signal&lt;lb n="c56-0112__main__1"/&gt;</rdg></rdgGrp></app>
 	
 	<app>
 		<rdgGrp n="['&lt;delstart/&gt;cr&lt;delend/&gt;', 'crime']">
@@ -2187,7 +2189,7 @@
 			<rdg wit="f1823">almost efface the recollection of the past.</rdg>
 			<rdg wit="fThomas">almost efface the recollection of the past.</rdg>
 			<rdg wit="f1831">almost efface the recollection of the past.</rdg>
-			<rdg wit="fMS">&lt;lb n="c56-0112__main__2"/&gt;&lt;lb n="c56-0112__left_margin__1"/&gt;&lt;sga-add sID="c56-0112__left_margin__d5e23391"/&gt;almost &lt;sga-add eID="c56-0112__left_margin__d5e23391"/&gt;efface the recollection of the past.</rdg>
+			<rdg wit="fMS">&lt;lb n="c56-0112__main__2"/&gt;&lt;anchor xml:id="c56-0112.01"/&gt;&lt;lb n="c56-0112__left_margin__1"/&gt;&lt;sga-add sID="c56-0112__left_margin__d5e23391"/&gt;almost &lt;sga-add eID="c56-0112__left_margin__d5e23391"/&gt;efface the recollection of the past.</rdg>
 		</rdgGrp>
 	</app>
 	<app><rdgGrp n="['there', 'was', 'always', 'scope', 'for']"><rdg wit="f1818">There was always scope for</rdg><rdg wit="f1823">There was always scope for</rdg><rdg wit="fThomas">There was always scope for</rdg><rdg wit="f1831">There was always scope for</rdg></rdgGrp><rdgGrp n="['', '', '', '&lt;metamark function=&#34;displacement&#34;&gt;&lt;/metamark&gt;', 'there', 'was', 'always', 'scope', 'for']"><rdg wit="fMS">&lt;sga-add place="superlinear" sID="c56-0112__main__d5e23395"/&gt; &lt;metamark function="displacement" xml:id="c56-0112.02"&gt;X&lt;/metamark&gt; &lt;lb n="c56-0112__left_margin__1"/&gt; &lt;metamark function="displacement"&gt;&lt;/metamark&gt; There was &lt;lb n="c56-0112__left_margin__2"/&gt;always scope &lt;lb n="c56-0112__left_margin__3"/&gt;for</rdg></rdgGrp></app>
@@ -2234,7 +2236,7 @@
 	</app>
 	<app>
 		<rdgGrp n="['alive.', '']">
-			<rdg wit="fMS">&lt;lb n="c56-0112__left_margin__7"/&gt;alive. &lt;sga-add eID="c56-0112__main__d5e23395"/&gt;</rdg>
+			<rdg wit="fMS">&lt;lb n="c56-0112__left_margin__7"/&gt;alive. &lt;anchor xml:id="c56-0112.03"/&gt;&lt;sga-add eID="c56-0112__main__d5e23395"/&gt;</rdg>
 		</rdgGrp>
 		<rdgGrp n="['behind.']">
 			<rdg wit="f1818">behind.</rdg>
@@ -2335,8 +2337,8 @@
 	<app><rdgGrp n="['reflected', 'on', 'his', 'crimes', 'and', 'malice,', 'my', 'hatred', 'and', 'revenge', 'burst', 'all', 'bounds', 'of']"><rdg wit="f1818">reflected on his crimes and malice, my hatred and &lt;pb xml:id="F1818_v2_011" n="007"/&gt;revenge burst all bounds of</rdg><rdg wit="f1823">reflected on his crimes and malice, my hatred and revenge burst all bounds of</rdg><rdg wit="fThomas">reflected on his crimes and malice, my hatred and &lt;pb xml:id="F1818_v2_011" n="007"/&gt;revenge burst all bounds of</rdg><rdg wit="f1831">reflected on his crimes and malice, my hatred and revenge burst all bounds of</rdg></rdgGrp><rdgGrp n="['&lt;delstart/&gt;though&lt;delend/&gt;', 'reflected', 'on', 'his', 'crimes', 'and', 'malice,', 'my', 'hatred', 'and', 'revenge', 'burst', 'all', 'bounds', 'of']"><rdg wit="fMS">&lt;del rend="strikethrough" xml:id="c56-0112__main__d5e23446"&gt;though&lt;/del&gt; reflected on his &lt;lb n="c56-0112__main__9"/&gt;crimes and malice, my hatred and &lt;lb n="c56-0112__main__10"/&gt;revenge burst all bounds of</rdg></rdgGrp></app>
 	
 	<app>
-		<rdgGrp n="['moderation', 'i', 'wished', 'but', 'to', 'see', 'him', 'again', 'that', 'i', 'might']">
-			<rdg wit="fMS">moderation &lt;lb n="c56-0112__main__11"/&gt;I wished but to see him again that I &lt;lb n="c56-0112__main__12"/&gt;might</rdg>
+		<rdgGrp n="['moderation', 'i', 'wished', 'but', 'to', 'see', 'him', 'again', 'that', 'i', 'might', '']">
+			<rdg wit="fMS">moderation &lt;lb n="c56-0112__main__11"/&gt;&lt;delSpan rend="strikethrough" spanTo="#c56-0112.04"/&gt;I wished but to see him again that I &lt;lb n="c56-0112__main__12"/&gt;might &lt;anchor xml:id="c56-0112.04"/&gt;</rdg>
 		</rdgGrp>
 		<rdgGrp n="['moderation.']">
 			<rdg wit="f1818">moderation.</rdg>
@@ -2435,8 +2437,8 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['&lt;delstart/&gt;foot&lt;delend/&gt;', 'base', '', ';']">
-			<rdg wit="fMS">&lt;del rend="strikethrough" xml:id="c56-0112__main__d5e23472"&gt;foot&lt;/del&gt; &lt;sga-add hand="#pbs" place="superlinear" sID="c56-0112__main__d5e23475"/&gt;base &lt;sga-add eID="c56-0112__main__d5e23475"/&gt; ;</rdg>
+		<rdgGrp n="['', '&lt;delstart/&gt;foot&lt;delend/&gt;', 'base', '', ';']">
+			<rdg wit="fMS">&lt;mod sID="c56-0112__main__d5e23470"/&gt; &lt;del rend="strikethrough" xml:id="c56-0112__main__d5e23472"&gt;foot&lt;/del&gt; &lt;sga-add hand="#pbs" place="superlinear" sID="c56-0112__main__d5e23475"/&gt;base &lt;sga-add eID="c56-0112__main__d5e23475"/&gt;&lt;mod eID="c56-0112__main__d5e23470"/&gt; ;</rdg>
 		</rdgGrp>
 		<rdgGrp n="['base.']">
 			<rdg wit="f1818">base.</rdg>
@@ -2600,7 +2602,7 @@
 	</app>
 	<app>
 		<rdgGrp n="['eter', '', '', 'nal']">
-			<rdg wit="fMS">eter &lt;lb n="c56-0112__left_margin__1"/&gt;&lt;sga-add sID="c56-0112__left_margin__d5e23514"/&gt; &lt;metamark&gt;=&lt;/metamark&gt; nal</rdg>
+			<rdg wit="fMS">eter &lt;anchor xml:id="c56-0112.05"/&gt;&lt;lb n="c56-0112__left_margin__1"/&gt;&lt;sga-add sID="c56-0112__left_margin__d5e23514"/&gt; &lt;metamark&gt;=&lt;/metamark&gt; nal</rdg>
 		</rdgGrp>
 		<rdgGrp n="['eternal']">
 			<rdg wit="f1818">eternal</rdg>
@@ -2619,8 +2621,8 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['tea', '', 'rs', '']">
-			<rdg wit="fMS">tea &lt;mdel&gt;s&lt;/mdel&gt; &lt;sga-add place="intralinear" sID="c56-0112__main__d5e23527"/&gt;rs &lt;sga-add eID="c56-0112__main__d5e23527"/&gt;</rdg>
+		<rdgGrp n="['tea', '', '&lt;mdel&gt;s&lt;/mdel&gt;', 'rs', '']">
+			<rdg wit="fMS">tea &lt;mod sID="c56-0112__main__d5e23523"/&gt; &lt;mdel&gt;s&lt;/mdel&gt; &lt;sga-add place="intralinear" sID="c56-0112__main__d5e23527"/&gt;rs &lt;sga-add eID="c56-0112__main__d5e23527"/&gt;&lt;mod eID="c56-0112__main__d5e23523"/&gt;</rdg>
 		</rdgGrp>
 		<rdgGrp n="['tears']">
 			<rdg wit="f1818">tears</rdg>
@@ -2655,10 +2657,10 @@
 			<rdg wit="f1823">who in earlier youth</rdg>
 			<rdg wit="fThomas">who in earlier youth</rdg>
 			<rdg wit="f1831">who in earlier youth</rdg>
-			<rdg wit="fMS">&lt;lb n="c56-0113__left_margin__1"/&gt;who in earlier &lt;lb n="c56-0113__left_margin__2"/&gt;youth</rdg>
+			<rdg wit="fMS">&lt;anchor xml:id="c56-0113.03"/&gt;&lt;lb n="c56-0113__left_margin__1"/&gt;who in earlier &lt;lb n="c56-0113__left_margin__2"/&gt;youth</rdg>
 		</rdgGrp>
 	</app>
-	<app><rdgGrp n="['wandered', 'with']"><rdg wit="f1818">wandered with</rdg><rdg wit="f1823">wandered with</rdg><rdg wit="fThomas">wandered with</rdg><rdg wit="f1831">wandered with</rdg></rdgGrp><rdgGrp n="['had', '&lt;delstart/&gt;– &lt;mod sid=&#34;c56-0113__main__d5e23571&#34;/&gt;', &#34;&lt;delstart/&gt;' who&lt;/del-inner&gt;&#34;, 'had ', '&lt;mod eid=&#34;c56-0113__main__d5e23571&#34;/&gt;', '&lt;delend/&gt;', 'wandered', 'with']"><rdg wit="fMS">had &lt;del rend="unmarked" xml:id="c56-0113__main__d5e23569"&gt;– &lt;mod sID="c56-0113__main__d5e23571"/&gt;       &lt;del-INNER rend="overwritten" xml:id="c56-0113__main__d5e23573"&gt;' who&lt;/del-INNER&gt;       &lt;sga-add hand="#pbs" place="intralinear" sID="c56-0113__main__d5e23576"/&gt;had &lt;sga-add eID="c56-0113__main__d5e23576"/&gt;       &lt;mod eID="c56-0113__main__d5e23571"/&gt;    &lt;/del&gt; wandered with</rdg></rdgGrp></app>
+	<app><rdgGrp n="['wandered', 'with']"><rdg wit="f1818">wandered with</rdg><rdg wit="f1823">wandered with</rdg><rdg wit="fThomas">wandered with</rdg><rdg wit="f1831">wandered with</rdg></rdgGrp><rdgGrp n="['had', '&lt;delstart/&gt;– ', &#34;&lt;delstart/&gt;' who&lt;/del-inner&gt;&#34;, 'had ', '', '&lt;delend/&gt;', 'wandered', 'with']"><rdg wit="fMS">had&lt;anchor xml:id="c56-0113.04"/&gt;&lt;anchor xml:id="c56-0113.01"/&gt; &lt;del rend="unmarked" xml:id="c56-0113__main__d5e23569"&gt;– &lt;mod sID="c56-0113__main__d5e23571"/&gt;       &lt;del-INNER rend="overwritten" xml:id="c56-0113__main__d5e23573"&gt;' who&lt;/del-INNER&gt;       &lt;sga-add hand="#pbs" place="intralinear" sID="c56-0113__main__d5e23576"/&gt;had &lt;sga-add eID="c56-0113__main__d5e23576"/&gt;       &lt;mod eID="c56-0113__main__d5e23571"/&gt;    &lt;/del&gt; wandered with</rdg></rdgGrp></app>
 	
 	<app><rdgGrp n="['me', 'on', 'the', 'banks', 'of', 'the']"><rdg wit="f1818">me on the banks of the</rdg><rdg wit="f1823">me on the banks of the</rdg><rdg wit="fThomas">me on the banks of the</rdg><rdg wit="f1831">me on the banks of the</rdg></rdgGrp><rdgGrp n="['', '&lt;delstart/&gt;on&lt;delend/&gt;', 'me', 'on', 'the', 'banks', 'of', 'the']"><rdg wit="fMS">&lt;lb n="c56-0113__main__2"/&gt; &lt;del rend="strikethrough" xml:id="c56-0113__main__d5e23583"&gt;on&lt;/del&gt; me on the banks of the</rdg></rdgGrp></app>
 	
@@ -2726,13 +2728,13 @@
 			<rdg wit="f1831">&lt;longToken&gt;The first of those sorrows which are &lt;pb xml:id="F1831_v_093" n="77"/&gt;sent to wean us from the earth, had visited her, and its dimming influence quenched her dearest smiles.&lt;/longToken&gt;</rdg>
 		</rdgGrp>
 	</app>
-	<app><rdgGrp n="['had', 'become']"><rdg wit="f1818">&lt;pb xml:id="F1818_v2_012" n="008"/&gt;had become</rdg><rdg wit="f1823">had become</rdg><rdg wit="fThomas">&lt;pb xml:id="F1818_v2_012" n="008"/&gt;had become</rdg></rdgGrp><rdgGrp n="['&lt;delstart/&gt;was&lt;delend/&gt;', 'had', 'become']"><rdg wit="fMS">&lt;del rend="strikethrough" xml:id="c56-0113__main__d5e23592"&gt;was&lt;/del&gt; &lt;sga-add hand="#pbs" place="superlinear" sID="c56-0113__main__d5e23595"/&gt;had become</rdg></rdgGrp></app>
+	<app><rdgGrp n="['had', 'become']"><rdg wit="f1818">&lt;pb xml:id="F1818_v2_012" n="008"/&gt;had become</rdg><rdg wit="f1823">had become</rdg><rdg wit="fThomas">&lt;pb xml:id="F1818_v2_012" n="008"/&gt;had become</rdg></rdgGrp><rdgGrp n="['', '&lt;delstart/&gt;was&lt;delend/&gt;', 'had', 'become']"><rdg wit="fMS">&lt;mod sID="c56-0113__main__d5e23590"/&gt; &lt;del rend="strikethrough" xml:id="c56-0113__main__d5e23592"&gt;was&lt;/del&gt; &lt;sga-add hand="#pbs" place="superlinear" sID="c56-0113__main__d5e23595"/&gt;had become</rdg></rdgGrp></app>
 	
-	<app><rdgGrp n="['grave,', 'and', 'often']"><rdg wit="f1818">grave, and often </rdg><rdg wit="f1823">grave, and often </rdg><rdg wit="fThomas">grave, and often </rdg><rdg wit="fMS">&lt;sga-add eID="c56-0113__main__d5e23595"/&gt;grave, and often</rdg></rdgGrp></app>
+	<app><rdgGrp n="['grave,', 'and', 'often']"><rdg wit="f1818">grave, and often </rdg><rdg wit="f1823">grave, and often </rdg><rdg wit="fThomas">grave, and often </rdg><rdg wit="fMS">&lt;sga-add eID="c56-0113__main__d5e23595"/&gt;&lt;mod eID="c56-0113__main__d5e23590"/&gt;grave, and often</rdg></rdgGrp></app>
 	
-	<app><rdgGrp n="['conversed']"><rdg wit="f1818">conversed</rdg><rdg wit="f1823">conversed</rdg><rdg wit="fThomas">conversed</rdg></rdgGrp><rdgGrp n="['', '&lt;delstart/&gt;talked&lt;delend/&gt;', 'conversed']"><rdg wit="fMS">&lt;lb n="c56-0113__main__5"/&gt; &lt;del rend="strikethrough" xml:id="c56-0113__main__d5e23604"&gt;talked&lt;/del&gt; &lt;lb n="c56-0113__left_margin__1"/&gt;&lt;sga-add sID="c56-0113__left_margin__d5e23613"/&gt;conversed</rdg></rdgGrp></app>
+	<app><rdgGrp n="['conversed']"><rdg wit="f1818">conversed</rdg><rdg wit="f1823">conversed</rdg><rdg wit="fThomas">conversed</rdg></rdgGrp><rdgGrp n="['', '&lt;delstart/&gt;talked&lt;delend/&gt;', 'conversed']"><rdg wit="fMS">&lt;lb n="c56-0113__main__5"/&gt;&lt;mod sID="c56-0113__main__d5e23602"/&gt; &lt;del rend="strikethrough" xml:id="c56-0113__main__d5e23604"&gt;talked&lt;/del&gt; &lt;anchor xml:id="c56-0113.05"/&gt;&lt;lb n="c56-0113__left_margin__1"/&gt;&lt;sga-add sID="c56-0113__left_margin__d5e23613"/&gt;conversed</rdg></rdgGrp></app>
 	
-	<app><rdgGrp n="['of', 'the', 'inconstancy', 'of']"><rdg wit="f1818">of the inconstancy of </rdg><rdg wit="f1823">of the inconstancy of </rdg><rdg wit="fThomas">of the inconstancy of </rdg><rdg wit="fMS">&lt;sga-add eID="c56-0113__left_margin__d5e23613"/&gt;of the inconstancy of</rdg></rdgGrp></app>
+	<app><rdgGrp n="['of', 'the', 'inconstancy', 'of']"><rdg wit="f1818">of the inconstancy of </rdg><rdg wit="f1823">of the inconstancy of </rdg><rdg wit="fThomas">of the inconstancy of </rdg><rdg wit="fMS">&lt;sga-add eID="c56-0113__left_margin__d5e23613"/&gt;&lt;mod eID="c56-0113__main__d5e23602"/&gt;of the inconstancy of</rdg></rdgGrp></app>
 	
 	<app>
 		<rdgGrp n="['fortune']">
@@ -2802,11 +2804,11 @@
 	
 	<app><rdgGrp n="['as', 'they', 'before', 'appeared', 'to']"><rdg wit="f1818">as they before appeared to</rdg><rdg wit="f1823">as they before appeared to</rdg><rdg wit="fThomas">as they before appeared to</rdg><rdg wit="f1831">as they before appeared to</rdg></rdgGrp><rdgGrp n="['in', 'the', 'same', 'light', 'as', 'they', 'before', 'appeared', 'to']"><rdg wit="fMS">in the same light as they before &lt;lb n="c56-0113__main__11"/&gt;appeared to</rdg></rdgGrp></app>
 	
-	<app><rdgGrp n="['me.']"><rdg wit="f1818">me.</rdg><rdg wit="f1823">me.</rdg><rdg wit="fThomas">me.</rdg><rdg wit="f1831">me.</rdg></rdgGrp><rdgGrp n="['', '', 'me.']"><rdg wit="fMS">&lt;sga-add place="sublinear" sID="c56-0113__main__d5e23635"/&gt; &lt;metamark function="insert"&gt;^&lt;/metamark&gt; &lt;sga-add eID="c56-0113__main__d5e23635"/&gt;&lt;sga-add place="superlinear" sID="c56-0113__main__d5e23641"/&gt;me.</rdg></rdgGrp></app>
+	<app><rdgGrp n="['me.']"><rdg wit="f1818">me.</rdg><rdg wit="f1823">me.</rdg><rdg wit="fThomas">me.</rdg><rdg wit="f1831">me.</rdg></rdgGrp><rdgGrp n="['', '', 'me.']"><rdg wit="fMS">&lt;mod sID="c56-0113__main__d5e23633"/&gt;&lt;sga-add place="sublinear" sID="c56-0113__main__d5e23635"/&gt; &lt;metamark function="insert"&gt;^&lt;/metamark&gt; &lt;sga-add eID="c56-0113__main__d5e23635"/&gt;&lt;sga-add place="superlinear" sID="c56-0113__main__d5e23641"/&gt;me.</rdg></rdgGrp></app>
 	
 	<app>
-		<rdgGrp n="['', 'before', '–', '&lt;delstart/&gt;stories&lt;delend/&gt;']">
-			<rdg wit="fMS">&lt;sga-add eID="c56-0113__main__d5e23641"/&gt; Before – &lt;del rend="strikethrough" xml:id="c56-0113__main__d5e23647"&gt;Stories&lt;/del&gt;</rdg>
+		<rdgGrp n="['', 'before', '–', '', '&lt;delstart/&gt;stories&lt;delend/&gt;']">
+			<rdg wit="fMS">&lt;sga-add eID="c56-0113__main__d5e23641"/&gt;&lt;mod eID="c56-0113__main__d5e23633"/&gt; Before – &lt;mod sID="c56-0113__main__d5e23645"/&gt; &lt;del rend="strikethrough" xml:id="c56-0113__main__d5e23647"&gt;Stories&lt;/del&gt;</rdg>
 		</rdgGrp>
 		<rdgGrp n="['before,']">
 			<rdg wit="f1818">Before,</rdg>
@@ -2824,7 +2826,7 @@
 			<rdg wit="fMS">&lt;sga-add place="superlinear" sID="c56-0113__main__d5e23650"/&gt;I looked upon the</rdg>
 		</rdgGrp>
 	</app>
-	<app><rdgGrp n="['accounts', 'of', 'vice', 'and']"><rdg wit="f1818">accounts of vice and </rdg><rdg wit="f1823">accounts of vice and </rdg><rdg wit="fThomas">accounts of vice and </rdg><rdg wit="f1831">accounts of vice and </rdg><rdg wit="fMS">&lt;sga-add eID="c56-0113__main__d5e23650"/&gt;accounts of vice &lt;lb n="c56-0113__main__12"/&gt;and</rdg></rdgGrp></app>
+	<app><rdgGrp n="['accounts', 'of', 'vice', 'and']"><rdg wit="f1818">accounts of vice and </rdg><rdg wit="f1823">accounts of vice and </rdg><rdg wit="fThomas">accounts of vice and </rdg><rdg wit="f1831">accounts of vice and </rdg><rdg wit="fMS">&lt;sga-add eID="c56-0113__main__d5e23650"/&gt;&lt;mod eID="c56-0113__main__d5e23645"/&gt;accounts of vice &lt;lb n="c56-0113__main__12"/&gt;and</rdg></rdgGrp></app>
 	
 	<app>
 		<rdgGrp n="['injustice']">
@@ -2868,7 +2870,7 @@
 	</app>
 	<app>
 		<rdgGrp n="['days', 'orimaginary', 'evils', ';', '', '', '', '&lt;metamark function=&#34;displacement&#34;&gt;&lt;/metamark&gt;']">
-			<rdg wit="fMS">days or&lt;lb n="c56-0113__main__14"/&gt;imaginary evils &lt;sga-add hand="#pbs" place="intralinear" sID="c56-0113__main__d5e23663"/&gt;; &lt;sga-add eID="c56-0113__main__d5e23663"/&gt;&lt;sga-add place="superlinear" sID="c56-0113__main__d5e23666"/&gt; &lt;metamark function="displacement" xml:id="c56-0113.06"&gt;X&lt;/metamark&gt; &lt;lb n="c56-0113__left_margin__1"/&gt; &lt;metamark function="displacement"&gt;&lt;/metamark&gt;</rdg>
+			<rdg wit="fMS">days or&lt;lb n="c56-0113__main__14"/&gt;imaginary evils &lt;mod sID="c56-0113__main__d5e23661"/&gt;&lt;sga-add hand="#pbs" place="intralinear" sID="c56-0113__main__d5e23663"/&gt;; &lt;sga-add eID="c56-0113__main__d5e23663"/&gt;&lt;sga-add place="superlinear" sID="c56-0113__main__d5e23666"/&gt; &lt;metamark function="displacement" xml:id="c56-0113.06"&gt;X&lt;/metamark&gt; &lt;lb n="c56-0113__left_margin__1"/&gt; &lt;metamark function="displacement"&gt;&lt;/metamark&gt;</rdg>
 		</rdgGrp>
 		<rdgGrp n="['days,', 'or', 'imaginary', 'evils;']">
 			<rdg wit="f1818">days, or imaginary evils;</rdg>
@@ -2886,11 +2888,11 @@
 			<rdg wit="fMS">At least they &lt;lb n="c56-0113__left_margin__2"/&gt;were remote, &lt;lb n="c56-0113__left_margin__3"/&gt;and more &lt;lb n="c56-0113__left_margin__4"/&gt;familiar to</rdg>
 		</rdgGrp>
 	</app>
-	<app><rdgGrp n="['reason', 'than', 'to']"><rdg wit="f1818">reason than to</rdg><rdg wit="f1823">reason than to</rdg><rdg wit="fThomas">reason than to</rdg><rdg wit="f1831">reason than to</rdg></rdgGrp><rdgGrp n="['the', 'beli', 'reason', 'than', 'to']"><rdg wit="fMS">the &lt;lb n="c56-0113__left_margin__5"/&gt;beli reason than &lt;lb n="c56-0113__left_margin__6"/&gt;to</rdg></rdgGrp></app>
+	<app><rdgGrp n="['reason', 'than', 'to']"><rdg wit="f1818">reason than to</rdg><rdg wit="f1823">reason than to</rdg><rdg wit="fThomas">reason than to</rdg><rdg wit="f1831">reason than to</rdg></rdgGrp><rdgGrp n="['the', 'beli', '', 'reason', 'than', 'to']"><rdg wit="fMS">&lt;delSpan spanTo="#c56-0113.08"/&gt;the &lt;lb n="c56-0113__left_margin__5"/&gt;beli &lt;anchor xml:id="c56-0113.08"/&gt; reason than &lt;lb n="c56-0113__left_margin__6"/&gt;to</rdg></rdgGrp></app>
 	
 	<app>
 		<rdgGrp n="['imagination', '']">
-			<rdg wit="fMS">imagination &lt;sga-add eID="c56-0113__main__d5e23666"/&gt;</rdg>
+			<rdg wit="fMS">imagination &lt;anchor xml:id="c56-0113.07"/&gt;&lt;sga-add eID="c56-0113__main__d5e23666"/&gt;&lt;mod eID="c56-0113__main__d5e23661"/&gt;</rdg>
 		</rdgGrp>
 		<rdgGrp n="['the', 'imagination;']">
 			<rdg wit="f1818">the imagination;</rdg>
@@ -2988,15 +2990,15 @@
 			<rdg wit="fMS">and &lt;lb n="c56-0113__main__19"/&gt;if she</rdg>
 		</rdgGrp>
 	</app>
-	<app><rdgGrp n="['could', 'have', 'committed', 'the', 'crime', 'for', 'which', 'she', 'suffered,', 'assuredly', 'she']"><rdg wit="f1818">could have committed the crime for which she suffered, assuredly she</rdg><rdg wit="f1823">could have committed the crime for which she suffered, assuredly she</rdg><rdg wit="fThomas">could have committed the crime for which she suffered, assuredly she</rdg><rdg wit="f1831">could have committed the crime for which she suffered, assuredly she</rdg></rdgGrp><rdgGrp n="['&lt;delstart/&gt;had&lt;delend/&gt;', '', '', 'could', 'have', 'committed', 'the', 'crime', 'for', 'which', 'she', 'suffered,', 'assuredly', 'she']"><rdg wit="fMS">&lt;del rend="strikethrough" xml:id="c56-0113__main__d5e23716"&gt;had&lt;/del&gt; &lt;sga-add place="sublinear" sID="c56-0113__main__d5e23719"/&gt; &lt;metamark function="insert"&gt;^&lt;/metamark&gt; &lt;sga-add eID="c56-0113__main__d5e23719"/&gt;&lt;sga-add hand="#pbs" place="superlinear" sID="c56-0113__main__d5e23725"/&gt;could have committed the crime for which she suffered, assuredly she</rdg></rdgGrp></app>
+	<app><rdgGrp n="['could', 'have', 'committed', 'the', 'crime', 'for', 'which', 'she', 'suffered,', 'assuredly', 'she']"><rdg wit="f1818">could have committed the crime for which she suffered, assuredly she</rdg><rdg wit="f1823">could have committed the crime for which she suffered, assuredly she</rdg><rdg wit="fThomas">could have committed the crime for which she suffered, assuredly she</rdg><rdg wit="f1831">could have committed the crime for which she suffered, assuredly she</rdg></rdgGrp><rdgGrp n="['', '&lt;delstart/&gt;had&lt;delend/&gt;', '', '', 'could', 'have', 'committed', 'the', 'crime', 'for', 'which', 'she', 'suffered,', 'assuredly', 'she']"><rdg wit="fMS">&lt;mod sID="c56-0113__main__d5e23714"/&gt; &lt;del rend="strikethrough" xml:id="c56-0113__main__d5e23716"&gt;had&lt;/del&gt; &lt;sga-add place="sublinear" sID="c56-0113__main__d5e23719"/&gt; &lt;metamark function="insert"&gt;^&lt;/metamark&gt; &lt;sga-add eID="c56-0113__main__d5e23719"/&gt;&lt;sga-add hand="#pbs" place="superlinear" sID="c56-0113__main__d5e23725"/&gt;could have committed the crime for which she suffered, assuredly she</rdg></rdgGrp></app>
 	
-	<app><rdgGrp n="['would']"><rdg wit="f1818">would </rdg><rdg wit="f1823">would </rdg><rdg wit="fThomas">would </rdg><rdg wit="f1831">would </rdg><rdg wit="fMS">&lt;sga-add eID="c56-0113__main__d5e23725"/&gt;would</rdg></rdgGrp></app>
+	<app><rdgGrp n="['would']"><rdg wit="f1818">would </rdg><rdg wit="f1823">would </rdg><rdg wit="fThomas">would </rdg><rdg wit="f1831">would </rdg><rdg wit="fMS">&lt;sga-add eID="c56-0113__main__d5e23725"/&gt;&lt;mod eID="c56-0113__main__d5e23714"/&gt;would</rdg></rdgGrp></app>
 	
 	<app><rdgGrp n="['have', 'been', 'the', 'most', 'depraved', 'of']"><rdg wit="f1818">have been the most depraved of</rdg><rdg wit="f1823">have been the most depraved of</rdg><rdg wit="fThomas">have been the most depraved of</rdg><rdg wit="f1831">have been the most depraved of</rdg></rdgGrp><rdgGrp n="['&lt;delstart/&gt;she not&lt;delend/&gt;', 'have', 'been', 'the', 'most', 'depraved', 'of']"><rdg wit="fMS">&lt;del rend="strikethrough" xml:id="c56-0113__main__d5e23729"&gt;she not&lt;/del&gt; have been &lt;lb n="c56-0113__main__20"/&gt;the most depraved of</rdg></rdgGrp></app>
 	
-	<app><rdgGrp n="['human']"><rdg wit="f1818">human</rdg><rdg wit="f1823">human</rdg><rdg wit="fThomas">human</rdg><rdg wit="f1831">human</rdg></rdgGrp><rdgGrp n="['', '', 'human']"><rdg wit="fMS">&lt;sga-add place="sublinear" sID="c56-0113__main__d5e23736"/&gt; &lt;metamark function="insert"&gt;^&lt;/metamark&gt; &lt;sga-add eID="c56-0113__main__d5e23736"/&gt;&lt;sga-add hand="#pbs" place="superlinear" sID="c56-0113__main__d5e23742"/&gt;human</rdg></rdgGrp></app>
+	<app><rdgGrp n="['human']"><rdg wit="f1818">human</rdg><rdg wit="f1823">human</rdg><rdg wit="fThomas">human</rdg><rdg wit="f1831">human</rdg></rdgGrp><rdgGrp n="['', '', 'human']"><rdg wit="fMS">&lt;mod sID="c56-0113__main__d5e23734"/&gt;&lt;sga-add place="sublinear" sID="c56-0113__main__d5e23736"/&gt; &lt;metamark function="insert"&gt;^&lt;/metamark&gt; &lt;sga-add eID="c56-0113__main__d5e23736"/&gt;&lt;sga-add hand="#pbs" place="superlinear" sID="c56-0113__main__d5e23742"/&gt;human</rdg></rdgGrp></app>
 	
-	<app><rdgGrp n="['creatures.', 'for', 'the', 'sake', 'of', 'a', 'few']"><rdg wit="f1818">creatures. For the sake of a few </rdg><rdg wit="f1823">creatures. For the sake of a few </rdg><rdg wit="fThomas">creatures. For the sake of a few </rdg><rdg wit="f1831">creatures. For the sake of a few </rdg><rdg wit="fMS">&lt;sga-add eID="c56-0113__main__d5e23742"/&gt;creatures. For the &lt;lb n="c56-0113__main__21"/&gt;sake of a few</rdg></rdgGrp></app>
+	<app><rdgGrp n="['creatures.', 'for', 'the', 'sake', 'of', 'a', 'few']"><rdg wit="f1818">creatures. For the sake of a few </rdg><rdg wit="f1823">creatures. For the sake of a few </rdg><rdg wit="fThomas">creatures. For the sake of a few </rdg><rdg wit="f1831">creatures. For the sake of a few </rdg><rdg wit="fMS">&lt;sga-add eID="c56-0113__main__d5e23742"/&gt;&lt;mod eID="c56-0113__main__d5e23734"/&gt;creatures. For the &lt;lb n="c56-0113__main__21"/&gt;sake of a few</rdg></rdgGrp></app>
 	
 	<app>
 		<rdgGrp n="['jewels']">
@@ -3061,8 +3063,8 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['being', '&lt;delstart/&gt;yet&lt;delend/&gt;']">
-			<rdg wit="fMS">being &lt;del rend="strikethrough" xml:id="c56-0113__main__d5e23765"&gt;yet&lt;/del&gt;</rdg>
+		<rdgGrp n="['being', '', '&lt;delstart/&gt;yet&lt;delend/&gt;']">
+			<rdg wit="fMS">being &lt;mod sID="c56-0113__main__d5e23763"/&gt; &lt;del rend="strikethrough" xml:id="c56-0113__main__d5e23765"&gt;yet&lt;/del&gt;</rdg>
 		</rdgGrp>
 		<rdgGrp n="['being;']">
 			<rdg wit="f1818">being;</rdg>
@@ -3080,7 +3082,7 @@
 			<rdg wit="fMS">&lt;sga-add place="superlinear" sID="c56-0113__main__d5e23768"/&gt;but</rdg>
 		</rdgGrp>
 	</app>
-	<app><rdgGrp n="['certainly', 'i', 'should', 'have', 'thought', 'such', 'a']"><rdg wit="f1818">certainly I should have thought such a </rdg><rdg wit="f1823">certainly I should have thought such a </rdg><rdg wit="fThomas">certainly I should have thought such a </rdg><rdg wit="f1831">certainly I should have thought such a </rdg><rdg wit="fMS">&lt;sga-add eID="c56-0113__main__d5e23768"/&gt;certainly &lt;lb n="c56-0113__main__27"/&gt;I should have thought such a</rdg></rdgGrp></app>
+	<app><rdgGrp n="['certainly', 'i', 'should', 'have', 'thought', 'such', 'a']"><rdg wit="f1818">certainly I should have thought such a </rdg><rdg wit="f1823">certainly I should have thought such a </rdg><rdg wit="fThomas">certainly I should have thought such a </rdg><rdg wit="f1831">certainly I should have thought such a </rdg><rdg wit="fMS">&lt;sga-add eID="c56-0113__main__d5e23768"/&gt;&lt;mod eID="c56-0113__main__d5e23763"/&gt;certainly &lt;lb n="c56-0113__main__27"/&gt;I should have thought such a</rdg></rdgGrp></app>
 	
 	<app>
 		<rdgGrp n="['&lt;delstart/&gt;woman&lt;delend/&gt;', 'being', '', '&lt;delstart/&gt;unworthy of life&lt;delend/&gt;', '', '&lt;delstart/&gt;as&lt;delend/&gt;']">
@@ -3104,7 +3106,7 @@
 	</app>
 	<app>
 		<rdgGrp n="['', '–']">
-			<rdg wit="fMS">&lt;sga-add eID="c56-0113__main__d5e23786"/&gt; –</rdg>
+			<rdg wit="fMS">&lt;sga-add eID="c56-0113__main__d5e23786"/&gt;&lt;anchor xml:id="c56-0113.09"/&gt; –</rdg>
 		</rdgGrp>
 		<rdgGrp n="['but']">
 			<rdg wit="f1831">But</rdg>
@@ -3229,9 +3231,9 @@
 			<rdg wit="fMS">when</rdg>
 		</rdgGrp>
 	</app>
-	<app><rdgGrp n="['falsehood']"><rdg wit="f1818">falsehood</rdg><rdg wit="f1823">falsehood</rdg><rdg wit="fThomas">falsehood</rdg><rdg wit="f1831">falsehood</rdg></rdgGrp><rdgGrp n="['', '', '', '&lt;delstart/&gt;lies&lt;delend/&gt;', '&lt;delstart/&gt;appear&lt;delend/&gt;', 'falsehood']"><rdg wit="fMS">&lt;sga-add place="sublinear" sID="c56-0113__main__d5e23813"/&gt; &lt;metamark function="insert"&gt;^&lt;/metamark&gt; &lt;sga-add eID="c56-0113__main__d5e23813"/&gt; &lt;del rend="strikethrough" xml:id="c56-0113__main__d5e23819"&gt;lies&lt;/del&gt; &lt;del rend="strikethrough" xml:id="c56-0113__main__d5e23822"&gt;appear&lt;/del&gt; &lt;sga-add place="superlinear" sID="c56-0113__main__d5e23825"/&gt;falsehood</rdg></rdgGrp></app>
+	<app><rdgGrp n="['falsehood']"><rdg wit="f1818">falsehood</rdg><rdg wit="f1823">falsehood</rdg><rdg wit="fThomas">falsehood</rdg><rdg wit="f1831">falsehood</rdg></rdgGrp><rdgGrp n="['', '', '', '&lt;delstart/&gt;lies&lt;delend/&gt;', '&lt;delstart/&gt;appear&lt;delend/&gt;', 'falsehood']"><rdg wit="fMS">&lt;mod sID="c56-0113__main__d5e23811"/&gt;&lt;sga-add place="sublinear" sID="c56-0113__main__d5e23813"/&gt; &lt;metamark function="insert"&gt;^&lt;/metamark&gt; &lt;sga-add eID="c56-0113__main__d5e23813"/&gt; &lt;del rend="strikethrough" xml:id="c56-0113__main__d5e23819"&gt;lies&lt;/del&gt; &lt;del rend="strikethrough" xml:id="c56-0113__main__d5e23822"&gt;appear&lt;/del&gt; &lt;sga-add place="superlinear" sID="c56-0113__main__d5e23825"/&gt;falsehood</rdg></rdgGrp></app>
 	
-	<app><rdgGrp n="['can', 'look', 'so', 'like', 'the', 'truth,', 'who', 'can', 'assure']"><rdg wit="f1818">can look so like the truth, who can assure</rdg><rdg wit="f1823">can look so like the truth, who can assure</rdg><rdg wit="fThomas">can look so like the truth, who can assure</rdg><rdg wit="f1831">can look so like the truth, who can assure</rdg></rdgGrp><rdgGrp n="['&lt;delstart/&gt;look&lt;delend/&gt;', 'can', 'look', 'so', 'like', 'the', 'truth,', 'who', 'can', 'assure']"><rdg wit="fMS">&lt;del rend="strikethrough" xml:id="c56-0113__main__d5e23827"&gt;look&lt;/del&gt; &lt;sga-add eID="c56-0113__main__d5e23825"/&gt;&lt;lb n="c56-0114__main__1"/&gt;&lt;lb n="c56-0114__left_margin__1"/&gt;&lt;sga-add sID="c56-0114__left_margin__d5e23848"/&gt;can look &lt;sga-add eID="c56-0114__left_margin__d5e23848"/&gt;so like the truth, who can assure</rdg></rdgGrp></app>
+	<app><rdgGrp n="['can', 'look', 'so', 'like', 'the', 'truth,', 'who', 'can', 'assure']"><rdg wit="f1818">can look so like the truth, who can assure</rdg><rdg wit="f1823">can look so like the truth, who can assure</rdg><rdg wit="fThomas">can look so like the truth, who can assure</rdg><rdg wit="f1831">can look so like the truth, who can assure</rdg></rdgGrp><rdgGrp n="['&lt;delstart/&gt;look&lt;delend/&gt;', 'can', 'look', 'so', 'like', 'the', 'truth,', 'who', 'can', 'assure']"><rdg wit="fMS">&lt;del rend="strikethrough" xml:id="c56-0113__main__d5e23827"&gt;look&lt;/del&gt; &lt;sga-add eID="c56-0113__main__d5e23825"/&gt;&lt;mod eID="c56-0113__main__d5e23811"/&gt;&lt;lb n="c56-0114__main__1"/&gt;&lt;anchor xml:id="c56-0114.01"/&gt;&lt;lb n="c56-0114__left_margin__1"/&gt;&lt;sga-add sID="c56-0114__left_margin__d5e23848"/&gt;can look &lt;sga-add eID="c56-0114__left_margin__d5e23848"/&gt;so like the truth, who can assure</rdg></rdgGrp></app>
 	
 	<app>
 		<rdgGrp n="['them', 'selves']">
@@ -3334,8 +3336,8 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['escap', '', 'es', '', ',', 'wearing', 'human', 'lineaments;']">
-			<rdg wit="fMS">escap &lt;mdel&gt;s&lt;/mdel&gt; &lt;sga-add place="intralinear" sID="c56-0114__main__d5e23875"/&gt;es &lt;sga-add eID="c56-0114__main__d5e23875"/&gt; , wearing &lt;lb n="c56-0114__main__8"/&gt;human lineaments;</rdg>
+		<rdgGrp n="['escap', '', '&lt;mdel&gt;s&lt;/mdel&gt;', 'es', '', ',', 'wearing', 'human', 'lineaments;']">
+			<rdg wit="fMS">escap &lt;mod sID="c56-0114__main__d5e23871"/&gt; &lt;mdel&gt;s&lt;/mdel&gt; &lt;sga-add place="intralinear" sID="c56-0114__main__d5e23875"/&gt;es &lt;sga-add eID="c56-0114__main__d5e23875"/&gt;&lt;mod eID="c56-0114__main__d5e23871"/&gt; , wearing &lt;lb n="c56-0114__main__8"/&gt;human lineaments;</rdg>
 		</rdgGrp>
 		<rdgGrp n="['escapes;']">
 			<rdg wit="f1818">escapes;</rdg>
@@ -3354,8 +3356,8 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['abou', '', 't', '', '']">
-			<rdg wit="fMS">abou &lt;mdel&gt;l&lt;/mdel&gt; &lt;sga-add place="intralinear" sID="c56-0114__main__d5e23885"/&gt;t &lt;sga-add eID="c56-0114__main__d5e23885"/&gt; &lt;mdel&gt;d&lt;/mdel&gt;</rdg>
+		<rdgGrp n="['abou', '', '&lt;mdel&gt;l&lt;/mdel&gt;', 't', '', '&lt;mdel&gt;d&lt;/mdel&gt;']">
+			<rdg wit="fMS">abou &lt;mod sID="c56-0114__main__d5e23881"/&gt; &lt;mdel&gt;l&lt;/mdel&gt; &lt;sga-add place="intralinear" sID="c56-0114__main__d5e23885"/&gt;t &lt;sga-add eID="c56-0114__main__d5e23885"/&gt; &lt;mdel&gt;d&lt;/mdel&gt;</rdg>
 		</rdgGrp>
 		<rdgGrp n="['about']">
 			<rdg wit="f1818">about</rdg>
@@ -3370,7 +3372,7 @@
 			<rdg wit="f1823">the world</rdg>
 			<rdg wit="fThomas">the world</rdg>
 			<rdg wit="f1831">the world</rdg>
-			<rdg wit="fMS">&lt;lb n="c56-0114__main__9"/&gt;the world</rdg>
+			<rdg wit="fMS">&lt;mod eID="c56-0114__main__d5e23881"/&gt;&lt;lb n="c56-0114__main__9"/&gt;the world</rdg>
 		</rdgGrp>
 	</app>
 	<app>
@@ -3457,11 +3459,11 @@
 			<rdg wit="fMS">not</rdg>
 		</rdgGrp>
 	</app>
-	<app><rdgGrp n="['in']"><rdg wit="f1818">in</rdg><rdg wit="f1823">in</rdg><rdg wit="fThomas">in</rdg><rdg wit="f1831">in</rdg></rdgGrp><rdgGrp n="['&lt;mdel&gt;&lt;/mdel&gt;', '&lt;delstart/&gt;ind&lt;delend/&gt;', '', '', 'in']"><rdg wit="fMS">&lt;mdel&gt;&lt;/mdel&gt; &lt;del rend="strikethrough" xml:id="c56-0114__main__d5e23922"&gt;ind&lt;/del&gt; &lt;sga-add place="sublinear" sID="c56-0114__main__d5e23925"/&gt; &lt;metamark function="insert"&gt;^&lt;/metamark&gt; &lt;sga-add eID="c56-0114__main__d5e23925"/&gt;&lt;sga-add place="superlinear" sID="c56-0114__main__d5e23931"/&gt;in</rdg></rdgGrp></app>
+	<app><rdgGrp n="['in']"><rdg wit="f1818">in</rdg><rdg wit="f1823">in</rdg><rdg wit="fThomas">in</rdg><rdg wit="f1831">in</rdg></rdgGrp><rdgGrp n="['', '&lt;mdel&gt; &lt;/mdel&gt;', '&lt;delstart/&gt;ind&lt;delend/&gt;', '', '', 'in']"><rdg wit="fMS">&lt;mod sID="c56-0114__main__d5e23915"/&gt; &lt;mdel&gt; &lt;/mdel&gt; &lt;del rend="strikethrough" xml:id="c56-0114__main__d5e23922"&gt;ind&lt;/del&gt; &lt;sga-add place="sublinear" sID="c56-0114__main__d5e23925"/&gt; &lt;metamark function="insert"&gt;^&lt;/metamark&gt; &lt;sga-add eID="c56-0114__main__d5e23925"/&gt;&lt;sga-add place="superlinear" sID="c56-0114__main__d5e23931"/&gt;in</rdg></rdgGrp></app>
 	
 	<app>
 		<rdgGrp n="['', 'deed']">
-			<rdg wit="fMS">&lt;sga-add eID="c56-0114__main__d5e23931"/&gt; deed</rdg>
+			<rdg wit="fMS">&lt;sga-add eID="c56-0114__main__d5e23931"/&gt;&lt;mod eID="c56-0114__main__d5e23915"/&gt; deed</rdg>
 		</rdgGrp>
 		<rdgGrp n="['deed,']">
 			<rdg wit="f1818">deed,</rdg>
@@ -3591,8 +3593,8 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['me', '', 'g', '', 'od']">
-			<rdg wit="fMS">me &lt;mdel&gt;g&lt;/mdel&gt; &lt;sga-add place="intralinear" sID="c56-0114__main__d5e23956"/&gt;G &lt;sga-add eID="c56-0114__main__d5e23956"/&gt; od</rdg>
+		<rdgGrp n="['me', '&lt;mdel&gt;g&lt;/mdel&gt;', 'g', '', 'od']">
+			<rdg wit="fMS">me&lt;mod sID="c56-0114__main__d5e23952"/&gt; &lt;mdel&gt;g&lt;/mdel&gt; &lt;sga-add place="intralinear" sID="c56-0114__main__d5e23956"/&gt;G &lt;sga-add eID="c56-0114__main__d5e23956"/&gt;&lt;mod eID="c56-0114__main__d5e23952"/&gt; od</rdg>
 		</rdgGrp>
 		<rdgGrp n="['me,', 'god']">
 			<rdg wit="f1818">me, God</rdg>
@@ -3707,8 +3709,8 @@
 			<rdg wit="f1823">tremble. &lt;longToken&gt;Be calm, my dear Victor; I would sacrifice my life to your peace. We surely shall be happy:&lt;/longToken&gt;</rdg>
 			<rdg wit="fThomas">tremble. &lt;longToken&gt;Be calm, my dear Victor; I would sacrifice my life to your peace. We surely shall be happy:&lt;/longToken&gt;</rdg>
 		</rdgGrp>
-		<rdgGrp n="['tremble;', 'be', 'calm,', 'my', '', '', '', '&lt;delstart/&gt;', '', '&lt;unclear&gt;best&lt;/unclear&gt;', '', '&lt;delend/&gt;', 'victor,', 'i', '', 'w', 'ould', 'sacrifice', 'my', 'life', 'to', 'your', 'peace.', 'we', 'surely', 'shall', 'be', 'happy;', '&lt;delstart/&gt;quite&lt;delend/&gt;']">
-			<rdg wit="fMS">tremble; be calm, my &lt;sga-add place="sublinear" sID="c56-0114__main__d5e23977"/&gt; &lt;metamark function="insert"&gt;^&lt;/metamark&gt; &lt;sga-add eID="c56-0114__main__d5e23977"/&gt; &lt;del rend="strikethrough" xml:id="c56-0114__main__d5e23983"&gt; &lt;sga-add place="superlinear" sID="c56-0114__main__d5e23985"/&gt; &lt;unclear&gt;best&lt;/unclear&gt; &lt;sga-add eID="c56-0114__main__d5e23985"/&gt; &lt;/del&gt; &lt;lb n="c56-0114__main__26"/&gt;Victor, I &lt;mdel&gt;c&lt;/mdel&gt; &lt;sga-add place="intralinear" sID="c56-0114__main__d5e23999"/&gt;w &lt;sga-add eID="c56-0114__main__d5e23999"/&gt;ould sacrifice my life to your &lt;lb n="c56-0114__main__27"/&gt;peace. We surely shall be happy; &lt;del rend="strikethrough" xml:id="c56-0114__main__d5e24005"&gt;quite&lt;/del&gt;</rdg>
+		<rdgGrp n="['tremble;', 'be', 'calm,', 'my', '', '', '', '&lt;delstart/&gt;', '', '&lt;unclear&gt;best&lt;/unclear&gt;', '', '&lt;delend/&gt;', 'victor,', 'i', '', '&lt;mdel&gt;c&lt;/mdel&gt;', 'w', 'ould', 'sacrifice', 'my', 'life', 'to', 'your', 'peace.', 'we', 'surely', 'shall', 'be', 'happy;', '&lt;delstart/&gt;quite&lt;delend/&gt;']">
+			<rdg wit="fMS">tremble; be calm, my &lt;mod sID="c56-0114__main__d5e23969"/&gt;&lt;sga-add place="sublinear" sID="c56-0114__main__d5e23977"/&gt; &lt;metamark function="insert"&gt;^&lt;/metamark&gt; &lt;sga-add eID="c56-0114__main__d5e23977"/&gt; &lt;del rend="strikethrough" xml:id="c56-0114__main__d5e23983"&gt; &lt;sga-add place="superlinear" sID="c56-0114__main__d5e23985"/&gt; &lt;unclear&gt;best&lt;/unclear&gt; &lt;sga-add eID="c56-0114__main__d5e23985"/&gt; &lt;/del&gt; &lt;mod eID="c56-0114__main__d5e23969"/&gt;&lt;lb n="c56-0114__main__26"/&gt;Victor, I &lt;mod sID="c56-0114__main__d5e23995"/&gt; &lt;mdel&gt;c&lt;/mdel&gt; &lt;sga-add place="intralinear" sID="c56-0114__main__d5e23999"/&gt;w &lt;sga-add eID="c56-0114__main__d5e23999"/&gt;&lt;mod eID="c56-0114__main__d5e23995"/&gt;ould sacrifice my life to your &lt;lb n="c56-0114__main__27"/&gt;peace. We surely shall be happy; &lt;del rend="strikethrough" xml:id="c56-0114__main__d5e24005"&gt;quite&lt;/del&gt;</rdg>
 		</rdgGrp>
 	</app>
 	<app>
@@ -3805,7 +3807,7 @@
 	</app>
 	<app>
 		<rdgGrp n="['gave,', '', '&lt;delstart/&gt;but&lt;delend/&gt;']">
-			<rdg wit="fMS">&lt;lb n="c56-0115__left_margin__4"/&gt;gave, &lt;sga-add eID="c56-0115__main__d5e24031"/&gt;&lt;lb n="c56-0115__main__4"/&gt; &lt;del rend="strikethrough" xml:id="c56-0115__main__d5e24055"&gt;but&lt;/del&gt;</rdg>
+			<rdg wit="fMS">&lt;lb n="c56-0115__left_margin__4"/&gt;gave, &lt;anchor xml:id="c56-0115.02"/&gt;&lt;sga-add eID="c56-0115__main__d5e24031"/&gt;&lt;lb n="c56-0115__main__4"/&gt; &lt;del rend="strikethrough" xml:id="c56-0115__main__d5e24055"&gt;but&lt;/del&gt;</rdg>
 		</rdgGrp>
 		<rdgGrp n="['gave;']">
 			<rdg wit="f1818">gave;</rdg>
@@ -3951,8 +3953,8 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['&lt;delstart/&gt;th&lt;delend/&gt;', 'fro', '', 'm', '']">
-			<rdg wit="fMS">&lt;del rend="strikethrough" xml:id="c56-0115__main__d5e24090"&gt;th&lt;/del&gt; fro &lt;mdel&gt;n&lt;/mdel&gt; &lt;sga-add place="intralinear" sID="c56-0115__main__d5e24098"/&gt;m &lt;sga-add eID="c56-0115__main__d5e24098"/&gt;</rdg>
+		<rdgGrp n="['&lt;delstart/&gt;th&lt;delend/&gt;', 'fro', '', '&lt;mdel&gt;n&lt;/mdel&gt;', 'm', '']">
+			<rdg wit="fMS">&lt;del rend="strikethrough" xml:id="c56-0115__main__d5e24090"&gt;th&lt;/del&gt; fro &lt;mod sID="c56-0115__main__d5e24094"/&gt; &lt;mdel&gt;n&lt;/mdel&gt; &lt;sga-add place="intralinear" sID="c56-0115__main__d5e24098"/&gt;m &lt;sga-add eID="c56-0115__main__d5e24098"/&gt;&lt;mod eID="c56-0115__main__d5e24094"/&gt;</rdg>
 		</rdgGrp>
 		<rdgGrp n="['from']">
 			<rdg wit="f1818">from</rdg>
@@ -3977,7 +3979,7 @@
 			<rdg wit="fThomas">country; and,</rdg>
 		</rdgGrp>
 		<rdgGrp n="['countryand', '&lt;delstart/&gt;from&lt;delend/&gt;']">
-			<rdg wit="fMS">country&amp; &lt;del rend="strikethrough" xml:id="c56-0115__main__d5e24109"&gt;from&lt;/del&gt;</rdg>
+			<rdg wit="fMS">country&amp;&lt;mod sID="c56-0115__main__d5e24107"/&gt; &lt;del rend="strikethrough" xml:id="c56-0115__main__d5e24109"&gt;from&lt;/del&gt;</rdg>
 		</rdgGrp>
 	</app>
 	<app>
@@ -3985,7 +3987,7 @@
 			<rdg wit="f1818">induced by the same</rdg>
 			<rdg wit="f1823">induced by the same</rdg>
 			<rdg wit="fThomas">induced by the same</rdg>
-			<rdg wit="fMS">&lt;lb n="c56-0115__left_margin__1"/&gt;&lt;sga-add hand="#pbs" sID="c56-0115__left_margin__d5e24118"/&gt;induced by &lt;sga-add eID="c56-0115__left_margin__d5e24118"/&gt;&lt;lb n="c56-0115__main__15"/&gt;the same</rdg>
+			<rdg wit="fMS">&lt;anchor xml:id="c56-0115.03"/&gt;&lt;lb n="c56-0115__left_margin__1"/&gt;&lt;sga-add hand="#pbs" sID="c56-0115__left_margin__d5e24118"/&gt;induced by &lt;sga-add eID="c56-0115__left_margin__d5e24118"/&gt;&lt;mod eID="c56-0115__main__d5e24107"/&gt;&lt;lb n="c56-0115__main__15"/&gt;the same</rdg>
 		</rdgGrp>
 	</app>
 	<app>
@@ -4028,7 +4030,7 @@
 	</app>
 	<app>
 		<rdgGrp n="['c', '', 'h', 'amounix.']">
-			<rdg wit="fMS">C&lt;sga-add place="sublinear" sID="c56-0115__main__d5e24138"/&gt; &lt;metamark function="insert"&gt;^&lt;/metamark&gt; &lt;sga-add eID="c56-0115__main__d5e24138"/&gt;&lt;sga-add hand="#pbs" place="superlinear" sID="c56-0115__main__d5e24144"/&gt;h &lt;sga-add eID="c56-0115__main__d5e24144"/&gt;amounix.</rdg>
+			<rdg wit="fMS">C&lt;mod sID="c56-0115__main__d5e24136"/&gt;&lt;sga-add place="sublinear" sID="c56-0115__main__d5e24138"/&gt; &lt;metamark function="insert"&gt;^&lt;/metamark&gt; &lt;sga-add eID="c56-0115__main__d5e24138"/&gt;&lt;sga-add hand="#pbs" place="superlinear" sID="c56-0115__main__d5e24144"/&gt;h &lt;sga-add eID="c56-0115__main__d5e24144"/&gt;&lt;mod eID="c56-0115__main__d5e24136"/&gt;amounix.</rdg>
 		</rdgGrp>
 		<rdgGrp n="['chamounix.']">
 			<rdg wit="f1818">Chamounix.</rdg>
@@ -4245,9 +4247,9 @@
 			<rdg wit="fMS">would certainly have had the &lt;lb n="c56-0115__main__30"/&gt;effect</rdg>
 		</rdgGrp>
 	</app>
-	<app><rdgGrp n="['intended', 'by']"><rdg wit="f1818">intended by</rdg><rdg wit="f1823">intended by</rdg><rdg wit="fThomas">intended by</rdg></rdgGrp><rdgGrp n="['&lt;delstart/&gt;which&lt;delend/&gt;', 'intended', 'by']"><rdg wit="fMS">&lt;del rend="strikethrough" xml:id="c56-0115__main__d5e24194"&gt;which&lt;/del&gt; &lt;sga-add hand="#pbs" place="superlinear" sID="c56-0115__main__d5e24197"/&gt;intended by</rdg></rdgGrp></app>
+	<app><rdgGrp n="['intended', 'by']"><rdg wit="f1818">intended by</rdg><rdg wit="f1823">intended by</rdg><rdg wit="fThomas">intended by</rdg></rdgGrp><rdgGrp n="['', '&lt;delstart/&gt;which&lt;delend/&gt;', 'intended', 'by']"><rdg wit="fMS">&lt;mod sID="c56-0115__main__d5e24192"/&gt; &lt;del rend="strikethrough" xml:id="c56-0115__main__d5e24194"&gt;which&lt;/del&gt; &lt;sga-add hand="#pbs" place="superlinear" sID="c56-0115__main__d5e24197"/&gt;intended by</rdg></rdgGrp></app>
 	
-	<app><rdgGrp n="['my']"><rdg wit="f1818">my </rdg><rdg wit="f1823">my </rdg><rdg wit="fThomas">my </rdg><rdg wit="fMS">&lt;sga-add eID="c56-0115__main__d5e24197"/&gt;my</rdg></rdgGrp></app>
+	<app><rdgGrp n="['my']"><rdg wit="f1818">my </rdg><rdg wit="f1823">my </rdg><rdg wit="fThomas">my </rdg><rdg wit="fMS">&lt;sga-add eID="c56-0115__main__d5e24197"/&gt;&lt;mod eID="c56-0115__main__d5e24192"/&gt;my</rdg></rdgGrp></app>
 	
 	<app>
 		<rdgGrp n="['father', '&lt;delstart/&gt;intended&lt;delend/&gt;', '.']">
@@ -4321,7 +4323,7 @@
 			<rdg wit="fMS">sometimes</rdg>
 		</rdgGrp>
 	</app>
-	<app><rdgGrp n="['lulled,']"><rdg wit="f1818">lulled,</rdg><rdg wit="f1823">lulled,</rdg><rdg wit="fThomas">lulled,</rdg></rdgGrp><rdgGrp n="['', &#34;&lt;delstart/&gt;amused&lt;delstart/&gt;' .&lt;/del-inner&gt;&#34;, '&lt;delend/&gt;', 'lulled,']"><rdg wit="fMS">&lt;sga-add eID="c56-0116__main__d5e24225"/&gt;&lt;lb n="c56-0116__main__2"/&gt; &lt;del rend="strikethrough" xml:id="c56-0116__main__d5e24231"&gt;amused&lt;del-INNER rend="unmarked" xml:id="c56-0116__main__d5e24233"&gt;' .&lt;/del-INNER&gt;    &lt;/del&gt; &lt;lb n="c56-0116__left_margin__1"/&gt;&lt;sga-add hand="#pbs" next="#c56-0116.04" xml:id="c56-0116.03" sID="c56-0116__left_margin__d5e24243"/&gt;lulled,</rdg></rdgGrp></app>
+	<app><rdgGrp n="['lulled,']"><rdg wit="f1818">lulled,</rdg><rdg wit="f1823">lulled,</rdg><rdg wit="fThomas">lulled,</rdg></rdgGrp><rdgGrp n="['', &#34;&lt;delstart/&gt;amused&lt;delstart/&gt;' .&lt;/del-inner&gt;&#34;, '&lt;delend/&gt;', 'lulled,']"><rdg wit="fMS">&lt;sga-add eID="c56-0116__main__d5e24225"/&gt;&lt;lb n="c56-0116__main__2"/&gt; &lt;del rend="strikethrough" xml:id="c56-0116__main__d5e24231"&gt;amused&lt;del-INNER rend="unmarked" xml:id="c56-0116__main__d5e24233"&gt;' .&lt;/del-INNER&gt;    &lt;/del&gt; &lt;anchor xml:id="c56-0116.05"/&gt;&lt;lb n="c56-0116__left_margin__1"/&gt;&lt;sga-add hand="#pbs" next="#c56-0116.04" xml:id="c56-0116.03" sID="c56-0116__left_margin__d5e24243"/&gt;lulled,</rdg></rdgGrp></app>
 	
 	<app>
 		<rdgGrp n="['although']">
@@ -4338,7 +4340,7 @@
 			<rdg wit="fMS">&lt;shi rend="underline"&gt;it&lt;/shi&gt;</rdg>
 		</rdgGrp>
 	</app>
-	<app><rdgGrp n="['could', 'not', 'extinguish', 'my', 'grief.', 'during', 'the', 'first', 'day', 'we', 'travelled', 'in', 'a', 'carriage.', 'in', 'the', 'morning', 'we', 'had', 'seen', 'the', 'mountains', 'at', 'a']"><rdg wit="f1818">could not extinguish my grief. During the first day we travelled in a carriage. In the morning we had seen the mountains at a</rdg><rdg wit="f1823">could not extinguish my grief. During the first day we travelled in a carriage. In the morning we had seen the mountains at a</rdg><rdg wit="fThomas">could not extinguish my grief. During the first day we travelled in a carriage. In the morning we had seen the mountains at a</rdg></rdgGrp><rdgGrp n="['', '&lt;delstart/&gt;somehow&lt;delend/&gt;', 'could', 'not', 'extinguish', 'my', 'grief.', 'during', 'the', 'first', 'day', 'we', 'travelled', 'in', 'a', 'carriage.', 'in', 'the', 'morning', 'we', 'had', 'seen', 'the', 'mountains', 'at', 'a']"><rdg wit="fMS">&lt;sga-add eID="c56-0116__left_margin__d5e24243"/&gt;&lt;sga-add hand="#pbs" place="superlinear" xml:id="c56-0116.04" sID="c56-0116__main__d5e24250"/&gt; &lt;del rend="strikethrough" xml:id="c56-0116__main__d5e24252"&gt;somehow&lt;/del&gt; could not extinguish my grief. &lt;sga-add eID="c56-0116__main__d5e24250"/&gt;&lt;sga-add hand="#pbs" place="sublinear" sID="c56-0116__main__d5e24259"/&gt;during &lt;sga-add eID="c56-0116__main__d5e24259"/&gt;The first day we travelled &lt;lb n="c56-0116__main__3"/&gt;in a carriage. In the morning we &lt;lb n="c56-0116__main__4"/&gt;had seen the mountains at a</rdg></rdgGrp></app>
+	<app><rdgGrp n="['could', 'not', 'extinguish', 'my', 'grief.', 'during', 'the', 'first', 'day', 'we', 'travelled', 'in', 'a', 'carriage.', 'in', 'the', 'morning', 'we', 'had', 'seen', 'the', 'mountains', 'at', 'a']"><rdg wit="f1818">could not extinguish my grief. During the first day we travelled in a carriage. In the morning we had seen the mountains at a</rdg><rdg wit="f1823">could not extinguish my grief. During the first day we travelled in a carriage. In the morning we had seen the mountains at a</rdg><rdg wit="fThomas">could not extinguish my grief. During the first day we travelled in a carriage. In the morning we had seen the mountains at a</rdg></rdgGrp><rdgGrp n="['', '&lt;delstart/&gt;somehow&lt;delend/&gt;', 'could', 'not', 'extinguish', 'my', 'grief.', 'during', 'the', 'first', 'day', 'we', 'travelled', 'in', 'a', 'carriage.', 'in', 'the', 'morning', 'we', 'had', 'seen', 'the', 'mountains', 'at', 'a']"><rdg wit="fMS">&lt;sga-add eID="c56-0116__left_margin__d5e24243"/&gt;&lt;sga-add hand="#pbs" place="superlinear" xml:id="c56-0116.04" sID="c56-0116__main__d5e24250"/&gt; &lt;del rend="strikethrough" xml:id="c56-0116__main__d5e24252"&gt;somehow&lt;/del&gt; could not extinguish my grief. &lt;sga-add eID="c56-0116__main__d5e24250"/&gt;&lt;anchor xml:id="c56-0116.01"/&gt;&lt;sga-add hand="#pbs" place="sublinear" sID="c56-0116__main__d5e24259"/&gt;during &lt;sga-add eID="c56-0116__main__d5e24259"/&gt;The first day we travelled &lt;lb n="c56-0116__main__3"/&gt;in a carriage. In the morning we &lt;lb n="c56-0116__main__4"/&gt;had seen the mountains at a</rdg></rdgGrp></app>
 	
 	<app>
 		<rdgGrp n="['distance', 'to']">
@@ -4472,10 +4474,10 @@
 	</app>
 	<app><rdgGrp n="['on']"><rdg wit="f1818">on </rdg><rdg wit="f1823">on </rdg><rdg wit="fThomas">on </rdg><rdg wit="f1831">on </rdg><rdg wit="fMS">&lt;sga-add eID="c56-0116__main__d5e24291"/&gt;on</rdg></rdgGrp></app>
 	
-	<app><rdgGrp n="['every']"><rdg wit="f1818">every</rdg><rdg wit="f1823">every</rdg><rdg wit="fThomas">every</rdg><rdg wit="f1831">every</rdg></rdgGrp><rdgGrp n="['&lt;delstart/&gt;each&lt;delend/&gt;', 'every']"><rdg wit="fMS">&lt;del rend="strikethrough" xml:id="c56-0116__main__d5e24296"&gt;each&lt;/del&gt; &lt;sga-add hand="#pbs" place="superlinear" sID="c56-0116__main__d5e24299"/&gt;every</rdg></rdgGrp></app>
+	<app><rdgGrp n="['every']"><rdg wit="f1818">every</rdg><rdg wit="f1823">every</rdg><rdg wit="fThomas">every</rdg><rdg wit="f1831">every</rdg></rdgGrp><rdgGrp n="['', '&lt;delstart/&gt;each&lt;delend/&gt;', 'every']"><rdg wit="fMS">&lt;mod sID="c56-0116__main__d5e24294"/&gt; &lt;del rend="strikethrough" xml:id="c56-0116__main__d5e24296"&gt;each&lt;/del&gt; &lt;sga-add hand="#pbs" place="superlinear" sID="c56-0116__main__d5e24299"/&gt;every</rdg></rdgGrp></app>
 	
 	<app>
-		<rdgGrp n="['', '&lt;mod eid=&#34;c56-0116__main__d5e24294&#34;/&gt; side ', '&lt;delstart/&gt;of us&lt;delend/&gt;']">
+		<rdgGrp n="['', 'side ', '&lt;delstart/&gt;of us&lt;delend/&gt;']">
 			<rdg wit="fMS">&lt;longToken&gt;&lt;sga-add eID="c56-0116__main__d5e24299"/&gt; &lt;mod eID="c56-0116__main__d5e24294"/&gt; side &lt;lb n="c56-0116__main__13"/&gt; &lt;del rend="strikethrough" xml:id="c56-0116__main__d5e24305"&gt;of us&lt;/del&gt;&lt;/longToken&gt;</rdg>
 		</rdgGrp>
 		<rdgGrp n="['side', '—the']">
@@ -4510,7 +4512,7 @@
 	
 	<app>
 		<rdgGrp n="['rocks', ',']">
-			<rdg wit="fMS">rocks &lt;sga-add eID="c56-0116__main__d5e24323"/&gt;,</rdg>
+			<rdg wit="fMS">rocks &lt;sga-add eID="c56-0116__main__d5e24323"/&gt;&lt;anchor xml:id="c56-0116.06"/&gt;,</rdg>
 		</rdgGrp>
 		<rdgGrp n="['rocks,']">
 			<rdg wit="f1818">rocks,</rdg>
@@ -4666,11 +4668,11 @@
 			<rdg wit="fMS">Ruined castles</rdg>
 		</rdgGrp>
 	</app>
-	<app><rdgGrp n="['hanging']"><rdg wit="f1818">hanging</rdg><rdg wit="f1823">hanging</rdg><rdg wit="fThomas">hanging</rdg><rdg wit="f1831">hanging</rdg></rdgGrp><rdgGrp n="['', '^', '', '&lt;delstart/&gt;built&lt;delend/&gt;', 'hanging']"><rdg wit="fMS">&lt;mdel&gt;on&lt;/mdel&gt; &lt;sga-add place="sublinear" sID="c56-0116__main__d5e24359"/&gt;^ &lt;sga-add eID="c56-0116__main__d5e24359"/&gt;&lt;sga-add hand="#pbs" place="superlinear" sID="c56-0116__main__d5e24362"/&gt; &lt;del rend="strikethrough" xml:id="c56-0116__main__d5e24366"&gt;built&lt;/del&gt; &lt;sga-add place="superlinear" sID="c56-0116__main__d5e24369"/&gt;hanging</rdg></rdgGrp></app>
+	<app><rdgGrp n="['hanging']"><rdg wit="f1818">hanging</rdg><rdg wit="f1823">hanging</rdg><rdg wit="fThomas">hanging</rdg><rdg wit="f1831">hanging</rdg></rdgGrp><rdgGrp n="['', '&lt;mdel&gt;on&lt;/mdel&gt;', '^', '', '&lt;delstart/&gt;built&lt;delend/&gt;', 'hanging']"><rdg wit="fMS">&lt;mod sID="c56-0116__main__d5e24355"/&gt; &lt;mdel&gt;on&lt;/mdel&gt; &lt;sga-add place="sublinear" sID="c56-0116__main__d5e24359"/&gt;^ &lt;sga-add eID="c56-0116__main__d5e24359"/&gt;&lt;sga-add hand="#pbs" place="superlinear" sID="c56-0116__main__d5e24362"/&gt;&lt;mod sID="c56-0116__main__d5e24364"/&gt; &lt;del rend="strikethrough" xml:id="c56-0116__main__d5e24366"&gt;built&lt;/del&gt; &lt;sga-add place="superlinear" sID="c56-0116__main__d5e24369"/&gt;hanging</rdg></rdgGrp></app>
 	
-	<app><rdgGrp n="['on', 'the', 'precipices', 'of']"><rdg wit="f1818">on the precipices of </rdg><rdg wit="f1823">on the precipices &lt;pb xml:id="F1823_v1_213" n="194"/&gt;of </rdg><rdg wit="fThomas">on the precipices of </rdg><rdg wit="f1831">on the precipices of </rdg><rdg wit="fMS">&lt;sga-add eID="c56-0116__main__d5e24369"/&gt;on the precipices of</rdg></rdgGrp></app>
+	<app><rdgGrp n="['on', 'the', 'precipices', 'of']"><rdg wit="f1818">on the precipices of </rdg><rdg wit="f1823">on the precipices &lt;pb xml:id="F1823_v1_213" n="194"/&gt;of </rdg><rdg wit="fThomas">on the precipices of </rdg><rdg wit="f1831">on the precipices of </rdg><rdg wit="fMS">&lt;sga-add eID="c56-0116__main__d5e24369"/&gt;&lt;mod eID="c56-0116__main__d5e24364"/&gt;on the precipices of</rdg></rdgGrp></app>
 	
-	<app><rdgGrp n="['piny', 'mountains;', 'the', 'impetuous', 'arve,', 'and', 'cottages', 'every', 'here', 'and', 'there', 'peeping']"><rdg wit="f1818">piny mountains; the impetuous Arve, and cottages every here and there peeping </rdg><rdg wit="f1823">piny mountains; the impetuous Arve, and cottages every here and there peeping </rdg><rdg wit="fThomas">piny mountains; the impetuous Arve, and cottages every here and there peeping </rdg><rdg wit="f1831">piny mountains; the impetuous Arve, and cottages every here and there peeping </rdg><rdg wit="fMS">&lt;sga-add eID="c56-0116__main__d5e24362"/&gt;piny mountains; &lt;lb n="c56-0116__main__21"/&gt;the impetuous Arve, and cottages every &lt;lb n="c56-0116__main__22"/&gt;here &amp; there peeping</rdg></rdgGrp></app>
+	<app><rdgGrp n="['piny', 'mountains;', 'the', 'impetuous', 'arve,', 'and', 'cottages', 'every', 'here', 'and', 'there', 'peeping']"><rdg wit="f1818">piny mountains; the impetuous Arve, and cottages every here and there peeping </rdg><rdg wit="f1823">piny mountains; the impetuous Arve, and cottages every here and there peeping </rdg><rdg wit="fThomas">piny mountains; the impetuous Arve, and cottages every here and there peeping </rdg><rdg wit="f1831">piny mountains; the impetuous Arve, and cottages every here and there peeping </rdg><rdg wit="fMS">&lt;sga-add eID="c56-0116__main__d5e24362"/&gt;&lt;mod eID="c56-0116__main__d5e24355"/&gt;piny mountains; &lt;lb n="c56-0116__main__21"/&gt;the impetuous Arve, and cottages every &lt;lb n="c56-0116__main__22"/&gt;here &amp; there peeping</rdg></rdgGrp></app>
 	
 	<app>
 		<rdgGrp n="['forth']">
@@ -4810,8 +4812,8 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['beings', 'soon&lt;delstart/&gt;e&lt;delend/&gt; after we entered the valley of chamounix. this valley is more &lt;delstart/&gt; beautiful', '&lt;anchor xml:id=&#34;c56-0117.02&#34;/&gt;', '&lt;anchor xml:id=&#34;c56-0117.03&#34;/&gt;', '&lt;zone corresp=&#34;#c56-0117.03&#34; type=&#34;left_margin&#34; sid=&#34;c56-0117__left_margin&#34;/&gt;', '', '&lt;delstart/&gt;', 'wondeful ', '&lt;delend/&gt;', '&lt;zone eid=&#34;c56-0117__left_margin&#34;/&gt;', '&lt;anchor xml:id=&#34;c56-0117.06&#34;/&gt; and sublime but not so beau']">
-			<rdg wit="fMS">beings&lt;lb n="c56-0117__main__2"/&gt; &lt;longToken&gt;Soon&lt;del rend="strikethrough" xml:id="c56-0117__main__d5e24419"&gt;e&lt;/del&gt; after we entered the valley of &lt;lb n="c56-0117__main__3"/&gt;Chamounix. This valley is more &lt;delSpan rend="strikethrough" spanTo="#c56-0117.02"/&gt; &lt;w ana="start"/&gt;beauti&lt;lb n="c56-0117__main__4"/&gt;ful&lt;w ana="end"/&gt; &lt;anchor xml:id="c56-0117.02"/&gt; &lt;anchor xml:id="c56-0117.03"/&gt; &lt;zone corresp="#c56-0117.03" type="left_margin" sID="c56-0117__left_margin"/&gt; &lt;lb n="c56-0117__left_margin__1"/&gt; &lt;del rend="strikethrough" xml:id="c56-0117__left_margin__d5e24442"&gt; &lt;sga-add sID="c56-0117__left_margin__d5e24444"/&gt;wondeful &lt;sga-add eID="c56-0117__left_margin__d5e24444"/&gt; &lt;/del&gt; &lt;zone eID="c56-0117__left_margin"/&gt; &lt;anchor xml:id="c56-0117.06"/&gt; and sublime but not so beau&lt;/longToken&gt;</rdg>
+		<rdgGrp n="['beings', 'soon&lt;delstart/&gt;e&lt;delend/&gt; after we entered the valley of chamounix. this valley is morebeautiful', '', '', '&lt;zone corresp=&#34;#c56-0117.03&#34; type=&#34;left_margin&#34; sid=&#34;c56-0117__left_margin&#34;/&gt;', '', '&lt;delstart/&gt;', 'wondeful ', '&lt;delend/&gt;', '&lt;zone eid=&#34;c56-0117__left_margin&#34;/&gt;', 'and sublime but not so beau']">
+			<rdg wit="fMS">beings&lt;delSpan rend="vertical_line" spanTo="#c56-0117.01"/&gt;&lt;lb n="c56-0117__main__2"/&gt; &lt;longToken&gt;Soon&lt;del rend="strikethrough" xml:id="c56-0117__main__d5e24419"&gt;e&lt;/del&gt; after we entered the valley of &lt;lb n="c56-0117__main__3"/&gt;Chamounix. This valley is more &lt;delSpan rend="strikethrough" spanTo="#c56-0117.02"/&gt; &lt;w ana="start"/&gt;beauti&lt;lb n="c56-0117__main__4"/&gt;ful&lt;w ana="end"/&gt; &lt;anchor xml:id="c56-0117.02"/&gt; &lt;anchor xml:id="c56-0117.03"/&gt; &lt;zone corresp="#c56-0117.03" type="left_margin" sID="c56-0117__left_margin"/&gt; &lt;lb n="c56-0117__left_margin__1"/&gt; &lt;del rend="strikethrough" xml:id="c56-0117__left_margin__d5e24442"&gt; &lt;sga-add sID="c56-0117__left_margin__d5e24444"/&gt;wondeful &lt;sga-add eID="c56-0117__left_margin__d5e24444"/&gt; &lt;/del&gt; &lt;zone eID="c56-0117__left_margin"/&gt; &lt;anchor xml:id="c56-0117.06"/&gt; and sublime but not so beau&lt;/longToken&gt;</rdg>
 		</rdgGrp>
 		<rdgGrp n="['beings.', '&lt;p-end/&gt;', '&lt;p-start/&gt;']">
 			<rdg wit="f1818">beings. &lt;p eID="novel1_letter4_chapter8_div4_div9_p12"/&gt; &lt;p sID="novel1_letter4_chapter8_div4_div9_p13"/&gt;</rdg>
@@ -4828,7 +4830,7 @@
 			<rdg wit="f1818">We</rdg>
 			<rdg wit="f1823">We</rdg>
 			<rdg wit="fThomas">We</rdg>
-			<rdg wit="fMS">&lt;lb n="c56-0117__main__5"/&gt;We</rdg>
+			<rdg wit="fMS">&lt;anchor xml:id="c56-0117.01"/&gt;&lt;lb n="c56-0117__main__5"/&gt;We</rdg>
 		</rdgGrp>
 	</app>
 	<app>
@@ -5219,9 +5221,9 @@
 			<rdg wit="fMS">Blanc, the</rdg>
 		</rdgGrp>
 	</app>
-	<app><rdgGrp n="['supreme', 'and', 'magnificent']"><rdg wit="f1818">supreme and magnificent</rdg><rdg wit="f1823">supreme and magnificent</rdg><rdg wit="fThomas">supreme and magnificent</rdg><rdg wit="f1831">supreme and magnificent</rdg></rdgGrp><rdgGrp n="['beautiful', 'supreme', 'and', 'magnificent']"><rdg wit="fMS">&lt;w ana="start"/&gt;beau&lt;lb n="c56-0117__main__22"/&gt;tiful&lt;w ana="end"/&gt;&lt;sga-add hand="#pbs" place="superlinear" sID="c56-0117__main__d5e24512"/&gt; supreme &amp; magnificent</rdg></rdgGrp></app>
+	<app><rdgGrp n="['supreme', 'and', 'magnificent']"><rdg wit="f1818">supreme and magnificent</rdg><rdg wit="f1823">supreme and magnificent</rdg><rdg wit="fThomas">supreme and magnificent</rdg><rdg wit="f1831">supreme and magnificent</rdg></rdgGrp><rdgGrp n="['beautiful', 'supreme', 'and', 'magnificent']"><rdg wit="fMS">&lt;delSpan spanTo="#c56-0117.04"/&gt;&lt;w ana="start"/&gt;beau&lt;lb n="c56-0117__main__22"/&gt;tiful&lt;w ana="end"/&gt;&lt;anchor xml:id="c56-0117.04"/&gt;&lt;sga-add hand="#pbs" place="superlinear" sID="c56-0117__main__d5e24512"/&gt; supreme &amp; magnificent</rdg></rdgGrp></app>
 	
-	<app><rdgGrp n="['mont']"><rdg wit="f1818">Mont </rdg><rdg wit="f1823">Mont </rdg><rdg wit="fThomas">Mont </rdg><rdg wit="f1831">Mont </rdg><rdg wit="fMS">&lt;sga-add eID="c56-0117__main__d5e24512"/&gt;Mont</rdg></rdgGrp></app>
+	<app><rdgGrp n="['mont']"><rdg wit="f1818">Mont </rdg><rdg wit="f1823">Mont </rdg><rdg wit="fThomas">Mont </rdg><rdg wit="f1831">Mont </rdg><rdg wit="fMS">&lt;sga-add eID="c56-0117__main__d5e24512"/&gt;&lt;anchor xml:id="c56-0117.07"/&gt;Mont</rdg></rdgGrp></app>
 	
 	<app>
 		<rdgGrp n="['blanc']">
@@ -5429,8 +5431,8 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['&lt;delstart/&gt;my mule&lt;delend/&gt;', 'the animal', '']">
-			<rdg wit="fMS">&lt;longToken&gt;&lt;del rend="strikethrough" xml:id="c56-0118__main__d5e24563"&gt;my mule&lt;/del&gt; &lt;sga-add place="superlinear" sID="c56-0118__main__d5e24566"/&gt;the animal&lt;/longToken&gt; &lt;sga-add eID="c56-0118__main__d5e24566"/&gt;</rdg>
+		<rdgGrp n="['', '&lt;delstart/&gt;my mule&lt;delend/&gt;', 'the animal', '']">
+			<rdg wit="fMS">&lt;mod sID="c56-0118__main__d5e24561"/&gt; &lt;longToken&gt;&lt;del rend="strikethrough" xml:id="c56-0118__main__d5e24563"&gt;my mule&lt;/del&gt; &lt;sga-add place="superlinear" sID="c56-0118__main__d5e24566"/&gt;the animal&lt;/longToken&gt; &lt;sga-add eID="c56-0118__main__d5e24566"/&gt;&lt;mod eID="c56-0118__main__d5e24561"/&gt;</rdg>
 		</rdgGrp>
 		<rdgGrp n="['my animal,', ' striving so to forget the world, my fears,']">
 			<rdg wit="f1831">&lt;longToken&gt;my animal,&lt;/longToken&gt; &lt;longToken&gt; striving so to forget the world, my fears,&lt;/longToken&gt;</rdg>
@@ -5607,7 +5609,7 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['chamounix. &lt;mod sid=&#34;c56-0118__main__d5e24600&#34;/&gt;', '&lt;delstart/&gt;myrtella&lt;delend/&gt;', '&lt;delstart/&gt;was&lt;delend/&gt;', '', '']">
+		<rdgGrp n="['chamounix. ', '&lt;delstart/&gt;myrtella&lt;delend/&gt;', '&lt;delstart/&gt;was&lt;delend/&gt;', '', '']">
 			<rdg wit="fMS">&lt;longToken&gt;&lt;w ana="start"/&gt;Chamou&lt;lb n="c56-0118__main__10"/&gt;nix&lt;w ana="end"/&gt;. &lt;mod sID="c56-0118__main__d5e24600"/&gt; &lt;del rend="strikethrough" xml:id="c56-0118__main__d5e24602"&gt;Myrtella&lt;/del&gt; &lt;del rend="strikethrough" xml:id="c56-0118__main__d5e24605"&gt;was&lt;/del&gt;&lt;/longToken&gt; &lt;sga-add place="sublinear" sID="c56-0118__main__d5e24608"/&gt; &lt;metamark function="insert"&gt;^&lt;/metamark&gt;</rdg>
 		</rdgGrp>
 		<rdgGrp n="['chamounix.']">
@@ -5621,7 +5623,7 @@
 			<rdg wit="f1818">My father and Elizabeth were very much</rdg>
 			<rdg wit="f1823">My father and Elizabeth were very much</rdg>
 			<rdg wit="fThomas">My father and Elizabeth were very much</rdg>
-			<rdg wit="fMS">&lt;sga-add eID="c56-0118__main__d5e24608"/&gt;&lt;sga-add place="superlinear" sID="c56-0118__main__d5e24614"/&gt;My father &amp; Elizabeth were&lt;sga-add eID="c56-0118__main__d5e24614"/&gt; very much</rdg>
+			<rdg wit="fMS">&lt;sga-add eID="c56-0118__main__d5e24608"/&gt;&lt;sga-add place="superlinear" sID="c56-0118__main__d5e24614"/&gt;My father &amp; Elizabeth were&lt;sga-add eID="c56-0118__main__d5e24614"/&gt;&lt;mod eID="c56-0118__main__d5e24600"/&gt; very much</rdg>
 		</rdgGrp>
 	</app>
 	<app>
@@ -5849,10 +5851,10 @@
 			<rdg wit="fMS">&lt;lb n="c56-0118__main__20"/&gt;watching the</rdg>
 		</rdgGrp>
 	</app>
-	<app><rdgGrp n="['pallid']"><rdg wit="f1818">pallid</rdg><rdg wit="f1823">pallid</rdg><rdg wit="fThomas">pallid</rdg><rdg wit="f1831">pallid</rdg></rdgGrp><rdgGrp n="['', '', 'pallid']"><rdg wit="fMS">&lt;sga-add place="sublinear" sID="c56-0118__main__d5e24651"/&gt; &lt;metamark function="insert"&gt;^&lt;/metamark&gt; &lt;sga-add eID="c56-0118__main__d5e24651"/&gt;&lt;sga-add hand="#pbs" place="superlinear" sID="c56-0118__main__d5e24657"/&gt;pallid</rdg></rdgGrp></app>
+	<app><rdgGrp n="['pallid']"><rdg wit="f1818">pallid</rdg><rdg wit="f1823">pallid</rdg><rdg wit="fThomas">pallid</rdg><rdg wit="f1831">pallid</rdg></rdgGrp><rdgGrp n="['', '', 'pallid']"><rdg wit="fMS">&lt;mod sID="c56-0118__main__d5e24649"/&gt;&lt;sga-add place="sublinear" sID="c56-0118__main__d5e24651"/&gt; &lt;metamark function="insert"&gt;^&lt;/metamark&gt; &lt;sga-add eID="c56-0118__main__d5e24651"/&gt;&lt;sga-add hand="#pbs" place="superlinear" sID="c56-0118__main__d5e24657"/&gt;pallid</rdg></rdgGrp></app>
 	
 	<app>
-		<rdgGrp n="['', '&lt;mod eid=&#34;c56-0118__main__d5e24649&#34;/&gt; lightning']">
+		<rdgGrp n="['', 'lightning']">
 			<rdg wit="fMS">&lt;longToken&gt;&lt;sga-add eID="c56-0118__main__d5e24657"/&gt; &lt;mod eID="c56-0118__main__d5e24649"/&gt; lightning&lt;/longToken&gt;</rdg>
 		</rdgGrp>
 		<rdgGrp n="['lightning']">
@@ -5950,4 +5952,4 @@
 			<rdg wit="f1831">&lt;p eID="novel1_letter4_chapter9_div4_div9_p16"/&gt; &lt;milestone unit="chapter" type="end" n="9"/&gt;</rdg>
 		</rdgGrp>
 	</app>
-</cx:apparatus><!-- 2023-02-10 20:19:06.513087 -->
+</cx:apparatus><!-- 2023-04-11 22:45:57.691899 -->

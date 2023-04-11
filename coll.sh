@@ -47,7 +47,7 @@ procChunk(){
   sleep 2
   # Run Saxon to post-process collations
   echo -e "${Yellow}+-------This starts the xslt post-Processing of the collation chunk $chunk-------+${resetColor}"
-  java -jar xslt/SaxonHE12-0J/saxon-he-12.0.jar -xsl:xslt/postProcessing.xsl -s:$outputDir/collation_$chunk-partway.xml -o:$outputDir/Collation_$chunk-complete.xml
+  java -jar ./xslt/SaxonHE12-0J/saxon-he-12.0.jar -xsl:xslt/postProcessing.xsl -s:$outputDir/collation_$chunk-partway.xml -o:$outputDir/Collation_$chunk-complete.xml
   # Check if simple output file is generated
   if [ ! -f "$outputDir/Collation_$chunk-complete.xml" ]; then
     echo -e "${Red}Oops! Collation_$chunk-complete.xml DOES NOT exist!${resetColor}"
