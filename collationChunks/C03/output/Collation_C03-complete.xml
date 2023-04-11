@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?><cx:apparatus xmlns:cx="http://interedition.eu/collatex/ns/1.0">
 	<app>
 		<rdgGrp n="['', '', 'letter ii.']">
-			<rdg wit="f1818">&lt;milestone unit="letter" type="start" n="2"/&gt; &lt;head&gt;LETTER II.&lt;/head&gt;</rdg>
-			<rdg wit="f1823">&lt;pb xml:id="F1823_v1_029" n="10"/&gt; &lt;milestone unit="letter" type="start" n="2"/&gt; &lt;head&gt;LETTER II.&lt;/head&gt;</rdg>
-			<rdg wit="fThomas">&lt;milestone unit="letter" type="start" n="2"/&gt; &lt;head&gt;LETTER II.&lt;/head&gt;</rdg>
-			<rdg wit="f1831">&lt;milestone unit="letter" type="start" n="2"/&gt; &lt;head&gt;LETTER II.&lt;/head&gt;</rdg>
+			<rdg wit="f1818">&lt;anchor type="collate" xml:id="C03"/&gt; &lt;milestone unit="letter" type="start" n="2"/&gt; &lt;head&gt;LETTER II.&lt;/head&gt;</rdg>
+			<rdg wit="f1823">&lt;anchor type="collate" xml:id="C03"/&gt;&lt;pb xml:id="F1823_v1_029" n="10"/&gt; &lt;milestone unit="letter" type="start" n="2"/&gt; &lt;head&gt;LETTER II.&lt;/head&gt;</rdg>
+			<rdg wit="fThomas">&lt;anchor type="collate" xml:id="C03"/&gt; &lt;milestone unit="letter" type="start" n="2"/&gt; &lt;head&gt;LETTER II.&lt;/head&gt;</rdg>
+			<rdg wit="f1831">&lt;anchor type="collate" xml:id="C03"/&gt; &lt;milestone unit="letter" type="start" n="2"/&gt; &lt;head&gt;LETTER II.&lt;/head&gt;</rdg>
 		</rdgGrp>
 	</app>
 	<app>
@@ -537,7 +537,7 @@
 			<rdg wit="f1823"/>
 			<rdg wit="fThomas"/>
 			<rdg wit="f1831"/>
-			<rdg wit="fMS"/>
+			<rdg wit="fMS">&lt;anchor type="collate" xml:id="C03"/&gt;</rdg>
 		</rdgGrp>
 	</app>
-</cx:apparatus><!-- 2023-01-29 17:06:03.584083 -->
+</cx:apparatus><!-- 2023-04-11 22:15:51.386956 -->

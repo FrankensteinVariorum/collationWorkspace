@@ -2,10 +2,10 @@
 <cx:apparatus xmlns:cx="http://interedition.eu/collatex/ns/1.0">
 	<app>
 		<rdgGrp n="['', '', 'letter ii.']">
-			<rdg wit="f1818"> &lt;milestone unit=&quot;letter&quot; type=&quot;start&quot; n=&quot;2&quot;/&gt; &lt;head&gt;LETTER II.&lt;/head&gt; </rdg>
-			<rdg wit="f1823">&lt;pb xml:id=&quot;F1823_v1_029&quot; n=&quot;10&quot;/&gt; &lt;milestone unit=&quot;letter&quot; type=&quot;start&quot; n=&quot;2&quot;/&gt; &lt;head&gt;LETTER II.&lt;/head&gt; </rdg>
-			<rdg wit="fThomas"> &lt;milestone unit=&quot;letter&quot; type=&quot;start&quot; n=&quot;2&quot;/&gt; &lt;head&gt;LETTER II.&lt;/head&gt; </rdg>
-			<rdg wit="f1831"> &lt;milestone unit=&quot;letter&quot; type=&quot;start&quot; n=&quot;2&quot;/&gt; &lt;head&gt;LETTER II.&lt;/head&gt; </rdg>
+			<rdg wit="f1818">&lt;anchor type=&quot;collate&quot; xml:id=&quot;C03&quot;/&gt; &lt;milestone unit=&quot;letter&quot; type=&quot;start&quot; n=&quot;2&quot;/&gt; &lt;head&gt;LETTER II.&lt;/head&gt; </rdg>
+			<rdg wit="f1823">&lt;anchor type=&quot;collate&quot; xml:id=&quot;C03&quot;/&gt;&lt;pb xml:id=&quot;F1823_v1_029&quot; n=&quot;10&quot;/&gt; &lt;milestone unit=&quot;letter&quot; type=&quot;start&quot; n=&quot;2&quot;/&gt; &lt;head&gt;LETTER II.&lt;/head&gt; </rdg>
+			<rdg wit="fThomas">&lt;anchor type=&quot;collate&quot; xml:id=&quot;C03&quot;/&gt; &lt;milestone unit=&quot;letter&quot; type=&quot;start&quot; n=&quot;2&quot;/&gt; &lt;head&gt;LETTER II.&lt;/head&gt; </rdg>
+			<rdg wit="f1831">&lt;anchor type=&quot;collate&quot; xml:id=&quot;C03&quot;/&gt; &lt;milestone unit=&quot;letter&quot; type=&quot;start&quot; n=&quot;2&quot;/&gt; &lt;head&gt;LETTER II.&lt;/head&gt; </rdg>
 		</rdgGrp>
 	</app>
 	<app>
@@ -615,8 +615,8 @@
 			<rdg wit="f1823"> </rdg>
 			<rdg wit="fThomas"> </rdg>
 			<rdg wit="f1831"> </rdg>
-			<rdg wit="fMS"> </rdg>
+			<rdg wit="fMS">&lt;anchor type=&quot;collate&quot; xml:id=&quot;C03&quot;/&gt; </rdg>
 		</rdgGrp>
 	</app>
 </cx:apparatus>
-<!-- 2023-01-29 17:06:03.584083 -->
+<!-- 2023-04-11 22:15:51.386956 -->
