@@ -314,7 +314,7 @@ def main():
             f1831 = '../collationChunks/' + chunk + '/1831_fullFlat_' + collChunk
             fMS = '../collationChunks/' + chunk + '/msColl_' + collChunk
             tokenLists = tokenizeFiles(f1818, f1823, fThomas, f1831, fMS)
-            # print(tokenLists)
+            print(tokenLists)
                 # 2022-11-14 yxj: For easier doing unit testing,
                 # can we import 4 filenames instead of only 1 into tokenizeFiles()?
 
