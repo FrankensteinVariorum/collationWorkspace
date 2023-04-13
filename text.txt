@@ -1,0 +1,31 @@
+Are you working with ONLY ONE collation chunk? Enter [y/n]: From: To: 
+
+
+Remainder of file ignored
+Traceback (most recent call last):
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\lib\xml\sax\expatreader.py", line 217, in feed
+    self._parser.Parse(data, isFinal)
+xml.parsers.expat.ExpatError: not well-formed (invalid token): line 2, column 1
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Jessie\Documents\Github\fv\collationWorkspace\python-collation\collate.py", line 333, in <module>
+    main()
+  File "C:\Users\Jessie\Documents\Github\fv\collationWorkspace\python-collation\collate.py", line 316, in main
+    tokenLists = tokenizeFiles(f1818, f1823, fThomas, f1831, fMS)
+  File "C:\Users\Jessie\Documents\Github\fv\collationWorkspace\python-collation\collate.py", line 296, in tokenizeFiles
+    f1823_tokenlist = processWitness(tokenize(f1823file), 'f1823')
+  File "C:\Users\Jessie\Documents\Github\fv\collationWorkspace\python-collation\collate.py", line 276, in tokenize
+    return regexLeadingBlankLine.sub('\n', regexBlankLine.sub('\n', extract(inputFile))).split('\n')
+  File "C:\Users\Jessie\Documents\Github\fv\collationWorkspace\python-collation\collate.py", line 132, in extract
+    for event, node in doc:
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\lib\xml\dom\pulldom.py", line 233, in __next__
+    rc = self.getEvent()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\lib\xml\dom\pulldom.py", line 266, in getEvent
+    self.parser.feed(buf)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\lib\xml\sax\expatreader.py", line 221, in feed
+    self._err_handler.fatalError(exc)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\lib\xml\sax\handler.py", line 38, in fatalError
+    raise exception
+xml.sax._exceptions.SAXParseException: <unknown>:2:1: not well-formed (invalid token)
