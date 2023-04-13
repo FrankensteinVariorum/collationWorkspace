@@ -7,15 +7,7 @@
 - [X] Fixing "hair andbenevolent" to "hair and benevolent". 
 - [X] misalightment? 9860 - "cottager"
 - [X] misalignment? 10243
-- [] "and rain" manuscript 
-- [] "up the instrument" put comma in longToken, multiple witnesses 
+- [] "from the snow and rain", force all witnesses to align. 
+- [X] "up the instrument" put comma in longToken, multiple witnesses 
 - [] "the family soon" misalignment - DR. B handfix
 
-
-## Older Notes
-- "branches and then spreading my cloak I"
-- "attempts to supply it, and wrapping" \\ "wrapping" to be put together?
-- "substance that covered the" ground"
-- "convenience of some shepard" shepard vs shepeard
-- Thomas Ver. seems to have changes later on in this chunk.
-- desponcens
