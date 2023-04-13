@@ -547,23 +547,14 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['i']">
-			<rdg wit="f1818">I</rdg>
-			<rdg wit="f1823">I</rdg>
-			<rdg wit="fThomas">I</rdg>
-			<rdg wit="f1831">I</rdg>
+		<rdgGrp n="['i', 'presently']">
+			<rdg wit="f1818">I presently</rdg>
+			<rdg wit="f1823">I presently</rdg>
+			<rdg wit="fThomas">I presently</rdg>
+			<rdg wit="f1831">I presently</rdg>
 		</rdgGrp>
 		<rdgGrp n="['presently', 'i']">
 			<rdg wit="fMS">presently I</rdg>
-		</rdgGrp>
-	</app>
-
-	<app>
-		<rdgGrp n="['presently']">
-			<rdg wit="f1818">presently</rdg>
-			<rdg wit="f1823">presently</rdg>
-			<rdg wit="fThomas">presently</rdg>
-			<rdg wit="f1831">presently</rdg>
 		</rdgGrp>
 	</app>
 	<app>
@@ -6868,6 +6859,9 @@
 				&lt;p sID="novel1_letter4_chapter11_div4_div11_p11"/&gt; “Here then I retreated, and
 				lay</rdg>
 		</rdgGrp>
+		<rdgGrp n="['and', 'rain']">
+			<rdg wit="fMS">&lt;lb n="c57-0009__main__29"/&gt;&amp; rain</rdg>
+		</rdgGrp>
 	</app>
 	<app>
 		<rdgGrp n="['down']">
@@ -6893,25 +6887,16 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['and']">
-			<rdg wit="f1818">and</rdg>
-			<rdg wit="f1823">and</rdg>
-			<rdg wit="fThomas">and</rdg>
-			<rdg wit="f1831">and</rdg>
-			<rdg wit="fMS">&lt;lb n="c57-0009__main__29"/&gt;&amp;</rdg>
-		</rdgGrp>
-	</app>
-	<app>
-		<rdgGrp n="['rain', '', 'chap. 2', '']">
-			<rdg wit="fMS">rain&lt;anchor xml:id="c57-0009.05"/&gt;&lt;lb n="c57-0010__main__1"/&gt;
+		<rdgGrp n="['', 'chap. 2', '']">
+			<rdg wit="fMS">&lt;anchor xml:id="c57-0009.05"/&gt;&lt;lb n="c57-0010__main__1"/&gt;
 				&lt;milestone spanTo="#c57-0010.02" unit="tei:head"/&gt; &lt;longToken&gt;Chap.
 				2&lt;/longToken&gt; &lt;anchor xml:id="c57-0010.02"/&gt;</rdg>
 		</rdgGrp>
-		<rdgGrp n="['still', 'more', 'from', 'the', 'barbarity', 'of', 'man.']">
-			<rdg wit="f1818">still more from the barbarity of man.</rdg>
-			<rdg wit="f1823">still more from the barbarity of man.</rdg>
-			<rdg wit="fThomas">still more from the barbarity of man.</rdg>
-			<rdg wit="f1831">still more from the barbarity of man.</rdg>
+		<rdgGrp n="['and', 'still', 'more', 'from', 'the', 'barbarity', 'of', 'man.']">
+			<rdg wit="f1818">and still more from the barbarity of man.</rdg>
+			<rdg wit="f1823">and still more from the barbarity of man.</rdg>
+			<rdg wit="fThomas">and still more from the barbarity of man.</rdg>
+			<rdg wit="f1831">and still more from the barbarity of man.</rdg>
 		</rdgGrp>
 	</app>
 	<app>
@@ -12217,29 +12202,15 @@
 			n="['i', 'knew', 'nothing', 'of', 'the', 'science', 'of', 'words', 'or', 'letters.']">
 			<rdg wit="f1818">I knew nothing of the science of words or letters. </rdg>
 			<rdg wit="f1823">I knew nothing of the science of words or letters. </rdg>
-			<rdg wit="fThomas">I knew nothing of the science of words or letters. </rdg>
 			<rdg wit="f1831">I knew nothing of the science of words or letters. </rdg>
 			<rdg wit="fMS">&lt;sga-add eID="c57-0015__main__d4e3104"/&gt;I knew nothing of the
 				&lt;lb n="c57-0015__main__15"/&gt;science of words or letters.</rdg>
 		</rdgGrp>
-	</app>
-
-	<app>
 		<rdgGrp
-			n="['&lt;add&gt;i continued however to watch the countenances of the cottagers and the changes i perceived were at once the excitements and the aliments of a boundless curiosity.&lt;/add&gt;']">
-			<rdg wit="fThomas">&lt;add&gt;I continued however to watch the countenances of the
+			n="['i', 'knew', 'nothing', 'of', 'the', 'science', 'of', 'words', 'or', 'letters.', '&lt;add&gt;i continued however to watch the countenances of the cottagers and the changes i perceived were at once the excitements and the aliments of a boundless curiosity.&lt;/add&gt;']">
+			<rdg wit="fThomas">I knew nothing of the science of words or letters. &lt;add&gt;I continued however to watch the countenances of the
 				Cottagers and the changes I perceived were at once the excitements and the aliments
 				of a boundless curiosity.&lt;/add&gt;</rdg>
-		</rdgGrp>
-		<rdgGrp n="['a&lt;mdel/&gt;tthattime &lt;del&gt;.&lt;/del&gt; the family soon']">
-			<rdg wit="fMS">&lt;longToken&gt;&lt;delSpan rend="strikethrough"
-				spanTo="#c57-0015.01"/&gt;a&lt;mod
-				sID="c57-0015__main__d4e3111"/&gt;&lt;mdel/&gt;&lt;sga-add place="intralinear"
-				sID="c57-0015__main__d4e3118"/&gt;t &lt;sga-add
-				eID="c57-0015__main__d4e3118"/&gt;&lt;mod eID="c57-0015__main__d4e3111"/&gt; that
-				&lt;lb n="c57-0015__main__16"/&gt;time &lt;anchor xml:id="c57-0015.01"/&gt;&lt;del
-				rend="unmarked" xml:id="c57-0015__main__d4e3127"&gt;.&lt;/del&gt; The family
-				soon&lt;/longToken&gt;</rdg>
 		</rdgGrp>
 	</app>
 	<app>
@@ -12257,6 +12228,16 @@
 			<rdg wit="f1831">&lt;p eID="novel1_letter4_chapter11_div4_div11_p18"/&gt; &lt;p
 				sID="novel1_letter4_chapter11_div4_div11_p19"/&gt; “The family, after having been
 				thus occupied for a short time,</rdg>
+		</rdgGrp>
+		<rdgGrp n="['a&lt;mdel/&gt;tthattime &lt;del&gt;.&lt;/del&gt; the family soon']">
+			<rdg wit="fMS">&lt;longToken&gt;&lt;delSpan rend="strikethrough"
+				spanTo="#c57-0015.01"/&gt;a&lt;mod
+				sID="c57-0015__main__d4e3111"/&gt;&lt;mdel/&gt;&lt;sga-add place="intralinear"
+				sID="c57-0015__main__d4e3118"/&gt;t &lt;sga-add
+				eID="c57-0015__main__d4e3118"/&gt;&lt;mod eID="c57-0015__main__d4e3111"/&gt; that
+				&lt;lb n="c57-0015__main__16"/&gt;time &lt;anchor xml:id="c57-0015.01"/&gt;&lt;del
+				rend="unmarked" xml:id="c57-0015__main__d4e3127"&gt;.&lt;/del&gt; The family
+				soon&lt;/longToken&gt;</rdg>
 		</rdgGrp>
 	</app>
 	<app>
