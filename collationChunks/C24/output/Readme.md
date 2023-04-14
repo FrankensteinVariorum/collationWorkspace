@@ -3,7 +3,7 @@
 
 # 4-14-2023
 
--[] **Confusion** In the first `<app>`, the Chapter for the MS is listed. Shouldn't it be in the second app? 
+-[X] **Confusion** In the first `<app>`, the Chapter for the MS is listed. Shouldn't it be in the second app? 
 
 ```
 <app>
