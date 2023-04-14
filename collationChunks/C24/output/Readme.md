@@ -157,3 +157,5 @@
 
 - Ending Point: "Laborious Disquisition"
     * This section appears to have a lot of misalignments that prevent me from getting very far at the start. Let's fix these so we can move forward in a timely fashion.
+    
+- Testing to see if my new branch is working properly
