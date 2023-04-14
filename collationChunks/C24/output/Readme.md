@@ -29,7 +29,7 @@
 			<rdg wit="f1831">&lt;head&gt;CHAPTER XVIII.&lt;/head&gt;</rdg>
 		</rdgGrp>
 ```
--[] **Confusion:** For "I was unable to overcome my repugnance", I found a similar phrase in the MS, yet it was not detected by the script. It may have been a deletion, needs evaluation.
+-[X] **Confusion:** For "I was unable to overcome my repugnance", I found a similar phrase in the MS, yet it was not detected by the script. It may have been a deletion, needs evaluation.
 
 ```
 <app>
@@ -46,9 +46,9 @@
 		</rdgGrp>
 ```
 
--[] **Misalignment Detected:** The manuscript's phrase of "I was unable to overcome my repugnance" comes later than every other edition, possibly due to word order in the drafts. The MS disappears at several points (indicating that the MS did not contain certain passages), but there is a lot of overlap where it shouldn't be, more than I can copy and paste.
+-[X] **Misalignment Detected:** The manuscript's phrase of "I was unable to overcome my repugnance" comes later than every other edition, possibly due to word order in the drafts. The MS disappears at several points (indicating that the MS did not contain certain passages), but there is a lot of overlap where it shouldn't be, more than I can copy and paste.
 
--[] **Confusion:** MS has the phrase "alone in a little boat" appear about two apps sooner than when it appears in other editions, yet the passage before it appears well aligned. I'll post the cope snippets, but something isn't right.
+-[X] **Confusion:** MS has the phrase "alone in a little boat" appear about two apps sooner than when it appears in other editions, yet the passage before it appears well aligned. I'll post the cope snippets, but something isn't right.
 
 ```
 <app>
