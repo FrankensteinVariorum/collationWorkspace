@@ -159,3 +159,39 @@
     * This section appears to have a lot of misalignments that prevent me from getting very far at the start. Let's fix these so we can move forward in a timely fashion.
     
 - Testing to see if my new branch is working properly
+
+# 4-18-2023
+
+- [] **MS Snag:** "My Health" may not align properly in the MS compared to other versions
+```
+<app>
+		<rdgGrp n="['my']">
+			<rdg wit="f1818">my</rdg>
+			<rdg wit="f1823">my</rdg>
+			<rdg wit="fThomas">my</rdg>
+			<rdg wit="fMS">&lt;lb n="c57-0074__main__7"/&gt;My</rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['health', '&lt;del&gt;also&lt;/del&gt;']">
+			<rdg wit="fMS">health &lt;del rend="strikethrough"
+				xml:id="c57-0074__main__d4e14518"&gt;also&lt;/del&gt;</rdg>
+		</rdgGrp>
+		<rdgGrp n="['returning', 'tranquillity.']">
+			<rdg wit="f1818">returning tranquillity.</rdg>
+			<rdg wit="f1823">returning tranquillity.</rdg>
+			<rdg wit="fThomas">returning tranquillity.</rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['my', 'health,']">
+			<rdg wit="f1818">My health,</rdg>
+			<rdg wit="f1823">My health,</rdg>
+			<rdg wit="fThomas">My health,</rdg>
+			<rdg wit="f1831">my health,</rdg>
+```
+- [] **Confusion:** "Compose a female" shows up significantly later in the MS while the other passages go on about something else, yet the alignment seems normal. Needs inspection, could be another snag.
+
+-  **Observation:** The MS seems very different, hardly mentioning the topic of marriage and disappearing for several apps. It's as if the entire MS is snagged.
+
+- This branch needs immense detangling. I've actually lost track of where I am because of it.
