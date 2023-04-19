@@ -195,3 +195,9 @@
 -  **Observation:** The MS seems very different, hardly mentioning the topic of marriage and disappearing for several apps. It's as if the entire MS is snagged.
 
 - This branch needs immense detangling. I've actually lost track of where I am because of it.
+
+# 4-19-2023
+
+- [] **Fix Manually:** MS "My Health"
+- [] **Fix Manually:** MS "For some time"
+- **Finishing Point:** "Those Philosophers"
