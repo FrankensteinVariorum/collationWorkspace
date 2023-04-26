@@ -201,3 +201,64 @@
 - [] **Fix Manually:** MS "My Health"
 - [] **Fix Manually:** MS "For some time"
 - **Finishing Point:** "Those Philosophers"
+
+# 4-26-2023
+- Haven't had a lot of time to work on this branch lately, I've had to work on final projects instead.
+- Reran collation for C24. Some changes appear to have been made, but I don't know if any problems were solved.
+- [] **Possible Snag:** 1831 has this passage below spread across several apps, but in the colation, I don't know if it's aligned properly. 
+
+```
+I had an insurmountable aversion to the idea of engaging myself in my loathsome
+            task in my father’s house, while in habits of familiar intercourse with those I loved. I
+            knew that a thousand fearful accidents might occur,
+```
+- [] There is a lot of divergence in 1831 starting in the aforementioned passage, but I don't know if all of it is aligned properly. It could just be that 1831 is written differently.
+- [] **Possible misalignment:** Why is absence in 1831 in the app before all the others? Needs inspection
+```
+<app>
+		<rdgGrp n="['my', 'unearthly', 'occupation.', 'i', 'must', 'absent', 'myself']">
+			<rdg wit="f1831">my unearthly occupation. I must absent myself</rdg>
+		</rdgGrp>
+		<rdgGrp n="['occupation']">
+			<rdg wit="fMS">occupation</rdg>
+		</rdgGrp>
+		<rdgGrp n="['occupation,']">
+			<rdg wit="f1818">occupation,</rdg>
+			<rdg wit="f1823">occupation,</rdg>
+			<rdg wit="fThomas">occupation,</rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['in', 'absence']">
+			<rdg wit="f1818">in absence</rdg>
+			<rdg wit="f1823">in absence</rdg>
+			<rdg wit="fThomas">in absence</rdg>
+			<rdg wit="fMS">in absence</rdg>
+		</rdgGrp>
+	</app>
+```
+- [] **Confusion:** Should this passage be aligned differently for 1831? It doesn't seem right.
+```
+app>
+		<rdgGrp n="['have']">
+			<rdg wit="f1818">have</rdg>
+			<rdg wit="f1823">have</rdg>
+			<rdg wit="fThomas">have</rdg>
+			<rdg wit="fMS">&lt;lb n="c57-0082__main__15"/&gt;have</rdg>
+		</rdgGrp>
+		<rdgGrp n="['would', 'depart', 'for', 'ever.']">
+			<rdg wit="f1831">would depart for ever.</rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['departed']">
+			<rdg wit="fMS">departed</rdg>
+		</rdgGrp>
+		<rdgGrp n="['departed;']">
+			<rdg wit="f1818">departed;</rdg>
+			<rdg wit="f1823">departed;</rdg>
+			<rdg wit="fThomas">departed;</rdg>
+		</rdgGrp>
+	</app>
+```
+- **Morning Finishing point:** "Ending to my slavery forever"
