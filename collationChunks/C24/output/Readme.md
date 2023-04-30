@@ -262,3 +262,108 @@ app>
 	</app>
 ```
 - **Morning Finishing point:** "Ending to my slavery forever"
+
+# 4-30-2023
+- [] **Confusion:** These apps are aligned properly, but should "forever" be one word rather than two, or should I leave it as-is?
+```
+<app>
+		<rdgGrp n="['end', 'to', 'my', 'slavery', 'for']">
+			<rdg wit="f1818">end to my slavery for</rdg>
+			<rdg wit="f1823">end to my slavery for</rdg>
+			<rdg wit="fThomas">end to my slavery for</rdg>
+			<rdg wit="f1831">end to my slavery for</rdg>
+			<rdg wit="fMS">end to my &lt;lb n="c57-0082__main__17"/&gt;slavery for</rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['ever.', '&lt;p-end/&gt;', '&lt;p-start/&gt;', 'these']">
+			<rdg wit="f1818">ever. &lt;p eID="novel1_letter4_chapter17_div4_div19_p9"/&gt; &lt;p
+				sID="novel1_letter4_chapter17_div4_div19_p10"/&gt; These</rdg>
+			<rdg wit="f1823">ever. &lt;p eID="novel1_letter4_chapter17_div4_div18_p9"/&gt; &lt;p
+				sID="novel1_letter4_chapter17_div4_div18_p10"/&gt; These</rdg>
+			<rdg wit="fThomas">ever. &lt;p eID="novel1_letter4_chapter17_div4_div19_p9"/&gt; &lt;p
+				sID="novel1_letter4_chapter17_div4_div19_p10"/&gt; These</rdg>
+			<rdg wit="f1831">ever. &lt;p eID="novel1_letter4_chapter18_div4_div18_p9"/&gt; &lt;p
+				sID="novel1_letter4_chapter18_div4_div18_p10"/&gt; These</rdg>
+		</rdgGrp>
+		<rdgGrp n="['ever—these']">
+			<rdg wit="fMS">ever—These</rdg>
+		</rdgGrp>
+	</app>
+```
+- [] **Possible Misalignment Detected:** 1831 disappears after "guise," and the passages after it are very wordy. I'll post a code sample below, and when it does appear, it has almost nothing in common with the passages it's aligned with
+```
+<app>
+		<rdgGrp n="['of']">
+			<rdg wit="f1818">of</rdg>
+			<rdg wit="f1823">of</rdg>
+			<rdg wit="fThomas">of</rdg>
+			<rdg wit="fMS">of</rdg>
+		</rdgGrp>
+		<rdgGrp
+			n="['which', 'excited', 'no', 'suspicion,', 'while', 'i', 'urged', 'my', 'desire', 'with', 'an', 'earnestness', 'that', 'easily', 'induced', 'my', 'father', 'to', 'comply.', 'after', 'so', 'long', 'a', 'period', 'of']">
+			<rdg wit="f1831">which excited no suspicion, while I urged my desire with an earnestness
+				that easily induced my father to comply. After so long a period of</rdg>
+		</rdgGrp>
+	</app>
+
+	<app>
+		<rdgGrp n="['&lt;del&gt;wh&lt;/del&gt;']">
+			<rdg wit="fMS">&lt;del instant="true" rend="strikethrough"
+				xml:id="c57-0082__main__d4e15296"&gt;wh&lt;/del&gt;</rdg>
+		</rdgGrp>
+		<rdgGrp
+			n="['an', 'absorbing', 'melancholy,', 'that', 'resembled', 'madness', 'in', 'its', 'intensity']">
+			<rdg wit="f1831">an absorbing melancholy, that resembled madness in its intensity</rdg>
+		</rdgGrp>
+	</app>
+```
+- **Confusion:** What's happening here? This is the second time the Manuscript and 1831 garble up like this.
+```
+<app>
+		<rdgGrp n="['', '&lt;del&gt;grant it&lt;/del&gt;']">
+			<rdg wit="fMS">&lt;mod sID="c57-0082__main__d4e15319"/&gt; &lt;del rend="strikethrough"
+				xml:id="c57-0082__main__d4e15321"&gt;grant it&lt;/del&gt;</rdg>
+		</rdgGrp>
+		<rdgGrp
+			n="['myself.', '&lt;p-end/&gt;', '&lt;p-start/&gt;', 'the', 'duration', 'of', 'my', 'absence', 'was', 'left', 'to', 'my', 'own', 'choice;', 'a', 'few', 'months,', 'or', 'at', 'most', 'a', 'year,', 'was', 'the', 'period', 'contemplated.', 'one', 'paternal', 'kind', 'precaution', 'he', 'had', 'taken', 'to', 'ensure', 'my', 'having', 'a', 'companion.', 'without', 'previously', 'communicating', 'with', 'me,', 'he', 'had,']">
+			<rdg wit="f1831">myself. &lt;p eID="novel1_letter4_chapter18_div4_div18_p10"/&gt; &lt;p
+				sID="novel1_letter4_chapter18_div4_div18_p11"/&gt; The duration of my absence was
+				left to my own choice; a few months, or at most a year, was the period contemplated.
+				One paternal kind precaution he had taken to ensure my having a companion. Without
+				previously communicating with me, he had,</rdg>
+		</rdgGrp>
+	</app>
+```
+- **Overall Note:** 1831 is heavily divergent from the rest of the texts. Something should be done about this during Wednesday's meeting.
+- [] **Another MS and 1831 group:** This one could have the MS be misaligned, as Elizabeth is mentioned a few apps prior in all the other scripts, including 1831!
+```
+<app>
+		<rdgGrp
+			n="['an', 'impediment,', 'and', 'truly', 'i', 'rejoiced', 'that', 'thus', 'i', 'should', 'be', 'saved', 'many', 'hours', 'of', 'lonely,', 'maddening', 'reflection.', 'nay,', 'henry', 'might', 'stand', 'between', 'me', 'and', 'the', 'intrusion', 'of', 'my', 'foe.', 'if']">
+			<rdg wit="f1831">an impediment, and truly I rejoiced that thus I should be saved many
+				hours of lonely, maddening reflection. Nay, Henry might stand between me and the
+				intrusion of my foe. If</rdg>
+		</rdgGrp>
+		<rdgGrp n="['united', 'to', 'elizabeth']">
+			<rdg wit="fMS">united to Elizabeth</rdg>
+		</rdgGrp>
+	</app>
+```
+- [] **Confusion:** In the section below, the MS appears as a blank token. In the manuscript, there is a to there, but there is possibly an issue with the file that needs to be resolved so the word can be picked up.
+```
+<app>
+		<rdgGrp n="['', '&lt;del&gt;to me que&lt;/del&gt;']">
+			<rdg wit="fMS">&lt;lb n="c57-0085__main__2"/&gt; &lt;del rend="strikethrough"
+				xml:id="c57-0085__main__d4e15491"&gt;to me que&lt;/del&gt;</rdg>
+		</rdgGrp>
+		<rdgGrp n="['to']">
+			<rdg wit="f1818">to</rdg>
+			<rdg wit="f1823">to</rdg>
+			<rdg wit="fThomas">to</rdg>
+		</rdgGrp>
+	</app>
+```
+
+- **NOTE:** 1831 finally realigns with the other drafts starting with "I now made arrangements." I sense a MASSIVE longToken for 1831 in the future.
+- **Finishing Point:** "Danger of his machinations."
