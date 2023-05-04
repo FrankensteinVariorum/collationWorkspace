@@ -352,3 +352,7 @@ app>
 
 - **NOTE:** 1831 finally realigns with the other drafts starting with "I now made arrangements." I sense a MASSIVE longToken for 1831 in the future.
 - **Finishing Point:** "Danger of his machinations."
+
+# 5-4-2023
+
+- [] **To be fixed:** MS "I passed through" needs to be aligned to all the other witnesses
