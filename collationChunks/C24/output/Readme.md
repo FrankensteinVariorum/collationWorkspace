@@ -93,7 +93,7 @@
 	</app>
 ```
 
--[] **Confusion:** What's going on here?
+-[x] **Confusion:** What's going on here?
 
 ```
 <app>
@@ -118,7 +118,7 @@
 		</rdgGrp>
 	</app>
 ```	
--[] **Confusion:** Are these supposed to be in the same app? the MS has very little in common with everything else.
+-[x] **Confusion:** Are these supposed to be in the same app? the MS has very little in common with everything else.
 
 ```
 <app>
@@ -163,6 +163,8 @@
 # 4-18-2023
 
 - [] **MS Snag:** "My Health" may not align properly in the MS compared to other versions
+** Dr. B to fix this manually: the MS witness has the phrase, "my health ... which had hitherto declined" as a second token AFTEr the long token we placed re composing a female.**
+- [] **Fix Manually:** MS "My Health"
 ```
 <app>
 		<rdgGrp n="['my']">
@@ -190,30 +192,30 @@
 			<rdg wit="fThomas">My health,</rdg>
 			<rdg wit="f1831">my health,</rdg>
 ```
-- [] **Confusion:** "Compose a female" shows up significantly later in the MS while the other passages go on about something else, yet the alignment seems normal. Needs inspection, could be another snag.
+- [x] **Confusion:** "Compose a female" shows up significantly later in the MS while the other passages go on about something else, yet the alignment seems normal. Needs inspection, could be another snag.
 
 -  **Observation:** The MS seems very different, hardly mentioning the topic of marriage and disappearing for several apps. It's as if the entire MS is snagged.
 
-- This branch needs immense detangling. I've actually lost track of where I am because of it.
+- ebb: We repaired with longTokens: the MS was repeating this passage. 
 
 # 4-19-2023
 
-- [] **Fix Manually:** MS "My Health"
-- [] **Fix Manually:** MS "For some time"
-- **Finishing Point:** "Those Philosophers"
+
+- [x] MS "For some time"
+ **Finishing Point:** "Those Philosophers"
 
 # 4-26-2023
 - Haven't had a lot of time to work on this branch lately, I've had to work on final projects instead.
 - Reran collation for C24. Some changes appear to have been made, but I don't know if any problems were solved.
-- [] **Possible Snag:** 1831 has this passage below spread across several apps, but in the colation, I don't know if it's aligned properly. 
+- [x] **Possible Snag:** 1831 has this passage below spread across several apps, but in the colation, I don't know if it's aligned properly. 
 
 ```
 I had an insurmountable aversion to the idea of engaging myself in my loathsome
             task in my father’s house, while in habits of familiar intercourse with those I loved. I
             knew that a thousand fearful accidents might occur,
 ```
-- [] There is a lot of divergence in 1831 starting in the aforementioned passage, but I don't know if all of it is aligned properly. It could just be that 1831 is written differently.
-- [] **Possible misalignment:** Why is absence in 1831 in the app before all the others? Needs inspection
+- [x] There is a lot of divergence in 1831 starting in the aforementioned passage, but I don't know if all of it is aligned properly. It could just be that 1831 is written differently.
+- [x] **Possible misalignment:** Why is absence in 1831 in the app before all the others? Needs inspection
 ```
 <app>
 		<rdgGrp n="['my', 'unearthly', 'occupation.', 'i', 'must', 'absent', 'myself']">
@@ -237,7 +239,7 @@ I had an insurmountable aversion to the idea of engaging myself in my loathsome
 		</rdgGrp>
 	</app>
 ```
-- [] **Confusion:** Should this passage be aligned differently for 1831? It doesn't seem right.
+- [x] **Confusion:** Should this passage be aligned differently for 1831? It doesn't seem right.
 ```
 app>
 		<rdgGrp n="['have']">
@@ -264,7 +266,7 @@ app>
 - **Morning Finishing point:** "Ending to my slavery forever"
 
 # 4-30-2023
-- [] **Confusion:** These apps are aligned properly, but should "forever" be one word rather than two, or should I leave it as-is?
+- [x] **Confusion:** These apps are aligned properly, but should "forever" be one word rather than two, or should I leave it as-is?
 ```
 <app>
 		<rdgGrp n="['end', 'to', 'my', 'slavery', 'for']">
@@ -318,25 +320,8 @@ app>
 		</rdgGrp>
 	</app>
 ```
-- **Confusion:** What's happening here? This is the second time the Manuscript and 1831 garble up like this.
-```
-<app>
-		<rdgGrp n="['', '&lt;del&gt;grant it&lt;/del&gt;']">
-			<rdg wit="fMS">&lt;mod sID="c57-0082__main__d4e15319"/&gt; &lt;del rend="strikethrough"
-				xml:id="c57-0082__main__d4e15321"&gt;grant it&lt;/del&gt;</rdg>
-		</rdgGrp>
-		<rdgGrp
-			n="['myself.', '&lt;p-end/&gt;', '&lt;p-start/&gt;', 'the', 'duration', 'of', 'my', 'absence', 'was', 'left', 'to', 'my', 'own', 'choice;', 'a', 'few', 'months,', 'or', 'at', 'most', 'a', 'year,', 'was', 'the', 'period', 'contemplated.', 'one', 'paternal', 'kind', 'precaution', 'he', 'had', 'taken', 'to', 'ensure', 'my', 'having', 'a', 'companion.', 'without', 'previously', 'communicating', 'with', 'me,', 'he', 'had,']">
-			<rdg wit="f1831">myself. &lt;p eID="novel1_letter4_chapter18_div4_div18_p10"/&gt; &lt;p
-				sID="novel1_letter4_chapter18_div4_div18_p11"/&gt; The duration of my absence was
-				left to my own choice; a few months, or at most a year, was the period contemplated.
-				One paternal kind precaution he had taken to ensure my having a companion. Without
-				previously communicating with me, he had,</rdg>
-		</rdgGrp>
-	</app>
-```
-- **Overall Note:** 1831 is heavily divergent from the rest of the texts. Something should be done about this during Wednesday's meeting.
-- [] **Another MS and 1831 group:** This one could have the MS be misaligned, as Elizabeth is mentioned a few apps prior in all the other scripts, including 1831!
+
+- [x] **Another MS and 1831 group:** This one could have the MS be misaligned, as Elizabeth is mentioned a few apps prior in all the other scripts, including 1831!
 ```
 <app>
 		<rdgGrp
@@ -350,7 +335,7 @@ app>
 		</rdgGrp>
 	</app>
 ```
-- [] **Confusion:** In the section below, the MS appears as a blank token. In the manuscript, there is a to there, but there is possibly an issue with the file that needs to be resolved so the word can be picked up.
+- [x] **Confusion:** In the section below, the MS appears as a blank token. In the manuscript, there is a to there, but there is possibly an issue with the file that needs to be resolved so the word can be picked up.
 ```
 <app>
 		<rdgGrp n="['', '&lt;del&gt;to me que&lt;/del&gt;']">
