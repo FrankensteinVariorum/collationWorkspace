@@ -52,6 +52,13 @@ RE_NOTE_END = re.compile(r'</note>')
 RE_DELSTART = re.compile(r'<del.*?>')
 RE_DELEND = re.compile(r'</del>')
 RE_DELSPAN = re.compile(r'<delSpan.+?/>')
+
+# 2023-05-17 ebb and nlh: We should make a <delSpan spanTo="id"/> as a start marker and a <delSpan anchor="id"/> in the
+# pre-process msColl for collation. Then NORMALIZE to <del>....</del> as a fundamental longToken.
+# SO: Change the RE_DELSPAN to be this;
+# RE_DELSPAN_START = re.compile(r'<delSpan\s+spanTo.+?/>')
+# RE_DELSPAN_END = re.compile(r'<delSpan\s+anchor.+?/>')
+
 RE_ANCHOR = re.compile(r'<anchor.+?/>')
 RE_SGA_ADDSTART = re.compile(r'<sga-add[^<>]+?sID[^<>]+?/>')
 RE_SGA_ADDEND = re.compile(r'<sga-add[^<>]+?eID[^<>]+?/>')
@@ -219,6 +226,19 @@ def normalize(inputText):
     normalized = RE_PB.sub('', normalized)
     # 2023-03-15 ebb: freshly outputting delSpan and anchor from S-GA, need to normalize
     normalized = RE_DELSPAN.sub('', normalized)
+    # 2023-05-17 ebb with nlh: Noting that delSpan needs a way to be expressed
+    # in the output normalized tokens for the new interface
+    # We are outputting the delSpan and anchor information in the normalized tokens, because
+    # a delSpan always points to an associated anchor element for its completion point in the manuscript.
+
+    # Here's what we change in the pre-processing:
+    # <delSpan/>....<anchor/> becomes <delSpan spanTo="idInfo"/>....<delSpan anchor="idInfo"/>
+    # RE_DELSPAN_START = re.compile(r'<delSpan\s+spanTo.+?/>
+    # RE_DELSPAN_END = re.compile(r'<delSpan\s+anchor.+?/>
+    # normalized = RE_DELSPAN_START.sub('<del>', normalized)
+    # normalized = RE_DELSPAN_END.sub('</del>', normalized)
+
+
     normalized = RE_ANCHOR.sub('', normalized)
     normalized = RE_LT_AMP.sub('and', normalized)
     normalized = RE_AMP.sub('and', normalized)
