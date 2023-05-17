@@ -233,8 +233,10 @@ def normalize(inputText):
 
     # Here's what we change in the pre-processing:
     # <delSpan/>....<anchor/> becomes <delSpan spanTo="idInfo"/>....<delSpan anchor="idInfo"/>
+    # PATTERNS:
     # RE_DELSPAN_START = re.compile(r'<delSpan\s+spanTo.+?/>
     # RE_DELSPAN_END = re.compile(r'<delSpan\s+anchor.+?/>
+    # INTERPRETATION:
     # normalized = RE_DELSPAN_START.sub('<del>', normalized)
     # normalized = RE_DELSPAN_END.sub('</del>', normalized)
 
