@@ -14,6 +14,8 @@ import re
 import glob
 from datetime import datetime, date
 import sys
+import os
+from saxonche import PySaxonProcessor
 
 now = datetime.utcnow()
 nowStr = str(now)
@@ -51,7 +53,15 @@ RE_NOTE_START = re.compile(r'<note.*?>')
 RE_NOTE_END = re.compile(r'</note>')
 RE_DELSTART = re.compile(r'<del.*?>')
 RE_DELEND = re.compile(r'</del>')
-RE_DELSPAN = re.compile(r'<delSpan.+?/>')
+# 2023-05-17 ebb with nlh: We have altered the delSpans thus:
+# <delSpan spanTo="id"/> as a start marker and a <delSpan anchor="id"/> in the pre-processed msColl for collation.
+# Before the endpoints were <anchor> elements with only xml:ids,
+# indistinguishable from the many other anchor elements in the msColl files.
+# We want to make it possible for these to be seen in the normalized tokens used in the output collation.
+# so they can be displayed as deleted passages in the variant panels.
+RE_DELSPAN_START = re.compile(r'<delSpan[^<>]+?spanTo[^<>]+?/>')
+RE_DELSPAN_END = re.compile(r'<delSpan[^<>]+?anchor[^<>]+?/>')
+
 RE_ANCHOR = re.compile(r'<anchor.+?/>')
 RE_SGA_ADDSTART = re.compile(r'<sga-add[^<>]+?sID[^<>]+?/>')
 RE_SGA_ADDEND = re.compile(r'<sga-add[^<>]+?eID[^<>]+?/>')
@@ -106,8 +116,7 @@ RE_DOTDASH = re.compile(r'\.–')
 # 2017-05-30 ebb: collated but the tags are not). Decision to make the comments into self-closing elements with text
 # 2017-05-30 ebb: contents as attribute values, and content such as tags simplified to be legal attribute values.
 # 2017-05-22 ebb: I've set anchor elements with @xml:ids to be the indicators of collation "chunks" to process together
-ignore = ['sourceDoc', 'xml', 'comment', 'include', 'addSpan', 'handShift', 'damage',
-          'restore', 'zone', 'surface', 'graphic', 'unclear', 'retrace']
+ignore = ['sourceDoc', 'xml', 'comment', 'include', 'addSpan', 'handShift', 'damage', 'unclear', 'restore', 'surface', 'zone', 'retrace']
 blockEmpty = ['p', 'div', 'milestone', 'lg', 'l', 'cit', 'quote', 'bibl']
 inlineEmpty = ['mod', 'pb', 'sga-add', 'delSpan', 'anchor', 'lb', 'gap', 'hi', 'w', 'ab']
 inlineContent = ['del-INNER', 'add-INNER', 'metamark', 'shi']
@@ -137,6 +146,8 @@ def extract(input_xml):
         # if event == pulldom.COMMENT:
         #     doc.expandNode(node)
         #     output += node.toxml()
+        # ebb: The following handles our longToken and longToken-style elements:
+        # complete element nodes surrounded by newline characters to make a long complete token:
         if event == pulldom.START_ELEMENT and node.localName in inlineVariationEvent:
             doc.expandNode(node)
             # 2022-10-25 ebb: The line above may be sending the characters inside the node to be processed twice,
@@ -217,8 +228,11 @@ def normalize(inputText):
     normalized = RE_sgaPEND.sub('<p-end/>', normalized)
     normalized = RE_MILESTONE.sub('', normalized)
     normalized = RE_PB.sub('', normalized)
-    # 2023-03-15 ebb: freshly outputting delSpan and anchor from S-GA, need to normalize
-    normalized = RE_DELSPAN.sub('', normalized)
+    # 2023-05-17 ebb with nlh: Noting that delSpan needs a way to be expressed
+    # in the output normalized tokens for the new interface.
+    # Freshly altered delSpan and anchor in msColl files to delspan...delspan, normalizing in next two lines:
+    normalized = RE_DELSPAN_START.sub('<del>', normalized)
+    normalized = RE_DELSPAN_END.sub('</del>', normalized)
     normalized = RE_ANCHOR.sub('', normalized)
     normalized = RE_LT_AMP.sub('and', normalized)
     normalized = RE_AMP.sub('and', normalized)
@@ -275,16 +289,6 @@ def processWitness(inputWitness, id):
 def tokenize(inputFile):
     return regexLeadingBlankLine.sub('\n', regexBlankLine.sub('\n', extract(inputFile))).split('\n')
 
-
-# 2022-06-21 ebb and yxj: We think this function is what we need to modify:
-# the making of tokens is problematic because it is fusing text nodes with element tags.
-# Let's experiment with breaking tokens apart in other ways, maybe adding a step AFTER splitting on newlines
-# to find `<.+?>` and split before and after it somehow to make sure markup is in its own token.
-
-# 2022-07-03 yxj: modify extract function:
-# declare a list inlineAdd for <add>
-# add  '\n' before <add> nodes in extract function
-
 def tokenizeFiles(f1818, f1823, fThomas, f1831, fMS):
     with open(f1818, 'rb') as f1818file, \
             open(f1823, 'rb') as f1823file, \
@@ -297,32 +301,33 @@ def tokenizeFiles(f1818, f1823, fThomas, f1831, fMS):
         f1831_tokenlist = processWitness(tokenize(f1831file), 'f1831')
         fMS_tokenlist = processWitness(tokenize(fMSfile), 'fMS')
         return [f1818_tokenlist, f1823_tokenlist, fThomas_tokenlist, f1831_tokenlist, fMS_tokenlist]
-
-
 def main():
     chunk = sys.argv[1]
-    # chunk = 'C01'
-    for f1818 in glob.glob('../collationChunks/' + chunk + '/1818_fullFlat_*'):
+    # chunk = 'C21'
+    for f1818 in glob.glob('../collationChunks/' + chunk + '/input/1818_fullFlat_*'):
         try:
             collChunk = f1818.split("fullFlat_", 1)[1]
                 # ebb: above gets C30.xml for example
                 # matchStr = matchString.split(".", 1)[0]
                 # ebb: above strips off the file extension
 
-            f1823 = '../collationChunks/' + chunk + '/1823_fullFlat_' + collChunk
-            fThomas = '../collationChunks/' + chunk + '/Thomas_fullFlat_' + collChunk
-            f1831 = '../collationChunks/' + chunk + '/1831_fullFlat_' + collChunk
-            fMS = '../collationChunks/' + chunk + '/msColl_' + collChunk
+            f1823 = '../collationChunks/' + chunk + '/input/1823_fullFlat_' + collChunk
+            fThomas = '../collationChunks/' + chunk + '/input/Thomas_fullFlat_' + collChunk
+            f1831 = '../collationChunks/' + chunk + '/input/1831_fullFlat_' + collChunk
+            fMS = '../collationChunks/' + chunk + '/input/msColl_' + collChunk
+            # 2023-05-17 ebb: **Before we begin the tokenizing**, run a XSLT pre-processing pass:
+            # Revise delSpan anchor elements and remove newlines from inlineVariationEvent elements so these hold together as long tokens:
+
             tokenLists = tokenizeFiles(f1818, f1823, fThomas, f1831, fMS)
             print(tokenLists)
-                # 2022-11-14 yxj: For easier doing unit testing,
-                # can we import 4 filenames instead of only 1 into tokenizeFiles()?
+            # 2022-11-14 yxj: For easier doing unit testing,
+            # can we import 4 filenames instead of only 1 into tokenizeFiles()?
 
             collation_input = {"witnesses": tokenLists}
             outputFile = open('../collationChunks/' + chunk + '/output/Collation_' + chunk + '-partway.xml', 'w', encoding='utf-8')
                 
-                # table = collate(collation_input, output='tei', segmentation=True)
-                # table = collate(collation_input, segmentation=True, layout='vertical')
+            # table = collate(collation_input, output='tei', segmentation=True)
+            # table = collate(collation_input, segmentation=True, layout='vertical')
             table = collate(collation_input, output='xml', segmentation=True)
             print(table + '<!-- ' + nowStr + ' -->', file=outputFile)
             # print(table + '<!-- ' + nowStr + ' -->')
