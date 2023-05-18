@@ -289,30 +289,6 @@ def processWitness(inputWitness, id):
 def tokenize(inputFile):
     return regexLeadingBlankLine.sub('\n', regexBlankLine.sub('\n', extract(inputFile))).split('\n')
 
-# 2023-03-18 ebb: XSLT transforms aren't working here. Try batch processing collection based on chunk number in the shell script.
-# def preXSLT(file, chunk):
-#     print("preXSLT: ", f"{file=}")
-#     print("preXSLT: ", f"{chunk=}")
-#     outputPath = file.name.split(chunk, 1)[0] + chunk + '/'
-#     print("preXSLT: ", f"{outputPath=}")
-#
-#     with PySaxonProcessor(license=False) as proc:
-#         xsltproc = proc.new_xslt30_processor()
-#         output = xsltproc.transform_to_file(source_file=file, stylesheet_file="../xslt/preProcessing.xsl", output_file=outputPath)
-#   return output
-# def tokenizeFiles(f1818, f1823, fThomas, f1831, fMS, chunk):
-#     with open(f1818, 'rb') as f1818file, \
-#             open(f1823, 'rb') as f1823file, \
-#             open(fThomas, 'rb') as fThomasfile, \
-#             open(f1831, 'rb') as f1831file, \
-#             open(fMS, 'rb') as fMSfile:
-#         f1818_tokenlist = processWitness(tokenize(preXSLT(f1818file, chunk)), 'f1818')
-#         fThomas_tokenlist = processWitness(tokenize(preXSLT(fThomasfile, chunk)), 'fThomas')
-#         f1823_tokenlist = processWitness(tokenize(preXSLT(f1823file, chunk)), 'f1823')
-#         f1831_tokenlist = processWitness(tokenize(preXSLT(f1831file, chunk)), 'f1831')
-#         fMS_tokenlist = processWitness(tokenize(preXSLT(fMSfile, chunk)), 'fMS')
-#         return [f1818_tokenlist, f1823_tokenlist, fThomas_tokenlist, f1831_tokenlist, fMS_tokenlist]
-
 def tokenizeFiles(f1818, f1823, fThomas, f1831, fMS):
     with open(f1818, 'rb') as f1818file, \
             open(f1823, 'rb') as f1823file, \
