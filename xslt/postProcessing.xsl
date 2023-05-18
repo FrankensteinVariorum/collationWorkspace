@@ -9,6 +9,8 @@
              POST-PROCESSING XSLT FOR THE FRANKENSTEIN VARIORUM: STAGE 1 
        This stylesheet corrects common alignment problems in the output of the Python collation script. 
        ebb began work on this in Fall of 2021 with wdjacca and amoebabyte and continued with yxj in 2022.
+       
+       2023-05-18 ebb and nlh: We are adding a Schematron processing instruction to the output collation.
     
     2023-01-01 ebb: Here is a  high-level summary of our post-processing algorithm:
     We are post-processing 
@@ -64,6 +66,26 @@
         <xsl:param name="text" as="item()?"/> 
         <xsl:value-of select="$text ! replace(.,'&amp;amp;','&amp;') ! replace(.,'&amp;quot;', '&#34;') ! replace(.,'andquot;', '&#34;')"/>
     </xsl:function>
+    
+    
+    <!-- ********************************************************************************************
+        ADDING A SCHEMATRON "FLASHLIGHT" TO LOOK FOR TROUBLE
+        
+        The following template will add a processing instruction to the document node of the output collation.
+        
+        
+     ********************************************************************************************* -->
+    
+    <xsl:template match="/">
+        <!-- <?xml-model href="../../lookingForTrouble.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?> -->
+        <xsl:processing-instruction name="xml-model">href="../../lookingForTrouble.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"</xsl:processing-instruction>
+        
+        <xsl:apply-templates/>
+        
+    </xsl:template>
+
+    
+    
 
     <!-- ********************************************************************************************
         ORPHAN / LONER RDGS: These templates deal with collateX output of app elements 
