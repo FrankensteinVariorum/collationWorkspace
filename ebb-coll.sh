@@ -26,11 +26,18 @@ procChunk(){
     chunk="0$chunk"
   fi
   chunk="C$chunk"
+  preprocDir="collationChunks/$chunk"
+  inputDir="$preprocDir/input"
   outputDir="collationChunks/$chunk/output"
+  # ebb: batch pre-processing with XSLT here:
+  echo -e "${Yellow}+-------This starts the XSLT batch pre-processing of the collation chunk $chunk-------+${resetColor}"
+  mkdir $inputDir
+  java -jar xslt/SaxonHE12-0J/saxon-he-12.0.jar -xsl:xslt/preProcessing.xsl -s:$preprocDir -o:$inputDir
+  sleep 2
   # Run collate.py
   echo -e "${Yellow}+-------This starts the Python processing of the collation chunk $chunk-------+${resetColor}"
   cd python-collation
-  # ebb: Diagnostic: let's see what verson of python and python3 the shell script is aware of:
+  # ebb: Diagnostic: let's see what version of python and python3 the shell script is aware of:
   echo "The Python3 version is " 
   python3 --version
   echo "The Python version is " 
