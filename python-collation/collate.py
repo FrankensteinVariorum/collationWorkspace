@@ -14,6 +14,7 @@ import re
 import glob
 from datetime import datetime, date
 import sys
+from saxonche import PySaxonProcessor
 
 now = datetime.utcnow()
 nowStr = str(now)
@@ -227,21 +228,11 @@ def normalize(inputText):
     normalized = RE_sgaPEND.sub('<p-end/>', normalized)
     normalized = RE_MILESTONE.sub('', normalized)
     normalized = RE_PB.sub('', normalized)
-    # 2023-03-15 ebb: freshly outputting delSpan and anchor from S-GA, need to normalize
-    normalized = RE_DELSPAN.sub('', normalized)
     # 2023-05-17 ebb with nlh: Noting that delSpan needs a way to be expressed
-    # in the output normalized tokens for the new interface
-    # We are outputting the delSpan and anchor information in the normalized tokens, because
-    # a delSpan always points to an associated anchor element for its completion point in the manuscript.
-
-    # Here's what we change in the pre-processing:
-    # <delSpan/>....<anchor/> becomes <delSpan spanTo="idInfo"/>....<delSpan anchor="idInfo"/>
-    # RE_DELSPAN_START = re.compile(r'<delSpan\s+spanTo.+?/>
-    # RE_DELSPAN_END = re.compile(r'<delSpan\s+anchor.+?/>
-    # normalized = RE_DELSPAN_START.sub('<del>', normalized)
-    # normalized = RE_DELSPAN_END.sub('</del>', normalized)
-
-
+    # in the output normalized tokens for the new interface.
+    # Freshly altered delSpan and anchor in msColl files to delspan...delspan, normalizing in next two lines:
+    normalized = RE_DELSPAN_START.sub('<del>', normalized)
+    normalized = RE_DELSPAN_END.sub('</del>', normalized)
     normalized = RE_ANCHOR.sub('', normalized)
     normalized = RE_LT_AMP.sub('and', normalized)
     normalized = RE_AMP.sub('and', normalized)
@@ -298,16 +289,6 @@ def processWitness(inputWitness, id):
 def tokenize(inputFile):
     return regexLeadingBlankLine.sub('\n', regexBlankLine.sub('\n', extract(inputFile))).split('\n')
 
-
-# 2022-06-21 ebb and yxj: We think this function is what we need to modify:
-# the making of tokens is problematic because it is fusing text nodes with element tags.
-# Let's experiment with breaking tokens apart in other ways, maybe adding a step AFTER splitting on newlines
-# to find `<.+?>` and split before and after it somehow to make sure markup is in its own token.
-
-# 2022-07-03 yxj: modify extract function:
-# declare a list inlineAdd for <add>
-# add  '\n' before <add> nodes in extract function
-
 def tokenizeFiles(f1818, f1823, fThomas, f1831, fMS):
     with open(f1818, 'rb') as f1818file, \
             open(f1823, 'rb') as f1823file, \
@@ -320,7 +301,13 @@ def tokenizeFiles(f1818, f1823, fThomas, f1831, fMS):
         f1831_tokenlist = processWitness(tokenize(f1831file), 'f1831')
         fMS_tokenlist = processWitness(tokenize(fMSfile), 'fMS')
         return [f1818_tokenlist, f1823_tokenlist, fThomas_tokenlist, f1831_tokenlist, fMS_tokenlist]
-
+def preXSLT(file, chunk):
+    print("preXSLT: ", f"{file=}")
+    print("preXSLT: ", f"{chunk=}")
+    with PySaxonProcessor(license=False) as proc:
+        xsltproc = proc.new_xslt30_processor()
+        output = xsltproc.transform_to_file(source_file=file, stylesheet_file="../xslt/preProcessing.xsl", output_file=file)
+        return output
 
 def main():
     chunk = sys.argv[1]
@@ -337,22 +324,32 @@ def main():
             f1831 = '../collationChunks/' + chunk + '/1831_fullFlat_' + collChunk
             fMS = '../collationChunks/' + chunk + '/msColl_' + collChunk
             # 2023-05-17 ebb: **Before we begin the tokenizing**, run a XSLT pre-processing pass:
-            # Remove newlines from inlineVariationEvent elements so these hold together as long tokens:
+            # Revise delSpan anchor elements and remove newlines from inlineVariationEvent elements so these hold together as long tokens:
+            with open(f1818, 'w') as f1818file, \
+                    open(f1823, 'w') as f1823file, \
+                    open(fThomas, 'w') as fThomasfile, \
+                    open(f1831, 'w') as f1831file, \
+                    open(fMS, 'w') as fMSfile:
+                f1818 = preXSLT(f1818file, chunk)
+                f1823 = preXSLT(f1823file, chunk)
+                fThomas = preXSLT(fThomasfile, chunk)
+                f1831 = preXSLT(f1831file, chunk)
+                fMS = preXSLT(fMSfile, chunk)
 
-            tokenLists = tokenizeFiles(f1818, f1823, fThomas, f1831, fMS)
-            print(tokenLists)
+                tokenLists = tokenizeFiles(f1818, f1823, fThomas, f1831, fMS)
+                print(tokenLists)
                 # 2022-11-14 yxj: For easier doing unit testing,
                 # can we import 4 filenames instead of only 1 into tokenizeFiles()?
 
-            collation_input = {"witnesses": tokenLists}
-            outputFile = open('../collationChunks/' + chunk + '/output/Collation_' + chunk + '-partway.xml', 'w', encoding='utf-8')
+                collation_input = {"witnesses": tokenLists}
+                outputFile = open('../collationChunks/' + chunk + '/output/Collation_' + chunk + '-partway.xml', 'w', encoding='utf-8')
                 
                 # table = collate(collation_input, output='tei', segmentation=True)
                 # table = collate(collation_input, segmentation=True, layout='vertical')
-            table = collate(collation_input, output='xml', segmentation=True)
-            print(table + '<!-- ' + nowStr + ' -->', file=outputFile)
-            # print(table + '<!-- ' + nowStr + ' -->')
-            outputFile.close()
+                table = collate(collation_input, output='xml', segmentation=True)
+                print(table + '<!-- ' + nowStr + ' -->', file=outputFile)
+                # print(table + '<!-- ' + nowStr + ' -->')
+                outputFile.close()
 
         except IOError:
             pass
