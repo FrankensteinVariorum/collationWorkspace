@@ -14,6 +14,7 @@ import re
 import glob
 from datetime import datetime, date
 import sys
+import os
 from saxonche import PySaxonProcessor
 
 now = datetime.utcnow()
@@ -58,7 +59,7 @@ RE_DELEND = re.compile(r'</del>')
 # indistinguishable from the many other anchor elements in the msColl files.
 # We want to make it possible for these to be seen in the normalized tokens used in the output collation.
 # so they can be displayed as deleted passages in the variant panels.
-RE_DELSPAN_START = re.compile(r'<delSpan[^<>]+?spanto[^<>]+?/>')
+RE_DELSPAN_START = re.compile(r'<delSpan[^<>]+?spanTo[^<>]+?/>')
 RE_DELSPAN_END = re.compile(r'<delSpan[^<>]+?anchor[^<>]+?/>')
 
 RE_ANCHOR = re.compile(r'<anchor.+?/>')
@@ -289,6 +290,30 @@ def processWitness(inputWitness, id):
 def tokenize(inputFile):
     return regexLeadingBlankLine.sub('\n', regexBlankLine.sub('\n', extract(inputFile))).split('\n')
 
+# 2023-03-18 ebb: XSLT transforms aren't working here. Try batch processing collection based on chunk number in the shell script.
+# def preXSLT(file, chunk):
+#     print("preXSLT: ", f"{file=}")
+#     print("preXSLT: ", f"{chunk=}")
+#     outputPath = file.name.split(chunk, 1)[0] + chunk + '/'
+#     print("preXSLT: ", f"{outputPath=}")
+#
+#     with PySaxonProcessor(license=False) as proc:
+#         xsltproc = proc.new_xslt30_processor()
+#         output = xsltproc.transform_to_file(source_file=file, stylesheet_file="../xslt/preProcessing.xsl", output_file=outputPath)
+#   return output
+# def tokenizeFiles(f1818, f1823, fThomas, f1831, fMS, chunk):
+#     with open(f1818, 'rb') as f1818file, \
+#             open(f1823, 'rb') as f1823file, \
+#             open(fThomas, 'rb') as fThomasfile, \
+#             open(f1831, 'rb') as f1831file, \
+#             open(fMS, 'rb') as fMSfile:
+#         f1818_tokenlist = processWitness(tokenize(preXSLT(f1818file, chunk)), 'f1818')
+#         fThomas_tokenlist = processWitness(tokenize(preXSLT(fThomasfile, chunk)), 'fThomas')
+#         f1823_tokenlist = processWitness(tokenize(preXSLT(f1823file, chunk)), 'f1823')
+#         f1831_tokenlist = processWitness(tokenize(preXSLT(f1831file, chunk)), 'f1831')
+#         fMS_tokenlist = processWitness(tokenize(preXSLT(fMSfile, chunk)), 'fMS')
+#         return [f1818_tokenlist, f1823_tokenlist, fThomas_tokenlist, f1831_tokenlist, fMS_tokenlist]
+
 def tokenizeFiles(f1818, f1823, fThomas, f1831, fMS):
     with open(f1818, 'rb') as f1818file, \
             open(f1823, 'rb') as f1823file, \
@@ -301,55 +326,37 @@ def tokenizeFiles(f1818, f1823, fThomas, f1831, fMS):
         f1831_tokenlist = processWitness(tokenize(f1831file), 'f1831')
         fMS_tokenlist = processWitness(tokenize(fMSfile), 'fMS')
         return [f1818_tokenlist, f1823_tokenlist, fThomas_tokenlist, f1831_tokenlist, fMS_tokenlist]
-def preXSLT(file, chunk):
-    print("preXSLT: ", f"{file=}")
-    print("preXSLT: ", f"{chunk=}")
-    with PySaxonProcessor(license=False) as proc:
-        xsltproc = proc.new_xslt30_processor()
-        output = xsltproc.transform_to_file(source_file=file, stylesheet_file="../xslt/preProcessing.xsl", output_file=file)
-        return output
-
 def main():
     chunk = sys.argv[1]
-    # chunk = 'C01'
-    for f1818 in glob.glob('../collationChunks/' + chunk + '/1818_fullFlat_*'):
+    # chunk = 'C21'
+    for f1818 in glob.glob('../collationChunks/' + chunk + '/input/1818_fullFlat_*'):
         try:
             collChunk = f1818.split("fullFlat_", 1)[1]
                 # ebb: above gets C30.xml for example
                 # matchStr = matchString.split(".", 1)[0]
                 # ebb: above strips off the file extension
 
-            f1823 = '../collationChunks/' + chunk + '/1823_fullFlat_' + collChunk
-            fThomas = '../collationChunks/' + chunk + '/Thomas_fullFlat_' + collChunk
-            f1831 = '../collationChunks/' + chunk + '/1831_fullFlat_' + collChunk
-            fMS = '../collationChunks/' + chunk + '/msColl_' + collChunk
+            f1823 = '../collationChunks/' + chunk + '/input/1823_fullFlat_' + collChunk
+            fThomas = '../collationChunks/' + chunk + '/input/Thomas_fullFlat_' + collChunk
+            f1831 = '../collationChunks/' + chunk + '/input/1831_fullFlat_' + collChunk
+            fMS = '../collationChunks/' + chunk + '/input/msColl_' + collChunk
             # 2023-05-17 ebb: **Before we begin the tokenizing**, run a XSLT pre-processing pass:
             # Revise delSpan anchor elements and remove newlines from inlineVariationEvent elements so these hold together as long tokens:
-            with open(f1818, 'w') as f1818file, \
-                    open(f1823, 'w') as f1823file, \
-                    open(fThomas, 'w') as fThomasfile, \
-                    open(f1831, 'w') as f1831file, \
-                    open(fMS, 'w') as fMSfile:
-                f1818 = preXSLT(f1818file, chunk)
-                f1823 = preXSLT(f1823file, chunk)
-                fThomas = preXSLT(fThomasfile, chunk)
-                f1831 = preXSLT(f1831file, chunk)
-                fMS = preXSLT(fMSfile, chunk)
 
-                tokenLists = tokenizeFiles(f1818, f1823, fThomas, f1831, fMS)
-                print(tokenLists)
-                # 2022-11-14 yxj: For easier doing unit testing,
-                # can we import 4 filenames instead of only 1 into tokenizeFiles()?
+            tokenLists = tokenizeFiles(f1818, f1823, fThomas, f1831, fMS)
+            print(tokenLists)
+            # 2022-11-14 yxj: For easier doing unit testing,
+            # can we import 4 filenames instead of only 1 into tokenizeFiles()?
 
-                collation_input = {"witnesses": tokenLists}
-                outputFile = open('../collationChunks/' + chunk + '/output/Collation_' + chunk + '-partway.xml', 'w', encoding='utf-8')
+            collation_input = {"witnesses": tokenLists}
+            outputFile = open('../collationChunks/' + chunk + '/output/Collation_' + chunk + '-partway.xml', 'w', encoding='utf-8')
                 
-                # table = collate(collation_input, output='tei', segmentation=True)
-                # table = collate(collation_input, segmentation=True, layout='vertical')
-                table = collate(collation_input, output='xml', segmentation=True)
-                print(table + '<!-- ' + nowStr + ' -->', file=outputFile)
-                # print(table + '<!-- ' + nowStr + ' -->')
-                outputFile.close()
+            # table = collate(collation_input, output='tei', segmentation=True)
+            # table = collate(collation_input, segmentation=True, layout='vertical')
+            table = collate(collation_input, output='xml', segmentation=True)
+            print(table + '<!-- ' + nowStr + ' -->', file=outputFile)
+            # print(table + '<!-- ' + nowStr + ' -->')
+            outputFile.close()
 
         except IOError:
             pass
