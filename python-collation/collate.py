@@ -51,13 +51,14 @@ RE_NOTE_START = re.compile(r'<note.*?>')
 RE_NOTE_END = re.compile(r'</note>')
 RE_DELSTART = re.compile(r'<del.*?>')
 RE_DELEND = re.compile(r'</del>')
-RE_DELSPAN = re.compile(r'<delSpan.+?/>')
-
-# 2023-05-17 ebb and nlh: We should make a <delSpan spanTo="id"/> as a start marker and a <delSpan anchor="id"/> in the
-# pre-process msColl for collation. Then NORMALIZE to <del>....</del> as a fundamental longToken.
-# SO: Change the RE_DELSPAN to be this;
-# RE_DELSPAN_START = re.compile(r'<delSpan\s+spanTo.+?/>')
-# RE_DELSPAN_END = re.compile(r'<delSpan\s+anchor.+?/>')
+# 2023-05-17 ebb with nlh: We have altered the delSpans thus:
+# <delSpan spanTo="id"/> as a start marker and a <delSpan anchor="id"/> in the pre-processed msColl for collation.
+# Before the endpoints were <anchor> elements with only xml:ids,
+# indistinguishable from the many other anchor elements in the msColl files.
+# We want to make it possible for these to be seen in the normalized tokens used in the output collation.
+# so they can be displayed as deleted passages in the variant panels.
+RE_DELSPAN_START = re.compile(r'<delSpan[^<>]+?spanto[^<>]+?/>')
+RE_DELSPAN_END = re.compile(r'<delSpan[^<>]+?anchor[^<>]+?/>')
 
 RE_ANCHOR = re.compile(r'<anchor.+?/>')
 RE_SGA_ADDSTART = re.compile(r'<sga-add[^<>]+?sID[^<>]+?/>')
@@ -144,6 +145,8 @@ def extract(input_xml):
         # if event == pulldom.COMMENT:
         #     doc.expandNode(node)
         #     output += node.toxml()
+        # ebb: The following handles our longToken and longToken-style elements:
+        # complete element nodes surrounded by newline characters to make a long complete token:
         if event == pulldom.START_ELEMENT and node.localName in inlineVariationEvent:
             doc.expandNode(node)
             # 2022-10-25 ebb: The line above may be sending the characters inside the node to be processed twice,
@@ -333,6 +336,9 @@ def main():
             fThomas = '../collationChunks/' + chunk + '/Thomas_fullFlat_' + collChunk
             f1831 = '../collationChunks/' + chunk + '/1831_fullFlat_' + collChunk
             fMS = '../collationChunks/' + chunk + '/msColl_' + collChunk
+            # 2023-05-17 ebb: **Before we begin the tokenizing**, run a XSLT pre-processing pass:
+            # Remove newlines from inlineVariationEvent elements so these hold together as long tokens:
+
             tokenLists = tokenizeFiles(f1818, f1823, fThomas, f1831, fMS)
             print(tokenLists)
                 # 2022-11-14 yxj: For easier doing unit testing,
