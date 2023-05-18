@@ -69,11 +69,8 @@
     
     
     <!-- ********************************************************************************************
-        ADDING A SCHEMATRON "FLASHLIGHT" TO LOOK FOR TROUBLE
-        
+        ADDING A SCHEMATRON "FLASHLIGHT" TO LOOK FOR TROUBLE      
         The following template will add a processing instruction to the document node of the output collation.
-        
-        
      ********************************************************************************************* -->
     
     <xsl:template match="/">
