@@ -389,7 +389,7 @@
         <rdg wit="{@wit}"><xsl:value-of select="fv:ampFix(normalize-space(text()))"/></rdg>
     </xsl:template>
     <xsl:template match="rdgGrp" name="normAmpFix">
-        <xsl:variable name="reducedNormTokens" as="xs:string" select="@n ! replace(., '\s{2,}', '')"/>
+        <xsl:variable name="reducedNormTokens" as="xs:string" select="@n ! replace(., '\s{2,}', '\s')"/>
         <rdgGrp n="{fv:ampFix($reducedNormTokens)}">
             <xsl:apply-templates/>
         </rdgGrp>
