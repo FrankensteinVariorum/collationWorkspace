@@ -15,7 +15,6 @@ import glob
 from datetime import datetime, date
 import sys
 import os
-from saxonche import PySaxonProcessor
 
 now = datetime.utcnow()
 nowStr = str(now)
