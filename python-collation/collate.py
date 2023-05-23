@@ -235,8 +235,8 @@ def normalize(inputText):
     normalized = RE_DELSPAN_START.sub('<del>', normalized)
     normalized = RE_DELSPAN_END.sub('</del>', normalized)
     normalized = RE_ANCHOR.sub('', normalized)
-    normalized = RE_LT_AMP.sub('and', normalized)
-    normalized = RE_AMP.sub('and', normalized)
+    normalized = RE_LT_AMP.sub(' and', normalized)
+    normalized = RE_AMP.sub(' and', normalized)
     normalized = RE_WORD_START.sub('\\1', normalized)
     # 2023-05-22 ebb and yxj: We must replace WORD_START before the SPACE_LB.
     # WORD_START replacement ensures that the normalized token for <w ana='start'/>...<lb/>...<w ana="end"/>
