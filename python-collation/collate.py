@@ -29,7 +29,8 @@ regexBlankLine = re.compile(r'\n{2,}')
 regexLeadingBlankLine = re.compile(r'^\n')
 regexPageBreak = re.compile(r'<pb.+?/>', re.DOTALL)
 RE_MARKUP = re.compile(r'<.+?>', re.DOTALL)
-RE_WORDMARKER = re.compile(r'<w ana.+?/>')
+RE_WORD_START = re.compile(r'<w ana="start"/>(.+)<lb[^<>]+>')
+RE_WORD_END = re.compile(r'<w ana="end"/>')
 RE_PARASTART = re.compile(r'<p\ssID.+?/>')
 RE_PARAEND = re.compile(r'<p\seID.+?/>')
 RE_INCLUDE = re.compile(r'<include.*?/>')
@@ -72,6 +73,7 @@ RE_SHI_END = re.compile(r'</shi>')
 RE_METAMARK = re.compile(r'<metamark[^<>]*?>.+?</metamark>')
 RE_HI = re.compile(r'<hi\s.+?/>')
 RE_PB = re.compile(r'<pb.*?/>')
+RE_SPACE_LB = re.compile(r'([\w\s])<lb.*?/>')
 RE_LB = re.compile(r'<lb.*?/>')
 # ebb: considered: re.DOTALL ? Probably don't need it b/c these regexes are being performed on tokens.
 RE_LG = re.compile(r'<lg[^<]*/>')
@@ -236,6 +238,13 @@ def normalize(inputText):
     normalized = RE_ANCHOR.sub('', normalized)
     normalized = RE_LT_AMP.sub('and', normalized)
     normalized = RE_AMP.sub('and', normalized)
+    normalized = RE_WORD_START.sub('\\1', normalized)
+    # 2023-05-22 ebb and yxj: We must replace WORD_START before the SPACE_LB.
+    # WORD_START replacement ensures that the normalized token for <w ana='start'/>...<lb/>...<w ana="end"/>
+    # does not get an added space. We need to ensure that these are treated as single word tokens
+    # with no space added internally.
+    normalized = RE_WORD_END.sub('', normalized)
+    normalized = RE_SPACE_LB.sub('\\1 ', normalized)
     normalized = RE_LB.sub('', normalized)
     normalized = RE_NOTE_START.sub('<note>', normalized)
     normalized = RE_NOTE_END.sub('</note>', normalized)
@@ -249,7 +258,6 @@ def normalize(inputText):
     normalized = RE_LT_END.sub('', normalized)
     normalized = RE_HEAD_START.sub('', normalized)
     normalized = RE_HEAD_END.sub('', normalized)
-    normalized = RE_WORDMARKER.sub('', normalized)
     normalized = RE_HI.sub('', normalized)
 
     # 2022-08-08 ebb: Sometimes <hi> in the print editions seems irrelevant, in highlighting words at

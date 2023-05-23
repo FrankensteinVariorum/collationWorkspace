@@ -292,7 +292,7 @@
         -->
         <xsl:param name="loner" tunnel="yes"/>
         <xsl:param name="norm" tunnel="yes"/>
-        <xsl:variable name="reducedNormParam" as="xs:string" select="$norm ! replace(., '\s{2,}', '')"/>
+        <xsl:variable name="reducedNormParam" as="xs:string" select="$norm ! replace(., '\\s{2,}', '\\s')"/>
         <app>
             <xsl:apply-templates
                 select="rdgGrp[not(preceding::app[1][count(rdgGrp) = 1 and rdgGrp/@n ! string-length() = 4])]" mode="restructure">
@@ -302,7 +302,7 @@
                 <xsl:when test="$norm ! string-length() &gt; 4 and descendant::rdg/@wit = $loner/@wit">
                     <xsl:variable name="TokenSquished">
                         <xsl:value-of
-                            select="$reducedNormParam ! string() || descendant::rdgGrp[descendant::rdg[@wit = $loner/@wit]]/@n ! replace(., '\s{2,}', '')"/>
+                            select="$reducedNormParam ! string() || descendant::rdgGrp[descendant::rdg[@wit = $loner/@wit]]/@n ! replace(., '\\s{2,}', '\\s')"/>
                     </xsl:variable>
                     <xsl:variable name="newToken">
                         <xsl:value-of select="replace($TokenSquished, '\]\[', ', ')"/>
@@ -350,7 +350,7 @@
         <!--    <xsl:if test="rdg[@wit != $loner/@wit]">
             <xsl:copy-of select="current()" />
         </xsl:if>-->
-        <xsl:variable name="reducedNormTokens" as="xs:string" select="@n ! replace(., '\s{2,}', '')"/>
+        <xsl:variable name="reducedNormTokens" as="xs:string" select="@n ! replace(., '\\s{2,}', '\\s')"/>
         <rdgGrp n="{$reducedNormTokens}">
             <xsl:for-each select="rdg">
                 <xsl:if test="current()/@wit ne $loner/@wit">
@@ -363,7 +363,7 @@
     <xsl:template match="rdgGrp" mode="emptyNormalize" name="emptyNormalize">
         <xsl:param name="lonerText" tunnel="yes"/>
         <xsl:param name="lonerWit" tunnel="yes"/>
-        <xsl:variable name="reducedNormTokens" as="xs:string" select="@n ! replace(., '\s{2,}', '')"/>
+        <xsl:variable name="reducedNormTokens" as="xs:string" select="@n ! replace(., '\\s{2,}', '\\s')"/>
         <rdgGrp n="{$reducedNormTokens}">
             <xsl:for-each select="rdg[@wit ne $lonerWit]">
                 <rdg wit="{@wit}"><xsl:apply-templates select="fv:ampFix(current())"/></rdg>
@@ -389,7 +389,7 @@
         <rdg wit="{@wit}"><xsl:value-of select="fv:ampFix(normalize-space(text()))"/></rdg>
     </xsl:template>
     <xsl:template match="rdgGrp" name="normAmpFix">
-        <xsl:variable name="reducedNormTokens" as="xs:string" select="@n ! replace(., '\s{2,}', '\s')"/>
+        <xsl:variable name="reducedNormTokens" as="xs:string" select="@n ! replace(., '\\s{2,}', '\\s')"/>
         <rdgGrp n="{fv:ampFix($reducedNormTokens)}">
             <xsl:apply-templates/>
         </rdgGrp>
