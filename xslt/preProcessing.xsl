@@ -27,7 +27,13 @@
      -->
     <xsl:template match="anchor[@xml:id = preceding::delSpan/substring-after(@spanTo, '#')]">
         <delSpan anchor="{@xml:id}"/>
-    </xsl:template>     
+    </xsl:template>  
+    
+    <xsl:template match="zone[@eID][preceding-sibling::*[1] ! name() ne 'w']">
+        <xsl:text> &#10;</xsl:text>
+        <xsl:copy><xsl:apply-templates select="node()|@*"/></xsl:copy> 
+
+    </xsl:template>
     
     <xsl:template match="(head | del | mdel | add | note | longToken)/text()">
         <!--ebb: setting all longToken-style element text nodes on a single line to be processed as a single token:-->
