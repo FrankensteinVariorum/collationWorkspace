@@ -21,8 +21,8 @@
 		</rdgGrp>
         ```
 
-- [] misalignment. all the "I" after "protectors" are in next app, for all versions aside from manuscript
-    - wrapped longToken around "protectors" in manuscript
+- [X] misalignment. all the "I" after "protectors" are in next app, for all versions aside from manuscript
+    - wrapped longToken around "protectors—" in manuscript
     - ```xml
     	<app>
     		<rdgGrp n="['protectors.']">
@@ -47,8 +47,8 @@
         ```
         
 
-- [] in manuscript, the quote is misalignment I think. the dialogue/quote starts in next app for all the other versions.
-    - wrapped longToken around "said I" in manuscript 
+- [] in manuscript, the quote is misaligned I think. the dialogue/quote starts in next app for all the other versions.
+    - need peer review help
     - ```xml
 		<rdgGrp n="['i–', '&#34;i']">
 			<rdg wit="fMS">I– "I</rdg>
@@ -76,7 +76,7 @@
         ```
 
 - [] misaligned. Everything after "are" are in different apps
-    - I have no idea how to fix this section. Need peer review
+    - I have no idea how to fix this section. Need peer review help
     - ```xml
 		<rdgGrp
 			n="['hopes.&#34;', '&#34;are', 'these', 'germans&#34;–', '&lt;del&gt; &lt;unclear extent=&#34;1&#34; unit=&#34;chars&#34;/&gt; &lt;/del&gt;', 'asked', 'de', 'lacey', '–', '&lt;del&gt;know&lt;/del&gt;', '&#34;no', '–they']">
@@ -88,16 +88,16 @@
 		</rdgGrp>
         ```
 
-- [] Misalligned. "me" and "and" are in seperate rdgGroups for other versions. abbandoned, me and" are 
-    - put longToken around "me and" in all versions
+- [] Misalligned. "me" and "and" are in the next app for other versions. Need peer review help
     - ```xml
 		<rdgGrp n="['abbandoned', 'me', 'and']">
 			<rdg wit="fMS">abbandoned me and</rdg>
 		</rdgGrp>
         ```
 
-- [] "cursed" and "creator" are misalligned. with next app 
-    - backspaced until "creator" was on one line then wrapped all variatons of "cursed creator" together
+- [] "cursed" and "creator" are misalligned. with next app. Need peer review help
+    - backspaced until "creator" was on one line
+    - wrapped "cursed" with longToken in MS
     - ```xml
 		<rdgGrp n="['agony—', 'cursed', '', '&lt;mdel&gt;c&lt;/mdel&gt;', 'c', '', 'reator']">
 			<rdg wit="fMS">agony— Cursed &lt;mod sID="c57-0041__main__d4e7678"/&gt;
@@ -108,7 +108,7 @@
 		</rdgGrp>
         ```
  
- - [] In msColl_21, I backspaced the "a" and "s" characters to be on the same line.  Need to check. Other versions start with "As", but in different app. Unaligned? 
+ - [] In msColl_21, I backspaced the "a" and "s" characters to be on the same line.  Need peer review help. Other versions start with "As", but in next app. Misaligned? 
     - ```xml
 		<rdgGrp n="['', '&lt;del&gt;but crimes were distant&lt;/del&gt;', '&lt;del&gt;but&lt;/del&gt;', '', '&lt;mdel&gt;a&lt;/mdel&gt;', 'a', '', 's']">
 			<rdg wit="fMS">&lt;lb n="c57-0037__main__6"/&gt; &lt;del rend="strikethrough" xml:id="c57-0037__main__d4e5934"&gt;But crimes were distant&lt;/del&gt; &lt;del instant="true" rend="strikethrough" xml:id="c57-0037__main__d4e5938"&gt;But&lt;/del&gt; &lt;mod sID="c57-0037__main__d4e5941"/&gt; &lt;mdel&gt;a&lt;/mdel&gt; &lt;sga-add place="intralinear" sID="c57-0037__main__d4e5945"/&gt;A &lt;sga-add eID="c57-0037__main__d4e5945"/&gt;&lt;mod eID="c57-0037__main__d4e5941"/&gt; s</rdg>
