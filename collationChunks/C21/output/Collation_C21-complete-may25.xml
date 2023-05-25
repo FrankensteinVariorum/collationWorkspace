@@ -214,14 +214,14 @@
 	</app>
 	<app>
 		<rdgGrp
-			n="['', '&lt;del&gt;but crimes were distant&lt;/del&gt;', '&lt;del&gt;but&lt;/del&gt;', '', '&lt;mdel&gt;a&lt;/mdel&gt;', 'as']">
+			n="['', '&lt;del&gt;but crimes were distant&lt;/del&gt;', '&lt;del&gt;but&lt;/del&gt;', '', '&lt;mdel&gt;a&lt;/mdel&gt;', 'a', '', 's']">
 			<rdg wit="fMS">&lt;lb n="c57-0037__main__6"/&gt; &lt;del rend="strikethrough"
 				xml:id="c57-0037__main__d4e5934"&gt;But crimes were distant&lt;/del&gt; &lt;del
 				instant="true" rend="strikethrough"
 				xml:id="c57-0037__main__d4e5938"&gt;But&lt;/del&gt; &lt;mod
 				sID="c57-0037__main__d4e5941"/&gt; &lt;mdel&gt;a&lt;/mdel&gt; &lt;sga-add
-				place="intralinear" sID="c57-0037__main__d4e5945"/&gt;A&lt;sga-add
-				eID="c57-0037__main__d4e5945"/&gt;&lt;mod eID="c57-0037__main__d4e5941"/&gt;s</rdg>
+				place="intralinear" sID="c57-0037__main__d4e5945"/&gt;A &lt;sga-add
+				eID="c57-0037__main__d4e5945"/&gt;&lt;mod eID="c57-0037__main__d4e5941"/&gt; s</rdg>
 		</rdgGrp>
 		<rdgGrp n="['&lt;note&gt;thomas copy: pencil mark joins paragraphs.&lt;/note&gt;']">
 			<rdg wit="fThomas">&lt;note resp="#ebb"&gt;Thomas copy: pencil mark joins
@@ -5071,12 +5071,12 @@
 			<rdg wit="fThomas">agony.</rdg>
 			<rdg wit="f1831">agony.</rdg>
 		</rdgGrp>
-		<rdgGrp n="['agony—', 'cursed', '', '&lt;mdel&gt;c&lt;/mdel&gt;', 'creator']">
+		<rdgGrp n="['agony—', 'cursed', '', '&lt;mdel&gt;c&lt;/mdel&gt;', 'c', '', 'reator']">
 			<rdg wit="fMS">agony— Cursed &lt;mod sID="c57-0041__main__d4e7678"/&gt;
 				&lt;mdel&gt;c&lt;/mdel&gt; &lt;sga-add place="intralinear"
-				sID="c57-0041__main__d4e7682"/&gt;C&lt;sga-add
-				eID="c57-0041__main__d4e7682"/&gt;&lt;mod
-				eID="c57-0041__main__d4e7678"/&gt;reator</rdg>
+				sID="c57-0041__main__d4e7682"/&gt;C &lt;sga-add
+				eID="c57-0041__main__d4e7682"/&gt;&lt;mod eID="c57-0041__main__d4e7678"/&gt;
+				reator</rdg>
 		</rdgGrp>
 	</app>
 	<app>
@@ -8359,9 +8359,9 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['thought', 'therefore']">
-			<rdg wit="fMS">though&lt;sga-add place="intralinear"
-				sID="c57-0045__main__d4e8646"/&gt;t&lt;sga-add eID="c57-0045__main__d4e8646"/&gt;
+		<rdgGrp n="['though', 't', '', 'therefore']">
+			<rdg wit="fMS">though &lt;sga-add place="intralinear"
+				sID="c57-0045__main__d4e8646"/&gt;t &lt;sga-add eID="c57-0045__main__d4e8646"/&gt;
 				therefore</rdg>
 		</rdgGrp>
 		<rdgGrp n="['thought,', 'therefore,']">
@@ -9326,24 +9326,25 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['with', 'renewed']">
-			<rdg wit="f1818">with renewed</rdg>
-			<rdg wit="f1823">with renewed</rdg>
-			<rdg wit="fThomas">with renewed</rdg>
-			<rdg wit="f1831">with renewed</rdg>
-			<rdg wit="fMS">with &lt;lb n="c57-0046__main__19"/&gt;renew&lt;sga-add
-				place="intralinear" sID="c57-0046__main__d4e8870"/&gt;ed</rdg>
+		<rdgGrp n="['with']">
+			<rdg wit="f1818">with</rdg>
+			<rdg wit="f1823">with</rdg>
+			<rdg wit="fThomas">with</rdg>
+			<rdg wit="f1831">with</rdg>
+			<rdg wit="fMS">with</rdg>
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['determination']">
-			<rdg wit="fMS">&lt;sga-add eID="c57-0046__main__d4e8870"/&gt;determination</rdg>
+		<rdgGrp n="['renew', 'ed', '', 'determination']">
+			<rdg wit="fMS">&lt;lb n="c57-0046__main__19"/&gt;renew &lt;sga-add place="intralinear"
+				sID="c57-0046__main__d4e8870"/&gt;ed &lt;sga-add eID="c57-0046__main__d4e8870"/&gt;
+				determination</rdg>
 		</rdgGrp>
-		<rdgGrp n="['determination,']">
-			<rdg wit="f1818">determination,</rdg>
-			<rdg wit="f1823">determination,</rdg>
-			<rdg wit="fThomas">determination,</rdg>
-			<rdg wit="f1831">determination,</rdg>
+		<rdgGrp n="['renewed', 'determination,']">
+			<rdg wit="f1818">renewed determination,</rdg>
+			<rdg wit="f1823">renewed determination,</rdg>
+			<rdg wit="fThomas">renewed determination,</rdg>
+			<rdg wit="f1831">renewed determination,</rdg>
 		</rdgGrp>
 	</app>
 	<app>
@@ -9490,23 +9491,23 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['am']">
-			<rdg wit="f1818">am</rdg>
-			<rdg wit="f1823">am</rdg>
-			<rdg wit="fThomas">am</rdg>
-			<rdg wit="f1831">am</rdg>
-			<rdg wit="fMS">am</rdg>
+		<rdgGrp n="['am', 'a']">
+			<rdg wit="f1818">am a</rdg>
+			<rdg wit="f1823">am a</rdg>
+			<rdg wit="fThomas">am a</rdg>
+			<rdg wit="f1831">am a</rdg>
+			<rdg wit="fMS">am a</rdg>
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['a ', 'traveller,']">
-			<rdg wit="fMS">a&lt;lb n="c57-0046__main__24"/&gt; traveller,</rdg>
+		<rdgGrp n="['traveller']">
+			<rdg wit="f1818">traveller</rdg>
+			<rdg wit="f1823">traveller</rdg>
+			<rdg wit="fThomas">traveller</rdg>
+			<rdg wit="f1831">traveller</rdg>
 		</rdgGrp>
-		<rdgGrp n="['a', 'traveller']">
-			<rdg wit="f1818">a traveller</rdg>
-			<rdg wit="f1823">a traveller</rdg>
-			<rdg wit="fThomas">a traveller</rdg>
-			<rdg wit="f1831">a traveller</rdg>
+		<rdgGrp n="['traveller,']">
+			<rdg wit="fMS">&lt;lb n="c57-0046__main__24"/&gt;traveller,</rdg>
 		</rdgGrp>
 	</app>
 	<app>
@@ -10560,15 +10561,34 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['are', 'full', 'of', 'brotherly', 'love', 'and', 'charity.']">
-			<rdg wit="f1818">are full of brotherly love and charity.</rdg>
-			<rdg wit="f1823">are full of brotherly love and charity.</rdg>
-			<rdg wit="fThomas">are full of brotherly love and charity.</rdg>
-			<rdg wit="f1831">are full of brotherly love and charity.</rdg>
-			<rdg wit="fMS">are ful&lt;sga-add place="intralinear"
-				sID="c57-0047__main__d4e9172"/&gt;l &lt;sga-add
-				eID="c57-0047__main__d4e9172"/&gt;&lt;lb n="c57-0047__main__29"/&gt;of brotherly
-				love and charity.</rdg>
+		<rdgGrp n="['are']">
+			<rdg wit="f1818">are</rdg>
+			<rdg wit="f1823">are</rdg>
+			<rdg wit="fThomas">are</rdg>
+			<rdg wit="f1831">are</rdg>
+			<rdg wit="fMS">are</rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['ful', 'l']">
+			<rdg wit="fMS">ful &lt;sga-add place="intralinear"
+				sID="c57-0047__main__d4e9172"/&gt;l</rdg>
+		</rdgGrp>
+		<rdgGrp n="['full']">
+			<rdg wit="f1818">full</rdg>
+			<rdg wit="f1823">full</rdg>
+			<rdg wit="fThomas">full</rdg>
+			<rdg wit="f1831">full</rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['of', 'brotherly', 'love', 'and', 'charity.']">
+			<rdg wit="f1818">of brotherly love and charity.</rdg>
+			<rdg wit="f1823">of brotherly love and charity.</rdg>
+			<rdg wit="fThomas">of brotherly love and charity.</rdg>
+			<rdg wit="f1831">of brotherly love and charity.</rdg>
+			<rdg wit="fMS">&lt;sga-add eID="c57-0047__main__d4e9172"/&gt;&lt;lb
+				n="c57-0047__main__29"/&gt;of brotherly love and charity.</rdg>
 		</rdgGrp>
 	</app>
 	<app>
@@ -12448,26 +12468,34 @@
 			<rdg wit="fThomas">protectors.</rdg>
 			<rdg wit="f1831">protectors.</rdg>
 		</rdgGrp>
-		<rdgGrp n="['protectors—']">
-			<rdg wit="fMS">&lt;longToken&gt;protectors—&lt;/longToken&gt;</rdg>
+		<rdgGrp n="['protectors—i']">
+			<rdg wit="fMS">protectors—I</rdg>
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['i', 'had', 'not', 'a', 'moment', 'to']">
-			<rdg wit="f1818">I had not a moment to</rdg>
-			<rdg wit="f1823">I had not a moment to</rdg>
-			<rdg wit="f1831">I had not a moment to</rdg>
-			<rdg wit="fMS">I had not &lt;lb n="c57-0050__main__3"/&gt;a moment to</rdg>
+		<rdgGrp n="['i']">
+			<rdg wit="f1818">I</rdg>
+			<rdg wit="f1823">I</rdg>
+			<rdg wit="f1831">I</rdg>
 		</rdgGrp>
 		<rdgGrp
-			n="['they returned sooner than i expected and their inopportune appearance destroyed the fruits of so many months patience and expectation. my presence of mind deserted me at this crisis, i thought that', 'i', 'had', 'not', 'a', 'moment', 'to']">
+			n="['they returned sooner than i expected and their inopportune appearance destroyed the fruits of so many months patience and expectation. my presence of mind deserted me at this crisis, i thought that', 'i']">
 			<rdg wit="fThomas">&lt;add place="bottom"&gt;They returned sooner than I expected and
 				their inopportune appearance destroyed the fruits of so many months patience and
 				expectation. My presence of mind deserted me at this crisis, I thought
-				that&lt;/add&gt; I had not a moment to</rdg>
+				that&lt;/add&gt; I</rdg>
 		</rdgGrp>
 	</app>
 
+	<app>
+		<rdgGrp n="['had', 'not', 'a', 'moment', 'to']">
+			<rdg wit="f1818">had not a moment to</rdg>
+			<rdg wit="f1823">had not a moment to</rdg>
+			<rdg wit="fThomas">had not a moment to</rdg>
+			<rdg wit="f1831">had not a moment to</rdg>
+			<rdg wit="fMS">had not &lt;lb n="c57-0050__main__3"/&gt;a moment to</rdg>
+		</rdgGrp>
+	</app>
 	<app>
 		<rdgGrp n="['lose,', 'but']">
 			<rdg wit="fMS">lose, but</rdg>
@@ -12819,10 +12847,10 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['horro', '&lt;mdel&gt;w&lt;/mdel&gt;', 'r']">
-			<rdg wit="fMS">horro&lt;mod sID="c57-0050__main__d4e9827"/&gt;
+		<rdgGrp n="['horro', '', '&lt;mdel&gt;w&lt;/mdel&gt;', 'r', '']">
+			<rdg wit="fMS">horro &lt;mod sID="c57-0050__main__d4e9827"/&gt;
 				&lt;mdel&gt;w&lt;/mdel&gt; &lt;sga-add place="intralinear"
-				sID="c57-0050__main__d4e9831"/&gt;r&lt;sga-add
+				sID="c57-0050__main__d4e9831"/&gt;r &lt;sga-add
 				eID="c57-0050__main__d4e9831"/&gt;&lt;mod eID="c57-0050__main__d4e9827"/&gt;</rdg>
 		</rdgGrp>
 		<rdgGrp n="['horror']">
@@ -13254,4 +13282,4 @@
 		</rdgGrp>
 	</app>
 </cx:apparatus>
-<!-- 2023-05-25 20:08:41.256716 -->
+<!-- 2023-05-23 21:34:52.139091 -->

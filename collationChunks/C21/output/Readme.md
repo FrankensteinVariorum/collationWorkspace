@@ -1,8 +1,151 @@
 # Collation Chunk-21:
 
-Notes: 
-- "plutarchs's lives", the title of the book is weirdly mixed up with other wirtnesses?
-    - ```
+## Notes
+- the marked boxes are solved/correct changes. unmarked boxes are unsolved
+- the remaining blue marks when checking collation  are likely valid and dont need to be changed. Or they are one of the unmarked problems that can be found below.
+- There are probably some misalignments I missed not found by the schema.
+                
+## Changes:
+- []weird misalignment around this rdgGroup? cannot figure out where it starts and begins. need peer review.
+    - ```xml
+		<rdgGrp
+			n="['limb', 'from', 'limb,', 'as', 'the', 'lion', 'rends', 'the', 'antelope.', 'but', 'my', 'heart', 'sunk', 'within', 'me', 'as', 'with', 'bitter', 'sickness,', 'and', 'i', 'refrained.', 'i', 'saw', 'him']">
+			<rdg wit="f1818">limb from limb, as the lion rends the antelope. But my heart sunk
+				within me as with bitter sickness, and I refrained. I saw him</rdg>
+			<rdg wit="f1823">limb from limb, as the lion rends the antelope. But my heart sunk
+				within me as with bitter sickness, and I refrained. I saw him</rdg>
+			<rdg wit="fThomas">limb from limb, as the lion rends the antelope. But my heart sunk
+				within me as with bitter sickness, and I refrained. I saw him</rdg>
+			<rdg wit="f1831">limb from limb, as the lion rends the antelope. But my heart sunk
+				within me as with bitter sickness, and I refrained. I saw him</rdg>
+		</rdgGrp>
+        ```
+
+- [] misalignment. all the "I" after "protectors" are in next app, for all versions aside from manuscript
+    - wrapped longToken around "protectors" in manuscript
+    - ```xml
+    	<app>
+    		<rdgGrp n="['protectors.']">
+    			<rdg wit="f1818">protectors.</rdg>
+    			<rdg wit="f1823">protectors.</rdg>
+    			<rdg wit="fThomas">protectors.</rdg>
+    			<rdg wit="f1831">protectors.</rdg>
+    		</rdgGrp>
+    		<rdgGrp n="['protectors—i']">
+    			<rdg wit="fMS">protectors—I</rdg>
+    		</rdgGrp>
+    	</app>
+        ```
+        
+
+- [X] "full" not in one token
+    - removed space after ful in manuscript
+    - ```xml
+		<rdg wit="fMS">ful &lt;sga-add place="intralinear"
+				sID="c57-0047__main__d4e9172"/&gt;l</rdg>
+		</rdgGrp>
+        ```
+        
+
+- [] in manuscript, the quote is misalignment I think. the dialogue/quote starts in next app for all the other versions.
+    - wrapped longToken around "said I" in manuscript 
+    - ```xml
+		<rdgGrp n="['i–', '&#34;i']">
+			<rdg wit="fMS">I– "I</rdg>
+		</rdgGrp>
+        ```
+        
+
+- [X] "renewed" is seperated. In different rdgGrp even though spelling and punctuation are consistent through out all versions.
+    - removed space after "renew"
+    - ```xml
+		<rdgGrp n="['renew', 'ed', '', 'determination']">
+			<rdg wit="fMS">&lt;lb n="c57-0046__main__19"/&gt;renew &lt;sga-add place="intralinear"
+				sID="c57-0046__main__d4e8870"/&gt;ed &lt;sga-add eID="c57-0046__main__d4e8870"/&gt;
+				determination</rdg>
+		</rdgGrp>
+        ```
+- [X] "thought" is seperated and irrelevant space.
+    - removed space after though to put together. minor change. probably fine? making it look cleaner i guess
+    - ```xml
+		<rdgGrp n="['though', 't', '', 'therefore']">
+			<rdg wit="fMS">though &lt;sga-add place="intralinear"
+				sID="c57-0045__main__d4e8646"/&gt;t &lt;sga-add eID="c57-0045__main__d4e8646"/&gt;
+				therefore</rdg>
+		</rdgGrp>
+        ```
+
+- [] misaligned. Everything after "are" are in different apps
+    - I have no idea how to fix this section. Need peer review
+    - ```xml
+		<rdgGrp
+			n="['hopes.&#34;', '&#34;are', 'these', 'germans&#34;–', '&lt;del&gt; &lt;unclear extent=&#34;1&#34; unit=&#34;chars&#34;/&gt; &lt;/del&gt;', 'asked', 'de', 'lacey', '–', '&lt;del&gt;know&lt;/del&gt;', '&#34;no', '–they']">
+			<rdg wit="fMS">hopes." "Are these Germans"– &lt;del rend="strikethrough"
+				xml:id="c57-0047__main__d4e9070"&gt; &lt;unclear extent="1" unit="chars"/&gt;
+				&lt;/del&gt; Asked &lt;lb n="c57-0047__main__17"/&gt;De Lacey – &lt;del
+				instant="true" rend="strikethrough"
+				xml:id="c57-0047__main__d4e9077"&gt;know&lt;/del&gt; "No –They</rdg>
+		</rdgGrp>
+        ```
+
+- [] Misalligned. "me" and "and" are in seperate rdgGroups for other versions. abbandoned, me and" are 
+    - put longToken around "me and" in all versions
+    - ```xml
+		<rdgGrp n="['abbandoned', 'me', 'and']">
+			<rdg wit="fMS">abbandoned me and</rdg>
+		</rdgGrp>
+        ```
+
+- [] "cursed" and "creator" are misalligned. with next app 
+    - backspaced until "creator" was on one line then wrapped all variatons of "cursed creator" together
+    - ```xml
+		<rdgGrp n="['agony—', 'cursed', '', '&lt;mdel&gt;c&lt;/mdel&gt;', 'c', '', 'reator']">
+			<rdg wit="fMS">agony— Cursed &lt;mod sID="c57-0041__main__d4e7678"/&gt;
+				&lt;mdel&gt;c&lt;/mdel&gt; &lt;sga-add place="intralinear"
+				sID="c57-0041__main__d4e7682"/&gt;C &lt;sga-add
+				eID="c57-0041__main__d4e7682"/&gt;&lt;mod eID="c57-0041__main__d4e7678"/&gt;
+				reator</rdg>
+		</rdgGrp>
+        ```
+ 
+ - [] In msColl_21, I backspaced the "a" and "s" characters to be on the same line.  Need to check. Other versions start with "As", but in different app. Unaligned? 
+    - ```xml
+		<rdgGrp n="['', '&lt;del&gt;but crimes were distant&lt;/del&gt;', '&lt;del&gt;but&lt;/del&gt;', '', '&lt;mdel&gt;a&lt;/mdel&gt;', 'a', '', 's']">
+			<rdg wit="fMS">&lt;lb n="c57-0037__main__6"/&gt; &lt;del rend="strikethrough" xml:id="c57-0037__main__d4e5934"&gt;But crimes were distant&lt;/del&gt; &lt;del instant="true" rend="strikethrough" xml:id="c57-0037__main__d4e5938"&gt;But&lt;/del&gt; &lt;mod sID="c57-0037__main__d4e5941"/&gt; &lt;mdel&gt;a&lt;/mdel&gt; &lt;sga-add place="intralinear" sID="c57-0037__main__d4e5945"/&gt;A &lt;sga-add eID="c57-0037__main__d4e5945"/&gt;&lt;mod eID="c57-0037__main__d4e5941"/&gt; s</rdg>
+		</rdgGrp>
+ 
+- [X] In Manuscript, I moved the element to be on the same line as the letter
+    - ```xml
+    	<rdgGrp n="['i', '', '&lt;mdel&gt;e&lt;/mdel&gt;', 'i']">
+    		<rdg wit="fMS">I &lt;lb n="c57-0038__main__20"/&gt;&lt;mod
+    		sID="c57-0038__main__d4e6490"/&gt; &lt;mdel&gt;e&lt;/mdel&gt; &lt;sga-add
+    		place="intralinear" sID="c57-0038__main__d4e6494"/&gt;i</rdg>
+    	</rdgGrp>
+        ```
+        
+- [X] app has &lt; three reading witnesses, BUT looks valid  to the according files. Wrapped longToken around "to the beings concerning whom I" in according editions
+    - ```xml
+        <rdgGrp n="['to']">
+	       <rdg wit="f1823">to</rdg>
+	       <rdg wit="f1831">to</rdg>
+	   </rdgGrp>
+	   ```	
+- [X] "peaceable lawgivers" in a single witness, while the other versions have "peacable" & "lawgivers" in different apps.
+    - ```xml
+        <app>
+          <rdgGrp n="['peacable', 'lawgivers']">
+             <rdg wit="fMS">peacable &lt;lb n="c57-0039__main__29"/&gt;lawgivers</rdg>
+          </rdgGrp>
+          <rdgGrp n="['peaceable']">
+              <rdg wit="f1818">peaceable</rdg>
+              <rdg wit="f1823">peaceable</rdg>
+              <rdg wit="fThomas">peaceable</rdg>
+              <rdg wit="f1831">peaceable</rdg>
+           </rdgGrp>
+        </app>
+        ```  	   
+- [X] "plutarchs's lives", the title of the book is weirdly mixed up with other wirtnesses?
+    - ```xml
     	<rdgGrp n="[&#34;plutarch's&#34;]">
 			<rdg wit="f1823">&lt;hi
 				sID="novel1_letter4_chapter14_div4_div15_p3_hi2"/&gt;Plutarch's</rdg>
@@ -19,22 +162,5 @@ Notes:
 		<rdgGrp n="['‘plutarch’s', 'lives,’']">
 			<rdg wit="f1831">‘Plutarch’s Lives,’</rdg>
 		</rdgGrp>
-    ```
-Changes:
-
-- [] In Manuscript, I moved the element to be on the same line as the letter
-    - ```xml
-    	<rdgGrp n="['i', '', '&lt;mdel&gt;e&lt;/mdel&gt;', 'i']">
-    		<rdg wit="fMS">I &lt;lb n="c57-0038__main__20"/&gt;&lt;mod
-    		sID="c57-0038__main__d4e6490"/&gt; &lt;mdel&gt;e&lt;/mdel&gt; &lt;sga-add
-    		place="intralinear" sID="c57-0038__main__d4e6494"/&gt;i</rdg>
-    	</rdgGrp>
-        ```
-        
-- [] app has &lt; three reading witnesses, BUT looks valid  to the according files. Wrapped longToken around "to the beings concerning whom I" in according editions
-    - ```xml
-        <rdgGrp n="['to']">
-	       <rdg wit="f1823">to</rdg>
-	       <rdg wit="f1831">to</rdg>
-	   </rdgGrp>
-	   ```	
+		```        
+		
