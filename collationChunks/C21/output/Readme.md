@@ -6,7 +6,7 @@
 - There are probably some misalignments I missed not found by the schema.
                 
 ## Changes:
-- []weird misalignment around this rdgGroup? cannot figure out where it starts and begins. need peer review.
+- [ ] weird misalignment around this rdgGroup? cannot figure out where it starts and ends. need peer review.
     - ```xml
 		<rdgGrp
 			n="['limb', 'from', 'limb,', 'as', 'the', 'lion', 'rends', 'the', 'antelope.', 'but', 'my', 'heart', 'sunk', 'within', 'me', 'as', 'with', 'bitter', 'sickness,', 'and', 'i', 'refrained.', 'i', 'saw', 'him']">
@@ -47,7 +47,7 @@
         ```
         
 
-- [] in manuscript, the quote is misaligned I think. the dialogue/quote starts in next app for all the other versions.
+- [ ] in manuscript, the quote is misaligned I think. the dialogue/quote starts in next app for all the other versions.
     - need peer review help
     - ```xml
 		<rdgGrp n="['i–', '&#34;i']">
@@ -65,7 +65,7 @@
 				determination</rdg>
 		</rdgGrp>
         ```
-- [X] "thought" is seperated and irrelevant space.
+- [X] "thought" is seperated and unneeded space.
     - removed space after though to put together. minor change. probably fine? making it look cleaner i guess
     - ```xml
 		<rdgGrp n="['though', 't', '', 'therefore']">
@@ -75,7 +75,7 @@
 		</rdgGrp>
         ```
 
-- [] misaligned. Everything after "are" are in different apps
+- [ ] misaligned. Everything after "are" are in different apps
     - I have no idea how to fix this section. Need peer review help
     - ```xml
 		<rdgGrp
@@ -88,14 +88,14 @@
 		</rdgGrp>
         ```
 
-- [] Misalligned. "me" and "and" are in the next app for other versions. Need peer review help
+- [ ] Misalligned. "me" and "and" are in the next app for other versions. Need peer review help
     - ```xml
 		<rdgGrp n="['abbandoned', 'me', 'and']">
 			<rdg wit="fMS">abbandoned me and</rdg>
 		</rdgGrp>
         ```
 
-- [] "cursed" and "creator" are misalligned. with next app. Need peer review help
+- [ ] "cursed" and "creator" are misalligned. with next app. Need peer review help
     - backspaced until "creator" was on one line
     - wrapped "cursed" with longToken in MS
     - ```xml
@@ -108,7 +108,7 @@
 		</rdgGrp>
         ```
  
- - [] In msColl_21, I backspaced the "a" and "s" characters to be on the same line.  Need peer review help. Other versions start with "As", but in next app. Misaligned? 
+ - [ ] In msColl_21, I backspaced the "a" and "s" characters to be on the same line.  Need peer review help. Other versions start with "As", but in next app. Misaligned? 
     - ```xml
 		<rdgGrp n="['', '&lt;del&gt;but crimes were distant&lt;/del&gt;', '&lt;del&gt;but&lt;/del&gt;', '', '&lt;mdel&gt;a&lt;/mdel&gt;', 'a', '', 's']">
 			<rdg wit="fMS">&lt;lb n="c57-0037__main__6"/&gt; &lt;del rend="strikethrough" xml:id="c57-0037__main__d4e5934"&gt;But crimes were distant&lt;/del&gt; &lt;del instant="true" rend="strikethrough" xml:id="c57-0037__main__d4e5938"&gt;But&lt;/del&gt; &lt;mod sID="c57-0037__main__d4e5941"/&gt; &lt;mdel&gt;a&lt;/mdel&gt; &lt;sga-add place="intralinear" sID="c57-0037__main__d4e5945"/&gt;A &lt;sga-add eID="c57-0037__main__d4e5945"/&gt;&lt;mod eID="c57-0037__main__d4e5941"/&gt; s</rdg>
