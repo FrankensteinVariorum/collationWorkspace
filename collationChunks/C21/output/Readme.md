@@ -6,7 +6,8 @@
 - There are probably some misalignments I missed not found by the schema.
                 
 ## Changes:
-- [ ] weird misalignment around this rdgGroup? cannot figure out where it starts and ends. need peer review.
+- [X] weird misalignment around this rdgGroup? cannot figure out where it starts and ends. need peer review.
+**2023-05-26 ebb** No problem here: This is correctly aligned--the MS witness just doesn't share this passage with the other witnesses. 
     - ```xml
 		<rdgGrp
 			n="['limb', 'from', 'limb,', 'as', 'the', 'lion', 'rends', 'the', 'antelope.', 'but', 'my', 'heart', 'sunk', 'within', 'me', 'as', 'with', 'bitter', 'sickness,', 'and', 'i', 'refrained.', 'i', 'saw', 'him']">
