@@ -242,7 +242,7 @@ def normalize(inputText):
     # WORD_START replacement ensures that the normalized token for <w ana='start'/>...<lb/>...<w ana="end"/>
     # does not get an added space. We need to ensure that these are treated as single word tokens
     # with no space added internally.
-    normalized = RE_WORD_END.sub('', normalized)
+    normalized = RE_WORD_END.sub(' ', normalized)
     normalized = RE_SPACE_LB.sub('\\1 ', normalized)
     normalized = RE_LB.sub('', normalized)
     normalized = RE_NOTE_START.sub('<note>', normalized)
