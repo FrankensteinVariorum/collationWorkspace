@@ -3,7 +3,7 @@
 
 # 4-14-2023
 
--[X] **Confusion** In the first `<app>`, the Chapter for the MS is listed. Shouldn't it be in the second app? 
+- [x] **Confusion** In the first `<app>`, the Chapter for the MS is listed. Shouldn't it be in the second app? 
 
 ```
 <app>
@@ -29,7 +29,7 @@
 			<rdg wit="f1831">&lt;head&gt;CHAPTER XVIII.&lt;/head&gt;</rdg>
 		</rdgGrp>
 ```
--[X] **Confusion:** For "I was unable to overcome my repugnance", I found a similar phrase in the MS, yet it was not detected by the script. It may have been a deletion, needs evaluation.
+- [x] **Confusion:** For "I was unable to overcome my repugnance", I found a similar phrase in the MS, yet it was not detected by the script. It may have been a deletion, needs evaluation.
 
 ```
 <app>
@@ -46,9 +46,9 @@
 		</rdgGrp>
 ```
 
--[X] **Misalignment Detected:** The manuscript's phrase of "I was unable to overcome my repugnance" comes later than every other edition, possibly due to word order in the drafts. The MS disappears at several points (indicating that the MS did not contain certain passages), but there is a lot of overlap where it shouldn't be, more than I can copy and paste.
+- [x] **Misalignment Detected:** The manuscript's phrase of "I was unable to overcome my repugnance" comes later than every other edition, possibly due to word order in the drafts. The MS disappears at several points (indicating that the MS did not contain certain passages), but there is a lot of overlap where it shouldn't be, more than I can copy and paste.
 
--[X] **Confusion:** MS has the phrase "alone in a little boat" appear about two apps sooner than when it appears in other editions, yet the passage before it appears well aligned. I'll post the cope snippets, but something isn't right.
+- [x] **Confusion:** MS has the phrase "alone in a little boat" appear about two apps sooner than when it appears in other editions, yet the passage before it appears well aligned. I'll post the cope snippets, but something isn't right.
 
 ```
 <app>
@@ -93,7 +93,7 @@
 	</app>
 ```
 
--[x] **Confusion:** What's going on here?
+- [x] **Confusion:** What's going on here?
 
 ```
 <app>
@@ -117,8 +117,8 @@
 				struck me, and if it is well founded,</rdg>
 		</rdgGrp>
 	</app>
-```	
--[x] **Confusion:** Are these supposed to be in the same app? the MS has very little in common with everything else.
+```
+- [x] **Confusion:** Are these supposed to be in the same app? the MS has very little in common with everything else.
 
 ```
 <app>
@@ -162,9 +162,9 @@
 
 # 4-18-2023
 
-- [] **MS Snag:** "My Health" may not align properly in the MS compared to other versions
+- [ ] **MS Snag:** "My Health" may not align properly in the MS compared to other versions
 ** Dr. B to fix this manually: the MS witness has the phrase, "my health ... which had hitherto declined" as a second token AFTEr the long token we placed re composing a female.**
-- [] **Fix Manually:** MS "My Health"
+- [ ] **Fix Manually:** MS "My Health"
 ```
 <app>
 		<rdgGrp n="['my']">
@@ -293,7 +293,7 @@ app>
 		</rdgGrp>
 	</app>
 ```
-- [] **Possible Misalignment Detected:** 1831 disappears after "guise," and the passages after it are very wordy. I'll post a code sample below, and when it does appear, it has almost nothing in common with the passages it's aligned with
+- [x] **Possible Misalignment Detected:** 1831 disappears after "guise," and the passages after it are very wordy. I'll post a code sample below, and when it does appear, it has almost nothing in common with the passages it's aligned with
 ```
 <app>
 		<rdgGrp n="['of']">
@@ -355,4 +355,70 @@ app>
 
 # 5-4-2023
 
-- [] **To be fixed:** MS "I passed through" needs to be aligned to all the other witnesses
+- [x] **To be fixed:** MS "I passed through" needs to be aligned to all the other witnesses
+
+- **NOTE:** Wrapping `<del rend="strikethrough" xml:id="c57-0086__main__d4e15665">possibility of</del> danger  <sga-add hand="#pbs" place="superlinear" sID="c57-0086__main__d4e15668"/>of his machinations <sga-add eID="c57-0086__main__d4e15668"/>. <delSpan rend="strikethrough" spanTo="#c57-0086.01"/>Thinking
+        thus <lb n="c57-0086__main__6"/>I prepared for my journey` 
+
+  and
+
+   `I passed th  <mod sID="c57-0087__main__d4e15690"/> <sga-add place="sublinear" sID="c57-0087__main__d4e15692"/> <metamark function="insert">^</metamark> <sga-add eID="c57-0087__main__d4e15692"/> <sga-add place="superlinear" sID="c57-0087__main__d4e15698"/>r <sga-add eID="c57-0087__main__d4e15698"/> <mod eID="c57-0087__main__d4e15690"/> ough` 
+
+  with longToken in MS.
+
+# 6-5-2023
+- [X] **Merge:** The second app should be merge into the first app.
+```xml
+<app>
+    <rdgGrp n="['ocean,']">
+        <rdg wit="f1818">ocean,</rdg>
+        <rdg wit="f1823">ocean,</rdg>
+        <rdg wit="fThomas">ocean,</rdg>
+    </rdgGrp>
+    <rdgGrp n="['ocean;']">
+        <rdg wit="f1831">ocean;</rdg>
+    </rdgGrp>
+    <rdgGrp n="['ocean–and']">
+        <rdg wit="fMS">ocean–and</rdg>
+    </rdgGrp>
+</app>
+<app>
+    <rdgGrp n="['and']">
+        <rdg wit="f1818">and</rdg>
+        <rdg wit="f1823">and</rdg>
+        <rdg wit="fThomas">and</rdg>
+        <rdg wit="f1831">and</rdg>
+    </rdgGrp>
+</app>
+```
+- **Note:** wrapping `ocean; and` with longToken in 1831.
+
+- [x] **Merge:** The second app should be merged to the first one.
+
+```xml
+  
+<app>
+    <rdgGrp n="['for']">
+        <rdg wit="f1823">for</rdg>
+        <rdg wit="f1831">for</rdg>
+    </rdgGrp>
+    <rdgGrp n="['forever?']">
+        <rdg wit="f1818">forever?</rdg>
+        <rdg wit="fThomas">forever?</rdg>
+    </rdgGrp>
+</app>
+<app>
+    <rdgGrp n="['ever', '?']">
+        <rdg wit="f1823">ever ?</rdg>
+    </rdgGrp>
+    <rdgGrp n="['ever?']">
+        <rdg wit="f1831">ever?</rdg>
+    </rdgGrp>
+</app>
+```
+
+- **Note:** Wrapping longToken around `for ever?` in 1831
+
+- [ ] **Misalignment:** In MS, two sentences are different from three paragraphs in other editions. The longToken doesn't work because the algorithm can't identify where they should come together correctly. They should go back together at `cologne we descended`. (Search `cologne we descended` in `Collation_C24-complete-june5.xml` to see how MS is far from other editions.) 
+
+  Thus, I try to wrap longToken around the two sentences in MS and the last two paragraphs of the three paragraphs. However, the two paragraphs are a little bit lengthy. A better solution to address this misalignment is expected.
