@@ -53,7 +53,8 @@
         <!-- ebb: Process the simple ones with no nested zones first. -->
         <xsl:variable name="repairedID" as="xs:string" select="tokenize(@sID, '__')[1] || '.' || tokenize(@corresp, '.')[2] || '__' || substring-after(@sID, '__')"/>
     <xsl:element name="{name()}">
-          <xsl:copy select="@corresp | @type"/>
+          <xsl:attribute name="corresp" select="@corresp"/>
+        <xsl:attribute name="type" select="@type"/>
           <xsl:attribute name="sID">
               <xsl:value-of select="$repairedID"/>
           </xsl:attribute>
@@ -69,14 +70,15 @@
             <xsl:attribute name="eID">
                 <xsl:value-of select="$repairedID"/>
             </xsl:attribute>
-        </xsl:element>
+        </xsl:element> 
+       
 
     </xsl:template>
     
     
     
     
-    <xsl:template match="anchor[@xml:id = preceding::delSpan/substring-after(@spanTo, '#')]">
+    <xsl:template match="anchor[@xml:id = preceding::delSpan/substring-after(@spanTo, '#')]" mode="laterCorrections">
         <delSpan anchor="{@xml:id}"/>
     </xsl:template>  
     
@@ -86,7 +88,7 @@
 
     </xsl:template>
     
-    <xsl:template match="(head | del | mdel | add | note | longToken)/text()">
+    <xsl:template match="(head | del | mdel | add | note | longToken)/text()" mode="laterCorrections">
         <!--ebb: setting all longToken-style element text nodes on a single line to be processed as a single token:-->
         <xsl:analyze-string select="current()" regex="\n">
             <xsl:matching-substring>
