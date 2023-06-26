@@ -1,28 +1,11 @@
 <?xml version="1.0" ?>
 <cx:apparatus xmlns:cx="http://interedition.eu/collatex/ns/1.0">
 	<app>
-		<rdgGrp n="['']">
-			<rdg wit="fMS">&lt;anchor type=&quot;collate&quot; xml:id=&quot;C25&quot;/&gt;&lt;lb n=&quot;c57-0092__main__1&quot;/&gt; </rdg>
-		</rdgGrp>
-	</app>
-	<app>
-		<rdgGrp n="['']">
-			<rdg wit="f1818">&lt;anchor type=&quot;collate&quot; xml:id=&quot;C25&quot;/&gt; </rdg>
-			<rdg wit="f1823">&lt;anchor type=&quot;collate&quot; xml:id=&quot;C25&quot;/&gt; </rdg>
-			<rdg wit="fThomas">&lt;anchor type=&quot;collate&quot; xml:id=&quot;C25&quot;/&gt; </rdg>
-			<rdg wit="f1831">&lt;anchor type=&quot;collate&quot; xml:id=&quot;C25&quot;/&gt; </rdg>
-			<rdg wit="fMS">&lt;milestone spanTo=&quot;#c57-0092.02&quot; unit=&quot;tei:head&quot;/&gt; </rdg>
-		</rdgGrp>
-	</app>
-	<app>
-		<rdgGrp n="['']">
-			<rdg wit="f1818">&lt;milestone unit=&quot;chapter&quot; type=&quot;start&quot; n=&quot;18&quot;/&gt; </rdg>
-			<rdg wit="f1823">&lt;milestone unit=&quot;chapter&quot; type=&quot;start&quot; n=&quot;18&quot;/&gt; </rdg>
-			<rdg wit="fThomas">&lt;milestone unit=&quot;chapter&quot; type=&quot;start&quot; n=&quot;18&quot;/&gt; </rdg>
-			<rdg wit="f1831">&lt;milestone unit=&quot;chapter&quot; type=&quot;start&quot; n=&quot;19&quot;/&gt; </rdg>
-		</rdgGrp>
-		<rdgGrp n="['chap &lt;del&gt;11&lt;/del&gt; 2.']">
-			<rdg wit="fMS">&lt;longToken&gt;Chap &lt;del rend=&quot;strikethrough&quot; xml:id=&quot;c57-0092__main__d4e16439&quot;&gt;11&lt;/del&gt; 2.&lt;/longToken&gt; </rdg>
+		<rdgGrp n="['', '']">
+			<rdg wit="f1818">&lt;anchor type=&quot;collate&quot; xml:id=&quot;C25&quot;/&gt; &lt;milestone unit=&quot;chapter&quot; type=&quot;start&quot; n=&quot;18&quot;/&gt; </rdg>
+			<rdg wit="f1823">&lt;anchor type=&quot;collate&quot; xml:id=&quot;C25&quot;/&gt; &lt;milestone unit=&quot;chapter&quot; type=&quot;start&quot; n=&quot;18&quot;/&gt; </rdg>
+			<rdg wit="fThomas">&lt;anchor type=&quot;collate&quot; xml:id=&quot;C25&quot;/&gt; &lt;milestone unit=&quot;chapter&quot; type=&quot;start&quot; n=&quot;18&quot;/&gt; </rdg>
+			<rdg wit="f1831">&lt;anchor type=&quot;collate&quot; xml:id=&quot;C25&quot;/&gt; &lt;milestone unit=&quot;chapter&quot; type=&quot;start&quot; n=&quot;19&quot;/&gt; </rdg>
 		</rdgGrp>
 	</app>
 	<app>
@@ -31,10 +14,13 @@
 			<rdg wit="f1823">&lt;pb xml:id=&quot;F1823_v2_382&quot; n=&quot;109&quot;/&gt; </rdg>
 			<rdg wit="fThomas">&lt;pb xml:id=&quot;F1818_v3_025&quot; n=&quot;021&quot;/&gt; </rdg>
 			<rdg wit="f1831">&lt;pb xml:id=&quot;F1831_v_155&quot; n=&quot;139&quot;/&gt; </rdg>
-			<rdg wit="fMS">&lt;anchor xml:id=&quot;c57-0092.02&quot;/&gt; </rdg>
+			<rdg wit="fMS">&lt;anchor type=&quot;collate&quot; xml:id=&quot;C25&quot;/&gt;&lt;lb n=&quot;c57-0092__main__1&quot;/&gt; </rdg>
 		</rdgGrp>
 	</app>
 	<app>
+		<rdgGrp n="['chap &lt;del&gt;11&lt;/del&gt; 2. ']">
+			<rdg wit="fMS">&lt;longToken&gt;&lt;milestone spanTo=&quot;#c57-0092.02&quot; unit=&quot;tei:head&quot;/&gt;Chap &lt;del rend=&quot;strikethrough&quot; xml:id=&quot;c57-0092__main__d4e16439&quot;&gt;11&lt;/del&gt; 2. &lt;anchor xml:id=&quot;c57-0092.02&quot;/&gt;&lt;/longToken&gt; </rdg>
+		</rdgGrp>
 		<rdgGrp n="['chapter ii.']">
 			<rdg wit="f1818">&lt;head&gt;CHAPTER II.&lt;/head&gt; </rdg>
 			<rdg wit="fThomas">&lt;head&gt;CHAPTER II.&lt;/head&gt; </rdg>
@@ -809,39 +795,28 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['an', 'inexhaustible', 'source']">
-			<rdg wit="f1818">an inexhaustible source </rdg>
-			<rdg wit="f1823">an inexhaustible source </rdg>
-			<rdg wit="fThomas">an inexhaustible source </rdg>
-			<rdg wit="f1831">an inexhaustible source </rdg>
-			<rdg wit="fMS">an inexhaustible source </rdg>
+		<rdgGrp n="['an', 'inexhaustible', 'source', 'of']">
+			<rdg wit="f1818">an inexhaustible source of </rdg>
+			<rdg wit="f1823">an inexhaustible source of </rdg>
+			<rdg wit="fThomas">an inexhaustible source of </rdg>
+			<rdg wit="f1831">an inexhaustible source of </rdg>
+			<rdg wit="fMS">an inexhaustible source of </rdg>
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['of', 'instruction', 'and', 'amusement.']">
-			<rdg wit="f1818">of instruction and amusement. </rdg>
-			<rdg wit="f1823">of instruction and amusement. </rdg>
-			<rdg wit="fThomas">of instruction and amusement. </rdg>
-			<rdg wit="f1831">of instruction and amusement. </rdg>
+		<rdgGrp n="['', 'observation and   ', '&lt;zone eid=&quot;c57-0093__left_margin&quot;/&gt; amusement.']">
+			<rdg wit="fMS">&lt;lb n=&quot;c57-0093__main__4&quot;/&gt;&lt;anchor xml:id=&quot;c57-0093.01&quot;/&gt;&lt;lb n=&quot;c57-0093__left_margin__1&quot;/&gt;&lt;sga-add sID=&quot;c57-0093__left_margin__d4e16680&quot;/&gt; &lt;longToken&gt;observation &amp;amp; &lt;sga-add eID=&quot;c57-0093__left_margin__d4e16680&quot;/&gt;   &lt;zone eID=&quot;c57-0093__left_margin&quot;/&gt; amusement.&lt;/longToken&gt; </rdg>
+		</rdgGrp>
+		<rdgGrp n="['instruction', 'and', 'amusement.']">
+			<rdg wit="f1818">instruction and amusement. </rdg>
+			<rdg wit="f1823">instruction and amusement. </rdg>
+			<rdg wit="fThomas">instruction and amusement. </rdg>
+			<rdg wit="f1831">instruction and amusement. </rdg>
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['he', 'was', 'also', 'pursuing', 'an', 'object', 'he', 'had', 'long', 'had', 'in', 'view.', 'his', 'design', 'was', 'to', 'visit', 'india,', 'in', 'the', 'belief', 'that', 'he', 'had', 'in', 'his', 'knowledge', 'of', 'its', 'various', 'languages,', 'and', 'in', 'the', 'views', 'he', 'had', 'taken', 'of', 'its', 'society,', 'the', 'means', 'of', 'materially', 'assisting', 'the', 'progress', 'of', 'european', 'colonisation', 'and', 'trade.', 'in', 'britain', 'only', 'could', 'he', 'further', 'the', 'execution']">
-			<rdg wit="f1831">He was also pursuing an object he had long had in view. His design was to visit India, in the belief that he had in his knowledge of its various languages, and in the views he had taken of its society, the means of materially assisting the progress of European colonisation and trade. In Britain only could he further the execution </rdg>
-		</rdgGrp>
-	</app>
-	<app>
-		<rdgGrp n="['of']">
-			<rdg wit="f1831">of </rdg>
-			<rdg wit="fMS">of </rdg>
-		</rdgGrp>
-	</app>
-	<app>
-		<rdgGrp n="['his', 'plan.']">
-			<rdg wit="f1831">his plan. </rdg>
-		</rdgGrp>
-		<rdgGrp n="['observation', 'andamusement.']">
-			<rdg wit="fMS">&lt;lb n=&quot;c57-0093__main__4&quot;/&gt;&lt;anchor xml:id=&quot;c57-0093.01&quot;/&gt;&lt;lb n=&quot;c57-0093__left_margin__1&quot;/&gt;&lt;sga-add sID=&quot;c57-0093__left_margin__d4e16680&quot;/&gt;observation &amp;&lt;sga-add eID=&quot;c57-0093__left_margin__d4e16680&quot;/&gt;amusement. </rdg>
+		<rdgGrp n="['he was also pursuing an object he had long had in view. his design was to visit india, in the belief that he had in his knowledge of its various languages, and in the views he had taken of its society, the means of materially assisting the progress of european colonisation and trade. in britain only could he further the execution of his plan.']">
+			<rdg wit="f1831">&lt;longToken&gt;He was also pursuing an object he had long had in view. His design was to visit India, in the belief that he had in his knowledge of its various languages, and in the views he had taken of its society, the means of materially assisting the progress of European colonisation and trade. In Britain only could he further the execution of his plan.&lt;/longToken&gt; </rdg>
 		</rdgGrp>
 	</app>
 	<app>
@@ -7995,28 +7970,14 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['a', 'joy', 'i', 'never', 'dared', 'promise', 'myself—']">
-			<rdg wit="fMS">&lt;lb n=&quot;c57-0102__main__22&quot;/&gt;a joy I never dared promise myself— </rdg>
+		<rdgGrp n="['a joy i never dared promise myself—   &lt;note&gt;finish chap. 2 here&lt;/note&gt;']">
+			<rdg wit="fMS">&lt;longToken&gt;&lt;lb n=&quot;c57-0102__main__22&quot;/&gt;a joy I never dared promise myself— &lt;lb n=&quot;c57-0102__main__23&quot;/&gt; &lt;note resp=&quot;#mws&quot;&gt;Finish Chap. 2 here&lt;/note&gt;&lt;/longToken&gt; </rdg>
 		</rdgGrp>
-		<rdgGrp n="['intermixed', 'with', 'obscure', 'forebodings', 'of', 'evil,', 'that', 'made', 'my', 'heart', 'sicken', 'in', 'my', 'bosom.', '&lt;p-end/&gt;']">
-			<rdg wit="f1818">intermixed with obscure forebodings of evil, that made my heart sicken in my bosom. &lt;p eID=&quot;novel1_letter4_chapter18_div4_div20_p23&quot;/&gt; </rdg>
-			<rdg wit="f1823">intermixed with obscure forebodings of evil, that made my heart sicken in my bosom. &lt;p eID=&quot;novel1_letter4_chapter18_div4_div19_p23&quot;/&gt; </rdg>
-			<rdg wit="fThomas">intermixed with obscure forebodings of evil, that made my heart sicken in my bosom. &lt;p eID=&quot;novel1_letter4_chapter18_div4_div20_p23&quot;/&gt; </rdg>
-			<rdg wit="f1831">intermixed with obscure forebodings of evil, that made my heart sicken in my bosom. &lt;p eID=&quot;novel1_letter4_chapter19_div4_div19_p23&quot;/&gt; </rdg>
-		</rdgGrp>
-	</app>
-	<app>
-		<rdgGrp n="['']">
-			<rdg wit="f1818">&lt;milestone unit=&quot;chapter&quot; type=&quot;end&quot; n=&quot;18&quot;/&gt; </rdg>
-			<rdg wit="f1823">&lt;milestone unit=&quot;chapter&quot; type=&quot;end&quot; n=&quot;18&quot;/&gt; </rdg>
-			<rdg wit="fThomas">&lt;milestone unit=&quot;chapter&quot; type=&quot;end&quot; n=&quot;18&quot;/&gt; </rdg>
-			<rdg wit="f1831">&lt;milestone unit=&quot;chapter&quot; type=&quot;end&quot; n=&quot;19&quot;/&gt; </rdg>
-			<rdg wit="fMS">&lt;lb n=&quot;c57-0102__main__23&quot;/&gt; </rdg>
-		</rdgGrp>
-	</app>
-	<app>
-		<rdgGrp n="['&lt;note&gt;finish chap. 2 here&lt;/note&gt;']">
-			<rdg wit="fMS">&lt;note resp=&quot;#mws&quot;&gt;Finish Chap. 2 here&lt;/note&gt; </rdg>
+		<rdgGrp n="['intermixed', 'with', 'obscure', 'forebodings', 'of', 'evil,', 'that', 'made', 'my', 'heart', 'sicken', 'in', 'my', 'bosom.', '&lt;p-end/&gt;', '']">
+			<rdg wit="f1818">intermixed with obscure forebodings of evil, that made my heart sicken in my bosom. &lt;p eID=&quot;novel1_letter4_chapter18_div4_div20_p23&quot;/&gt; &lt;milestone unit=&quot;chapter&quot; type=&quot;end&quot; n=&quot;18&quot;/&gt; </rdg>
+			<rdg wit="f1823">intermixed with obscure forebodings of evil, that made my heart sicken in my bosom. &lt;p eID=&quot;novel1_letter4_chapter18_div4_div19_p23&quot;/&gt; &lt;milestone unit=&quot;chapter&quot; type=&quot;end&quot; n=&quot;18&quot;/&gt; </rdg>
+			<rdg wit="fThomas">intermixed with obscure forebodings of evil, that made my heart sicken in my bosom. &lt;p eID=&quot;novel1_letter4_chapter18_div4_div20_p23&quot;/&gt; &lt;milestone unit=&quot;chapter&quot; type=&quot;end&quot; n=&quot;18&quot;/&gt; </rdg>
+			<rdg wit="f1831">intermixed with obscure forebodings of evil, that made my heart sicken in my bosom. &lt;p eID=&quot;novel1_letter4_chapter19_div4_div19_p23&quot;/&gt; &lt;milestone unit=&quot;chapter&quot; type=&quot;end&quot; n=&quot;19&quot;/&gt; </rdg>
 		</rdgGrp>
 	</app>
 	<app>
@@ -8029,4 +7990,4 @@
 		</rdgGrp>
 	</app>
 </cx:apparatus>
-<!-- 2023-06-26 02:56:44.821746 -->
+<!-- 2023-06-26 03:27:10.754408 -->
