@@ -92,16 +92,17 @@
     			instant="true" rend="strikethrough"
     			xml:id="c57-0047__main__d4e9077"&gt;know&lt;/del&gt; "No –They</rdg>
     	</rdgGrp>
-```
+	```
+
 - [x] Misalligned. "me" and "and" are in the next app for other versions. Need peer review help
   
 	- **2023-05-29 yxj** wrapped longToken around `abandoned me; and,` in 1831.
 	
-	- ```xml
-    <rdgGrp n="['abbandoned', 'me', 'and']">
-    	<rdg wit="fMS">abbandoned me and</rdg>
-    	</rdgGrp>
-```
+    ```xml
+        <rdgGrp n="['abbandoned', 'me', 'and']">
+            <rdg wit="fMS">abbandoned me and</rdg>
+            </rdgGrp>
+    ```
 
   
 
