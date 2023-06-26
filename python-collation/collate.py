@@ -237,7 +237,7 @@ def normalize(inputText):
     normalized = RE_ANCHOR.sub('', normalized)
     normalized = RE_LT_AMP.sub('and', normalized)
     normalized = RE_AMP.sub('and', normalized)
-    normalized = RE_WORD_START.sub('\\1', normalized)
+    normalized = RE_WORD_START.sub(' \\1', normalized)
     # 2023-05-22 ebb and yxj: We must replace WORD_START before the SPACE_LB.
     # WORD_START replacement ensures that the normalized token for <w ana='start'/>...<lb/>...<w ana="end"/>
     # does not get an added space. We need to ensure that these are treated as single word tokens
@@ -281,6 +281,8 @@ def normalize(inputText):
     normalized = RE_INCLUDE.sub('', normalized)
     normalized = RE_MULTI_RIGHTANGLE.sub('>', normalized)
     normalized = RE_MULTI_LEFTANGLE.sub('<', normalized)
+    normalized = re.sub(r'^\s+', '', normalized) # 2023-06-26 yxj: remvoe the space at the beginning
+    normalized = re.sub(r'\s+$', '', normalized) # 2023-06-26 yxj: remvoe the space at the end
     normalized = normalized.lower()
     return normalized
 
