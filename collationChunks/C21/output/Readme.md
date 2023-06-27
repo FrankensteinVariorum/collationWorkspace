@@ -186,7 +186,7 @@
     	```
 
 
-- [ ] "benevolenceand" in MS is muddled. It combines the word "benevolence" with "and".
+- [x] "benevolenceand" in MS is muddled. It combines the word "benevolence" with "and".
 
   ```xml
   <rdgGrp
@@ -204,7 +204,7 @@
   In the MS full flat file, it looks like this: `<w ana="start"/>bene<lb n="c57-0037__main__8"/>volence<w ana="end"/> &amp; `. The space after the end tag of `w` is ignored in tokenization in the partway file for some reason. 
 
 
-- [ ] Muddled combination in MS: `unfortunateand` 
+- [x] Muddled combination in MS: `unfortunateand` 
 
   ```xml
   <rdgGrp n="['unfortunateand']">
@@ -318,7 +318,7 @@
   </app>
   ```
 
-- [ ] ```xml
+- [x] ```xml
   <app>
       <rdgGrp
               n="['even', 'as', 'that', 'frail', 'image', 'and', 'that', 'inconstant', 'shade.', '&lt;p-end/&gt;', '&lt;p-start/&gt;', '&#34;i']">
