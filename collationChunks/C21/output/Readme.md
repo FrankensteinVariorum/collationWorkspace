@@ -208,9 +208,9 @@
 
   ```xml
   <rdgGrp n="['unfortunateand']">
-  			<rdg wit="fMS">&lt;w ana="start"/&gt;unfortu&lt;lb n="c57-0047__main__19"/&gt;nate&lt;w
-  				ana="end"/&gt;&amp;</rdg>
-  		</rdgGrp>
+      <rdg wit="fMS">&lt;w ana="start"/&gt;unfortu&lt;lb n="c57-0047__main__19"/&gt;nate&lt;w
+          ana="end"/&gt;&amp;</rdg>
+  </rdgGrp>
   ```
 
 
@@ -219,3 +219,187 @@
   ```xml
   I am unfortunate
    and <lb n="c57-0047__main__13"/>a Str
+
+  ```
+
+- [x] ### Less than 5 rdgs:
+
+- [x] ```xml
+  <!-- search `Fortunately the books` to locate -->
+  <app>
+      <rdgGrp n="['fortunately']">
+          <rdg wit="f1818">Fortunately</rdg>
+          <rdg wit="f1823">Fortunately</rdg>
+          <rdg wit="fThomas">Fortunately</rdg>
+          <rdg wit="f1831">Fortunately</rdg>
+      </rdgGrp>
+  </app>
+  ```
+
+- [x] ```xml
+  <app>
+      <rdgGrp n="['created']">
+          <rdg wit="f1818">created</rdg>
+          <rdg wit="fThomas">created</rdg>
+      </rdgGrp>
+      <rdgGrp n="['', '&lt;del&gt;self&lt;/del&gt;', '', 'created']">
+          <rdg wit="fMS">&lt;sga-add eID="c57-0040__main__d4e7182"/&gt;&lt;lb
+              n="c57-0040__main__16"/&gt; &lt;del rend="strikethrough"
+              xml:id="c57-0040__main__d4e7188"&gt;self&lt;/del&gt; &lt;anchor
+              xml:id="c57-0040.05"/&gt; created</rdg>
+      </rdgGrp>
+  </app>
+  ```
+
+- [x] ```xml
+  <!-- search `far different` to locate -->
+  <app>
+      <rdgGrp n="['far']">
+          <rdg wit="f1818">far</rdg>
+          <rdg wit="f1823">far</rdg>
+          <rdg wit="fThomas">far</rdg>
+          <rdg wit="f1831">far</rdg>
+      </rdgGrp>
+  </app>
+  ```
+
+- [ ] ```xml
+  <app>
+      <rdgGrp
+              n="['', '&lt;del&gt;but i would not disturb their&lt;/del&gt;', '', '&lt;del&gt; &lt;unclear extent=&#34;2&#34; unit=&#34;chars&#34;/&gt;he&lt;/del&gt;']">
+          <rdg wit="fMS">&lt;lb n="c57-0040__main__29"/&gt; &lt;del rend="strikethrough"
+              xml:id="c57-0040__main__d4e7319"&gt;But I would not disturb their&lt;/del&gt; &lt;lb
+              n="c57-0040__main__30"/&gt; &lt;del rend="strikethrough"
+              xml:id="c57-0040__main__d4e7324"&gt; &lt;unclear extent="2"
+              unit="chars"/&gt;he&lt;/del&gt;</rdg>
+      </rdgGrp>
+      <rdgGrp
+              n="['while neither the feeling of remorse of self accusation mingled with my throes; although the contempt with i was treated also prevented any sublime defiance to have a place in my mind.']">
+          <rdg wit="fThomas">&lt;add place="bottom"&gt;While neither the feeling of remorse of
+              self accusation mingled with my throes; although the contempt with I was treated
+              also prevented any sublime defiance to have a place in my mind.&lt;/add&gt;</rdg>
+      </rdgGrp>
+  </app>
+  ```
+
+- [x] ```xml
+  <app>
+      <rdgGrp n="['more', 'horrid']">
+          <rdg wit="f1818">more horrid</rdg>
+          <rdg wit="f1823">more horrid</rdg>
+          <rdg wit="fThomas">more horrid</rdg>
+          <rdg wit="f1831">more horrid</rdg>
+      </rdgGrp>
+  </app>
+  <app>
+      <rdgGrp n="['even']">
+          <rdg wit="f1823">even</rdg>
+          <rdg wit="f1831">even</rdg>
+      </rdgGrp>
+  </app>
+  <app>
+      <rdgGrp n="['from']">
+          <rdg wit="f1818">from</rdg>
+          <rdg wit="f1823">from</rdg>
+          <rdg wit="fThomas">from</rdg>
+          <rdg wit="f1831">from</rdg>
+      </rdgGrp>
+  </app>
+  ```
+
+- [x] ```xml
+  <app>
+      <rdgGrp n="['with', 'them']">
+          <rdg wit="f1818">with them</rdg>
+          <rdg wit="f1823">with them</rdg>
+          <rdg wit="fThomas">with them</rdg>
+          <rdg wit="f1831">with them</rdg>
+      </rdgGrp>
+  </app>
+  ```
+
+- [ ] ```xml
+  <app>
+      <rdgGrp
+              n="['even', 'as', 'that', 'frail', 'image', 'and', 'that', 'inconstant', 'shade.', '&lt;p-end/&gt;', '&lt;p-start/&gt;', '&#34;i']">
+          <rdg wit="f1818">even as that frail image and that inconstant shade. &lt;p
+              eID="novel1_letter4_chapter14_div4_div15_p10"/&gt; &lt;p
+              sID="novel1_letter4_chapter14_div4_div15_p11"/&gt; “I</rdg>
+          <rdg wit="f1823">even as that frail image and that inconstant shade. &lt;p
+              eID="novel1_letter4_chapter14_div4_div15_p10"/&gt; &lt;p
+              sID="novel1_letter4_chapter14_div4_div15_p11"/&gt; “I</rdg>
+          <rdg wit="fThomas">even as that frail image and that inconstant shade. &lt;p
+              eID="novel1_letter4_chapter14_div4_div15_p9"/&gt; &lt;p
+              sID="novel1_letter4_chapter14_div4_div15_p10"/&gt; “I</rdg>
+          <rdg wit="f1831">even as that frail image and that inconstant shade. &lt;p
+              eID="novel1_letter4_chapter15_div4_div15_p10"/&gt; &lt;p
+              sID="novel1_letter4_chapter15_div4_div15_p11"/&gt; “I</rdg>
+      </rdgGrp>
+  </app>
+  ```
+
+- [x] ```xml
+  <app>
+      <rdgGrp n="['worn']">
+          <rdg wit="f1818">worn</rdg>
+          <rdg wit="f1823">worn</rdg>
+          <rdg wit="fThomas">worn</rdg>
+          <rdg wit="f1831">worn</rdg>
+      </rdgGrp>
+  </app>
+  ```
+
+- [x] ```xml
+  <app>
+      <rdgGrp n="['realise']">
+          <rdg wit="f1831">realise</rdg>
+      </rdgGrp>
+      <rdgGrp n="['realize']">
+          <rdg wit="f1818">realize</rdg>
+          <rdg wit="f1823">realize</rdg>
+          <rdg wit="fThomas">realize</rdg>
+      </rdgGrp>
+  </app>
+  <app>
+      <rdgGrp n="['my', 'fears.']">
+          <rdg wit="f1818">my fears.</rdg>
+          <rdg wit="f1823">my fears.</rdg>
+          <rdg wit="fThomas">my fears.</rdg>
+          <rdg wit="f1831">my fears.</rdg>
+      </rdgGrp>
+  </app>
+  ```
+
+- [x] ```xml
+  <!-- search `when unprejudiced by` to locate -->
+  <app>
+      <rdgGrp n="['any']">
+          <rdg wit="f1818">any</rdg>
+          <rdg wit="f1823">any</rdg>
+          <rdg wit="fThomas">any</rdg>
+          <rdg wit="f1831">any</rdg>
+      </rdgGrp>
+  </app>
+  ```
+
+- [x] ```xml
+  <app>
+      <rdgGrp n="['of', 'your', 'tale,']">
+          <rdg wit="f1818">of your tale,</rdg>
+          <rdg wit="f1823">of your tale,</rdg>
+          <rdg wit="fThomas">of your tale,</rdg>
+          <rdg wit="f1831">of your tale,</rdg>
+      </rdgGrp>
+  </app>
+  ```
+
+- [x] ```xml
+  <app>
+      <rdgGrp n="['yet']">
+          <rdg wit="f1818">Yet</rdg>
+          <rdg wit="f1823">Yet</rdg>
+          <rdg wit="fThomas">Yet</rdg>
+          <rdg wit="f1831">Yet</rdg>
+      </rdgGrp>
+  </app>
+  ```
