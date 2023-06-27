@@ -267,4 +267,424 @@ he was wearing away his time
 </app>
 ```
 
- 
+- [ ] ### apps with less than 5 rdgs
+
+- [ ] ```xml
+  <app>
+      <rdgGrp n="['chapter iii.']">
+          <rdg wit="f1818">&lt;head&gt;CHAPTER III.&lt;/head&gt;</rdg>
+          <rdg wit="fThomas">&lt;head&gt;CHAPTER III.&lt;/head&gt;</rdg>
+      </rdgGrp>
+      <rdgGrp n="['chapter viii.']">
+          <rdg wit="f1823">&lt;head&gt;CHAPTER VIII.&lt;/head&gt;</rdg>
+      </rdgGrp>
+      <rdgGrp n="['chapter xx.']">
+          <rdg wit="f1831">&lt;head&gt;CHAPTER XX.&lt;/head&gt;</rdg>
+      </rdgGrp>
+  </app>
+  ```
+
+- [ ] ```xml
+  <app>
+      <rdgGrp n="['selfishness']">
+          <rdg wit="f1818">selfishness</rdg>
+          <rdg wit="f1823">selfishness</rdg>
+          <rdg wit="fThomas">selfishness</rdg>
+          <rdg wit="f1831">selfishness</rdg>
+      </rdgGrp>
+  </app>
+  ```
+
+- [ ] ```xml
+  <app>
+      <rdgGrp n="['solemn']">
+          <rdg wit="f1818">solemn</rdg>
+          <rdg wit="f1823">solemn</rdg>
+          <rdg wit="fThomas">solemn</rdg>
+          <rdg wit="f1831">solemn</rdg>
+      </rdgGrp>
+  </app>
+  ```
+
+- [ ] ```xml
+  <app>
+      <rdgGrp n="['the', 'sickening', 'oppression', 'of']">
+          <rdg wit="f1818">the sickening oppression of</rdg>
+          <rdg wit="f1823">the sickening oppression of</rdg>
+          <rdg wit="fThomas">the sickening oppression of</rdg>
+          <rdg wit="f1831">the sickening oppression of</rdg>
+      </rdgGrp>
+  </app>
+  ```
+
+- [ ] ```xml
+  <!-- search `Do you dare` to locate -->
+  <app>
+      <rdgGrp n="['to']">
+          <rdg wit="f1818">to</rdg>
+          <rdg wit="f1823">to</rdg>
+          <rdg wit="fThomas">to</rdg>
+          <rdg wit="f1831">to</rdg>
+      </rdgGrp>
+  </app>
+  ```
+
+- [ ] ```xml
+  <app>
+      <rdgGrp n="['of', 'scotland.']">
+          <rdg wit="f1823">of Scotland.</rdg>
+          <rdg wit="fThomas">of Scotland.</rdg>
+      </rdgGrp>
+  </app>
+  ```
+
+- [ ] ```xml
+  <!-- search `create another like` to locate -->
+  <app>
+      <rdgGrp n="['i']">
+          <rdg wit="f1818">I</rdg>
+          <rdg wit="f1823">I</rdg>
+          <rdg wit="fThomas">I</rdg>
+          <rdg wit="f1831">I</rdg>
+      </rdgGrp>
+  </app>
+  ```
+
+- [ ] ```xml
+  <!-- search `companion in vice` to locate -->
+  <app>
+      <rdgGrp n="['a']">
+          <rdg wit="f1818">a</rdg>
+          <rdg wit="f1823">a</rdg>
+          <rdg wit="fThomas">a</rdg>
+          <rdg wit="f1831">a</rdg>
+      </rdgGrp>
+  </app>
+  ```
+
+- [ ] ```xml
+  <!-- search `detestation and scorn` to locate -->
+  <app>
+      <rdgGrp n="['man!']">
+          <rdg wit="f1823">Man!</rdg>
+          <rdg wit="f1831">Man!</rdg>
+      </rdgGrp>
+      <rdgGrp n="['man,']">
+          <rdg wit="f1818">Man,</rdg>
+          <rdg wit="fThomas">Man,</rdg>
+      </rdgGrp>
+  </app>
+  ```
+
+- [ ] ```xml
+  <!-- search `my imagination conjured` to locate -->
+  <app>
+      <rdgGrp n="['while']">
+          <rdg wit="f1818">while</rdg>
+          <rdg wit="f1823">while</rdg>
+          <rdg wit="fThomas">while</rdg>
+          <rdg wit="f1831">while</rdg>
+      </rdgGrp>
+  </app>
+  ```
+
+- [ ] ```xml
+  <!-- search `again I thought` to locate -->
+  <app>
+      <rdgGrp n="['again']">
+          <rdg wit="f1818">again</rdg>
+          <rdg wit="f1823">again</rdg>
+          <rdg wit="fThomas">again</rdg>
+          <rdg wit="f1831">again</rdg>
+      </rdgGrp>
+  </app>
+  ```
+
+- [ ] ```xml
+  <!-- search `or to see those` to locate -->
+  <app>
+      <rdgGrp n="['whom']">
+          <rdg wit="f1818">whom</rdg>
+          <rdg wit="f1823">whom</rdg>
+          <rdg wit="fThomas">whom</rdg>
+          <rdg wit="f1831">whom</rdg>
+      </rdgGrp>
+  </app>
+  ```
+
+- [ ] ```xml
+  <app>
+      <rdgGrp n="['elapsed']">
+          <rdg wit="f1818">elapsed</rdg>
+          <rdg wit="f1823">elapsed</rdg>
+          <rdg wit="fThomas">elapsed</rdg>
+      </rdgGrp>
+      <rdgGrp n="['', '&lt;del&gt;passed&lt;/del&gt;', '', '', 'elapsed']">
+          <rdg wit="fMS">&lt;mod sID="c57-0110__main__d4e20178"/&gt; &lt;del rend="strikethrough"
+              xml:id="c57-0110__main__d4e20180"&gt;passed&lt;/del&gt; &lt;sga-add
+              place="sublinear" sID="c57-0110__main__d4e20183"/&gt; &lt;metamark
+              function="insert"&gt;^&lt;/metamark&gt; &lt;sga-add
+              eID="c57-0110__main__d4e20183"/&gt;&lt;sga-add place="superlinear"
+              sID="c57-0110__main__d4e20189"/&gt;elapsed</rdg>
+      </rdgGrp>
+  </app>
+  
+  <app>
+      <rdgGrp n="['since', 'we', 'had', 'quitted']">
+          <rdg wit="f1818">since we had quitted </rdg>
+          <rdg wit="f1823">since we had quitted </rdg>
+          <rdg wit="fThomas">since we had quitted </rdg>
+          <rdg wit="fMS">&lt;sga-add eID="c57-0110__main__d4e20189"/&gt;&lt;mod
+              eID="c57-0110__main__d4e20178"/&gt;since we had quitted</rdg>
+      </rdgGrp>
+  </app>
+  
+  <app>
+      <rdgGrp n="['switzerland']">
+          <rdg wit="fMS">Switzerland</rdg>
+      </rdgGrp>
+      <rdgGrp n="['switzerland,']">
+          <rdg wit="f1818">Switzerland,</rdg>
+          <rdg wit="f1823">Switzerland,</rdg>
+          <rdg wit="fThomas">Switzerland,</rdg>
+      </rdgGrp>
+  </app>
+  <app>
+      <rdgGrp n="['and', 'france', 'was', 'yet', 'unvisited.']">
+          <rdg wit="f1818">and France was yet unvisited.</rdg>
+          <rdg wit="f1823">and France was yet unvisited.</rdg>
+          <rdg wit="fThomas">and France was yet unvisited.</rdg>
+          <rdg wit="fMS">&lt;lb n="c57-0110__main__2"/&gt;and France was yet unvisited.</rdg>
+      </rdgGrp>
+  </app>
+  ```
+
+- [ ] ```xml
+  <app>
+      <rdgGrp n="['in', 'a', 'week', 'from']">
+          <rdg wit="f1818">in a week from</rdg>
+          <rdg wit="f1823">in a week from</rdg>
+          <rdg wit="fThomas">in a week from</rdg>
+          <rdg wit="fMS">in a week from</rdg>
+      </rdgGrp>
+  </app>
+  ```
+
+- [ ] ```xml
+  <!-- search `we might` to locate -->
+  <app>
+      <rdgGrp n="['time']">
+          <rdg wit="fMS">&lt;lb n="c57-0110__main__5"/&gt;time</rdg>
+      </rdgGrp>
+      <rdgGrp n="['time,']">
+          <rdg wit="f1818">time,</rdg>
+          <rdg wit="f1823">time,</rdg>
+          <rdg wit="fThomas">time,</rdg>
+      </rdgGrp>
+  </app>
+  <app>
+      <rdgGrp n="['when']">
+          <rdg wit="f1818">when</rdg>
+          <rdg wit="f1823">when</rdg>
+          <rdg wit="fThomas">when</rdg>
+          <rdg wit="fMS">when</rdg>
+      </rdgGrp>
+  </app>
+  ```
+
+- [ ] ```xml
+  <app>
+      <rdgGrp n="['the', 'plan', 'of', 'our', 'future', 'proceedings.']">
+          <rdg wit="f1818">the plan of our future proceedings.</rdg>
+          <rdg wit="f1823">the plan of our future proceedings.</rdg>
+          <rdg wit="fThomas">the plan of our future proceedings.</rdg>
+      </rdgGrp>
+      <rdgGrp
+              n="['&lt;del&gt;our&lt;/del&gt;', 'the', 'plan', 'of', 'our', 'future', 'proceedings.']">
+          <rdg wit="fMS">&lt;del rend="strikethrough"
+              xml:id="c57-0110__main__d4e20205"&gt;our&lt;/del&gt; the plan &lt;lb
+              n="c57-0110__main__6"/&gt;of our future proceedings.</rdg>
+      </rdgGrp>
+  </app>
+  ```
+
+- [ ] ```xml
+  <!-- search `reflect: I must pack` to locate -->
+  <app>
+      <rdgGrp n="['up']">
+          <rdg wit="f1823">up</rdg>
+          <rdg wit="f1831">up</rdg>
+      </rdgGrp>
+  </app>
+  ```
+
+- [ ] ```xml
+  <!-- search `could be more complete` to locate -->
+  <app>
+      <rdgGrp n="['a']">
+          <rdg wit="f1818">a</rdg>
+          <rdg wit="f1823">a</rdg>
+          <rdg wit="fThomas">a</rdg>
+          <rdg wit="f1831">a</rdg>
+      </rdgGrp>
+  </app>
+  ```
+
+- [ ] ```xml
+  <!-- search `chilled by the north-east` to locate -->
+  <app>
+      <rdgGrp n="['then']">
+          <rdg wit="f1818">then</rdg>
+          <rdg wit="f1823">then</rdg>
+          <rdg wit="fThomas">then</rdg>
+          <rdg wit="f1831">then</rdg>
+      </rdgGrp>
+  </app>
+  ```
+
+- [ ] ```xml
+  <!-- search `rising. But it refreshed` to locate -->
+  <app>
+      <rdgGrp n="['me,']">
+          <rdg wit="f1818">me,</rdg>
+          <rdg wit="f1823">me,</rdg>
+          <rdg wit="fThomas">me,</rdg>
+          <rdg wit="f1831">me,</rdg>
+      </rdgGrp>
+  </app>
+  ```
+
+- [ ] ```xml
+  <!-- search `or be swallowed up in` to locate -->
+  <app>
+      <rdgGrp n="['the']">
+          <rdg wit="f1818">the</rdg>
+          <rdg wit="f1823">the</rdg>
+          <rdg wit="fThomas">the</rdg>
+          <rdg wit="f1831">the</rdg>
+      </rdgGrp>
+  </app>
+  ```
+
+- [ ] ```xml
+  <app>
+      <rdgGrp n="['&lt;note&gt;thomas copy: pencil mark joins paragraphs.&lt;/note&gt;']">
+          <rdg wit="fThomas">&lt;note resp="#ebb"&gt;Thomas copy: pencil mark joins
+              paragraphs.&lt;/note&gt;</rdg>
+      </rdgGrp>
+      <rdgGrp n="['&lt;p-end/&gt;', '&lt;p-start/&gt;']">
+          <rdg wit="f1818">&lt;p eID="novel1_letter4_chapter19_div4_div21_p26"/&gt; &lt;p
+              sID="novel1_letter4_chapter19_div4_div21_p27"/&gt;</rdg>
+          <rdg wit="f1823">&lt;p eID="novel1_letter4_chapter19_div4_div20_p26"/&gt; &lt;p
+              sID="novel1_letter4_chapter19_div4_div20_p27"/&gt;</rdg>
+          <rdg wit="f1831">&lt;p eID="novel1_letter4_chapter20_div4_div20_p26"/&gt; &lt;p
+              sID="novel1_letter4_chapter20_div4_div20_p27"/&gt;</rdg>
+      </rdgGrp>
+  </app>
+  ```
+
+- [ ] ```xml
+  <app>
+      <rdgGrp n="['flood', 'of']">
+          <rdg wit="f1818">flood of</rdg>
+          <rdg wit="f1823">flood of</rdg>
+          <rdg wit="fThomas">flood of</rdg>
+          <rdg wit="f1831">flood of</rdg>
+      </rdgGrp>
+  </app>
+  ```
+
+- [ ] ```xml
+  <!-- search `It had a wild` to locate -->
+  <app>
+      <rdgGrp n="['and']">
+          <rdg wit="f1818">and</rdg>
+          <rdg wit="f1823">and</rdg>
+          <rdg wit="fThomas">and</rdg>
+          <rdg wit="f1831">and</rdg>
+      </rdgGrp>
+  </app>
+  ```
+
+- [ ] ```xml
+  <!-- search `could most easily procure` to locate -->
+  <app>
+      <rdgGrp n="['i']">
+          <rdg wit="f1818">I</rdg>
+          <rdg wit="f1823">I</rdg>
+          <rdg wit="fThomas">I</rdg>
+          <rdg wit="f1831">I</rdg>
+      </rdgGrp>
+  </app>
+  ```
+
+- [ ] ```xml
+  <!-- search `much surprised at my` to locate -->
+  <app>
+      <rdgGrp n="['very']">
+          <rdg wit="f1818">very</rdg>
+          <rdg wit="fThomas">very</rdg>
+          <rdg wit="fMS">very</rdg>
+      </rdgGrp>
+  </app>
+  ```
+
+- [ ] ```xml
+  <!-- search `that they spoke` to locate -->
+  <app>
+      <rdgGrp n="['english;']">
+          <rdg wit="f1818">English;</rdg>
+          <rdg wit="f1823">English;</rdg>
+          <rdg wit="fThomas">English;</rdg>
+          <rdg wit="f1831">English;</rdg>
+      </rdgGrp>
+  </app>
+  ```
+
+- [ ] ```xml
+  <!-- search `therefore addressed` to locate -->
+  <app>
+      <rdgGrp n="['i']">
+          <rdg wit="f1818">I</rdg>
+          <rdg wit="f1823">I</rdg>
+          <rdg wit="fThomas">I</rdg>
+          <rdg wit="f1831">I</rdg>
+      </rdgGrp>
+  </app>
+  ```
+
+- [ ] ```xml
+  <!-- search `it is not the custom of` to locate -->
+  <app>
+      <rdgGrp n="['&#34;surely']">
+          <rdg wit="f1818">“surely</rdg>
+          <rdg wit="f1823">“surely</rdg>
+          <rdg wit="fThomas">“surely</rdg>
+          <rdg wit="f1831">“surely</rdg>
+      </rdgGrp>
+  </app>
+  ```
+
+- [ ] ```xml
+  <!-- search `in a few moments` to locate -->
+  <app>
+      <rdgGrp n="['to']">
+          <rdg wit="f1818">to</rdg>
+          <rdg wit="f1823">to</rdg>
+          <rdg wit="fThomas">to</rdg>
+          <rdg wit="f1831">to</rdg>
+      </rdgGrp>
+  </app>
+  ```
+
+- [ ] ```xml
+  <!-- search `events which` to locate -->
+  <app>
+      <rdgGrp n="['frightful']">
+          <rdg wit="f1818">frightful</rdg>
+          <rdg wit="f1823">frightful</rdg>
+          <rdg wit="fThomas">frightful</rdg>
+          <rdg wit="f1831">frightful</rdg>
+      </rdgGrp>
+  </app>
+  ```
