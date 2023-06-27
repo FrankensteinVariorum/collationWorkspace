@@ -4,51 +4,51 @@
 
   ```xml
   <app>
-  		<rdgGrp n="['']">
-  			<rdg wit="f1818">&lt;pb xml:id="F1818_v3_044" n="040"/&gt;</rdg>
-  			<rdg wit="f1823">&lt;pb xml:id="F1823_v2_401" n="128"/&gt;</rdg>
-  			<rdg wit="fThomas">&lt;pb xml:id="F1818_v3_044" n="040"/&gt;</rdg>
-  			<rdg wit="f1831">&lt;pb xml:id="F1831_v_162" n="146"/&gt;</rdg>
-  		</rdgGrp>
-  		<rdgGrp n="['&lt;p-start/&gt;', 'one', 'evening']">
-  			<rdg wit="fMS">&lt;milestone unit="tei:p-START"/&gt; &lt;lb
-  				n="c57-0102__main__24"/&gt;One evening</rdg>
-  		</rdgGrp>
-  	</app>
-  	<app>
-  		<rdgGrp n="['chapter iii.']">
-  			<rdg wit="f1818">&lt;head&gt;CHAPTER III.&lt;/head&gt;</rdg>
-  			<rdg wit="fThomas">&lt;head&gt;CHAPTER III.&lt;/head&gt;</rdg>
-  		</rdgGrp>
-  		<rdgGrp n="['chapter viii.']">
-  			<rdg wit="f1823">&lt;head&gt;CHAPTER VIII.&lt;/head&gt;</rdg>
-  		</rdgGrp>
-  		<rdgGrp n="['chapter xx.']">
-  			<rdg wit="f1831">&lt;head&gt;CHAPTER XX.&lt;/head&gt;</rdg>
-  		</rdgGrp>
-  	</app>
-  	<app>
-  		<rdgGrp n="['&lt;p-start/&gt;']">
-  			<rdg wit="f1818">&lt;p sID="novel1_letter4_chapter19_div4_div21_p1"/&gt;</rdg>
-  			<rdg wit="f1823">&lt;p sID="novel1_letter4_chapter19_div4_div20_p1"/&gt;</rdg>
-  			<rdg wit="fThomas">&lt;p sID="novel1_letter4_chapter19_div4_div21_p1"/&gt;</rdg>
-  			<rdg wit="f1831">&lt;p sID="novel1_letter4_chapter20_div4_div20_p1"/&gt;</rdg>
-  		</rdgGrp>
-  	</app>
-  	<app>
-  		<rdgGrp n="['i', 'sat']">
-  			<rdg wit="f1818">I &lt;hi sID="novel1_letter4_chapter19_div4_div21_p1_hi1"/&gt;SAT&lt;hi
-  				eID="novel1_letter4_chapter19_div4_div21_p1_hi1"/&gt;</rdg>
-  			<rdg wit="f1823">I &lt;hi sID="novel1_letter4_chapter19_div4_div20_p1_hi1"/&gt;SAT&lt;hi
-  				eID="novel1_letter4_chapter19_div4_div20_p1_hi1"/&gt;</rdg>
-  			<rdg wit="fThomas">I &lt;hi
-  				sID="novel1_letter4_chapter19_div4_div21_p1_hi1"/&gt;SAT&lt;hi
-  				eID="novel1_letter4_chapter19_div4_div21_p1_hi1"/&gt;</rdg>
-  			<rdg wit="f1831">I &lt;hi sID="novel1_letter4_chapter20_div4_div20_p1_hi1"/&gt;SAT&lt;hi
-  				eID="novel1_letter4_chapter20_div4_div20_p1_hi1"/&gt;</rdg>
-  			<rdg wit="fMS">I sat</rdg>
-  		</rdgGrp>
-  	</app>
+      <rdgGrp n="['']">
+          <rdg wit="f1818">&lt;pb xml:id="F1818_v3_044" n="040"/&gt;</rdg>
+          <rdg wit="f1823">&lt;pb xml:id="F1823_v2_401" n="128"/&gt;</rdg>
+          <rdg wit="fThomas">&lt;pb xml:id="F1818_v3_044" n="040"/&gt;</rdg>
+          <rdg wit="f1831">&lt;pb xml:id="F1831_v_162" n="146"/&gt;</rdg>
+      </rdgGrp>
+      <rdgGrp n="['&lt;p-start/&gt;', 'one', 'evening']">
+          <rdg wit="fMS">&lt;milestone unit="tei:p-START"/&gt; &lt;lb
+              n="c57-0102__main__24"/&gt;One evening</rdg>
+      </rdgGrp>
+  </app>
+  <app>
+      <rdgGrp n="['chapter iii.']">
+          <rdg wit="f1818">&lt;head&gt;CHAPTER III.&lt;/head&gt;</rdg>
+          <rdg wit="fThomas">&lt;head&gt;CHAPTER III.&lt;/head&gt;</rdg>
+      </rdgGrp>
+      <rdgGrp n="['chapter viii.']">
+          <rdg wit="f1823">&lt;head&gt;CHAPTER VIII.&lt;/head&gt;</rdg>
+      </rdgGrp>
+      <rdgGrp n="['chapter xx.']">
+          <rdg wit="f1831">&lt;head&gt;CHAPTER XX.&lt;/head&gt;</rdg>
+      </rdgGrp>
+  </app>
+  <app>
+      <rdgGrp n="['&lt;p-start/&gt;']">
+          <rdg wit="f1818">&lt;p sID="novel1_letter4_chapter19_div4_div21_p1"/&gt;</rdg>
+          <rdg wit="f1823">&lt;p sID="novel1_letter4_chapter19_div4_div20_p1"/&gt;</rdg>
+          <rdg wit="fThomas">&lt;p sID="novel1_letter4_chapter19_div4_div21_p1"/&gt;</rdg>
+          <rdg wit="f1831">&lt;p sID="novel1_letter4_chapter20_div4_div20_p1"/&gt;</rdg>
+      </rdgGrp>
+  </app>
+  <app>
+      <rdgGrp n="['i', 'sat']">
+          <rdg wit="f1818">I &lt;hi sID="novel1_letter4_chapter19_div4_div21_p1_hi1"/&gt;SAT&lt;hi
+              eID="novel1_letter4_chapter19_div4_div21_p1_hi1"/&gt;</rdg>
+          <rdg wit="f1823">I &lt;hi sID="novel1_letter4_chapter19_div4_div20_p1_hi1"/&gt;SAT&lt;hi
+              eID="novel1_letter4_chapter19_div4_div20_p1_hi1"/&gt;</rdg>
+          <rdg wit="fThomas">I &lt;hi
+              sID="novel1_letter4_chapter19_div4_div21_p1_hi1"/&gt;SAT&lt;hi
+              eID="novel1_letter4_chapter19_div4_div21_p1_hi1"/&gt;</rdg>
+          <rdg wit="f1831">I &lt;hi sID="novel1_letter4_chapter20_div4_div20_p1_hi1"/&gt;SAT&lt;hi
+              eID="novel1_letter4_chapter20_div4_div20_p1_hi1"/&gt;</rdg>
+          <rdg wit="fMS">I sat</rdg>
+      </rdgGrp>
+  </app>
   ```
 
 - [x] merge two apps by wrapping `sufficient light` by longToken in 1818, 1823, Thomas, and 1831:
@@ -284,7 +284,8 @@ he was wearing away his time
   </app>
   ```
 
-- [ ] ```xml
+- [x] ```xml
+  <!-- search `had not hesitated` to locate -->
   <app>
       <rdgGrp n="['selfishness']">
           <rdg wit="f1818">selfishness</rdg>
@@ -294,8 +295,8 @@ he was wearing away his time
       </rdgGrp>
   </app>
   ```
-
-- [ ] ```xml
+  
+- [x] ```xml
   <app>
       <rdgGrp n="['solemn']">
           <rdg wit="f1818">solemn</rdg>
@@ -306,7 +307,7 @@ he was wearing away his time
   </app>
   ```
 
-- [ ] ```xml
+- [x] ```xml
   <app>
       <rdgGrp n="['the', 'sickening', 'oppression', 'of']">
           <rdg wit="f1818">the sickening oppression of</rdg>
@@ -317,7 +318,7 @@ he was wearing away his time
   </app>
   ```
 
-- [ ] ```xml
+- [x] ```xml
   <!-- search `Do you dare` to locate -->
   <app>
       <rdgGrp n="['to']">
@@ -329,7 +330,7 @@ he was wearing away his time
   </app>
   ```
 
-- [ ] ```xml
+- [x] ```xml
   <app>
       <rdgGrp n="['of', 'scotland.']">
           <rdg wit="f1823">of Scotland.</rdg>
@@ -338,7 +339,7 @@ he was wearing away his time
   </app>
   ```
 
-- [ ] ```xml
+- [x] ```xml
   <!-- search `create another like` to locate -->
   <app>
       <rdgGrp n="['i']">
@@ -350,8 +351,8 @@ he was wearing away his time
   </app>
   ```
 
-- [ ] ```xml
-  <!-- search `companion in vice` to locate -->
+- [x] ```xml
+  <!-- search `in vice` to locate -->
   <app>
       <rdgGrp n="['a']">
           <rdg wit="f1818">a</rdg>
@@ -362,7 +363,7 @@ he was wearing away his time
   </app>
   ```
 
-- [ ] ```xml
+- [x] ```xml
   <!-- search `detestation and scorn` to locate -->
   <app>
       <rdgGrp n="['man!']">
@@ -376,7 +377,7 @@ he was wearing away his time
   </app>
   ```
 
-- [ ] ```xml
+- [x] ```xml
   <!-- search `my imagination conjured` to locate -->
   <app>
       <rdgGrp n="['while']">
@@ -388,7 +389,7 @@ he was wearing away his time
   </app>
   ```
 
-- [ ] ```xml
+- [x] ```xml
   <!-- search `again I thought` to locate -->
   <app>
       <rdgGrp n="['again']">
@@ -400,7 +401,7 @@ he was wearing away his time
   </app>
   ```
 
-- [ ] ```xml
+- [x] ```xml
   <!-- search `or to see those` to locate -->
   <app>
       <rdgGrp n="['whom']">
@@ -412,7 +413,7 @@ he was wearing away his time
   </app>
   ```
 
-- [ ] ```xml
+- [x] ```xml
   <app>
       <rdgGrp n="['elapsed']">
           <rdg wit="f1818">elapsed</rdg>
@@ -459,7 +460,7 @@ he was wearing away his time
   </app>
   ```
 
-- [ ] ```xml
+- [x] ```xml
   <app>
       <rdgGrp n="['in', 'a', 'week', 'from']">
           <rdg wit="f1818">in a week from</rdg>
@@ -470,7 +471,7 @@ he was wearing away his time
   </app>
   ```
 
-- [ ] ```xml
+- [x] ```xml
   <!-- search `we might` to locate -->
   <app>
       <rdgGrp n="['time']">
@@ -492,7 +493,7 @@ he was wearing away his time
   </app>
   ```
 
-- [ ] ```xml
+- [x] ```xml
   <app>
       <rdgGrp n="['the', 'plan', 'of', 'our', 'future', 'proceedings.']">
           <rdg wit="f1818">the plan of our future proceedings.</rdg>
@@ -508,7 +509,7 @@ he was wearing away his time
   </app>
   ```
 
-- [ ] ```xml
+- [x] ```xml
   <!-- search `reflect: I must pack` to locate -->
   <app>
       <rdgGrp n="['up']">
@@ -518,7 +519,7 @@ he was wearing away his time
   </app>
   ```
 
-- [ ] ```xml
+- [x] ```xml
   <!-- search `could be more complete` to locate -->
   <app>
       <rdgGrp n="['a']">
@@ -530,7 +531,7 @@ he was wearing away his time
   </app>
   ```
 
-- [ ] ```xml
+- [x] ```xml
   <!-- search `chilled by the north-east` to locate -->
   <app>
       <rdgGrp n="['then']">
@@ -542,8 +543,8 @@ he was wearing away his time
   </app>
   ```
 
-- [ ] ```xml
-  <!-- search `rising. But it refreshed` to locate -->
+- [x] ```xml
+  <!-- search `rising. But` to locate -->
   <app>
       <rdgGrp n="['me,']">
           <rdg wit="f1818">me,</rdg>
@@ -554,7 +555,7 @@ he was wearing away his time
   </app>
   ```
 
-- [ ] ```xml
+- [x] ```xml
   <!-- search `or be swallowed up in` to locate -->
   <app>
       <rdgGrp n="['the']">
@@ -566,7 +567,7 @@ he was wearing away his time
   </app>
   ```
 
-- [ ] ```xml
+- [x] ```xml
   <app>
       <rdgGrp n="['&lt;note&gt;thomas copy: pencil mark joins paragraphs.&lt;/note&gt;']">
           <rdg wit="fThomas">&lt;note resp="#ebb"&gt;Thomas copy: pencil mark joins
@@ -583,7 +584,7 @@ he was wearing away his time
   </app>
   ```
 
-- [ ] ```xml
+- [x] ```xml
   <app>
       <rdgGrp n="['flood', 'of']">
           <rdg wit="f1818">flood of</rdg>
@@ -594,8 +595,8 @@ he was wearing away his time
   </app>
   ```
 
-- [ ] ```xml
-  <!-- search `It had a wild` to locate -->
+- [x] ```xml
+  <!-- search `It had a` to locate -->
   <app>
       <rdgGrp n="['and']">
           <rdg wit="f1818">and</rdg>
@@ -606,7 +607,7 @@ he was wearing away his time
   </app>
   ```
 
-- [ ] ```xml
+- [x] ```xml
   <!-- search `could most easily procure` to locate -->
   <app>
       <rdgGrp n="['i']">
@@ -618,7 +619,7 @@ he was wearing away his time
   </app>
   ```
 
-- [ ] ```xml
+- [x] ```xml
   <!-- search `much surprised at my` to locate -->
   <app>
       <rdgGrp n="['very']">
@@ -629,8 +630,8 @@ he was wearing away his time
   </app>
   ```
 
-- [ ] ```xml
-  <!-- search `that they spoke` to locate -->
+- [x] ```xml
+  <!-- search `spoke English` to locate -->
   <app>
       <rdgGrp n="['english;']">
           <rdg wit="f1818">English;</rdg>
@@ -641,7 +642,7 @@ he was wearing away his time
   </app>
   ```
 
-- [ ] ```xml
+- [x] ```xml
   <!-- search `therefore addressed` to locate -->
   <app>
       <rdgGrp n="['i']">
@@ -653,7 +654,7 @@ he was wearing away his time
   </app>
   ```
 
-- [ ] ```xml
+- [x] ```xml
   <!-- search `it is not the custom of` to locate -->
   <app>
       <rdgGrp n="['&#34;surely']">
@@ -665,8 +666,8 @@ he was wearing away his time
   </app>
   ```
 
-- [ ] ```xml
-  <!-- search `in a few moments` to locate -->
+- [x] ```xml
+  <!-- search `in a few` to locate -->
   <app>
       <rdgGrp n="['to']">
           <rdg wit="f1818">to</rdg>
@@ -677,8 +678,8 @@ he was wearing away his time
   </app>
   ```
 
-- [ ] ```xml
-  <!-- search `events which` to locate -->
+- [x] ```xml
+  <!-- search `frightful events` to locate -->
   <app>
       <rdgGrp n="['frightful']">
           <rdg wit="f1818">frightful</rdg>
