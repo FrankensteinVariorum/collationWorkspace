@@ -209,7 +209,7 @@
   ```xml
   <rdgGrp n="['unfortunateand']">
       <rdg wit="fMS">&lt;w ana="start"/&gt;unfortu&lt;lb n="c57-0047__main__19"/&gt;nate&lt;w
-          ana="end"/&gt;&amp;</rdg>
+          ana="pullend"/&gt;&amp;</rdg>
   </rdgGrp>
   ```
 
