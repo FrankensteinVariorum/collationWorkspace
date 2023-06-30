@@ -30,6 +30,8 @@ regexPageBreak = re.compile(r'<pb.+?/>', re.DOTALL)
 RE_MARKUP = re.compile(r'<.+?>', re.DOTALL)
 RE_WORD_START = re.compile(r'<w ana="start"/>(.+)<lb[^<>]+>')
 RE_WORD_END = re.compile(r'<w ana="end"/>')
+# RE_HI_START = re.compile(r'<hi\ssID.+?/>')
+# RE_HI_END = re.compile(r'<hi\seID.+?/>')
 RE_PARASTART = re.compile(r'<p\ssID.+?/>')
 RE_PARAEND = re.compile(r'<p\seID.+?/>')
 RE_INCLUDE = re.compile(r'<include.*?/>')
@@ -257,7 +259,8 @@ def normalize(inputText):
     normalized = RE_LT_END.sub('', normalized)
     normalized = RE_HEAD_START.sub('', normalized)
     normalized = RE_HEAD_END.sub('', normalized)
-    normalized = RE_HI.sub('', normalized)
+    # 2023-06-30 nlh: added space inside <hi/> normalization.
+    normalized = RE_HI.sub(' ', normalized)
 
     # 2022-08-08 ebb: Sometimes <hi> in the print editions seems irrelevant, in highlighting words at
     # chapter beginnings. However, it also sometimes indicates emphasis on a word.
