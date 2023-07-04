@@ -1,3 +1,42 @@
+## Hand fix
+
+- delete space between `i` and `t` which seperate by `hi` element. 
+
+  ```xml
+  <app>
+      <rdgGrp n="[&#34;chap. 17   it was eight o'clock&#34;]">
+          <rdg wit="fMS">&lt;longToken&gt;Chap. 17 &lt;anchor xml:id="c57-0147.07"/&gt; &lt;lb
+              n="c57-0147__main__2"/&gt;It was eight o'clock&lt;/longToken&gt;</rdg>
+      </rdgGrp>
+      <rdgGrp n="['chapter vi. &lt;p-start/&gt;i t  was eight o’clock']">
+          <rdg wit="f1818">&lt;longToken&gt;&lt;head&gt;CHAPTER VI.&lt;/head&gt; &lt;p
+              sID="novel1_letter4_chapter22_div4_div24_p1"/&gt;I&lt;hi
+              sID="novel1_letter4_chapter22_div4_div24_p1_hi1"/&gt;T&lt;hi
+              eID="novel1_letter4_chapter22_div4_div24_p1_hi1"/&gt; was eight
+              o’clock&lt;/longToken&gt;</rdg>
+          <rdg wit="fThomas">&lt;longToken&gt;&lt;head&gt;CHAPTER VI.&lt;/head&gt; &lt;p
+              sID="novel1_letter4_chapter22_div4_div24_p1"/&gt;I&lt;hi
+              sID="novel1_letter4_chapter22_div4_div24_p1_hi1"/&gt;T&lt;hi
+              eID="novel1_letter4_chapter22_div4_div24_p1_hi1"/&gt; was eight
+              o’clock&lt;/longToken&gt;</rdg>
+      </rdgGrp>
+      <rdgGrp n="['chapter xi. &lt;p-start/&gt;i t  was eight o’clock']">
+          <rdg wit="f1823">&lt;longToken&gt;&lt;head&gt;CHAPTER XI.&lt;/head&gt; &lt;p
+              sID="novel1_letter4_chapter22_div4_div23_p1"/&gt;I&lt;hi
+              sID="novel1_letter4_chapter22_div4_div23_p1_hi1"/&gt;T&lt;hi
+              eID="novel1_letter4_chapter22_div4_div23_p1_hi1"/&gt; was eight
+              o’clock&lt;/longToken&gt;</rdg>
+      </rdgGrp>
+      <rdgGrp n="['chapter xxiii. &lt;p-start/&gt;i t  was eight o’clock']">
+          <rdg wit="f1831">&lt;longToken&gt;&lt;head&gt;CHAPTER XXIII.&lt;/head&gt; &lt;p
+              sID="novel1_letter4_chapter23_div4_div23_p1"/&gt;I&lt;hi
+              sID="novel1_letter4_chapter23_div4_div23_p1_hi1"/&gt;T&lt;hi
+              eID="novel1_letter4_chapter23_div4_div23_p1_hi1"/&gt; was eight
+              o’clock&lt;/longToken&gt;</rdg>
+      </rdgGrp>
+  </app>
+  ```
+
 ### app with less than 5 rdgs
 
 - [x] Long texts in Thomas are wrapped in `<del>` and `<add>` which are treated as `<longToken>`. As such, several apps miss`<rdg>` for  Thomas. Search `inn` to check out the last `<app>` with less 5 rdgs caused by this problem. 
