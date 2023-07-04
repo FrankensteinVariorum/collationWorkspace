@@ -4236,23 +4236,38 @@
 	</app>
 
 	<app>
-		<rdgGrp n="['', 'characterize', '&lt;del&gt;that&lt;/del&gt;', 'that', 'class.']">
+		<rdgGrp n="['']">
 			<rdg wit="fMS">&lt;sga-add eID="c57-0121__main__d4e22479"/&gt;&lt;mod
-				eID="c57-0121__main__d4e22468"/&gt; &lt;longToken&gt;characterize&lt;/longToken&gt;
-				&lt;del rend="strikethrough" xml:id="c57-0121__main__d4e22483"&gt;that&lt;/del&gt;
-				&lt;lb n="c57-0122__main__1"/&gt;that class.</rdg>
+				eID="c57-0121__main__d4e22468"/&gt;</rdg>
 		</rdgGrp>
-		<rdgGrp n="['characterise that class.']">
-			<rdg wit="f1831">&lt;longToken&gt;characterise that class.&lt;/longToken&gt;</rdg>
+		<rdgGrp n="['characterise']">
+			<rdg wit="f1831">characterise</rdg>
 		</rdgGrp>
-		<rdgGrp n="['characterixe that class.']">
-			<rdg wit="f1818">&lt;longToken&gt;characterixe that class.&lt;/longToken&gt;</rdg>
-			<rdg wit="fThomas">&lt;longToken&gt;characterixe that class.&lt;/longToken&gt;</rdg>
-		</rdgGrp>
-		<rdgGrp n="['characterize that class.']">
-			<rdg wit="f1823">&lt;longToken&gt;characterize that class.&lt;/longToken&gt;</rdg>
+		<rdgGrp n="['characterixe']">
+			<rdg wit="f1818">characterixe</rdg>
+			<rdg wit="fThomas">characterixe</rdg>
 		</rdgGrp>
 	</app>
+	<app>
+		<rdgGrp n="['characterize']">
+			<rdg wit="f1823">characterize</rdg>
+			<rdg wit="fMS">characterize</rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['that', 'class.']">
+			<rdg wit="f1818">that class.</rdg>
+			<rdg wit="f1823">that class.</rdg>
+			<rdg wit="fThomas">that class.</rdg>
+			<rdg wit="f1831">that class.</rdg>
+		</rdgGrp>
+		<rdgGrp n="['&lt;del&gt;that&lt;/del&gt;', 'that', 'class.']">
+			<rdg wit="fMS">&lt;del rend="strikethrough"
+				xml:id="c57-0121__main__d4e22483"&gt;that&lt;/del&gt; &lt;lb
+				n="c57-0122__main__1"/&gt;that class.</rdg>
+		</rdgGrp>
+	</app>
+
 	<app>
 		<rdgGrp n="['the', 'lines', 'of']">
 			<rdg wit="f1818">The lines of</rdg>
@@ -4505,11 +4520,11 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['', '&lt;mdel&gt;s&lt;/mdel&gt;', 'sir,']">
+		<rdgGrp n="['', '&lt;mdel&gt;s&lt;/mdel&gt;', 's', '', 'ir,']">
 			<rdg wit="fMS">&lt;mod sID="c57-0122__main__d4e22561"/&gt; &lt;mdel&gt;s&lt;/mdel&gt;
-				&lt;sga-add place="intralinear" sID="c57-0122__main__d4e22565"/&gt;S&lt;sga-add
-				eID="c57-0122__main__d4e22565"/&gt;&lt;mod
-				eID="c57-0122__main__d4e22561"/&gt;ir,</rdg>
+				&lt;sga-add place="intralinear" sID="c57-0122__main__d4e22565"/&gt;S &lt;sga-add
+				eID="c57-0122__main__d4e22565"/&gt;&lt;mod eID="c57-0122__main__d4e22561"/&gt;
+				ir,</rdg>
 		</rdgGrp>
 		<rdgGrp n="['sir?&#34;']">
 			<rdg wit="f1818">Sir?”</rdg>
@@ -7029,16 +7044,15 @@
 	</app>
 
 	<app>
-		<rdgGrp
-			n="['', 'hospitality &lt;del&gt;but prejudiced against you.&lt;/del&gt;  siezed immediately and charged with', 'murder']">
-			<rdg wit="fMS">&lt;lb n="c57-0125__main__7"/&gt; &lt;longToken&gt;hospitality &lt;del
-				rend="strikethrough" xml:id="c57-0125__main__d4e23123"&gt;but prejudiced against
-				you.&lt;/del&gt; &lt;lb n="c57-0125__main__8"/&gt;Siezed immediately &amp; charged
-				with&lt;/longToken&gt; murder</rdg>
-		</rdgGrp>
 		<rdgGrp n="['hospitality ;']">
 			<rdg wit="fThomas">hospitality&lt;hi
 				eID="novel1_letter4_chapter20_div4_div22_p26_hi1"/&gt;;</rdg>
+		</rdgGrp>
+		<rdgGrp
+			n="['hospitality', '&lt;del&gt;but prejudiced against you.&lt;/del&gt;', 'siezed', 'immediately']">
+			<rdg wit="fMS">&lt;lb n="c57-0125__main__7"/&gt;hospitality &lt;del rend="strikethrough"
+				xml:id="c57-0125__main__d4e23123"&gt;but prejudiced against you.&lt;/del&gt; &lt;lb
+				n="c57-0125__main__8"/&gt;Siezed immediately</rdg>
 		</rdgGrp>
 		<rdgGrp n="['hospitality;']">
 			<rdg wit="f1818">hospitality;</rdg>
@@ -7047,21 +7061,31 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['seized immediately,']">
-			<rdg wit="f1818">&lt;longToken&gt;seized immediately,&lt;/longToken&gt;</rdg>
-			<rdg wit="fThomas">&lt;longToken&gt;seized immediately,&lt;/longToken&gt;</rdg>
-			<rdg wit="f1831">&lt;longToken&gt;seized immediately,&lt;/longToken&gt;</rdg>
-		</rdgGrp>
 		<rdgGrp n="['seized', 'immediately,']">
+			<rdg wit="f1818">seized immediately,</rdg>
 			<rdg wit="f1823">seized immediately,</rdg>
+			<rdg wit="fThomas">seized immediately,</rdg>
+			<rdg wit="f1831">seized immediately,</rdg>
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['and', 'charged', 'with', 'murder.']">
-			<rdg wit="f1818">and charged with murder.</rdg>
-			<rdg wit="f1823">and charged with murder.</rdg>
-			<rdg wit="fThomas">and charged with murder.</rdg>
-			<rdg wit="f1831">and charged with murder.</rdg>
+		<rdgGrp n="['and', 'charged', 'with']">
+			<rdg wit="f1818">and charged with</rdg>
+			<rdg wit="f1823">and charged with</rdg>
+			<rdg wit="fThomas">and charged with</rdg>
+			<rdg wit="f1831">and charged with</rdg>
+			<rdg wit="fMS">&amp; charged with</rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['murder']">
+			<rdg wit="fMS">murder</rdg>
+		</rdgGrp>
+		<rdgGrp n="['murder.']">
+			<rdg wit="f1818">murder.</rdg>
+			<rdg wit="f1823">murder.</rdg>
+			<rdg wit="fThomas">murder.</rdg>
+			<rdg wit="f1831">murder.</rdg>
 		</rdgGrp>
 	</app>
 	<app>
@@ -8797,7 +8821,7 @@
 	<app>
 		<rdgGrp n="['safe', 'and', 'elizabeth', 'and', 'ernest.']">
 			<rdg wit="fMS">&lt;lb n="c57-0127__main__10"/&gt;safe &amp; Elizabeth &amp;
-				&lt;longToken&gt;Ernest.&lt;/longToken&gt;</rdg>
+				Ernest.</rdg>
 		</rdgGrp>
 		<rdgGrp n="['safe—and', 'elizabeth—and']">
 			<rdg wit="f1818">safe—and Elizabeth—and</rdg>
@@ -8807,13 +8831,13 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['ernest ?&#34;']">
-			<rdg wit="f1823">&lt;longToken&gt;Ernest ?”&lt;/longToken&gt;</rdg>
+		<rdgGrp n="['ernest', '?&#34;']">
+			<rdg wit="f1823">Ernest ?”</rdg>
 		</rdgGrp>
 		<rdgGrp n="['ernest?&#34;']">
-			<rdg wit="f1818">&lt;longToken&gt;Ernest?”&lt;/longToken&gt;</rdg>
-			<rdg wit="fThomas">&lt;longToken&gt;Ernest?”&lt;/longToken&gt;</rdg>
-			<rdg wit="f1831">&lt;longToken&gt;Ernest?”&lt;/longToken&gt;</rdg>
+			<rdg wit="f1818">Ernest?”</rdg>
+			<rdg wit="fThomas">Ernest?”</rdg>
+			<rdg wit="f1831">Ernest?”</rdg>
 		</rdgGrp>
 	</app>
 	<app>
@@ -10415,40 +10439,40 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['on', 'its', 'being', 'proved', 'that']">
-			<rdg wit="f1818">on its being proved that</rdg>
-			<rdg wit="f1823">on its being proved that</rdg>
+		<rdgGrp n="['on', 'its', 'being', 'proved', 'that', 'i', 'was']">
+			<rdg wit="f1818">on its being proved that I was</rdg>
+			<rdg wit="f1823">on its being proved that I was</rdg>
 			<rdg wit="fThomas">&lt;hi sID="novel1_letter4_chapter20_div4_div22_p44_hi1"/&gt;on&lt;hi
-				eID="novel1_letter4_chapter20_div4_div22_p44_hi1"/&gt; its being proved that</rdg>
-			<rdg wit="f1831">on its being proved that</rdg>
-			<rdg wit="fMS">on its being &lt;lb n="c57-0129__main__7"/&gt;proved that</rdg>
+				eID="novel1_letter4_chapter20_div4_div22_p44_hi1"/&gt; its being proved that I
+				was</rdg>
+			<rdg wit="f1831">on its being proved that I was</rdg>
+			<rdg wit="fMS">on its being &lt;lb n="c57-0129__main__7"/&gt;proved that I was</rdg>
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['i was in']">
-			<rdg wit="fMS">&lt;longToken&gt;I was in&lt;/longToken&gt;</rdg>
-		</rdgGrp>
-		<rdgGrp n="['i', 'was', 'on']">
-			<rdg wit="f1818">I was on</rdg>
-			<rdg wit="f1823">I was on</rdg>
-			<rdg wit="fThomas">I was &lt;hi
-				sID="novel1_letter4_chapter20_div4_div22_p44_hi2"/&gt;on&lt;hi
+		<rdgGrp n="['on']">
+			<rdg wit="f1818">on</rdg>
+			<rdg wit="f1823">on</rdg>
+			<rdg wit="fThomas">&lt;hi sID="novel1_letter4_chapter20_div4_div22_p44_hi2"/&gt;on&lt;hi
 				eID="novel1_letter4_chapter20_div4_div22_p44_hi2"/&gt;</rdg>
-			<rdg wit="f1831">I was on</rdg>
+			<rdg wit="f1831">on</rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['in']">
+			<rdg wit="fThomas">&lt;add place="margin"&gt;in&lt;/add&gt;</rdg>
+			<rdg wit="fMS">in</rdg>
 		</rdgGrp>
 	</app>
 	<app>
 		<rdgGrp n="['the', 'orkney']">
 			<rdg wit="f1818">the Orkney</rdg>
 			<rdg wit="f1823">the Orkney</rdg>
+			<rdg wit="fThomas">the Orkney</rdg>
 			<rdg wit="f1831">the Orkney</rdg>
 			<rdg wit="fMS">the orkney</rdg>
 		</rdgGrp>
-		<rdgGrp n="['in', 'the', 'orkney']">
-			<rdg wit="fThomas">&lt;add place="margin"&gt;in&lt;/add&gt; the Orkney</rdg>
-		</rdgGrp>
 	</app>
-
 	<app>
 		<rdgGrp n="['island', '&lt;del&gt;the&lt;/del&gt;']">
 			<rdg wit="fMS">Island &lt;del rend="strikethrough"
@@ -13843,4 +13867,4 @@
 		</rdgGrp>
 	</app>
 </cx:apparatus>
-<!-- 2023-07-04 18:05:59.458645 -->
+<!-- 2023-07-03 19:19:18.513470 -->
