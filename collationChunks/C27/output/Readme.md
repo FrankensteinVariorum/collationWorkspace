@@ -118,7 +118,7 @@
 	</app>
 	```
     - Put longToken around 'seized immediately' in all versions.	
-- [] This section is misaligned. Ernest should be in next &lt;app&gt; node. 
+- [X] This section is misaligned. Ernest should be in next &lt;app&gt; node. 
 	 ```xml
 	<app>
 		<rdgGrp n="['safe', 'and', 'elizabeth', 'and', 'ernest.']">
@@ -144,7 +144,7 @@
 	</app>
 	```
     - put a longToken around 'Ernest.' in all versions 
-- [] This section is fine, I think. However, the it is quite messy and one of the &lt;app&gt; groups only have two witnesses.
+- [X] This section is fine, I think. However, the it is quite messy and one of the &lt;app&gt; groups only have two witnesses.
 	 ```xml
 	<app>
 		<rdgGrp n="['on']">
@@ -172,7 +172,7 @@
 	</app>
 	```
     - I will wrap 'I was on/in' in manuscript.	
-- [] This section is fine, however it is a bit awkward.
+- [X] This section is fine, however it is a bit awkward.
 	 ```xml
 	<app>
 		<rdgGrp n="['an', 'agitation']">
@@ -207,3 +207,85 @@
     - Wrapped longToken around 'was too great an agitation to be' in all versions . 
 - [] At the near bottom of the collation chunk, a large section of the 1831 version is completely reworked, compared to the others.
     - I wrapped the entire rewritten section in a longToken. 
+- [] This section is misaligned. 'death' should be in the next &lt;app&gt;
+	 ```xml
+	<app>
+		<rdgGrp n="['in']">
+			<rdg wit="f1818">in</rdg>
+			<rdg wit="f1823">in</rdg>
+			<rdg wit="fThomas">in</rdg>
+			<rdg wit="f1831">in</rdg>
+		</rdgGrp>
+		<rdgGrp n="['of', 'death']">
+			<rdg wit="fMS">of death</rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['death,']">
+			<rdg wit="f1818">death,</rdg>
+			<rdg wit="fThomas">death,</rdg>
+		</rdgGrp>
+		<rdgGrp n="['death.']">
+			<rdg wit="f1823">death.</rdg>
+			<rdg wit="f1831">death.</rdg>
+		</rdgGrp>
+	</app>
+	```
+    - put longToken around 'death' in manuscript. 
+- [X] This section is fine. However, the schema marks it as yellow on the file. It is annoying.
+	 ```xml
+	<app>
+		<rdgGrp n="['that', 'faintly', 'reminds']">
+			<rdg wit="f1818">&lt;pb xml:id="F1818_v3_074" n="070"/&gt;that faintly reminds</rdg>
+			<rdg wit="fThomas">&lt;pb xml:id="F1818_v3_074" n="070"/&gt;that faintly reminds</rdg>
+			<rdg wit="fMS">that &lt;lb n="c57-0120__main__8"/&gt;faintly reminds</rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['me']">
+			<rdg wit="f1818">me</rdg>
+			<rdg wit="fThomas">me</rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['of', 'the', 'anguish', 'of']">
+			<rdg wit="f1818">of the anguish of</rdg>
+			<rdg wit="fThomas">of the anguish of</rdg>
+			<rdg wit="fMS">of the anguish of</rdg>
+		</rdgGrp>
+	</app>
+	```
+    - Wrap each 'that faintly reminds me of the anguish of recognition.' in a longToken
+- [] This section is fine. But it may look cleaner and remove the schema marker if 'which to me was' was pushed into the neighboring &lt;app&gt;
+	```
+	<app>
+		<rdgGrp n="['be', 'let', 'loose']">
+			<rdg wit="f1818">be let loose</rdg>
+			<rdg wit="fThomas">be let loose</rdg>
+			<rdg wit="fMS">be &lt;lb n="c57-0124__main__5"/&gt;let loose</rdg>
+		</rdgGrp>
+		<rdgGrp n="['remain', 'in a world which to me was replete with wretchedness.']">
+			<rdg wit="f1823">remain &lt;longToken&gt;in a world which to me was replete with
+				wretchedness.&lt;/longToken&gt;</rdg>
+			<rdg wit="f1831">remain &lt;longToken&gt;in a world which to me was replete with
+				wretchedness.&lt;/longToken&gt;</rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['in a world replete with &lt;del&gt;whrect&lt;/del&gt;   wretchedness.', '']">
+			<rdg wit="fMS">&lt;longToken&gt;in a world replete with &lt;del rend="strikethrough"
+				xml:id="c57-0124__main__d4e22942"&gt;whrect&lt;/del&gt; &lt;lb
+				n="c57-0124__main__6"/&gt; &lt;sga-add hand="#pbs" place="superlinear"
+				sID="c57-0124__main__d4e22947"/&gt;wretchedness.&lt;/longToken&gt; &lt;sga-add
+				eID="c57-0124__main__d4e22947"/&gt;&lt;anchor xml:id="c57-0124.02"/&gt;</rdg>
+		</rdgGrp>
+		<rdgGrp n="['in a world replete with wretchedness.']">
+			<rdg wit="f1818">&lt;longToken&gt;in a world replete with
+				wretchedness.&lt;/longToken&gt;</rdg>
+			<rdg wit="fThomas">&lt;longToken&gt;in a world replete with
+				wretchedness.&lt;/longToken&gt;</rdg>
+		</rdgGrp>
+	</app>
+	```
+    - longToken around 'in a world replete with wretchedness.' for all versions
+    - 2023-07-04: As of this timemark, the current changes to this section failed to align appropriately.

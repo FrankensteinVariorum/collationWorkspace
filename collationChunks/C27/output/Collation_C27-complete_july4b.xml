@@ -2771,29 +2771,52 @@
 	</app>
 
 	<app>
-		<rdgGrp
-			n="['agony', 'that   &lt;damage type=&#34;inkblot&#34;&gt;fa&lt;/damage&gt;intly reminds of the anguish of     the     recognition .']">
-			<rdg wit="fMS">agony &lt;longToken&gt;that &lt;lb n="c57-0120__main__8"/&gt; &lt;damage
-				type="inkblot"&gt;fa&lt;/damage&gt;intly reminds of the anguish of &lt;mod
-				sID="c57-0120__main__d4e22115"/&gt; &lt;sga-add place="sublinear"
-				sID="c57-0120__main__d4e22117"/&gt; &lt;metamark
-				function="insert"&gt;^&lt;/metamark&gt; &lt;sga-add
-				eID="c57-0120__main__d4e22117"/&gt; &lt;sga-add hand="#pbs" place="superlinear"
-				sID="c57-0120__main__d4e22123"/&gt;the &lt;sga-add
-				eID="c57-0120__main__d4e22123"/&gt; &lt;mod eID="c57-0120__main__d4e22115"/&gt;
-				&lt;w ana="start"/&gt;recogni&lt;lb n="c57-0120__main__9"/&gt;tion&lt;w
-				ana="end"/&gt;.&lt;/longToken&gt;</rdg>
+		<rdgGrp n="['agony']">
+			<rdg wit="fMS">agony</rdg>
 		</rdgGrp>
-		<rdgGrp n="['agony,', '', 'that faintly reminds me of the anguish of recognition.']">
-			<rdg wit="f1818">agony, &lt;pb xml:id="F1818_v3_074" n="070"/&gt; &lt;longToken&gt;that
-				faintly reminds me of the anguish of recognition.&lt;/longToken&gt;</rdg>
-			<rdg wit="fThomas">agony, &lt;pb xml:id="F1818_v3_074" n="070"/&gt;
-				&lt;longToken&gt;that faintly reminds me of the anguish of
-				recognition.&lt;/longToken&gt;</rdg>
+		<rdgGrp n="['agony,']">
+			<rdg wit="f1818">agony,</rdg>
+			<rdg wit="fThomas">agony,</rdg>
 		</rdgGrp>
 		<rdgGrp n="['agony.']">
 			<rdg wit="f1823">agony.</rdg>
 			<rdg wit="f1831">agony.</rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['that', 'faintly', 'reminds']">
+			<rdg wit="f1818">&lt;pb xml:id="F1818_v3_074" n="070"/&gt;that faintly reminds</rdg>
+			<rdg wit="fThomas">&lt;pb xml:id="F1818_v3_074" n="070"/&gt;that faintly reminds</rdg>
+			<rdg wit="fMS">that &lt;lb n="c57-0120__main__8"/&gt;faintly reminds</rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['me']">
+			<rdg wit="f1818">me</rdg>
+			<rdg wit="fThomas">me</rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['of', 'the', 'anguish', 'of']">
+			<rdg wit="f1818">of the anguish of</rdg>
+			<rdg wit="fThomas">of the anguish of</rdg>
+			<rdg wit="fMS">of the anguish of</rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['', '', 'the', 'recognition .']">
+			<rdg wit="fMS">&lt;mod sID="c57-0120__main__d4e22115"/&gt;&lt;sga-add place="sublinear"
+				sID="c57-0120__main__d4e22117"/&gt; &lt;metamark
+				function="insert"&gt;^&lt;/metamark&gt; &lt;sga-add
+				eID="c57-0120__main__d4e22117"/&gt;&lt;sga-add hand="#pbs" place="superlinear"
+				sID="c57-0120__main__d4e22123"/&gt;the &lt;sga-add
+				eID="c57-0120__main__d4e22123"/&gt;&lt;mod eID="c57-0120__main__d4e22115"/&gt;&lt;w
+				ana="start"/&gt;recogni&lt;lb n="c57-0120__main__9"/&gt;tion&lt;w
+				ana="end"/&gt;.</rdg>
+		</rdgGrp>
+		<rdgGrp n="['recognition.']">
+			<rdg wit="f1818">recognition.</rdg>
+			<rdg wit="fThomas">recognition.</rdg>
 		</rdgGrp>
 	</app>
 	<app>
@@ -6062,7 +6085,7 @@
 			<rdg wit="f1831">in</rdg>
 		</rdgGrp>
 		<rdgGrp n="['of', 'death']">
-			<rdg wit="fMS">of &lt;longToken&gt;death&lt;/longToken&gt;</rdg>
+			<rdg wit="fMS">of death</rdg>
 		</rdgGrp>
 	</app>
 	<app>
@@ -6171,38 +6194,62 @@
 			<rdg wit="fThomas">be let loose</rdg>
 			<rdg wit="fMS">be &lt;lb n="c57-0124__main__5"/&gt;let loose</rdg>
 		</rdgGrp>
-		<rdgGrp n="['remain', 'in a world which to me was replete with wretchedness.']">
-			<rdg wit="f1823">remain &lt;longToken&gt;in a world which to me was replete with
-				wretchedness.&lt;/longToken&gt;</rdg>
-			<rdg wit="f1831">remain &lt;longToken&gt;in a world which to me was replete with
-				wretchedness.&lt;/longToken&gt;</rdg>
+		<rdgGrp n="['remain']">
+			<rdg wit="f1823">remain</rdg>
+			<rdg wit="f1831">remain</rdg>
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['in a world replete with &lt;del&gt;whrect&lt;/del&gt;   wretchedness.', '']">
-			<rdg wit="fMS">&lt;longToken&gt;in a world replete with &lt;del rend="strikethrough"
-				xml:id="c57-0124__main__d4e22942"&gt;whrect&lt;/del&gt; &lt;lb
-				n="c57-0124__main__6"/&gt; &lt;sga-add hand="#pbs" place="superlinear"
-				sID="c57-0124__main__d4e22947"/&gt;wretchedness.&lt;/longToken&gt; &lt;sga-add
-				eID="c57-0124__main__d4e22947"/&gt;&lt;anchor xml:id="c57-0124.02"/&gt;</rdg>
-		</rdgGrp>
-		<rdgGrp n="['in a world replete with wretchedness.']">
-			<rdg wit="f1818">&lt;longToken&gt;in a world replete with
-				wretchedness.&lt;/longToken&gt;</rdg>
-			<rdg wit="fThomas">&lt;longToken&gt;in a world replete with
-				wretchedness.&lt;/longToken&gt;</rdg>
+		<rdgGrp n="['in', 'a', 'world']">
+			<rdg wit="f1818">in a world</rdg>
+			<rdg wit="f1823">in a world</rdg>
+			<rdg wit="fThomas">in a world</rdg>
+			<rdg wit="f1831">in a world</rdg>
+			<rdg wit="fMS">in a world</rdg>
 		</rdgGrp>
 	</app>
+	<app>
+		<rdgGrp n="['which', 'to', 'me', 'was']">
+			<rdg wit="f1823">which to me was</rdg>
+			<rdg wit="f1831">which to me was</rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['replete', 'with']">
+			<rdg wit="f1818">replete with</rdg>
+			<rdg wit="f1823">replete with</rdg>
+			<rdg wit="fThomas">replete with</rdg>
+			<rdg wit="f1831">replete with</rdg>
+			<rdg wit="fMS">replete with</rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['wretchedness.']">
+			<rdg wit="f1818">wretchedness.</rdg>
+			<rdg wit="f1823">wretchedness.</rdg>
+			<rdg wit="fThomas">wretchedness.</rdg>
+			<rdg wit="f1831">wretchedness.</rdg>
+		</rdgGrp>
+		<rdgGrp n="['&lt;del&gt;whrect&lt;/del&gt;', 'wretchedness.']">
+			<rdg wit="fMS">&lt;del rend="strikethrough"
+				xml:id="c57-0124__main__d4e22942"&gt;whrect&lt;/del&gt; &lt;lb
+				n="c57-0124__main__6"/&gt;&lt;sga-add hand="#pbs" place="superlinear"
+				sID="c57-0124__main__d4e22947"/&gt;wretchedness.</rdg>
+		</rdgGrp>
+	</app>
+
 	<app>
 		<rdgGrp n="['at', 'one', 'time', 'i', 'considered', 'whether', 'i', 'should', 'not']">
-			<rdg wit="f1818">At one time I considered whether I should not</rdg>
-			<rdg wit="f1823">At one time I considered whether I should not</rdg>
-			<rdg wit="fThomas">At one time I considered whether I should not</rdg>
-			<rdg wit="f1831">At one time I considered whether I should not</rdg>
-			<rdg wit="fMS">At one time I considered whether &lt;lb n="c57-0124__main__7"/&gt;I
-				should not</rdg>
+			<rdg wit="f1818">At one time I considered whether I should not </rdg>
+			<rdg wit="f1823">At one time I considered whether I should not </rdg>
+			<rdg wit="fThomas">At one time I considered whether I should not </rdg>
+			<rdg wit="f1831">At one time I considered whether I should not </rdg>
+			<rdg wit="fMS">&lt;sga-add eID="c57-0124__main__d4e22947"/&gt;&lt;anchor
+				xml:id="c57-0124.02"/&gt;At one time I considered whether &lt;lb
+				n="c57-0124__main__7"/&gt;I should not</rdg>
 		</rdgGrp>
 	</app>
+
 	<app>
 		<rdgGrp n="['declare']">
 			<rdg wit="f1818">declare</rdg>
@@ -10359,8 +10406,11 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['i was in']">
-			<rdg wit="fMS">&lt;longToken&gt;I was in&lt;/longToken&gt;</rdg>
+		<rdgGrp
+			n="['i was in the &lt;unclear reason=&#34;case&#34;&gt;o&lt;/unclear&gt;rkney', 'island', '&lt;del&gt;the&lt;/del&gt;']">
+			<rdg wit="fMS">&lt;longToken&gt;I was in the &lt;unclear
+				reason="case"&gt;o&lt;/unclear&gt;rkney&lt;/longToken&gt; Island &lt;del
+				rend="strikethrough" xml:id="c57-0129__main__d4e23856"&gt;the&lt;/del&gt;</rdg>
 		</rdgGrp>
 		<rdgGrp n="['i', 'was', 'on']">
 			<rdg wit="f1818">I was on</rdg>
@@ -10372,29 +10422,16 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['the', 'orkney']">
-			<rdg wit="f1818">the Orkney</rdg>
-			<rdg wit="f1823">the Orkney</rdg>
-			<rdg wit="f1831">the Orkney</rdg>
-			<rdg wit="fMS">the orkney</rdg>
+		<rdgGrp n="['the', 'orkney', 'islands']">
+			<rdg wit="f1818">the Orkney Islands</rdg>
+			<rdg wit="f1823">the Orkney Islands</rdg>
+			<rdg wit="f1831">the Orkney Islands</rdg>
 		</rdgGrp>
-		<rdgGrp n="['in', 'the', 'orkney']">
-			<rdg wit="fThomas">&lt;add place="margin"&gt;in&lt;/add&gt; the Orkney</rdg>
+		<rdgGrp n="['in', 'the', 'orkney', 'islands']">
+			<rdg wit="fThomas">&lt;add place="margin"&gt;in&lt;/add&gt; the Orkney Islands</rdg>
 		</rdgGrp>
 	</app>
 
-	<app>
-		<rdgGrp n="['island', '&lt;del&gt;the&lt;/del&gt;']">
-			<rdg wit="fMS">Island &lt;del rend="strikethrough"
-				xml:id="c57-0129__main__d4e23856"&gt;the&lt;/del&gt;</rdg>
-		</rdgGrp>
-		<rdgGrp n="['islands']">
-			<rdg wit="f1818">Islands</rdg>
-			<rdg wit="f1823">Islands</rdg>
-			<rdg wit="fThomas">Islands</rdg>
-			<rdg wit="f1831">Islands</rdg>
-		</rdgGrp>
-	</app>
 	<app>
 		<rdgGrp n="['at', 'the', 'hour', 'the', 'body']">
 			<rdg wit="f1818">at the hour the body</rdg>
@@ -13515,4 +13552,4 @@
 		</rdgGrp>
 	</app>
 </cx:apparatus>
-<!-- 2023-07-04 20:24:29.292298 -->
+<!-- 2023-07-04 19:12:06.378277 -->
