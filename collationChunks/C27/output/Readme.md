@@ -1,28 +1,5 @@
 # chunk 27 notes
 ## initial schema review
-- [ ] These nodes are fine. However, it may be cleaner to longToken each one and put them in a single &lt;app&gt; group.
-	 ```xml
-        <app>
-		<rdgGrp n="['that', 'faintly', 'reminds']">
-			<rdg wit="f1818">&lt;pb xml:id="F1818_v3_074" n="070"/&gt;that faintly reminds</rdg>
-			<rdg wit="fThomas">&lt;pb xml:id="F1818_v3_074" n="070"/&gt;that faintly reminds</rdg>
-			<rdg wit="fMS">that &lt;lb n="c57-0120__main__8"/&gt;faintly reminds</rdg>
-		</rdgGrp>
-	</app>
-	<app>
-		<rdgGrp n="['me']">
-			<rdg wit="f1818">me</rdg>
-			<rdg wit="fThomas">me</rdg>
-		</rdgGrp>
-	</app>
-	<app>
-		<rdgGrp n="['of', 'the', 'anguish', 'of']">
-			<rdg wit="f1818">of the anguish of</rdg>
-			<rdg wit="fThomas">of the anguish of</rdg>
-			<rdg wit="fMS">of the anguish of</rdg>
-		</rdgGrp>
-	</app>
-	```
 - [X] This chunk is misaligned. Any variation of 'characterize' are in all versions of Frankenstein. Should be under one &lt;app&gt; node.  
 	 ```xml
         <app>
