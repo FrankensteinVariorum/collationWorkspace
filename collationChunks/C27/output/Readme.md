@@ -23,7 +23,7 @@
 		</rdgGrp>
 	</app>
 	```
-- [] This chunk is misaligned. Any variation of 'characterize' are in all versions of Frankenstein. Should be under one &lt;app&gt; node.  
+- [X] This chunk is misaligned. Any variation of 'characterize' are in all versions of Frankenstein. Should be under one &lt;app&gt; node.  
 	 ```xml
         <app>
 		<rdgGrp n="['']">
@@ -46,7 +46,7 @@
 	</app>	
 	```
     - I put longTokens around each variation of 'characterize'. 	
-- [] This section is fine. However, 'sir' is split in two different tokens. 
+- [X] This section is fine. However, 'sir' is split in two different tokens. 
 	 ```
 	 	<app>
 		<rdgGrp n="['', '&lt;mdel&gt;s&lt;/mdel&gt;', 's', '', 'ir,']">
@@ -89,7 +89,7 @@
 		</rdgGrp>
 	</app>
 	```
-- [] This section (specifically the manuscript) is misaligned. 'siezed immedietely' should be in the next &lt;app&gt; node. 
+- [X] This section (specifically the manuscript) is misaligned. 'siezed immedietely' should be in the next &lt;app&gt; node. 
 	 ```xml
 	<app>
 		<rdgGrp n="['hospitality ;']">
@@ -117,7 +117,7 @@
 		</rdgGrp>
 	</app>
 	```
-    - Put longToken around 'seized immediately' in manuscript.	
+    - Put longToken around 'seized immediately' in all versions.	
 - [] This section is misaligned. Ernest should be in next &lt;app&gt; node. 
 	 ```xml
 	<app>
@@ -143,7 +143,7 @@
 		</rdgGrp>
 	</app>
 	```
-    - put a longToken around 'Ernest.' in manuscript 
+    - put a longToken around 'Ernest.' in all versions 
 - [] This section is fine, I think. However, the it is quite messy and one of the &lt;app&gt; groups only have two witnesses.
 	 ```xml
 	<app>
@@ -171,4 +171,39 @@
 		</rdgGrp>
 	</app>
 	```
-    - I will wrap 'I was on/in the Orkney' in manuscript.	
+    - I will wrap 'I was on/in' in manuscript.	
+- [] This section is fine, however it is a bit awkward.
+	 ```xml
+	<app>
+		<rdgGrp n="['an', 'agitation']">
+			<rdg wit="f1818">an agitation</rdg>
+			<rdg wit="f1823">an agitation</rdg>
+			<rdg wit="fThomas">an agitation</rdg>
+			<rdg wit="f1831">an agitation</rdg>
+		</rdgGrp>
+		<rdgGrp n="['too', 'great', 'an', 'agitation']">
+			<rdg wit="fMS">too great &lt;lb n="c57-0127__main__25"/&gt;an agitation</rdg>
+		</rdgGrp>
+	</app>
+
+	<app>
+		<rdgGrp n="['too', 'great']">
+			<rdg wit="f1818">too great</rdg>
+			<rdg wit="f1823">too great</rdg>
+			<rdg wit="fThomas">too great</rdg>
+			<rdg wit="f1831">too great</rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['to', 'be', 'endured', 'in', 'my', 'weak']">
+			<rdg wit="f1818">to be endured in my weak</rdg>
+			<rdg wit="f1823">to be endured in my weak</rdg>
+			<rdg wit="fThomas">to be endured in my weak</rdg>
+			<rdg wit="f1831">to be endured in my weak</rdg>
+			<rdg wit="fMS">to be endured in my &lt;lb n="c57-0127__main__26"/&gt;weak</rdg>
+		</rdgGrp>
+	</app>
+	```
+    - Wrapped longToken around 'was too great an agitation to be' in all versions . 
+- [] At the near bottom of the collation chunk, a large section of the 1831 version is completely reworked, compared to the others.
+    - I wrapped the entire rewritten section in a longToken. 
