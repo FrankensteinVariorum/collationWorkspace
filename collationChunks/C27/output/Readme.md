@@ -1,6 +1,6 @@
 # chunk 27 notes
 ## initial schema review
-- [] These nodes are fine. However, it may be cleaner to longToken each one and put them in a single &lt;app&gt; group.
+- [ ] These nodes are fine. However, it may be cleaner to longToken each one and put them in a single &lt;app&gt; group.
 	 ```xml
         <app>
 		<rdgGrp n="['that', 'faintly', 'reminds']">
@@ -63,7 +63,7 @@
 		</rdgGrp>
 	</app>
 	```
-- [] This section is not necessarily misaligned. But all the tokens are mixed up and are hard to read. May be easier to align by wrapping a longToken for each phrase.
+- [ ] This section is not necessarily misaligned. But all the tokens are mixed up and are hard to read. May be easier to align by wrapping a longToken for each phrase.
 	 ```xml
 	<app>
 		<rdgGrp n="['be']">
@@ -205,9 +205,9 @@
 	</app>
 	```
     - Wrapped longToken around 'was too great an agitation to be' in all versions . 
-- [] At the near bottom of the collation chunk, a large section of the 1831 version is completely reworked, compared to the others.
+- [ ] At the near bottom of the collation chunk, a large section of the 1831 version is completely reworked, compared to the others.
     - I wrapped the entire rewritten section in a longToken. 
-- [] This section is misaligned. 'death' should be in the next &lt;app&gt;
+- [ ] This section is misaligned. 'death' should be in the next &lt;app&gt;
 	 ```xml
 	<app>
 		<rdgGrp n="['in']">
@@ -256,7 +256,7 @@
 	</app>
 	```
     - Wrap each 'that faintly reminds me of the anguish of recognition.' in a longToken
-- [] This section is fine. But it may look cleaner and remove the schema marker if 'which to me was' was pushed into the neighboring &lt;app&gt;
+- [ ] This section is fine. But it may look cleaner and remove the schema marker if 'which to me was' was pushed into the neighboring &lt;app&gt;
 	```
 	<app>
 		<rdgGrp n="['be', 'let', 'loose']">
