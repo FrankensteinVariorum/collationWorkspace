@@ -1,4 +1,4 @@
-- [ ] **Misalignment: **
+- [x] **Misalignment: ** `august` in MS should go down.
 
   ```xml
   <app>
@@ -34,7 +34,7 @@
   </app>
   ```
 
-- [ ] merge two apps:
+- [x] merge two apps:
 
 ```xml
 <app>
@@ -63,7 +63,7 @@
 </app>
 ```
 
-- [ ] merge apps:
+- [x] merge apps:
 
   ```xml
   <app>
@@ -99,7 +99,7 @@
   </app>
   ```
 
-- [ ] **Misalignment:** 
+- [x] **Misalignment:** 
 
   ```xml
   <app>
@@ -131,7 +131,7 @@
   </app>
   ```
 
-- [ ] merge two apps:
+- [x] merge two apps:
 
   ```xml
   <app>
@@ -157,7 +157,7 @@
   </app>
   ```
 
-- [ ] **Misalignment: **
+- [x] **Misalignment: **
 
   ```xml
   <app>
@@ -196,7 +196,7 @@
   </app>
   ```
 
-- [ ] merge two apps:
+- [x] merge two apps:
 
   ```xml
   <app>
@@ -224,7 +224,7 @@
   </app>
   ```
 
-- [ ] merge two apps:
+- [x] merge two apps:
 
   ```xml
   <app>
@@ -250,43 +250,43 @@
   </app>
   ```
 
-  - [ ] **Misalignment: ** 
+  - [x] **Misalignment: ** 
 
-  - [ ] ```xml
-    <app>
-        <rdgGrp n="['&lt;del&gt;of&lt;/del&gt;', 'animal–']">
-            <rdg wit="fMS">&lt;del rend="strikethrough"
-                xml:id="c57-0184__main__d4e37106"&gt;of&lt;/del&gt; &lt;lb
-                n="c57-0184__main__31"/&gt;animal–</rdg>
-        </rdgGrp>
-        <rdgGrp n="['animal.', 'no']">
-            <rdg wit="f1818">animal. No</rdg>
-            <rdg wit="f1823">animal. No</rdg>
-            <rdg wit="fThomas">animal. No</rdg>
-            <rdg wit="f1831">animal. No</rdg>
-        </rdgGrp>
-    </app>
-    <app>
-        <rdgGrp n="['crime,']">
-            <rdg wit="f1818">crime,</rdg>
-            <rdg wit="f1823">crime,</rdg>
-            <rdg wit="fThomas">crime,</rdg>
-        </rdgGrp>
-        <rdgGrp n="['guilt,']">
-            <rdg wit="f1831">guilt,</rdg>
-        </rdgGrp>
-    </app>
-    <app>
-        <rdgGrp n="['no', 'mischief,', 'no', 'malignity,']">
-            <rdg wit="f1818">no mischief, no malignity,</rdg>
-            <rdg wit="f1823">no mischief, no malignity,</rdg>
-            <rdg wit="fThomas">no mischief, no malignity,</rdg>
-            <rdg wit="f1831">no mischief, no malignity,</rdg>
-        </rdgGrp>
-    </app>
-    ```
+  ```xml
+  <app>
+      <rdgGrp n="['&lt;del&gt;of&lt;/del&gt;', 'animal–']">
+          <rdg wit="fMS">&lt;del rend="strikethrough"
+              xml:id="c57-0184__main__d4e37106"&gt;of&lt;/del&gt; &lt;lb
+              n="c57-0184__main__31"/&gt;animal–</rdg>
+      </rdgGrp>
+      <rdgGrp n="['animal.', 'no']">
+          <rdg wit="f1818">animal. No</rdg>
+          <rdg wit="f1823">animal. No</rdg>
+          <rdg wit="fThomas">animal. No</rdg>
+          <rdg wit="f1831">animal. No</rdg>
+      </rdgGrp>
+  </app>
+  <app>
+      <rdgGrp n="['crime,']">
+          <rdg wit="f1818">crime,</rdg>
+          <rdg wit="f1823">crime,</rdg>
+          <rdg wit="fThomas">crime,</rdg>
+      </rdgGrp>
+      <rdgGrp n="['guilt,']">
+          <rdg wit="f1831">guilt,</rdg>
+      </rdgGrp>
+  </app>
+  <app>
+      <rdgGrp n="['no', 'mischief,', 'no', 'malignity,']">
+          <rdg wit="f1818">no mischief, no malignity,</rdg>
+          <rdg wit="f1823">no mischief, no malignity,</rdg>
+          <rdg wit="fThomas">no mischief, no malignity,</rdg>
+          <rdg wit="f1831">no mischief, no malignity,</rdg>
+      </rdgGrp>
+  </app>
+  ```
 
-- [ ] merge two apps:
+- [x] merge two apps:
 
   ```xml
   <app>
@@ -315,7 +315,7 @@
 
 ## app with less than 5 rdgs
 
-- [ ] ```xml
+- [x] ```xml
   <app>
       <rdgGrp n="['&lt;p-end/&gt;']">
           <rdg wit="f1818">&lt;p eID="novel1_letter4_div4_p48"/&gt;</rdg>
@@ -336,7 +336,7 @@
   </app>
   ```
 
-- [ ] ```xml
+- [x] ```xml
   <app>
       <rdgGrp n="['whom', 'i']">
           <rdg wit="f1818">whom I</rdg>
@@ -356,7 +356,7 @@
   </app>
   ```
 
-- [ ] ```xml
+- [x] ```xml
   <app>
       <rdgGrp n="['we', 'may']">
           <rdg wit="f1818">We may</rdg>
@@ -427,7 +427,7 @@
   </app>
   ```
 
-- [ ] ```xml
+- [x] ```xml
   <app>
       <rdgGrp n="['yet', 'i', 'cannot', 'forbear', 'recording', 'it.']">
           <rdg wit="f1818">yet I cannot forbear recording it.</rdg>
@@ -455,7 +455,7 @@
   </app>
   ```
 
-- [ ] ```xml
+- [x] ```xml
   <app>
       <rdgGrp
               n="['apparent', 'lifelessness.', '&lt;p-end/&gt;', '&lt;p-start/&gt;', 'i', 'mentioned']">
@@ -484,7 +484,7 @@
   </app>
   ```
 
-- [ ] ```xml
+- [x] ```xml
   <app>
       <rdgGrp n="['a']">
           <rdg wit="f1818">a</rdg>
@@ -504,7 +504,7 @@
   </app>
   ```
 
-- [ ] ```xml
+- [x] ```xml
   <app>
       <rdgGrp n="['me']">
           <rdg wit="f1818">me</rdg>
@@ -536,7 +536,7 @@
   </app>
   ```
 
-- [ ] ```xml
+- [x] ```xml
   <app>
       <rdgGrp n="['desired', 'therefore']">
           <rdg wit="fMS">desired therefore</rdg>
@@ -560,7 +560,7 @@
   </app>
   ```
 
-- [ ] ```xml
+- [x] ```xml
   <app>
       <rdgGrp n="['surrounded']">
           <rdg wit="f1831">surrounded</rdg>
@@ -582,7 +582,7 @@
   </app>
   ```
 
-- [ ] ```xml
+- [x] ```xml
   <app>
       <rdgGrp n="['and', 'these']">
           <rdg wit="f1818">and these</rdg>
@@ -600,7 +600,7 @@
   </app>
   ```
 
-- [ ] ```xml
+- [x] ```xml
   <app>
       <rdgGrp n="['a']">
           <rdg wit="f1818">a</rdg>
@@ -623,7 +623,7 @@
   </app>
   ```
 
-- [ ] ```xml
+- [x] ```xml
   <app>
       <rdgGrp n="['mutable']">
           <rdg wit="fMS">mutable</rdg>
@@ -643,7 +643,7 @@
   </app>
   ```
 
-- [ ] ```xml
+- [x] ```xml
   <app>
       <rdgGrp n="['moved', '–they']">
           <rdg wit="fMS">moved –They</rdg>
@@ -667,7 +667,7 @@
   </app>
   ```
 
-- [ ] ```xml
+- [x] ```xml
   <app>
       <rdgGrp n="['their', 'courage', 'would', 'return.']">
           <rdg wit="f1818">their courage would return.</rdg>
@@ -691,7 +691,7 @@
   </app>
   ```
 
-- [ ] ```xml
+- [x] ```xml
   <app>
       <rdgGrp n="['&lt;p-end/&gt;']">
           <rdg wit="f1818">&lt;p eID="novel1_letter4_div4_p62"/&gt;</rdg>
@@ -723,7 +723,7 @@
   </app>
   ```
 
-- [ ] ```xml
+- [x] ```xml
   <app>
       <rdgGrp n="['1', '', '&lt;mdel&gt;7&lt;/mdel&gt;', '2', '', '']">
           <rdg wit="fMS">&lt;mod sID="c57-0177__main__d4e35378"/&gt;&lt;sga-add
@@ -756,7 +756,7 @@
   </app>
   ```
 
-- [ ] ```xml
+- [x] ```xml
   <app>
       <rdgGrp n="['and', 'fainted.']">
           <rdg wit="f1818">and fainted.</rdg>
@@ -780,7 +780,7 @@
   </app>
   ```
 
-- [ ] ```xml
+- [x] ```xml
   <app>
       <rdgGrp n="['but']">
           <rdg wit="f1818">but</rdg>
@@ -799,7 +799,7 @@
   </app>
   ```
 
-- [ ] ```xml
+- [x] ```xml
   <!-- search `as far as` to locate -->
   <app>
       <rdgGrp n="['was']">
@@ -820,7 +820,7 @@
   </app>
   ```
 
-- [ ] ```xml
+- [x] ```xml
   <app>
       <rdgGrp n="['my', 'duties', 'towards']">
           <rdg wit="f1818">My duties towards</rdg>
@@ -838,7 +838,7 @@
   </app>
   ```
 
-- [ ] ```xml
+- [x] ```xml
   <app>
       <rdgGrp n="['had', 'greater', 'claims']">
           <rdg wit="f1818">had greater claims</rdg>
@@ -858,7 +858,7 @@
   </app>
   ```
 
-- [ ] ```xml
+- [x] ```xml
   <!-- search `have little chance` to locate -->
   <app>
       <rdgGrp n="['you']">
@@ -879,7 +879,7 @@
   </app>
   ```
 
-- [ ] ```xml
+- [x] ```xml
   <app>
       <rdgGrp n="['me', 'else']">
           <rdg wit="fMS">me else</rdg>
@@ -903,1161 +903,1158 @@
   </app>
   ```
 
-  - [ ] ```xml
-    <!-- search `only happy one` to locate -->
-    <app>
-        <rdgGrp n="['which']">
-            <rdg wit="f1818">which</rdg>
-            <rdg wit="f1823">which</rdg>
-            <rdg wit="fThomas">which</rdg>
-            <rdg wit="f1831">which</rdg>
-        </rdgGrp>
-    </app>
-    <app>
-        <rdgGrp n="['i', 'have']">
-            <rdg wit="f1818">I have</rdg>
-            <rdg wit="f1823">I have</rdg>
-            <rdg wit="fThomas">I have</rdg>
-            <rdg wit="f1831">I have</rdg>
-            <rdg wit="fMS">I have</rdg>
-        </rdgGrp>
-    </app>
-    ```
 
-  - [ ] ```xml
-    <app>
-        <rdgGrp n="['and', 'his', 'eyes', 'closed']">
-            <rdg wit="f1818">and his eyes closed</rdg>
-            <rdg wit="f1823">and his eyes closed</rdg>
-            <rdg wit="fThomas">and his eyes closed</rdg>
-            <rdg wit="f1831">and his eyes closed</rdg>
-            <rdg wit="fMS">&lt;lb n="c57-0180__main__30"/&gt;and his eyes closed</rdg>
-        </rdgGrp>
-    </app>
-    <app>
-        <rdgGrp n="['for', 'ever,']">
-            <rdg wit="f1818">for ever,</rdg>
-            <rdg wit="f1823">for ever,</rdg>
-            <rdg wit="fThomas">for ever,</rdg>
-            <rdg wit="f1831">for &lt;pb xml:id="F1831_v_213" n="197"/&gt;ever,</rdg>
-        </rdgGrp>
-    </app>
-    ```
+- [x] ```xml
+  <!-- search `only happy one` to locate -->
+  <app>
+      <rdgGrp n="['which']">
+          <rdg wit="f1818">which</rdg>
+          <rdg wit="f1823">which</rdg>
+          <rdg wit="fThomas">which</rdg>
+          <rdg wit="f1831">which</rdg>
+      </rdgGrp>
+  </app>
+  <app>
+      <rdgGrp n="['i', 'have']">
+          <rdg wit="f1818">I have</rdg>
+          <rdg wit="f1823">I have</rdg>
+          <rdg wit="fThomas">I have</rdg>
+          <rdg wit="f1831">I have</rdg>
+          <rdg wit="fMS">I have</rdg>
+      </rdgGrp>
+  </app>
+  ```
 
-  - [ ] ```xml
-    <app>
-        <rdgGrp n="['while']">
-            <rdg wit="f1818">while</rdg>
-            <rdg wit="f1823">while</rdg>
-            <rdg wit="fThomas">while</rdg>
-            <rdg wit="f1831">while</rdg>
-            <rdg wit="fMS">while</rdg>
-        </rdgGrp>
-    </app>
-    <app>
-        <rdgGrp n="['the', 'irradiation', 'of']">
-            <rdg wit="f1818">the irradiation of</rdg>
-            <rdg wit="f1823">the irradiation of</rdg>
-            <rdg wit="fThomas">the irradiation of</rdg>
-            <rdg wit="f1831">the irradiation of</rdg>
-        </rdgGrp>
-    </app>
-    ```
+- [x] ```xml
+  <app>
+      <rdgGrp n="['and', 'his', 'eyes', 'closed']">
+          <rdg wit="f1818">and his eyes closed</rdg>
+          <rdg wit="f1823">and his eyes closed</rdg>
+          <rdg wit="fThomas">and his eyes closed</rdg>
+          <rdg wit="f1831">and his eyes closed</rdg>
+          <rdg wit="fMS">&lt;lb n="c57-0180__main__30"/&gt;and his eyes closed</rdg>
+      </rdgGrp>
+  </app>
+  <app>
+      <rdgGrp n="['for', 'ever,']">
+          <rdg wit="f1818">for ever,</rdg>
+          <rdg wit="f1823">for ever,</rdg>
+          <rdg wit="fThomas">for ever,</rdg>
+          <rdg wit="f1831">for &lt;pb xml:id="F1831_v_213" n="197"/&gt;ever,</rdg>
+      </rdgGrp>
+  </app>
+  ```
 
-  - [ ] ```xml
-    <app>
-        <rdgGrp n="['what']">
-            <rdg wit="f1818">what</rdg>
-            <rdg wit="f1823">what</rdg>
-            <rdg wit="fThomas">what</rdg>
-            <rdg wit="f1831">what</rdg>
-            <rdg wit="fMS">What</rdg>
-        </rdgGrp>
-    </app>
-    <app>
-        <rdgGrp n="['comment']">
-            <rdg wit="f1818">comment</rdg>
-            <rdg wit="f1823">comment</rdg>
-            <rdg wit="fThomas">comment</rdg>
-            <rdg wit="f1831">comment</rdg>
-        </rdgGrp>
-    </app>
-    ```
+- [x] ```xml
+  <app>
+      <rdgGrp n="['while']">
+          <rdg wit="f1818">while</rdg>
+          <rdg wit="f1823">while</rdg>
+          <rdg wit="fThomas">while</rdg>
+          <rdg wit="f1831">while</rdg>
+          <rdg wit="fMS">while</rdg>
+      </rdgGrp>
+  </app>
+  <app>
+      <rdgGrp n="['the', 'irradiation', 'of']">
+          <rdg wit="f1818">the irradiation of</rdg>
+          <rdg wit="f1823">the irradiation of</rdg>
+          <rdg wit="fThomas">the irradiation of</rdg>
+          <rdg wit="f1831">the irradiation of</rdg>
+      </rdgGrp>
+  </app>
+  ```
 
-  - [ ] ```xml
-    <app>
-        <rdgGrp n="['the', 'tale']">
-            <rdg wit="f1818">the tale</rdg>
-            <rdg wit="f1823">the tale</rdg>
-            <rdg wit="fThomas">the tale</rdg>
-            <rdg wit="f1831">the tale</rdg>
-        </rdgGrp>
-        <rdgGrp n="['i', 'will', 'try', 'for', 'the', 'tale']">
-            <rdg wit="fMS">I will try for the tale</rdg>
-        </rdgGrp>
-    </app>
-    
-    <app>
-        <rdgGrp n="['which']">
-            <rdg wit="f1818">which</rdg>
-            <rdg wit="f1823">which</rdg>
-            <rdg wit="fThomas">which</rdg>
-            <rdg wit="f1831">which</rdg>
-        </rdgGrp>
-    </app>
-    ```
+- [x] ```xml
+  <app>
+      <rdgGrp n="['what']">
+          <rdg wit="f1818">what</rdg>
+          <rdg wit="f1823">what</rdg>
+          <rdg wit="fThomas">what</rdg>
+          <rdg wit="f1831">what</rdg>
+          <rdg wit="fMS">What</rdg>
+      </rdgGrp>
+  </app>
+  <app>
+      <rdgGrp n="['comment']">
+          <rdg wit="f1818">comment</rdg>
+          <rdg wit="f1823">comment</rdg>
+          <rdg wit="fThomas">comment</rdg>
+          <rdg wit="f1831">comment</rdg>
+      </rdgGrp>
+  </app>
+  ```
 
-  - [ ] ```xml
-    <app>
-        <rdgGrp n="['exclamations', 'of', 'grief']">
-            <rdg wit="f1818">exclamations of grief</rdg>
-            <rdg wit="f1823">exclamations of grief</rdg>
-            <rdg wit="fThomas">exclamations of grief</rdg>
-            <rdg wit="f1831">exclamations of grief</rdg>
-            <rdg wit="fMS">exclamations of grief</rdg>
-        </rdgGrp>
-    </app>
-    <app>
-        <rdgGrp n="['and', 'horror,']">
-            <rdg wit="f1818">and horror,</rdg>
-            <rdg wit="f1823">and horror,</rdg>
-            <rdg wit="fThomas">and horror,</rdg>
-            <rdg wit="f1831">and horror,</rdg>
-        </rdgGrp>
-    </app>
-    ```
+- [x] ```xml
+  <app>
+      <rdgGrp n="['the', 'tale']">
+          <rdg wit="f1818">the tale</rdg>
+          <rdg wit="f1823">the tale</rdg>
+          <rdg wit="fThomas">the tale</rdg>
+          <rdg wit="f1831">the tale</rdg>
+      </rdgGrp>
+      <rdgGrp n="['i', 'will', 'try', 'for', 'the', 'tale']">
+          <rdg wit="fMS">I will try for the tale</rdg>
+      </rdgGrp>
+  </app>
+  
+  <app>
+      <rdgGrp n="['which']">
+          <rdg wit="f1818">which</rdg>
+          <rdg wit="f1823">which</rdg>
+          <rdg wit="fThomas">which</rdg>
+          <rdg wit="f1831">which</rdg>
+      </rdgGrp>
+  </app>
+  ```
 
-  - [ ] ```xml
-    <app>
-        <rdgGrp n="['i', 'called', 'on', 'him', 'to', 'stay.']">
-            <rdg wit="f1818">I called on him to stay.</rdg>
-            <rdg wit="f1823">I called on him to stay.</rdg>
-            <rdg wit="fThomas">I called on him to stay.</rdg>
-            <rdg wit="f1831">I called on him to stay.</rdg>
-            <rdg wit="fMS">I called on him to stay.</rdg>
-        </rdgGrp>
-    </app>
-    <app>
-        <rdgGrp n="['&lt;p-end/&gt;', '&lt;p-start/&gt;']">
-            <rdg wit="f1818">&lt;p eID="novel1_letter4_div4_p77"/&gt; &lt;p
-                sID="novel1_letter4_div4_p78"/&gt;</rdg>
-            <rdg wit="f1823">&lt;p eID="novel1_letter4_div4_p77"/&gt; &lt;p
-                sID="novel1_letter4_div4_p78"/&gt;</rdg>
-            <rdg wit="fThomas">&lt;p eID="novel1_letter4_div4_p77"/&gt; &lt;p
-                sID="novel1_letter4_div4_p78"/&gt;</rdg>
-            <rdg wit="f1831">&lt;p eID="novel1_letter4_div4_p79"/&gt; &lt;p
-                sID="novel1_letter4_div4_p80"/&gt;</rdg>
-        </rdgGrp>
-    </app>
-    ```
+- [x] ```xml
+  <app>
+      <rdgGrp n="['exclamations', 'of', 'grief']">
+          <rdg wit="f1818">exclamations of grief</rdg>
+          <rdg wit="f1823">exclamations of grief</rdg>
+          <rdg wit="fThomas">exclamations of grief</rdg>
+          <rdg wit="f1831">exclamations of grief</rdg>
+          <rdg wit="fMS">exclamations of grief</rdg>
+      </rdgGrp>
+  </app>
+  <app>
+      <rdgGrp n="['and', 'horror,']">
+          <rdg wit="f1818">and horror,</rdg>
+          <rdg wit="f1823">and horror,</rdg>
+          <rdg wit="fThomas">and horror,</rdg>
+          <rdg wit="f1831">and horror,</rdg>
+      </rdgGrp>
+  </app>
+  ```
 
-  - [ ] ```xml
-    <app>
-        <rdgGrp n="['rage', 'of', 'some']">
-            <rdg wit="f1818">rage of some</rdg>
-            <rdg wit="f1823">rage of some</rdg>
-            <rdg wit="fThomas">rage of some</rdg>
-            <rdg wit="f1831">rage of some</rdg>
-        </rdgGrp>
-        <rdgGrp n="['rage.', 'that']">
-            <rdg wit="fMS">rage. That</rdg>
-        </rdgGrp>
-    </app>
-    <app>
-        <rdgGrp n="['uncontrolable']">
-            <rdg wit="f1823">uncontrolable</rdg>
-        </rdgGrp>
-        <rdgGrp n="['uncontrollable']">
-            <rdg wit="f1818">uncontrollable</rdg>
-            <rdg wit="fThomas">uncontrollable</rdg>
-            <rdg wit="f1831">uncontrollable</rdg>
-        </rdgGrp>
-    </app>
-    <app>
-        <rdgGrp n="['passion.', '&lt;p-end/&gt;', '&lt;p-start/&gt;', '&#34;that']">
-            <rdg wit="f1818">passion. &lt;p eID="novel1_letter4_div4_p78"/&gt; &lt;p
-                sID="novel1_letter4_div4_p79"/&gt; “That</rdg>
-            <rdg wit="f1823">passion. &lt;p eID="novel1_letter4_div4_p78"/&gt; &lt;p
-                sID="novel1_letter4_div4_p79"/&gt; “That</rdg>
-            <rdg wit="fThomas">passion. &lt;p eID="novel1_letter4_div4_p78"/&gt; &lt;p
-                sID="novel1_letter4_div4_p79"/&gt; “That</rdg>
-            <rdg wit="f1831">passion. &lt;p eID="novel1_letter4_div4_p80"/&gt; &lt;p
-                sID="novel1_letter4_div4_p81"/&gt; “That</rdg>
-        </rdgGrp>
-    </app>
-    ```
+- [x] ```xml
+  <app>
+      <rdgGrp n="['i', 'called', 'on', 'him', 'to', 'stay.']">
+          <rdg wit="f1818">I called on him to stay.</rdg>
+          <rdg wit="f1823">I called on him to stay.</rdg>
+          <rdg wit="fThomas">I called on him to stay.</rdg>
+          <rdg wit="f1831">I called on him to stay.</rdg>
+          <rdg wit="fMS">I called on him to stay.</rdg>
+      </rdgGrp>
+  </app>
+  <app>
+      <rdgGrp n="['&lt;p-end/&gt;', '&lt;p-start/&gt;']">
+          <rdg wit="f1818">&lt;p eID="novel1_letter4_div4_p77"/&gt; &lt;p
+              sID="novel1_letter4_div4_p78"/&gt;</rdg>
+          <rdg wit="f1823">&lt;p eID="novel1_letter4_div4_p77"/&gt; &lt;p
+              sID="novel1_letter4_div4_p78"/&gt;</rdg>
+          <rdg wit="fThomas">&lt;p eID="novel1_letter4_div4_p77"/&gt; &lt;p
+              sID="novel1_letter4_div4_p78"/&gt;</rdg>
+          <rdg wit="f1831">&lt;p eID="novel1_letter4_div4_p79"/&gt; &lt;p
+              sID="novel1_letter4_div4_p80"/&gt;</rdg>
+      </rdgGrp>
+  </app>
+  ```
 
-  - [ ] ```xml
-    <!-- search `what does it avail that` to locate -->
-    <app>
-        <rdgGrp n="['i']">
-            <rdg wit="f1818">&lt;pb xml:id="F1818_v3_185" n="181"/&gt;I</rdg>
-            <rdg wit="f1823">I</rdg>
-            <rdg wit="fThomas">&lt;pb xml:id="F1818_v3_185" n="181"/&gt;I</rdg>
-            <rdg wit="f1831">I</rdg>
-            <rdg wit="fMS">I</rdg>
-        </rdgGrp>
-    </app>
-    <app>
-        <rdgGrp n="['now']">
-            <rdg wit="f1818">now</rdg>
-            <rdg wit="f1823">now</rdg>
-            <rdg wit="fThomas">now</rdg>
-            <rdg wit="f1831">now</rdg>
-        </rdgGrp>
-    </app>
-    ```
+- [x] ```xml
+  <app>
+      <rdgGrp n="['rage', 'of', 'some']">
+          <rdg wit="f1818">rage of some</rdg>
+          <rdg wit="f1823">rage of some</rdg>
+          <rdg wit="fThomas">rage of some</rdg>
+          <rdg wit="f1831">rage of some</rdg>
+      </rdgGrp>
+      <rdgGrp n="['rage.', 'that']">
+          <rdg wit="fMS">rage. That</rdg>
+      </rdgGrp>
+  </app>
+  <app>
+      <rdgGrp n="['uncontrolable']">
+          <rdg wit="f1823">uncontrolable</rdg>
+      </rdgGrp>
+      <rdgGrp n="['uncontrollable']">
+          <rdg wit="f1818">uncontrollable</rdg>
+          <rdg wit="fThomas">uncontrollable</rdg>
+          <rdg wit="f1831">uncontrollable</rdg>
+      </rdgGrp>
+  </app>
+  <app>
+      <rdgGrp n="['passion.', '&lt;p-end/&gt;', '&lt;p-start/&gt;', '&#34;that']">
+          <rdg wit="f1818">passion. &lt;p eID="novel1_letter4_div4_p78"/&gt; &lt;p
+              sID="novel1_letter4_div4_p79"/&gt; “That</rdg>
+          <rdg wit="f1823">passion. &lt;p eID="novel1_letter4_div4_p78"/&gt; &lt;p
+              sID="novel1_letter4_div4_p79"/&gt; “That</rdg>
+          <rdg wit="fThomas">passion. &lt;p eID="novel1_letter4_div4_p78"/&gt; &lt;p
+              sID="novel1_letter4_div4_p79"/&gt; “That</rdg>
+          <rdg wit="f1831">passion. &lt;p eID="novel1_letter4_div4_p80"/&gt; &lt;p
+              sID="novel1_letter4_div4_p81"/&gt; “That</rdg>
+      </rdgGrp>
+  </app>
+  ```
 
-  - [ ] ```xml
-    <app>
-        <rdgGrp n="['who']">
-            <rdg wit="f1818">who</rdg>
-            <rdg wit="f1823">who</rdg>
-            <rdg wit="fThomas">who</rdg>
-            <rdg wit="f1831">who</rdg>
-            <rdg wit="fMS">who</rdg>
-        </rdgGrp>
-    </app>
-    <app>
-        <rdgGrp n="['irretrievably']">
-            <rdg wit="f1818">irretrievably</rdg>
-            <rdg wit="f1823">irretrievably</rdg>
-            <rdg wit="fThomas">irretrievably</rdg>
-            <rdg wit="f1831">irretrievably</rdg>
-        </rdgGrp>
-    </app>
-    ```
+- [x] ```xml
+  <!-- search `what does it avail that` to locate -->
+  <app>
+      <rdgGrp n="['i']">
+          <rdg wit="f1818">&lt;pb xml:id="F1818_v3_185" n="181"/&gt;I</rdg>
+          <rdg wit="f1823">I</rdg>
+          <rdg wit="fThomas">&lt;pb xml:id="F1818_v3_185" n="181"/&gt;I</rdg>
+          <rdg wit="f1831">I</rdg>
+          <rdg wit="fMS">I</rdg>
+      </rdgGrp>
+  </app>
+  <app>
+      <rdgGrp n="['now']">
+          <rdg wit="f1818">now</rdg>
+          <rdg wit="f1823">now</rdg>
+          <rdg wit="fThomas">now</rdg>
+          <rdg wit="f1831">now</rdg>
+      </rdgGrp>
+  </app>
+  ```
 
-  - [ ] ```xml
-    <app>
-        <rdgGrp n="['he']">
-            <rdg wit="f1818">he</rdg>
-            <rdg wit="f1823">he</rdg>
-            <rdg wit="fThomas">he</rdg>
-            <rdg wit="f1831">he</rdg>
-        </rdgGrp>
-    </app>
-    <app>
-        <rdgGrp n="['cannot']">
-            <rdg wit="f1823">cannot</rdg>
-            <rdg wit="f1831">cannot</rdg>
-        </rdgGrp>
-        <rdgGrp n="['may', 'not']">
-            <rdg wit="f1818">may not</rdg>
-            <rdg wit="fThomas">may not</rdg>
-            <rdg wit="fMS">may not</rdg>
-        </rdgGrp>
-    </app>
-    ```
+- [x] ```xml
+  <app>
+      <rdgGrp n="['who']">
+          <rdg wit="f1818">who</rdg>
+          <rdg wit="f1823">who</rdg>
+          <rdg wit="fThomas">who</rdg>
+          <rdg wit="f1831">who</rdg>
+          <rdg wit="fMS">who</rdg>
+      </rdgGrp>
+  </app>
+  <app>
+      <rdgGrp n="['irretrievably']">
+          <rdg wit="f1818">irretrievably</rdg>
+          <rdg wit="f1823">irretrievably</rdg>
+          <rdg wit="fThomas">irretrievably</rdg>
+          <rdg wit="f1831">irretrievably</rdg>
+      </rdgGrp>
+  </app>
+  ```
 
-  - [ ] ```xml
-    <app>
-        <rdgGrp n="['again', 'raise', 'my']">
-            <rdg wit="f1818">again raise my</rdg>
-            <rdg wit="f1823">again raise my</rdg>
-            <rdg wit="fThomas">again raise my</rdg>
-            <rdg wit="f1831">again raise my</rdg>
-        </rdgGrp>
-        <rdgGrp n="['look', 'on', 'him']">
-            <rdg wit="fMS">look on him</rdg>
-        </rdgGrp>
-    </app>
-    <app>
-        <rdgGrp n="['eyes', 'to']">
-            <rdg wit="f1823">eyes to</rdg>
-            <rdg wit="f1831">eyes to</rdg>
-        </rdgGrp>
-        <rdgGrp n="['looks', 'upon']">
-            <rdg wit="f1818">looks upon</rdg>
-            <rdg wit="fThomas">looks upon</rdg>
-        </rdgGrp>
-    </app>
-    <app>
-        <rdgGrp n="['his', 'face,']">
-            <rdg wit="f1818">his face,</rdg>
-            <rdg wit="f1823">his face,</rdg>
-            <rdg wit="fThomas">his face,</rdg>
-            <rdg wit="f1831">his face,</rdg>
-        </rdgGrp>
-    </app>
-    ```
+- [x] ```xml
+  <app>
+      <rdgGrp n="['he']">
+          <rdg wit="f1818">he</rdg>
+          <rdg wit="f1823">he</rdg>
+          <rdg wit="fThomas">he</rdg>
+          <rdg wit="f1831">he</rdg>
+      </rdgGrp>
+  </app>
+  <app>
+      <rdgGrp n="['cannot']">
+          <rdg wit="f1823">cannot</rdg>
+          <rdg wit="f1831">cannot</rdg>
+      </rdgGrp>
+      <rdgGrp n="['may', 'not']">
+          <rdg wit="f1818">may not</rdg>
+          <rdg wit="fThomas">may not</rdg>
+          <rdg wit="fMS">may not</rdg>
+      </rdgGrp>
+  </app>
+  ```
 
-  - [ ] ```xml
-    <app>
-        <rdgGrp n="['before', 'you']">
-            <rdg wit="f1818">before you</rdg>
-            <rdg wit="f1823">before you</rdg>
-            <rdg wit="fThomas">before you</rdg>
-            <rdg wit="f1831">before you</rdg>
-            <rdg wit="fMS">before you</rdg>
-        </rdgGrp>
-    </app>
-    <app>
-        <rdgGrp n="['had']">
-            <rdg wit="f1818">had</rdg>
-            <rdg wit="f1823">had</rdg>
-            <rdg wit="fThomas">had</rdg>
-            <rdg wit="f1831">had</rdg>
-        </rdgGrp>
-    </app>
-    ```
+- [x] ```xml
+  <app>
+      <rdgGrp n="['again', 'raise', 'my']">
+          <rdg wit="f1818">again raise my</rdg>
+          <rdg wit="f1823">again raise my</rdg>
+          <rdg wit="fThomas">again raise my</rdg>
+          <rdg wit="f1831">again raise my</rdg>
+      </rdgGrp>
+      <rdgGrp n="['look', 'on', 'him']">
+          <rdg wit="fMS">look on him</rdg>
+      </rdgGrp>
+  </app>
+  <app>
+      <rdgGrp n="['eyes', 'to']">
+          <rdg wit="f1823">eyes to</rdg>
+          <rdg wit="f1831">eyes to</rdg>
+      </rdgGrp>
+      <rdgGrp n="['looks', 'upon']">
+          <rdg wit="f1818">looks upon</rdg>
+          <rdg wit="fThomas">looks upon</rdg>
+      </rdgGrp>
+  </app>
+  <app>
+      <rdgGrp n="['his', 'face,']">
+          <rdg wit="f1818">his face,</rdg>
+          <rdg wit="f1823">his face,</rdg>
+          <rdg wit="fThomas">his face,</rdg>
+          <rdg wit="f1831">his face,</rdg>
+      </rdgGrp>
+  </app>
+  ```
 
-  - [ ] ```xml
-    <app>
-        <rdgGrp n="['suffered', 'not']">
-            <rdg wit="f1818">suffered not</rdg>
-            <rdg wit="f1823">suffered not</rdg>
-            <rdg wit="fThomas">suffered not</rdg>
-            <rdg wit="f1831">suffered not</rdg>
-            <rdg wit="fMS">suffered not</rdg>
-        </rdgGrp>
-    </app>
-    <app>
-        <rdgGrp n="['more']">
-            <rdg wit="f1818">more</rdg>
-            <rdg wit="fThomas">more</rdg>
-            <rdg wit="fMS">more</rdg>
-        </rdgGrp>
-    </app>
-    <app>
-        <rdgGrp n="['in']">
-            <rdg wit="f1818">in</rdg>
-            <rdg wit="f1823">in</rdg>
-            <rdg wit="fThomas">in</rdg>
-            <rdg wit="f1831">in</rdg>
-            <rdg wit="fMS">&lt;lb n="c57-0182__main__30"/&gt;in</rdg>
-        </rdgGrp>
-    </app>
-    <app>
-        <rdgGrp n="['the', 'consummation', 'of', 'the']">
-            <rdg wit="f1818">the consummation of the</rdg>
-            <rdg wit="f1823">the consummation of the</rdg>
-            <rdg wit="fThomas">the consummation of the</rdg>
-            <rdg wit="f1831">the consummation of the</rdg>
-        </rdgGrp>
-    </app>
-    <app>
-        <rdgGrp n="['deed;—oh!']">
-            <rdg wit="f1818">deed;—oh!</rdg>
-            <rdg wit="fThomas">deed;—oh!</rdg>
-        </rdgGrp>
-        <rdgGrp n="['deed—oh!']">
-            <rdg wit="f1823">deed—oh!</rdg>
-            <rdg wit="f1831">deed—oh!</rdg>
-        </rdgGrp>
-    </app>
-    <app>
-        <rdgGrp n="['not']">
-            <rdg wit="f1818">not</rdg>
-            <rdg wit="f1823">not</rdg>
-            <rdg wit="fThomas">not</rdg>
-            <rdg wit="f1831">not</rdg>
-        </rdgGrp>
-    </app>
-    ```
+- [x] ```xml
+  <app>
+      <rdgGrp n="['before', 'you']">
+          <rdg wit="f1818">before you</rdg>
+          <rdg wit="f1823">before you</rdg>
+          <rdg wit="fThomas">before you</rdg>
+          <rdg wit="f1831">before you</rdg>
+          <rdg wit="fMS">before you</rdg>
+      </rdgGrp>
+  </app>
+  <app>
+      <rdgGrp n="['had']">
+          <rdg wit="f1818">had</rdg>
+          <rdg wit="f1823">had</rdg>
+          <rdg wit="fThomas">had</rdg>
+          <rdg wit="f1831">had</rdg>
+      </rdgGrp>
+  </app>
+  ```
 
-  - [ ] ```xml
-    <app>
-        <rdgGrp n="['and']">
-            <rdg wit="f1818">and</rdg>
-            <rdg wit="f1823">and</rdg>
-            <rdg wit="fThomas">and</rdg>
-            <rdg wit="f1831">and</rdg>
-        </rdgGrp>
-        <rdgGrp n="['and sympathy', 'and']">
-            <rdg wit="fMS">&amp;&lt;lb n="c57-0183__main__3"/&gt;sympathy and</rdg>
-        </rdgGrp>
-    </app>
-    
-    <app>
-        <rdgGrp n="['sympathy;', 'and,']">
-            <rdg wit="f1818">sympathy; and,</rdg>
-            <rdg wit="f1823">sympathy; and,</rdg>
-            <rdg wit="fThomas">sympathy; and,</rdg>
-            <rdg wit="f1831">sympathy; and,</rdg>
-        </rdgGrp>
-    </app>
-    ```
+- [x] ```xml
+  <app>
+      <rdgGrp n="['suffered', 'not']">
+          <rdg wit="f1818">suffered not</rdg>
+          <rdg wit="f1823">suffered not</rdg>
+          <rdg wit="fThomas">suffered not</rdg>
+          <rdg wit="f1831">suffered not</rdg>
+          <rdg wit="fMS">suffered not</rdg>
+      </rdgGrp>
+  </app>
+  <app>
+      <rdgGrp n="['more']">
+          <rdg wit="f1818">more</rdg>
+          <rdg wit="fThomas">more</rdg>
+          <rdg wit="fMS">more</rdg>
+      </rdgGrp>
+  </app>
+  <app>
+      <rdgGrp n="['in']">
+          <rdg wit="f1818">in</rdg>
+          <rdg wit="f1823">in</rdg>
+          <rdg wit="fThomas">in</rdg>
+          <rdg wit="f1831">in</rdg>
+          <rdg wit="fMS">&lt;lb n="c57-0182__main__30"/&gt;in</rdg>
+      </rdgGrp>
+  </app>
+  <app>
+      <rdgGrp n="['the', 'consummation', 'of', 'the']">
+          <rdg wit="f1818">the consummation of the</rdg>
+          <rdg wit="f1823">the consummation of the</rdg>
+          <rdg wit="fThomas">the consummation of the</rdg>
+          <rdg wit="f1831">the consummation of the</rdg>
+      </rdgGrp>
+  </app>
+  <app>
+      <rdgGrp n="['deed;—oh!']">
+          <rdg wit="f1818">deed;—oh!</rdg>
+          <rdg wit="fThomas">deed;—oh!</rdg>
+      </rdgGrp>
+      <rdgGrp n="['deed—oh!']">
+          <rdg wit="f1823">deed—oh!</rdg>
+          <rdg wit="f1831">deed—oh!</rdg>
+      </rdgGrp>
+  </app>
+  <app>
+      <rdgGrp n="['not']">
+          <rdg wit="f1818">not</rdg>
+          <rdg wit="f1823">not</rdg>
+          <rdg wit="fThomas">not</rdg>
+          <rdg wit="f1831">not</rdg>
+      </rdgGrp>
+  </app>
+  ```
 
-  - [ ] ```xml
-    <app>
-        <rdgGrp
-                n="['that', 'it', 'should', 'be', 'accomplished.', 'i', 'knew', 'that', 'i', 'was', 'preparing', 'for', 'myself', 'a', 'deadly', 'torture;', 'but', 'i', 'was', 'the', 'slave,', 'not', 'the']">
-            <rdg wit="f1818">that it should be accomplished. I knew that I was preparing for myself
-                a deadly torture; but I was the slave, not the</rdg>
-            <rdg wit="f1823">that it should be accomplished. I knew that I was preparing for myself
-                a deadly torture; but I was the slave, not the</rdg>
-            <rdg wit="fThomas">that it should be accomplished. I knew that I was preparing for
-                myself a deadly torture; but I was the slave, not the</rdg>
-            <rdg wit="f1831">that it should be accomplished. I knew that I was preparing for myself
-                a deadly torture; but I was the slave, not the</rdg>
-        </rdgGrp>
-        <rdgGrp n="['to', 'execute', 'it—yet']">
-            <rdg wit="fMS">to execute it—Yet</rdg>
-        </rdgGrp>
-    </app>
-    <app>
-        <rdgGrp n="['master']">
-            <rdg wit="f1818">master</rdg>
-            <rdg wit="fThomas">master</rdg>
-        </rdgGrp>
-        <rdgGrp n="['master,']">
-            <rdg wit="f1823">master,</rdg>
-            <rdg wit="f1831">master,</rdg>
-        </rdgGrp>
-    </app>
-    <app>
-        <rdgGrp
-                n="['of', 'an', 'impulse,', 'which', 'i', 'detested,', 'yet', 'could', 'not', 'disobey.', 'yet']">
-            <rdg wit="f1818">of an impulse, which I detested, yet could not disobey. Yet</rdg>
-            <rdg wit="f1823">of an impulse, which I detested, yet could not disobey. Yet</rdg>
-            <rdg wit="fThomas">of an impulse, which I detested, yet could not disobey. Yet</rdg>
-            <rdg wit="f1831">of an impulse, which I detested, yet could not disobey. Yet</rdg>
-        </rdgGrp>
-    </app>
-    ```
+- [x] ```xml
+  <app>
+      <rdgGrp n="['and']">
+          <rdg wit="f1818">and</rdg>
+          <rdg wit="f1823">and</rdg>
+          <rdg wit="fThomas">and</rdg>
+          <rdg wit="f1831">and</rdg>
+      </rdgGrp>
+      <rdgGrp n="['and sympathy', 'and']">
+          <rdg wit="fMS">&amp;&lt;lb n="c57-0183__main__3"/&gt;sympathy and</rdg>
+      </rdgGrp>
+  </app>
+  
+  <app>
+      <rdgGrp n="['sympathy;', 'and,']">
+          <rdg wit="f1818">sympathy; and,</rdg>
+          <rdg wit="f1823">sympathy; and,</rdg>
+          <rdg wit="fThomas">sympathy; and,</rdg>
+          <rdg wit="f1831">sympathy; and,</rdg>
+      </rdgGrp>
+  </app>
+  ```
 
-  - [ ] ```xml
-    <!-- search `design became an insatiable passion.` to locate -->
-    <app>
-        <rdgGrp n="['and']">
-            <rdg wit="f1818">And</rdg>
-            <rdg wit="f1823">And</rdg>
-            <rdg wit="fThomas">And</rdg>
-            <rdg wit="f1831">And</rdg>
-            <rdg wit="fMS">And</rdg>
-        </rdgGrp>
-    </app>
-    <app>
-        <rdgGrp n="['now']">
-            <rdg wit="f1818">now</rdg>
-            <rdg wit="f1823">now</rdg>
-            <rdg wit="fThomas">now</rdg>
-            <rdg wit="f1831">now</rdg>
-        </rdgGrp>
-    </app>
-    ```
+- [x] ```xml
+  <app>
+      <rdgGrp
+              n="['that', 'it', 'should', 'be', 'accomplished.', 'i', 'knew', 'that', 'i', 'was', 'preparing', 'for', 'myself', 'a', 'deadly', 'torture;', 'but', 'i', 'was', 'the', 'slave,', 'not', 'the']">
+          <rdg wit="f1818">that it should be accomplished. I knew that I was preparing for myself
+              a deadly torture; but I was the slave, not the</rdg>
+          <rdg wit="f1823">that it should be accomplished. I knew that I was preparing for myself
+              a deadly torture; but I was the slave, not the</rdg>
+          <rdg wit="fThomas">that it should be accomplished. I knew that I was preparing for
+              myself a deadly torture; but I was the slave, not the</rdg>
+          <rdg wit="f1831">that it should be accomplished. I knew that I was preparing for myself
+              a deadly torture; but I was the slave, not the</rdg>
+      </rdgGrp>
+      <rdgGrp n="['to', 'execute', 'it—yet']">
+          <rdg wit="fMS">to execute it—Yet</rdg>
+      </rdgGrp>
+  </app>
+  <app>
+      <rdgGrp n="['master']">
+          <rdg wit="f1818">master</rdg>
+          <rdg wit="fThomas">master</rdg>
+      </rdgGrp>
+      <rdgGrp n="['master,']">
+          <rdg wit="f1823">master,</rdg>
+          <rdg wit="f1831">master,</rdg>
+      </rdgGrp>
+  </app>
+  <app>
+      <rdgGrp
+              n="['of', 'an', 'impulse,', 'which', 'i', 'detested,', 'yet', 'could', 'not', 'disobey.', 'yet']">
+          <rdg wit="f1818">of an impulse, which I detested, yet could not disobey. Yet</rdg>
+          <rdg wit="f1823">of an impulse, which I detested, yet could not disobey. Yet</rdg>
+          <rdg wit="fThomas">of an impulse, which I detested, yet could not disobey. Yet</rdg>
+          <rdg wit="f1831">of an impulse, which I detested, yet could not disobey. Yet</rdg>
+      </rdgGrp>
+  </app>
+  ```
 
-  - [ ] ```xml
-    <app>
-        <rdgGrp n="['&lt;p-end/&gt;', '&lt;p-start/&gt;', 'i', 'was']">
-            <rdg wit="f1818">&lt;p eID="novel1_letter4_div4_p82"/&gt; &lt;p
-                sID="novel1_letter4_div4_p83"/&gt; I was</rdg>
-            <rdg wit="f1823">&lt;p eID="novel1_letter4_div4_p82"/&gt; &lt;p
-                sID="novel1_letter4_div4_p83"/&gt; I was</rdg>
-            <rdg wit="fThomas">&lt;p eID="novel1_letter4_div4_p82"/&gt; &lt;p
-                sID="novel1_letter4_div4_p83"/&gt; I was</rdg>
-            <rdg wit="f1831">&lt;p eID="novel1_letter4_div4_p84"/&gt; &lt;p
-                sID="novel1_letter4_div4_p85"/&gt; I was</rdg>
-            <rdg wit="fMS">&lt;milestone unit="tei:p-END"/&gt; &lt;milestone unit="tei:p-START"/&gt;
-                &lt;lb n="c57-0183__main__25"/&gt;I was</rdg>
-        </rdgGrp>
-    </app>
-    <app>
-        <rdgGrp n="['at', 'first']">
-            <rdg wit="f1818">at first</rdg>
-            <rdg wit="f1823">at first</rdg>
-            <rdg wit="fThomas">at first</rdg>
-            <rdg wit="f1831">at first</rdg>
-        </rdgGrp>
-    </app>
-    ```
+- [x] ```xml
+  <!-- search `design became an insatiable passion.` to locate -->
+  <app>
+      <rdgGrp n="['and']">
+          <rdg wit="f1818">And</rdg>
+          <rdg wit="f1823">And</rdg>
+          <rdg wit="fThomas">And</rdg>
+          <rdg wit="f1831">And</rdg>
+          <rdg wit="fMS">And</rdg>
+      </rdgGrp>
+  </app>
+  <app>
+      <rdgGrp n="['now']">
+          <rdg wit="f1818">now</rdg>
+          <rdg wit="f1823">now</rdg>
+          <rdg wit="fThomas">now</rdg>
+          <rdg wit="f1831">now</rdg>
+      </rdgGrp>
+  </app>
+  ```
 
-  - [ ] ```xml
-    <app>
-        <rdgGrp n="['powers', 'of']">
-            <rdg wit="f1818">powers of</rdg>
-            <rdg wit="f1823">powers of</rdg>
-            <rdg wit="fThomas">powers of</rdg>
-            <rdg wit="f1831">powers of</rdg>
-        </rdgGrp>
-    </app>
-    <app>
-        <rdgGrp n="['eloquence']">
-            <rdg wit="f1818">eloquence</rdg>
-            <rdg wit="f1823">eloquence</rdg>
-            <rdg wit="fThomas">eloquence</rdg>
-            <rdg wit="f1831">eloquence</rdg>
-            <rdg wit="fMS">eloquence</rdg>
-        </rdgGrp>
-    </app>
-    ```
+- [x] ```xml
+  <app>
+      <rdgGrp n="['&lt;p-end/&gt;', '&lt;p-start/&gt;', 'i', 'was']">
+          <rdg wit="f1818">&lt;p eID="novel1_letter4_div4_p82"/&gt; &lt;p
+              sID="novel1_letter4_div4_p83"/&gt; I was</rdg>
+          <rdg wit="f1823">&lt;p eID="novel1_letter4_div4_p82"/&gt; &lt;p
+              sID="novel1_letter4_div4_p83"/&gt; I was</rdg>
+          <rdg wit="fThomas">&lt;p eID="novel1_letter4_div4_p82"/&gt; &lt;p
+              sID="novel1_letter4_div4_p83"/&gt; I was</rdg>
+          <rdg wit="f1831">&lt;p eID="novel1_letter4_div4_p84"/&gt; &lt;p
+              sID="novel1_letter4_div4_p85"/&gt; I was</rdg>
+          <rdg wit="fMS">&lt;milestone unit="tei:p-END"/&gt; &lt;milestone unit="tei:p-START"/&gt;
+              &lt;lb n="c57-0183__main__25"/&gt;I was</rdg>
+      </rdgGrp>
+  </app>
+  <app>
+      <rdgGrp n="['at', 'first']">
+          <rdg wit="f1818">at first</rdg>
+          <rdg wit="f1823">at first</rdg>
+          <rdg wit="fThomas">at first</rdg>
+          <rdg wit="f1831">at first</rdg>
+      </rdgGrp>
+  </app>
+  ```
 
-  - [ ] ```xml
-    <app>
-        <rdgGrp n="['the']">
-            <rdg wit="f1818">the</rdg>
-            <rdg wit="f1823">the</rdg>
-            <rdg wit="fThomas">the</rdg>
-            <rdg wit="f1831">the</rdg>
-        </rdgGrp>
-        <rdgGrp n="['', '', 'the']">
-            <rdg wit="fMS">&lt;lb n="c57-0183__main__29"/&gt;&lt;sga-add place="sublinear"
-                sID="c57-0183__main__d4e36835"/&gt; &lt;metamark function="displacement"
-                xml:id="c57-0183.03"&gt;^&lt;/metamark&gt; &lt;lb
-                n="c57-0183__left_margin__1"/&gt;&lt;sga-add
-                sID="c57-0183__left_margin__d4e36844"/&gt;the</rdg>
-        </rdgGrp>
-    </app>
-    
-    <app>
-        <rdgGrp n="['lifeless']">
-            <rdg wit="f1818">lifeless</rdg>
-            <rdg wit="f1823">lifeless</rdg>
-            <rdg wit="fThomas">lifeless</rdg>
-            <rdg wit="f1831">lifeless</rdg>
-        </rdgGrp>
-    </app>
-    ```
+- [x] ```xml
+  <app>
+      <rdgGrp n="['powers', 'of']">
+          <rdg wit="f1818">powers of</rdg>
+          <rdg wit="f1823">powers of</rdg>
+          <rdg wit="fThomas">powers of</rdg>
+          <rdg wit="f1831">powers of</rdg>
+      </rdgGrp>
+  </app>
+  <app>
+      <rdgGrp n="['eloquence']">
+          <rdg wit="f1818">eloquence</rdg>
+          <rdg wit="f1823">eloquence</rdg>
+          <rdg wit="fThomas">eloquence</rdg>
+          <rdg wit="f1831">eloquence</rdg>
+          <rdg wit="fMS">eloquence</rdg>
+      </rdgGrp>
+  </app>
+  ```
 
-  - [ ] ```xml
-    <app>
-        <rdgGrp n="['still']">
-            <rdg wit="f1818">still</rdg>
-            <rdg wit="f1823">still</rdg>
-            <rdg wit="fThomas">still</rdg>
-            <rdg wit="f1831">still</rdg>
-            <rdg wit="fMS">still</rdg>
-        </rdgGrp>
-    </app>
-    <app>
-        <rdgGrp n="['would', 'he', 'be', 'the', 'object,', 'again']">
-            <rdg wit="f1818">would he be the object, again</rdg>
-            <rdg wit="f1823">would he be the object, again</rdg>
-            <rdg wit="fThomas">would he be the object, again</rdg>
-            <rdg wit="f1831">would he be the object, again</rdg>
-        </rdgGrp>
-    </app>
-    ```
+- [x] ```xml
+  <app>
+      <rdgGrp n="['the']">
+          <rdg wit="f1818">the</rdg>
+          <rdg wit="f1823">the</rdg>
+          <rdg wit="fThomas">the</rdg>
+          <rdg wit="f1831">the</rdg>
+      </rdgGrp>
+      <rdgGrp n="['', '', 'the']">
+          <rdg wit="fMS">&lt;lb n="c57-0183__main__29"/&gt;&lt;sga-add place="sublinear"
+              sID="c57-0183__main__d4e36835"/&gt; &lt;metamark function="displacement"
+              xml:id="c57-0183.03"&gt;^&lt;/metamark&gt; &lt;lb
+              n="c57-0183__left_margin__1"/&gt;&lt;sga-add
+              sID="c57-0183__left_margin__d4e36844"/&gt;the</rdg>
+      </rdgGrp>
+  </app>
+  
+  <app>
+      <rdgGrp n="['lifeless']">
+          <rdg wit="f1818">lifeless</rdg>
+          <rdg wit="f1823">lifeless</rdg>
+          <rdg wit="fThomas">lifeless</rdg>
+          <rdg wit="f1831">lifeless</rdg>
+      </rdgGrp>
+  </app>
+  ```
 
-  - [ ] ```xml
-    <app>
-        <rdgGrp n="['he', 'become', 'the']">
-            <rdg wit="f1818">he become the</rdg>
-            <rdg wit="f1823">he become the</rdg>
-            <rdg wit="fThomas">he become the</rdg>
-            <rdg wit="f1831">he become the</rdg>
-        </rdgGrp>
-        <rdgGrp n="['you', 'persue', 'him', 'with']">
-            <rdg wit="fMS">you &lt;lb n="c57-0184__main__4"/&gt;persue him with</rdg>
-        </rdgGrp>
-    </app>
-    <app>
-        <rdgGrp n="['prey']">
-            <rdg wit="f1818">prey</rdg>
-            <rdg wit="fThomas">prey</rdg>
-        </rdgGrp>
-        <rdgGrp n="['prey,']">
-            <rdg wit="f1823">prey,</rdg>
-            <rdg wit="f1831">prey,</rdg>
-        </rdgGrp>
-    </app>
-    <app>
-        <rdgGrp n="['of']">
-            <rdg wit="f1818">of</rdg>
-            <rdg wit="f1823">of</rdg>
-            <rdg wit="fThomas">of</rdg>
-            <rdg wit="f1831">of</rdg>
-        </rdgGrp>
-    </app>
-    ```
+- [x] ```xml
+  <app>
+      <rdgGrp n="['still']">
+          <rdg wit="f1818">still</rdg>
+          <rdg wit="f1823">still</rdg>
+          <rdg wit="fThomas">still</rdg>
+          <rdg wit="f1831">still</rdg>
+          <rdg wit="fMS">still</rdg>
+      </rdgGrp>
+  </app>
+  <app>
+      <rdgGrp n="['would', 'he', 'be', 'the', 'object,', 'again']">
+          <rdg wit="f1818">would he be the object, again</rdg>
+          <rdg wit="f1823">would he be the object, again</rdg>
+          <rdg wit="fThomas">would he be the object, again</rdg>
+          <rdg wit="f1831">would he be the object, again</rdg>
+      </rdgGrp>
+  </app>
+  ```
 
-  - [ ] ```xml
-    <!-- search `shadow,` to locate -->
-    <app>
-        <rdgGrp n="['and']">
-            <rdg wit="f1818">and</rdg>
-            <rdg wit="f1823">and</rdg>
-            <rdg wit="fThomas">and</rdg>
-            <rdg wit="f1831">and</rdg>
-            <rdg wit="fMS">and</rdg>
-        </rdgGrp>
-    </app>
-    <app>
-        <rdgGrp n="['that']">
-            <rdg wit="f1818">that</rdg>
-            <rdg wit="f1823">that</rdg>
-            <rdg wit="fThomas">that</rdg>
-            <rdg wit="f1831">that</rdg>
-        </rdgGrp>
-    </app>
-    ```
+- [x] ```xml
+  <app>
+      <rdgGrp n="['he', 'become', 'the']">
+          <rdg wit="f1818">he become the</rdg>
+          <rdg wit="f1823">he become the</rdg>
+          <rdg wit="fThomas">he become the</rdg>
+          <rdg wit="f1831">he become the</rdg>
+      </rdgGrp>
+      <rdgGrp n="['you', 'persue', 'him', 'with']">
+          <rdg wit="fMS">you &lt;lb n="c57-0184__main__4"/&gt;persue him with</rdg>
+      </rdgGrp>
+  </app>
+  <app>
+      <rdgGrp n="['prey']">
+          <rdg wit="f1818">prey</rdg>
+          <rdg wit="fThomas">prey</rdg>
+      </rdgGrp>
+      <rdgGrp n="['prey,']">
+          <rdg wit="f1823">prey,</rdg>
+          <rdg wit="f1831">prey,</rdg>
+      </rdgGrp>
+  </app>
+  <app>
+      <rdgGrp n="['of']">
+          <rdg wit="f1818">of</rdg>
+          <rdg wit="f1823">of</rdg>
+          <rdg wit="fThomas">of</rdg>
+          <rdg wit="f1831">of</rdg>
+      </rdgGrp>
+  </app>
+  ```
 
-  - [ ] ```xml
-    <app>
-        <rdgGrp n="['i', 'am']">
-            <rdg wit="f1818">I am</rdg>
-            <rdg wit="f1823">I am</rdg>
-            <rdg wit="fThomas">I am</rdg>
-            <rdg wit="f1831">I am</rdg>
-            <rdg wit="fMS">I am</rdg>
-        </rdgGrp>
-    </app>
-    <app>
-        <rdgGrp n="['well']">
-            <rdg wit="f1818">well</rdg>
-            <rdg wit="f1823">well</rdg>
-            <rdg wit="fThomas">well</rdg>
-            <rdg wit="f1831">well</rdg>
-        </rdgGrp>
-    </app>
-    ```
+- [x] ```xml
+  <!-- search `shadow,` to locate -->
+  <app>
+      <rdgGrp n="['and']">
+          <rdg wit="f1818">and</rdg>
+          <rdg wit="f1823">and</rdg>
+          <rdg wit="fThomas">and</rdg>
+          <rdg wit="f1831">and</rdg>
+          <rdg wit="fMS">and</rdg>
+      </rdgGrp>
+  </app>
+  <app>
+      <rdgGrp n="['that']">
+          <rdg wit="f1818">that</rdg>
+          <rdg wit="f1823">that</rdg>
+          <rdg wit="fThomas">that</rdg>
+          <rdg wit="f1831">that</rdg>
+      </rdgGrp>
+  </app>
+  ```
 
-  - [ ] ```xml
-    <app>
-        <rdgGrp n="['enjoyment.', 'once', 'i']">
-            <rdg wit="f1818">enjoyment. Once I</rdg>
-            <rdg wit="f1823">enjoyment. Once I</rdg>
-            <rdg wit="fThomas">enjoyment. Once I</rdg>
-            <rdg wit="f1831">enjoyment. Once I</rdg>
-            <rdg wit="fMS">enjoyment. Once &lt;lb n="c57-0184__main__25"/&gt;I</rdg>
-        </rdgGrp>
-    </app>
-    <app>
-        <rdgGrp n="['falsely']">
-            <rdg wit="f1818">falsely</rdg>
-            <rdg wit="f1823">falsely</rdg>
-            <rdg wit="fThomas">falsely</rdg>
-            <rdg wit="f1831">falsely</rdg>
-        </rdgGrp>
-    </app>
-    ```
+- [x] ```xml
+  <app>
+      <rdgGrp n="['i', 'am']">
+          <rdg wit="f1818">I am</rdg>
+          <rdg wit="f1823">I am</rdg>
+          <rdg wit="fThomas">I am</rdg>
+          <rdg wit="f1831">I am</rdg>
+          <rdg wit="fMS">I am</rdg>
+      </rdgGrp>
+  </app>
+  <app>
+      <rdgGrp n="['well']">
+          <rdg wit="f1818">well</rdg>
+          <rdg wit="f1823">well</rdg>
+          <rdg wit="fThomas">well</rdg>
+          <rdg wit="f1831">well</rdg>
+      </rdgGrp>
+  </app>
+  ```
 
-  - [ ] ```xml
-    <app>
-        <rdgGrp n="['but', 'now']">
-            <rdg wit="f1818">But now</rdg>
-            <rdg wit="f1823">But now</rdg>
-            <rdg wit="fThomas">But now</rdg>
-            <rdg wit="f1831">But now</rdg>
-            <rdg wit="fMS">But now</rdg>
-        </rdgGrp>
-    </app>
-    <app>
-        <rdgGrp n="['', '&lt;del&gt;crime&lt;/del&gt;']">
-            <rdg wit="fMS">&lt;mod sID="c57-0184__main__d4e37085"/&gt; &lt;del rend="strikethrough"
-                xml:id="c57-0184__main__d4e37087"&gt;crime&lt;/del&gt;</rdg>
-        </rdgGrp>
-        <rdgGrp n="['crime']">
-            <rdg wit="f1831">crime</rdg>
-        </rdgGrp>
-    </app>
-    <app>
-        <rdgGrp n="['vice']">
-            <rdg wit="f1818">vice</rdg>
-            <rdg wit="f1823">vice</rdg>
-            <rdg wit="fThomas">vice</rdg>
-            <rdg wit="fMS">&lt;anchor xml:id="c57-0184.03"/&gt;&lt;lb
-                n="c57-0184__left_margin__1"/&gt;&lt;sga-add
-                sID="c57-0184__left_margin__d4e37096"/&gt;vice</rdg>
-        </rdgGrp>
-    </app>
-    ```
+- [x] ```xml
+  <app>
+      <rdgGrp n="['enjoyment.', 'once', 'i']">
+          <rdg wit="f1818">enjoyment. Once I</rdg>
+          <rdg wit="f1823">enjoyment. Once I</rdg>
+          <rdg wit="fThomas">enjoyment. Once I</rdg>
+          <rdg wit="f1831">enjoyment. Once I</rdg>
+          <rdg wit="fMS">enjoyment. Once &lt;lb n="c57-0184__main__25"/&gt;I</rdg>
+      </rdgGrp>
+  </app>
+  <app>
+      <rdgGrp n="['falsely']">
+          <rdg wit="f1818">falsely</rdg>
+          <rdg wit="f1823">falsely</rdg>
+          <rdg wit="fThomas">falsely</rdg>
+          <rdg wit="f1831">falsely</rdg>
+      </rdgGrp>
+  </app>
+  ```
 
-  - [ ] ```xml
-    
-    ```
+- [x] ```xml
+  <app>
+      <rdgGrp n="['but', 'now']">
+          <rdg wit="f1818">But now</rdg>
+          <rdg wit="f1823">But now</rdg>
+          <rdg wit="fThomas">But now</rdg>
+          <rdg wit="f1831">But now</rdg>
+          <rdg wit="fMS">But now</rdg>
+      </rdgGrp>
+  </app>
+  <app>
+      <rdgGrp n="['', '&lt;del&gt;crime&lt;/del&gt;']">
+          <rdg wit="fMS">&lt;mod sID="c57-0184__main__d4e37085"/&gt; &lt;del rend="strikethrough"
+              xml:id="c57-0184__main__d4e37087"&gt;crime&lt;/del&gt;</rdg>
+      </rdgGrp>
+      <rdgGrp n="['crime']">
+          <rdg wit="f1831">crime</rdg>
+      </rdgGrp>
+  </app>
+  <app>
+      <rdgGrp n="['vice']">
+          <rdg wit="f1818">vice</rdg>
+          <rdg wit="f1823">vice</rdg>
+          <rdg wit="fThomas">vice</rdg>
+          <rdg wit="fMS">&lt;anchor xml:id="c57-0184.03"/&gt;&lt;lb
+              n="c57-0184__left_margin__1"/&gt;&lt;sga-add
+              sID="c57-0184__left_margin__d4e37096"/&gt;vice</rdg>
+      </rdgGrp>
+  </app>
+  ```
 
-  - [ ] ```xml
-    <app>
-    		<rdgGrp n="['over', 'the', 'frightful', 'catalogue']">
-    			<rdg wit="f1818">over the frightful catalogue</rdg>
-    			<rdg wit="f1823">over the frightful catalogue</rdg>
-    			<rdg wit="fThomas">over the frightful catalogue</rdg>
-    			<rdg wit="f1831">over the frightful catalogue</rdg>
-    			<rdg wit="fMS">over the frightful &lt;w ana="start"/&gt;cata&lt;lb
-    				n="c57-0184__main__33"/&gt;logue&lt;w ana="end"/&gt;</rdg>
-    		</rdgGrp>
-    	</app>
-    	<app>
-    		<rdgGrp n="['of', 'my']">
-    			<rdg wit="f1818">of my</rdg>
-    			<rdg wit="f1823">of my</rdg>
-    			<rdg wit="fThomas">of my</rdg>
-    			<rdg wit="f1831">of my</rdg>
-    		</rdgGrp>
-    	</app>
-    	<app>
-    		<rdgGrp n="['deeds,']">
-    			<rdg wit="f1818">deeds,</rdg>
-    			<rdg wit="f1823">deeds,</rdg>
-    			<rdg wit="fThomas">deeds,</rdg>
-    		</rdgGrp>
-    		<rdgGrp n="['sins,']">
-    			<rdg wit="f1831">sins,</rdg>
-    		</rdgGrp>
-    	</app>
-    ```
+- [x] ```xml
+  <app>
+  		<rdgGrp n="['over', 'the', 'frightful', 'catalogue']">
+  			<rdg wit="f1818">over the frightful catalogue</rdg>
+  			<rdg wit="f1823">over the frightful catalogue</rdg>
+  			<rdg wit="fThomas">over the frightful catalogue</rdg>
+  			<rdg wit="f1831">over the frightful catalogue</rdg>
+  			<rdg wit="fMS">over the frightful &lt;w ana="start"/&gt;cata&lt;lb
+  				n="c57-0184__main__33"/&gt;logue&lt;w ana="end"/&gt;</rdg>
+  		</rdgGrp>
+  	</app>
+  	<app>
+  		<rdgGrp n="['of', 'my']">
+  			<rdg wit="f1818">of my</rdg>
+  			<rdg wit="f1823">of my</rdg>
+  			<rdg wit="fThomas">of my</rdg>
+  			<rdg wit="f1831">of my</rdg>
+  		</rdgGrp>
+  	</app>
+  	<app>
+  		<rdgGrp n="['deeds,']">
+  			<rdg wit="f1818">deeds,</rdg>
+  			<rdg wit="f1823">deeds,</rdg>
+  			<rdg wit="fThomas">deeds,</rdg>
+  		</rdgGrp>
+  		<rdgGrp n="['sins,']">
+  			<rdg wit="f1831">sins,</rdg>
+  		</rdgGrp>
+  	</app>
+  ```
 
-  - [ ] ```xml
-    <app>
-        <rdgGrp n="['visions']">
-            <rdg wit="f1818">visions</rdg>
-            <rdg wit="f1823">visions</rdg>
-            <rdg wit="fThomas">visions</rdg>
-            <rdg wit="f1831">visions</rdg>
-            <rdg wit="fMS">visions</rdg>
-        </rdgGrp>
-    </app>
-    <app>
-        <rdgGrp n="['of', 'the', 'beauty', 'and', 'the', 'majesty']">
-            <rdg wit="f1818">of the beauty and the majesty</rdg>
-            <rdg wit="f1823">of the beauty and the majesty</rdg>
-            <rdg wit="fThomas">of the beauty and the majesty</rdg>
-            <rdg wit="f1831">of the beauty and the majesty</rdg>
-        </rdgGrp>
-    </app>
-    ```
+- [x] ```xml
+  <app>
+      <rdgGrp n="['visions']">
+          <rdg wit="f1818">visions</rdg>
+          <rdg wit="f1823">visions</rdg>
+          <rdg wit="fThomas">visions</rdg>
+          <rdg wit="f1831">visions</rdg>
+          <rdg wit="fMS">visions</rdg>
+      </rdgGrp>
+  </app>
+  <app>
+      <rdgGrp n="['of', 'the', 'beauty', 'and', 'the', 'majesty']">
+          <rdg wit="f1818">of the beauty and the majesty</rdg>
+          <rdg wit="f1823">of the beauty and the majesty</rdg>
+          <rdg wit="fThomas">of the beauty and the majesty</rdg>
+          <rdg wit="f1831">of the beauty and the majesty</rdg>
+      </rdgGrp>
+  </app>
+  ```
 
-  - [ ] ```xml
-    <app>
-        <rdgGrp n="['enemy']">
-            <rdg wit="f1818">enemy</rdg>
-            <rdg wit="f1823">enemy</rdg>
-            <rdg wit="fThomas">enemy</rdg>
-            <rdg wit="f1831">enemy</rdg>
-            <rdg wit="fMS">enemy</rdg>
-        </rdgGrp>
-    </app>
-    <app>
-        <rdgGrp n="['of', 'god', 'and', 'man']">
-            <rdg wit="f1818">of God and man</rdg>
-            <rdg wit="f1823">of God and man</rdg>
-            <rdg wit="fThomas">of God and man</rdg>
-            <rdg wit="f1831">of God and man</rdg>
-        </rdgGrp>
-    </app>
-    ```
+- [x] ```xml
+  <app>
+      <rdgGrp n="['enemy']">
+          <rdg wit="f1818">enemy</rdg>
+          <rdg wit="f1823">enemy</rdg>
+          <rdg wit="fThomas">enemy</rdg>
+          <rdg wit="f1831">enemy</rdg>
+          <rdg wit="fMS">enemy</rdg>
+      </rdgGrp>
+  </app>
+  <app>
+      <rdgGrp n="['of', 'god', 'and', 'man']">
+          <rdg wit="f1818">of God and man</rdg>
+          <rdg wit="f1823">of God and man</rdg>
+          <rdg wit="fThomas">of God and man</rdg>
+          <rdg wit="f1831">of God and man</rdg>
+      </rdgGrp>
+  </app>
+  ```
 
-  - [ ] ```xml
-    <app>
-        <rdgGrp n="['i', 'am']">
-            <rdg wit="f1818">I am</rdg>
-            <rdg wit="f1823">I am</rdg>
-            <rdg wit="fThomas">I am</rdg>
-            <rdg wit="f1831">I am</rdg>
-            <rdg wit="fMS">I am</rdg>
-        </rdgGrp>
-    </app>
-    <app>
-        <rdgGrp n="['quite']">
-            <rdg wit="f1818">quite</rdg>
-            <rdg wit="fThomas">quite</rdg>
-            <rdg wit="fMS">quite</rdg>
-        </rdgGrp>
-    </app>
-    ```
+- [x] ```xml
+  <app>
+      <rdgGrp n="['i', 'am']">
+          <rdg wit="f1818">I am</rdg>
+          <rdg wit="f1823">I am</rdg>
+          <rdg wit="fThomas">I am</rdg>
+          <rdg wit="f1831">I am</rdg>
+          <rdg wit="fMS">I am</rdg>
+      </rdgGrp>
+  </app>
+  <app>
+      <rdgGrp n="['quite']">
+          <rdg wit="f1818">quite</rdg>
+          <rdg wit="fThomas">quite</rdg>
+          <rdg wit="fMS">quite</rdg>
+      </rdgGrp>
+  </app>
+  ```
 
-  - [ ] ```xml
-    <app>
-        <rdgGrp n="['he', 'gave']">
-            <rdg wit="f1818">he gave</rdg>
-            <rdg wit="f1823">he gave</rdg>
-            <rdg wit="fThomas">he gave</rdg>
-            <rdg wit="f1831">he gave</rdg>
-            <rdg wit="fMS">&lt;lb n="c57-0185__main__8"/&gt;he gave</rdg>
-        </rdgGrp>
-    </app>
-    <app>
-        <rdgGrp n="['you']">
-            <rdg wit="f1818">you</rdg>
-            <rdg wit="f1823">you</rdg>
-            <rdg wit="fThomas">you</rdg>
-            <rdg wit="f1831">you</rdg>
-        </rdgGrp>
-    </app>
-    ```
+- [x] ```xml
+  <app>
+      <rdgGrp n="['he', 'gave']">
+          <rdg wit="f1818">he gave</rdg>
+          <rdg wit="f1823">he gave</rdg>
+          <rdg wit="fThomas">he gave</rdg>
+          <rdg wit="f1831">he gave</rdg>
+          <rdg wit="fMS">&lt;lb n="c57-0185__main__8"/&gt;he gave</rdg>
+      </rdgGrp>
+  </app>
+  <app>
+      <rdgGrp n="['you']">
+          <rdg wit="f1818">you</rdg>
+          <rdg wit="f1823">you</rdg>
+          <rdg wit="fThomas">you</rdg>
+          <rdg wit="f1831">you</rdg>
+      </rdgGrp>
+  </app>
+  ```
 
-  - [ ] ```xml
-    <app>
-        <rdgGrp n="['am', 'i']">
-            <rdg wit="f1818">Am I</rdg>
-            <rdg wit="f1823">Am I</rdg>
-            <rdg wit="fThomas">Am I</rdg>
-            <rdg wit="f1831">Am I</rdg>
-        </rdgGrp>
-        <rdgGrp n="['and', 'am', 'i']">
-            <rdg wit="fMS">And &lt;lb n="c57-0185__main__16"/&gt;am I</rdg>
-        </rdgGrp>
-    </app>
-    
-    <app>
-        <rdgGrp n="['to', 'be', 'thought']">
-            <rdg wit="f1818">to be thought</rdg>
-            <rdg wit="f1823">to be thought</rdg>
-            <rdg wit="fThomas">to be thought</rdg>
-            <rdg wit="f1831">to be thought</rdg>
-        </rdgGrp>
-    </app>
-    ```
+- [x] ```xml
+  <app>
+      <rdgGrp n="['am', 'i']">
+          <rdg wit="f1818">Am I</rdg>
+          <rdg wit="f1823">Am I</rdg>
+          <rdg wit="fThomas">Am I</rdg>
+          <rdg wit="f1831">Am I</rdg>
+      </rdgGrp>
+      <rdgGrp n="['and', 'am', 'i']">
+          <rdg wit="fMS">And &lt;lb n="c57-0185__main__16"/&gt;am I</rdg>
+      </rdgGrp>
+  </app>
+  
+  <app>
+      <rdgGrp n="['to', 'be', 'thought']">
+          <rdg wit="f1818">to be thought</rdg>
+          <rdg wit="f1823">to be thought</rdg>
+          <rdg wit="fThomas">to be thought</rdg>
+          <rdg wit="f1831">to be thought</rdg>
+      </rdgGrp>
+  </app>
+  ```
 
-  - [ ] ```xml
-    <app>
-        <rdgGrp n="['spurned']">
-            <rdg wit="f1818">spurned </rdg>
-            <rdg wit="f1823">spurned </rdg>
-            <rdg wit="fThomas">spurned </rdg>
-            <rdg wit="f1831">spurned </rdg>
-            <rdg wit="fMS">&lt;sga-add eID="c57-0185__main__d4e37258"/&gt;spurned</rdg>
-        </rdgGrp>
-    </app>
-    
-    <app>
-        <rdgGrp n="['at,']">
-            <rdg wit="f1818">at,</rdg>
-            <rdg wit="f1823">at,</rdg>
-            <rdg wit="fThomas">at,</rdg>
-            <rdg wit="f1831">at,</rdg>
-        </rdgGrp>
-    </app>
-    ```
+- [x] ```xml
+  <app>
+      <rdgGrp n="['spurned']">
+          <rdg wit="f1818">spurned </rdg>
+          <rdg wit="f1823">spurned </rdg>
+          <rdg wit="fThomas">spurned </rdg>
+          <rdg wit="f1831">spurned </rdg>
+          <rdg wit="fMS">&lt;sga-add eID="c57-0185__main__d4e37258"/&gt;spurned</rdg>
+      </rdgGrp>
+  </app>
+  
+  <app>
+      <rdgGrp n="['at,']">
+          <rdg wit="f1818">at,</rdg>
+          <rdg wit="f1823">at,</rdg>
+          <rdg wit="fThomas">at,</rdg>
+          <rdg wit="f1831">at,</rdg>
+      </rdgGrp>
+  </app>
+  ```
 
-  - [ ] ```xml
-    <!-- search `other living thing.` to locate -->
-    <app>
-        <rdgGrp n="['i']">
-            <rdg wit="f1818">I</rdg>
-            <rdg wit="f1823">I</rdg>
-            <rdg wit="fThomas">I</rdg>
-            <rdg wit="f1831">I</rdg>
-            <rdg wit="fMS">&lt;lb n="c57-0185__main__30"/&gt;I</rdg>
-        </rdgGrp>
-    </app>
-    <app>
-        <rdgGrp n="['have']">
-            <rdg wit="f1818">have</rdg>
-            <rdg wit="f1823">have</rdg>
-            <rdg wit="fThomas">have</rdg>
-            <rdg wit="f1831">have</rdg>
-        </rdgGrp>
-    </app>
-    ```
+- [x] ```xml
+  <!-- search `other living thing.` to locate -->
+  <app>
+      <rdgGrp n="['i']">
+          <rdg wit="f1818">I</rdg>
+          <rdg wit="f1823">I</rdg>
+          <rdg wit="fThomas">I</rdg>
+          <rdg wit="f1831">I</rdg>
+          <rdg wit="fMS">&lt;lb n="c57-0185__main__30"/&gt;I</rdg>
+      </rdgGrp>
+  </app>
+  <app>
+      <rdgGrp n="['have']">
+          <rdg wit="f1818">have</rdg>
+          <rdg wit="f1823">have</rdg>
+          <rdg wit="fThomas">have</rdg>
+          <rdg wit="f1831">have</rdg>
+      </rdgGrp>
+  </app>
+  ```
 
-  - [ ] ```xml
-    <app>
-        <rdgGrp n="['i', 'loathe', 'myself.', 'fear']">
-            <rdg wit="fMS">I loathe myself. &lt;lb n="c57-0186__main__1"/&gt;Fear</rdg>
-        </rdgGrp>
-        <rdgGrp n="['long', 'for', 'the', 'moment', 'when']">
-            <rdg wit="f1818">long for the moment when</rdg>
-            <rdg wit="f1823">long for the moment when</rdg>
-            <rdg wit="fThomas">long for the moment when</rdg>
-            <rdg wit="f1831">long for &lt;pb xml:id="F1831_v_217" n="201"/&gt;the moment when</rdg>
-        </rdgGrp>
-    </app>
-    <app>
-        <rdgGrp n="['these', 'hands']">
-            <rdg wit="f1823">these hands</rdg>
-            <rdg wit="f1831">these hands</rdg>
-        </rdgGrp>
-        <rdgGrp n="['they']">
-            <rdg wit="f1818">they</rdg>
-            <rdg wit="fThomas">they</rdg>
-        </rdgGrp>
-    </app>
-    <app>
-        <rdgGrp n="['will', 'meet', 'my', 'eyes,', 'when']">
-            <rdg wit="f1818">will meet my eyes, when</rdg>
-            <rdg wit="f1823">will meet my eyes, when</rdg>
-            <rdg wit="fThomas">will meet my eyes, when</rdg>
-            <rdg wit="f1831">will meet my eyes, when</rdg>
-        </rdgGrp>
-    </app>
-    <app>
-        <rdgGrp n="['it']">
-            <rdg wit="f1818">it</rdg>
-            <rdg wit="fThomas">it</rdg>
-        </rdgGrp>
-        <rdgGrp n="['that', 'imagination']">
-            <rdg wit="f1823">that imagination</rdg>
-            <rdg wit="f1831">that imagination</rdg>
-        </rdgGrp>
-    </app>
-    <app>
-        <rdgGrp n="['will', 'haunt', 'my']">
-            <rdg wit="f1818">will haunt my</rdg>
-            <rdg wit="f1823">will haunt my</rdg>
-            <rdg wit="fThomas">will haunt my</rdg>
-            <rdg wit="f1831">will haunt my</rdg>
-        </rdgGrp>
-    </app>
-    <app>
-        <rdgGrp n="['thoughts']">
-            <rdg wit="f1831">thoughts</rdg>
-        </rdgGrp>
-        <rdgGrp n="['thoughts,']">
-            <rdg wit="f1818">thoughts,</rdg>
-            <rdg wit="f1823">thoughts,</rdg>
-            <rdg wit="fThomas">thoughts,</rdg>
-        </rdgGrp>
-    </app>
-    <app>
-        <rdgGrp n="['no', 'more.', '&lt;p-end/&gt;', '&lt;p-start/&gt;', '&#34;fear']">
-            <rdg wit="f1818">no more. &lt;p eID="novel1_letter4_div4_p86"/&gt; &lt;p
-                sID="novel1_letter4_div4_p87"/&gt; “Fear</rdg>
-            <rdg wit="f1823">no more. &lt;p eID="novel1_letter4_div4_p86"/&gt; &lt;p
-                sID="novel1_letter4_div4_p87"/&gt; “Fear</rdg>
-            <rdg wit="fThomas">no more. &lt;p eID="novel1_letter4_div4_p86"/&gt; &lt;p
-                sID="novel1_letter4_div4_p87"/&gt; “Fear</rdg>
-            <rdg wit="f1831">no more. &lt;p eID="novel1_letter4_div4_p88"/&gt; &lt;p
-                sID="novel1_letter4_div4_p89"/&gt; “Fear</rdg>
-        </rdgGrp>
-    </app>
-    ```
+- [x] ```xml
+  <app>
+      <rdgGrp n="['i', 'loathe', 'myself.', 'fear']">
+          <rdg wit="fMS">I loathe myself. &lt;lb n="c57-0186__main__1"/&gt;Fear</rdg>
+      </rdgGrp>
+      <rdgGrp n="['long', 'for', 'the', 'moment', 'when']">
+          <rdg wit="f1818">long for the moment when</rdg>
+          <rdg wit="f1823">long for the moment when</rdg>
+          <rdg wit="fThomas">long for the moment when</rdg>
+          <rdg wit="f1831">long for &lt;pb xml:id="F1831_v_217" n="201"/&gt;the moment when</rdg>
+      </rdgGrp>
+  </app>
+  <app>
+      <rdgGrp n="['these', 'hands']">
+          <rdg wit="f1823">these hands</rdg>
+          <rdg wit="f1831">these hands</rdg>
+      </rdgGrp>
+      <rdgGrp n="['they']">
+          <rdg wit="f1818">they</rdg>
+          <rdg wit="fThomas">they</rdg>
+      </rdgGrp>
+  </app>
+  <app>
+      <rdgGrp n="['will', 'meet', 'my', 'eyes,', 'when']">
+          <rdg wit="f1818">will meet my eyes, when</rdg>
+          <rdg wit="f1823">will meet my eyes, when</rdg>
+          <rdg wit="fThomas">will meet my eyes, when</rdg>
+          <rdg wit="f1831">will meet my eyes, when</rdg>
+      </rdgGrp>
+  </app>
+  <app>
+      <rdgGrp n="['it']">
+          <rdg wit="f1818">it</rdg>
+          <rdg wit="fThomas">it</rdg>
+      </rdgGrp>
+      <rdgGrp n="['that', 'imagination']">
+          <rdg wit="f1823">that imagination</rdg>
+          <rdg wit="f1831">that imagination</rdg>
+      </rdgGrp>
+  </app>
+  <app>
+      <rdgGrp n="['will', 'haunt', 'my']">
+          <rdg wit="f1818">will haunt my</rdg>
+          <rdg wit="f1823">will haunt my</rdg>
+          <rdg wit="fThomas">will haunt my</rdg>
+          <rdg wit="f1831">will haunt my</rdg>
+      </rdgGrp>
+  </app>
+  <app>
+      <rdgGrp n="['thoughts']">
+          <rdg wit="f1831">thoughts</rdg>
+      </rdgGrp>
+      <rdgGrp n="['thoughts,']">
+          <rdg wit="f1818">thoughts,</rdg>
+          <rdg wit="f1823">thoughts,</rdg>
+          <rdg wit="fThomas">thoughts,</rdg>
+      </rdgGrp>
+  </app>
+  <app>
+      <rdgGrp n="['no', 'more.', '&lt;p-end/&gt;', '&lt;p-start/&gt;', '&#34;fear']">
+          <rdg wit="f1818">no more. &lt;p eID="novel1_letter4_div4_p86"/&gt; &lt;p
+              sID="novel1_letter4_div4_p87"/&gt; “Fear</rdg>
+          <rdg wit="f1823">no more. &lt;p eID="novel1_letter4_div4_p86"/&gt; &lt;p
+              sID="novel1_letter4_div4_p87"/&gt; “Fear</rdg>
+          <rdg wit="fThomas">no more. &lt;p eID="novel1_letter4_div4_p86"/&gt; &lt;p
+              sID="novel1_letter4_div4_p87"/&gt; “Fear</rdg>
+          <rdg wit="f1831">no more. &lt;p eID="novel1_letter4_div4_p88"/&gt; &lt;p
+              sID="novel1_letter4_div4_p89"/&gt; “Fear</rdg>
+      </rdgGrp>
+  </app>
+  ```
 
-  - [ ] ```xml
-    <app>
-        <rdgGrp n="['death']">
-            <rdg wit="f1818">death</rdg>
-            <rdg wit="f1823">death</rdg>
-            <rdg wit="fThomas">death</rdg>
-            <rdg wit="f1831">death</rdg>
-            <rdg wit="fMS">death</rdg>
-        </rdgGrp>
-    </app>
-    <app>
-        <rdgGrp n="['is', 'needed']">
-            <rdg wit="f1818">is needed</rdg>
-            <rdg wit="f1823">is needed</rdg>
-            <rdg wit="fThomas">is needed</rdg>
-            <rdg wit="f1831">is needed</rdg>
-        </rdgGrp>
-    </app>
-    ```
+- [x] ```xml
+  <app>
+      <rdgGrp n="['death']">
+          <rdg wit="f1818">death</rdg>
+          <rdg wit="f1823">death</rdg>
+          <rdg wit="fThomas">death</rdg>
+          <rdg wit="f1831">death</rdg>
+          <rdg wit="fMS">death</rdg>
+      </rdgGrp>
+  </app>
+  <app>
+      <rdgGrp n="['is', 'needed']">
+          <rdg wit="f1818">is needed</rdg>
+          <rdg wit="f1823">is needed</rdg>
+          <rdg wit="fThomas">is needed</rdg>
+          <rdg wit="f1831">is needed</rdg>
+      </rdgGrp>
+  </app>
+  ```
 
-  - [ ] ```xml
-    <app>
-        <rdgGrp n="['hither,']">
-            <rdg wit="f1818">hither,</rdg>
-            <rdg wit="f1823">hither,</rdg>
-            <rdg wit="fThomas">hither,</rdg>
-        </rdgGrp>
-        <rdgGrp n="['i']">
-            <rdg wit="fMS">I</rdg>
-        </rdgGrp>
-        <rdgGrp n="['thither,']">
-            <rdg wit="f1831">thither,</rdg>
-        </rdgGrp>
-    </app>
-    <app>
-        <rdgGrp n="['and']">
-            <rdg wit="f1818">and</rdg>
-            <rdg wit="f1823">and</rdg>
-            <rdg wit="fThomas">and</rdg>
-            <rdg wit="f1831">and</rdg>
-        </rdgGrp>
-    </app>
-    ```
+- [x] ```xml
+  <app>
+      <rdgGrp n="['hither,']">
+          <rdg wit="f1818">hither,</rdg>
+          <rdg wit="f1823">hither,</rdg>
+          <rdg wit="fThomas">hither,</rdg>
+      </rdgGrp>
+      <rdgGrp n="['i']">
+          <rdg wit="fMS">I</rdg>
+      </rdgGrp>
+      <rdgGrp n="['thither,']">
+          <rdg wit="f1831">thither,</rdg>
+      </rdgGrp>
+  </app>
+  <app>
+      <rdgGrp n="['and']">
+          <rdg wit="f1818">and</rdg>
+          <rdg wit="f1823">and</rdg>
+          <rdg wit="fThomas">and</rdg>
+          <rdg wit="f1831">and</rdg>
+      </rdgGrp>
+  </app>
+  ```
 
-  - [ ] ```xml
-    <app>
-        <rdgGrp n="['called']">
-            <rdg wit="f1818">called</rdg>
-            <rdg wit="f1823">called</rdg>
-            <rdg wit="fThomas">called</rdg>
-            <rdg wit="f1831">called</rdg>
-        </rdgGrp>
-        <rdgGrp n="['created']">
-            <rdg wit="fMS">created</rdg>
-        </rdgGrp>
-    </app>
-    <app>
-        <rdgGrp n="['me']">
-            <rdg wit="f1818">me</rdg>
-            <rdg wit="f1823">me</rdg>
-            <rdg wit="fThomas">me</rdg>
-            <rdg wit="f1831">me</rdg>
-            <rdg wit="fMS">me</rdg>
-        </rdgGrp>
-    </app>
-    <app>
-        <rdgGrp n="['into', 'being;']">
-            <rdg wit="f1818">into being;</rdg>
-            <rdg wit="f1823">into being;</rdg>
-            <rdg wit="fThomas">into being;</rdg>
-            <rdg wit="f1831">into being;</rdg>
-        </rdgGrp>
-    </app>
-    ```
+- [x] ```xml
+  <app>
+      <rdgGrp n="['called']">
+          <rdg wit="f1818">called</rdg>
+          <rdg wit="f1823">called</rdg>
+          <rdg wit="fThomas">called</rdg>
+          <rdg wit="f1831">called</rdg>
+      </rdgGrp>
+      <rdgGrp n="['created']">
+          <rdg wit="fMS">created</rdg>
+      </rdgGrp>
+  </app>
+  <app>
+      <rdgGrp n="['me']">
+          <rdg wit="f1818">me</rdg>
+          <rdg wit="f1823">me</rdg>
+          <rdg wit="fThomas">me</rdg>
+          <rdg wit="f1831">me</rdg>
+          <rdg wit="fMS">me</rdg>
+      </rdgGrp>
+  </app>
+  <app>
+      <rdgGrp n="['into', 'being;']">
+          <rdg wit="f1818">into being;</rdg>
+          <rdg wit="f1823">into being;</rdg>
+          <rdg wit="fThomas">into being;</rdg>
+          <rdg wit="f1831">into being;</rdg>
+      </rdgGrp>
+  </app>
+  ```
 
-  - [ ] ```xml
-    <!-- search `remembrance` to locate -->
-    <app>
-        <rdgGrp n="['the']">
-            <rdg wit="f1818">the</rdg>
-            <rdg wit="f1823">the</rdg>
-            <rdg wit="fThomas">the</rdg>
-            <rdg wit="f1831">the</rdg>
-            <rdg wit="fMS">the</rdg>
-        </rdgGrp>
-    </app>
-    <app>
-        <rdgGrp n="['very']">
-            <rdg wit="f1818">very</rdg>
-            <rdg wit="f1823">very</rdg>
-            <rdg wit="fThomas">very</rdg>
-            <rdg wit="f1831">very</rdg>
-        </rdgGrp>
-    </app>
-    ```
+- [x] ```xml
+  <!-- search `remembrance` to locate -->
+  <app>
+      <rdgGrp n="['the']">
+          <rdg wit="f1818">the</rdg>
+          <rdg wit="f1823">the</rdg>
+          <rdg wit="fThomas">the</rdg>
+          <rdg wit="f1831">the</rdg>
+          <rdg wit="fMS">the</rdg>
+      </rdgGrp>
+  </app>
+  <app>
+      <rdgGrp n="['very']">
+          <rdg wit="f1818">very</rdg>
+          <rdg wit="f1823">very</rdg>
+          <rdg wit="fThomas">very</rdg>
+          <rdg wit="f1831">very</rdg>
+      </rdgGrp>
+  </app>
+  ```
 
-  - [ ] ```xml
-    <app>
-        <rdgGrp n="['and', 'in', 'this']">
-            <rdg wit="f1818">and in this</rdg>
-            <rdg wit="f1823">and in this</rdg>
-            <rdg wit="fThomas">and in this</rdg>
-            <rdg wit="f1831">and in this</rdg>
-            <rdg wit="fMS">&lt;lb n="c57-0186__main__22"/&gt;And in this</rdg>
-        </rdgGrp>
-    </app>
-    <app>
-        <rdgGrp n="['condition']">
-            <rdg wit="f1818">condition</rdg>
-            <rdg wit="f1823">condition</rdg>
-            <rdg wit="fThomas">condition</rdg>
-            <rdg wit="f1831">condition</rdg>
-        </rdgGrp>
-    </app>
-    ```
+- [x] ```xml
+  <app>
+      <rdgGrp n="['and', 'in', 'this']">
+          <rdg wit="f1818">and in this</rdg>
+          <rdg wit="f1823">and in this</rdg>
+          <rdg wit="fThomas">and in this</rdg>
+          <rdg wit="f1831">and in this</rdg>
+          <rdg wit="fMS">&lt;lb n="c57-0186__main__22"/&gt;And in this</rdg>
+      </rdgGrp>
+  </app>
+  <app>
+      <rdgGrp n="['condition']">
+          <rdg wit="f1818">condition</rdg>
+          <rdg wit="f1823">condition</rdg>
+          <rdg wit="fThomas">condition</rdg>
+          <rdg wit="f1831">condition</rdg>
+      </rdgGrp>
+  </app>
+  ```
 
-  - [ ] ```xml
-    <app>
-        <rdgGrp n="['when', 'the', 'images']">
-            <rdg wit="f1818">when the images</rdg>
-            <rdg wit="f1823">when the images</rdg>
-            <rdg wit="fThomas">when the images</rdg>
-            <rdg wit="f1831">when the images</rdg>
-            <rdg wit="fMS">when the images</rdg>
-        </rdgGrp>
-    </app>
-    <app>
-        <rdgGrp n="['which']">
-            <rdg wit="f1818">which</rdg>
-            <rdg wit="f1823">which</rdg>
-            <rdg wit="fThomas">which</rdg>
-            <rdg wit="f1831">which</rdg>
-        </rdgGrp>
-    </app>
-    ```
+- [x] ```xml
+  <app>
+      <rdgGrp n="['when', 'the', 'images']">
+          <rdg wit="f1818">when the images</rdg>
+          <rdg wit="f1823">when the images</rdg>
+          <rdg wit="fThomas">when the images</rdg>
+          <rdg wit="f1831">when the images</rdg>
+          <rdg wit="fMS">when the images</rdg>
+      </rdgGrp>
+  </app>
+  <app>
+      <rdgGrp n="['which']">
+          <rdg wit="f1818">which</rdg>
+          <rdg wit="f1823">which</rdg>
+          <rdg wit="fThomas">which</rdg>
+          <rdg wit="f1831">which</rdg>
+      </rdgGrp>
+  </app>
+  ```
 
-  - [ ] ```xml
-    <app>
-        <rdgGrp n="['and', 'heard', 'the', 'rustling', 'of']">
-            <rdg wit="f1818">and heard the rustling of</rdg>
-            <rdg wit="f1823">and heard the rustling of</rdg>
-            <rdg wit="fThomas">and heard the rustling of</rdg>
-            <rdg wit="f1831">and heard the rustling of</rdg>
-            <rdg wit="fMS">&amp; heard the rustling of</rdg>
-        </rdgGrp>
-    </app>
-    <app>
-        <rdgGrp n="['the']">
-            <rdg wit="f1818">the</rdg>
-            <rdg wit="f1823">the</rdg>
-            <rdg wit="fThomas">the</rdg>
-            <rdg wit="f1831">the</rdg>
-        </rdgGrp>
-    </app>
-    ```
-
-  - [ ] ```xml
-    <app>
-        <rdgGrp n="['', '&lt;del&gt;misery&lt;/del&gt;', '', '', 'wretchedness', '']">
-            <rdg wit="fMS">&lt;mod sID="c57-0187__main__d4e37537"/&gt; &lt;del rend="strikethrough"
-                xml:id="c57-0187__main__d4e37539"&gt;misery&lt;/del&gt; &lt;sga-add
-                place="sublinear" sID="c57-0187__main__d4e37542"/&gt; &lt;metamark
-                function="insert"&gt;^&lt;/metamark&gt; &lt;sga-add
-                eID="c57-0187__main__d4e37542"/&gt;&lt;sga-add place="superlinear"
-                sID="c57-0187__main__d4e37548"/&gt;wretchedness &lt;sga-add
-                eID="c57-0187__main__d4e37548"/&gt;&lt;mod eID="c57-0187__main__d4e37537"/&gt;</rdg>
-        </rdgGrp>
-        <rdgGrp
-                n="['wretchedness;', 'and', 'if', 'yet,', 'in', 'some', 'mode', 'unknown', 'to', 'me,', 'thou']">
-            <rdg wit="f1818">wretchedness; and if yet, in some mode unknown to me, thou</rdg>
-            <rdg wit="f1823">wretchedness; and if yet, in some mode unknown to me, thou</rdg>
-            <rdg wit="fThomas">wretchedness; and if yet, in some mode unknown to me, thou</rdg>
-            <rdg wit="f1831">wretchedness; and if yet, in some mode unknown to me, thou</rdg>
-        </rdgGrp>
-    </app>
-    <app>
-        <rdgGrp n="['hadst']">
-            <rdg wit="f1823">hadst</rdg>
-            <rdg wit="f1831">hadst</rdg>
-        </rdgGrp>
-        <rdgGrp n="['hast']">
-            <rdg wit="f1818">hast</rdg>
-            <rdg wit="fThomas">hast</rdg>
-        </rdgGrp>
-    </app>
-    <app>
-        <rdgGrp n="['not']">
-            <rdg wit="f1818">not</rdg>
-            <rdg wit="f1823">not</rdg>
-            <rdg wit="fThomas">not</rdg>
-            <rdg wit="f1831">not</rdg>
-        </rdgGrp>
-    </app>
-    <app>
-        <rdgGrp n="['yet']">
-            <rdg wit="f1818">yet</rdg>
-            <rdg wit="fThomas">yet</rdg>
-        </rdgGrp>
-    </app>
-    <app>
-        <rdgGrp n="['ceased']">
-            <rdg wit="f1818">ceased</rdg>
-            <rdg wit="f1823">ceased</rdg>
-            <rdg wit="fThomas">ceased</rdg>
-            <rdg wit="f1831">ceased</rdg>
-        </rdgGrp>
-    </app>
-    ```
-
-  - [ ] ```xml
-    <app>
-        <rdgGrp n="['others', 'and now', 'you', 'will']">
-            <rdg wit="fMS">others &amp;&lt;lb n="c57-0187__main__6"/&gt;now you will</rdg>
-        </rdgGrp>
-        <rdgGrp n="['think', 'and', 'feel,', 'thou']">
-            <rdg wit="f1818">think and feel, thou</rdg>
-            <rdg wit="f1823">think and feel, thou</rdg>
-            <rdg wit="fThomas">think and feel, thou</rdg>
-            <rdg wit="f1831">think and feel, thou</rdg>
-        </rdgGrp>
-    </app>
-    <app>
-        <rdgGrp n="['desirest']">
-            <rdg wit="f1818">desirest</rdg>
-            <rdg wit="fThomas">desirest</rdg>
-        </rdgGrp>
-        <rdgGrp n="['wouldst']">
-            <rdg wit="f1823">wouldst</rdg>
-            <rdg wit="f1831">wouldst</rdg>
-        </rdgGrp>
-    </app>
-    ```
-
-  - [ ] ```xml
-    <app>
-        <rdgGrp n="['not']">
-            <rdg wit="f1818">not</rdg>
-            <rdg wit="f1823">not</rdg>
-            <rdg wit="fThomas">not</rdg>
-            <rdg wit="f1831">not</rdg>
-            <rdg wit="fMS">not</rdg>
-        </rdgGrp>
-    </app>
-    <app>
-        <rdgGrp n="['desire']">
-            <rdg wit="f1823">desire</rdg>
-            <rdg wit="f1831">desire</rdg>
-            <rdg wit="fMS">desire</rdg>
-        </rdgGrp>
-    </app>
-    ```
+- [x] ```xml
+  <app>
+      <rdgGrp n="['and', 'heard', 'the', 'rustling', 'of']">
+          <rdg wit="f1818">and heard the rustling of</rdg>
+          <rdg wit="f1823">and heard the rustling of</rdg>
+          <rdg wit="fThomas">and heard the rustling of</rdg>
+          <rdg wit="f1831">and heard the rustling of</rdg>
+          <rdg wit="fMS">&amp; heard the rustling of</rdg>
+      </rdgGrp>
+  </app>
+  <app>
+      <rdgGrp n="['the']">
+          <rdg wit="f1818">the</rdg>
+          <rdg wit="f1823">the</rdg>
+          <rdg wit="fThomas">the</rdg>
+          <rdg wit="f1831">the</rdg>
+      </rdgGrp>
+  </app>
+  ```
 
 - [ ] ```xml
+  <app>
+      <rdgGrp n="['', '&lt;del&gt;misery&lt;/del&gt;', '', '', 'wretchedness', '']">
+          <rdg wit="fMS">&lt;mod sID="c57-0187__main__d4e37537"/&gt; &lt;del rend="strikethrough"
+              xml:id="c57-0187__main__d4e37539"&gt;misery&lt;/del&gt; &lt;sga-add
+              place="sublinear" sID="c57-0187__main__d4e37542"/&gt; &lt;metamark
+              function="insert"&gt;^&lt;/metamark&gt; &lt;sga-add
+              eID="c57-0187__main__d4e37542"/&gt;&lt;sga-add place="superlinear"
+              sID="c57-0187__main__d4e37548"/&gt;wretchedness &lt;sga-add
+              eID="c57-0187__main__d4e37548"/&gt;&lt;mod eID="c57-0187__main__d4e37537"/&gt;</rdg>
+      </rdgGrp>
+      <rdgGrp
+              n="['wretchedness;', 'and', 'if', 'yet,', 'in', 'some', 'mode', 'unknown', 'to', 'me,', 'thou']">
+          <rdg wit="f1818">wretchedness; and if yet, in some mode unknown to me, thou</rdg>
+          <rdg wit="f1823">wretchedness; and if yet, in some mode unknown to me, thou</rdg>
+          <rdg wit="fThomas">wretchedness; and if yet, in some mode unknown to me, thou</rdg>
+          <rdg wit="f1831">wretchedness; and if yet, in some mode unknown to me, thou</rdg>
+      </rdgGrp>
+  </app>
+  <app>
+      <rdgGrp n="['hadst']">
+          <rdg wit="f1823">hadst</rdg>
+          <rdg wit="f1831">hadst</rdg>
+      </rdgGrp>
+      <rdgGrp n="['hast']">
+          <rdg wit="f1818">hast</rdg>
+          <rdg wit="fThomas">hast</rdg>
+      </rdgGrp>
+  </app>
+  <app>
+      <rdgGrp n="['not']">
+          <rdg wit="f1818">not</rdg>
+          <rdg wit="f1823">not</rdg>
+          <rdg wit="fThomas">not</rdg>
+          <rdg wit="f1831">not</rdg>
+      </rdgGrp>
+  </app>
+  <app>
+      <rdgGrp n="['yet']">
+          <rdg wit="f1818">yet</rdg>
+          <rdg wit="fThomas">yet</rdg>
+      </rdgGrp>
+  </app>
+  <app>
+      <rdgGrp n="['ceased']">
+          <rdg wit="f1818">ceased</rdg>
+          <rdg wit="f1823">ceased</rdg>
+          <rdg wit="fThomas">ceased</rdg>
+          <rdg wit="f1831">ceased</rdg>
+      </rdgGrp>
+  </app>
+  ```
+
+- [x] ```xml
+  <app>
+      <rdgGrp n="['others', 'and now', 'you', 'will']">
+          <rdg wit="fMS">others &amp;&lt;lb n="c57-0187__main__6"/&gt;now you will</rdg>
+      </rdgGrp>
+      <rdgGrp n="['think', 'and', 'feel,', 'thou']">
+          <rdg wit="f1818">think and feel, thou</rdg>
+          <rdg wit="f1823">think and feel, thou</rdg>
+          <rdg wit="fThomas">think and feel, thou</rdg>
+          <rdg wit="f1831">think and feel, thou</rdg>
+      </rdgGrp>
+  </app>
+  <app>
+      <rdgGrp n="['desirest']">
+          <rdg wit="f1818">desirest</rdg>
+          <rdg wit="fThomas">desirest</rdg>
+      </rdgGrp>
+      <rdgGrp n="['wouldst']">
+          <rdg wit="f1823">wouldst</rdg>
+          <rdg wit="f1831">wouldst</rdg>
+      </rdgGrp>
+  </app>
+  ```
+
+- [x] ```xml
+  <app>
+      <rdgGrp n="['not']">
+          <rdg wit="f1818">not</rdg>
+          <rdg wit="f1823">not</rdg>
+          <rdg wit="fThomas">not</rdg>
+          <rdg wit="f1831">not</rdg>
+          <rdg wit="fMS">not</rdg>
+      </rdgGrp>
+  </app>
+  <app>
+      <rdgGrp n="['desire']">
+          <rdg wit="f1823">desire</rdg>
+          <rdg wit="f1831">desire</rdg>
+          <rdg wit="fMS">desire</rdg>
+      </rdgGrp>
+  </app>
+  ```
+  
+- [x] ```xml
   <app>
       <rdgGrp n="['of', 'remorse']">
           <rdg wit="f1818">of remorse</rdg>
@@ -2099,7 +2096,7 @@
   </app>
   ```
 
-- [ ] ```xml
+- [x] ```xml
   <app>
       <rdgGrp n="['shall', 'ascend', 'my']">
           <rdg wit="f1818">shall ascend my</rdg>
@@ -2119,7 +2116,7 @@
   </app>
   ```
 
-- [ ] ```xml
+- [x] ```xml
   <app>
       <rdgGrp n="['and']">
           <rdg wit="f1818">and</rdg>
@@ -2139,7 +2136,7 @@
   </app>
   ```
 
-- [ ] ```xml
+- [x] ```xml
   <app>
       <rdgGrp n="['you', 'were']">
           <rdg wit="f1818">You were</rdg>
@@ -2159,4 +2156,32 @@
   </app>
   ```
 
-- [ ] 
+- [x] ```xml
+  <app>
+      <rdgGrp n="['over', 'the', 'frightful', 'catalogue']">
+          <rdg wit="f1818">over the frightful catalogue</rdg>
+          <rdg wit="f1823">over the frightful catalogue</rdg>
+          <rdg wit="fThomas">over the frightful catalogue</rdg>
+          <rdg wit="f1831">over the frightful catalogue</rdg>
+          <rdg wit="fMS">over the frightful &lt;w ana="start"/&gt;cata&lt;lb n="c57-0184__main__33"/&gt;logue&lt;w ana="end"/&gt;</rdg>
+      </rdgGrp>
+  </app>
+  <app>
+      <rdgGrp n="['of', 'my']">
+          <rdg wit="f1818">of my</rdg>
+          <rdg wit="f1823">of my</rdg>
+          <rdg wit="fThomas">of my</rdg>
+          <rdg wit="f1831">of my</rdg>
+      </rdgGrp>
+  </app>
+  <app>
+      <rdgGrp n="['deeds,']">
+          <rdg wit="f1818">deeds,</rdg>
+          <rdg wit="f1823">deeds,</rdg>
+          <rdg wit="fThomas">deeds,</rdg>
+      </rdgGrp>
+      <rdgGrp n="['sins,']">
+          <rdg wit="f1831">sins,</rdg>
+      </rdgGrp>
+  </app>
+  ```
