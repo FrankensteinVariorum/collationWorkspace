@@ -23,10 +23,10 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['another chapter', '']">
+		<rdgGrp n="['another chapter', '', 'sometime']">
 			<rdg wit="fMS">&lt;longToken&gt;another Chapter&lt;/longToken&gt; &lt;sga-add
 				eID="c57-0031__main__d4e4824"/&gt;&lt;anchor xml:id="c57-0031.11"/&gt;&lt;lb
-				n="c57-0031__main__2"/&gt;</rdg>
+				n="c57-0031__main__2"/&gt; Sometime</rdg>
 		</rdgGrp>
 		<rdgGrp n="['chapter ii.']">
 			<rdg wit="f1823">&lt;head&gt;CHAPTER II.&lt;/head&gt;</rdg>
@@ -40,8 +40,6 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['sometime']"><rdg wit="fMS">Sometime</rdg>
-		</rdgGrp>
 		<rdgGrp n="['&lt;p-start/&gt;', '&#34;s ome', 'time']">
 			<rdg wit="f1818">&lt;p sID="novel1_letter4_chapter13_div4_div14_p1"/&gt; “S&lt;hi
 				sID="novel1_letter4_chapter13_div4_div14_p1_hi1"/&gt;OME&lt;hi
@@ -990,9 +988,11 @@
 	</app>
 	<app>
 		<rdgGrp
-			n="['condemnation', '']">
+			n="['condemnation', '', 'felix was present at his trial; &lt;del&gt;and&lt;/del&gt;']">
 			<rdg wit="fMS">&lt;lb n="c57-0032__left_margin__3"/&gt;condemnation &lt;anchor
-				xml:id="c57-0032.03"/&gt;</rdg>
+				xml:id="c57-0032.03"/&gt; &lt;longToken&gt;Felix was present at his trial; &lt;del
+				rend="strikethrough"
+				xml:id="c57-0032__main__d4e5155"&gt;&amp;&lt;/del&gt;&lt;/longToken&gt;</rdg>
 		</rdgGrp>
 		<rdgGrp n="['condemnation.']">
 			<rdg wit="f1818">condemnation.</rdg>
@@ -1002,11 +1002,6 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['felix was present at his trial; &lt;del&gt;and&lt;/del&gt;']">
-			<rdg wit="#fMS">&lt;longToken&gt;Felix was present at his trial; &lt;del
-				rend="strikethrough"
-				xml:id="c57-0032__main__d4e5155"&gt;&amp;&lt;/del&gt;&lt;/longToken&gt;</rdg>
-		</rdgGrp>
 		<rdgGrp
 			n="['&lt;p-end/&gt;', '&lt;p-start/&gt;&#34;felix had accidentally been present at the trial;']">
 			<rdg wit="f1823">&lt;p eID="novel1_letter4_chapter13_div4_div14_p3"/&gt;
@@ -2065,15 +2060,15 @@
 				Cenis to Leghorn, where</rdg>
 		</rdgGrp>
 		<rdgGrp
-			n="['the turk informed safie of his  intentions and  and rank &lt;del&gt;her father&lt;/del&gt;']">
+			n="['the turk informed safie of his  intentions and  and rank &lt;del&gt;her father&lt;/del&gt;', '']">
 			<rdg wit="fMS">&lt;longToken&gt;&lt;lb n="c57-0033__main__9"/&gt;The Turk informed Safie
 				of his &lt;lb n="c57-0033__main__10"/&gt;intentions and &lt;lb
 				n="c57-0033__main__11"/&gt;&lt;metamark
 				function="separate"&gt;_________________________&lt;/metamark&gt;&lt;lb
 				n="c57-0033__main__12"/&gt;and rank &lt;mod
 				sID="c57-0033__main__d4e5463"/&gt;&lt;del rend="strikethrough"
-				xml:id="c57-0033__main__d4e5465"&gt;her father&lt;/del&gt;&lt;sga-add
-				place="superlinear" sID="c57-0033__main__d4e5468"/&gt;&lt;/longToken&gt;</rdg>
+				xml:id="c57-0033__main__d4e5465"&gt;her father&lt;/del&gt;&lt;/longToken&gt;
+				&lt;sga-add place="superlinear" sID="c57-0033__main__d4e5468"/&gt;</rdg>
 		</rdgGrp>
 	</app>
 	<app>
@@ -3870,4 +3865,4 @@
 		</rdgGrp>
 	</app>
 </cx:apparatus>
-<!-- 2023-07-06 04:29:21.560915 -->
+<!-- 2023-07-06 05:45:03.453438 -->
