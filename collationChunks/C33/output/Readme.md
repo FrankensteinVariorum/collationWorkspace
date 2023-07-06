@@ -315,7 +315,9 @@
 
 ## app with less than 5 rdgs
 
-- [x] ```xml
+- [x] 
+
+```xml
   <app>
       <rdgGrp n="['&lt;p-end/&gt;']">
           <rdg wit="f1818">&lt;p eID="novel1_letter4_div4_p48"/&gt;</rdg>
@@ -334,9 +336,11 @@
               write to</rdg>
       </rdgGrp>
   </app>
-  ```
+```
 
-- [x] ```xml
+- [x] 
+
+```xml
   <app>
       <rdgGrp n="['whom', 'i']">
           <rdg wit="f1818">whom I</rdg>
@@ -356,7 +360,9 @@
   </app>
   ```
 
-- [x] ```xml
+- [x] 
+-
+- ```xml
   <app>
       <rdgGrp n="['we', 'may']">
           <rdg wit="f1818">We may</rdg>
@@ -427,7 +433,9 @@
   </app>
   ```
 
-- [x] ```xml
+- [x] 
+
+```xml
   <app>
       <rdgGrp n="['yet', 'i', 'cannot', 'forbear', 'recording', 'it.']">
           <rdg wit="f1818">yet I cannot forbear recording it.</rdg>
@@ -455,7 +463,9 @@
   </app>
   ```
 
-- [x] ```xml
+- [x] 
+ 
+ ```xml
   <app>
       <rdgGrp
               n="['apparent', 'lifelessness.', '&lt;p-end/&gt;', '&lt;p-start/&gt;', 'i', 'mentioned']">
@@ -484,7 +494,9 @@
   </app>
   ```
 
-- [x] ```xml
+- [x] 
+ 
+ ```xml
   <app>
       <rdgGrp n="['a']">
           <rdg wit="f1818">a</rdg>
@@ -504,7 +516,9 @@
   </app>
   ```
 
-- [x] ```xml
+- [x] 
+-
+- ```xml
   <app>
       <rdgGrp n="['me']">
           <rdg wit="f1818">me</rdg>
@@ -536,7 +550,9 @@
   </app>
   ```
 
-- [x] ```xml
+- [x] 
+
+```xml
   <app>
       <rdgGrp n="['desired', 'therefore']">
           <rdg wit="fMS">desired therefore</rdg>
@@ -560,7 +576,9 @@
   </app>
   ```
 
-- [x] ```xml
+- [x] 
+
+```xml
   <app>
       <rdgGrp n="['surrounded']">
           <rdg wit="f1831">surrounded</rdg>
@@ -582,7 +600,9 @@
   </app>
   ```
 
-- [x] ```xml
+- [x] 
+
+```xml
   <app>
       <rdgGrp n="['and', 'these']">
           <rdg wit="f1818">and these</rdg>
@@ -600,7 +620,9 @@
   </app>
   ```
 
-- [x] ```xml
+- [x] 
+
+```xml
   <app>
       <rdgGrp n="['a']">
           <rdg wit="f1818">a</rdg>
@@ -623,7 +645,9 @@
   </app>
   ```
 
-- [x] ```xml
+- [x] 
+
+```xml
   <app>
       <rdgGrp n="['mutable']">
           <rdg wit="fMS">mutable</rdg>
@@ -643,7 +667,9 @@
   </app>
   ```
 
-- [x] ```xml
+- [x] 
+ 
+ ```xml
   <app>
       <rdgGrp n="['moved', '–they']">
           <rdg wit="fMS">moved –They</rdg>
@@ -667,7 +693,9 @@
   </app>
   ```
 
-- [x] ```xml
+- [x] 
+
+ ```xml
   <app>
       <rdgGrp n="['their', 'courage', 'would', 'return.']">
           <rdg wit="f1818">their courage would return.</rdg>
@@ -691,7 +719,9 @@
   </app>
   ```
 
-- [x] ```xml
+- [x] 
+
+ ```xml
   <app>
       <rdgGrp n="['&lt;p-end/&gt;']">
           <rdg wit="f1818">&lt;p eID="novel1_letter4_div4_p62"/&gt;</rdg>
@@ -723,7 +753,9 @@
   </app>
   ```
 
-- [x] ```xml
+- [x] 
+
+  ```xml
   <app>
       <rdgGrp n="['1', '', '&lt;mdel&gt;7&lt;/mdel&gt;', '2', '', '']">
           <rdg wit="fMS">&lt;mod sID="c57-0177__main__d4e35378"/&gt;&lt;sga-add
@@ -756,7 +788,9 @@
   </app>
   ```
 
-- [x] ```xml
+- [x] 
+
+```xml
   <app>
       <rdgGrp n="['and', 'fainted.']">
           <rdg wit="f1818">and fainted.</rdg>
@@ -780,7 +814,9 @@
   </app>
   ```
 
-- [x] ```xml
+- [x] 
+
+ ```xml
   <app>
       <rdgGrp n="['but']">
           <rdg wit="f1818">but</rdg>
@@ -799,7 +835,9 @@
   </app>
   ```
 
-- [x] ```xml
+- [x] 
+- 
+- ```xml
   <!-- search `as far as` to locate -->
   <app>
       <rdgGrp n="['was']">
@@ -820,7 +858,9 @@
   </app>
   ```
 
-- [x] ```xml
+- [x] 
+
+ ```xml
   <app>
       <rdgGrp n="['my', 'duties', 'towards']">
           <rdg wit="f1818">My duties towards</rdg>
@@ -838,7 +878,9 @@
   </app>
   ```
 
-- [x] ```xml
+- [x] 
+ 
+ ```xml
   <app>
       <rdgGrp n="['had', 'greater', 'claims']">
           <rdg wit="f1818">had greater claims</rdg>
@@ -858,7 +900,9 @@
   </app>
   ```
 
-- [x] ```xml
+- [x] 
+
+ ```xml
   <!-- search `have little chance` to locate -->
   <app>
       <rdgGrp n="['you']">
@@ -879,7 +923,9 @@
   </app>
   ```
 
-- [x] ```xml
+- [x] 
+
+ ```xml
   <app>
       <rdgGrp n="['me', 'else']">
           <rdg wit="fMS">me else</rdg>
@@ -904,7 +950,9 @@
   ```
 
 
-- [x] ```xml
+- [x] 
+  
+  ```xml
   <!-- search `only happy one` to locate -->
   <app>
       <rdgGrp n="['which']">
@@ -925,7 +973,9 @@
   </app>
   ```
 
-- [x] ```xml
+- [x] 
+
+ ```xml
   <app>
       <rdgGrp n="['and', 'his', 'eyes', 'closed']">
           <rdg wit="f1818">and his eyes closed</rdg>
@@ -2136,7 +2186,9 @@
   </app>
   ```
 
-- [x] ```xml
+- [ ] 
+ 
+ ```xml
   <app>
       <rdgGrp n="['you', 'were']">
           <rdg wit="f1818">You were</rdg>
@@ -2155,6 +2207,9 @@
       </rdgGrp>
   </app>
   ```
+
+- [x] 2023-07-05 ebb: there's a larger transposition problem with "hereafter" in the MS to correct.
+
 
 - [x] ```xml
   <app>
@@ -2185,3 +2240,103 @@
       </rdgGrp>
   </app>
   ```
+
+- [x] 2023-07-05 ebb: Adjust alignment to show where MS sentence breaks missing in other witnesses (otherwise identical apps)
+
+- [x] 2023-07-05 ebb: Try to line up the witnesses as identical here: (space by `<lb/>`)
+
+```xml
+	<app>
+		<rdgGrp n="['and discoveries.']">
+			<rdg wit="fMS">&amp;&lt;lb n="c57-0180__main__22"/&gt;discoveries.</rdg>
+		</rdgGrp>
+		<rdgGrp n="['and', 'discoveries.']">
+			<rdg wit="f1818">and discoveries.</rdg>
+			<rdg wit="f1823">and discoveries.</rdg>
+			<rdg wit="fThomas">and discoveries.</rdg>
+			<rdg wit="f1831">and discoveries.</rdg>
+		</rdgGrp>
+	</app>
+```
+
+- [x] 2023-07-05 ebb: Adjust longer alignment (transposition issue) re  "what comment can I make on death of this glorious creature" passage
+- [x] 2023-07-05 ebb: Add `\n` before `&` in MS to try to line up identical witnesses here:
+ 
+ ```xml
+ <app>
+		<rdgGrp n="['uncouth and']">
+			<rdg wit="fMS">&lt;w ana="start"/&gt;un&lt;lb n="c57-0181__main__25"/&gt;couth&lt;w
+				ana="end"/&gt;&amp;</rdg>
+		</rdgGrp>
+		<rdgGrp n="['uncouth', 'and']">
+			<rdg wit="f1818">uncouth and</rdg>
+			<rdg wit="f1823">uncouth and</rdg>
+			<rdg wit="fThomas">uncouth and</rdg>
+			<rdg wit="f1831">uncouth and</rdg>
+		</rdgGrp>
+	</app>
+```	
+- [x] 2023-07-05 ebb: Unify in one app the hand-like-mummy passage around MS: "appeared &lt;lb n="c57-0181__main__28"/&gt;like those of the mummies for
+				to nothing &lt;lb n="c57-0181__main__29"/&gt;else can I compare its" "texture"
+				
+- [x] 2023-07-05 ebb: Correct false alignment around "to" here:
+
+```xml
+<app>
+		<rdgGrp n="['involuntarily', 'while', 'i', 'called', 'on', 'him']">
+			<rdg wit="fMS">&lt;w ana="start"/&gt;involun&lt;lb
+				n="c57-0181__main__35"/&gt;tarily&lt;w ana="end"/&gt; while I called on him</rdg>
+		</rdgGrp>
+		<rdgGrp
+			n="['involuntarily,', 'and', 'endeavoured', 'to', 'recollect', 'what', 'were', 'my', 'duties', 'with', 'regard']">
+			<rdg wit="f1818">involuntarily, and endeavoured to recollect what were my duties with
+				regard</rdg>
+			<rdg wit="f1823">involuntarily, and endeavoured to recollect what were my duties with
+				regard</rdg>
+			<rdg wit="fThomas">involuntarily, and endeavoured to recollect what were my duties with
+				regard</rdg>
+			<rdg wit="f1831">involuntarily, and endeavoured to recollect what were my duties with
+				regard</rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['to']">
+			<rdg wit="f1818">to</rdg>
+			<rdg wit="f1823">to</rdg>
+			<rdg wit="fThomas">to</rdg>
+			<rdg wit="f1831">to</rdg>
+			<rdg wit="fMS">to</rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['stay.']">
+			<rdg wit="fMS">stay.</rdg>
+		</rdgGrp>
+		<rdgGrp
+			n="['this', 'destroyer.', 'i called on him to stay.&lt;p-end/&gt;', '&lt;p-start/&gt;']">
+			<rdg wit="f1818">this destroyer. &lt;longToken&gt;I called on him to stay.&lt;p
+				eID="novel1_letter4_div4_p77"/&gt; &lt;/longToken&gt; &lt;p
+				sID="novel1_letter4_div4_p78"/&gt;</rdg>
+			<rdg wit="f1823">this destroyer. &lt;longToken&gt;I called on him to stay.&lt;p
+				eID="novel1_letter4_div4_p77"/&gt; &lt;/longToken&gt; &lt;p
+				sID="novel1_letter4_div4_p78"/&gt;</rdg>
+			<rdg wit="fThomas">this destroyer. &lt;longToken&gt;I called on him to stay.&lt;p
+				eID="novel1_letter4_div4_p77"/&gt;&lt;/longToken&gt; &lt;p
+				sID="novel1_letter4_div4_p78"/&gt;</rdg>
+			<rdg wit="f1831">this destroyer. &lt;longToken&gt;I called on him to stay.&lt;p
+				eID="novel1_letter4_div4_p79"/&gt;&lt;/longToken&gt; &lt;p
+				sID="novel1_letter4_div4_p80"/&gt;</rdg>
+		</rdgGrp>
+	</app>
+```
+
+- [x] 2023-07-05 ebb: Unify apps around "scaring" transposition: all witnesses other than MS: "scaring and unearthly" 
+
+- [x] 2023-07-05 ebb: Fix false split alignment, unify apps around MS "completion of the deed" vs. "consummation of the deed" 
+- [x] 2023-07-05 ebb: Fix false alignment and organize around MS longToken "power of mischief"
+- [x] 2023-07-05 ebb: Tighten alignment around first words of sentence after paragraph break: MS del + "It is not thus" and "Oh! It is not thus"
+- [x] 2023-07-05 ebb: Transposition issue: "seek not" vs. "do not seek"
+- [x] 2023-07-05 ebb: Fix fused MS normalized token: 'andof' (enjoyment)
+- [x] 2023-07-05 ebb: Fixed BY HAND fused MS normalized token: 'andseem' (to have a knowledge of my crimes)
+- [x] 2023-07-05 ebb: Tranposition issue: "craving and ardent" vs. "for ever ardent and craving"
+- [x] 2023-07-06 ebb: Fixed by combination of longTokens and a hand edit the passage around fMS: 'to others and  now you will not desire my life for my   own misery.'
