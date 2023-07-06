@@ -66,6 +66,7 @@
 		</rdgGrp>
 	</app>
 	```
+    - Honestly I think this is fine but, this needs to be looked at by someone else. 	
 - [X] This section (specifically the manuscript) is misaligned. 'siezed immedietely' should be in the next &lt;app&gt; node. 
 	 ```xml
 	<app>
@@ -184,7 +185,7 @@
     - Wrapped longToken around 'was too great an agitation to be' in all versions . 
 - [ ] At the near bottom of the collation chunk, a large section of the 1831 version is completely reworked, compared to the others.
     - I wrapped the entire rewritten section in a longToken. 
-- [ ] This section is misaligned. 'death' should be in the next &lt;app&gt;
+- [X] This section is misaligned. 'death' should be in the next &lt;app&gt;
 	 ```xml
 	<app>
 		<rdgGrp n="['in']">
@@ -207,8 +208,11 @@
 			<rdg wit="f1831">death.</rdg>
 		</rdgGrp>
 	</app>
-	```
+	```	
     - put longToken around 'death' in manuscript. 
+        - this did not work
+    - 2023-07-06: Wrapping all variations of "in death."/"in death,"/"of death". I do not think this will work since "of" and "in" are different works, and the punctuation at the end varies. But who knwows it may work.  
+        - major w
 - [X] This section is fine. However, the schema marks it as yellow on the file. It is annoying.
 	 ```xml
 	<app>
@@ -266,3 +270,61 @@
 	```
     - longToken around 'in a world replete with wretchedness.' for all versions
     - 2023-07-04: As of this timemark, the current changes to this section failed to align appropriately.
+    - 2023-07-06: Putting longToken around variations of "to bet let loose" and "to remain". Is this an appropriate method? Will it even work???
+        - No. It isn't a good method and it did not work. I am going to remove all longTokens from this section and start over. 
+    - 
+- [ ] This section is really weird. I think it is misaligned. Most variations are the same except for the manuscript.
+	```
+	<app>
+		<rdgGrp n="['the']">
+			<rdg wit="f1818">the</rdg>
+			<rdg wit="f1823">the</rdg>
+			<rdg wit="fThomas">the</rdg>
+			<rdg wit="f1831">the</rdg>
+		</rdgGrp>
+		<rdgGrp n="['&lt;del&gt;w&lt;/del&gt;', 'life', 'would', 'afford', 'the']">
+			<rdg wit="fMS">&lt;del rend="strikethrough"
+				xml:id="c57-0124__main__d4e22959"&gt;w&lt;/del&gt; life would afford the</rdg>
+		</rdgGrp>
+	</app>
+
+	<app>
+		<rdgGrp n="['law,', 'less', 'innocent', 'than', 'poor', 'justine', 'had', 'been.']">
+			<rdg wit="f1818">law, less innocent than poor Justine had been.</rdg>
+			<rdg wit="f1823">law, less innocent than poor Justine had been.</rdg>
+			<rdg wit="fThomas">law, less innocent than poor Justine had been.</rdg>
+			<rdg wit="f1831">law, less innocent than poor Justine had been.</rdg>
+		</rdgGrp>
+		<rdgGrp n="['only', 'consolation', 'that', 'i', 'was', 'capable', 'of', 'receiving.']">
+			<rdg wit="fMS">only &lt;w ana="start"/&gt;consola&lt;lb
+				n="c57-0124__main__10"/&gt;tion&lt;w ana="end"/&gt; that I was capable of
+				receiving.</rdg>
+		</rdgGrp>
+	</app>
+	```
+- [ ] This section is misaligned. variations of shuddering should be pushed down. 
+	```
+	<app>
+		<rdgGrp n="['remembered']">
+			<rdg wit="f1818">remembered</rdg>
+			<rdg wit="f1823">remembered</rdg>
+			<rdg wit="fThomas">remembered</rdg>
+			<rdg wit="fMS">&lt;w ana="start"/&gt;remem&lt;lb n="c57-0131__main__13"/&gt;bered&lt;w
+				ana="end"/&gt;</rdg>
+		</rdgGrp>
+		<rdgGrp n="['remembered,', 'shuddering,']">
+			<rdg wit="f1831">remembered, shuddering,</rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['shuddering']">
+			<rdg wit="f1818">shuddering</rdg>
+			<rdg wit="f1823">shuddering</rdg>
+			<rdg wit="fThomas">shuddering</rdg>
+		</rdgGrp>
+		<rdgGrp n="['with', 'shuddering']">
+			<rdg wit="fMS">with shuddering</rdg>
+		</rdgGrp>
+	</app>
+	```
+    - 2023-07-06: I am going to wrap all varations of "remembered, shuddering,"/"remembered shuddering"/"remembered with shuddering".	
