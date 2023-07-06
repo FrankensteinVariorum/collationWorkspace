@@ -9,6 +9,8 @@
              POST-PROCESSING XSLT FOR THE FRANKENSTEIN VARIORUM: STAGE 1 
        This stylesheet corrects common alignment problems in the output of the Python collation script. 
        ebb began work on this in Fall of 2021 with wdjacca and amoebabyte and continued with yxj in 2022.
+       
+       2023-05-18 ebb and nlh: We are adding a Schematron processing instruction to the output collation.
     
     2023-01-01 ebb: Here is a  high-level summary of our post-processing algorithm:
     We are post-processing 
@@ -64,6 +66,23 @@
         <xsl:param name="text" as="item()?"/> 
         <xsl:value-of select="$text ! replace(.,'&amp;amp;','&amp;') ! replace(.,'&amp;quot;', '&#34;') ! replace(.,'andquot;', '&#34;')"/>
     </xsl:function>
+    
+    
+    <!-- ********************************************************************************************
+        ADDING A SCHEMATRON "FLASHLIGHT" TO LOOK FOR TROUBLE      
+        The following template will add a processing instruction to the document node of the output collation.
+     ********************************************************************************************* -->
+    
+    <xsl:template match="/">
+        <!-- <?xml-model href="../../lookingForTrouble.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?> -->
+        <xsl:processing-instruction name="xml-model">href="../../lookingForTrouble.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"</xsl:processing-instruction>
+        
+        <xsl:apply-templates/>
+        
+    </xsl:template>
+
+    
+    
 
     <!-- ********************************************************************************************
         ORPHAN / LONER RDGS: These templates deal with collateX output of app elements 
@@ -273,7 +292,7 @@
         -->
         <xsl:param name="loner" tunnel="yes"/>
         <xsl:param name="norm" tunnel="yes"/>
-        <xsl:variable name="reducedNormParam" as="xs:string" select="$norm ! replace(., '\s{2,}', '')"/>
+        <xsl:variable name="reducedNormParam" as="xs:string" select="$norm ! replace(., '\\s{2,}', '\\s')"/>
         <app>
             <xsl:apply-templates
                 select="rdgGrp[not(preceding::app[1][count(rdgGrp) = 1 and rdgGrp/@n ! string-length() = 4])]" mode="restructure">
@@ -283,7 +302,7 @@
                 <xsl:when test="$norm ! string-length() &gt; 4 and descendant::rdg/@wit = $loner/@wit">
                     <xsl:variable name="TokenSquished">
                         <xsl:value-of
-                            select="$reducedNormParam ! string() || descendant::rdgGrp[descendant::rdg[@wit = $loner/@wit]]/@n ! replace(., '\s{2,}', '')"/>
+                            select="$reducedNormParam ! string() || descendant::rdgGrp[descendant::rdg[@wit = $loner/@wit]]/@n ! replace(., '\\s{2,}', '\\s')"/>
                     </xsl:variable>
                     <xsl:variable name="newToken">
                         <xsl:value-of select="replace($TokenSquished, '\]\[', ', ')"/>
@@ -331,7 +350,7 @@
         <!--    <xsl:if test="rdg[@wit != $loner/@wit]">
             <xsl:copy-of select="current()" />
         </xsl:if>-->
-        <xsl:variable name="reducedNormTokens" as="xs:string" select="@n ! replace(., '\s{2,}', '')"/>
+        <xsl:variable name="reducedNormTokens" as="xs:string" select="@n ! replace(., '\\s{2,}', '\\s')"/>
         <rdgGrp n="{$reducedNormTokens}">
             <xsl:for-each select="rdg">
                 <xsl:if test="current()/@wit ne $loner/@wit">
@@ -344,7 +363,7 @@
     <xsl:template match="rdgGrp" mode="emptyNormalize" name="emptyNormalize">
         <xsl:param name="lonerText" tunnel="yes"/>
         <xsl:param name="lonerWit" tunnel="yes"/>
-        <xsl:variable name="reducedNormTokens" as="xs:string" select="@n ! replace(., '\s{2,}', '')"/>
+        <xsl:variable name="reducedNormTokens" as="xs:string" select="@n ! replace(., '\\s{2,}', '\\s')"/>
         <rdgGrp n="{$reducedNormTokens}">
             <xsl:for-each select="rdg[@wit ne $lonerWit]">
                 <rdg wit="{@wit}"><xsl:apply-templates select="fv:ampFix(current())"/></rdg>
@@ -370,7 +389,7 @@
         <rdg wit="{@wit}"><xsl:value-of select="fv:ampFix(normalize-space(text()))"/></rdg>
     </xsl:template>
     <xsl:template match="rdgGrp" name="normAmpFix">
-        <xsl:variable name="reducedNormTokens" as="xs:string" select="@n ! replace(., '\s{2,}', '')"/>
+        <xsl:variable name="reducedNormTokens" as="xs:string" select="@n ! replace(., '\\s{2,}', '\\s')"/>
         <rdgGrp n="{fv:ampFix($reducedNormTokens)}">
             <xsl:apply-templates/>
         </rdgGrp>
