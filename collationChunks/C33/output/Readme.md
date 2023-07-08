@@ -2336,7 +2336,7 @@
 - [x] 2023-07-05 ebb: Fix false alignment and organize around MS longToken "power of mischief"
 - [x] 2023-07-05 ebb: Tighten alignment around first words of sentence after paragraph break: MS del + "It is not thus" and "Oh! It is not thus"
 - [x] 2023-07-05 ebb: Transposition issue: "seek not" vs. "do not seek"
-- [x] 2023-07-05 ebb: Fix fused MS normalized token: 'andof' (enjoyment)
-- [x] 2023-07-05 ebb: Fixed BY HAND fused MS normalized token: 'andseem' (to have a knowledge of my crimes)
+
+- [x] 2023-07-08 ebb: Fixed fused MS normalized token: 'andseem' (to have a knowledge of my crimes) by setting `<longToken>` around `seem
 - [x] 2023-07-05 ebb: Tranposition issue: "craving and ardent" vs. "for ever ardent and craving"
-- [x] 2023-07-06 ebb: Fixed by combination of longTokens and a hand edit the passage around fMS: 'to others and  now you will not desire my life for my   own misery.'
+- [x] 2023-07-06 ebb: Fixed with longTokens the passage around fMS: 'to others and now you will not desire my life for my own misery.'
