@@ -11834,23 +11834,23 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['friend', 'andseem']">
-			<rdg wit="fMS">friend &lt;sga-add place=&quot;intralinear&quot; sID=&quot;c57-0185__main__d4e37163&quot;/&gt;&amp;&lt;sga-add eID=&quot;c57-0185__main__d4e37163&quot;/&gt;&lt;lb n=&quot;c57-0185__main__6&quot;/&gt;seem </rdg>
+		<rdgGrp n="['friend', 'and']">
+			<rdg wit="fMS">friend &lt;sga-add place=&quot;intralinear&quot; sID=&quot;c57-0185__main__d4e37163&quot;/&gt;&amp;&lt;sga-add eID=&quot;c57-0185__main__d4e37163&quot;/&gt;&lt;lb n=&quot;c57-0185__main__6&quot;/&gt; </rdg>
 		</rdgGrp>
-		<rdgGrp n="['friend,', 'seem']">
-			<rdg wit="f1818">friend, seem </rdg>
-			<rdg wit="f1823">friend, seem </rdg>
-			<rdg wit="fThomas">friend, seem </rdg>
-			<rdg wit="f1831">friend, seem </rdg>
+		<rdgGrp n="['friend,']">
+			<rdg wit="f1818">friend, </rdg>
+			<rdg wit="f1823">friend, </rdg>
+			<rdg wit="fThomas">friend, </rdg>
+			<rdg wit="f1831">friend, </rdg>
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['to', 'have', 'a', 'knowledge', 'of', 'my', 'crimes']">
-			<rdg wit="f1818">to have a knowledge of my crimes </rdg>
-			<rdg wit="f1823">to have a knowledge of my crimes </rdg>
-			<rdg wit="fThomas">to have a knowledge of my crimes </rdg>
-			<rdg wit="f1831">to have a knowledge of my crimes </rdg>
-			<rdg wit="fMS">to have a knowledge of my crimes </rdg>
+		<rdgGrp n="['seem', 'to', 'have', 'a', 'knowledge', 'of', 'my', 'crimes']">
+			<rdg wit="f1818">seem to have a knowledge of my crimes </rdg>
+			<rdg wit="f1823">seem to have a knowledge of my crimes </rdg>
+			<rdg wit="fThomas">seem to have a knowledge of my crimes </rdg>
+			<rdg wit="f1831">seem to have a knowledge of my crimes </rdg>
+			<rdg wit="fMS">&lt;longToken&gt;seem&lt;/longToken&gt; to have a knowledge of my crimes </rdg>
 		</rdgGrp>
 	</app>
 	<app>
@@ -13961,24 +13961,16 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['', '&lt;del&gt;misery&lt;/del&gt;', '', '', 'wretchedness', '', 'to others and  now you will not desire my life for my   own misery.', '&lt;del&gt;in destroying you&lt;/del&gt;', '', '&lt;del&gt;miserabl&lt;/del&gt;', '&lt;mdel&gt;e&lt;/mdel&gt;']">
-			<rdg wit="fMS">&lt;mod sID=&quot;c57-0187__main__d4e37537&quot;/&gt; &lt;del rend=&quot;strikethrough&quot; xml:id=&quot;c57-0187__main__d4e37539&quot;&gt;misery&lt;/del&gt; &lt;sga-add place=&quot;sublinear&quot; sID=&quot;c57-0187__main__d4e37542&quot;/&gt; &lt;metamark function=&quot;insert&quot;&gt;^&lt;/metamark&gt; &lt;sga-add eID=&quot;c57-0187__main__d4e37542&quot;/&gt;&lt;sga-add place=&quot;superlinear&quot; sID=&quot;c57-0187__main__d4e37548&quot;/&gt;wretchedness &lt;sga-add eID=&quot;c57-0187__main__d4e37548&quot;/&gt;&lt;mod eID=&quot;c57-0187__main__d4e37537&quot;/&gt; &lt;longToken&gt;to others &amp;amp; &lt;lb n=&quot;c57-0187__main__6&quot;/&gt;now you will not desire my life for my  &lt;lb n=&quot;c57-0187__main__7&quot;/&gt;own misery.&lt;/longToken&gt; &lt;del rend=&quot;strikethrough&quot; xml:id=&quot;c57-0187__main__d4e37557&quot;&gt;In destroying you&lt;/del&gt; &lt;mod sID=&quot;c57-0187__main__d4e37560&quot;/&gt; &lt;del rend=&quot;strikethrough&quot; xml:id=&quot;c57-0187__main__d4e37562&quot;&gt;Miserabl&lt;/del&gt; &lt;mdel&gt;e&lt;/mdel&gt; </rdg>
+		<rdgGrp n="['', '&lt;del&gt;misery&lt;/del&gt;', '', '', '', 'wretchedness   to others and  now you will not desire my life for my   own misery.', '&lt;del&gt;in destroying you&lt;/del&gt;', '', '&lt;del&gt;miserabl&lt;/del&gt;', '&lt;mdel&gt;e&lt;/mdel&gt;']">
+			<rdg wit="fMS">&lt;mod sID=&quot;c57-0187__main__d4e37537&quot;/&gt; &lt;del rend=&quot;strikethrough&quot; xml:id=&quot;c57-0187__main__d4e37539&quot;&gt;misery&lt;/del&gt; &lt;sga-add place=&quot;sublinear&quot; sID=&quot;c57-0187__main__d4e37542&quot;/&gt; &lt;metamark function=&quot;insert&quot;&gt;^&lt;/metamark&gt; &lt;sga-add eID=&quot;c57-0187__main__d4e37542&quot;/&gt;&lt;sga-add place=&quot;superlinear&quot; sID=&quot;c57-0187__main__d4e37548&quot;/&gt; &lt;longToken&gt;wretchedness &lt;sga-add eID=&quot;c57-0187__main__d4e37548&quot;/&gt; &lt;mod eID=&quot;c57-0187__main__d4e37537&quot;/&gt; to others &amp;amp; &lt;lb n=&quot;c57-0187__main__6&quot;/&gt;now you will not desire my life for my  &lt;lb n=&quot;c57-0187__main__7&quot;/&gt;own misery.&lt;/longToken&gt; &lt;del rend=&quot;strikethrough&quot; xml:id=&quot;c57-0187__main__d4e37557&quot;&gt;In destroying you&lt;/del&gt; &lt;mod sID=&quot;c57-0187__main__d4e37560&quot;/&gt; &lt;del rend=&quot;strikethrough&quot; xml:id=&quot;c57-0187__main__d4e37562&quot;&gt;Miserabl&lt;/del&gt; &lt;mdel&gt;e&lt;/mdel&gt; </rdg>
 		</rdgGrp>
-		<rdgGrp n="['wretchedness;']">
-			<rdg wit="f1818">wretchedness; </rdg>
-			<rdg wit="f1823">wretchedness; </rdg>
-			<rdg wit="fThomas">wretchedness; </rdg>
-			<rdg wit="f1831">wretchedness; </rdg>
+		<rdgGrp n="['wretchedness; and if yet, in some mode unknown to me, thou hadst not ceased to think and feel, thou wouldst not desire against me a vengeance greater than that which i feel.']">
+			<rdg wit="f1823">&lt;longToken&gt;wretchedness; and if yet, in some mode unknown to me, thou hadst not ceased to think and feel, thou wouldst not desire against me a vengeance greater than that which I feel.&lt;/longToken&gt; </rdg>
+			<rdg wit="f1831">&lt;longToken&gt;wretchedness; and if yet, in some mode unknown to me, thou hadst not ceased to think and feel, thou wouldst not desire against me a vengeance greater than that which I feel.&lt;/longToken&gt; </rdg>
 		</rdgGrp>
-	</app>
-	<app>
-		<rdgGrp n="['and if yet, in some mode unknown to me, thou hadst not ceased to think and feel, thou wouldst not desire against me a vengeance greater than that which i feel.']">
-			<rdg wit="f1823">&lt;longToken&gt;and if yet, in some mode unknown to me, thou hadst not ceased to think and feel, thou wouldst not desire against me a vengeance greater than that which I feel.&lt;/longToken&gt; </rdg>
-			<rdg wit="f1831">&lt;longToken&gt;and if yet, in some mode unknown to me, thou hadst not ceased to think and feel, thou wouldst not desire against me a vengeance greater than that which I feel.&lt;/longToken&gt; </rdg>
-		</rdgGrp>
-		<rdgGrp n="['and if yet, in some mode unknown to me, thou hast not yet ceased to think and feel, thou desirest not my life for my own misery.']">
-			<rdg wit="f1818">&lt;longToken&gt;and if yet, in some mode unknown to me, thou hast not yet ceased to think and feel, thou desirest not my life for my own misery.&lt;/longToken&gt; </rdg>
-			<rdg wit="fThomas">&lt;longToken&gt;and if yet, in some mode unknown to me, thou hast not yet ceased to think and feel, thou desirest not my life for my own misery.&lt;/longToken&gt; </rdg>
+		<rdgGrp n="['wretchedness; and if yet, in some mode unknown to me, thou hast not yet ceased to think and feel, thou desirest not my life for my own misery.']">
+			<rdg wit="f1818">&lt;longToken&gt;wretchedness; and if yet, in some mode unknown to me, thou hast not yet ceased to think and feel, thou desirest not my life for my own misery.&lt;/longToken&gt; </rdg>
+			<rdg wit="fThomas">&lt;longToken&gt;wretchedness; and if yet, in some mode unknown to me, thou hast not yet ceased to think and feel, thou desirest not my life for my own misery.&lt;/longToken&gt; </rdg>
 		</rdgGrp>
 	</app>
 	<app>
@@ -14491,4 +14483,4 @@
 		</rdgGrp>
 	</app>
 </cx:apparatus>
-<!-- 2023-07-06 03:45:08.434824 -->
+<!-- 2023-07-08 20:08:00.459684 -->
