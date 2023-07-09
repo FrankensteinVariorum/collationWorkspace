@@ -1415,8 +1415,8 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['speech — and &lt;del&gt;saw&lt;/del&gt;    &lt;zone corresp=&quot;#c57-0017.02&quot; type=&quot;left_margin&quot; sid=&quot;c57-0017__left_margin&quot;/&gt;   interchanged']">
-			<rdg wit="fMS">&lt;longToken&gt;speech&lt;sga-add eID=&quot;c57-0017__main__d4e3460&quot;/&gt; — and &lt;del rend=&quot;strikethrough&quot; xml:id=&quot;c57-0017__main__d4e3464&quot;&gt;saw&lt;/del&gt; &lt;lb n=&quot;c57-0017__main__10&quot;/&gt; &lt;anchor xml:id=&quot;c57-0017.02&quot;/&gt; &lt;zone corresp=&quot;#c57-0017.02&quot; type=&quot;left_margin&quot; sID=&quot;c57-0017__left_margin&quot;/&gt; &lt;lb n=&quot;c57-0017__left_margin__1&quot;/&gt; &lt;sga-add sID=&quot;c57-0017__left_margin__d4e3475&quot;/&gt;interchanged&lt;/longToken&gt; </rdg>
+		<rdgGrp n="['speech — and &lt;del&gt;saw&lt;/del&gt;    &lt;zone corresp=&quot;#c57-0017.02&quot; type=&quot;left_margin&quot; sid=&quot;c57-0017.02__left_margin&quot;/&gt;   interchanged   ', '&lt;zone eid=&quot;c57-0017.02__left_margin&quot;/&gt;']">
+			<rdg wit="fMS">&lt;longToken&gt;speech&lt;sga-add eID=&quot;c57-0017__main__d4e3460&quot;/&gt; — and &lt;del rend=&quot;strikethrough&quot; xml:id=&quot;c57-0017__main__d4e3464&quot;&gt;saw&lt;/del&gt; &lt;lb n=&quot;c57-0017__main__10&quot;/&gt; &lt;anchor xml:id=&quot;c57-0017.02&quot;/&gt; &lt;zone corresp=&quot;#c57-0017.02&quot; type=&quot;left_margin&quot; sID=&quot;c57-0017.02__left_margin&quot;/&gt; &lt;lb n=&quot;c57-0017__left_margin__1&quot;/&gt; &lt;sga-add sID=&quot;c57-0017__left_margin__d4e3475&quot;/&gt;interchanged &lt;sga-add eID=&quot;c57-0017__left_margin__d4e3475&quot;/&gt;   &lt;zone eID=&quot;c57-0017.02__left_margin&quot;/&gt;&lt;/longToken&gt; </rdg>
 		</rdgGrp>
 		<rdgGrp n="['speech,', 'interchanging']">
 			<rdg wit="f1818">speech, interchanging </rdg>
@@ -1431,7 +1431,7 @@
 			<rdg wit="f1823">each day looks of affection and </rdg>
 			<rdg wit="fThomas">each day looks of affection and </rdg>
 			<rdg wit="f1831">each day looks of affection and </rdg>
-			<rdg wit="fMS">&lt;sga-add eID=&quot;c57-0017__left_margin__d4e3475&quot;/&gt;each day looks of affection &amp; </rdg>
+			<rdg wit="fMS">each day looks of affection &amp; </rdg>
 		</rdgGrp>
 	</app>
 	<app>
@@ -4460,12 +4460,32 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['but', 'i', 'generally', 'found', 'that', 'her']">
-			<rdg wit="f1818">but I generally found that her </rdg>
-			<rdg wit="f1823">but I generally found that her </rdg>
-			<rdg wit="fThomas">but I generally found that her </rdg>
-			<rdg wit="f1831">but I generally found that her </rdg>
-			<rdg wit="fMS">but I &lt;w ana=&quot;start&quot;/&gt;general&lt;lb n=&quot;c57-0021__main__16&quot;/&gt;ly&lt;w ana=&quot;end&quot;/&gt; found that her </rdg>
+		<rdgGrp n="['but', 'i']">
+			<rdg wit="f1818">but I </rdg>
+			<rdg wit="f1823">but I </rdg>
+			<rdg wit="fThomas">but I </rdg>
+			<rdg wit="f1831">but I </rdg>
+			<rdg wit="fMS">but I </rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['generally ']">
+			<rdg wit="fMS">&lt;w ana=&quot;start&quot;/&gt;general&lt;lb n=&quot;c57-0021__main__16&quot;/&gt;ly&lt;w ana=&quot;end&quot;/&gt; </rdg>
+		</rdgGrp>
+		<rdgGrp n="['generally']">
+			<rdg wit="f1818">generally </rdg>
+			<rdg wit="f1823">generally </rdg>
+			<rdg wit="fThomas">generally </rdg>
+			<rdg wit="f1831">generally </rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['found', 'that', 'her']">
+			<rdg wit="f1818">found that her </rdg>
+			<rdg wit="f1823">found that her </rdg>
+			<rdg wit="fThomas">found that her </rdg>
+			<rdg wit="f1831">found that her </rdg>
+			<rdg wit="fMS">found that her </rdg>
 		</rdgGrp>
 	</app>
 	<app>
@@ -4495,7 +4515,7 @@
 			<rdg wit="fThomas">listened </rdg>
 			<rdg wit="f1831">listened </rdg>
 		</rdgGrp>
-		<rdgGrp n="['listenend']">
+		<rdgGrp n="['listenend ']">
 			<rdg wit="fMS">&lt;w ana=&quot;start&quot;/&gt;listen&lt;lb n=&quot;c57-0021__main__18&quot;/&gt;end&lt;w ana=&quot;end&quot;/&gt; </rdg>
 		</rdgGrp>
 	</app>
@@ -5498,4 +5518,4 @@
 		</rdgGrp>
 	</app>
 </cx:apparatus>
-<!-- 2023-05-28 09:52:16.813996 -->
+<!-- 2023-06-26 19:52:01.193485 -->

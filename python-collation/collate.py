@@ -30,6 +30,8 @@ regexPageBreak = re.compile(r'<pb.+?/>', re.DOTALL)
 RE_MARKUP = re.compile(r'<.+?>', re.DOTALL)
 RE_WORD_START = re.compile(r'<w ana="start"/>(.+)<lb[^<>]+>')
 RE_WORD_END = re.compile(r'<w ana="end"/>')
+# RE_HI_START = re.compile(r'<hi\ssID.+?/>')
+# RE_HI_END = re.compile(r'<hi\seID.+?/>')
 RE_PARASTART = re.compile(r'<p\ssID.+?/>')
 RE_PARAEND = re.compile(r'<p\seID.+?/>')
 RE_INCLUDE = re.compile(r'<include.*?/>')
@@ -51,7 +53,7 @@ RE_ADDSTART = re.compile(r'<add[^<>]*?>')
 RE_ADDEND = re.compile(r'</add>')
 RE_NOTE_START = re.compile(r'<note.*?>')
 RE_NOTE_END = re.compile(r'</note>')
-RE_DELSTART = re.compile(r'<del.*?>')
+RE_DELSTART = re.compile(r'<del\s+.*?>')
 RE_DELEND = re.compile(r'</del>')
 # 2023-05-17 ebb with nlh: We have altered the delSpans thus:
 # <delSpan spanTo="id"/> as a start marker and a <delSpan anchor="id"/> in the pre-processed msColl for collation.
@@ -237,7 +239,7 @@ def normalize(inputText):
     normalized = RE_ANCHOR.sub('', normalized)
     normalized = RE_LT_AMP.sub('and', normalized)
     normalized = RE_AMP.sub('and', normalized)
-    normalized = RE_WORD_START.sub('\\1', normalized)
+    normalized = RE_WORD_START.sub(' \\1', normalized)
     # 2023-05-22 ebb and yxj: We must replace WORD_START before the SPACE_LB.
     # WORD_START replacement ensures that the normalized token for <w ana='start'/>...<lb/>...<w ana="end"/>
     # does not get an added space. We need to ensure that these are treated as single word tokens
@@ -257,7 +259,8 @@ def normalize(inputText):
     normalized = RE_LT_END.sub('', normalized)
     normalized = RE_HEAD_START.sub('', normalized)
     normalized = RE_HEAD_END.sub('', normalized)
-    normalized = RE_HI.sub('', normalized)
+    # 2023-06-30 nlh: added space inside <hi/> normalization.
+    normalized = RE_HI.sub(' ', normalized)
 
     # 2022-08-08 ebb: Sometimes <hi> in the print editions seems irrelevant, in highlighting words at
     # chapter beginnings. However, it also sometimes indicates emphasis on a word.
@@ -281,6 +284,8 @@ def normalize(inputText):
     normalized = RE_INCLUDE.sub('', normalized)
     normalized = RE_MULTI_RIGHTANGLE.sub('>', normalized)
     normalized = RE_MULTI_LEFTANGLE.sub('<', normalized)
+    normalized = re.sub(r'^\s+', '', normalized) # 2023-06-26 yxj: remvoe the space at the beginning
+    normalized = re.sub(r'\s+$', '', normalized) # 2023-06-26 yxj: remvoe the space at the end
     normalized = normalized.lower()
     return normalized
 

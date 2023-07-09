@@ -2,7 +2,7 @@
 <cx:apparatus xmlns:cx="http://interedition.eu/collatex/ns/1.0">
 	<app>
 		<rdgGrp n="['', '']">
-			<rdg wit="fMS"> &lt;milestone spanTo=&quot;#c57-0002.07&quot; unit=&quot;tei:head&quot;/&gt; </rdg>
+			<rdg wit="fMS">&lt;anchor type=&quot;collate&quot; xml:id=&quot;C17&quot;/&gt; &lt;milestone spanTo=&quot;#c57-0002.07&quot; unit=&quot;tei:head&quot;/&gt; </rdg>
 		</rdgGrp>
 	</app>
 	<app>
@@ -244,12 +244,32 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['a', 'long', 'time', 'before', 'i', 'learned', 'to', 'distinguish', 'between', 'the']">
-			<rdg wit="f1818">a long time before I learned to distinguish between the </rdg>
-			<rdg wit="f1823">a long time before I learned to distinguish between the </rdg>
-			<rdg wit="fThomas">a long time before I learned to distinguish between the </rdg>
-			<rdg wit="f1831">a long time before I learned to distinguish between the </rdg>
-			<rdg wit="fMS">a long time &lt;w ana=&quot;start&quot;/&gt;be&lt;lb n=&quot;c57-0002__main__10&quot;/&gt;fore&lt;w ana=&quot;end&quot;/&gt; I learned to distinguish between the </rdg>
+		<rdgGrp n="['a', 'long', 'time']">
+			<rdg wit="f1818">a long time </rdg>
+			<rdg wit="f1823">a long time </rdg>
+			<rdg wit="fThomas">a long time </rdg>
+			<rdg wit="f1831">a long time </rdg>
+			<rdg wit="fMS">a long time </rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['before ']">
+			<rdg wit="fMS">&lt;w ana=&quot;start&quot;/&gt;be&lt;lb n=&quot;c57-0002__main__10&quot;/&gt;fore&lt;w ana=&quot;end&quot;/&gt; </rdg>
+		</rdgGrp>
+		<rdgGrp n="['before']">
+			<rdg wit="f1818">before </rdg>
+			<rdg wit="f1823">before </rdg>
+			<rdg wit="fThomas">before </rdg>
+			<rdg wit="f1831">before </rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['i', 'learned', 'to', 'distinguish', 'between', 'the']">
+			<rdg wit="f1818">I learned to distinguish between the </rdg>
+			<rdg wit="f1823">I learned to distinguish between the </rdg>
+			<rdg wit="fThomas">I learned to distinguish between the </rdg>
+			<rdg wit="f1831">I learned to distinguish between the </rdg>
+			<rdg wit="fMS">I learned to distinguish between the </rdg>
 		</rdgGrp>
 	</app>
 	<app>
@@ -2076,7 +2096,7 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['&lt;w ana=&quot;start&quot;/&gt;a', '&lt;mdel&gt;m&lt;/mdel&gt;', 'nimals']">
+		<rdgGrp n="['&lt;w ana=&quot;start&quot;/&gt;a', '&lt;mdel&gt;m&lt;/mdel&gt;', 'nimals ']">
 			<rdg wit="fMS">&lt;sga-add eID=&quot;c57-0004__main__d4e464&quot;/&gt;&lt;mod eID=&quot;c57-0004__main__d4e459&quot;/&gt;&lt;lb n=&quot;c57-0004__main__12&quot;/&gt;&lt;w ana=&quot;start&quot;/&gt;a&lt;mod sID=&quot;c57-0004__main__d4e473&quot;/&gt; &lt;mdel&gt;m&lt;/mdel&gt; &lt;sga-add place=&quot;intralinear&quot; sID=&quot;c57-0004__main__d4e477&quot;/&gt;ni&lt;sga-add eID=&quot;c57-0004__main__d4e477&quot;/&gt;&lt;mod eID=&quot;c57-0004__main__d4e473&quot;/&gt;mals&lt;w ana=&quot;end&quot;/&gt; </rdg>
 		</rdgGrp>
 		<rdgGrp n="['animals']">
@@ -2218,7 +2238,7 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['me. sometimes']">
+		<rdgGrp n="['me. sometimes ']">
 			<rdg wit="fMS">me.–&lt;w ana=&quot;start&quot;/&gt;some&lt;lb n=&quot;c57-0004__main__18&quot;/&gt;times&lt;w ana=&quot;end&quot;/&gt; </rdg>
 		</rdgGrp>
 		<rdgGrp n="['me.', 'sometimes']">
@@ -2346,7 +2366,7 @@
 			<rdg wit="fThomas">inarticulate sounds </rdg>
 			<rdg wit="f1831">inarticulate sounds </rdg>
 		</rdgGrp>
-		<rdgGrp n="['innarticulate', 'sound']">
+		<rdgGrp n="['innarticulate ', 'sound']">
 			<rdg wit="fMS">&lt;w ana=&quot;start&quot;/&gt;innarticu&lt;lb n=&quot;c57-0004__main__22&quot;/&gt;late&lt;w ana=&quot;end&quot;/&gt; sound </rdg>
 		</rdgGrp>
 	</app>
@@ -2646,7 +2666,7 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['distin guished']">
+		<rdgGrp n="['distin guished ']">
 			<rdg wit="fMS">&lt;w ana=&quot;start&quot;/&gt;distin&lt;lb n=&quot;c57-0005__main__1&quot;/&gt;&lt;anchor xml:id=&quot;c57-0005.01&quot;/&gt;&lt;lb n=&quot;c57-0005__left_margin__1&quot;/&gt;&lt;sga-add sID=&quot;c57-0005__left_margin__d4e631&quot;/&gt;guished&lt;w ana=&quot;end&quot;/&gt; </rdg>
 		</rdgGrp>
 		<rdgGrp n="['distinguished']">
@@ -2700,7 +2720,7 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['degrees']">
+		<rdgGrp n="['degrees ']">
 			<rdg wit="fMS">&lt;w ana=&quot;start&quot;/&gt;de&lt;lb n=&quot;c57-0005__main__2&quot;/&gt;grees&lt;w ana=&quot;end&quot;/&gt; </rdg>
 		</rdgGrp>
 		<rdgGrp n="['degrees,']">
@@ -2865,7 +2885,7 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['beggars']">
+		<rdgGrp n="['beggars ']">
 			<rdg wit="fMS">&lt;w ana=&quot;start&quot;/&gt;beg&lt;lb n=&quot;c57-0005__main__8&quot;/&gt;gars&lt;w ana=&quot;end&quot;/&gt; </rdg>
 		</rdgGrp>
 		<rdgGrp n="['beggars,']">
@@ -3796,12 +3816,32 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['and', 'contrived', 'a', 'fan', 'of']">
-			<rdg wit="f1818">and contrived a fan of </rdg>
-			<rdg wit="f1823">and contrived a fan of </rdg>
-			<rdg wit="fThomas">and contrived a fan of </rdg>
-			<rdg wit="f1831">and contrived a fan of </rdg>
-			<rdg wit="fMS">and &lt;w ana=&quot;start&quot;/&gt;contri&lt;lb n=&quot;c57-0006__main__6&quot;/&gt;ved&lt;w ana=&quot;end&quot;/&gt; a fan of </rdg>
+		<rdgGrp n="['and']">
+			<rdg wit="f1818">and </rdg>
+			<rdg wit="f1823">and </rdg>
+			<rdg wit="fThomas">and </rdg>
+			<rdg wit="f1831">and </rdg>
+			<rdg wit="fMS">and </rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['contrived ']">
+			<rdg wit="fMS">&lt;w ana=&quot;start&quot;/&gt;contri&lt;lb n=&quot;c57-0006__main__6&quot;/&gt;ved&lt;w ana=&quot;end&quot;/&gt; </rdg>
+		</rdgGrp>
+		<rdgGrp n="['contrived']">
+			<rdg wit="f1818">contrived </rdg>
+			<rdg wit="f1823">contrived </rdg>
+			<rdg wit="fThomas">contrived </rdg>
+			<rdg wit="f1831">contrived </rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['a', 'fan', 'of']">
+			<rdg wit="f1818">a fan of </rdg>
+			<rdg wit="f1823">a fan of </rdg>
+			<rdg wit="fThomas">a fan of </rdg>
+			<rdg wit="f1831">a fan of </rdg>
+			<rdg wit="fMS">a fan of </rdg>
 		</rdgGrp>
 	</app>
 	<app>
@@ -3896,7 +3936,7 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['pleasure']">
+		<rdgGrp n="['pleasure ']">
 			<rdg wit="fMS">&lt;w ana=&quot;start&quot;/&gt;plea&lt;lb n=&quot;c57-0006__main__9&quot;/&gt;sure&lt;w ana=&quot;end&quot;/&gt; </rdg>
 		</rdgGrp>
 		<rdgGrp n="['pleasure,']">
@@ -3995,12 +4035,32 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['offals', 'that', 'the', 'travellers', 'had', 'left', 'had', 'been']">
-			<rdg wit="f1818">offals that the travellers had left had been </rdg>
-			<rdg wit="f1823">offals that the travellers had left had been </rdg>
-			<rdg wit="fThomas">offals that the travellers had left had been </rdg>
-			<rdg wit="f1831">offals that the travellers had left had been </rdg>
-			<rdg wit="fMS">offals that the &lt;w ana=&quot;start&quot;/&gt;travel&lt;lb n=&quot;c57-0006__main__13&quot;/&gt;lers&lt;w ana=&quot;end&quot;/&gt; had left had been </rdg>
+		<rdgGrp n="['offals', 'that', 'the']">
+			<rdg wit="f1818">offals that the </rdg>
+			<rdg wit="f1823">offals that the </rdg>
+			<rdg wit="fThomas">offals that the </rdg>
+			<rdg wit="f1831">offals that the </rdg>
+			<rdg wit="fMS">offals that the </rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['travellers ']">
+			<rdg wit="fMS">&lt;w ana=&quot;start&quot;/&gt;travel&lt;lb n=&quot;c57-0006__main__13&quot;/&gt;lers&lt;w ana=&quot;end&quot;/&gt; </rdg>
+		</rdgGrp>
+		<rdgGrp n="['travellers']">
+			<rdg wit="f1818">travellers </rdg>
+			<rdg wit="f1823">travellers </rdg>
+			<rdg wit="fThomas">travellers </rdg>
+			<rdg wit="f1831">travellers </rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['had', 'left', 'had', 'been']">
+			<rdg wit="f1818">had left had been </rdg>
+			<rdg wit="f1823">had left had been </rdg>
+			<rdg wit="fThomas">had left had been </rdg>
+			<rdg wit="f1831">had left had been </rdg>
+			<rdg wit="fMS">had left had been </rdg>
 		</rdgGrp>
 	</app>
 	<app>
@@ -4280,12 +4340,32 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['where', 'the', 'few', 'wants', 'i', 'experienced', 'would', 'be', 'more', 'easily', 'satisfied.', 'in', 'this']">
-			<rdg wit="f1818">where the few wants I experienced would be more easily satisfied. In this </rdg>
-			<rdg wit="f1823">where the few wants I experienced would be more easily satisfied. In this </rdg>
-			<rdg wit="fThomas">where the few wants I experienced would be more easily satisfied. In this </rdg>
-			<rdg wit="f1831">where the few wants I experienced would be more easily satisfied. In this </rdg>
-			<rdg wit="fMS">where the few wants I &lt;w ana=&quot;start&quot;/&gt;expe&lt;lb n=&quot;c57-0006__main__26&quot;/&gt;rienced&lt;w ana=&quot;end&quot;/&gt; would be more easily satisfied. &lt;lb n=&quot;c57-0006__main__27&quot;/&gt;In this </rdg>
+		<rdgGrp n="['where', 'the', 'few', 'wants', 'i']">
+			<rdg wit="f1818">where the few wants I </rdg>
+			<rdg wit="f1823">where the few wants I </rdg>
+			<rdg wit="fThomas">where the few wants I </rdg>
+			<rdg wit="f1831">where the few wants I </rdg>
+			<rdg wit="fMS">where the few wants I </rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['experienced ']">
+			<rdg wit="fMS">&lt;w ana=&quot;start&quot;/&gt;expe&lt;lb n=&quot;c57-0006__main__26&quot;/&gt;rienced&lt;w ana=&quot;end&quot;/&gt; </rdg>
+		</rdgGrp>
+		<rdgGrp n="['experienced']">
+			<rdg wit="f1818">experienced </rdg>
+			<rdg wit="f1823">experienced </rdg>
+			<rdg wit="fThomas">experienced </rdg>
+			<rdg wit="f1831">experienced </rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['would', 'be', 'more', 'easily', 'satisfied.', 'in', 'this']">
+			<rdg wit="f1818">would be more easily satisfied. In this </rdg>
+			<rdg wit="f1823">would be more easily satisfied. In this </rdg>
+			<rdg wit="fThomas">would be more easily satisfied. In this </rdg>
+			<rdg wit="f1831">would be more easily satisfied. In this </rdg>
+			<rdg wit="fMS">would be more easily satisfied. &lt;lb n=&quot;c57-0006__main__27&quot;/&gt;In this </rdg>
 		</rdgGrp>
 	</app>
 	<app>
@@ -4843,22 +4923,14 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['&lt;del&gt;stu&lt;/del&gt;']">
-			<rdg wit="fMS">&lt;del rend=&quot;strikethrough&quot; xml:id=&quot;c57-0007__main__d4e1156&quot;&gt;stu&lt;/del&gt; </rdg>
+		<rdgGrp n="['&lt;del&gt;stu&lt;/del&gt;', 'structure ', 'of', 'it']">
+			<rdg wit="fMS">&lt;del rend=&quot;strikethrough&quot; xml:id=&quot;c57-0007__main__d4e1156&quot;&gt;stu&lt;/del&gt; &lt;w ana=&quot;start&quot;/&gt;struc&lt;lb n=&quot;c57-0007__main__17&quot;/&gt;ture&lt;w ana=&quot;end&quot;/&gt; of it </rdg>
 		</rdgGrp>
-	</app>
-	<app>
 		<rdgGrp n="['structure']">
 			<rdg wit="f1818">structure </rdg>
 			<rdg wit="f1823">structure </rdg>
 			<rdg wit="fThomas">structure </rdg>
 			<rdg wit="f1831">structure </rdg>
-			<rdg wit="fMS">&lt;w ana=&quot;start&quot;/&gt;struc&lt;lb n=&quot;c57-0007__main__17&quot;/&gt;ture&lt;w ana=&quot;end&quot;/&gt; </rdg>
-		</rdgGrp>
-	</app>
-	<app>
-		<rdgGrp n="['of', 'it']">
-			<rdg wit="fMS">of it </rdg>
 		</rdgGrp>
 	</app>
 	<app>
@@ -5269,7 +5341,7 @@
 			<rdg wit="fThomas">and divine </rdg>
 			<rdg wit="f1831">and divine </rdg>
 		</rdgGrp>
-		<rdgGrp n="['anddivine']">
+		<rdgGrp n="['anddivine ']">
 			<rdg wit="fMS">&amp;&lt;w ana=&quot;start&quot;/&gt;di&lt;lb n=&quot;c57-0008__main__1&quot;/&gt;vine&lt;w ana=&quot;end&quot;/&gt; </rdg>
 		</rdgGrp>
 	</app>
@@ -5613,12 +5685,32 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['i', 'determined', 'to', 'recommence', 'my']">
-			<rdg wit="f1818">I determined to recommence my </rdg>
-			<rdg wit="f1823">I determined to recommence my </rdg>
-			<rdg wit="fThomas">I determined to recommence my </rdg>
-			<rdg wit="f1831">I determined to recommence my </rdg>
-			<rdg wit="fMS">I &lt;w ana=&quot;start&quot;/&gt;deter&lt;lb n=&quot;c57-0008__main__11&quot;/&gt;mined&lt;w ana=&quot;end&quot;/&gt; to recommence my </rdg>
+		<rdgGrp n="['i']">
+			<rdg wit="f1818">I </rdg>
+			<rdg wit="f1823">I </rdg>
+			<rdg wit="fThomas">I </rdg>
+			<rdg wit="f1831">I </rdg>
+			<rdg wit="fMS">I </rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['determined ']">
+			<rdg wit="fMS">&lt;w ana=&quot;start&quot;/&gt;deter&lt;lb n=&quot;c57-0008__main__11&quot;/&gt;mined&lt;w ana=&quot;end&quot;/&gt; </rdg>
+		</rdgGrp>
+		<rdgGrp n="['determined']">
+			<rdg wit="f1818">determined </rdg>
+			<rdg wit="f1823">determined </rdg>
+			<rdg wit="fThomas">determined </rdg>
+			<rdg wit="f1831">determined </rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['to', 'recommence', 'my']">
+			<rdg wit="f1818">to recommence my </rdg>
+			<rdg wit="f1823">to recommence my </rdg>
+			<rdg wit="fThomas">to recommence my </rdg>
+			<rdg wit="f1831">to recommence my </rdg>
+			<rdg wit="fMS">to recommence my </rdg>
 		</rdgGrp>
 	</app>
 	<app>
@@ -5684,23 +5776,23 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['&lt;del&gt;herds bre&lt;/del&gt;', 'peasants']">
-			<rdg wit="fMS">&lt;del rend=&quot;strikethrough&quot; xml:id=&quot;c57-0008__main__d4e1378&quot;&gt;herds bre&lt;/del&gt; peasants </rdg>
+		<rdgGrp n="['&lt;del&gt;herds bre&lt;/del&gt;', 'peasants', 'breakfast ']">
+			<rdg wit="fMS">&lt;del rend=&quot;strikethrough&quot; xml:id=&quot;c57-0008__main__d4e1378&quot;&gt;herds bre&lt;/del&gt; peasants &lt;w ana=&quot;start&quot;/&gt;break&lt;lb n=&quot;c57-0008__main__13&quot;/&gt;fast&lt;w ana=&quot;end&quot;/&gt; </rdg>
 		</rdgGrp>
-		<rdgGrp n="['peasant’s']">
-			<rdg wit="f1818">peasant’s </rdg>
-			<rdg wit="f1823">peasant’s </rdg>
-			<rdg wit="fThomas">peasant’s </rdg>
-			<rdg wit="f1831">peasant’s </rdg>
+		<rdgGrp n="['peasant’s', 'breakfast']">
+			<rdg wit="f1818">peasant’s breakfast </rdg>
+			<rdg wit="f1823">peasant’s breakfast </rdg>
+			<rdg wit="fThomas">peasant’s breakfast </rdg>
+			<rdg wit="f1831">peasant’s breakfast </rdg>
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['breakfast', 'in', 'a', 'wallet', 'i', 'found,', 'i', 'proceeded', 'across', 'the', 'fields', 'for', 'several', 'hours,']">
-			<rdg wit="f1818">breakfast in a wallet I found, I proceeded across the fields for several hours, </rdg>
-			<rdg wit="f1823">breakfast in a wallet I found, I proceeded across the fields for several hours, </rdg>
-			<rdg wit="fThomas">breakfast in a wallet I found, I proceeded across the fields for several hours, </rdg>
-			<rdg wit="f1831">breakfast in a wallet I found, I proceeded across the fields for several hours, </rdg>
-			<rdg wit="fMS">&lt;w ana=&quot;start&quot;/&gt;break&lt;lb n=&quot;c57-0008__main__13&quot;/&gt;fast&lt;w ana=&quot;end&quot;/&gt; in a wallet I found, I proceeded &lt;lb n=&quot;c57-0008__main__14&quot;/&gt;across the fields for several hours, </rdg>
+		<rdgGrp n="['in', 'a', 'wallet', 'i', 'found,', 'i', 'proceeded', 'across', 'the', 'fields', 'for', 'several', 'hours,']">
+			<rdg wit="f1818">in a wallet I found, I proceeded across the fields for several hours, </rdg>
+			<rdg wit="f1823">in a wallet I found, I proceeded across the fields for several hours, </rdg>
+			<rdg wit="fThomas">in a wallet I found, I proceeded across the fields for several hours, </rdg>
+			<rdg wit="f1831">in a wallet I found, I proceeded across the fields for several hours, </rdg>
+			<rdg wit="fMS">in a wallet I found, I proceeded &lt;lb n=&quot;c57-0008__main__14&quot;/&gt;across the fields for several hours, </rdg>
 		</rdgGrp>
 	</app>
 	<app>
@@ -5743,12 +5835,32 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['a', 'village.', 'how', 'miraculous', 'did', 'this']">
-			<rdg wit="f1818">a village. How miraculous did this </rdg>
-			<rdg wit="f1823">a village. How miraculous did this </rdg>
-			<rdg wit="fThomas">a village. How miraculous did this </rdg>
-			<rdg wit="f1831">a village. How miraculous did this </rdg>
-			<rdg wit="fMS">a village. How &lt;w ana=&quot;start&quot;/&gt;mira&lt;lb n=&quot;c57-0008__main__16&quot;/&gt;culous&lt;w ana=&quot;end&quot;/&gt; did this </rdg>
+		<rdgGrp n="['a', 'village.', 'how']">
+			<rdg wit="f1818">a village. How </rdg>
+			<rdg wit="f1823">a village. How </rdg>
+			<rdg wit="fThomas">a village. How </rdg>
+			<rdg wit="f1831">a village. How </rdg>
+			<rdg wit="fMS">a village. How </rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['miraculous ']">
+			<rdg wit="fMS">&lt;w ana=&quot;start&quot;/&gt;mira&lt;lb n=&quot;c57-0008__main__16&quot;/&gt;culous&lt;w ana=&quot;end&quot;/&gt; </rdg>
+		</rdgGrp>
+		<rdgGrp n="['miraculous']">
+			<rdg wit="f1818">miraculous </rdg>
+			<rdg wit="f1823">miraculous </rdg>
+			<rdg wit="fThomas">miraculous </rdg>
+			<rdg wit="f1831">miraculous </rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['did', 'this']">
+			<rdg wit="f1818">did this </rdg>
+			<rdg wit="f1823">did this </rdg>
+			<rdg wit="fThomas">did this </rdg>
+			<rdg wit="f1831">did this </rdg>
+			<rdg wit="fMS">did this </rdg>
 		</rdgGrp>
 	</app>
 	<app>
@@ -6014,7 +6126,7 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['&lt;del&gt;children&lt;/del&gt;']">
+		<rdgGrp n="['&lt;del&gt;children &lt;/del&gt;']">
 			<rdg wit="fMS">&lt;delSpan rend=&quot;strikethrough&quot; spanTo=&quot;#c57-0008.04&quot;/&gt;&lt;w ana=&quot;start&quot;/&gt;child&lt;lb n=&quot;c57-0008__main__25&quot;/&gt;ren&lt;w ana=&quot;end&quot;/&gt;&lt;delSpan anchor=&quot;c57-0008.04&quot;/&gt; </rdg>
 		</rdgGrp>
 	</app>
@@ -6379,7 +6491,7 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['', '', '&lt;del&gt;', '&lt;del&gt;was the tool house and had not been&lt;/del&gt;', 'was', 'not', 'used', '&lt;del&gt;for&lt;/del&gt;', 'by', 'the', 'inhabitants', 'of', 'the', 'adjoining', 'dwelling', 'and', 'was', 'entirely', 'shut', 'out', 'from', 'view', 'by', 'a', 'pigstye', 'on', 'one', 'side', 'and', 'a', 'dunghill', 'and', 'small', '&lt;del&gt;s&lt;/del&gt;', 'pool', 'on', '&lt;del&gt;the&lt;/del&gt;', 'another', '–', 'the', 'two', 'others', 'were', 'formed', 'by', 'the', 'wall', 'of', 'the', 'cottage.&lt;/del&gt;', 'here', 'then', 'i', 'retreated', 'and', 'lay', 'down', 'happy', 'to', 'have', 'found', 'a', 'shelter', 'from', 'the', 'inclemency', 'of', 'the', 'season', 'and', 'still', 'more', 'from', 'the', 'barbarity', 'of', 'man', '', '', '']">
+		<rdgGrp n="['', '', '&lt;del&gt;', '&lt;del&gt;was the tool house and had not been&lt;/del&gt;', 'was', 'not', 'used', '&lt;del&gt;for&lt;/del&gt;', 'by', 'the', 'inhabitants', 'of', 'the', 'adjoining ', 'dwelling', 'and', 'was', 'entirely', 'shut', 'out', 'from', 'view', 'by', 'a', 'pigstye', 'on', 'one', 'side', 'and', 'a', 'dunghill', 'and', 'small', '&lt;del&gt;s&lt;/del&gt;', 'pool', 'on', '&lt;del&gt;the&lt;/del&gt;', 'another', '–', 'the', 'two', 'others', 'were', 'formed', 'by', 'the', 'wall', 'of', 'the', 'cottage.&lt;/del&gt;', 'here', 'then', 'i', 'retreated', 'and', 'lay', 'down', 'happy', 'to', 'have', 'found', 'a', 'shelter', 'from', 'the', 'inclemency', 'of', 'the', 'season', 'and', 'still', 'more', 'from', 'the', 'barbarity', 'of', 'man', '', '', '']">
 			<rdg wit="fMS">&lt;sga-add place=&quot;superlinear&quot; sID=&quot;c57-0009__main__d4e1557&quot;/&gt; &lt;metamark function=&quot;displacement&quot; xml:id=&quot;c57-0009.04&quot;&gt;X&lt;/metamark&gt; &lt;sga-add eID=&quot;c57-0009__main__d4e1557&quot;/&gt;&lt;lb n=&quot;c57-0009__main__9&quot;/&gt;&lt;delSpan rend=&quot;vertical_line&quot; spanTo=&quot;#c57-0009.01&quot;/&gt; &lt;del rend=&quot;strikethrough&quot; xml:id=&quot;c57-0009__main__d4e1567&quot;&gt;was the tool house and had not been&lt;/del&gt; &lt;lb n=&quot;c57-0009__main__10&quot;/&gt;&lt;anchor xml:id=&quot;c57-0009.02&quot;/&gt;&lt;sga-add sID=&quot;c57-0009__left_margin__d4e1577&quot;/&gt;was not &lt;sga-add eID=&quot;c57-0009__left_margin__d4e1577&quot;/&gt;used &lt;del rend=&quot;strikethrough&quot; xml:id=&quot;c57-0009__main__d4e1580&quot;&gt;for&lt;/del&gt; by the inhabitants of the &lt;w ana=&quot;start&quot;/&gt;ad&lt;lb n=&quot;c57-0009__main__11&quot;/&gt;joining&lt;w ana=&quot;end&quot;/&gt; dwelling and was entirely shut &lt;lb n=&quot;c57-0009__main__12&quot;/&gt;out from view by a pigstye on one &lt;lb n=&quot;c57-0009__main__13&quot;/&gt;side and a dunghill &amp; small &lt;del rend=&quot;strikethrough&quot; xml:id=&quot;c57-0009__main__d4e1594&quot;&gt;s&lt;/del&gt; pool &lt;lb n=&quot;c57-0009__main__14&quot;/&gt;on &lt;del rend=&quot;strikethrough&quot; xml:id=&quot;c57-0009__main__d4e1599&quot;&gt;the&lt;/del&gt; another – the two others were &lt;lb n=&quot;c57-0009__main__15&quot;/&gt;formed by the wall of the cottage.&lt;delSpan anchor=&quot;c57-0009.01&quot;/&gt; Here &lt;lb n=&quot;c57-0009__main__16&quot;/&gt;&lt;anchor xml:id=&quot;c57-0009.03&quot;/&gt;&lt;sga-add sID=&quot;c57-0009__left_margin__d4e1615&quot;/&gt;then &lt;sga-add eID=&quot;c57-0009__left_margin__d4e1615&quot;/&gt;I retreated and lay down happy to have &lt;lb n=&quot;c57-0009__main__17&quot;/&gt;found a shelter from the inclemency &lt;lb n=&quot;c57-0009__main__18&quot;/&gt;of the season &amp; still more from the &lt;lb n=&quot;c57-0009__main__19&quot;/&gt;barbarity of man &lt;lb n=&quot;c57-0009__main__20&quot;/&gt; &lt;metamark function=&quot;separate&quot;&gt;___________________________&lt;/metamark&gt; &lt;lb n=&quot;c57-0009__main__21&quot;/&gt; </rdg>
 		</rdgGrp>
 	</app>
@@ -11722,4 +11834,4 @@
 		</rdgGrp>
 	</app>
 </cx:apparatus>
-<!-- 2023-05-28 13:45:47.345979 -->
+<!-- 2023-06-14 21:32:07.766751 -->
