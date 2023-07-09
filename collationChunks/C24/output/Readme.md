@@ -418,6 +418,9 @@ app>
 ```
 
 - **Note:** Wrapping longToken around `for ever?` in 1831
+- [x] 2023-07-09 ebb: correct fused token: `scene&` around change of scene passage
+- [x] 2023-07-09 ebb: extend a longToken to unite the MS w/ other witnesses around this passage:
+     "that the fiend would follow me and exempt me/my family from the danger of his machinations."  
 
 - [ ] **Misalignment:** In MS, two sentences are different from three paragraphs in other editions. The longToken doesn't work because the algorithm can't identify where they should come together correctly. They should go back together at `cologne we descended`. (Search `cologne we descended` in `Collation_C24-complete-june5.xml` to see how MS is far from other editions.) 
 
