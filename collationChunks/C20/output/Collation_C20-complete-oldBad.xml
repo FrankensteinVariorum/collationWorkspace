@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../lookingForTrouble.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <cx:apparatus xmlns:cx="http://interedition.eu/collatex/ns/1.0">
 	<app>
 		<rdgGrp n="['']">
@@ -23,32 +23,36 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['another chapter sometime']">
-			<rdg wit="fMS">&lt;longToken&gt;another Chapter &lt;sga-add
+		<rdgGrp n="['another chapter', '', 'sometime']">
+			<rdg wit="fMS">&lt;longToken&gt;another Chapter&lt;/longToken&gt; &lt;sga-add
 				eID="c57-0031__main__d4e4824"/&gt;&lt;anchor xml:id="c57-0031.11"/&gt;&lt;lb
-				n="c57-0031__main__2"/&gt;Sometime&lt;/longToken&gt;</rdg>
+				n="c57-0031__main__2"/&gt; Sometime</rdg>
 		</rdgGrp>
-		<rdgGrp n="['chapter ii. &lt;p-start/&gt; &#34;s ome  time']">
-			<rdg wit="f1823">&lt;longToken&gt;&lt;head&gt;CHAPTER II.&lt;/head&gt; &lt;p
-				sID="novel1_letter4_chapter13_div4_div14_p1"/&gt; “S&lt;hi
-				sID="novel1_letter4_chapter13_div4_div14_p1_hi1"/&gt;OME&lt;hi
-				eID="novel1_letter4_chapter13_div4_div14_p1_hi1"/&gt; time&lt;/longToken&gt;</rdg>
+		<rdgGrp n="['chapter ii.']">
+			<rdg wit="f1823">&lt;head&gt;CHAPTER II.&lt;/head&gt;</rdg>
 		</rdgGrp>
-		<rdgGrp n="['chapter vi. &lt;p-start/&gt; &#34;s ome  time']">
-			<rdg wit="f1818">&lt;longToken&gt;&lt;head&gt;CHAPTER VI.&lt;/head&gt; &lt;p
-				sID="novel1_letter4_chapter13_div4_div14_p1"/&gt; “S&lt;hi
-				sID="novel1_letter4_chapter13_div4_div14_p1_hi1"/&gt;OME&lt;hi
-				eID="novel1_letter4_chapter13_div4_div14_p1_hi1"/&gt; time&lt;/longToken&gt;</rdg>
-			<rdg wit="fThomas">&lt;longToken&gt;&lt;head&gt;CHAPTER VI.&lt;/head&gt; &lt;p
-				sID="novel1_letter4_chapter13_div4_div14_p1"/&gt; “S&lt;hi
-				sID="novel1_letter4_chapter13_div4_div14_p1_hi1"/&gt;OME&lt;hi
-				eID="novel1_letter4_chapter13_div4_div14_p1_hi1"/&gt; time&lt;/longToken&gt;</rdg>
+		<rdgGrp n="['chapter vi.']">
+			<rdg wit="f1818">&lt;head&gt;CHAPTER VI.&lt;/head&gt;</rdg>
+			<rdg wit="fThomas">&lt;head&gt;CHAPTER VI.&lt;/head&gt;</rdg>
 		</rdgGrp>
-		<rdgGrp n="['chapter xiv. &lt;p-start/&gt; &#34;s ome  time']">
-			<rdg wit="f1831">&lt;longToken&gt;&lt;head&gt;CHAPTER XIV.&lt;/head&gt; &lt;p
-				sID="novel1_letter4_chapter14_div4_div14_p1"/&gt; “S&lt;hi
+		<rdgGrp n="['chapter xiv.']">
+			<rdg wit="f1831">&lt;head&gt;CHAPTER XIV.&lt;/head&gt;</rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['&lt;p-start/&gt;', '&#34;some', 'time']">
+			<rdg wit="f1818">&lt;p sID="novel1_letter4_chapter13_div4_div14_p1"/&gt; “S&lt;hi
+				sID="novel1_letter4_chapter13_div4_div14_p1_hi1"/&gt;OME&lt;hi
+				eID="novel1_letter4_chapter13_div4_div14_p1_hi1"/&gt; time</rdg>
+			<rdg wit="f1823">&lt;p sID="novel1_letter4_chapter13_div4_div14_p1"/&gt; “S&lt;hi
+				sID="novel1_letter4_chapter13_div4_div14_p1_hi1"/&gt;OME&lt;hi
+				eID="novel1_letter4_chapter13_div4_div14_p1_hi1"/&gt; time</rdg>
+			<rdg wit="fThomas">&lt;p sID="novel1_letter4_chapter13_div4_div14_p1"/&gt; “S&lt;hi
+				sID="novel1_letter4_chapter13_div4_div14_p1_hi1"/&gt;OME&lt;hi
+				eID="novel1_letter4_chapter13_div4_div14_p1_hi1"/&gt; time</rdg>
+			<rdg wit="f1831">&lt;p sID="novel1_letter4_chapter14_div4_div14_p1"/&gt; “S&lt;hi
 				sID="novel1_letter4_chapter14_div4_div14_p1_hi1"/&gt;OME&lt;hi
-				eID="novel1_letter4_chapter14_div4_div14_p1_hi1"/&gt; time&lt;/longToken&gt;</rdg>
+				eID="novel1_letter4_chapter14_div4_div14_p1_hi1"/&gt; time</rdg>
 		</rdgGrp>
 	</app>
 	<app>
@@ -68,7 +72,7 @@
 			<rdg wit="f1831">learned</rdg>
 		</rdgGrp>
 		<rdgGrp
-			n="['&lt;del&gt;became informed&lt;/del&gt;', '', '&lt;del&gt; of th &lt;/del&gt;', '', '&lt;mdel&gt;of&lt;/mdel&gt;', '', '', 'learned']">
+			n="['&lt;delstart/&gt;became informed&lt;delend/&gt;', '', '&lt;delstart/&gt; of th &lt;delend/&gt;', '', '&lt;mdel&gt;of&lt;/mdel&gt;', '', '', 'learned']">
 			<rdg wit="fMS">&lt;del next="#c57-0031.02" rend="strikethrough"
 				xml:id="c57-0031__main__d4e4832"&gt;became informed&lt;/del&gt; &lt;lb
 				n="c57-0031__main__3"/&gt;&lt;anchor xml:id="c57-0031.03"/&gt;&lt;lb
@@ -102,7 +106,7 @@
 			<rdg wit="f1831">which could not fail to impress itself deeply</rdg>
 		</rdgGrp>
 		<rdgGrp
-			n="['&lt;del&gt;that&lt;/del&gt;', '', 'which', 'could', 'not', 'fail', 'to', 'impress', 'itself', 'deeply']">
+			n="['&lt;delstart/&gt;that&lt;delend/&gt;', '', 'which', 'could', 'not', 'fail', 'to', 'impress', 'itself', 'deeply']">
 			<rdg wit="fMS">&lt;del rend="strikethrough"
 				xml:id="c57-0031__main__d4e4864"&gt;that&lt;/del&gt; &lt;lb
 				n="c57-0031__main__4"/&gt;&lt;anchor xml:id="c57-0031.05"/&gt;&lt;lb
@@ -179,7 +183,7 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['inter', '&lt;del&gt;r&lt;/del&gt;', 'esting', 'and wonderful']">
+		<rdgGrp n="['inter', '&lt;delstart/&gt;r&lt;delend/&gt;', 'esting', 'andwonderful']">
 			<rdg wit="fMS">inter &lt;del rend="strikethrough"
 				xml:id="c57-0031__main__d4e4894"&gt;r&lt;/del&gt; esting &amp;&lt;w
 				ana="start"/&gt;wonder&lt;lb n="c57-0031__main__7"/&gt;ful&lt;w ana="end"/&gt;</rdg>
@@ -202,7 +206,7 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['&lt;del&gt; &lt;unclear&gt;2&lt;/unclear&gt; &lt;/del&gt;']">
+		<rdgGrp n="['&lt;delstart/&gt;', '&lt;unclear&gt;2&lt;/unclear&gt;', '&lt;delend/&gt;']">
 			<rdg wit="fMS">&lt;del rend="vertical_line" xml:id="c57-0031__main__d4e4906"&gt;
 				&lt;unclear&gt;2&lt;/unclear&gt; &lt;/del&gt;</rdg>
 		</rdgGrp>
@@ -265,11 +269,11 @@
 	</app>
 	<app>
 		<rdgGrp
-			n="['france', '&lt;del&gt;and', 'untill', 'very', 'lately', 'had', 'lived', '&lt;/del&gt;', 'where for many years  he had lived']">
+			n="['france', 'and', 'untill', 'very', 'lately', 'had', 'lived', '', 'where for many years he had lived']">
 			<rdg wit="fMS">France &lt;delSpan rend="strikethrough"
 				spanTo="#c57-0031.06"/&gt;&amp;&lt;lb n="c57-0031__main__11"/&gt; untill very lately
-				had lived &lt;delSpan anchor="c57-0031.06"/&gt; &lt;longToken&gt;where for many
-				years &lt;lb n="c57-0031__main__12"/&gt;he had lived&lt;/longToken&gt;</rdg>
+				had lived &lt;anchor xml:id="c57-0031.06"/&gt; &lt;longToken&gt;where for many years
+				&lt;lb n="c57-0031__main__12"/&gt;he had lived&lt;/longToken&gt;</rdg>
 		</rdgGrp>
 		<rdgGrp n="['france,', 'where he had lived for many years']">
 			<rdg wit="f1818">France, &lt;longToken&gt;where he had lived for many
@@ -338,12 +342,11 @@
 			<rdg wit="fThomas">His son was bred</rdg>
 			<rdg wit="f1831">His son was bred</rdg>
 		</rdgGrp>
-		<rdgGrp
-			n="['&lt;del&gt;his', 'two', 'children', 'felix', 'and agatha &lt;/del&gt;', 'his', 'son', 'was', 'bred']">
+		<rdgGrp n="['his', 'two', 'children', 'felix', 'andagatha', 'his', 'son', 'was', 'bred']">
 			<rdg wit="fMS">&lt;delSpan rend="strikethrough" spanTo="#c57-0031.07"/&gt;His two
 				children Felix &amp;&lt;w ana="start"/&gt;Aga&lt;lb
-				n="c57-0031__main__14"/&gt;tha&lt;w ana="end"/&gt;&lt;delSpan
-				anchor="c57-0031.07"/&gt; His son was bred</rdg>
+				n="c57-0031__main__14"/&gt;tha&lt;w ana="end"/&gt;&lt;anchor
+				xml:id="c57-0031.07"/&gt; His son was bred</rdg>
 		</rdgGrp>
 	</app>
 
@@ -389,7 +392,7 @@
 			<rdg wit="fThomas">ranked</rdg>
 			<rdg wit="f1831">ranked</rdg>
 		</rdgGrp>
-		<rdgGrp n="['', '&lt;del&gt;been&lt;/del&gt;', 'ranked']">
+		<rdgGrp n="['', '&lt;delstart/&gt;been&lt;delend/&gt;', 'ranked']">
 			<rdg wit="fMS">&lt;mod sID="c57-0031__main__d4e4949"/&gt; &lt;del rend="strikethrough"
 				xml:id="c57-0031__main__d4e4951"&gt;been&lt;/del&gt; &lt;sga-add place="superlinear"
 				sID="c57-0031__main__d4e4954"/&gt;ranked</rdg>
@@ -404,7 +407,7 @@
 			<rdg wit="f1831">with ladies</rdg>
 		</rdgGrp>
 		<rdgGrp
-			n="['', '&lt;del&gt;woed&lt;/del&gt;', '&lt;del&gt;by gentlemen&lt;/del&gt;', 'with', 'ladies']">
+			n="['', '&lt;delstart/&gt;woed&lt;delend/&gt;', '&lt;delstart/&gt;by gentlemen&lt;delend/&gt;', 'with', 'ladies']">
 			<rdg wit="fMS">&lt;sga-add eID="c57-0031__main__d4e4954"/&gt; &lt;del
 				rend="strikethrough" xml:id="c57-0031__main__d4e4957"&gt;woed&lt;/del&gt; &lt;del
 				rend="strikethrough" xml:id="c57-0031__main__d4e4960"&gt;by gentlemen&lt;/del&gt;
@@ -431,7 +434,7 @@
 			<rdg wit="fThomas">before</rdg>
 			<rdg wit="f1831">before</rdg>
 		</rdgGrp>
-		<rdgGrp n="['&lt;del&gt;previous&lt;/del&gt;', 'before']">
+		<rdgGrp n="['&lt;delstart/&gt;previous&lt;delend/&gt;', 'before']">
 			<rdg wit="fMS">&lt;del next="#c57-0031.09" rend="strikethrough"
 				xml:id="c57-0031__main__d4e4970"&gt;previous&lt;/del&gt; &lt;sga-add hand="#pbs"
 				place="superlinear" sID="c57-0031__main__d4e4973"/&gt;before</rdg>
@@ -445,7 +448,7 @@
 			<rdg wit="fThomas">my</rdg>
 			<rdg wit="f1831">my</rdg>
 		</rdgGrp>
-		<rdgGrp n="['', '&lt;del&gt;to&lt;/del&gt;', '', 'my']">
+		<rdgGrp n="['', '&lt;delstart/&gt;to&lt;delend/&gt;', '', 'my']">
 			<rdg wit="fMS">&lt;sga-add eID="c57-0031__main__d4e4973"/&gt;&lt;lb
 				n="c57-0031__main__17"/&gt; &lt;del rend="strikethrough"
 				xml:id="c57-0031__main__d4e4978"&gt;to&lt;/del&gt; &lt;anchor
@@ -465,24 +468,24 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['they', 'had', 'lived', 'in', 'a', 'large']">
-			<rdg wit="f1818">they had lived in a large</rdg>
-			<rdg wit="f1823">they had lived in a large</rdg>
-			<rdg wit="fThomas">they had lived in a large</rdg>
-			<rdg wit="f1831">they had lived in a large</rdg>
-			<rdg wit="fMS">they had lived in a large</rdg>
+		<rdgGrp n="['they', 'had', 'lived', 'in', 'a', 'large', 'and', 'luxurious']">
+			<rdg wit="f1818">they had lived in a large and luxurious</rdg>
+			<rdg wit="f1823">they had lived in a large and luxurious</rdg>
+			<rdg wit="fThomas">they had lived in a large and luxurious</rdg>
+			<rdg wit="f1831">they had lived in a large and luxurious</rdg>
+			<rdg wit="fMS">they had lived in a large &amp;&lt;w ana="start"/&gt; lux&lt;lb
+				n="c57-0031__main__18"/&gt;urious&lt;w ana="end"/&gt;</rdg>
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['and', 'luxurious', 'city,']">
-			<rdg wit="f1818">and luxurious city,</rdg>
-			<rdg wit="f1823">and luxurious city,</rdg>
-			<rdg wit="fThomas">and luxurious city,</rdg>
-			<rdg wit="f1831">and luxurious city,</rdg>
+		<rdgGrp n="['city']">
+			<rdg wit="fMS">city</rdg>
 		</rdgGrp>
-		<rdgGrp n="['and&lt;w ana=&#34;start&#34;/&gt;', 'lux urious', 'city']">
-			<rdg wit="fMS">&amp;&lt;w ana="start"/&gt; lux&lt;lb
-				n="c57-0031__main__18"/&gt;urious&lt;w ana="end"/&gt; city</rdg>
+		<rdgGrp n="['city,']">
+			<rdg wit="f1818">city,</rdg>
+			<rdg wit="f1823">city,</rdg>
+			<rdg wit="fThomas">city,</rdg>
+			<rdg wit="f1831">city,</rdg>
 		</rdgGrp>
 	</app>
 	<app>
@@ -522,7 +525,7 @@
 			<rdg wit="fThomas">which</rdg>
 			<rdg wit="f1831">which</rdg>
 		</rdgGrp>
-		<rdgGrp n="['that', '', '&lt;del&gt;that&lt;/del&gt;', 'which']">
+		<rdgGrp n="['that', '', '&lt;delstart/&gt;that&lt;delend/&gt;', 'which']">
 			<rdg wit="fMS">that &lt;mod sID="c57-0031__main__d4e4992"/&gt; &lt;del
 				rend="strikethrough" xml:id="c57-0031__main__d4e4994"&gt;that&lt;/del&gt;
 				&lt;sga-add hand="#pbs" place="superlinear"
@@ -650,7 +653,7 @@
 			<rdg wit="fThomas">had been</rdg>
 			<rdg wit="f1831">had been</rdg>
 		</rdgGrp>
-		<rdgGrp n="['', '&lt;del&gt;was&lt;/del&gt;', 'had', 'been']">
+		<rdgGrp n="['', '&lt;delstart/&gt;was&lt;delend/&gt;', 'had', 'been']">
 			<rdg wit="fMS">&lt;mod sID="c57-0031__main__d4e5027"/&gt; &lt;del rend="strikethrough"
 				xml:id="c57-0031__main__d4e5029"&gt;was&lt;/del&gt; &lt;sga-add place="superlinear"
 				sID="c57-0031__main__d4e5032"/&gt;had been</rdg>
@@ -669,7 +672,7 @@
 	</app>
 
 	<app>
-		<rdgGrp n="['', '&lt;del&gt;fall&lt;/del&gt;', 'ruin;', '']">
+		<rdgGrp n="['', '&lt;delstart/&gt;fall&lt;delend/&gt;', 'ruin;', '']">
 			<rdg wit="fMS">&lt;lb n="c57-0031__main__23"/&gt;&lt;mod
 				sID="c57-0031__main__d4e5038"/&gt; &lt;del rend="strikethrough"
 				xml:id="c57-0031__main__d4e5040"&gt;fall&lt;/del&gt; &lt;sga-add hand="#pbs"
@@ -734,7 +737,7 @@
 			<rdg wit="fThomas">inhabited Paris for many</rdg>
 			<rdg wit="f1831">inhabited Paris for many</rdg>
 		</rdgGrp>
-		<rdgGrp n="['', '&lt;del&gt;li&lt;/del&gt;', 'inhabited', 'paris', 'for', 'many']">
+		<rdgGrp n="['', '&lt;delstart/&gt;li&lt;delend/&gt;', 'inhabited', 'paris', 'for', 'many']">
 			<rdg wit="fMS">&lt;lb n="c57-0031__main__24"/&gt; &lt;del instant="true"
 				rend="strikethrough" xml:id="c57-0031__main__d4e5057"&gt;li&lt;/del&gt; inhabited
 				Paris for many</rdg>
@@ -749,7 +752,7 @@
 			<rdg wit="f1831">years, when,</rdg>
 		</rdgGrp>
 		<rdgGrp
-			n="['years.', 'when', 'his', 'person', 'became', '', '&lt;del&gt;for some&lt;/del&gt;', '', '']">
+			n="['years.', 'when', 'his', 'person', 'became', '', '&lt;delstart/&gt;for some&lt;delend/&gt;', '', '']">
 			<rdg wit="fMS">years. When his person &lt;lb n="c57-0031__main__25"/&gt;became &lt;mod
 				sID="c57-0031__main__d4e5063"/&gt; &lt;del rend="strikethrough"
 				xml:id="c57-0031__main__d4e5065"&gt;for some&lt;/del&gt; &lt;sga-add
@@ -790,15 +793,15 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['government –']">
-			<rdg wit="fMS">&lt;w ana="start"/&gt;govern&lt;lb n="c57-0031__main__26"/&gt;ment&lt;w
-				ana="end"/&gt;–</rdg>
-		</rdgGrp>
 		<rdgGrp n="['government.']">
 			<rdg wit="f1818">government.</rdg>
 			<rdg wit="f1823">government.</rdg>
 			<rdg wit="fThomas">government.</rdg>
 			<rdg wit="f1831">government.</rdg>
+		</rdgGrp>
+		<rdgGrp n="['government–']">
+			<rdg wit="fMS">&lt;w ana="start"/&gt;govern&lt;lb n="c57-0031__main__26"/&gt;ment&lt;w
+				ana="end"/&gt;–</rdg>
 		</rdgGrp>
 	</app>
 	<app>
@@ -880,7 +883,7 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['relig', '&lt;del&gt;i&lt;/del&gt;', 'ion']">
+		<rdgGrp n="['relig', '&lt;delstart/&gt;i&lt;delend/&gt;', 'ion']">
 			<rdg wit="fMS">relig &lt;del rend="strikethrough"
 				xml:id="c57-0031__main__d4e5100"&gt;i&lt;/del&gt; ion</rdg>
 		</rdgGrp>
@@ -902,7 +905,7 @@
 	</app>
 	<app>
 		<rdgGrp
-			n="['wealth', '', '&lt;del&gt;had been the causes of his condemnation rather&lt;/del&gt;', '', '&lt;del&gt;than&lt;/del&gt;']">
+			n="['wealth', '', '&lt;delstart/&gt;had been the causes of his condemnation rather&lt;delend/&gt;', '', '&lt;delstart/&gt;than&lt;delend/&gt;']">
 			<rdg wit="fMS">wealth &lt;lb n="c57-0031__main__32"/&gt; &lt;del rend="strikethrough"
 				xml:id="c57-0031__main__d4e5105"&gt;had been the causes of his condemnation
 				rather&lt;/del&gt; &lt;lb n="c57-0032__main__1"/&gt;&lt;mod
@@ -961,60 +964,82 @@
 		</rdgGrp>
 	</app>
 	<app>
+		<rdgGrp n="['him']">
+			<rdg wit="fMS">him</rdg>
+		</rdgGrp>
+		<rdgGrp n="['him,']">
+			<rdg wit="f1818">him,</rdg>
+			<rdg wit="f1823">him,</rdg>
+			<rdg wit="fThomas">him,</rdg>
+			<rdg wit="f1831">him,</rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['had', 'been', 'the', 'cause', 'of', 'his']">
+			<rdg wit="f1818">had been the cause of his</rdg>
+			<rdg wit="f1823">had been the cause of his</rdg>
+			<rdg wit="fThomas">had been the cause of his</rdg>
+			<rdg wit="f1831">had been the cause of his</rdg>
+			<rdg wit="fMS">&lt;lb n="c57-0032__main__2"/&gt;&lt;anchor
+				xml:id="c57-0032.02"/&gt;&lt;lb n="c57-0032__left_margin__1"/&gt;had been the &lt;lb
+				n="c57-0032__left_margin__2"/&gt;cause of his</rdg>
+		</rdgGrp>
+	</app>
+	<app>
 		<rdgGrp
-			n="['him   &lt;zone corresp=&#34;#c57-0032.02&#34; type=&#34;left_margin&#34; sid=&#34;c57-0032__left_margin&#34;/&gt;   had been the  cause of his   condemnation', '&lt;zone eid=&#34;c57-0032__left_margin&#34;/&gt;felix was present at his trial;', '&lt;del&gt;and&lt;/del&gt;']">
-			<rdg wit="fMS">&lt;longToken&gt;him&lt;lb n="c57-0032__main__2"/&gt; &lt;anchor
-				xml:id="c57-0032.02"/&gt; &lt;zone corresp="#c57-0032.02" type="left_margin"
-				sID="c57-0032__left_margin"/&gt; &lt;addSpan hand="#pbs" spanTo="#c57-0032.03"/&gt;
-				&lt;lb n="c57-0032__left_margin__1"/&gt;had been the &lt;lb
-				n="c57-0032__left_margin__2"/&gt;cause of his &lt;lb
-				n="c57-0032__left_margin__3"/&gt;condemnation&lt;anchor xml:id="c57-0032.03"/&gt;
-				&lt;zone eID="c57-0032__left_margin"/&gt;Felix was present at his
-				trial;&lt;/longToken&gt; &lt;del rend="strikethrough"
-				xml:id="c57-0032__main__d4e5155"&gt;&amp;&lt;/del&gt;</rdg>
+			n="['condemnation', '', 'felix was present at his trial; &lt;delstart/&gt;and&lt;delend/&gt;']">
+			<rdg wit="fMS">&lt;lb n="c57-0032__left_margin__3"/&gt;condemnation &lt;anchor
+				xml:id="c57-0032.03"/&gt; &lt;longToken&gt;Felix was present at his trial; &lt;del
+				rend="strikethrough"
+				xml:id="c57-0032__main__d4e5155"&gt;&amp;&lt;/del&gt;&lt;/longToken&gt;</rdg>
+		</rdgGrp>
+		<rdgGrp n="['condemnation.']">
+			<rdg wit="f1818">condemnation.</rdg>
+			<rdg wit="f1823">condemnation.</rdg>
+			<rdg wit="fThomas">condemnation.</rdg>
+			<rdg wit="f1831">condemnation.</rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp
+			n="['&lt;p-end/&gt;', '&lt;p-start/&gt;&#34;felix had accidentally been present at the trial;']">
+			<rdg wit="f1823">&lt;p eID="novel1_letter4_chapter13_div4_div14_p3"/&gt;
+				&lt;longToken&gt;&lt;p sID="novel1_letter4_chapter13_div4_div14_p4"/&gt;“Felix had
+				accidentally been present at the trial;&lt;/longToken&gt;</rdg>
 		</rdgGrp>
 		<rdgGrp
-			n="['him, had been the cause of his condemnation. &lt;p-end/&gt;&lt;p-start/&gt;&#34;felix had been present at the trial;']">
-			<rdg wit="f1818">&lt;longToken&gt;him, had been the cause of his condemnation. &lt;p
-				eID="novel1_letter4_chapter13_div4_div14_p3"/&gt;&lt;p
-				sID="novel1_letter4_chapter13_div4_div14_p4"/&gt;“Felix had been present at the
-				trial;&lt;/longToken&gt;</rdg>
-			<rdg wit="fThomas">&lt;longToken&gt;him, had been the cause of his condemnation. &lt;p
-				eID="novel1_letter4_chapter13_div4_div14_p3"/&gt;&lt;p
-				sID="novel1_letter4_chapter13_div4_div14_p4"/&gt;“Felix had been present at the
-				trial;&lt;/longToken&gt;</rdg>
-		</rdgGrp>
-		<rdgGrp
-			n="['him, had been the cause of his condemnation.&lt;p-end/&gt; &lt;p-start/&gt;&#34;felix had accidentally been present at the trial;']">
-			<rdg wit="f1823">&lt;longToken&gt;him, had been the cause of his condemnation.&lt;p
-				eID="novel1_letter4_chapter13_div4_div14_p3"/&gt; &lt;p
-				sID="novel1_letter4_chapter13_div4_div14_p4"/&gt;“Felix had accidentally been
-				present at the trial;&lt;/longToken&gt;</rdg>
-		</rdgGrp>
-		<rdgGrp
-			n="['him, had been the cause of his condemnation.&lt;p-end/&gt;&lt;p-start/&gt;&#34;felix had accidentally been present at the trial;']">
-			<rdg wit="f1831">&lt;longToken&gt;him, had been the cause of his condemnation.&lt;p
+			n="['&lt;p-end/&gt;&lt;p-start/&gt;&#34;felix had accidentally been present at the trial;']">
+			<rdg wit="f1831">&lt;longToken&gt;&lt;p
 				eID="novel1_letter4_chapter14_div4_div14_p3"/&gt;&lt;p
 				sID="novel1_letter4_chapter14_div4_div14_p4"/&gt;“Felix had accidentally been
 				present at the trial;&lt;/longToken&gt;</rdg>
 		</rdgGrp>
-	</app>
-	<app>
-		<rdgGrp n="['his', 'horror', 'and']">
-			<rdg wit="f1818">his horror and</rdg>
-			<rdg wit="f1823">his horror and</rdg>
-			<rdg wit="fThomas">his horror and</rdg>
-			<rdg wit="f1831">his horror and</rdg>
-			<rdg wit="fMS">his &lt;sga-add place="superlinear"
-				sID="c57-0032__main__d4e5158"/&gt;horror &amp;&lt;sga-add
-				eID="c57-0032__main__d4e5158"/&gt;</rdg>
+		<rdgGrp n="['&lt;p-end/&gt;&lt;p-start/&gt;&#34;felix had been present at the trial;']">
+			<rdg wit="f1818">&lt;longToken&gt;&lt;p
+				eID="novel1_letter4_chapter13_div4_div14_p3"/&gt;&lt;p
+				sID="novel1_letter4_chapter13_div4_div14_p4"/&gt;“Felix had been present at the
+				trial;&lt;/longToken&gt;</rdg>
+			<rdg wit="fThomas">&lt;longToken&gt;&lt;p
+				eID="novel1_letter4_chapter13_div4_div14_p3"/&gt;&lt;p
+				sID="novel1_letter4_chapter13_div4_div14_p4"/&gt;“Felix had been present at the
+				trial;&lt;/longToken&gt;</rdg>
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp
-			n="['in dignation', '', '', 'w', '&lt;mdel&gt;as&lt;/mdel&gt;', 'ere', '', 'uncontrolable']">
-			<rdg wit="fMS">in&lt;lb n="c57-0032__main__3"/&gt;dignation &lt;mod
-				sID="c57-0032__main__d4e5163"/&gt;&lt;sga-add place="sublinear"
+		<rdgGrp n="['his', 'horror', 'and', 'indignation']">
+			<rdg wit="f1818">his horror and indignation</rdg>
+			<rdg wit="f1823">his horror and indignation</rdg>
+			<rdg wit="fThomas">his horror and indignation</rdg>
+			<rdg wit="f1831">his horror and indignation</rdg>
+			<rdg wit="fMS">his &lt;sga-add place="superlinear"
+				sID="c57-0032__main__d4e5158"/&gt;horror &amp;&lt;sga-add
+				eID="c57-0032__main__d4e5158"/&gt; in&lt;lb
+				n="c57-0032__main__3"/&gt;dignation</rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['', '', 'w', '&lt;mdel&gt;as&lt;/mdel&gt;', 'ere', '', 'uncontrolable']">
+			<rdg wit="fMS">&lt;mod sID="c57-0032__main__d4e5163"/&gt;&lt;sga-add place="sublinear"
 				sID="c57-0032__main__d4e5165"/&gt; &lt;metamark
 				function="insert"&gt;^&lt;/metamark&gt; &lt;sga-add
 				eID="c57-0032__main__d4e5165"/&gt;&lt;sga-add place="superlinear"
@@ -1026,11 +1051,11 @@
 				eID="c57-0032__main__d4e5171"/&gt;&lt;mod eID="c57-0032__main__d4e5163"/&gt;
 				uncontrolable</rdg>
 		</rdgGrp>
-		<rdgGrp n="['indignation', 'were', 'uncontrollable,']">
-			<rdg wit="f1818">indignation were uncontrollable,</rdg>
-			<rdg wit="f1823">indignation were uncontrollable,</rdg>
-			<rdg wit="fThomas">indignation were uncontrollable,</rdg>
-			<rdg wit="f1831">indignation were uncontrollable,</rdg>
+		<rdgGrp n="['were', 'uncontrollable,']">
+			<rdg wit="f1818">were uncontrollable,</rdg>
+			<rdg wit="f1823">were uncontrollable,</rdg>
+			<rdg wit="fThomas">were uncontrollable,</rdg>
+			<rdg wit="f1831">were uncontrollable,</rdg>
 		</rdgGrp>
 	</app>
 	<app>
@@ -1050,7 +1075,7 @@
 			<rdg wit="f1831">decision of the court.</rdg>
 		</rdgGrp>
 		<rdgGrp
-			n="['', '&lt;del&gt;event.&lt;/del&gt;', '', '&lt;mdel&gt;of&lt;/mdel&gt;', 'decision', 'of', 'the', 'court.']">
+			n="['', '&lt;delstart/&gt;event.&lt;delend/&gt;', '', '&lt;mdel&gt;of&lt;/mdel&gt;', 'decision', 'of', 'the', 'court.']">
 			<rdg wit="fMS">&lt;lb n="c57-0032__main__4"/&gt;&lt;mod
 				sID="c57-0032__main__d4e5185"/&gt; &lt;del rend="strikethrough"
 				xml:id="c57-0032__main__d4e5187"&gt;event.&lt;/del&gt; &lt;sga-add hand="#pbs"
@@ -1138,10 +1163,10 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['&lt;del&gt; prison &lt;/del&gt;', '&lt;del&gt;goal&lt;/del&gt;', 'prison', '']">
+		<rdgGrp n="['prison', '&lt;delstart/&gt;goal&lt;delend/&gt;', 'prison', '']">
 			<rdg wit="fMS">&lt;delSpan rend="strikethrough" spanTo="#c57-0032.04"/&gt;&lt;w
 				ana="start"/&gt;pri&lt;lb n="c57-0032__main__8"/&gt;son&lt;w
-				ana="end"/&gt;&lt;delSpan anchor="c57-0032.04"/&gt;&lt;mod
+				ana="end"/&gt;&lt;anchor xml:id="c57-0032.04"/&gt;&lt;mod
 				sID="c57-0032__main__d4e5214"/&gt; &lt;del rend="strikethrough"
 				xml:id="c57-0032__main__d4e5216"&gt;goal&lt;/del&gt; &lt;sga-add hand="#pbs"
 				place="superlinear" sID="c57-0032__main__d4e5219"/&gt;prison &lt;sga-add
@@ -1197,7 +1222,7 @@
 			<rdg wit="fThomas">building, which</rdg>
 			<rdg wit="f1831">building, which</rdg>
 		</rdgGrp>
-		<rdgGrp n="['', '&lt;del&gt;prison&lt;/del&gt;', 'building,', 'which']">
+		<rdgGrp n="['', '&lt;delstart/&gt;prison&lt;delend/&gt;', 'building,', 'which']">
 			<rdg wit="fMS">&lt;mod sID="c57-0032__main__d4e5237"/&gt; &lt;del rend="strikethrough"
 				xml:id="c57-0032__main__d4e5239"&gt;prison&lt;/del&gt; &lt;sga-add hand="#pbs"
 				place="superlinear" sID="c57-0032__main__d4e5242"/&gt;building, &lt;sga-add
@@ -1214,7 +1239,7 @@
 			<rdg wit="f1831">lighted the dungeon of the unfortunate</rdg>
 		</rdgGrp>
 		<rdgGrp
-			n="['&lt;del&gt;li&lt;/del&gt;', '&lt;del&gt;illuminated&lt;/del&gt;', 'lighted', 'the', 'dungeon', 'of', 'the', 'unfortunate']">
+			n="['&lt;delstart/&gt;li&lt;delend/&gt;', '&lt;delstart/&gt;illuminated&lt;delend/&gt;', 'lighted', 'the', 'dungeon', 'of', 'the', 'unfortunate']">
 			<rdg wit="fMS">&lt;del instant="true" rend="strikethrough"
 				xml:id="c57-0032__main__d4e5249"&gt;li&lt;/del&gt; &lt;del instant="true"
 				rend="strikethrough" xml:id="c57-0032__main__d4e5252"&gt;illuminated&lt;/del&gt;
@@ -1254,38 +1279,23 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['waited', 'in', 'despair', 'the', 'execution', 'of', 'the', 'barbarous']">
-			<rdg wit="f1818">waited in despair the execution of the barbarous</rdg>
-			<rdg wit="f1823">waited in despair the execution of the barbarous</rdg>
-			<rdg wit="fThomas">waited in despair the execution of the barbarous</rdg>
-			<rdg wit="f1831">waited in despair the execution of the barbarous</rdg>
+		<rdgGrp
+			n="['waited', 'in', 'despair', 'the', 'execution', 'of', 'the', 'barbarous', 'sentence.', 'felix', 'visited', 'the', 'grate', 'at']">
+			<rdg wit="f1818">waited in despair the execution of the barbarous sentence. Felix
+				visited the grate at</rdg>
+			<rdg wit="f1823">waited in despair the execution of the barbarous sentence. Felix
+				visited the grate at</rdg>
+			<rdg wit="fThomas">waited in despair the execution of the barbarous sentence. Felix
+				visited the grate at</rdg>
+			<rdg wit="f1831">waited in despair the execution of the barbarous sentence. Felix
+				visited the grate at</rdg>
 			<rdg wit="fMS">waited in despair &lt;lb n="c57-0032__main__13"/&gt;the execution of the
-				barbarous</rdg>
+				barbarous &lt;w ana="start"/&gt;sen&lt;lb n="c57-0032__main__14"/&gt;tence&lt;w
+				ana="end"/&gt;. Felix visited the grate at</rdg>
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['sentence .']">
-			<rdg wit="fMS">&lt;w ana="start"/&gt;sen&lt;lb n="c57-0032__main__14"/&gt;tence&lt;w
-				ana="end"/&gt;.</rdg>
-		</rdgGrp>
-		<rdgGrp n="['sentence.']">
-			<rdg wit="f1818">sentence.</rdg>
-			<rdg wit="f1823">sentence.</rdg>
-			<rdg wit="fThomas">sentence.</rdg>
-			<rdg wit="f1831">sentence.</rdg>
-		</rdgGrp>
-	</app>
-	<app>
-		<rdgGrp n="['felix', 'visited', 'the', 'grate', 'at']">
-			<rdg wit="f1818">Felix visited the grate at</rdg>
-			<rdg wit="f1823">Felix visited the grate at</rdg>
-			<rdg wit="fThomas">Felix visited the grate at</rdg>
-			<rdg wit="f1831">Felix visited the grate at</rdg>
-			<rdg wit="fMS">Felix visited the grate at</rdg>
-		</rdgGrp>
-	</app>
-	<app>
-		<rdgGrp n="['night', '', '&lt;del&gt;h&lt;/del&gt;']">
+		<rdgGrp n="['night', '', '&lt;delstart/&gt;h&lt;delend/&gt;']">
 			<rdg wit="fMS">night &lt;lb n="c57-0032__main__15"/&gt; &lt;del rend="strikethrough"
 				xml:id="c57-0032__main__d4e5270"&gt;h&lt;/del&gt;</rdg>
 		</rdgGrp>
@@ -1364,7 +1374,8 @@
 			<rdg wit="fThomas">kindle the zeal of his</rdg>
 			<rdg wit="f1831">kindle the zeal of his</rdg>
 		</rdgGrp>
-		<rdgGrp n="['', '&lt;del&gt;warm&lt;/del&gt;', 'kindle', 'the', 'zeal', 'of', 'his']">
+		<rdgGrp
+			n="['', '&lt;delstart/&gt;warm&lt;delend/&gt;', 'kindle', 'the', 'zeal', 'of', 'his']">
 			<rdg wit="fMS">&lt;mod sID="c57-0032__main__d4e5281"/&gt; &lt;del rend="strikethrough"
 				xml:id="c57-0032__main__d4e5283"&gt;warm&lt;/del&gt; &lt;anchor
 				xml:id="c57-0032.05"/&gt;&lt;lb n="c57-0032__left_margin__1"/&gt;&lt;sga-add
@@ -1388,7 +1399,7 @@
 				with</rdg>
 		</rdgGrp>
 		<rdgGrp
-			n="['&lt;del&gt;promised&lt;/del&gt;', 'deliverer', 'by', 'promises', 'of', 'reward', 'and', 'wealth.', 'felix', 'rejected', 'his', 'offers', 'with']">
+			n="['&lt;delstart/&gt;promised&lt;delend/&gt;', 'deliverer', 'by', 'promises', 'of', 'reward', 'and', 'wealth.', 'felix', 'rejected', 'his', 'offers', 'with']">
 			<rdg wit="fMS">&lt;del rend="strikethrough"
 				xml:id="c57-0032__main__d4e5299"&gt;promised&lt;/del&gt; deliverer by &lt;lb
 				n="c57-0032__main__19"/&gt;promises of reward &amp; wealth. Felix rejected &lt;lb
@@ -1480,7 +1491,7 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['&lt;del&gt;expressive&lt;/del&gt;', 'gestures']">
+		<rdgGrp n="['&lt;delstart/&gt;expressive&lt;delend/&gt;', 'gestures']">
 			<rdg wit="fMS">&lt;del rend="strikethrough"
 				xml:id="c57-0032__main__d4e5311"&gt;expressive&lt;/del&gt; &lt;lb
 				n="c57-0032__main__23"/&gt;gestures</rdg>
@@ -1545,7 +1556,7 @@
 				sID="novel1_letter4_chapter14_div4_div14_p5"/&gt;</rdg>
 		</rdgGrp>
 		<rdgGrp
-			n="['', '', '', '&lt;del&gt; altho it had not en  &lt;/del&gt;', '', 'would', 'fully', 'reward', 'his', 'toil', 'and', 'hazard.', '&lt;p-end/&gt;', '&lt;p-start/&gt;']">
+			n="['', '', '', '&lt;delstart/&gt;', 'altho it had not', 'en ', '&lt;delend/&gt;', '', 'would', 'fully', 'reward', 'his', 'toil', 'and', 'hazard.', '&lt;p-end/&gt;', '&lt;p-start/&gt;']">
 			<rdg wit="fMS">&lt;mod sID="c57-0032__main__d4e5323"/&gt;&lt;sga-add place="sublinear"
 				sID="c57-0032__main__d4e5325"/&gt; &lt;metamark
 				function="insert"&gt;^&lt;/metamark&gt; &lt;sga-add
@@ -1572,189 +1583,50 @@
 	</app>
 	<app>
 		<rdgGrp
-			n="['turk', 'quickly', 'perceived', 'the', 'impression', 'that', 'his', 'daughter', 'had', 'made', 'on']">
-			<rdg wit="f1818">Turk quickly perceived the impression that his daughter had made
-				on</rdg>
-			<rdg wit="f1823">Turk quickly perceived the impression that his daughter had made
-				on</rdg>
-			<rdg wit="fThomas">Turk quickly perceived the impression that his daughter had made
-				on</rdg>
-			<rdg wit="f1831">Turk quickly perceived the impression that his daughter had made
-				on</rdg>
+			n="['turk', 'quickly', 'perceived', 'the', 'impression', 'that', 'his', 'daughter', 'had']">
+			<rdg wit="f1818">Turk quickly perceived the impression that his daughter had</rdg>
+			<rdg wit="f1823">Turk quickly perceived the impression that his daughter had</rdg>
+			<rdg wit="fThomas">Turk quickly perceived the impression that his daughter had</rdg>
+			<rdg wit="f1831">Turk quickly perceived the impression that his daughter had</rdg>
 			<rdg wit="fMS">Turk quickly perceived the &lt;w ana="start"/&gt;im&lt;lb
-				n="c57-0032__main__29"/&gt;pression&lt;w ana="end"/&gt; that his daughter had made
-				on&lt;lb n="c57-0033__main__1"/&gt;</rdg>
+				n="c57-0032__main__29"/&gt;pression&lt;w ana="end"/&gt; that his daughter had</rdg>
 		</rdgGrp>
 	</app>
 	<app>
 		<rdgGrp
-			n="['heart of felix', '&lt;del&gt;and resolved to obtain&lt;/del&gt;', '&lt;del&gt;his', '', 'at any price the full zeal', '&lt;/del&gt;']">
-			<rdg wit="fMS">&lt;longToken&gt;heart of Felix&lt;/longToken&gt; &lt;del
-				rend="strikethrough" xml:id="c57-0033__main__d4e5361"&gt;and resolved to
-				obtain&lt;/del&gt; &lt;delSpan spanTo="#c57-0033.01"/&gt;his &lt;lb
-				n="c57-0033__main__2"/&gt; &lt;longToken&gt;at any price the full zeal
-				&lt;/longToken&gt; &lt;delSpan anchor="c57-0033.01"/&gt;</rdg>
-		</rdgGrp>
-		<rdgGrp n="['the heart of felix', ',']">
-			<rdg wit="f1818">&lt;longToken&gt;the heart of Felix&lt;/longToken&gt; ,</rdg>
-			<rdg wit="f1823">&lt;longToken&gt;the heart of Felix&lt;/longToken&gt; ,</rdg>
-			<rdg wit="fThomas">&lt;longToken&gt;the heart of Felix&lt;/longToken&gt; ,</rdg>
-			<rdg wit="f1831">&lt;longToken&gt;the heart of Felix&lt;/longToken&gt; ,</rdg>
-		</rdgGrp>
-	</app>
-	<app>
-		<rdgGrp n="['and']">
-			<rdg wit="f1818">and</rdg>
-			<rdg wit="f1823">and</rdg>
-			<rdg wit="fThomas">and</rdg>
-			<rdg wit="f1831">and</rdg>
-			<rdg wit="fMS">and</rdg>
+			n="['made', 'on', 'the heart of felix,', 'and', 'endeavoured', 'to', 'secure', 'him', 'more', 'entirely', 'in', 'his', 'interests', 'by', 'the', 'promise', 'of', 'her', 'hand', 'in', 'marriage,', 'so', 'soon', 'as', 'he', 'should', 'be', 'conveyed', 'to', 'a', 'place', 'of', 'safety.', 'felix', 'was', 'too', 'delicate', 'to', 'accept', 'this', 'offer;']">
+			<rdg wit="f1818">made on &lt;longToken&gt;the heart of Felix,&lt;/longToken&gt; and
+				endeavoured to secure him more entirely in his interests by the promise of her hand
+				in marriage, so soon as he should be conveyed to a place of safety. Felix was too
+				delicate to accept this offer;</rdg>
+			<rdg wit="f1823">made on &lt;longToken&gt;the heart of Felix,&lt;/longToken&gt; and
+				endeavoured to secure him more entirely in his interests by the promise of her hand
+				in marriage, so soon as he should be conveyed to a place of safety. Felix was too
+				delicate to accept this offer;</rdg>
+			<rdg wit="fThomas">made on &lt;longToken&gt;the heart of Felix,&lt;/longToken&gt; and
+				endeavoured to secure him more entirely in his interests by the promise of her hand
+				in marriage, so soon as he should be conveyed to a place of safety. Felix was too
+				delicate to accept this offer;</rdg>
+			<rdg wit="f1831">made on &lt;longToken&gt;the heart of Felix,&lt;/longToken&gt; and
+				endeavoured to secure him more entirely in his interests by the promise &lt;pb
+				xml:id="F1831_v_122" n="106"/&gt;of her hand in marriage, so soon as he should be
+				conveyed to a place of safety. Felix was too delicate to accept this offer;</rdg>
 		</rdgGrp>
 	</app>
 	<app>
 		<rdgGrp
-			n="['', '&lt;del&gt;re  &lt;mdel&gt; &lt;/mdel&gt; s   olved&lt;/del&gt;', 'endeavored']">
-			<rdg wit="fMS">&lt;mod sID="c57-0033__main__d4e5371"/&gt; &lt;del rend="strikethrough"
-				xml:id="c57-0033__main__d4e5373"&gt;re &lt;mod sID="c57-0033__main__d4e5375"/&gt;
-				&lt;mdel&gt; &lt;/mdel&gt; &lt;sga-add place="intralinear"
-				sID="c57-0033__main__d4e5382"/&gt;s &lt;sga-add eID="c57-0033__main__d4e5382"/&gt;
-				&lt;mod eID="c57-0033__main__d4e5375"/&gt; olved&lt;/del&gt; &lt;anchor
-				xml:id="c57-0033.02"/&gt;&lt;lb n="c57-0033__left_margin__1"/&gt;&lt;sga-add
-				sID="c57-0033__left_margin__d4e5393"/&gt;endeavored</rdg>
-		</rdgGrp>
-		<rdgGrp n="['endeavoured']">
-			<rdg wit="f1818">endeavoured</rdg>
-			<rdg wit="f1823">endeavoured</rdg>
-			<rdg wit="fThomas">endeavoured</rdg>
-			<rdg wit="f1831">endeavoured</rdg>
-		</rdgGrp>
-	</app>
-	<app>
-		<rdgGrp n="['to', 'secure']">
-			<rdg wit="f1818">to secure</rdg>
-			<rdg wit="f1823">to secure</rdg>
-			<rdg wit="fThomas">to secure</rdg>
-			<rdg wit="f1831">to secure</rdg>
-			<rdg wit="fMS">&lt;sga-add eID="c57-0033__left_margin__d4e5393"/&gt;&lt;mod
-				eID="c57-0033__main__d4e5371"/&gt;&lt;lb n="c57-0033__main__3"/&gt;to secure</rdg>
-		</rdgGrp>
-	</app>
-	<app>
-		<rdgGrp n="['him']">
-			<rdg wit="f1818">him</rdg>
-			<rdg wit="f1823">him</rdg>
-			<rdg wit="fThomas">him</rdg>
-			<rdg wit="f1831">him</rdg>
-		</rdgGrp>
-		<rdgGrp n="['&lt;del&gt;the&lt;/del&gt;', '&lt;del&gt;interrest&lt;/del&gt;', 'him']">
-			<rdg wit="fMS">&lt;del rend="strikethrough"
-				xml:id="c57-0033__main__d4e5399"&gt;the&lt;/del&gt; &lt;del rend="strikethrough"
-				xml:id="c57-0033__main__d4e5402"&gt;interrest&lt;/del&gt; him</rdg>
-		</rdgGrp>
-	</app>
-
-	<app>
-		<rdgGrp n="['more', 'entirely']">
-			<rdg wit="f1818">more entirely</rdg>
-			<rdg wit="f1823">more entirely</rdg>
-			<rdg wit="fThomas">more entirely</rdg>
-			<rdg wit="f1831">more entirely</rdg>
-		</rdgGrp>
-		<rdgGrp n="['', '&lt;del&gt;at any pr&lt;/del&gt;', '', '', 'more', 'entirely']">
-			<rdg wit="fMS">&lt;mod sID="c57-0033__main__d4e5405"/&gt; &lt;del rend="strikethrough"
-				xml:id="c57-0033__main__d4e5407"&gt;at any pr&lt;/del&gt; &lt;sga-add
-				place="sublinear" sID="c57-0033__main__d4e5410"/&gt; &lt;metamark
-				function="insert"&gt;^&lt;/metamark&gt; &lt;sga-add
-				eID="c57-0033__main__d4e5410"/&gt;&lt;sga-add place="superlinear"
-				sID="c57-0033__main__d4e5416"/&gt;more entirely&lt;sga-add
-				eID="c57-0033__main__d4e5416"/&gt;&lt;mod eID="c57-0033__main__d4e5405"/&gt;</rdg>
-		</rdgGrp>
-	</app>
-
-	<app>
-		<rdgGrp n="['in', 'his', 'interests']">
-			<rdg wit="f1818">in his interests</rdg>
-			<rdg wit="f1823">in his interests</rdg>
-			<rdg wit="fThomas">in his interests</rdg>
-			<rdg wit="f1831">in his interests</rdg>
-		</rdgGrp>
-	</app>
-	<app>
-		<rdgGrp n="['by', 'the', 'promise', 'of', 'her', 'hand', 'in']">
-			<rdg wit="f1818">by the promise of her hand in</rdg>
-			<rdg wit="f1823">by the promise of her hand in</rdg>
-			<rdg wit="fThomas">by the promise of her hand in</rdg>
-			<rdg wit="f1831">by the promise &lt;pb xml:id="F1831_v_122" n="106"/&gt;of her hand
-				in</rdg>
-			<rdg wit="fMS">by &lt;lb n="c57-0033__main__4"/&gt;the promise of her hand in</rdg>
-		</rdgGrp>
-	</app>
-	<app>
-		<rdgGrp
-			n="['marriage,', 'so', 'soon', 'as', 'he', 'should', 'be', 'conveyed', 'to', 'a', 'place', 'of', 'safety.']">
-			<rdg wit="f1818">marriage, so soon as he should be conveyed to a place of safety.</rdg>
-			<rdg wit="f1823">marriage, so soon as he should be conveyed to a place of safety.</rdg>
-			<rdg wit="fThomas">marriage, so soon as he should be conveyed to a place of
-				safety.</rdg>
-			<rdg wit="f1831">marriage, so soon as he should be conveyed to a place of safety.</rdg>
-		</rdgGrp>
-		<rdgGrp n="['marriage;']">
-			<rdg wit="fMS">marriage;</rdg>
-		</rdgGrp>
-	</app>
-	<app>
-		<rdgGrp n="['felix', 'was', 'too', 'delicate', 'to', 'accept']">
-			<rdg wit="f1818">Felix was too delicate to accept</rdg>
-			<rdg wit="f1823">Felix was too delicate to accept</rdg>
-			<rdg wit="fThomas">Felix was too delicate to accept</rdg>
-			<rdg wit="f1831">Felix was too delicate to accept</rdg>
-			<rdg wit="fMS">&lt;lb n="c57-0033__main__5"/&gt;Felix was too delicate to accept</rdg>
-		</rdgGrp>
-	</app>
-	<app>
-		<rdgGrp
-			n="['', '&lt;del&gt; offer  &lt;/del&gt; &lt;restore type=&#34;smear_strikethrough&#34;&gt;', '&lt;/restore&gt; offer   yet  he looked forward to the probability of  that event as the consummation of  his happiness.', '&lt;p-end/&gt;&lt;p-start/&gt;  the turk informed safie of his  intentions and', 'and rank', '', '&lt;del&gt;her father&lt;/del&gt;', 'the merchant   commander   &lt;del&gt;her&lt;/del&gt; his daughter']">
-			<rdg wit="fMS">&lt;mod sID="c57-0033__main__d4e5425"/&gt; &lt;longToken&gt;&lt;del
-				rend="strikethrough" xml:id="c57-0033__main__d4e5427"&gt; &lt;sga-add hand="#pbs"
-				place="superlinear" sID="c57-0033__main__d4e5429"/&gt;offer &lt;sga-add
-				eID="c57-0033__main__d4e5429"/&gt; &lt;/del&gt; &lt;restore
-				type="smear_strikethrough"&gt; &lt;/restore&gt; &lt;sga-add hand="#pbs"
-				place="superlinear" sID="c57-0033__main__d4e5439"/&gt;offer &lt;sga-add
-				eID="c57-0033__main__d4e5439"/&gt; &lt;mod eID="c57-0033__main__d4e5425"/&gt; yet
-				&lt;lb n="c57-0033__main__6"/&gt;he looked forward to the probability of &lt;lb
-				n="c57-0033__main__7"/&gt;that event as the consummation of &lt;lb
-				n="c57-0033__main__8"/&gt;his happiness.&lt;/longToken&gt;
-				&lt;longToken&gt;&lt;milestone unit="tei:p-END"/&gt;&lt;milestone
-				unit="tei:p-START"/&gt; &lt;lb n="c57-0033__main__9"/&gt;The Turk informed Safie of
-				his &lt;lb n="c57-0033__main__10"/&gt;intentions and &lt;lb
-				n="c57-0033__main__11"/&gt;&lt;metamark
-				function="separate"&gt;_________________________&lt;/metamark&gt;&lt;lb
-				n="c57-0033__main__12"/&gt;&lt;/longToken&gt; &lt;longToken&gt;and
-				rank&lt;/longToken&gt; &lt;mod sID="c57-0033__main__d4e5463"/&gt; &lt;del
-				rend="strikethrough" xml:id="c57-0033__main__d4e5465"&gt;her father&lt;/del&gt;
-				&lt;longToken&gt;&lt;sga-add place="superlinear"
-				sID="c57-0033__main__d4e5468"/&gt;the merchant &lt;sga-add
-				eID="c57-0033__main__d4e5468"/&gt; &lt;mod eID="c57-0033__main__d4e5463"/&gt;
-				commander &lt;lb n="c57-0033__main__13"/&gt;&lt;mod
-				sID="c57-0033__main__d4e5475"/&gt; &lt;del rend="strikethrough"
-				xml:id="c57-0033__main__d4e5477"&gt;her&lt;/del&gt; &lt;sga-add place="superlinear"
-				sID="c57-0033__main__d4e5480"/&gt;his daughter&lt;sga-add
-				eID="c57-0033__main__d4e5480"/&gt;&lt;mod
-				eID="c57-0033__main__d4e5475"/&gt;&lt;/longToken&gt;</rdg>
+			n="['yet he looked forward to the probability of that event as to that consummation of his happiness.']">
+			<rdg wit="f1818">&lt;longToken&gt;yet he looked forward to the probability of that event
+				as to that consummation of his happiness.&lt;/longToken&gt;</rdg>
+			<rdg wit="fThomas">&lt;longToken&gt;yet he looked forward to the probability of that
+				event as to that consummation of his happiness.&lt;/longToken&gt;</rdg>
 		</rdgGrp>
 		<rdgGrp
-			n="['this offer; yet he looked forward to the probability of that event as to that consummation of his happiness.']">
-			<rdg wit="f1818">&lt;longToken&gt;this offer; yet he looked forward to the probability
-				of that event as to that consummation of his happiness.&lt;/longToken&gt;</rdg>
-			<rdg wit="fThomas">&lt;longToken&gt;this offer; yet he looked forward to the probability
-				of that event as to that consummation of his happiness.&lt;/longToken&gt;</rdg>
-		</rdgGrp>
-		<rdgGrp
-			n="['this offer; yet he looked forward to the probability of the event as to the consummation of his happiness.']">
-			<rdg wit="f1823">&lt;longToken&gt;this offer; yet he looked forward to the probability
-				of the event as to the consummation of his happiness.&lt;/longToken&gt;</rdg>
-			<rdg wit="f1831">&lt;longToken&gt;this offer; yet he looked forward to the probability
-				of the event as to the consummation of his happiness.&lt;/longToken&gt;</rdg>
+			n="['yet he looked forward to the probability of the event as to the consummation of his happiness.']">
+			<rdg wit="f1823">&lt;longToken&gt;yet he looked forward to the probability of the event
+				as to the consummation of his happiness.&lt;/longToken&gt;</rdg>
+			<rdg wit="f1831">&lt;longToken&gt;yet he looked forward to the probability of the event
+				as to the consummation of his happiness.&lt;/longToken&gt;</rdg>
 		</rdgGrp>
 	</app>
 	<app>
@@ -1821,7 +1693,7 @@
 	</app>
 	<app>
 		<rdgGrp
-			n="['and', 'at', 'the', 'same', 'time', 'she', 'gently', 'deplored', 'her', 'own', 'fate.', '&lt;p-end/&gt;', '&lt;p-start/&gt;', '&#34;i', 'have', 'copies', 'of', 'these', 'letters;', 'for', 'i', 'found', 'means,', 'during', 'my', 'residence', 'in', 'the', 'hovel,', 'to', 'procure', 'the', 'implements', 'of', 'writing;', 'and', 'the', 'letters', 'were', 'often', 'in', 'the', 'hands', 'of', 'felix', 'or', 'agatha.', 'before', 'i', 'depart,', 'i', 'will', 'give', 'them', 'to', 'you,', 'they', 'will', 'prove', 'the', 'truth', 'of', 'my', 'tale;', 'but', 'at', 'present,', 'as', 'the', 'sun', 'is', 'already', 'far', 'declined,', 'i', 'shall', 'only', 'have', 'time', 'to', 'repeat', 'the', 'substance', 'of', 'them', 'to', 'you.', '&lt;p-end/&gt;', '&lt;p-start/&gt;', '&#34;safie', 'related,', 'that', 'her', 'mother', 'was', 'a', 'christian', 'arab,', 'seized', 'and', 'made', 'a', 'slave', 'by', 'the', 'turks;', 'recommended', 'by', 'her', 'beauty,', 'she', 'had', 'won', 'the', 'heart', 'of', 'the', 'father', 'of', 'safie,', 'who', 'married', 'her.', 'the', 'young', 'girl', 'spoke', 'in', 'high', 'and', 'enthusiastic', 'terms', 'of', 'her', 'mother,', 'who,', 'born', 'in']">
+			n="['and', 'at', 'the', 'same', 'time', 'she', 'gently', 'deplored', 'her', 'own', 'fate.', '&lt;p-end/&gt;', '&lt;p-start/&gt;', '&#34;i', 'have', 'copies', 'of', 'these', 'letters;', 'for', 'i', 'found', 'means,', 'during', 'my', 'residence', 'in', 'the', 'hovel,', 'to', 'procure', 'the', 'implements', 'of', 'writing;', 'and', 'the', 'letters', 'were', 'often', 'in', 'the', 'hands', 'of', 'felix', 'or', 'agatha.', 'before', 'i', 'depart,', 'i', 'will', 'give', 'them', 'to', 'you,', 'they', 'will', 'prove', 'the', 'truth', 'of', 'my', 'tale;', 'but', 'at', 'present,', 'as', 'the', 'sun', 'is', 'already', 'far', 'declined,', 'i', 'shall', 'only', 'have', 'time', 'to', 'repeat', 'the', 'substance', 'of', 'them', 'to', 'you.', '&lt;p-end/&gt;', '&lt;p-start/&gt;', '&#34;safie', 'related,', 'that', 'her', 'mother', 'was', 'a', 'christian', 'arab,', 'seized', 'and']">
 			<rdg wit="f1818">and at the same time she gently deplored her own fate. &lt;p
 				eID="novel1_letter4_chapter13_div4_div14_p6"/&gt; &lt;p
 				sID="novel1_letter4_chapter13_div4_div14_p7"/&gt; “I have copies of these letters;
@@ -1831,10 +1703,7 @@
 				present, as the sun is already far declined, I shall only have time to repeat the
 				substance of them to you. &lt;p eID="novel1_letter4_chapter13_div4_div14_p7"/&gt;
 				&lt;p sID="novel1_letter4_chapter13_div4_div14_p8"/&gt; “Safie related, that her
-				mother was a Christian Arab, seized and made a slave by the Turks; recommended by
-				&lt;pb xml:id="F1818_v2_093" n="089"/&gt;her beauty, she had won the heart of the
-				father of Safie, who married her. The young girl spoke in high and enthusiastic
-				terms of her mother, who, born in</rdg>
+				mother was a Christian Arab, seized and</rdg>
 			<rdg wit="f1823">and at the same time she gently deplored her own fate. &lt;p
 				eID="novel1_letter4_chapter13_div4_div14_p6"/&gt; &lt;p
 				sID="novel1_letter4_chapter13_div4_div14_p7"/&gt; “I have copies of these letters;
@@ -1844,10 +1713,7 @@
 				present, as the sun is already far declined, I shall only have time to repeat the
 				substance of them to you. &lt;p eID="novel1_letter4_chapter13_div4_div14_p7"/&gt;
 				&lt;p sID="novel1_letter4_chapter13_div4_div14_p8"/&gt; “Safie related, that her
-				mother was a Christian Arab, seized and made a slave by the Turks; recommended by
-				&lt;pb xml:id="F1823_v2_294" n="21"/&gt;her beauty, she had won the heart of the
-				father of Safie, who married her. The young girl spoke in high and enthusiastic
-				terms of her mother, who, born in</rdg>
+				mother was a Christian Arab, seized and</rdg>
 			<rdg wit="fThomas">and at the same time she gently deplored her own fate. &lt;p
 				eID="novel1_letter4_chapter13_div4_div14_p6"/&gt; &lt;p
 				sID="novel1_letter4_chapter13_div4_div14_p7"/&gt; “I have copies of these letters;
@@ -1857,10 +1723,7 @@
 				present, as the sun is already far declined, I shall only have time to repeat the
 				substance of them to you. &lt;p eID="novel1_letter4_chapter13_div4_div14_p7"/&gt;
 				&lt;p sID="novel1_letter4_chapter13_div4_div14_p8"/&gt; “Safie related, that her
-				mother was a Christian Arab, seized and made a slave by the Turks; recommended by
-				&lt;pb xml:id="F1818_v2_093" n="089"/&gt;her beauty, she had won the heart of the
-				father of Safie, who married her. The young girl spoke in high and enthusiastic
-				terms of her mother, who, born in</rdg>
+				mother was a Christian Arab, seized and</rdg>
 			<rdg wit="f1831">and at the same time she gently deplored her own fate. &lt;p
 				eID="novel1_letter4_chapter14_div4_div14_p6"/&gt; &lt;p
 				sID="novel1_letter4_chapter14_div4_div14_p7"/&gt; “I have copies of these letters;
@@ -1870,9 +1733,36 @@
 				present, as the sun is already far declined, I shall only have time to repeat the
 				substance of them to you. &lt;p eID="novel1_letter4_chapter14_div4_div14_p7"/&gt;
 				&lt;p sID="novel1_letter4_chapter14_div4_div14_p8"/&gt; “Safie related, that her
-				mother was a Christian Arab, seized and made a slave by the Turks; recommended by
-				her beauty, she had won the heart of the father of Safie, who married her. The young
-				girl spoke in high and enthusiastic terms of her mother, who, born in</rdg>
+				mother was a Christian Arab, seized and</rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['made']">
+			<rdg wit="f1818">made</rdg>
+			<rdg wit="f1823">made</rdg>
+			<rdg wit="fThomas">made</rdg>
+			<rdg wit="f1831">made</rdg>
+			<rdg wit="fMS">made</rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp
+			n="['a', 'slave', 'by', 'the', 'turks;', 'recommended', 'by', 'her', 'beauty,', 'she', 'had', 'won', 'the', 'heart', 'of', 'the', 'father', 'of', 'safie,', 'who', 'married', 'her.', 'the', 'young', 'girl', 'spoke', 'in', 'high', 'and', 'enthusiastic', 'terms', 'of', 'her', 'mother,', 'who,', 'born', 'in']">
+			<rdg wit="f1818">a slave by the Turks; recommended by &lt;pb xml:id="F1818_v2_093"
+				n="089"/&gt;her beauty, she had won the heart of the father of Safie, who married
+				her. The young girl spoke in high and enthusiastic terms of her mother, who, born
+				in</rdg>
+			<rdg wit="f1823">a slave by the Turks; recommended by &lt;pb xml:id="F1823_v2_294"
+				n="21"/&gt;her beauty, she had won the heart of the father of Safie, who married
+				her. The young girl spoke in high and enthusiastic terms of her mother, who, born
+				in</rdg>
+			<rdg wit="fThomas">a slave by the Turks; recommended by &lt;pb xml:id="F1818_v2_093"
+				n="089"/&gt;her beauty, she had won the heart of the father of Safie, who married
+				her. The young girl spoke in high and enthusiastic terms of her mother, who, born
+				in</rdg>
+			<rdg wit="f1831">a slave by the Turks; recommended by her beauty, she had won the heart
+				of the father of Safie, who married her. The young girl spoke in high and
+				enthusiastic terms of her mother, who, born in</rdg>
 		</rdgGrp>
 	</app>
 	<app>
@@ -1941,34 +1831,56 @@
 	</app>
 	<app>
 		<rdgGrp
-			n="['amusements,', 'ill', 'suited', 'to', 'the', 'temper', 'of', 'her', 'soul,', 'now', 'accustomed', 'to', 'grand', 'ideas', 'and', 'a', 'noble', 'emulation', 'for', 'virtue.', 'the', 'prospect', 'of', 'marrying', 'a', 'christian,', 'and', 'remaining', 'in', 'a', 'country', 'where', 'women', 'were', 'allowed', 'to', 'take', 'a', 'rank', 'in', 'society,', 'was', 'enchanting', 'to', 'her.', '&lt;p-end/&gt;', '&lt;p-start/&gt;', '&#34;the', 'day', 'for', 'the', 'execution', 'of', 'the', 'turk', 'was', 'fixed;', 'but,', 'on', 'the', 'night', 'previous', 'to', 'it,', 'he']">
+			n="['amusements,', 'ill', 'suited', 'to', 'the', 'temper', 'of', 'her', 'soul,', 'now', 'accustomed', 'to', 'grand', 'ideas', 'and', 'a', 'noble', 'emulation', 'for', 'virtue.', 'the', 'prospect', 'of', 'marrying', 'a', 'christian,', 'and', 'remaining', 'in', 'a', 'country', 'where', 'women', 'were', 'allowed', 'to', 'take', 'a', 'rank', 'in', 'society,', 'was', 'enchanting', 'to', 'her.', '&lt;p-end/&gt;', '&lt;p-start/&gt;', '&#34;the', 'day', 'for', 'the', 'execution', 'of', 'the', 'turk', 'was', 'fixed;', 'but,']">
 			<rdg wit="f1818">amusements, ill suited to the temper of her soul, now accustomed to
 				grand ideas and a noble emulation for virtue. The prospect of marrying a Christian,
 				and remaining in a country &lt;pb xml:id="F1818_v2_094" n="090"/&gt;where women were
 				allowed to take a rank in society, was enchanting to her. &lt;p
 				eID="novel1_letter4_chapter13_div4_div14_p8"/&gt; &lt;p
 				sID="novel1_letter4_chapter13_div4_div14_p9"/&gt; “The day for the execution of the
-				Turk was fixed; but, on the night previous to it, he</rdg>
+				Turk was fixed; but,</rdg>
 			<rdg wit="f1823">amusements, ill suited to the temper of her soul, now accustomed to
 				grand ideas and a noble emulation for virtue. The prospect of marrying a Christian,
 				and remaining in a country where women &lt;pb xml:id="F1823_v2_295" n="22"/&gt;were
 				allowed to take a rank in society, was enchanting to her. &lt;p
 				eID="novel1_letter4_chapter13_div4_div14_p8"/&gt; &lt;p
 				sID="novel1_letter4_chapter13_div4_div14_p9"/&gt; “The day for the execution of the
-				Turk was fixed; but, on the night previous to it, he</rdg>
+				Turk was fixed; but,</rdg>
 			<rdg wit="fThomas">amusements, ill suited to the temper of her soul, now accustomed to
 				grand ideas and a noble emulation for virtue. The prospect of marrying a Christian,
 				and remaining in a country &lt;pb xml:id="F1818_v2_094" n="090"/&gt;where women were
 				allowed to take a rank in society, was enchanting to her. &lt;p
 				eID="novel1_letter4_chapter13_div4_div14_p8"/&gt; &lt;p
 				sID="novel1_letter4_chapter13_div4_div14_p9"/&gt; “The day for the execution of the
-				Turk was fixed; but, on the night previous to it, he</rdg>
+				Turk was fixed; but,</rdg>
 			<rdg wit="f1831">amusements, ill suited to the temper of her soul, now accustomed to
 				grand ideas and a noble emulation for virtue. The prospect of marrying a Christian,
 				and remaining in a country where women were allowed to take a rank in society, was
 				enchanting to her. &lt;p eID="novel1_letter4_chapter14_div4_div14_p8"/&gt; &lt;p
 				sID="novel1_letter4_chapter14_div4_div14_p9"/&gt; “The day for the execution of the
-				Turk was fixed; but, on the night previous to it, he</rdg>
+				Turk was fixed; but,</rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['on']">
+			<rdg wit="f1818">on</rdg>
+			<rdg wit="f1823">on</rdg>
+			<rdg wit="fThomas">on</rdg>
+			<rdg wit="f1831">on</rdg>
+			<rdg wit="fMS">on&lt;lb n="c57-0033__main__1"/&gt;</rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['heart of felix', '&lt;delstart/&gt;and resolved to obtain&lt;delend/&gt;']">
+			<rdg wit="fMS">&lt;longToken&gt;heart of Felix&lt;/longToken&gt; &lt;del
+				rend="strikethrough" xml:id="c57-0033__main__d4e5361"&gt;and resolved to
+				obtain&lt;/del&gt;</rdg>
+		</rdgGrp>
+		<rdgGrp n="['the', 'night', 'previous', 'to', 'it,', 'he']">
+			<rdg wit="f1818">the night previous to it, he</rdg>
+			<rdg wit="f1823">the night previous to it, he</rdg>
+			<rdg wit="fThomas">the night previous to it, he</rdg>
+			<rdg wit="f1831">the night previous to it, he</rdg>
 		</rdgGrp>
 	</app>
 	<app>
@@ -1993,7 +1905,7 @@
 	</app>
 	<app>
 		<rdgGrp
-			n="['prison,', 'and', 'before', 'morning', 'was', 'distant', 'many', 'leagues', 'from', 'paris.', 'felix', 'had', 'procured', 'passports', 'in', 'the', 'name', 'of', 'his', 'father,', 'sister,', 'and', 'himself.', 'he', 'had', 'previously', 'communicated', 'his', 'plan', 'to', 'the', 'former,', 'who', 'aided', 'the', 'deceit', 'by', 'quitting', 'his', 'house,', 'under', 'the', 'pretence', 'of', 'a', 'journey,', 'and', 'concealed', 'himself,', 'with', 'his', 'daughter,', 'in', 'an', 'obscure', 'part', 'of', 'paris.', '&lt;p-end/&gt;', '&lt;p-start/&gt;', '&#34;felix', 'conducted', 'the', 'fugitives', 'through', 'france', 'to', 'lyons,', 'and', 'across', 'mont', 'cenis', 'to', 'leghorn,', 'where', 'the', 'merchant', 'had', 'decided', 'to', 'wait', 'a', 'favourable', 'opportunity', 'of', 'passing', 'into', 'some', 'part', 'of', 'the', 'turkish', 'dominions.', '&lt;p-end/&gt;', '&lt;p-start/&gt;', '&#34;safie', 'resolved', 'to', 'remain', 'with', 'her', 'father', 'until', 'the', 'moment', 'of', 'his', 'departure,', 'before', 'which', 'time', 'the', 'turk', 'renewed', 'his', 'promise', 'that', 'she', 'should', 'be', 'united', 'to', 'his', 'deliverer;', 'and', 'felix', 'remained', 'with', 'them', 'in', 'expectation', 'of', 'that', 'event;', 'and', 'in', 'the', 'mean', 'time', 'he', 'enjoyed', 'the', 'society', 'of', 'the', 'arabian,', 'who', 'exhibited', 'towards', 'him', 'the', 'simplest', 'and', 'tenderest', 'affection.', 'they', 'conversed', 'with', 'one', 'another', 'through', 'the', 'means', 'of', 'an', 'interpreter,', 'and', 'sometimes', 'with', 'the', 'interpretation', 'of', 'looks;', 'and', 'safie', 'sang', 'to', 'him', 'the', 'divine', 'airs', 'of', 'her', 'native', 'country.', '&lt;p-end/&gt;', '&lt;p-start/&gt;', '&#34;the', 'turk', 'allowed', 'this', 'intimacy', 'to', 'take', 'place,', 'and', 'encouraged', 'the', 'hopes', 'of', 'the', 'youthful', 'lovers,', 'while', 'in', 'his', 'heart', 'he', 'had', 'formed', 'far', 'other', 'plans.', 'he', 'loathed', 'the', 'idea', 'that', 'his', 'daughter', 'should', 'be', 'united', 'to', 'a', 'christian;', 'but', 'he', 'feared', 'the', 'resentment', 'of']">
+			n="['prison,', 'and', 'before', 'morning', 'was', 'distant', 'many', 'leagues', 'from', 'paris.', 'felix', 'had', 'procured', 'passports', 'in', 'the', 'name', 'of', 'his', 'father,', 'sister,', 'and', 'himself.', 'he', 'had', 'previously', 'communicated', 'his', 'plan', 'to', 'the', 'former,', 'who', 'aided', 'the', 'deceit', 'by', 'quitting', 'his', 'house,', 'under', 'the', 'pretence', 'of', 'a', 'journey,', 'and', 'concealed', 'himself,', 'with', 'his', 'daughter,', 'in', 'an', 'obscure', 'part', 'of', 'paris.', '&lt;p-end/&gt;', '&lt;p-start/&gt;', '&#34;felix', 'conducted', 'the', 'fugitives', 'through', 'france', 'to', 'lyons,', 'and', 'across', 'mont', 'cenis', 'to', 'leghorn,', 'where', 'the', 'merchant', 'had', 'decided', 'to', 'wait', 'a', 'favourable', 'opportunity', 'of', 'passing', 'into', 'some', 'part', 'of', 'the', 'turkish', 'dominions.', '&lt;p-end/&gt;', '&lt;p-start/&gt;', '&#34;safie', 'resolved', 'to', 'remain', 'with', 'her', 'father', 'until', 'the', 'moment', 'of', 'his', 'departure,', 'before', 'which', 'time', 'the', 'turk', 'renewed', 'his', 'promise', 'that', 'she', 'should', 'be', 'united', 'to']">
 			<rdg wit="f1818">prison, and before morning was distant many leagues from Paris. Felix
 				had procured passports in the name of his father, sister, and himself. He had
 				previously communicated his plan to the former, who aided the deceit by quitting his
@@ -2006,16 +1918,7 @@
 				&lt;p sID="novel1_letter4_chapter13_div4_div14_p11"/&gt; “Safie resolved to remain
 				with her father until the moment of his depar&lt;pb xml:id="F1818_v2_095"
 				n="091"/&gt;ture, before which time the Turk renewed his promise that she should be
-				united to his deliverer; and Felix remained with them in expectation of that event;
-				and in the mean time he enjoyed the society of the Arabian, who exhibited towards
-				him the simplest and tenderest affection. They conversed with one another through
-				the means of an interpreter, and sometimes with the interpretation of looks; and
-				Safie sang to him the divine airs of her native country. &lt;p
-				eID="novel1_letter4_chapter13_div4_div14_p11"/&gt; &lt;p
-				sID="novel1_letter4_chapter13_div4_div14_p12"/&gt; “The Turk allowed this intimacy
-				to take place, and encouraged the hopes of the youthful lovers, while in his heart
-				he had formed far other plans. He loathed the idea that his daughter should be
-				united to a Christian; but he feared the resentment of</rdg>
+				united to</rdg>
 			<rdg wit="f1823">prison, and before morning was distant many leagues from Paris. Felix
 				had procured passports in the name of his father, sister, and himself. He had
 				previously communicated his plan to the former, who aided the deceit by quitting his
@@ -2028,16 +1931,7 @@
 				&lt;p sID="novel1_letter4_chapter13_div4_div14_p11"/&gt; “Safie resolved to remain
 				with her father until the moment of his depar&lt;pb xml:id="F1823_v2_296"
 				n="23"/&gt;ture, before which time the Turk renewed his promise that she should be
-				united to his deliverer; and Felix remained with them in expectation of that event;
-				and in the mean time he enjoyed the society of the Arabian, who exhibited towards
-				him the simplest and tenderest affection. They conversed with one another through
-				the means of an interpreter, and sometimes with the interpretation of looks; and
-				Safie sang to him the divine airs of her native country. &lt;p
-				eID="novel1_letter4_chapter13_div4_div14_p11"/&gt; &lt;p
-				sID="novel1_letter4_chapter13_div4_div14_p12"/&gt; “The Turk allowed this intimacy
-				to take place, and encouraged the hopes of the youthful lovers, while in his heart
-				he had formed far other plans. He loathed the idea that his daughter should be
-				united to a Christian; but he feared the resentment of</rdg>
+				united to</rdg>
 			<rdg wit="fThomas">prison, and before morning was distant many leagues from Paris. Felix
 				had procured passports in the name of his father, sister, and himself. He had
 				previously communicated his plan to the former, who aided the deceit by quitting his
@@ -2050,16 +1944,7 @@
 				&lt;p sID="novel1_letter4_chapter13_div4_div14_p11"/&gt; “Safie resolved to remain
 				with her father until the moment of his depar&lt;pb xml:id="F1818_v2_095"
 				n="091"/&gt;ture, before which time the Turk renewed his promise that she should be
-				united to his deliverer; and Felix remained with them in expectation of that event;
-				and in the mean time he enjoyed the society of the Arabian, who exhibited towards
-				him the simplest and tenderest affection. They conversed with one another through
-				the means of an interpreter, and sometimes with the interpretation of looks; and
-				Safie sang to him the divine airs of her native country. &lt;p
-				eID="novel1_letter4_chapter13_div4_div14_p11"/&gt; &lt;p
-				sID="novel1_letter4_chapter13_div4_div14_p12"/&gt; “The Turk allowed this intimacy
-				to take place, and encouraged the hopes of the youthful lovers, while in his heart
-				he had formed far other plans. He loathed the idea that his daughter should be
-				united to a Christian; but he feared the resentment of</rdg>
+				united to</rdg>
 			<rdg wit="f1831">prison, and be&lt;pb xml:id="F1831_v_123" n="107"/&gt;fore morning was
 				distant many leagues from Paris. Felix had procured passports in the name of his
 				father, sister, and himself. He had previously communicated his plan to the former,
@@ -2072,16 +1957,93 @@
 				dominions. &lt;p eID="novel1_letter4_chapter14_div4_div14_p10"/&gt; &lt;p
 				sID="novel1_letter4_chapter14_div4_div14_p11"/&gt; “Safie resolved to remain with
 				her father until the moment of his departure, before which time the Turk renewed his
-				promise that she should be united to his deliverer; and Felix remained with them in
-				expectation of that event; and in the mean time he enjoyed the society of the
-				Arabian, who exhibited towards him the simplest and tenderest affection. They
-				conversed with one another through the means of an interpreter, and sometimes with
-				the interpretation of looks; and Safie sang to him the divine airs of her native
-				country. &lt;p eID="novel1_letter4_chapter14_div4_div14_p11"/&gt; &lt;p
+				promise that she should be united to</rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['his']">
+			<rdg wit="f1818">his</rdg>
+			<rdg wit="f1823">his</rdg>
+			<rdg wit="fThomas">his</rdg>
+			<rdg wit="f1831">his</rdg>
+			<rdg wit="fMS">&lt;delSpan spanTo="#c57-0033.01"/&gt;his</rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['', 'at any price the full zeal ', '']">
+			<rdg wit="fMS">&lt;lb n="c57-0033__main__2"/&gt; &lt;longToken&gt;at any price the full
+				zeal &lt;/longToken&gt; &lt;anchor xml:id="c57-0033.01"/&gt;</rdg>
+		</rdgGrp>
+		<rdgGrp
+			n="['deliverer;', 'and', 'felix', 'remained', 'with', 'them', 'in', 'expectation', 'of', 'that', 'event;', 'and', 'in', 'the', 'mean', 'time', 'he', 'enjoyed', 'the', 'society', 'of', 'the', 'arabian,', 'who', 'exhibited', 'towards', 'him', 'the', 'simplest', 'and', 'tenderest', 'affection.', 'they', 'conversed', 'with', 'one', 'another', 'through', 'the', 'means', 'of', 'an', 'interpreter,', 'and', 'sometimes', 'with', 'the', 'interpretation', 'of', 'looks;', 'and', 'safie', 'sang', 'to', 'him', 'the', 'divine', 'airs', 'of', 'her', 'native', 'country.', '&lt;p-end/&gt;', '&lt;p-start/&gt;', '&#34;the', 'turk', 'allowed', 'this', 'intimacy', 'to', 'take', 'place,']">
+			<rdg wit="f1818">deliverer; and Felix remained with them in expectation of that event;
+				and in the mean time he enjoyed the society of the Arabian, who exhibited towards
+				him the simplest and tenderest affection. They conversed with one another through
+				the means of an interpreter, and sometimes with the interpretation of looks; and
+				Safie sang to him the divine airs of her native country. &lt;p
+				eID="novel1_letter4_chapter13_div4_div14_p11"/&gt; &lt;p
+				sID="novel1_letter4_chapter13_div4_div14_p12"/&gt; “The Turk allowed this intimacy
+				to take place,</rdg>
+			<rdg wit="f1823">deliverer; and Felix remained with them in expectation of that event;
+				and in the mean time he enjoyed the society of the Arabian, who exhibited towards
+				him the simplest and tenderest affection. They conversed with one another through
+				the means of an interpreter, and sometimes with the interpretation of looks; and
+				Safie sang to him the divine airs of her native country. &lt;p
+				eID="novel1_letter4_chapter13_div4_div14_p11"/&gt; &lt;p
+				sID="novel1_letter4_chapter13_div4_div14_p12"/&gt; “The Turk allowed this intimacy
+				to take place,</rdg>
+			<rdg wit="fThomas">deliverer; and Felix remained with them in expectation of that event;
+				and in the mean time he enjoyed the society of the Arabian, who exhibited towards
+				him the simplest and tenderest affection. They conversed with one another through
+				the means of an interpreter, and sometimes with the interpretation of looks; and
+				Safie sang to him the divine airs of her native country. &lt;p
+				eID="novel1_letter4_chapter13_div4_div14_p11"/&gt; &lt;p
+				sID="novel1_letter4_chapter13_div4_div14_p12"/&gt; “The Turk allowed this intimacy
+				to take place,</rdg>
+			<rdg wit="f1831">deliverer; and Felix remained with them in expectation of that event;
+				and in the mean time he enjoyed the society of the Arabian, who exhibited towards
+				him the simplest and tenderest affection. They conversed with one another through
+				the means of an interpreter, and sometimes with the interpretation of looks; and
+				Safie sang to him the divine airs of her native country. &lt;p
+				eID="novel1_letter4_chapter14_div4_div14_p11"/&gt; &lt;p
 				sID="novel1_letter4_chapter14_div4_div14_p12"/&gt; “The Turk allowed this intimacy
-				to take place, and encouraged the hopes of the youthful lovers, while in his heart
-				he had formed far other plans. He loathed the idea that his daughter should be
-				united to a Christian; but he feared the resentment of</rdg>
+				to take place,</rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['and']">
+			<rdg wit="f1818">and</rdg>
+			<rdg wit="f1823">and</rdg>
+			<rdg wit="fThomas">and</rdg>
+			<rdg wit="f1831">and</rdg>
+			<rdg wit="fMS">and</rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp
+			n="['', '&lt;delstart/&gt;re ', '', '&lt;mdel&gt;', '&lt;/mdel&gt;', 's ', 'olved&lt;delend/&gt;', 'endeavored']">
+			<rdg wit="fMS">&lt;mod sID="c57-0033__main__d4e5371"/&gt; &lt;del rend="strikethrough"
+				xml:id="c57-0033__main__d4e5373"&gt;re &lt;mod sID="c57-0033__main__d4e5375"/&gt;
+				&lt;mdel&gt; &lt;/mdel&gt; &lt;sga-add place="intralinear"
+				sID="c57-0033__main__d4e5382"/&gt;s &lt;sga-add eID="c57-0033__main__d4e5382"/&gt;
+				&lt;mod eID="c57-0033__main__d4e5375"/&gt; olved&lt;/del&gt; &lt;anchor
+				xml:id="c57-0033.02"/&gt;&lt;lb n="c57-0033__left_margin__1"/&gt;&lt;sga-add
+				sID="c57-0033__left_margin__d4e5393"/&gt;endeavored</rdg>
+		</rdgGrp>
+		<rdgGrp
+			n="['encouraged', 'the', 'hopes', 'of', 'the', 'youthful', 'lovers,', 'while', 'in', 'his', 'heart', 'he', 'had', 'formed', 'far', 'other', 'plans.', 'he', 'loathed', 'the', 'idea', 'that', 'his', 'daughter', 'should', 'be', 'united', 'to', 'a', 'christian;', 'but', 'he', 'feared', 'the', 'resentment', 'of']">
+			<rdg wit="f1818">encouraged the hopes of the youthful lovers, while in his heart he had
+				formed far other plans. He loathed the idea that his daughter should be united to a
+				Christian; but he feared the resentment of</rdg>
+			<rdg wit="f1823">encouraged the hopes of the youthful lovers, while in his heart he had
+				formed far other plans. He loathed the idea that his daughter should be united to a
+				Christian; but he feared the resentment of</rdg>
+			<rdg wit="fThomas">encouraged the hopes of the youthful lovers, while in his heart he
+				had formed far other plans. He loathed the idea that his daughter should be united
+				to a Christian; but he feared the resentment of</rdg>
+			<rdg wit="f1831">encouraged the hopes of the youthful lovers, while in his heart he had
+				formed far other plans. He loathed the idea that his daughter should be united to a
+				Christian; but he feared the resentment of</rdg>
 		</rdgGrp>
 	</app>
 	<app>
@@ -2096,30 +2058,76 @@
 	</app>
 	<app>
 		<rdgGrp
-			n="['if', 'he', 'should', 'appear', 'lukewarm;', 'for', 'he', 'knew', 'that', 'he', 'was', 'still', 'in', 'the', 'power', 'of', 'his', 'deliverer,', 'if', 'he', 'should', 'choose', 'to', 'betray', 'him', 'to', 'the', 'italian', 'state', 'which', 'they', 'inhabited.', 'he', 'revolved', 'a', 'thousand', 'plans', 'by', 'which', 'he', 'should', 'be', 'enabled', 'to', 'prolong', 'the', 'deceit', 'until', 'it', 'might', 'be', 'no', 'longer', 'necessary,', 'and', 'secretly', 'to', 'take', 'his', 'daughter', 'with', 'him', 'when', 'he', 'departed.', 'his', 'plans', 'were']">
+			n="['if', 'he', 'should', 'appear', 'lukewarm;', 'for', 'he', 'knew', 'that', 'he', 'was', 'still', 'in', 'the', 'power', 'of', 'his', 'deliverer,', 'if', 'he', 'should', 'choose', 'to', 'betray', 'him', 'to', 'the', 'italian', 'state', 'which', 'they', 'inhabited.', 'he', 'revolved', 'a', 'thousand', 'plans', 'by', 'which', 'he', 'should', 'be', 'enabled', 'to', 'prolong', 'the', 'deceit', 'until', 'it', 'might', 'be', 'no', 'longer', 'necessary,', 'and', 'secretly']">
 			<rdg wit="f1818">if he should appear lukewarm; for he knew that he was still in the
 				power of his deliverer, if he should choose to betray &lt;pb xml:id="F1818_v2_096"
 				n="092"/&gt;him to the Italian state which they inhabited. He revolved a thousand
 				plans by which he should be enabled to prolong the deceit until it might be no
-				longer necessary, and secretly to take his daughter with him when he departed. His
-				plans were</rdg>
+				longer necessary, and secretly</rdg>
 			<rdg wit="f1823">if he should appear lukewarm; for he knew that he was still in the
 				power of his deliverer, if he should choose to betray &lt;pb xml:id="F1823_v2_297"
 				n="24"/&gt;him to the Italian state which they inhabited. He revolved a thousand
 				plans by which he should be enabled to prolong the deceit until it might be no
-				longer necessary, and secretly to take his daughter with him when he departed. His
-				plans were</rdg>
+				longer necessary, and secretly</rdg>
 			<rdg wit="fThomas">if he should appear lukewarm; for he knew that he was still in the
 				power of his deliverer, if he should choose to betray &lt;pb xml:id="F1818_v2_096"
 				n="092"/&gt;him to the Italian state which they inhabited. He revolved a thousand
 				plans by which he should be enabled to prolong the deceit until it might be no
-				longer necessary, and secretly to take his daughter with him when he departed. His
-				plans were</rdg>
+				longer necessary, and secretly</rdg>
 			<rdg wit="f1831">if he should appear lukewarm; for he knew that he was still in the
 				power of his deliverer, if he should choose to betray him to the Italian state which
 				they inhabited. He revolved a thousand plans by which he should be enabled to
-				prolong the deceit until it might be no longer necessary, and secretly to take his
-				daughter with him when he departed. His plans were</rdg>
+				prolong the deceit until it might be no longer necessary, and secretly</rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['to']">
+			<rdg wit="f1818">to</rdg>
+			<rdg wit="f1823">to</rdg>
+			<rdg wit="fThomas">to</rdg>
+			<rdg wit="f1831">to</rdg>
+			<rdg wit="fMS">&lt;sga-add eID="c57-0033__left_margin__d4e5393"/&gt;&lt;mod
+				eID="c57-0033__main__d4e5371"/&gt;&lt;lb n="c57-0033__main__3"/&gt;to</rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp
+			n="['secure', '&lt;delstart/&gt;the&lt;delend/&gt;', '&lt;delstart/&gt;interrest&lt;delend/&gt;']">
+			<rdg wit="fMS">secure &lt;del rend="strikethrough"
+				xml:id="c57-0033__main__d4e5399"&gt;the&lt;/del&gt; &lt;del rend="strikethrough"
+				xml:id="c57-0033__main__d4e5402"&gt;interrest&lt;/del&gt;</rdg>
+		</rdgGrp>
+		<rdgGrp n="['take', 'his', 'daughter', 'with']">
+			<rdg wit="f1818">take his daughter with</rdg>
+			<rdg wit="f1823">take his daughter with</rdg>
+			<rdg wit="fThomas">take his daughter with</rdg>
+			<rdg wit="f1831">take his daughter with</rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['him']">
+			<rdg wit="f1818">him</rdg>
+			<rdg wit="f1823">him</rdg>
+			<rdg wit="fThomas">him</rdg>
+			<rdg wit="f1831">him</rdg>
+			<rdg wit="fMS">him</rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['', '&lt;delstart/&gt;at any pr&lt;delend/&gt;', '', '', 'more', 'entirely']">
+			<rdg wit="fMS">&lt;mod sID="c57-0033__main__d4e5405"/&gt; &lt;del rend="strikethrough"
+				xml:id="c57-0033__main__d4e5407"&gt;at any pr&lt;/del&gt; &lt;sga-add
+				place="sublinear" sID="c57-0033__main__d4e5410"/&gt; &lt;metamark
+				function="insert"&gt;^&lt;/metamark&gt; &lt;sga-add
+				eID="c57-0033__main__d4e5410"/&gt;&lt;sga-add place="superlinear"
+				sID="c57-0033__main__d4e5416"/&gt;more entirely&lt;sga-add
+				eID="c57-0033__main__d4e5416"/&gt;&lt;mod eID="c57-0033__main__d4e5405"/&gt;</rdg>
+		</rdgGrp>
+		<rdgGrp n="['when', 'he', 'departed.', 'his', 'plans', 'were']">
+			<rdg wit="f1818">when he departed. His plans were</rdg>
+			<rdg wit="f1823">when he departed. His plans were</rdg>
+			<rdg wit="fThomas">when he departed. His plans were</rdg>
+			<rdg wit="f1831">when he departed. His plans were</rdg>
 		</rdgGrp>
 	</app>
 	<app>
@@ -2130,45 +2138,102 @@
 		</rdgGrp>
 	</app>
 	<app>
+		<rdgGrp n="['facilitated']">
+			<rdg wit="f1818">facilitated</rdg>
+			<rdg wit="f1823">facilitated</rdg>
+			<rdg wit="fThomas">facilitated</rdg>
+			<rdg wit="f1831">facilitated</rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['by']">
+			<rdg wit="f1818">by</rdg>
+			<rdg wit="f1823">by</rdg>
+			<rdg wit="fThomas">by</rdg>
+			<rdg wit="f1831">by</rdg>
+			<rdg wit="fMS">by</rdg>
+		</rdgGrp>
+	</app>
+	<app>
 		<rdgGrp
-			n="['facilitated', 'by', 'the', 'news', 'which', 'arrived', 'from', 'paris.', '&lt;p-end/&gt;', '&lt;p-start/&gt;', '&#34;the', 'government', 'of', 'france', 'were', 'greatly', 'enraged', 'at', 'the', 'escape', 'of', 'their', 'victim,', 'and', 'spared', 'no', 'pains', 'to', 'detect', 'and', 'punish', 'his', 'deliverer.', 'the', 'plot', 'of', 'felix', 'was', 'quickly', 'discovered,', 'and', 'de', 'lacey', 'and', 'agatha', 'were', 'thrown', 'into', 'prison.', 'the', 'news', 'reached', 'felix,', 'and', 'roused', 'him', 'from', 'his', 'dream', 'of', 'pleasure.', 'his', 'blind', 'and', 'aged', 'father,', 'and', 'his', 'gentle', 'sister,', 'lay', 'in', 'a', 'noisome', 'dungeon,', 'while', 'he', 'enjoyed', 'the', 'free', 'air,', 'and', 'the', 'society', 'of', 'her', 'whom', 'he', 'loved.', 'this', 'idea', 'was', 'torture', 'to', 'him.', 'he', 'quickly', 'arranged', 'with', 'the']">
-			<rdg wit="f1818">facilitated by the news which arrived from Paris. &lt;p
+			n="['the', 'news', 'which', 'arrived', 'from', 'paris.', '&lt;p-end/&gt;', '&lt;p-start/&gt;', '&#34;the', 'government', 'of', 'france', 'were', 'greatly', 'enraged', 'at', 'the', 'escape', 'of', 'their', 'victim,', 'and', 'spared', 'no', 'pains', 'to', 'detect', 'and', 'punish', 'his', 'deliverer.', 'the', 'plot', 'of', 'felix', 'was', 'quickly', 'discovered,', 'and', 'de', 'lacey', 'and', 'agatha', 'were', 'thrown', 'into', 'prison.', 'the', 'news', 'reached', 'felix,', 'and', 'roused', 'him', 'from', 'his', 'dream', 'of', 'pleasure.', 'his', 'blind', 'and', 'aged', 'father,', 'and', 'his', 'gentle', 'sister,', 'lay', 'in', 'a', 'noisome', 'dungeon,', 'while', 'he', 'enjoyed', 'the', 'free', 'air,', 'and']">
+			<rdg wit="f1818">the news which arrived from Paris. &lt;p
 				eID="novel1_letter4_chapter13_div4_div14_p12"/&gt; &lt;p
 				sID="novel1_letter4_chapter13_div4_div14_p13"/&gt; “The government of France were
 				greatly enraged at the escape of their victim, and spared no pains to detect and
 				punish his deliverer. The plot of Felix was quickly discovered, and De Lacey and
 				Agatha were thrown into prison. The news reached Felix, and roused him from his
 				dream of pleasure. His blind and aged father, and his gentle sister, lay in a
-				noisome dungeon, while he enjoyed the free air, and the society of her whom he
-				loved. This idea was torture to him. He quickly arranged with the</rdg>
-			<rdg wit="f1823">facilitated by the news which arrived from Paris. &lt;p
+				noisome dungeon, while he enjoyed the free air, and</rdg>
+			<rdg wit="f1823">the news which arrived from Paris. &lt;p
 				eID="novel1_letter4_chapter13_div4_div14_p12"/&gt; &lt;p
 				sID="novel1_letter4_chapter13_div4_div14_p13"/&gt; “The government of France were
 				greatly enraged at the escape of their victim, and spared no pains to detect and
 				punish his deliverer. The plot of Felix was quickly discovered, and De Lacey and
 				Agatha were thrown into prison. The news reached Felix, and roused him from his
 				dream of pleasure. His blind and aged father, and his gentle sister, lay in a
-				noisome dungeon, while he enjoyed the free air, and the society of her whom he
-				loved. This idea was torture to him. He quickly arranged with the</rdg>
-			<rdg wit="fThomas">facilitated by the news which arrived from Paris. &lt;p
+				noisome dungeon, while he enjoyed the free air, and</rdg>
+			<rdg wit="fThomas">the news which arrived from Paris. &lt;p
 				eID="novel1_letter4_chapter13_div4_div14_p12"/&gt; &lt;p
 				sID="novel1_letter4_chapter13_div4_div14_p13"/&gt; “The government of France were
 				greatly enraged at the escape of their victim, and spared no pains to detect and
 				punish his deliverer. The plot of Felix was quickly discovered, and De Lacey and
 				Agatha were thrown into prison. The news reached Felix, and roused him from his
 				dream of pleasure. His blind and aged father, and his gentle sister, lay in a
-				noisome dungeon, while he enjoyed the free air, and the society of her whom he
-				loved. This idea was torture to him. He quickly arranged with the</rdg>
-			<rdg wit="f1831">facilitated by the news which arrived from Paris. &lt;p
+				noisome dungeon, while he enjoyed the free air, and</rdg>
+			<rdg wit="f1831">the news which arrived from Paris. &lt;p
 				eID="novel1_letter4_chapter14_div4_div14_p12"/&gt; &lt;p
 				sID="novel1_letter4_chapter14_div4_div14_p13"/&gt; “The government of France were
 				greatly enraged at the escape of their victim, and spared no pains to detect and
 				punish his deliverer. The plot of Felix was quickly discovered, and De Lacey and
 				Agatha were thrown into prison. The news reached Felix, and roused him from his
 				dream of pleasure. His blind and aged father, and his gentle sister, lay in a
-				noisome dungeon, while he enjoyed the free air, and the society of her whom he
-				loved. This idea was &lt;pb xml:id="F1831_v_124" n="108"/&gt;torture to him. He
-				quickly arranged with the</rdg>
+				noisome dungeon, while he enjoyed the free air, and</rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['the']">
+			<rdg wit="f1818">the</rdg>
+			<rdg wit="f1823">the</rdg>
+			<rdg wit="fThomas">the</rdg>
+			<rdg wit="f1831">the</rdg>
+			<rdg wit="fMS">&lt;lb n="c57-0033__main__4"/&gt;the</rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['promise']">
+			<rdg wit="fMS">promise</rdg>
+		</rdgGrp>
+		<rdgGrp n="['society']">
+			<rdg wit="f1818">society</rdg>
+			<rdg wit="f1823">society</rdg>
+			<rdg wit="fThomas">society</rdg>
+			<rdg wit="f1831">society</rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['of', 'her']">
+			<rdg wit="f1818">of her</rdg>
+			<rdg wit="f1823">of her</rdg>
+			<rdg wit="fThomas">of her</rdg>
+			<rdg wit="f1831">of her</rdg>
+			<rdg wit="fMS">of her</rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['hand']">
+			<rdg wit="fMS">hand</rdg>
+		</rdgGrp>
+		<rdgGrp
+			n="['whom', 'he', 'loved.', 'this', 'idea', 'was', 'torture', 'to', 'him.', 'he', 'quickly', 'arranged', 'with', 'the']">
+			<rdg wit="f1818">whom he loved. This idea was torture to him. He quickly arranged with
+				the</rdg>
+			<rdg wit="f1823">whom he loved. This idea was torture to him. He quickly arranged with
+				the</rdg>
+			<rdg wit="fThomas">whom he loved. This idea was torture to him. He quickly arranged with
+				the</rdg>
+			<rdg wit="f1831">whom he loved. This idea was &lt;pb xml:id="F1831_v_124"
+				n="108"/&gt;torture to him. He quickly arranged with the</rdg>
 		</rdgGrp>
 	</app>
 	<app>
@@ -2207,7 +2272,8 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['&lt;note&gt;thomas copy: pencil mark joins paragraphs.&lt;/note&gt;']">
+		<rdgGrp
+			n="['&lt;note_start/&gt;thomas copy: pencil mark joins paragraphs.&lt;note_end/&gt;']">
 			<rdg wit="fThomas">&lt;note resp="#ebb"&gt;Thomas copy: pencil mark joins
 				paragraphs.&lt;/note&gt;</rdg>
 		</rdgGrp>
@@ -2222,39 +2288,93 @@
 	</app>
 	<app>
 		<rdgGrp
-			n="['&#34;he', 'did', 'not', 'succeed.', 'they', 'remained', 'confined', 'for', 'five', 'months', 'before', 'the', 'trial', 'took', 'place;', 'the', 'result', 'of', 'which', 'deprived', 'them', 'of', 'their', 'fortune,', 'and', 'condemned', 'them', 'to', 'a', 'perpetual', 'exile', 'from', 'their', 'native', 'country.', '&lt;p-end/&gt;', '&lt;p-start/&gt;', '&#34;they', 'found', 'a', 'miserable', 'asylum', 'in', 'the', 'cottage', 'in', 'germany,', 'where', 'i', 'discovered', 'them.', 'felix', 'soon', 'learned', 'that', 'the', 'treacherous', 'turk,', 'for', 'whom', 'he', 'and', 'his', 'family', 'endured', 'such', 'unheard-of', 'oppression,', 'on', 'discovering', 'that', 'his', 'deliverer', 'was', 'thus', 'reduced', 'to', 'poverty', 'and']">
+			n="['&#34;he', 'did', 'not', 'succeed.', 'they', 'remained', 'confined', 'for', 'five', 'months', 'before', 'the', 'trial', 'took', 'place;', 'the', 'result', 'of', 'which', 'deprived', 'them', 'of', 'their', 'fortune,', 'and', 'condemned', 'them', 'to', 'a', 'perpetual', 'exile', 'from', 'their', 'native', 'country.', '&lt;p-end/&gt;', '&lt;p-start/&gt;', '&#34;they', 'found', 'a', 'miserable', 'asylum', 'in', 'the', 'cottage']">
 			<rdg wit="f1818">“He did not succeed. They remained confined for five months before the
 				trial took place; the result of which deprived them of their fortune, and condemned
 				them to a perpetual exile from their native country. &lt;p
 				eID="novel1_letter4_chapter13_div4_div14_p14"/&gt; &lt;p
 				sID="novel1_letter4_chapter13_div4_div14_p15"/&gt; “They found a miserable asylum in
-				the cottage in Germany, where I discovered them. Felix soon learned that the
-				treacherous Turk, for whom he and his family endured such unheard-of oppression, on
-				discovering that his deliverer was thus reduced to poverty and</rdg>
+				the cottage</rdg>
 			<rdg wit="f1823">“He did not succeed. They remained confined for five months before the
 				trial took place; the result of which deprived them of their fortune, and condemned
 				them to a perpetual exile from their native country. &lt;p
 				eID="novel1_letter4_chapter13_div4_div14_p14"/&gt; &lt;p
 				sID="novel1_letter4_chapter13_div4_div14_p15"/&gt; “They found a miserable asylum in
-				the cottage in Germany, where I discovered them. Felix soon learned that the
-				treacherous Turk, for whom he and his family endured such unheard-of oppression, on
-				discovering that his deliverer was thus reduced to poverty and</rdg>
+				the cottage</rdg>
 			<rdg wit="fThomas">“He did not succeed. They remained confined for five months before
 				the trial took place; the result of which deprived them of their fortune, and
 				condemned them to a perpetual exile from their native country. &lt;p
 				eID="novel1_letter4_chapter13_div4_div14_p13"/&gt; &lt;p
 				sID="novel1_letter4_chapter13_div4_div14_p14"/&gt; “They found a miserable asylum in
-				the cottage in Germany, where I discovered them. Felix soon learned that the
-				treacherous Turk, for whom he and his family endured such unheard-of oppression, on
-				discovering that his deliverer was thus reduced to poverty and</rdg>
+				the cottage</rdg>
 			<rdg wit="f1831">“He did not succeed. They remained confined for five months before the
 				trial took place; the result of which deprived them of their fortune, and condemned
 				them to a perpetual exile from their native country. &lt;p
 				eID="novel1_letter4_chapter14_div4_div14_p14"/&gt; &lt;p
 				sID="novel1_letter4_chapter14_div4_div14_p15"/&gt; “They found a miserable asylum in
-				the cottage in Germany, where I discovered them. Felix soon learned that the
-				treacherous Turk, for whom he and his family endured such unheard-of oppression, on
-				discovering that his deliverer was thus reduced to poverty and</rdg>
+				the cottage</rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['in']">
+			<rdg wit="f1818">in</rdg>
+			<rdg wit="f1823">in</rdg>
+			<rdg wit="fThomas">in</rdg>
+			<rdg wit="f1831">in</rdg>
+			<rdg wit="fMS">in</rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['germany,', 'where', 'i', 'discovered', 'them.']">
+			<rdg wit="f1818">Germany, where I discovered them.</rdg>
+			<rdg wit="f1823">Germany, where I discovered them.</rdg>
+			<rdg wit="fThomas">Germany, where I discovered them.</rdg>
+			<rdg wit="f1831">Germany, where I discovered them.</rdg>
+		</rdgGrp>
+		<rdgGrp n="['marriage;']">
+			<rdg wit="fMS">marriage;</rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['felix']">
+			<rdg wit="f1818">Felix</rdg>
+			<rdg wit="f1823">Felix</rdg>
+			<rdg wit="fThomas">Felix</rdg>
+			<rdg wit="f1831">Felix</rdg>
+			<rdg wit="fMS">&lt;lb n="c57-0033__main__5"/&gt;Felix</rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp
+			n="['soon', 'learned', 'that', 'the', 'treacherous', 'turk,', 'for', 'whom', 'he', 'and', 'his', 'family', 'endured', 'such', 'unheard-of', 'oppression,', 'on', 'discovering', 'that', 'his', 'deliverer']">
+			<rdg wit="f1818">soon learned that the treacherous Turk, for whom he and his family
+				endured such unheard-of oppression, on discovering that his deliverer</rdg>
+			<rdg wit="f1823">soon learned that the treacherous Turk, for whom he and his family
+				endured such unheard-of oppression, on discovering that his deliverer</rdg>
+			<rdg wit="fThomas">soon learned that the treacherous Turk, for whom he and his family
+				endured such unheard-of oppression, on discovering that his deliverer</rdg>
+			<rdg wit="f1831">soon learned that the treacherous Turk, for whom he and his family
+				endured such unheard-of oppression, on discovering that his deliverer</rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['was']">
+			<rdg wit="f1818">was</rdg>
+			<rdg wit="f1823">was</rdg>
+			<rdg wit="fThomas">was</rdg>
+			<rdg wit="f1831">was</rdg>
+			<rdg wit="fMS">was</rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['thus', 'reduced', 'to', 'poverty', 'and']">
+			<rdg wit="f1818">thus reduced to poverty and</rdg>
+			<rdg wit="f1823">thus reduced to poverty and</rdg>
+			<rdg wit="fThomas">thus reduced to poverty and</rdg>
+			<rdg wit="f1831">thus reduced to poverty and</rdg>
+		</rdgGrp>
+		<rdgGrp n="['too', 'delicate']">
+			<rdg wit="fMS">too delicate</rdg>
 		</rdgGrp>
 	</app>
 	<app>
@@ -2291,24 +2411,45 @@
 		</rdgGrp>
 	</app>
 	<app>
+		<rdgGrp n="['to']">
+			<rdg wit="f1818">to</rdg>
+			<rdg wit="f1823">to</rdg>
+			<rdg wit="fThomas">to</rdg>
+			<rdg wit="f1831">to</rdg>
+			<rdg wit="fMS">to</rdg>
+		</rdgGrp>
+	</app>
+	<app>
 		<rdgGrp
-			n="['to', 'aid', 'him,', 'as', 'he', 'said,', 'in', 'some', 'plan', 'of', 'future', 'maintenance.', '&lt;p-end/&gt;', '&lt;p-start/&gt;', '&#34;such', 'were', 'the', 'events', 'that', 'preyed', 'on', 'the', 'heart', 'of', 'felix,', 'and', 'rendered', 'him,', 'when', 'i', 'first', 'saw', 'him,', 'the', 'most', 'miserable', 'of', 'his', 'family.', 'he', 'could', 'have', 'endured']">
-			<rdg wit="f1818">to aid him, as he said, in some plan of future maintenance. &lt;p
+			n="['accept', '', '&lt;delstart/&gt;', 'offer ', '&lt;delend/&gt;', 'offer', '', 'yethe looked forward to the probability ofthat event as the consummation ofhis happiness.']">
+			<rdg wit="fMS">accept &lt;mod sID="c57-0033__main__d4e5425"/&gt; &lt;del
+				rend="strikethrough" xml:id="c57-0033__main__d4e5427"&gt; &lt;sga-add hand="#pbs"
+				place="superlinear" sID="c57-0033__main__d4e5429"/&gt;offer &lt;sga-add
+				eID="c57-0033__main__d4e5429"/&gt; &lt;/del&gt; &lt;sga-add hand="#pbs"
+				place="superlinear" sID="c57-0033__main__d4e5439"/&gt;offer &lt;sga-add
+				eID="c57-0033__main__d4e5439"/&gt;&lt;mod eID="c57-0033__main__d4e5425"/&gt;
+				&lt;longToken&gt;yet &lt;lb n="c57-0033__main__6"/&gt;he looked forward to the
+				probability of &lt;lb n="c57-0033__main__7"/&gt;that event as the consummation of
+				&lt;lb n="c57-0033__main__8"/&gt;his happiness.&lt;/longToken&gt;</rdg>
+		</rdgGrp>
+		<rdgGrp
+			n="['aid', 'him,', 'as', 'he', 'said,', 'in', 'some', 'plan', 'of', 'future', 'maintenance.', '&lt;p-end/&gt;', '&lt;p-start/&gt;', '&#34;such', 'were', 'the', 'events', 'that', 'preyed', 'on', 'the', 'heart', 'of', 'felix,', 'and', 'rendered', 'him,', 'when', 'i', 'first', 'saw', 'him,', 'the', 'most', 'miserable', 'of', 'his', 'family.', 'he', 'could', 'have', 'endured']">
+			<rdg wit="f1818">aid him, as he said, in some plan of future maintenance. &lt;p
 				eID="novel1_letter4_chapter13_div4_div14_p15"/&gt; &lt;p
 				sID="novel1_letter4_chapter13_div4_div14_p16"/&gt; “Such were the events that preyed
 				on the heart of Felix, and rendered him, when I first saw him, the most miserable of
 				his family. He could have endured</rdg>
-			<rdg wit="f1823">to aid him, as he said, in some plan of future maintenance. &lt;p
+			<rdg wit="f1823">aid him, as he said, in some plan of future maintenance. &lt;p
 				eID="novel1_letter4_chapter13_div4_div14_p15"/&gt; &lt;p
 				sID="novel1_letter4_chapter13_div4_div14_p16"/&gt; “Such were the events that preyed
 				on the heart of Felix, and rendered him, when I first saw him, the most miserable of
 				his family. He could have endured</rdg>
-			<rdg wit="fThomas">to aid him, as he said, in some plan of future maintenance. &lt;p
+			<rdg wit="fThomas">aid him, as he said, in some plan of future maintenance. &lt;p
 				eID="novel1_letter4_chapter13_div4_div14_p14"/&gt; &lt;p
 				sID="novel1_letter4_chapter13_div4_div14_p15"/&gt; “Such were the events that preyed
 				on the heart of Felix, and rendered him, when I first saw him, the most miserable of
 				his family. He could have endured</rdg>
-			<rdg wit="f1831">to aid him, as he said, in some plan of future maintenance. &lt;p
+			<rdg wit="f1831">aid him, as he said, in some plan of future maintenance. &lt;p
 				eID="novel1_letter4_chapter14_div4_div14_p15"/&gt; &lt;p
 				sID="novel1_letter4_chapter14_div4_div14_p16"/&gt; “Such were the events that preyed
 				on the heart of Felix, and rendered him, when I first saw him, the most miserable of
@@ -2359,46 +2500,103 @@
 	</app>
 	<app>
 		<rdgGrp
-			n="['gloried', 'in', 'it:', 'but', 'the', 'ingratitude', 'of', 'the', 'turk,', 'and', 'the', 'loss', 'of', 'his', 'beloved', 'safie,', 'were', 'misfortunes', 'more', 'bitter', 'and', 'irreparable.', 'the', 'arrival', 'of', 'the', 'arabian', 'now', 'infused', 'new', 'life', 'into', 'his', 'soul.', '&lt;p-end/&gt;', '&lt;p-start/&gt;', '&#34;when', 'the', 'news', 'reached', 'leghorn,', 'that', 'felix', 'was', 'deprived', 'of', 'his', 'wealth', 'and', 'rank,', 'the merchant commanded his daughter']">
+			n="['gloried', 'in', 'it:', 'but', 'the', 'ingratitude', 'of', 'the', 'turk,', 'and', 'the', 'loss', 'of', 'his', 'beloved', 'safie,', 'were', 'misfortunes', 'more', 'bitter', 'and', 'irreparable.', 'the', 'arrival', 'of', 'the', 'arabian', 'now', 'infused', 'new', 'life', 'into', 'his', 'soul.']">
 			<rdg wit="f1818">gloried in it: but the ingratitude of the Turk, and the loss of his
 				beloved Safie, were misfortunes more bitter and irreparable. The arrival of the
-				Arabian now infused new life into his soul. &lt;p
-				eID="novel1_letter4_chapter13_div4_div14_p16"/&gt; &lt;p
-				sID="novel1_letter4_chapter13_div4_div14_p17"/&gt; “When the news reached Leghorn,
-				that Felix was deprived of his wealth and rank, &lt;longToken&gt;the merchant
-				commanded his daughter&lt;/longToken&gt;</rdg>
+				Arabian now infused new life into his soul.</rdg>
 			<rdg wit="f1823">gloried in it: but the ingratitude of the Turk, and the loss of his
 				beloved Safie, were misfortunes more bitter and irreparable. The arrival of the
-				Arabian now infused new life into his soul. &lt;p
-				eID="novel1_letter4_chapter13_div4_div14_p16"/&gt; &lt;p
-				sID="novel1_letter4_chapter13_div4_div14_p17"/&gt; “When the news reached Leghorn,
-				that Felix was deprived of his wealth and rank, &lt;longToken&gt;the merchant
-				commanded his daughter&lt;/longToken&gt;</rdg>
+				Arabian now infused new life into his soul.</rdg>
 			<rdg wit="fThomas">gloried in it: but the ingratitude of the Turk, and the loss of his
 				beloved Safie, were misfortunes more bitter and irreparable. The arrival of the
-				Arabian now infused new life into his soul. &lt;p
-				eID="novel1_letter4_chapter13_div4_div14_p15"/&gt; &lt;p
-				sID="novel1_letter4_chapter13_div4_div14_p16"/&gt; “When the news reached Leghorn,
-				that Felix was deprived of his wealth and rank, &lt;longToken&gt;the merchant
-				commanded his daughter&lt;/longToken&gt;</rdg>
+				Arabian now infused new life into his soul.</rdg>
 			<rdg wit="f1831">gloried in it: but the ingratitude of the Turk, and the loss of his
 				beloved Safie, were misfortunes more bitter and irreparable. The arrival of the
-				Arabian now infused new life into his soul. &lt;p
-				eID="novel1_letter4_chapter14_div4_div14_p16"/&gt; &lt;p
-				sID="novel1_letter4_chapter14_div4_div14_p17"/&gt; “When the news reached Leghorn,
-				that Felix was deprived of his wealth and rank, &lt;longToken&gt;the merchant
-				commanded his daughter&lt;/longToken&gt;</rdg>
+				Arabian now infused new life into his soul.</rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['&lt;p-end/&gt;', '&lt;p-start/&gt;']">
+			<rdg wit="f1818">&lt;p eID="novel1_letter4_chapter13_div4_div14_p16"/&gt; &lt;p
+				sID="novel1_letter4_chapter13_div4_div14_p17"/&gt;</rdg>
+			<rdg wit="f1823">&lt;p eID="novel1_letter4_chapter13_div4_div14_p16"/&gt; &lt;p
+				sID="novel1_letter4_chapter13_div4_div14_p17"/&gt;</rdg>
+			<rdg wit="fThomas">&lt;p eID="novel1_letter4_chapter13_div4_div14_p15"/&gt; &lt;p
+				sID="novel1_letter4_chapter13_div4_div14_p16"/&gt;</rdg>
+			<rdg wit="f1831">&lt;p eID="novel1_letter4_chapter14_div4_div14_p16"/&gt; &lt;p
+				sID="novel1_letter4_chapter14_div4_div14_p17"/&gt;</rdg>
+			<rdg wit="fMS">&lt;milestone unit="tei:p-END"/&gt; &lt;milestone
+				unit="tei:p-START"/&gt;</rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['&#34;when']">
+			<rdg wit="f1818">“When</rdg>
+			<rdg wit="f1823">“When</rdg>
+			<rdg wit="fThomas">“When</rdg>
+			<rdg wit="f1831">“When</rdg>
+		</rdgGrp>
+		<rdgGrp
+			n="['the turk informed safie of hisintentions andand rank&lt;delstart/&gt;her father&lt;delend/&gt;']">
+			<rdg wit="fMS">&lt;longToken&gt;&lt;lb n="c57-0033__main__9"/&gt;The Turk informed Safie
+				of his &lt;lb n="c57-0033__main__10"/&gt;intentions and &lt;lb
+				n="c57-0033__main__11"/&gt;&lt;metamark
+				function="separate"&gt;_________________________&lt;/metamark&gt;&lt;lb
+				n="c57-0033__main__12"/&gt;and rank &lt;mod
+				sID="c57-0033__main__d4e5463"/&gt;&lt;del rend="strikethrough"
+				xml:id="c57-0033__main__d4e5465"&gt;her father&lt;/del&gt;&lt;sga-add
+				place="superlinear" sID="c57-0033__main__d4e5468"/&gt;&lt;/longToken&gt;</rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['the']">
+			<rdg wit="f1818">the</rdg>
+			<rdg wit="f1823">the</rdg>
+			<rdg wit="fThomas">the</rdg>
+			<rdg wit="f1831">the</rdg>
+			<rdg wit="fMS">the</rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['merchant', '', 'commander', '', '&lt;delstart/&gt;her&lt;delend/&gt;']">
+			<rdg wit="fMS">merchant &lt;sga-add eID="c57-0033__main__d4e5468"/&gt;&lt;mod
+				eID="c57-0033__main__d4e5463"/&gt; commander &lt;lb
+				n="c57-0033__main__13"/&gt;&lt;mod sID="c57-0033__main__d4e5475"/&gt; &lt;del
+				rend="strikethrough" xml:id="c57-0033__main__d4e5477"&gt;her&lt;/del&gt;</rdg>
+		</rdgGrp>
+		<rdgGrp
+			n="['news', 'reached', 'leghorn,', 'that', 'felix', 'was', 'deprived', 'of', 'his', 'wealth', 'and', 'rank,', 'the', 'merchant', 'commanded']">
+			<rdg wit="f1818">news reached Leghorn, that Felix was deprived of his wealth and rank,
+				the merchant commanded</rdg>
+			<rdg wit="f1823">news reached Leghorn, that Felix was deprived of his wealth and rank,
+				the merchant commanded</rdg>
+			<rdg wit="fThomas">news reached Leghorn, that Felix was deprived of his wealth and rank,
+				the merchant commanded</rdg>
+			<rdg wit="f1831">news reached Leghorn, that Felix was deprived of his wealth and rank,
+				the merchant commanded</rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['his', 'daughter']">
+			<rdg wit="f1818">his daughter</rdg>
+			<rdg wit="f1823">his daughter</rdg>
+			<rdg wit="fThomas">his daughter</rdg>
+			<rdg wit="f1831">his daughter</rdg>
+			<rdg wit="fMS">&lt;sga-add place="superlinear" sID="c57-0033__main__d4e5480"/&gt;his
+				daughter</rdg>
 		</rdgGrp>
 	</app>
 	<app>
 		<rdgGrp n="['to', 'think', 'no', 'more', 'of']">
-			<rdg wit="f1818">to think no more of</rdg>
-			<rdg wit="f1823">to think no more of</rdg>
-			<rdg wit="fThomas">to think no more of</rdg>
-			<rdg wit="f1831">to think no more of</rdg>
-			<rdg wit="fMS">to think no more of&lt;mod sID="c57-0033__main__d4e5484"/&gt;</rdg>
+			<rdg wit="f1818">to think no more of </rdg>
+			<rdg wit="f1823">to think no more of </rdg>
+			<rdg wit="fThomas">to think no more of </rdg>
+			<rdg wit="f1831">to think no more of </rdg>
+			<rdg wit="fMS">&lt;sga-add eID="c57-0033__main__d4e5480"/&gt;&lt;mod
+				eID="c57-0033__main__d4e5475"/&gt;to think no more of</rdg>
 		</rdgGrp>
 	</app>
+
 	<app>
 		<rdgGrp n="['her']">
 			<rdg wit="f1818">her</rdg>
@@ -2406,41 +2604,88 @@
 			<rdg wit="fThomas">her</rdg>
 			<rdg wit="f1831">her</rdg>
 		</rdgGrp>
-		<rdgGrp n="['&lt;del&gt;him&lt;/del&gt;', 'her']">
-			<rdg wit="fMS">&lt;del rend="strikethrough"
+		<rdgGrp n="['', '&lt;delstart/&gt;him&lt;delend/&gt;', 'her']">
+			<rdg wit="fMS">&lt;mod sID="c57-0033__main__d4e5484"/&gt; &lt;del rend="strikethrough"
 				xml:id="c57-0033__main__d4e5486"&gt;him&lt;/del&gt; &lt;sga-add place="superlinear"
 				sID="c57-0033__main__d4e5489"/&gt;her</rdg>
 		</rdgGrp>
 	</app>
 
 	<app>
-		<rdgGrp n="['lover but to  repare to return to her native country  with him.']">
-			<rdg wit="fMS">&lt;longToken&gt;lover&lt;sga-add
-				eID="c57-0033__main__d4e5489"/&gt;&lt;mod eID="c57-0033__main__d4e5484"/&gt; but to
-				&lt;lb n="c57-0033__main__14"/&gt;repare to return to her native country &lt;lb
-				n="c57-0033__main__15"/&gt;with him.–&lt;/longToken&gt;</rdg>
+		<rdgGrp n="['lover', '']">
+			<rdg wit="fMS">lover &lt;sga-add eID="c57-0033__main__d4e5489"/&gt;&lt;mod
+				eID="c57-0033__main__d4e5484"/&gt;</rdg>
 		</rdgGrp>
-		<rdgGrp n="['lover, but to prepare to return to her native country.']">
-			<rdg wit="f1823">&lt;longToken&gt;&lt;pb xml:id="F1823_v2_300" n="27"/&gt;lover, but to
-				prepare to return to her native country.&lt;/longToken&gt;</rdg>
-			<rdg wit="f1831">&lt;longToken&gt;lover, but to prepare to return to her native
-				country.&lt;/longToken&gt;</rdg>
-		</rdgGrp>
-		<rdgGrp n="['lover, but to prepare to return with him to her native country.']">
-			<rdg wit="f1818">&lt;longToken&gt;&lt;pb xml:id="F1818_v2_099" n="095"/&gt;lover, but to
-				prepare to return with him to her native country.&lt;/longToken&gt;</rdg>
-			<rdg wit="fThomas">&lt;longToken&gt;&lt;pb xml:id="F1818_v2_099" n="095"/&gt;lover, but
-				to prepare to return with him to her native country.&lt;/longToken&gt;</rdg>
+		<rdgGrp n="['lover,']">
+			<rdg wit="f1818">&lt;pb xml:id="F1818_v2_099" n="095"/&gt;lover,</rdg>
+			<rdg wit="f1823">&lt;pb xml:id="F1823_v2_300" n="27"/&gt;lover,</rdg>
+			<rdg wit="fThomas">&lt;pb xml:id="F1818_v2_099" n="095"/&gt;lover,</rdg>
+			<rdg wit="f1831">lover,</rdg>
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['the', 'generous', 'nature', 'of', 'safie', 'was', 'outraged', 'by', 'this']">
-			<rdg wit="f1818">The generous nature of Safie was outraged by this</rdg>
-			<rdg wit="f1823">The generous nature of Safie was outraged by this</rdg>
-			<rdg wit="fThomas">The generous nature of Safie was outraged by this</rdg>
-			<rdg wit="f1831">The generous nature of Safie was outraged by this</rdg>
-			<rdg wit="fMS">The generous nature of Safie &lt;lb n="c57-0033__main__16"/&gt;was
-				outraged by this</rdg>
+		<rdgGrp n="['but', 'to']">
+			<rdg wit="f1818">but to</rdg>
+			<rdg wit="f1823">but to</rdg>
+			<rdg wit="fThomas">but to</rdg>
+			<rdg wit="f1831">but to</rdg>
+			<rdg wit="fMS">but to</rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['prepare']">
+			<rdg wit="f1818">prepare</rdg>
+			<rdg wit="f1823">prepare</rdg>
+			<rdg wit="fThomas">prepare</rdg>
+			<rdg wit="f1831">prepare</rdg>
+		</rdgGrp>
+		<rdgGrp n="['repare']">
+			<rdg wit="fMS">&lt;lb n="c57-0033__main__14"/&gt;repare</rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['to', 'return']">
+			<rdg wit="f1818">to return</rdg>
+			<rdg wit="f1823">to return</rdg>
+			<rdg wit="fThomas">to return</rdg>
+			<rdg wit="f1831">to return</rdg>
+			<rdg wit="fMS">to return</rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['with', 'him']">
+			<rdg wit="f1818">with him</rdg>
+			<rdg wit="fThomas">with him</rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['to', 'her', 'native']">
+			<rdg wit="f1818">to her native</rdg>
+			<rdg wit="f1823">to her native</rdg>
+			<rdg wit="fThomas">to her native</rdg>
+			<rdg wit="f1831">to her native</rdg>
+			<rdg wit="fMS">to her native</rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['country', 'with', 'him. the']">
+			<rdg wit="fMS">country &lt;lb n="c57-0033__main__15"/&gt;with him.–The</rdg>
+		</rdgGrp>
+		<rdgGrp n="['country.', 'the']">
+			<rdg wit="f1818">country. The</rdg>
+			<rdg wit="f1823">country. The</rdg>
+			<rdg wit="fThomas">country. The</rdg>
+			<rdg wit="f1831">country. The</rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['generous', 'nature', 'of', 'safie', 'was', 'outraged', 'by', 'this']">
+			<rdg wit="f1818">generous nature of Safie was outraged by this</rdg>
+			<rdg wit="f1823">generous nature of Safie was outraged by this</rdg>
+			<rdg wit="fThomas">generous nature of Safie was outraged by this</rdg>
+			<rdg wit="f1831">generous nature of Safie was outraged by this</rdg>
+			<rdg wit="fMS">generous nature of Safie &lt;lb n="c57-0033__main__16"/&gt;was outraged
+				by this</rdg>
 		</rdgGrp>
 	</app>
 	<app>
@@ -2491,14 +2736,14 @@
 			<rdg wit="fThomas">her</rdg>
 			<rdg wit="f1831">her</rdg>
 		</rdgGrp>
-		<rdgGrp n="['&lt;del&gt;er&lt;/del&gt;', 'her']">
+		<rdgGrp n="['&lt;delstart/&gt;er&lt;delend/&gt;', 'her']">
 			<rdg wit="fMS">&lt;del rend="strikethrough"
 				xml:id="c57-0033__main__d4e5508"&gt;er&lt;/del&gt; her</rdg>
 		</rdgGrp>
 	</app>
 
 	<app>
-		<rdgGrp n="['angrily', '&lt;del&gt;re&lt;/del&gt;']">
+		<rdgGrp n="['angrily', '&lt;delstart/&gt;re&lt;delend/&gt;']">
 			<rdg wit="fMS">angrily &lt;del rend="strikethrough"
 				xml:id="c57-0033__main__d4e5511"&gt;re&lt;/del&gt;</rdg>
 		</rdgGrp>
@@ -2519,7 +2764,7 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['command.', '&lt;del&gt;orders.&lt;/del&gt;']">
+		<rdgGrp n="['command.', '&lt;delstart/&gt;orders.&lt;delend/&gt;']">
 			<rdg wit="fMS">&lt;shi rend="underline"&gt;command.&lt;/shi&gt; &lt;del
 				rend="strikethrough" xml:id="c57-0033__main__d4e5520"&gt;orders.&lt;/del&gt;</rdg>
 		</rdgGrp>
@@ -2531,7 +2776,8 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['&lt;note&gt;thomas copy: pencil mark joins paragraphs.&lt;/note&gt;']">
+		<rdgGrp
+			n="['&lt;note_start/&gt;thomas copy: pencil mark joins paragraphs.&lt;note_end/&gt;']">
 			<rdg wit="fThomas">&lt;note resp="#ebb"&gt;Thomas copy: pencil mark joins
 				paragraphs.&lt;/note&gt;</rdg>
 		</rdgGrp>
@@ -2674,7 +2920,8 @@
 			<rdg wit="fThomas">should</rdg>
 			<rdg wit="f1831">should</rdg>
 		</rdgGrp>
-		<rdgGrp n="['', '&lt;del&gt;would&lt;/del&gt;', '', '&lt;del&gt;was&lt;/del&gt;', 'should']">
+		<rdgGrp
+			n="['', '&lt;delstart/&gt;would&lt;delend/&gt;', '', '&lt;delstart/&gt;was&lt;delend/&gt;', 'should']">
 			<rdg wit="fMS">&lt;mod sID="c57-0033__main__d4e5536"/&gt; &lt;del rend="strikethrough"
 				xml:id="c57-0033__main__d4e5538"&gt;would&lt;/del&gt; &lt;sga-add
 				place="superlinear" sID="c57-0033__main__d4e5541"/&gt; &lt;del rend="strikethrough"
@@ -2713,50 +2960,38 @@
 	</app>
 
 	<app>
-		<rdgGrp n="['to', 'the', 'french']">
-			<rdg wit="f1818">to the French </rdg>
-			<rdg wit="f1823">to the French </rdg>
-			<rdg wit="fThomas">to the French </rdg>
-			<rdg wit="f1831">to the French </rdg>
+		<rdgGrp
+			n="['', 'to the french government–', 'he', 'had', 'just', 'heard', 'of', 'a', 'small', 'vessel', 'bound', 'for', 'constantinople', 'which', 'he', 'had', 'consequently', 'hired', 'a', 'vessel', 'to', 'convey', 'him', 'to', '&lt;delstart/&gt;can&lt;delend/&gt;', 'constantinople', '', '&lt;mdel&gt;in&lt;/mdel&gt;']">
 			<rdg wit="fMS">&lt;sga-add eID="c57-0033__main__d4e5560"/&gt;&lt;mod
-				eID="c57-0033__main__d4e5552"/&gt;to the French</rdg>
+				eID="c57-0033__main__d4e5552"/&gt; &lt;longToken&gt;to the French
+				Government–&lt;/longToken&gt; &lt;lb n="c57-0033__main__26"/&gt;&lt;delSpan
+				rend="strikethrough" spanTo="#c57-0033.04"/&gt;He had just heard of a small vessel
+				&lt;lb n="c57-0033__main__27"/&gt;bound for Constantinople which &lt;anchor
+				xml:id="c57-0033.04"/&gt;He had &lt;lb n="c57-0033__main__28"/&gt;consequently hired
+				a vessel to convey him &lt;lb n="c57-0034__main__1"/&gt;to &lt;del
+				rend="strikethrough" xml:id="c57-0034__main__d4e5585"&gt;Can&lt;/del&gt;
+				Constantinople &lt;mod sID="c57-0034__main__d4e5588"/&gt;
+				&lt;mdel&gt;in&lt;/mdel&gt;</rdg>
+		</rdgGrp>
+		<rdgGrp n="['to the french government; ']">
+			<rdg wit="f1818">&lt;longToken&gt;to the French government; &lt;/longToken&gt;</rdg>
+			<rdg wit="f1823">&lt;longToken&gt;to the French government; &lt;/longToken&gt;</rdg>
+			<rdg wit="fThomas">&lt;longToken&gt;to the French government; &lt;/longToken&gt;</rdg>
+			<rdg wit="f1831">&lt;longToken&gt;to the French government; &lt;/longToken&gt;</rdg>
 		</rdgGrp>
 	</app>
-
 	<app>
-		<rdgGrp
-			n="['government; he had, consequently hired a vessel to convey him to constantinople,']">
-			<rdg wit="f1831">&lt;longToken&gt;government; he had, consequently hired a vessel to
-				convey &lt;pb xml:id="F1831_v_125" n="109"/&gt;him to
+		<rdgGrp n="['he had, consequently hired a vessel to convey him to constantinople,']">
+			<rdg wit="f1831">&lt;longToken&gt;he had, consequently hired a vessel to convey &lt;pb
+				xml:id="F1831_v_125" n="109"/&gt;him to Constantinople,&lt;/longToken&gt;</rdg>
+		</rdgGrp>
+		<rdgGrp n="['he had, consequently, hired a vessel to convey him to constantinople,']">
+			<rdg wit="f1818">&lt;longToken&gt;he had, consequently, hired a vessel to convey him to
 				Constantinople,&lt;/longToken&gt;</rdg>
-		</rdgGrp>
-		<rdgGrp
-			n="['government; he had, consequently, hired a vessel to convey him to constantinople,']">
-			<rdg wit="f1818">&lt;longToken&gt;government; he had, consequently, hired a vessel to
-				convey him to Constantinople,&lt;/longToken&gt;</rdg>
-			<rdg wit="f1823">&lt;longToken&gt;government; he had, consequently, hired a vessel to
-				convey him to Constantinople,&lt;/longToken&gt;</rdg>
-			<rdg wit="fThomas">&lt;longToken&gt;government; he had, consequently, hired a vessel to
-				convey him to Constantinople,&lt;/longToken&gt;</rdg>
-		</rdgGrp>
-		<rdgGrp
-			n="['government–  &lt;del&gt;he had just heard of a small vessel  bound for constantinople which &lt;/del&gt;he had  consequently hired a vessel to convey him', '&lt;zone eid=&#34;c57-0033__main&#34;/&gt;&lt;surface eid=&#34;ox-ms_abinger_c57-0033&#34;/&gt;&lt;surface lrx=&#34;5368&#34; lry=&#34;7104&#34; partof=&#34;ox-frankenstein_notebook_b.xml#ox-frankenstein_volume_ii&#34; ulx=&#34;0&#34; uly=&#34;0&#34; folio=&#34;17v&#34; shelfmark=&#34;ms. abinger c. 57&#34; base=&#34;ox-ms_abinger_c57/ox-ms_abinger_c57-0034.xml&#34; id=&#34;ox-ms_abinger_c57-0034&#34; sid=&#34;ox-ms_abinger_c57-0034&#34;/&gt;&lt;graphic url=&#34;http://shelleygodwinarchive.org/images/ox/ms_abinger_c57/ms_abinger_c57-0034.jp2&#34;/&gt;&lt;zone type=&#34;main&#34; sid=&#34;c57-0034__main&#34;/&gt;to &lt;del&gt;can&lt;/del&gt; constantinople', '', '&lt;mdel&gt;in&lt;/mdel&gt;']">
-			<rdg wit="fMS">&lt;longToken&gt;Government– &lt;lb
-				n="c57-0033__main__26"/&gt;&lt;delSpan rend="strikethrough"
-				spanTo="#c57-0033.04"/&gt;He had just heard of a small vessel &lt;lb
-				n="c57-0033__main__27"/&gt;bound for Constantinople which &lt;delSpan
-				anchor="c57-0033.04"/&gt;He had &lt;lb n="c57-0033__main__28"/&gt;consequently hired
-				a vessel to convey him &lt;zone eID="c57-0033__main"/&gt;&lt;surface
-				eID="ox-ms_abinger_c57-0033"/&gt;&lt;surface lrx="5368" lry="7104"
-				partOf="ox-frankenstein_notebook_b.xml#ox-frankenstein_volume_ii" ulx="0" uly="0"
-				folio="17v" shelfmark="MS. Abinger c. 57"
-				base="ox-ms_abinger_c57/ox-ms_abinger_c57-0034.xml" id="ox-ms_abinger_c57-0034"
-				sID="ox-ms_abinger_c57-0034"/&gt;&lt;graphic
-				url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c57/ms_abinger_c57-0034.jp2"/&gt;&lt;zone
-				type="main" sID="c57-0034__main"/&gt;&lt;lb n="c57-0034__main__1"/&gt;to &lt;del
-				rend="strikethrough" xml:id="c57-0034__main__d4e5585"&gt;Can&lt;/del&gt;
-				Constantinople&lt;/longToken&gt; &lt;mod sID="c57-0034__main__d4e5588"/&gt;
-				&lt;mdel&gt;in&lt;/mdel&gt;</rdg>
+			<rdg wit="f1823">&lt;longToken&gt;he had, consequently, hired a vessel to convey him to
+				Constantinople,&lt;/longToken&gt;</rdg>
+			<rdg wit="fThomas">&lt;longToken&gt;he had, consequently, hired a vessel to convey him
+				to Constantinople,&lt;/longToken&gt;</rdg>
 		</rdgGrp>
 	</app>
 	<app>
@@ -2817,7 +3052,7 @@
 			<rdg wit="fThomas">under the care of a</rdg>
 			<rdg wit="f1831">under the care of a</rdg>
 		</rdgGrp>
-		<rdgGrp n="['&lt;del&gt;to foll&lt;/del&gt;', 'under', 'the', 'care', 'of', 'a']">
+		<rdgGrp n="['&lt;delstart/&gt;to foll&lt;delend/&gt;', 'under', 'the', 'care', 'of', 'a']">
 			<rdg wit="fMS">&lt;del instant="true" rend="strikethrough"
 				xml:id="c57-0034__main__d4e5604"&gt;to foll&lt;/del&gt; under the care of a</rdg>
 		</rdgGrp>
@@ -2883,7 +3118,7 @@
 			<rdg wit="f1831">“When alone,</rdg>
 		</rdgGrp>
 		<rdgGrp
-			n="['', '&lt;del&gt;lef&lt;/del&gt;', '&lt;del&gt;deserted by her father&lt;/del&gt;']">
+			n="['', '&lt;delstart/&gt;lef&lt;delend/&gt;', '&lt;delstart/&gt;deserted by her father&lt;delend/&gt;']">
 			<rdg wit="fMS">&lt;lb n="c57-0034__main__7"/&gt; &lt;del instant="true"
 				rend="strikethrough" xml:id="c57-0034__main__d4e5618"&gt;Lef&lt;/del&gt; &lt;del
 				rend="strikethrough" xml:id="c57-0034__main__d4e5621"&gt;Deserted by her
@@ -2926,7 +3161,7 @@
 			<rdg wit="fThomas">plan</rdg>
 			<rdg wit="f1831">plan</rdg>
 		</rdgGrp>
-		<rdgGrp n="['&lt;del&gt;various&lt;/del&gt;', 'plan']">
+		<rdgGrp n="['&lt;delstart/&gt;various&lt;delend/&gt;', 'plan']">
 			<rdg wit="fMS">&lt;del rend="strikethrough"
 				xml:id="c57-0034__main__d4e5626"&gt;various&lt;/del&gt; plan</rdg>
 		</rdgGrp>
@@ -2943,7 +3178,7 @@
 			<rdg wit="f1831">of conduct that it would become her to pursue in this emergency.</rdg>
 		</rdgGrp>
 		<rdgGrp
-			n="['&lt;del&gt;s&lt;/del&gt;', 'of', 'conduct', 'that', 'it', 'would', 'become', 'her', 'to', 'pursue', 'in', 'this', 'emergency.']">
+			n="['&lt;delstart/&gt;s&lt;delend/&gt;', 'of', 'conduct', 'that', 'it', 'would', 'become', 'her', 'to', 'pursue', 'in', 'this', 'emergency.']">
 			<rdg wit="fMS">&lt;del rend="strikethrough"
 				xml:id="c57-0034__main__d4e5629"&gt;s&lt;/del&gt; of &lt;w ana="start"/&gt;con&lt;lb
 				n="c57-0034__main__9"/&gt;duct&lt;w ana="end"/&gt; that it would become her to
@@ -2960,7 +3195,7 @@
 			<rdg wit="f1831">A residence in Turkey was abhorrent to</rdg>
 		</rdgGrp>
 		<rdgGrp
-			n="['', '&lt;del&gt;the slavery&lt;/del&gt;', 'a', 'residence', 'in', 'turkey', 'was', 'abhorrent', 'to']">
+			n="['', '&lt;delstart/&gt;the slavery&lt;delend/&gt;', 'a', 'residence', 'in', 'turkey', 'was', 'abhorrent', 'to']">
 			<rdg wit="fMS">&lt;sga-add eID="c57-0034__main__d4e5641"/&gt; &lt;del
 				rend="strikethrough" xml:id="c57-0034__main__d4e5644"&gt;The slavery&lt;/del&gt; A
 				residence in Turkey was &lt;w ana="start"/&gt;ab&lt;lb
@@ -3013,7 +3248,7 @@
 			<rdg wit="fThomas">of her</rdg>
 			<rdg wit="f1831">of her</rdg>
 		</rdgGrp>
-		<rdgGrp n="['&lt;del&gt;that&lt;/del&gt;', 'of', 'her']">
+		<rdgGrp n="['&lt;delstart/&gt;that&lt;delend/&gt;', 'of', 'her']">
 			<rdg wit="fMS">&lt;del rend="strikethrough"
 				xml:id="c57-0034__main__d4e5656"&gt;that&lt;/del&gt; &lt;lb
 				n="c57-0034__main__13"/&gt;of her</rdg>
@@ -3021,16 +3256,24 @@
 	</app>
 
 	<app>
-		<rdgGrp n="['father, which']">
-			<rdg wit="f1823">&lt;longToken&gt;father, which&lt;/longToken&gt;</rdg>
-			<rdg wit="f1831">&lt;longToken&gt;father, which&lt;/longToken&gt;</rdg>
+		<rdgGrp n="['father,']">
+			<rdg wit="f1823">father,</rdg>
+			<rdg wit="f1831">father,</rdg>
 		</rdgGrp>
 		<rdgGrp n="['fathers', 'that']">
 			<rdg wit="fMS">fathers that</rdg>
 		</rdgGrp>
-		<rdgGrp n="['father’s, which']">
-			<rdg wit="f1818">&lt;longToken&gt;father’s, which&lt;/longToken&gt;</rdg>
-			<rdg wit="fThomas">&lt;longToken&gt;father’s, which&lt;/longToken&gt;</rdg>
+		<rdgGrp n="['father’s,']">
+			<rdg wit="f1818">father’s,</rdg>
+			<rdg wit="fThomas">father’s,</rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['which']">
+			<rdg wit="f1818">which</rdg>
+			<rdg wit="f1823">which</rdg>
+			<rdg wit="fThomas">which</rdg>
+			<rdg wit="f1831">which</rdg>
 		</rdgGrp>
 	</app>
 	<app>
@@ -3090,7 +3333,7 @@
 			<rdg wit="f1831">learnt the name of the spot where he</rdg>
 		</rdgGrp>
 		<rdgGrp
-			n="['&lt;del&gt;the&lt;/del&gt;', 'learnt', 'the', 'name', 'of', 'the', 'spot', 'where', 'he']">
+			n="['&lt;delstart/&gt;the&lt;delend/&gt;', 'learnt', 'the', 'name', 'of', 'the', 'spot', 'where', 'he']">
 			<rdg wit="fMS">&lt;del rend="strikethrough"
 				xml:id="c57-0034__main__d4e5664"&gt;the&lt;/del&gt; &lt;lb
 				n="c57-0034__main__15"/&gt;learnt the name of the spot where &lt;lb
@@ -3214,7 +3457,7 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['a', 'n', '', '&lt;del&gt;servant who&lt;/del&gt;', 'attendant']">
+		<rdgGrp n="['a', 'n', '', '&lt;delstart/&gt;servant who&lt;delend/&gt;', 'attendant']">
 			<rdg wit="fMS">a &lt;sga-add place="intralinear" sID="c57-0034__main__d4e5680"/&gt;n
 				&lt;sga-add eID="c57-0034__main__d4e5680"/&gt; &lt;del rend="strikethrough"
 				xml:id="c57-0034__main__d4e5683"&gt;servant who&lt;/del&gt; attendant</rdg>
@@ -3256,17 +3499,17 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['&lt;del&gt;tur', 'kish', '&lt;/del&gt;arabic', '']">
-			<rdg wit="fMS">&lt;delSpan rend="strikethrough" spanTo="#c57-0034.02"/&gt;Tur &lt;lb
-				n="c57-0034__main__22"/&gt;kish &lt;delSpan anchor="c57-0034.02"/&gt;&lt;sga-add
-				hand="#pbs" place="superlinear" sID="c57-0034__main__d4e5695"/&gt;Arabic &lt;sga-add
-				eID="c57-0034__main__d4e5695"/&gt;&lt;anchor xml:id="c57-0034.01"/&gt;</rdg>
-		</rdgGrp>
 		<rdgGrp n="['the', 'common', 'language', 'of', 'turkey,']">
 			<rdg wit="f1818">the common language of Turkey,</rdg>
 			<rdg wit="f1823">the common language of Turkey,</rdg>
 			<rdg wit="fThomas">the common language of Turkey,</rdg>
 			<rdg wit="f1831">the common language of Turkey,</rdg>
+		</rdgGrp>
+		<rdgGrp n="['tur', 'kish', 'arabic', '']">
+			<rdg wit="fMS">&lt;delSpan rend="strikethrough" spanTo="#c57-0034.02"/&gt;Tur &lt;lb
+				n="c57-0034__main__22"/&gt;kish &lt;anchor xml:id="c57-0034.02"/&gt;&lt;sga-add
+				hand="#pbs" place="superlinear" sID="c57-0034__main__d4e5695"/&gt;Arabic &lt;sga-add
+				eID="c57-0034__main__d4e5695"/&gt;&lt;anchor xml:id="c57-0034.01"/&gt;</rdg>
 		</rdgGrp>
 	</app>
 	<app>
@@ -3289,7 +3532,7 @@
 			<rdg wit="f1831">&lt;p eID="novel1_letter4_chapter14_div4_div14_p19"/&gt; &lt;p
 				sID="novel1_letter4_chapter14_div4_div14_p20"/&gt; “She arrived</rdg>
 		</rdgGrp>
-		<rdgGrp n="['she', 'arrived', '', '&lt;del&gt;safely&lt;/del&gt;']">
+		<rdgGrp n="['she', 'arrived', '', '&lt;delstart/&gt;safely&lt;delend/&gt;']">
 			<rdg wit="fMS">She arrived &lt;lb n="c57-0034__main__23"/&gt; &lt;del
 				rend="strikethrough" xml:id="c57-0034__main__d4e5702"&gt;safely&lt;/del&gt;</rdg>
 		</rdgGrp>
@@ -3374,7 +3617,7 @@
 	</app>
 
 	<app>
-		<rdgGrp n="['', 'ill', '&lt;del&gt;and she was retarded wh&lt;/del&gt;']">
+		<rdgGrp n="['', 'ill', '&lt;delstart/&gt;and she was retarded wh&lt;delend/&gt;']">
 			<rdg wit="fMS">&lt;sga-add eID="c57-0034__main__d4e5726"/&gt;&lt;mod
 				eID="c57-0034__main__d4e5718"/&gt; ill &lt;del rend="strikethrough"
 				xml:id="c57-0034__main__d4e5730"&gt;and she was retarded wh&lt;/del&gt;</rdg>
@@ -3403,7 +3646,7 @@
 			<rdg wit="f1831">nursed her with the most devoted</rdg>
 		</rdgGrp>
 		<rdgGrp
-			n="['', '&lt;del&gt;watched&lt;/del&gt;', 'nursed', 'her', 'with', 'the', 'most', 'devoted']">
+			n="['', '&lt;delstart/&gt;watched&lt;delend/&gt;', 'nursed', 'her', 'with', 'the', 'most', 'devoted']">
 			<rdg wit="fMS">&lt;lb n="c57-0034__main__26"/&gt; &lt;del instant="true"
 				rend="strikethrough" xml:id="c57-0034__main__d4e5736"&gt;watched&lt;/del&gt; nursed
 				her with the most devoted</rdg>
@@ -3457,7 +3700,7 @@
 			<rdg wit="fThomas">the Arabian was left</rdg>
 			<rdg wit="f1831">the Arabian was left</rdg>
 		</rdgGrp>
-		<rdgGrp n="['&lt;del&gt;safie&lt;/del&gt;', 'the', 'arabian', 'was', 'left']">
+		<rdgGrp n="['&lt;delstart/&gt;safie&lt;delend/&gt;', 'the', 'arabian', 'was', 'left']">
 			<rdg wit="fMS">&lt;del rend="strikethrough"
 				xml:id="c57-0034__main__d4e5743"&gt;Safie&lt;/del&gt; &lt;sga-add
 				place="superlinear" sID="c57-0034__main__d4e5746"/&gt;the Arabian &lt;sga-add
@@ -3499,18 +3742,37 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp
-			n="['and', 'utterly', 'ignorant', 'of', 'the', 'customs', 'of', 'the', 'world.', 'she']">
-			<rdg wit="f1818">and utterly ignorant of the customs of the world. She</rdg>
-			<rdg wit="f1823">and utterly ignorant of the customs of the world. She</rdg>
-			<rdg wit="fThomas">and utterly ignorant of the customs of the world. She</rdg>
-			<rdg wit="f1831">and utterly ignorant of the customs of the world. She</rdg>
+		<rdgGrp n="['and', 'utterly', 'ignorant', 'of', 'the', 'customs', 'of', 'the']">
+			<rdg wit="f1818">and utterly ignorant of the customs of the</rdg>
+			<rdg wit="f1823">and utterly ignorant of the customs of the</rdg>
+			<rdg wit="fThomas">and utterly ignorant of the customs of the</rdg>
+			<rdg wit="f1831">and utterly ignorant of the customs of the</rdg>
 			<rdg wit="fMS">and utterly ignorant of &lt;lb n="c57-0035__main__2"/&gt;the customs of
-				the world.– She</rdg>
+				the</rdg>
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['fell', '&lt;del&gt;hover&lt;/del&gt;', 'however', 'in', 'to']">
+		<rdgGrp n="['world. ']">
+			<rdg wit="fMS">world.–</rdg>
+		</rdgGrp>
+		<rdgGrp n="['world.']">
+			<rdg wit="f1818">world.</rdg>
+			<rdg wit="f1823">world.</rdg>
+			<rdg wit="fThomas">world.</rdg>
+			<rdg wit="f1831">world.</rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['she']">
+			<rdg wit="f1818">She</rdg>
+			<rdg wit="f1823">She</rdg>
+			<rdg wit="fThomas">She</rdg>
+			<rdg wit="f1831">She</rdg>
+			<rdg wit="fMS">She</rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['fell', '&lt;delstart/&gt;hover&lt;delend/&gt;', 'however', 'in', 'to']">
 			<rdg wit="fMS">fell &lt;del instant="true" rend="strikethrough"
 				xml:id="c57-0035__main__d4e5769"&gt;hover&lt;/del&gt; however &lt;lb
 				n="c57-0035__main__3"/&gt;in to</rdg>
@@ -3539,13 +3801,13 @@
 			<rdg wit="f1831">hands.</rdg>
 		</rdgGrp>
 		<rdgGrp
-			n="['hands– &lt;del&gt;the hostess of the inn was  interrested  in her fate', '&lt;/del&gt;', '&lt;del&gt;and&lt;/del&gt;', '&lt;del&gt;and&lt;/del&gt;']">
-			<rdg wit="fMS">&lt;longToken&gt;hands– &lt;delSpan rend="strikethrough"
-				spanTo="#c57-0035.01"/&gt;The hostess of the Inn was &lt;w ana="start"/&gt;in&lt;lb
-				n="c57-0035__main__4"/&gt;terrested&lt;w ana="end"/&gt; in her fate
-				&lt;/longToken&gt; &lt;delSpan anchor="c57-0035.01"/&gt; &lt;del
-				rend="strikethrough" xml:id="c57-0035__main__d4e5785"&gt;And&lt;/del&gt; &lt;del
-				rend="strikethrough" xml:id="c57-0035__main__d4e5789"&gt;and&lt;/del&gt;</rdg>
+			n="['hands–', 'the', 'hostess', 'of', 'the', 'inn', 'was', 'interrested', 'in', 'her', 'fate', '', '&lt;delstart/&gt;and&lt;delend/&gt;', '&lt;delstart/&gt;and&lt;delend/&gt;']">
+			<rdg wit="fMS">hands– &lt;delSpan rend="strikethrough" spanTo="#c57-0035.01"/&gt;The
+				hostess of the Inn was &lt;w ana="start"/&gt;in&lt;lb
+				n="c57-0035__main__4"/&gt;terrested&lt;w ana="end"/&gt; in her fate &lt;anchor
+				xml:id="c57-0035.01"/&gt; &lt;del rend="strikethrough"
+				xml:id="c57-0035__main__d4e5785"&gt;And&lt;/del&gt; &lt;del rend="strikethrough"
+				xml:id="c57-0035__main__d4e5789"&gt;and&lt;/del&gt;</rdg>
 		</rdgGrp>
 	</app>
 	<app>
@@ -3564,7 +3826,7 @@
 			<rdg wit="fThomas">had</rdg>
 			<rdg wit="f1831">had</rdg>
 		</rdgGrp>
-		<rdgGrp n="['', '&lt;del&gt;before her death&lt;/del&gt;', 'had']">
+		<rdgGrp n="['', '&lt;delstart/&gt;before her death&lt;delend/&gt;', 'had']">
 			<rdg wit="fMS">&lt;lb n="c57-0035__main__5"/&gt;&lt;mod
 				sID="c57-0035__main__d4e5794"/&gt; &lt;del rend="strikethrough"
 				xml:id="c57-0035__main__d4e5796"&gt;before her death&lt;/del&gt; &lt;sga-add
@@ -3632,43 +3894,42 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp
-			n="['in', 'safety', 'at', 'the', 'cottage', 'of', 'her', 'lover.', '&lt;p-end/&gt;', '']">
-			<rdg wit="f1818">in safety at the cottage of her lover. &lt;p
-				eID="novel1_letter4_chapter13_div4_div14_p20"/&gt; &lt;milestone unit="chapter"
-				type="end" n="13"/&gt;</rdg>
-			<rdg wit="f1823">in safety at the cottage of her lover. &lt;p
-				eID="novel1_letter4_chapter13_div4_div14_p20"/&gt; &lt;milestone unit="chapter"
-				type="end" n="13"/&gt;</rdg>
-			<rdg wit="fThomas">in safety at the cottage of her lover. &lt;p
-				eID="novel1_letter4_chapter13_div4_div14_p18"/&gt; &lt;milestone unit="chapter"
-				type="end" n="13"/&gt;</rdg>
-			<rdg wit="f1831">in safety at the cottage of her lover. &lt;p
-				eID="novel1_letter4_chapter14_div4_div14_p20"/&gt; &lt;milestone unit="chapter"
-				type="end" n="14"/&gt;</rdg>
+		<rdgGrp n="['in', 'safety']">
+			<rdg wit="f1818">in safety</rdg>
+			<rdg wit="f1823">in safety</rdg>
+			<rdg wit="fThomas">in safety</rdg>
+			<rdg wit="f1831">in safety</rdg>
+		</rdgGrp>
+		<rdgGrp n="['safely']">
+			<rdg wit="fMS">safely</rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['at', 'the', 'cottage', 'of', 'her', 'lover.']">
+			<rdg wit="f1818">at the cottage of her lover.</rdg>
+			<rdg wit="f1823">at the cottage of her lover.</rdg>
+			<rdg wit="fThomas">at the cottage of her lover.</rdg>
+			<rdg wit="f1831">at the cottage of her lover.</rdg>
+			<rdg wit="fMS">at the cottage of her lover.&lt;lb n="c57-0037__main__1"/&gt;</rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['&lt;p-end/&gt;', '']">
+			<rdg wit="f1818">&lt;p eID="novel1_letter4_chapter13_div4_div14_p20"/&gt; &lt;milestone
+				unit="chapter" type="end" n="13"/&gt;</rdg>
+			<rdg wit="f1823">&lt;p eID="novel1_letter4_chapter13_div4_div14_p20"/&gt; &lt;milestone
+				unit="chapter" type="end" n="13"/&gt;</rdg>
+			<rdg wit="fThomas">&lt;p eID="novel1_letter4_chapter13_div4_div14_p18"/&gt;
+				&lt;milestone unit="chapter" type="end" n="13"/&gt;</rdg>
+			<rdg wit="f1831">&lt;p eID="novel1_letter4_chapter14_div4_div14_p20"/&gt; &lt;milestone
+				unit="chapter" type="end" n="14"/&gt;</rdg>
 		</rdgGrp>
 		<rdgGrp
-			n="['safely', 'at the cottage of her lover.&lt;damage type=&#34;tear&#34;/&gt;', '&lt;zone eid=&#34;c57-0035__main&#34;/&gt; &lt;surface eid=&#34;ox-ms_abinger_c57-0035&#34;/&gt; &lt;surface lrx=&#34;7230&#34; lry=&#34;5034&#34; partof=&#34;ox-frankenstein_notebook_b.xml#ox-frankenstein_volume_ii&#34; ulx=&#34;0&#34; uly=&#34;0&#34; folio=&#34;18v&#34; shelfmark=&#34;ms. abinger c. 57&#34; base=&#34;ox-ms_abinger_c57/ox-ms_abinger_c57-0036.xml&#34; id=&#34;ox-ms_abinger_c57-0036&#34; sid=&#34;ox-ms_abinger_c57-0036&#34;/&gt; &lt;graphic url=&#34;http://shelleygodwinarchive.org/images/ox/ms_abinger_c57/ms_abinger_c57-0036.jp2&#34;/&gt; &lt;zone type=&#34;main&#34; sid=&#34;c57-0036__main&#34;/&gt; &lt;damage type=&#34;tear&#34;/&gt;', '&lt;zone eid=&#34;c57-0036__main&#34;/&gt; &lt;surface eid=&#34;ox-ms_abinger_c57-0036&#34;/&gt; &lt;surface lrx=&#34;5138&#34; lry=&#34;7032&#34; partof=&#34;#ox-frankenstein_volume_ii&#34; ulx=&#34;0&#34; uly=&#34;0&#34; folio=&#34;19r&#34; shelfmark=&#34;ms. abinger c. 57&#34; base=&#34;ox-ms_abinger_c57/ox-ms_abinger_c57-0037.xml&#34; id=&#34;ox-ms_abinger_c57-0037&#34; sid=&#34;ox-ms_abinger_c57-0037&#34;/&gt; &lt;graphic url=&#34;http://shelleygodwinarchive.org/images/ox/ms_abinger_c57/ms_abinger_c57-0037.jp2&#34;/&gt; &lt;zone type=&#34;main&#34; sid=&#34;c57-0037__main&#34;/&gt; &lt;handshift medium=&#34;pen&#34; new=&#34;#mws&#34;/&gt;   &lt;del&gt;having overcome many difficulties succeeded  at length in joining her lover in his retreat &lt;/del&gt;']">
-			<rdg wit="fMS">safely &lt;longToken&gt;at the cottage of her lover.&lt;damage
-				type="tear"/&gt; &lt;zone eID="c57-0035__main"/&gt; &lt;surface
-				eID="ox-ms_abinger_c57-0035"/&gt; &lt;surface lrx="7230" lry="5034"
-				partOf="ox-frankenstein_notebook_b.xml#ox-frankenstein_volume_ii" ulx="0" uly="0"
-				folio="18v" shelfmark="MS. Abinger c. 57"
-				base="ox-ms_abinger_c57/ox-ms_abinger_c57-0036.xml" id="ox-ms_abinger_c57-0036"
-				sID="ox-ms_abinger_c57-0036"/&gt; &lt;graphic
-				url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c57/ms_abinger_c57-0036.jp2"/&gt;
-				&lt;zone type="main" sID="c57-0036__main"/&gt; &lt;damage type="tear"/&gt; &lt;zone
-				eID="c57-0036__main"/&gt; &lt;surface eID="ox-ms_abinger_c57-0036"/&gt; &lt;surface
-				lrx="5138" lry="7032" partOf="#ox-frankenstein_volume_ii" ulx="0" uly="0"
-				folio="19r" shelfmark="MS. Abinger c. 57"
-				base="ox-ms_abinger_c57/ox-ms_abinger_c57-0037.xml" id="ox-ms_abinger_c57-0037"
-				sID="ox-ms_abinger_c57-0037"/&gt; &lt;graphic
-				url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c57/ms_abinger_c57-0037.jp2"/&gt;
-				&lt;zone type="main" sID="c57-0037__main"/&gt; &lt;handShift medium="pen"
-				new="#mws"/&gt; &lt;lb n="c57-0037__main__1"/&gt; &lt;delSpan rend="strikethrough"
+			n="['having overcome many difficulties succeeded at length in joining her lover in his retreat ']">
+			<rdg wit="fMS">&lt;longToken&gt;&lt;delSpan rend="strikethrough"
 				spanTo="#c57-0037.01"/&gt;having overcome many difficulties succeeded &lt;lb
-				n="c57-0037__main__2"/&gt;at length in joining her lover in his retreat &lt;delSpan
-				anchor="c57-0037.01"/&gt;&lt;/longToken&gt;</rdg>
+				n="c57-0037__main__2"/&gt;at length in joining her lover in his retreat &lt;anchor
+				xml:id="c57-0037.01"/&gt;&lt;/longToken&gt;</rdg>
 		</rdgGrp>
 	</app>
 	<app>
@@ -3681,4 +3942,4 @@
 		</rdgGrp>
 	</app>
 </cx:apparatus>
-<!-- 2023-07-10 03:35:10.530003 -->
+<!-- 2023-03-25 21:09:54.340735 -->
