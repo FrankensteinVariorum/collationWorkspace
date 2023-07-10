@@ -422,7 +422,7 @@ app>
 - [x] 2023-07-09 ebb: extend a longToken to unite the MS w/ other witnesses around this passage:
      "that the fiend would follow me and exempt me/my family from the danger of his machinations."  
 
-- [ ] **Misalignment:** In MS, two sentences are different from three paragraphs in other editions. The longToken doesn't work because the algorithm can't identify where they should come together correctly. They should go back together at `cologne we descended`. (Search `cologne we descended` in `Collation_C24-complete-june5.xml` to see how MS is far from other editions.) 
+- [x] **Misalignment:** In MS, two sentences are different from three paragraphs in other editions. The longToken doesn't work because the algorithm can't identify where they should come together correctly. They should go back together at `cologne we descended`. (Search `cologne we descended` in `Collation_C24-complete-june5.xml` to see how MS is far from other editions.) 
 
   Thus, I try to wrap longToken around the two sentences in MS and the last two paragraphs of the three paragraphs. However, the two paragraphs are a little bit lengthy. A better solution to address this misalignment is expected.
   2023-07-09 ebb: I'm solving this by moving the "Cologne" passage through the end of C24 over to the start of C25, to force the sections to align properly. 
