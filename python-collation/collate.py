@@ -100,6 +100,7 @@ RE_LT_END = re.compile(r'</longToken>')
 RE_HEAD_START = re.compile(r'<head.*?>')
 RE_HEAD_END = re.compile(r'</head>')
 RE_DOTDASH = re.compile(r'\.–')
+RE_BIBL = re.compile(r'<bibl.+?>') #Added 2023-07-09 ebb
 
 # RE_DOTDASH captures a period followed by a dash, frequently seen in the S-GA edition, and not a word-dividing hyphen.
 # 2022-08-08 ebb: I'm currently treating the "dotdash" as just a period for normalization to improve alignments.
@@ -221,6 +222,7 @@ def normalize(inputText):
     normalized = RE_OPENQT.sub('"', normalized)
     normalized = RE_QUOTE.sub('', normalized)
     normalized = RE_CIT.sub('', normalized)
+    normalized = RE_BIBL.sub('', normalized) # Added 2023-07-29 ebb
     normalized = RE_L.sub('<l/>', normalized)
     normalized = RE_LG.sub('<lg/>', normalized)
     normalized = RE_AB.sub('', normalized)
