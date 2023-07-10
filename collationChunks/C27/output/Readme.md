@@ -66,6 +66,8 @@
 		</rdgGrp>
 	</app>
 	```
+    - Put longToken around each variation. "be all true,"/"all be true -"	
+    - I am pretty sure.this is 	
     - Honestly I think this is fine but, this needs to be looked at by someone else. 	
 - [X] This section (specifically the manuscript) is misaligned. 'siezed immedietely' should be in the next &lt;app&gt; node. 
 	 ```xml
@@ -183,7 +185,7 @@
 	</app>
 	```
     - Wrapped longToken around 'was too great an agitation to be' in all versions . 
-- [ ] At the near bottom of the collation chunk, a large section of the 1831 version is completely reworked, compared to the others.
+- [X] At the near bottom of the collation chunk, a large section of the 1831 version is completely reworked, compared to the others.
     - I wrapped the entire rewritten section in a longToken. 
 - [X] This section is misaligned. 'death' should be in the next &lt;app&gt;
 	 ```xml
@@ -237,7 +239,7 @@
 	</app>
 	```
     - Wrap each 'that faintly reminds me of the anguish of recognition.' in a longToken
-- [ ] This section is fine. But it may look cleaner and remove the schema marker if 'which to me was' was pushed into the neighboring &lt;app&gt;
+- [X] This section is fine. But it may look cleaner and remove the schema marker if 'which to me was' was pushed into the neighboring &lt;app&gt;
 	```
 	<app>
 		<rdgGrp n="['be', 'let', 'loose']">
@@ -272,8 +274,8 @@
     - 2023-07-04: As of this timemark, the current changes to this section failed to align appropriately.
     - 2023-07-06: Putting longToken around variations of "to bet let loose" and "to remain". Is this an appropriate method? Will it even work???
         - No. It isn't a good method and it did not work. I am going to remove all longTokens from this section and start over. 
-    - 
-- [ ] This section is really weird. I think it is misaligned. Most variations are the same except for the manuscript.
+    -  2023-07-07: lengthening and combining longTokens
+- [X] This section is really weird. I think it is misaligned. Most variations are the same except for the manuscript.
 	```
 	<app>
 		<rdgGrp n="['the']">
@@ -302,7 +304,8 @@
 		</rdgGrp>
 	</app>
 	```
-- [ ] This section is misaligned. variations of shuddering should be pushed down. 
+    - Wrap all witnesses of 'of the law' in each variation. 	
+- [X] This section is misaligned. variations of shuddering should be pushed down. 
 	```
 	<app>
 		<rdgGrp n="['remembered']">
@@ -328,3 +331,5 @@
 	</app>
 	```
     - 2023-07-06: I am going to wrap all varations of "remembered, shuddering,"/"remembered shuddering"/"remembered with shuddering".	
+## Pass 1 notes
+- The chunk's initial alignment passing is done. Ready for review.
