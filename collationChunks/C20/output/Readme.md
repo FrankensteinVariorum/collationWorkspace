@@ -62,6 +62,6 @@
  - **Possibly Fixed!** The Manuscript shows up with the others, but other adjustments have followed it afterwards. Assess this before marking as fixed. 
  - **Sending this branch for review:** Dr. Bondar can give this a look, and hopefully there are very few issues left. I will switch to main branch and create a branch for C22 now and make chapters into longTokens if necessary.
 
-# 3-09-2023
+# 7-09-2023
 
 - [ ] Merge apps: wrapping longToken around `learnt the name of the spot where he then` in print editions.
