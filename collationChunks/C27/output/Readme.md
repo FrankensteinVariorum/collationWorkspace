@@ -40,7 +40,7 @@
 		</rdgGrp>
 	</app>
 	```
-- [ ] This section is not necessarily misaligned. But all the tokens are mixed up and are hard to read. May be easier to align by wrapping a longToken for each phrase.
+- [x] This section is not necessarily misaligned. But all the tokens are mixed up and are hard to read. May be easier to align by wrapping a longToken for each phrase.
 	 ```xml
 	<app>
 		<rdgGrp n="['be']">
@@ -333,3 +333,20 @@
     - 2023-07-06: I am going to wrap all varations of "remembered, shuddering,"/"remembered shuddering"/"remembered with shuddering".	
 ## Pass 1 notes
 - The chunk's initial alignment passing is done. Ready for review.
+- [x] 2023-07-10 ebb: Correcting/simplifying alignment around three-witness section: 
+   "you, but you will be hanged/hung when the next session comes"
+- [x] 1831 "Immediately upon your being taken ill" passage: wrap in longTokens to line up witnesses, which come back together at: 
+   "that I might discover some trace"
+- [x] longToken for all witnesses except fMS at "endeavoured by dwelling" to "abode of cheerfulness"
+      Witnesses reunite at "What a place"
+- [x] long 1831 passage near the end out of alignment: MOVE longToken back further "restrain me from...committing..."
+- [x] Fix chapter heading alignments so MS joins the rest of the editions.
+
+## Hand Edit (later)
+2023-07-10 ebb: This passage in 1831 needs to be moved far down. It's a second longToken sitting after another longToken:
+
+```
+&lt;longToken&gt;&lt;pb
+				xml:id="F1831_v_180" n="164"/&gt;It was midnight. I lay on the deck, looking at the
+				stars,&lt;/longToken&gt;
+```				
