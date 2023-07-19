@@ -27,7 +27,7 @@
 	</app>
     ```	
     - 2023-07-19: Wrapped longToken around "Such a monster has then really existence! I" in all versions.
-- [ ] Misalignment. 'formation' should be in the following app.
+- [X] Misalignment. 'formation' should be in the following app.
     ```
 	<app>
 		<rdgGrp n="['creature’s']">
@@ -51,24 +51,8 @@
 		</rdgGrp>
 	</app>
     ```	
-    - 2023-07-19: Wrapped longToken around "the particulars of his creature’s formation; but on this point he was impenetrable" in all versions.
-- [ ] This section is fine for the most part. But, 'and' and 'for' and stuck together.
-    ```
-	<app>
-		<rdgGrp n="['and']">
-			<rdg wit="f1818">and</rdg>
-			<rdg wit="f1823">and</rdg>
-			<rdg wit="fThomas">and</rdg>
-			<rdg wit="f1831">and</rdg>
-		</rdgGrp>
-		<rdgGrp n="['andfor', '']">
-			<rdg wit="fMS">&amp;&lt;sga-add hand="#pbs" place="superlinear"
-				sID="c57-0169__main__d4e33209"/&gt;for &lt;sga-add
-				eID="c57-0169__main__d4e33209"/&gt;</rdg>
-		</rdgGrp>
-	</app>
-    ```	
-- [ ] Misaligned. 
+    - 2023-07-19: Wrapped longToken around "From Frankenstein the particulars of his creature’s formation; but on this point he was impenetrable" in all versions.
+- [X] Misaligned. 
     ```
 	<app>
 		<rdgGrp n="['demoniacal', 'enemy?']">
@@ -106,7 +90,7 @@
 	</app>
     ```	
     - 2023-07-19: Wrap all versions of "the world a demoniacal enemy?"/"the world a demoniacal enemy? Or to what do your questions tend?" in longToken
-- [ ] This section is fine. However, it may be more appropritae to put these nodes under a single app node
+- [X] This section is fine. However, it may be more appropritae to put these nodes under a single app node
     ```
 	<app>
 		<rdgGrp n="['his', 'shattered']">
@@ -139,7 +123,7 @@
 	</app>
     ```
     - 2023-07-19: Wrapped longToken around all versions of "compose his shattered spirit"/"compose his shattered feelings"
-- [ ] Not necessarily misaligned, but the rdgGrps have less than four witnesses.
+- [X] Not necessarily misaligned, but the rdgGrps have less than four witnesses.
     ```
 	<app>
 		<rdgGrp n="['but', 'the']">
@@ -167,8 +151,8 @@
 		</rdgGrp>
 	</app>
     ```	
-    - 2023-07-19: Wrapped longToken around all versions of "but the beings themselves"
-- [ ] misaligned?
+    - 2023-07-19: Wrapped longToken around all versions of "fancy, but the beings themselves"
+- [X] misaligned?
     ```
 	<app>
 		<rdgGrp n="['believed', 'myself']">
@@ -192,7 +176,7 @@
 	</app>
     ```	
     - Wrapped all versions of "I believed myself destined for some great enterprise." in longToken
-- [ ] Misalignment
+- [X] Misalignment
     ```
 	<app>
 		<rdgGrp n="['merits;']">
