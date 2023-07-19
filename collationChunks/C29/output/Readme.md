@@ -1,4 +1,5 @@
 # Chunk 29 Notes
+## pass 1
 - [X] transdisposition found
     ```
 	<app>
@@ -138,7 +139,8 @@
     ```	
     - 2023-7-14: wrapped longToken around each variation of “little happiness remains for us on earth; yet". And, all variations of "concentered in"/"centred in"
         - The “little happiness remains" sentence is properly aligned. However, "concentered in"/"centred in" are still in the wrong nodes.
-- [ ] weird section. In the book, it says "earnestly entreat", which is a little confusing. But it should be fine.
+    - 2023-7-19: wrapped "concentered in you."/"centred in you."
+- [X] weird section. In the book, it says "earnestly entreat", which is a little confusing. But it should be fine.
     ```
 	<app>
 		<rdgGrp n="['earnestly']">
@@ -191,6 +193,7 @@
     ```	
     - I wrapped "i shall be" in all versions 
         - Did not work. Manuscript version needs to be pulled up to next app in order to align properly. That, all the other versions except the manuscript get pushed down.
+    - 2023-7-19: I wrapped "i shall be" in all versions, ignoring quotaton mark
 - [ ] 2023-7-14: transdisposition found
     ```
 	<app>
@@ -246,21 +249,9 @@
 	</app>
     ```	
     - Removed space before secret in manuscript. idk if this will work   
-- [ ] Random space removed during july 14 collation?
-    ```
-		<rdgGrp n="['although', 'they']">
-			<rdg wit="f1818">although they</rdg>
-			<rdg wit="f1823">although they</rdg>
-			<rdg wit="f1831">although they</rdg>
-			<rdg wit="fMS">although &lt;lb n="c57-0143__main__12"/&gt;they</rdg>
-		</rdgGrp>
-		<rdgGrp n="['althoughthey']">
-			<rdg wit="fThomas">althoughthey</rdg>
-		</rdgGrp>
-    ```
-    - added space after "although"    
+    - 2023-07-19: Wrapped "dreadful secret" in all versions.
 - [ ] large misalignmet found for 1831. 
-```
+    ```
 	<app>
 		<rdgGrp n="['a']">
 			<rdg wit="f1818">A</rdg>
@@ -285,4 +276,76 @@
 			<rdg wit="f1831">part of the inheritance of Elizabeth had been restored to her</rdg>
 		</rdgGrp>
 	</app>
-```
+    ```
+    - 2023-07-19: Wrapped large longToken around differing 1931 segment. 
+- [ ] 2023-07-19: Weird alignment
+    ```
+    	<app>
+		<rdgGrp
+			n="['&lt;del&gt;,&lt;/del&gt;', '.', '&lt;del&gt;and return to cologny the next morning.&lt;/del&gt;']">
+			<rdg wit="fThomas">&lt;del rend="strikethrough"&gt;,&lt;/del&gt;
+				&lt;add&gt;.&lt;/add&gt; &lt;del&gt;and return to Cologny the next
+				morning.&lt;/del&gt;</rdg>
+		</rdgGrp>
+		<rdgGrp n="['and']">
+			<rdg wit="f1818">and</rdg>
+			<rdg wit="f1823">and</rdg>
+			<rdg wit="f1831">and</rdg>
+			<rdg wit="fMS">and</rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['continuing']">
+			<rdg wit="f1831">continuing</rdg>
+		</rdgGrp>
+		<rdgGrp n="['return', 'to', 'cologny']">
+			<rdg wit="f1818">return to Cologny</rdg>
+			<rdg wit="f1823">return to Cologny</rdg>
+		</rdgGrp>
+		<rdgGrp n="['set', 'out', 'on']">
+			<rdg wit="fMS">set out on</rdg>
+		</rdgGrp>
+	</app>
+    ```
+    - Wrapped longToken around "Evian, and continuing our voyage on the following day. The day was" in all versions   
+## pass 2
+- [ ] "To Victor Frankenstein, my dearest friend" aligned inappropriately.
+    ```
+	<app>
+		<rdgGrp n="['&#34; to', 'v ictor', 'f rankenstein .', '&lt;p-end/&gt;']">
+			<rdg wit="f1818">“&lt;hi sID="novel1_letter4_chapter21_div4_div23_p11_hi1"/&gt;To&lt;hi
+				eID="novel1_letter4_chapter21_div4_div23_p11_hi1"/&gt; V&lt;hi
+				sID="novel1_letter4_chapter21_div4_div23_p11_hi2"/&gt;ICTOR&lt;hi
+				eID="novel1_letter4_chapter21_div4_div23_p11_hi2"/&gt; F&lt;hi
+				sID="novel1_letter4_chapter21_div4_div23_p11_hi3"/&gt;RANKENSTEIN&lt;hi
+				eID="novel1_letter4_chapter21_div4_div23_p11_hi3"/&gt;. &lt;p
+				eID="novel1_letter4_chapter21_div4_div23_p11"/&gt;</rdg>
+			<rdg wit="f1823">“&lt;hi sID="novel1_letter4_chapter21_div4_div22_p10_hi1"/&gt;To&lt;hi
+				eID="novel1_letter4_chapter21_div4_div22_p10_hi1"/&gt; V&lt;hi
+				sID="novel1_letter4_chapter21_div4_div22_p10_hi2"/&gt;ICTOR&lt;hi
+				eID="novel1_letter4_chapter21_div4_div22_p10_hi2"/&gt; F&lt;hi
+				sID="novel1_letter4_chapter21_div4_div22_p10_hi3"/&gt;RANKENSTEIN&lt;hi
+				eID="novel1_letter4_chapter21_div4_div22_p10_hi3"/&gt;. &lt;p
+				eID="novel1_letter4_chapter21_div4_div22_p10"/&gt;</rdg>
+			<rdg wit="fThomas">“&lt;hi
+				sID="novel1_letter4_chapter21_div4_div23_p11_hi1"/&gt;To&lt;hi
+				eID="novel1_letter4_chapter21_div4_div23_p11_hi1"/&gt; V&lt;hi
+				sID="novel1_letter4_chapter21_div4_div23_p11_hi2"/&gt;ICTOR&lt;hi
+				eID="novel1_letter4_chapter21_div4_div23_p11_hi2"/&gt; F&lt;hi
+				sID="novel1_letter4_chapter21_div4_div23_p11_hi3"/&gt;RANKENSTEIN&lt;hi
+				eID="novel1_letter4_chapter21_div4_div23_p11_hi3"/&gt;. &lt;p
+				eID="novel1_letter4_chapter21_div4_div23_p11"/&gt;</rdg>
+		</rdgGrp>
+		<rdgGrp
+			n="['to', 'victor', 'fankenstein', 'may', '', '&lt;del&gt;feb.&lt;/del&gt;', '', '18', '–', '17—', 'my', 'dearest', 'friend.', 'it']">
+			<rdg wit="fMS">&lt;lb n="c57-0134__main__33"/&gt;To Victor Fankenstein &lt;lb
+				n="c57-0134__main__34"/&gt;&lt;mod sID="c57-0134__main__d4e25000"/&gt;&lt;sga-add
+				place="superlinear" sID="c57-0134__main__d4e25002"/&gt;May &lt;sga-add
+				eID="c57-0134__main__d4e25002"/&gt; &lt;del rend="strikethrough"
+				xml:id="c57-0134__main__d4e25005"&gt;Feb.&lt;/del&gt; &lt;mod
+				eID="c57-0134__main__d4e25000"/&gt; 18 – 17— &lt;lb n="c57-0134__main__35"/&gt;My
+				dearest Friend. &lt;lb n="c57-0135__main__1"/&gt;It</rdg>
+		</rdgGrp>
+	</app>
+    ```
+    - Wrapped longToken around all versions of "To Victor Frankenstein, my dearest friend"
