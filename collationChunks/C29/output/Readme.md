@@ -118,7 +118,7 @@
 		</rdgGrp>
     ```
     - 2023-7-14: wrapped longToken around all variations of "mean time; for,"
-- [ ] misalignment found
+- [X] misalignment found
     ```
 	<app>
 		<rdgGrp n="['&lt;del&gt;all&lt;/del&gt;']">
@@ -167,7 +167,7 @@
 		</rdgGr
     ```		
     - 2023-7-14: I added a space between "you" and "&"
-- [ ] misalignment found
+- [X] misalignment found
     ```
 	<app>
 		<rdgGrp n="['words,']">
@@ -194,7 +194,7 @@
     - I wrapped "i shall be" in all versions 
         - Did not work. Manuscript version needs to be pulled up to next app in order to align properly. That, all the other versions except the manuscript get pushed down.
     - 2023-7-19: I wrapped "i shall be" in all versions, ignoring quotaton mark
-- [ ] 2023-7-14: transdisposition found
+- [X] 2023-7-14: transdisposition found
     ```
 	<app>
 		<rdgGrp n="['if', 'my', 'cousin', 'would', 'consent,']">
@@ -228,7 +228,7 @@
     ```
     - wrapped longToken around all versions of "that if my cousin would consent, the ceremony should take place in ten days" and "that the ceremony should take place if my cousin would consent in ten days."
         - Did not work. I think I just need to move the first longToken before "father" for all the other versions to be properly aligned.
-- [ ] misalignment 
+- [X] misalignment 
     ```
 	<app>
 		<rdgGrp n="['']">
@@ -250,7 +250,7 @@
     ```	
     - Removed space before secret in manuscript. idk if this will work   
     - 2023-07-19: Wrapped "dreadful secret" in all versions.
-- [ ] large misalignmet found for 1831. 
+- [X] large misalignmet found for 1831. 
     ```
 	<app>
 		<rdgGrp n="['a']">
@@ -278,7 +278,9 @@
 	</app>
     ```
     - 2023-07-19: Wrapped large longToken around differing 1931 segment. 
-- [ ] 2023-07-19: Weird alignment
+    - 2023-07-19: I also wrapped the other editions, "A house was purchased for us near Cologny, by which we should enjoy the pleasures of the country, and yet be so near Geneva as to see my father every day; who would still reside within the walls, for the benefit of Ernest, that he might follow his studies at the schools."
+        - Really the previous longToken worked, but then we have a section marked blue. It is annoying.
+- [X] 2023-07-19: Weird alignment
     ```
     	<app>
 		<rdgGrp
@@ -309,7 +311,7 @@
     ```
     - Wrapped longToken around "Evian, and continuing our voyage on the following day. The day was" in all versions   
 ## pass 2
-- [ ] "To Victor Frankenstein, my dearest friend" aligned inappropriately.
+- [X] "To Victor Frankenstein, my dearest friend" aligned inappropriately.
     ```
 	<app>
 		<rdgGrp n="['&#34; to', 'v ictor', 'f rankenstein .', '&lt;p-end/&gt;']">
@@ -349,3 +351,158 @@
 	</app>
     ```
     - Wrapped longToken around all versions of "To Victor Frankenstein, my dearest friend"
+- [X] misalignment, we should be in next app
+    ```
+    	<app>
+		<rdgGrp n="['infancy.']">
+			<rdg wit="f1818">infancy.</rdg>
+			<rdg wit="fThomas">infancy.</rdg>
+			<rdg wit="f1831">infancy.</rdg>
+		</rdgGrp>
+		<rdgGrp n="['infancy–we']">
+			<rdg wit="fMS">infancy–We</rdg>
+		</rdgGrp>
+		<rdgGrp n="['intimacy.']">
+			<rdg wit="f1823">intimacy.</rdg>
+		</rdgGrp>
+	</app>
+    ```
+    - added space before we in manuscript 
+- [X] misalignment. "ah victor" should be in following app
+    ```
+    	<app>
+		<rdgGrp n="['wishes', 'ah', 'victor']">
+			<rdg wit="fMS">wishes &lt;lb n="c57-0137__main__15"/&gt;Ah Victor</rdg>
+		</rdgGrp>
+		<rdgGrp n="['wishes.']">
+			<rdg wit="f1818">wishes.</rdg>
+			<rdg wit="f1823">wishes.</rdg>
+			<rdg wit="fThomas">wishes.</rdg>
+			<rdg wit="f1831">wishes.</rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['ah!']">
+			<rdg wit="f1831">Ah!</rdg>
+		</rdgGrp>
+		<rdgGrp n="['ah,']">
+			<rdg wit="f1818">Ah,</rdg>
+			<rdg wit="f1823">Ah,</rdg>
+			<rdg wit="fThomas">Ah,</rdg>
+		</rdgGrp>
+	</app>
+    ```
+    - Wrapped longToken around all versions of "ah victor"
+        - did not work. moving first longToken before wishes
+- [X] misalignment
+    ```
+    	<app>
+		<rdgGrp n="['it']">
+			<rdg wit="f1818">it</rdg>
+			<rdg wit="f1823">it</rdg>
+			<rdg wit="fThomas">it</rdg>
+			<rdg wit="fMS">it</rdg>
+		</rdgGrp>
+		<rdgGrp n="['tomorrow,']">
+			<rdg wit="f1831">tomorrow,</rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['to-morrow,']">
+			<rdg wit="f1818">to-morrow,</rdg>
+			<rdg wit="f1823">to-morrow,</rdg>
+			<rdg wit="fThomas">to-morrow,</rdg>
+		</rdgGrp>
+		<rdgGrp n="['tomorrow']">
+			<rdg wit="fMS">tomorrow</rdg>
+		</rdgGrp>
+	</app>
+    ```    
+    - 2023-7-19: wrapped all versions of "not answer it to-morrow, or the next day," in longToken    
+- [ ] 2023-7-19: Not a misalignment but is marked yellow. it is annoying.
+    ```
+    	<app>
+		<rdgGrp n="['spoke', 'or']">
+			<rdg wit="f1818">spoke or</rdg>
+			<rdg wit="fThomas">spoke or</rdg>
+			<rdg wit="fMS">spoke or</rdg>
+		</rdgGrp>
+		<rdgGrp n="['spoke,', 'nor']">
+			<rdg wit="f1823">spoke, nor</rdg>
+			<rdg wit="f1831">spoke, nor</rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['looked']">
+			<rdg wit="f1823">looked</rdg>
+			<rdg wit="f1831">looked</rdg>
+			<rdg wit="fMS">looked</rdg>
+		</rdgGrp>
+		<rdgGrp n="['looked,']">
+			<rdg wit="f1818">looked,</rdg>
+			<rdg wit="fThomas">looked,</rdg>
+		</rdgGrp>
+	</app>
+    ```
+    - Wrapped longToken around all versions of 'I neither spoke or looked, but sat'    
+- [ ] Misalignment
+    ```
+	<app>
+		<rdgGrp n="['', 'tranquillity–', 'and', 'indeed']">
+			<rdg wit="fMS">&lt;sga-add eID="c57-0143__main__d4e26688"/&gt;&lt;mod
+				eID="c57-0143__main__d4e26680"/&gt; tranquillity– And indeed</rdg>
+		</rdgGrp>
+		<rdgGrp n="['&lt;del&gt;tranquillity&lt;/del&gt;', 'security', '.']">
+			<rdg wit="fThomas">&lt;del rend="strikethrough"&gt;tranquillity&lt;/del&gt;
+				&lt;add&gt;security&lt;/add&gt; .</rdg>
+		</rdgGrp>
+		<rdgGrp n="['tranquillity.']">
+			<rdg wit="f1818">tranquillity.</rdg>
+			<rdg wit="f1823">tranquillity.</rdg>
+			<rdg wit="f1831">tranquillity.</rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['indeed,']">
+			<rdg wit="f1818">Indeed,</rdg>
+			<rdg wit="f1823">Indeed,</rdg>
+			<rdg wit="fThomas">Indeed,</rdg>
+			<rdg wit="f1831">Indeed,</rdg>
+		</rdgGrp>
+	</app>
+    ```	
+    - I wrapped a longToken around all versions of "gained a greater degree of tranquillity. Indeed,"    
+- [ ] Misalignment
+    ```
+		<rdgGrp n="['overjoyed', 'and']">
+			<rdg wit="fMS">&lt;w ana="start"/&gt;over&lt;lb n="c57-0144__main__9"/&gt;joyed&lt;w
+				ana="end"/&gt; and</rdg>
+		</rdgGrp>
+		<rdgGrp n="['overjoyed,']">
+			<rdg wit="f1823">overjoyed,</rdg>
+			<rdg wit="f1831">overjoyed,</rdg>
+		</rdgGrp>
+		<rdgGrp n="['overjoyed;']">
+			<rdg wit="f1818">overjoyed;</rdg>
+			<rdg wit="fThomas">overjoyed;</rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['and,']">
+			<rdg wit="f1818">and,</rdg>
+			<rdg wit="f1823">and,</rdg>
+			<rdg wit="fThomas">and,</rdg>
+			<rdg wit="f1831">and,</rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['in', 'the', 'bustle', 'of']">
+			<rdg wit="f1818">in the bustle of</rdg>
+			<rdg wit="f1823">in the bustle of</rdg>
+			<rdg wit="fThomas">in the bustle of</rdg>
+			<rdg wit="f1831">in the bustle of</rdg>
+			<rdg wit="fMS">in the bustle of</rdg>
+		</rdgGrp>
+	</app>
+    ```
+    - Wrapped longToken around all versions of "overjoyed, and, in the bustle of"    

@@ -1856,19 +1856,27 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['wishes  ah victor']">
-			<rdg wit="fMS">&lt;longToken&gt;wishes &lt;lb n="c57-0137__main__15"/&gt;Ah
+		<rdgGrp n="['wishes', '', 'ah victor']">
+			<rdg wit="fMS">wishes &lt;lb n="c57-0137__main__15"/&gt; &lt;longToken&gt;Ah
 				Victor&lt;/longToken&gt;</rdg>
 		</rdgGrp>
-		<rdgGrp n="['wishes. ah! victor,']">
-			<rdg wit="f1831">&lt;longToken&gt;wishes. Ah! Victor,&lt;/longToken&gt;</rdg>
+		<rdgGrp n="['wishes.']">
+			<rdg wit="f1818">wishes.</rdg>
+			<rdg wit="f1823">wishes.</rdg>
+			<rdg wit="fThomas">wishes.</rdg>
+			<rdg wit="f1831">wishes.</rdg>
 		</rdgGrp>
-		<rdgGrp n="['wishes. ah, victor,']">
-			<rdg wit="f1818">&lt;longToken&gt;wishes. Ah, Vic&lt;pb xml:id="F1818_v3_104"
+	</app>
+	<app>
+		<rdgGrp n="['ah! victor,']">
+			<rdg wit="f1831">&lt;longToken&gt;Ah! Victor,&lt;/longToken&gt;</rdg>
+		</rdgGrp>
+		<rdgGrp n="['ah, victor,']">
+			<rdg wit="f1818">&lt;longToken&gt;Ah, Vic&lt;pb xml:id="F1818_v3_104"
 				n="100"/&gt;tor,&lt;/longToken&gt;</rdg>
-			<rdg wit="f1823">&lt;longToken&gt;wishes. Ah, Vic&lt;pb xml:id="F1823_v2_461"
+			<rdg wit="f1823">&lt;longToken&gt;Ah, Vic&lt;pb xml:id="F1823_v2_461"
 				n="188"/&gt;tor,&lt;/longToken&gt;</rdg>
-			<rdg wit="fThomas">&lt;longToken&gt;wishes. Ah, Vic&lt;pb xml:id="F1818_v3_104"
+			<rdg wit="fThomas">&lt;longToken&gt;Ah, Vic&lt;pb xml:id="F1818_v3_104"
 				n="100"/&gt;tor,&lt;/longToken&gt;</rdg>
 		</rdgGrp>
 	</app>
@@ -4944,25 +4952,67 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['and  des pondant  i neither spoke or looked but sat', 'motionless']">
-			<rdg wit="fMS">&lt;longToken&gt;&amp; &lt;w ana="start"/&gt;des&lt;lb
-				n="c57-0140__main__26"/&gt;pondant&lt;w ana="end"/&gt; I neither spoke or looked
-				&lt;lb n="c57-0140__main__27"/&gt;but sat&lt;/longToken&gt; motionless</rdg>
+		<rdgGrp n="['and despondant']">
+			<rdg wit="fMS">&amp;&lt;w ana="start"/&gt;des&lt;lb
+				n="c57-0140__main__26"/&gt;pondant&lt;w ana="end"/&gt;</rdg>
 		</rdgGrp>
-		<rdgGrp n="['and despondent. i neither spoke or looked, but sat']">
-			<rdg wit="f1818">&lt;longToken&gt;and despondent. I neither spoke or looked, but
-				sat&lt;/longToken&gt;</rdg>
-			<rdg wit="fThomas">&lt;longToken&gt;and despondent. I neither spoke or looked, but
-				sat&lt;/longToken&gt;</rdg>
-		</rdgGrp>
-		<rdgGrp n="['and despondent. i neither spoke, nor looked at any one, but sat']">
-			<rdg wit="f1823">&lt;longToken&gt;and despondent. I neither spoke, nor looked at any
-				one, but sat&lt;/longToken&gt;</rdg>
-			<rdg wit="f1831">&lt;longToken&gt;and despondent. I neither spoke, nor looked at any
-				one, but sat&lt;/longToken&gt;</rdg>
+		<rdgGrp n="['and', 'despondent.']">
+			<rdg wit="f1818">and despondent.</rdg>
+			<rdg wit="f1823">and despondent.</rdg>
+			<rdg wit="fThomas">and despondent.</rdg>
+			<rdg wit="f1831">and despondent.</rdg>
 		</rdgGrp>
 	</app>
 	<app>
+		<rdgGrp n="['i', 'neither']">
+			<rdg wit="f1818">I neither</rdg>
+			<rdg wit="f1823">I neither</rdg>
+			<rdg wit="fThomas">I neither</rdg>
+			<rdg wit="f1831">I neither</rdg>
+			<rdg wit="fMS">I neither</rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['spoke', 'or']">
+			<rdg wit="f1818">spoke or</rdg>
+			<rdg wit="fThomas">spoke or</rdg>
+			<rdg wit="fMS">spoke or</rdg>
+		</rdgGrp>
+		<rdgGrp n="['spoke,', 'nor']">
+			<rdg wit="f1823">spoke, nor</rdg>
+			<rdg wit="f1831">spoke, nor</rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['looked']">
+			<rdg wit="f1823">looked</rdg>
+			<rdg wit="f1831">looked</rdg>
+			<rdg wit="fMS">looked</rdg>
+		</rdgGrp>
+		<rdgGrp n="['looked,']">
+			<rdg wit="f1818">looked,</rdg>
+			<rdg wit="fThomas">looked,</rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['at', 'any', 'one,']">
+			<rdg wit="f1823">at any one,</rdg>
+			<rdg wit="f1831">at any one,</rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['but', 'sat']">
+			<rdg wit="f1818">but sat</rdg>
+			<rdg wit="f1823">but sat</rdg>
+			<rdg wit="fThomas">but sat</rdg>
+			<rdg wit="f1831">but sat</rdg>
+			<rdg wit="fMS">&lt;lb n="c57-0140__main__27"/&gt;but sat</rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['motionless']">
+			<rdg wit="fMS">motionless</rdg>
+		</rdgGrp>
 		<rdgGrp n="['motionless,']">
 			<rdg wit="f1818">motionless,</rdg>
 			<rdg wit="f1823">motionless,</rdg>
@@ -7112,32 +7162,11 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp
-			n="['a house was purchased for us  near coligny by which we should enjoy  the pleasures of the country and yet be so  near geneva as to see my father every  day– who would still reside within the  walls for the benefit of ernest, that he  might follow his studies at the  university .']">
-			<rdg wit="fMS">&lt;longToken&gt;A house was purchased for us &lt;lb
-				n="c57-0143__main__14"/&gt;near Coligny by which we should enjoy &lt;lb
-				n="c57-0143__main__15"/&gt;the pleasures of the country and yet be so &lt;lb
-				n="c57-0143__main__16"/&gt;near Geneva as to see my father every &lt;lb
-				n="c57-0143__main__17"/&gt;day– who would still reside within the &lt;lb
-				n="c57-0143__main__18"/&gt;walls for the benefit of Ernest, that he &lt;lb
-				n="c57-0143__main__19"/&gt;might follow his studies at the &lt;w
-				ana="start"/&gt;universi&lt;lb n="c57-0143__main__20"/&gt;ty&lt;w
-				ana="end"/&gt;.&lt;/longToken&gt;</rdg>
-		</rdgGrp>
-		<rdgGrp
-			n="['a house was purchased for us near cologny, by which we should enjoy the pleasures of the country, and yet be so near geneva as to see my father every day; who would still reside within the walls, for the benefit of ernest, that he might follow his studies at the schools.']">
-			<rdg wit="f1818">&lt;longToken&gt;A house was purchased for us near Cologny, by which we
-				should enjoy the pleasures of the country, and yet be so near Geneva as to see my
-				father every day; who would still reside within the walls, for the benefit of
-				Ernest, that he might follow his studies at the schools.&lt;/longToken&gt;</rdg>
-			<rdg wit="f1823">&lt;longToken&gt;A house was purchased for us near Cologny, by which we
-				should enjoy the pleasures of the country, and yet be so near Geneva as to see my
-				father every day; who would still reside within the walls, for the benefit of
-				Ernest, that he might follow his studies at the schools.&lt;/longToken&gt;</rdg>
-			<rdg wit="fThomas">&lt;longToken&gt;A house was purchased for us near Cologny, by which
-				we should enjoy the pleasures of the country, and yet be so near Geneva as to see my
-				father every day; who would still reside within the walls, for the benefit of
-				Ernest, that he might follow his studies at the schools.&lt;/longToken&gt;</rdg>
+		<rdgGrp n="['a', 'house', 'was', 'purchased', 'for', 'us', 'near']">
+			<rdg wit="f1818">A house was purchased for us near</rdg>
+			<rdg wit="f1823">A house was purchased for us near</rdg>
+			<rdg wit="fThomas">A house was purchased for us near</rdg>
+			<rdg wit="fMS">A house was purchased for us &lt;lb n="c57-0143__main__14"/&gt;near</rdg>
 		</rdgGrp>
 		<rdgGrp
 			n="['through my father’s exertions, a part of the inheritance of elizabeth had been restored to her by the austrian government. a small possession on the shores of como belonged to her. it was agreed that, immediately after our union, we should proceed to villa lavenza, and spend our first days of happiness beside the beautiful lake near which it stood.']">
@@ -7147,6 +7176,97 @@
 				immediately after our union, we should proceed &lt;pb xml:id="F1831_v_188"
 				n="172"/&gt;to Villa Lavenza, and spend our first days of happiness beside the
 				beautiful lake near which it stood.&lt;/longToken&gt;</rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['coligny']">
+			<rdg wit="fMS">Coligny</rdg>
+		</rdgGrp>
+		<rdgGrp n="['cologny,']">
+			<rdg wit="f1818">Cologny,</rdg>
+			<rdg wit="f1823">Cologny,</rdg>
+			<rdg wit="fThomas">Cologny,</rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['by', 'which', 'we', 'should', 'enjoy', 'the', 'pleasures', 'of', 'the']">
+			<rdg wit="f1818">by which we should enjoy the pleasures of the</rdg>
+			<rdg wit="f1823">by which we should enjoy the pleasures of the</rdg>
+			<rdg wit="fThomas">by which we should enjoy the pleasures of the</rdg>
+			<rdg wit="fMS">by which we should enjoy &lt;lb n="c57-0143__main__15"/&gt;the pleasures
+				of the</rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['country']">
+			<rdg wit="fMS">country</rdg>
+		</rdgGrp>
+		<rdgGrp n="['country,']">
+			<rdg wit="f1818">country,</rdg>
+			<rdg wit="f1823">country,</rdg>
+			<rdg wit="fThomas">country,</rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp
+			n="['and', 'yet', 'be', 'so', 'near', 'geneva', 'as', 'to', 'see', 'my', 'father', 'every']">
+			<rdg wit="f1818">and yet be so near Geneva as to see my father every</rdg>
+			<rdg wit="f1823">and yet be so near Geneva as to see my father every</rdg>
+			<rdg wit="fThomas">and yet be so near Geneva as to see my father every</rdg>
+			<rdg wit="fMS">and yet be so &lt;lb n="c57-0143__main__16"/&gt;near Geneva as to see my
+				father every</rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['day;']">
+			<rdg wit="f1818">day;</rdg>
+			<rdg wit="f1823">day;</rdg>
+			<rdg wit="fThomas">day;</rdg>
+		</rdgGrp>
+		<rdgGrp n="['day–']">
+			<rdg wit="fMS">&lt;lb n="c57-0143__main__17"/&gt;day–</rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['who', 'would', 'still', 'reside', 'within', 'the']">
+			<rdg wit="f1818">who would still reside within the</rdg>
+			<rdg wit="f1823">who would still reside within the</rdg>
+			<rdg wit="fThomas">who would still reside within the</rdg>
+			<rdg wit="fMS">who would still reside within the</rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['walls']">
+			<rdg wit="fMS">&lt;lb n="c57-0143__main__18"/&gt;walls</rdg>
+		</rdgGrp>
+		<rdgGrp n="['walls,']">
+			<rdg wit="f1818">walls,</rdg>
+			<rdg wit="f1823">walls,</rdg>
+			<rdg wit="fThomas">walls,</rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp
+			n="['for', 'the', 'benefit', 'of', 'ernest,', 'that', 'he', 'might', 'follow', 'his', 'studies', 'at', 'the']">
+			<rdg wit="f1818">for the benefit of Ernest, that he might follow his studies at
+				the</rdg>
+			<rdg wit="f1823">for the benefit of Ernest, that he might follow his studies at
+				the</rdg>
+			<rdg wit="fThomas">for the benefit of Ernest, that he might follow his studies at
+				the</rdg>
+			<rdg wit="fMS">for the benefit of Ernest, that he &lt;lb
+				n="c57-0143__main__19"/&gt;might follow his studies at the</rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['schools.']">
+			<rdg wit="f1818">schools.</rdg>
+			<rdg wit="f1823">schools.</rdg>
+			<rdg wit="fThomas">schools.</rdg>
+		</rdgGrp>
+		<rdgGrp n="['university .']">
+			<rdg wit="fMS">&lt;w ana="start"/&gt;universi&lt;lb n="c57-0143__main__20"/&gt;ty&lt;w
+				ana="end"/&gt;.</rdg>
 		</rdgGrp>
 	</app>
 	<app>
@@ -7254,35 +7374,64 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp
-			n="['gained  a  great&lt;del&gt;er&lt;/del&gt;     degree of   tranquillity– and indeed']">
-			<rdg wit="fMS">&lt;longToken&gt;&lt;w ana="start"/&gt;gain&lt;lb
-				n="c57-0143__main__27"/&gt;ed&lt;w ana="end"/&gt; &lt;sga-add place="superlinear"
-				sID="c57-0143__main__d4e26674"/&gt;a &lt;sga-add eID="c57-0143__main__d4e26674"/&gt;
-				great&lt;del rend="strikethrough"
+		<rdgGrp n="['gained a', '', 'great', '&lt;del&gt;er&lt;/del&gt;', '', '']">
+			<rdg wit="fMS">&lt;w ana="start"/&gt;gain&lt;lb n="c57-0143__main__27"/&gt;ed&lt;w
+				ana="end"/&gt;&lt;sga-add place="superlinear" sID="c57-0143__main__d4e26674"/&gt;a
+				&lt;sga-add eID="c57-0143__main__d4e26674"/&gt; great &lt;del rend="strikethrough"
 				xml:id="c57-0143__main__d4e26677"&gt;er&lt;/del&gt; &lt;mod
-				sID="c57-0143__main__d4e26680"/&gt; &lt;sga-add place="sublinear"
+				sID="c57-0143__main__d4e26680"/&gt;&lt;sga-add place="sublinear"
 				sID="c57-0143__main__d4e26682"/&gt; &lt;metamark
-				function="insert"&gt;^&lt;/metamark&gt; &lt;sga-add
-				eID="c57-0143__main__d4e26682"/&gt; &lt;sga-add place="superlinear"
-				sID="c57-0143__main__d4e26688"/&gt;degree of &lt;sga-add
-				eID="c57-0143__main__d4e26688"/&gt; &lt;mod eID="c57-0143__main__d4e26680"/&gt;
-				tranquillity– And indeed&lt;/longToken&gt;</rdg>
+				function="insert"&gt;^&lt;/metamark&gt;</rdg>
 		</rdgGrp>
-		<rdgGrp n="['gained a greater degree of tranquillity. indeed,']">
-			<rdg wit="f1818">&lt;longToken&gt;gained a greater degree of tranquillity.
-				Indeed,&lt;/longToken&gt;</rdg>
-			<rdg wit="f1823">&lt;longToken&gt;gained a greater degree of tranquillity.
-				Indeed,&lt;/longToken&gt;</rdg>
-			<rdg wit="f1831">&lt;longToken&gt;gained a greater degree of tranquillity.
-				Indeed,&lt;/longToken&gt;</rdg>
+		<rdgGrp n="['gained']">
+			<rdg wit="f1818">gained</rdg>
+			<rdg wit="f1823">gained</rdg>
+			<rdg wit="fThomas">gained</rdg>
+			<rdg wit="f1831">gained</rdg>
 		</rdgGrp>
-		<rdgGrp
-			n="['gained i imagined a greater degree of &lt;del&gt;tranquillity&lt;/del&gt; security. indeed,']">
-			<rdg wit="fThomas">&lt;longToken&gt;gained &lt;add place="margin"&gt;I
-				imagined&lt;/add&gt; a greater degree of &lt;del
-				rend="strikethrough"&gt;tranquillity&lt;/del&gt; &lt;add&gt;security&lt;/add&gt;.
-				Indeed,&lt;/longToken&gt;</rdg>
+	</app>
+	<app>
+		<rdgGrp n="['a', 'greater']">
+			<rdg wit="f1818">a greater</rdg>
+			<rdg wit="f1823">a greater</rdg>
+			<rdg wit="f1831">a greater</rdg>
+		</rdgGrp>
+		<rdgGrp n="['i imagined', 'a', 'greater']">
+			<rdg wit="fThomas">&lt;add place="margin"&gt;I imagined&lt;/add&gt; a greater</rdg>
+		</rdgGrp>
+	</app>
+
+	<app>
+		<rdgGrp n="['degree', 'of']">
+			<rdg wit="f1818">degree of</rdg>
+			<rdg wit="f1823">degree of</rdg>
+			<rdg wit="fThomas">degree of</rdg>
+			<rdg wit="f1831">degree of</rdg>
+			<rdg wit="fMS">&lt;sga-add eID="c57-0143__main__d4e26682"/&gt;&lt;sga-add
+				place="superlinear" sID="c57-0143__main__d4e26688"/&gt;degree of</rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['', 'tranquillity–', 'and', 'indeed']">
+			<rdg wit="fMS">&lt;sga-add eID="c57-0143__main__d4e26688"/&gt;&lt;mod
+				eID="c57-0143__main__d4e26680"/&gt; tranquillity– And indeed</rdg>
+		</rdgGrp>
+		<rdgGrp n="['&lt;del&gt;tranquillity&lt;/del&gt;', 'security', '.']">
+			<rdg wit="fThomas">&lt;del rend="strikethrough"&gt;tranquillity&lt;/del&gt;
+				&lt;add&gt;security&lt;/add&gt; .</rdg>
+		</rdgGrp>
+		<rdgGrp n="['tranquillity.']">
+			<rdg wit="f1818">tranquillity.</rdg>
+			<rdg wit="f1823">tranquillity.</rdg>
+			<rdg wit="f1831">tranquillity.</rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['indeed,']">
+			<rdg wit="f1818">Indeed,</rdg>
+			<rdg wit="f1823">Indeed,</rdg>
+			<rdg wit="fThomas">Indeed,</rdg>
+			<rdg wit="f1831">Indeed,</rdg>
 		</rdgGrp>
 	</app>
 	<app>
@@ -7782,13 +7931,42 @@
 	</app>
 
 	<app>
+		<rdgGrp n="['overjoyed', 'and']">
+			<rdg wit="fMS">&lt;w ana="start"/&gt;over&lt;lb n="c57-0144__main__9"/&gt;joyed&lt;w
+				ana="end"/&gt; and</rdg>
+		</rdgGrp>
+		<rdgGrp n="['overjoyed,']">
+			<rdg wit="f1823">overjoyed,</rdg>
+			<rdg wit="f1831">overjoyed,</rdg>
+		</rdgGrp>
+		<rdgGrp n="['overjoyed;']">
+			<rdg wit="f1818">overjoyed;</rdg>
+			<rdg wit="fThomas">overjoyed;</rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['and,']">
+			<rdg wit="f1818">and,</rdg>
+			<rdg wit="f1823">and,</rdg>
+			<rdg wit="fThomas">and,</rdg>
+			<rdg wit="f1831">and,</rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['in', 'the', 'bustle', 'of']">
+			<rdg wit="f1818">in the bustle of</rdg>
+			<rdg wit="f1823">in the bustle of</rdg>
+			<rdg wit="fThomas">in the bustle of</rdg>
+			<rdg wit="f1831">in the bustle of</rdg>
+			<rdg wit="fMS">in the bustle of</rdg>
+		</rdgGrp>
+	</app>
+	<app>
 		<rdgGrp
-			n="['&lt;w ana=&#34;start&#34;/&gt;', 'over joyed  and in the bustle of', '', '&lt;del&gt;the day&lt;/del&gt;', '', '', 'preparation', '', '&lt;del&gt;an&lt;/del&gt;']">
-			<rdg wit="fMS">&lt;w ana="start"/&gt; &lt;longToken&gt;over&lt;lb
-				n="c57-0144__main__9"/&gt;joyed&lt;w ana="end"/&gt; and in the bustle
-				of&lt;/longToken&gt; &lt;mod sID="c57-0144__main__d4e26887"/&gt; &lt;del
-				rend="strikethrough" xml:id="c57-0144__main__d4e26889"&gt;the day&lt;/del&gt;
-				&lt;sga-add place="sublinear" sID="c57-0144__main__d4e26892"/&gt; &lt;metamark
+			n="['', '&lt;del&gt;the day&lt;/del&gt;', '', '', 'preparation', '', '&lt;del&gt;an&lt;/del&gt;']">
+			<rdg wit="fMS">&lt;mod sID="c57-0144__main__d4e26887"/&gt; &lt;del rend="strikethrough"
+				xml:id="c57-0144__main__d4e26889"&gt;the day&lt;/del&gt; &lt;sga-add
+				place="sublinear" sID="c57-0144__main__d4e26892"/&gt; &lt;metamark
 				function="insert"&gt;^&lt;/metamark&gt; &lt;sga-add
 				eID="c57-0144__main__d4e26892"/&gt;&lt;sga-add place="superlinear"
 				sID="c57-0144__main__d4e26898"/&gt;preparation &lt;sga-add
@@ -7796,20 +7974,6 @@
 				&lt;del rend="strikethrough"
 				xml:id="c57-0144__main__d4e26902"&gt;an&lt;/del&gt;</rdg>
 		</rdgGrp>
-		<rdgGrp n="['overjoyed, and, in the bustle of']">
-			<rdg wit="f1823">&lt;longToken&gt;overjoyed, and, in the bustle
-				of&lt;/longToken&gt;</rdg>
-			<rdg wit="f1831">&lt;longToken&gt;overjoyed, and, in the bustle
-				of&lt;/longToken&gt;</rdg>
-		</rdgGrp>
-		<rdgGrp n="['overjoyed; and, in the bustle of']">
-			<rdg wit="f1818">&lt;longToken&gt;overjoyed; and, in the bustle
-				of&lt;/longToken&gt;</rdg>
-			<rdg wit="fThomas">&lt;longToken&gt;overjoyed; and, in the bustle
-				of&lt;/longToken&gt;</rdg>
-		</rdgGrp>
-	</app>
-	<app>
 		<rdgGrp n="['preparation,']">
 			<rdg wit="f1818">preparation,</rdg>
 			<rdg wit="f1823">preparation,</rdg>
@@ -7941,17 +8105,24 @@
 	</app>
 	<app>
 		<rdgGrp n="['&lt;del&gt;pass the afternoon and night&lt;/del&gt;']">
-			<rdg wit="fThomas">&lt;del rend="strikethrough"&gt;&lt;longToken&gt;pass the afternoon
-				and night&lt;/longToken&gt;&lt;/del&gt;</rdg>
+			<rdg wit="fThomas">&lt;del rend="strikethrough"&gt;pass the afternoon and
+				night&lt;/del&gt;</rdg>
 		</rdgGrp>
-		<rdgGrp n="['commence our journey by water, sleeping that night']">
-			<rdg wit="f1831">&lt;longToken&gt;commence our journey by water, sleeping that
-				night&lt;/longToken&gt;</rdg>
+		<rdgGrp n="['commence', 'our', 'journey', 'by', 'water,', 'sleeping', 'that']">
+			<rdg wit="f1831">commence our journey by water, sleeping that</rdg>
 		</rdgGrp>
-		<rdgGrp n="['pass the afternoon and night']">
-			<rdg wit="f1818">&lt;longToken&gt;pass the afternoon and night&lt;/longToken&gt;</rdg>
-			<rdg wit="f1823">&lt;longToken&gt;pass the afternoon and night&lt;/longToken&gt;</rdg>
-			<rdg wit="fMS">&lt;longToken&gt;pass the afternoon &amp; night&lt;/longToken&gt;</rdg>
+		<rdgGrp n="['pass', 'the', 'afternoon', 'and']">
+			<rdg wit="f1818">pass the afternoon and</rdg>
+			<rdg wit="f1823">pass the afternoon and</rdg>
+			<rdg wit="fMS">pass the afternoon &amp;</rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['night']">
+			<rdg wit="f1818">night</rdg>
+			<rdg wit="f1823">night</rdg>
+			<rdg wit="f1831">night</rdg>
+			<rdg wit="fMS">night</rdg>
 		</rdgGrp>
 	</app>
 	<app>
@@ -9859,4 +10030,4 @@
 		</rdgGrp>
 	</app>
 </cx:apparatus>
-<!-- 2023-07-19 18:40:34.804087 -->
+<!-- 2023-07-19 15:53:17.838774 -->

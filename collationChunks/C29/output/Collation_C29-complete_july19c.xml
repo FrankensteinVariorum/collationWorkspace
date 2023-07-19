@@ -4944,22 +4944,31 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['and  des pondant  i neither spoke or looked but sat', 'motionless']">
-			<rdg wit="fMS">&lt;longToken&gt;&amp; &lt;w ana="start"/&gt;des&lt;lb
-				n="c57-0140__main__26"/&gt;pondant&lt;w ana="end"/&gt; I neither spoke or looked
-				&lt;lb n="c57-0140__main__27"/&gt;but sat&lt;/longToken&gt; motionless</rdg>
+		<rdgGrp n="['and despondant', 'i neither spoke or looked  but sat', 'motionless']">
+			<rdg wit="fMS">&amp;&lt;w ana="start"/&gt;des&lt;lb
+				n="c57-0140__main__26"/&gt;pondant&lt;w ana="end"/&gt; &lt;longToken&gt;I neither
+				spoke or looked &lt;lb n="c57-0140__main__27"/&gt;but sat&lt;/longToken&gt;
+				motionless</rdg>
 		</rdgGrp>
-		<rdgGrp n="['and despondent. i neither spoke or looked, but sat']">
-			<rdg wit="f1818">&lt;longToken&gt;and despondent. I neither spoke or looked, but
+		<rdgGrp n="['and', 'despondent.']">
+			<rdg wit="f1818">and despondent.</rdg>
+			<rdg wit="f1823">and despondent.</rdg>
+			<rdg wit="fThomas">and despondent.</rdg>
+			<rdg wit="f1831">and despondent.</rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['i neither spoke or looked, but sat']">
+			<rdg wit="f1818">&lt;longToken&gt;I neither spoke or looked, but
 				sat&lt;/longToken&gt;</rdg>
-			<rdg wit="fThomas">&lt;longToken&gt;and despondent. I neither spoke or looked, but
+			<rdg wit="fThomas">&lt;longToken&gt;I neither spoke or looked, but
 				sat&lt;/longToken&gt;</rdg>
 		</rdgGrp>
-		<rdgGrp n="['and despondent. i neither spoke, nor looked at any one, but sat']">
-			<rdg wit="f1823">&lt;longToken&gt;and despondent. I neither spoke, nor looked at any
-				one, but sat&lt;/longToken&gt;</rdg>
-			<rdg wit="f1831">&lt;longToken&gt;and despondent. I neither spoke, nor looked at any
-				one, but sat&lt;/longToken&gt;</rdg>
+		<rdgGrp n="['i neither spoke, nor looked at any one, but sat']">
+			<rdg wit="f1823">&lt;longToken&gt;I neither spoke, nor looked at any one, but
+				sat&lt;/longToken&gt;</rdg>
+			<rdg wit="f1831">&lt;longToken&gt;I neither spoke, nor looked at any one, but
+				sat&lt;/longToken&gt;</rdg>
 		</rdgGrp>
 	</app>
 	<app>
@@ -7254,35 +7263,64 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp
-			n="['gained  a  great&lt;del&gt;er&lt;/del&gt;     degree of   tranquillity– and indeed']">
-			<rdg wit="fMS">&lt;longToken&gt;&lt;w ana="start"/&gt;gain&lt;lb
-				n="c57-0143__main__27"/&gt;ed&lt;w ana="end"/&gt; &lt;sga-add place="superlinear"
-				sID="c57-0143__main__d4e26674"/&gt;a &lt;sga-add eID="c57-0143__main__d4e26674"/&gt;
-				great&lt;del rend="strikethrough"
+		<rdgGrp n="['gained a', '', 'great', '&lt;del&gt;er&lt;/del&gt;', '', '']">
+			<rdg wit="fMS">&lt;w ana="start"/&gt;gain&lt;lb n="c57-0143__main__27"/&gt;ed&lt;w
+				ana="end"/&gt;&lt;sga-add place="superlinear" sID="c57-0143__main__d4e26674"/&gt;a
+				&lt;sga-add eID="c57-0143__main__d4e26674"/&gt; great &lt;del rend="strikethrough"
 				xml:id="c57-0143__main__d4e26677"&gt;er&lt;/del&gt; &lt;mod
-				sID="c57-0143__main__d4e26680"/&gt; &lt;sga-add place="sublinear"
+				sID="c57-0143__main__d4e26680"/&gt;&lt;sga-add place="sublinear"
 				sID="c57-0143__main__d4e26682"/&gt; &lt;metamark
-				function="insert"&gt;^&lt;/metamark&gt; &lt;sga-add
-				eID="c57-0143__main__d4e26682"/&gt; &lt;sga-add place="superlinear"
-				sID="c57-0143__main__d4e26688"/&gt;degree of &lt;sga-add
-				eID="c57-0143__main__d4e26688"/&gt; &lt;mod eID="c57-0143__main__d4e26680"/&gt;
-				tranquillity– And indeed&lt;/longToken&gt;</rdg>
+				function="insert"&gt;^&lt;/metamark&gt;</rdg>
 		</rdgGrp>
-		<rdgGrp n="['gained a greater degree of tranquillity. indeed,']">
-			<rdg wit="f1818">&lt;longToken&gt;gained a greater degree of tranquillity.
-				Indeed,&lt;/longToken&gt;</rdg>
-			<rdg wit="f1823">&lt;longToken&gt;gained a greater degree of tranquillity.
-				Indeed,&lt;/longToken&gt;</rdg>
-			<rdg wit="f1831">&lt;longToken&gt;gained a greater degree of tranquillity.
-				Indeed,&lt;/longToken&gt;</rdg>
+		<rdgGrp n="['gained']">
+			<rdg wit="f1818">gained</rdg>
+			<rdg wit="f1823">gained</rdg>
+			<rdg wit="fThomas">gained</rdg>
+			<rdg wit="f1831">gained</rdg>
 		</rdgGrp>
-		<rdgGrp
-			n="['gained i imagined a greater degree of &lt;del&gt;tranquillity&lt;/del&gt; security. indeed,']">
-			<rdg wit="fThomas">&lt;longToken&gt;gained &lt;add place="margin"&gt;I
-				imagined&lt;/add&gt; a greater degree of &lt;del
-				rend="strikethrough"&gt;tranquillity&lt;/del&gt; &lt;add&gt;security&lt;/add&gt;.
-				Indeed,&lt;/longToken&gt;</rdg>
+	</app>
+	<app>
+		<rdgGrp n="['a', 'greater']">
+			<rdg wit="f1818">a greater</rdg>
+			<rdg wit="f1823">a greater</rdg>
+			<rdg wit="f1831">a greater</rdg>
+		</rdgGrp>
+		<rdgGrp n="['i imagined', 'a', 'greater']">
+			<rdg wit="fThomas">&lt;add place="margin"&gt;I imagined&lt;/add&gt; a greater</rdg>
+		</rdgGrp>
+	</app>
+
+	<app>
+		<rdgGrp n="['degree', 'of']">
+			<rdg wit="f1818">degree of</rdg>
+			<rdg wit="f1823">degree of</rdg>
+			<rdg wit="fThomas">degree of</rdg>
+			<rdg wit="f1831">degree of</rdg>
+			<rdg wit="fMS">&lt;sga-add eID="c57-0143__main__d4e26682"/&gt;&lt;sga-add
+				place="superlinear" sID="c57-0143__main__d4e26688"/&gt;degree of</rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['', 'tranquillity–', 'and', 'indeed']">
+			<rdg wit="fMS">&lt;sga-add eID="c57-0143__main__d4e26688"/&gt;&lt;mod
+				eID="c57-0143__main__d4e26680"/&gt; tranquillity– And indeed</rdg>
+		</rdgGrp>
+		<rdgGrp n="['&lt;del&gt;tranquillity&lt;/del&gt;', 'security', '.']">
+			<rdg wit="fThomas">&lt;del rend="strikethrough"&gt;tranquillity&lt;/del&gt;
+				&lt;add&gt;security&lt;/add&gt; .</rdg>
+		</rdgGrp>
+		<rdgGrp n="['tranquillity.']">
+			<rdg wit="f1818">tranquillity.</rdg>
+			<rdg wit="f1823">tranquillity.</rdg>
+			<rdg wit="f1831">tranquillity.</rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['indeed,']">
+			<rdg wit="f1818">Indeed,</rdg>
+			<rdg wit="f1823">Indeed,</rdg>
+			<rdg wit="fThomas">Indeed,</rdg>
+			<rdg wit="f1831">Indeed,</rdg>
 		</rdgGrp>
 	</app>
 	<app>
@@ -7782,13 +7820,42 @@
 	</app>
 
 	<app>
+		<rdgGrp n="['overjoyed', 'and']">
+			<rdg wit="fMS">&lt;w ana="start"/&gt;over&lt;lb n="c57-0144__main__9"/&gt;joyed&lt;w
+				ana="end"/&gt; and</rdg>
+		</rdgGrp>
+		<rdgGrp n="['overjoyed,']">
+			<rdg wit="f1823">overjoyed,</rdg>
+			<rdg wit="f1831">overjoyed,</rdg>
+		</rdgGrp>
+		<rdgGrp n="['overjoyed;']">
+			<rdg wit="f1818">overjoyed;</rdg>
+			<rdg wit="fThomas">overjoyed;</rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['and,']">
+			<rdg wit="f1818">and,</rdg>
+			<rdg wit="f1823">and,</rdg>
+			<rdg wit="fThomas">and,</rdg>
+			<rdg wit="f1831">and,</rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['in', 'the', 'bustle', 'of']">
+			<rdg wit="f1818">in the bustle of</rdg>
+			<rdg wit="f1823">in the bustle of</rdg>
+			<rdg wit="fThomas">in the bustle of</rdg>
+			<rdg wit="f1831">in the bustle of</rdg>
+			<rdg wit="fMS">in the bustle of</rdg>
+		</rdgGrp>
+	</app>
+	<app>
 		<rdgGrp
-			n="['&lt;w ana=&#34;start&#34;/&gt;', 'over joyed  and in the bustle of', '', '&lt;del&gt;the day&lt;/del&gt;', '', '', 'preparation', '', '&lt;del&gt;an&lt;/del&gt;']">
-			<rdg wit="fMS">&lt;w ana="start"/&gt; &lt;longToken&gt;over&lt;lb
-				n="c57-0144__main__9"/&gt;joyed&lt;w ana="end"/&gt; and in the bustle
-				of&lt;/longToken&gt; &lt;mod sID="c57-0144__main__d4e26887"/&gt; &lt;del
-				rend="strikethrough" xml:id="c57-0144__main__d4e26889"&gt;the day&lt;/del&gt;
-				&lt;sga-add place="sublinear" sID="c57-0144__main__d4e26892"/&gt; &lt;metamark
+			n="['', '&lt;del&gt;the day&lt;/del&gt;', '', '', 'preparation', '', '&lt;del&gt;an&lt;/del&gt;']">
+			<rdg wit="fMS">&lt;mod sID="c57-0144__main__d4e26887"/&gt; &lt;del rend="strikethrough"
+				xml:id="c57-0144__main__d4e26889"&gt;the day&lt;/del&gt; &lt;sga-add
+				place="sublinear" sID="c57-0144__main__d4e26892"/&gt; &lt;metamark
 				function="insert"&gt;^&lt;/metamark&gt; &lt;sga-add
 				eID="c57-0144__main__d4e26892"/&gt;&lt;sga-add place="superlinear"
 				sID="c57-0144__main__d4e26898"/&gt;preparation &lt;sga-add
@@ -7796,20 +7863,6 @@
 				&lt;del rend="strikethrough"
 				xml:id="c57-0144__main__d4e26902"&gt;an&lt;/del&gt;</rdg>
 		</rdgGrp>
-		<rdgGrp n="['overjoyed, and, in the bustle of']">
-			<rdg wit="f1823">&lt;longToken&gt;overjoyed, and, in the bustle
-				of&lt;/longToken&gt;</rdg>
-			<rdg wit="f1831">&lt;longToken&gt;overjoyed, and, in the bustle
-				of&lt;/longToken&gt;</rdg>
-		</rdgGrp>
-		<rdgGrp n="['overjoyed; and, in the bustle of']">
-			<rdg wit="f1818">&lt;longToken&gt;overjoyed; and, in the bustle
-				of&lt;/longToken&gt;</rdg>
-			<rdg wit="fThomas">&lt;longToken&gt;overjoyed; and, in the bustle
-				of&lt;/longToken&gt;</rdg>
-		</rdgGrp>
-	</app>
-	<app>
 		<rdgGrp n="['preparation,']">
 			<rdg wit="f1818">preparation,</rdg>
 			<rdg wit="f1823">preparation,</rdg>
@@ -7941,17 +7994,24 @@
 	</app>
 	<app>
 		<rdgGrp n="['&lt;del&gt;pass the afternoon and night&lt;/del&gt;']">
-			<rdg wit="fThomas">&lt;del rend="strikethrough"&gt;&lt;longToken&gt;pass the afternoon
-				and night&lt;/longToken&gt;&lt;/del&gt;</rdg>
+			<rdg wit="fThomas">&lt;del rend="strikethrough"&gt;pass the afternoon and
+				night&lt;/del&gt;</rdg>
 		</rdgGrp>
-		<rdgGrp n="['commence our journey by water, sleeping that night']">
-			<rdg wit="f1831">&lt;longToken&gt;commence our journey by water, sleeping that
-				night&lt;/longToken&gt;</rdg>
+		<rdgGrp n="['commence', 'our', 'journey', 'by', 'water,', 'sleeping', 'that']">
+			<rdg wit="f1831">commence our journey by water, sleeping that</rdg>
 		</rdgGrp>
-		<rdgGrp n="['pass the afternoon and night']">
-			<rdg wit="f1818">&lt;longToken&gt;pass the afternoon and night&lt;/longToken&gt;</rdg>
-			<rdg wit="f1823">&lt;longToken&gt;pass the afternoon and night&lt;/longToken&gt;</rdg>
-			<rdg wit="fMS">&lt;longToken&gt;pass the afternoon &amp; night&lt;/longToken&gt;</rdg>
+		<rdgGrp n="['pass', 'the', 'afternoon', 'and']">
+			<rdg wit="f1818">pass the afternoon and</rdg>
+			<rdg wit="f1823">pass the afternoon and</rdg>
+			<rdg wit="fMS">pass the afternoon &amp;</rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['night']">
+			<rdg wit="f1818">night</rdg>
+			<rdg wit="f1823">night</rdg>
+			<rdg wit="f1831">night</rdg>
+			<rdg wit="fMS">night</rdg>
 		</rdgGrp>
 	</app>
 	<app>
@@ -9859,4 +9919,4 @@
 		</rdgGrp>
 	</app>
 </cx:apparatus>
-<!-- 2023-07-19 18:40:34.804087 -->
+<!-- 2023-07-19 18:05:48.761191 -->
