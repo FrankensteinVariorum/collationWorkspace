@@ -1,8 +1,22 @@
 # Notes
 
-* Migrated the MS portion of MS5 
-* 2023-07-19 ebb: Corrected up to "When I was about fourteen / fifteen"
+ * Watch for this longToken: how does it align?
+```xml
+ <longToken>fancy. I remember, when he was nine years old, he wrote a fairy tale, which was the
+    delight and amazement of all his companions.</longToken>
+``` 
 
+* Watch how the collation lines up around long deleted passage in Thomas:
+```
+<longToken>No youth could have passed more <pb xml:id="F1818_v1_061" n="049"/>happily than
+  mine.</longToken> <longToken>My parents were indulgent, and my companions amiable....</longToken>
+```
+ 
+* 1831 "it may appear strange" doesn't line up w/ consecutive longTokens. Removing it: check what happens.
+ 
+* Check "most undivided attention" / "undivided attention" passage 
+* Reset 1831 longToken to go *inside* the paragraph at "Thus strangely are our souls constructed..."
+ 
 * Check on Chapter II / III break
 * Check alignment around "a respite of some weeks" (when Victor finally is off to Ingolstadat)
 
