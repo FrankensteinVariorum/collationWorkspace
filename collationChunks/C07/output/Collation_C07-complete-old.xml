@@ -64,15 +64,31 @@
 	</app>
 	<app>
 		<rdgGrp
-			n="['a', 'variety', 'of', 'circumstances', 'had', 'prevented', 'his', 'marrying', 'early,', 'nor was it']">
-			<rdg wit="f1831">a variety of circumstances had prevented his marrying early,
-				&lt;longToken&gt;nor was it&lt;/longToken&gt;</rdg>
+			n="['a', 'variety', 'of', 'circumstances', 'had', 'prevented', 'his', 'marrying', 'early,', 'nor']">
+			<rdg wit="f1831">a variety of circumstances had prevented his marrying early, nor</rdg>
 		</rdgGrp>
-		<rdgGrp n="['and it was not']">
-			<rdg wit="f1818">&lt;longToken&gt;and it was not&lt;/longToken&gt;</rdg>
-			<rdg wit="f1823">&lt;longToken&gt;&lt;pb xml:id="F1823_v1_059" n="40"/&gt;and it was
-				not&lt;/longToken&gt;</rdg>
-			<rdg wit="fThomas">&lt;longToken&gt;and it was not&lt;/longToken&gt;</rdg>
+		<rdgGrp n="['and', 'it']">
+			<rdg wit="f1818">and it</rdg>
+			<rdg wit="f1823">&lt;pb xml:id="F1823_v1_059" n="40"/&gt;and it</rdg>
+			<rdg wit="fThomas">and it</rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['was']">
+			<rdg wit="f1818">was</rdg>
+			<rdg wit="f1823">was</rdg>
+			<rdg wit="fThomas">was</rdg>
+			<rdg wit="f1831">was</rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['it']">
+			<rdg wit="f1831">it</rdg>
+		</rdgGrp>
+		<rdgGrp n="['not']">
+			<rdg wit="f1818">not</rdg>
+			<rdg wit="f1823">not</rdg>
+			<rdg wit="fThomas">not</rdg>
 		</rdgGrp>
 	</app>
 	<app>
@@ -467,7 +483,7 @@
 	</app>
 	<app>
 		<rdgGrp
-			n="['of these i was the eldest, and the destined successor to all his labours and utility.', 'no creature could have more tender parents than mine. my improvement and health were their constant care, especially as i remained for several years their only child.', 'but', 'before', 'i', 'continue', 'my', 'narrative,', 'i', 'must', 'record', 'an', 'incident', 'which', 'took', 'place', 'when', 'i', 'was', 'four', 'years', 'of', 'age.', '&lt;p-end/&gt;', '&lt;p-start/&gt;', 'my', 'father', 'had', 'a', 'sister,', 'whom', 'he', 'tenderly', 'loved,', 'and', 'who', 'had', 'married', 'early', 'in', 'life', 'an', 'italian', 'gentleman.', 'soon', 'after', 'her', 'marriage,', 'she', 'had', 'accompanied', 'her', 'husband']">
+			n="['of these i was the eldest, and the destined successor to all his labours and utility.', 'no creature could have more tender parents than mine. my improvement and health were their constant care, especially as i remained for several years their only child.', 'but', 'before', 'i', 'continue', 'my', 'narrative,', 'i', 'must', 'record', 'an', 'incident', 'which', 'took', 'place', 'when', 'i', 'was', 'four', 'years', 'of', 'age.', '&lt;p-end/&gt;', '&lt;p-start/&gt;', 'my', 'father', 'had', 'a', 'sister,', 'whom', 'he', 'tenderly', 'loved,', 'and', 'who', 'had', 'married', 'early', 'in', 'life', 'an', 'italian', 'gentleman.', 'soon', 'after', 'her', 'marriage,', 'she', 'had', 'accompanied', 'her', 'husband', 'into']">
 			<rdg wit="f1818">&lt;longToken&gt;Of these I was the eldest, and the destined suc&lt;pb
 				xml:id="F1818_v1_056" n="044"/&gt;cessor to all his labours and
 				utility.&lt;/longToken&gt; &lt;longToken&gt;No creature could have more tender
@@ -477,7 +493,7 @@
 				years of age. &lt;p eID="novel1_letter4_chapter1_div4_div1_p6"/&gt; &lt;p
 				sID="novel1_letter4_chapter1_div4_div1_p7"/&gt; My father had a sister, whom he
 				tenderly loved, and who had married early in life an Italian gentleman. Soon after
-				her marriage, she had accompanied her husband</rdg>
+				her marriage, she had accompanied her husband into</rdg>
 			<rdg wit="f1823">&lt;longToken&gt;Of these I was the eldest, and the destined suc&lt;pb
 				xml:id="F1823_v1_063" n="44"/&gt;cessor to all his labours and
 				utility.&lt;/longToken&gt; &lt;longToken&gt;No creature could have more tender
@@ -487,7 +503,7 @@
 				years of age. &lt;p eID="novel1_letter4_chapter1_div4_div1_p6"/&gt; &lt;p
 				sID="novel1_letter4_chapter1_div4_div1_p7"/&gt; My father had a sister, whom he
 				tenderly loved, and who had married early in life an Italian gentleman. Soon after
-				her marriage, she had accompanied her husband</rdg>
+				her marriage, she had accompanied her husband into</rdg>
 			<rdg wit="fThomas">&lt;longToken&gt;Of these I was the eldest, and the destined
 				suc&lt;pb xml:id="F1818_v1_056" n="044"/&gt;cessor to all his labours and
 				utility.&lt;/longToken&gt; &lt;longToken&gt;No creature could have more tender
@@ -497,45 +513,47 @@
 				years of age. &lt;p eID="novel1_letter4_chapter1_div4_div1_p6"/&gt; &lt;p
 				sID="novel1_letter4_chapter1_div4_div1_p7"/&gt; My father had a sister, whom he
 				tenderly loved, and who had married early in life an Italian gentleman. Soon after
-				her marriage, she had accompanied her husband</rdg>
+				her marriage, she had accompanied her husband into</rdg>
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['into &lt;del&gt;her&lt;/del&gt; his native country,']">
-			<rdg wit="fThomas">&lt;longToken&gt;into &lt;del&gt;her&lt;/del&gt;
-				&lt;add&gt;his&lt;/add&gt; native country,&lt;/longToken&gt;</rdg>
+		<rdgGrp n="['&lt;del&gt;her&lt;/del&gt;']">
+			<rdg wit="fThomas">&lt;del&gt;her&lt;/del&gt;</rdg>
 		</rdgGrp>
-		<rdgGrp n="['into her native country,']">
-			<rdg wit="f1818">&lt;longToken&gt;into her native country,&lt;/longToken&gt;</rdg>
+		<rdgGrp n="['her']">
+			<rdg wit="f1818">her</rdg>
 		</rdgGrp>
-		<rdgGrp n="['into his native country,']">
-			<rdg wit="f1823">&lt;longToken&gt;into his native country,&lt;/longToken&gt;</rdg>
+	</app>
+	<app>
+		<rdgGrp n="['his']">
+			<rdg wit="f1823">his</rdg>
+			<rdg wit="fThomas">&lt;add&gt;his&lt;/add&gt;</rdg>
 		</rdgGrp>
 	</app>
 	<app>
 		<rdgGrp
-			n="['and', 'for', 'some', 'years', 'my', 'father', 'had', 'very', 'little', 'communication', 'with', 'her.', 'about', 'the', 'time', 'i', 'mentioned', 'she', 'died;', 'and', 'a', 'few', 'months', 'afterwards', 'he', 'received', 'a', 'letter', 'from', 'her', 'husband,', 'acquainting', 'him', 'with', 'his', 'intention', 'of', 'marrying', 'an', 'italian', 'lady,', 'and', 'requesting', 'my', 'father', 'to', 'take', 'charge', 'of', 'the', 'infant', 'elizabeth,', 'the', 'only', 'child', 'of', 'his', 'deceased', 'sister.', '&#34;it', 'is', 'my', 'wish,&#34;', 'he', 'said,', '&#34;that', 'you', 'should', 'consider', 'her', 'as', 'your', 'own', 'daughter,', 'and', 'educate', 'her', 'thus.', 'her']">
-			<rdg wit="f1818">and for some years my father had very little communication with her.
-				About the time I mentioned she died; and a few months afterwards he received a
-				letter from her husband, acquainting him with his intention of marrying an Italian
-				lady, and requesting my father to take charge of the in&lt;pb xml:id="F1818_v1_057"
-				n="045"/&gt;fant Elizabeth, the only child of his deceased sister. “It is my wish,”
-				he said, “that you should consider her as your own daughter, and educate her thus.
-				Her</rdg>
-			<rdg wit="f1823">and for some years my father had very little communication with her.
-				About the time I mentioned she died; and a few months afterwards he received a
-				letter from her husband, acquainting him with his intention of marrying an Italian
-				lady, and requesting my father to take charge of the in&lt;pb xml:id="F1823_v1_064"
-				n="45"/&gt;fant Elizabeth, the only child of his deceased sister. “It is my wish,”
-				he said, "that you should consider her as your own daughter, and educate her thus.
-				Her</rdg>
-			<rdg wit="fThomas">and for some years my father had very little communication with her.
-				About the time I mentioned she died; and a few months afterwards he received a
-				letter from her husband, acquainting him with his intention of marrying an Italian
-				lady, and requesting my father to take charge of the in&lt;pb xml:id="F1818_v1_057"
-				n="045"/&gt;fant Elizabeth, the only child of his deceased sister. “It is my wish,”
-				he said, “that you should consider her as your own daughter, and educate her thus.
-				Her</rdg>
+			n="['native', 'country,', 'and', 'for', 'some', 'years', 'my', 'father', 'had', 'very', 'little', 'communication', 'with', 'her.', 'about', 'the', 'time', 'i', 'mentioned', 'she', 'died;', 'and', 'a', 'few', 'months', 'afterwards', 'he', 'received', 'a', 'letter', 'from', 'her', 'husband,', 'acquainting', 'him', 'with', 'his', 'intention', 'of', 'marrying', 'an', 'italian', 'lady,', 'and', 'requesting', 'my', 'father', 'to', 'take', 'charge', 'of', 'the', 'infant', 'elizabeth,', 'the', 'only', 'child', 'of', 'his', 'deceased', 'sister.', '&#34;it', 'is', 'my', 'wish,&#34;', 'he', 'said,', '&#34;that', 'you', 'should', 'consider', 'her', 'as', 'your', 'own', 'daughter,', 'and', 'educate', 'her', 'thus.', 'her']">
+			<rdg wit="f1818">native country, and for some years my father had very little
+				communication with her. About the time I mentioned she died; and a few months
+				afterwards he received a letter from her husband, acquainting him with his intention
+				of marrying an Italian lady, and requesting my father to take charge of the in&lt;pb
+				xml:id="F1818_v1_057" n="045"/&gt;fant Elizabeth, the only child of his deceased
+				sister. “It is my wish,” he said, “that you should consider her as your own
+				daughter, and educate her thus. Her</rdg>
+			<rdg wit="f1823">native country, and for some years my father had very little
+				communication with her. About the time I mentioned she died; and a few months
+				afterwards he received a letter from her husband, acquainting him with his intention
+				of marrying an Italian lady, and requesting my father to take charge of the in&lt;pb
+				xml:id="F1823_v1_064" n="45"/&gt;fant Elizabeth, the only child of his deceased
+				sister. “It is my wish,” he said, "that you should consider her as your own
+				daughter, and educate her thus. Her</rdg>
+			<rdg wit="fThomas">native country, and for some years my father had very little
+				communication with her. About the time I mentioned she died; and a few months
+				afterwards he received a letter from her husband, acquainting him with his intention
+				of marrying an Italian lady, and requesting my father to take charge of the in&lt;pb
+				xml:id="F1818_v1_057" n="045"/&gt;fant Elizabeth, the only child of his deceased
+				sister. “It is my wish,” he said, “that you should consider her as your own
+				daughter, and educate her thus. Her</rdg>
 		</rdgGrp>
 	</app>
 	<app>
@@ -767,4 +785,4 @@
 		</rdgGrp>
 	</app>
 </cx:apparatus>
-<!-- 2023-07-19 05:38:00.677232 -->
+<!-- 2023-07-19 04:43:04.433238 -->
