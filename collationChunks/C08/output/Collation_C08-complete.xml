@@ -13861,10 +13861,14 @@
 			<rdg wit="fThomas">mankind.” I listened</rdg>
 			<rdg wit="f1831">mankind.” I listened</rdg>
 		</rdgGrp>
-		<rdgGrp n="['mankind.', '&lt;w ana=&#34;start&#34;/&gt;i', 'listen ed']">
+		<rdgGrp
+			n="['mankind.', '', 'i listen ed  to his &lt;w ana=&#34;start&#34;/&gt;state ment  which was delivered']">
 			<rdg wit="fMS">&lt;lb n="c56-0028__left_margin__4"/&gt;mankind. &lt;anchor
-				xml:id="c56-0029.03"/&gt;&lt;w ana="start"/&gt;I listen&lt;lb
-				n="c56-0028__left_margin__5"/&gt;ed&lt;w ana="end"/&gt;</rdg>
+				xml:id="c56-0029.03"/&gt; &lt;longToken&gt;&lt;addSpan spanTo="#c56-0029.04"/&gt;
+				&lt;w ana="start"/&gt;I listen&lt;lb n="c56-0028__left_margin__5"/&gt;ed&lt;w
+				ana="end"/&gt; to his &lt;w ana="start"/&gt;state&lt;lb
+				n="c56-0028__left_margin__6"/&gt;ment&lt;w ana="end"/&gt; which &lt;lb
+				n="c56-0028__left_margin__7"/&gt;was delivered&lt;/longToken&gt;</rdg>
 		</rdgGrp>
 	</app>
 	<app>
@@ -13873,30 +13877,13 @@
 			<rdg wit="fThomas">&lt;del rend="strikethrough"&gt;to his statement, which was
 				delivered&lt;/del&gt; &lt;add&gt;to him with interest for he spoke&lt;/add&gt;</rdg>
 		</rdgGrp>
-		<rdgGrp n="['to', 'his']">
-			<rdg wit="f1818">to his</rdg>
-			<rdg wit="f1823">to his</rdg>
-			<rdg wit="f1831">to his</rdg>
-			<rdg wit="fMS">to his</rdg>
-		</rdgGrp>
-	</app>
-	<app>
-		<rdgGrp n="['statement']">
-			<rdg wit="fMS">&lt;w ana="start"/&gt;state&lt;lb
-				n="c56-0028__left_margin__6"/&gt;ment&lt;w ana="end"/&gt;</rdg>
-		</rdgGrp>
-		<rdgGrp n="['statement,']">
-			<rdg wit="f1818">statement,</rdg>
-			<rdg wit="f1823">statement,</rdg>
-			<rdg wit="f1831">statement,</rdg>
-		</rdgGrp>
-	</app>
-	<app>
-		<rdgGrp n="['which', 'was', 'delivered']">
-			<rdg wit="f1818">which was delivered</rdg>
-			<rdg wit="f1823">which was delivered</rdg>
-			<rdg wit="f1831">which was delivered</rdg>
-			<rdg wit="fMS">which &lt;lb n="c56-0028__left_margin__7"/&gt;was delivered</rdg>
+		<rdgGrp n="['to his statement, which was delivered']">
+			<rdg wit="f1818">&lt;longToken&gt;to his statement, which was
+				delivered&lt;/longToken&gt;</rdg>
+			<rdg wit="f1823">&lt;longToken&gt;to his statement, which was
+				delivered&lt;/longToken&gt;</rdg>
+			<rdg wit="f1831">&lt;longToken&gt;to his statement, which was
+				delivered&lt;/longToken&gt;</rdg>
 		</rdgGrp>
 	</app>
 	<app>
@@ -15000,4 +14987,4 @@
 		</rdgGrp>
 	</app>
 </cx:apparatus>
-<!-- 2023-07-20 04:29:25.583517 -->
+<!-- 2023-07-21 00:24:54.956687 -->
