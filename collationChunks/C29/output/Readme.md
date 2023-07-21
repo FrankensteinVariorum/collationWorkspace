@@ -419,7 +419,9 @@
 	</app>
     ```    
     - 2023-7-19: wrapped all versions of "not answer it to-morrow, or the next day," in longToken    
-- [X] 2023-7-19: Not a misalignment but is marked yellow. it is annoying.
+    
+- [x] 2023-7-19: Not a misalignment but is marked yellow. it is annoying.
+
     ```
     	<app>
 		<rdgGrp n="['spoke', 'or']">
@@ -445,7 +447,9 @@
 	</app>
     ```
     - Wrapped longToken around all versions of 'I neither spoke or looked, but sat'    
-- [X] Misalignment
+
+- [x] Misalignment
+
     ```
 	<app>
 		<rdgGrp n="['', 'tranquillity–', 'and', 'indeed']">
@@ -472,7 +476,9 @@
 	</app>
     ```	
     - I wrapped a longToken around all versions of "gained a greater degree of tranquillity. Indeed,"    
-- [X] Misalignment
+
+- [x] Misalignment
+
     ```
 		<rdgGrp n="['overjoyed', 'and']">
 			<rdg wit="fMS">&lt;w ana="start"/&gt;over&lt;lb n="c57-0144__main__9"/&gt;joyed&lt;w
@@ -506,6 +512,7 @@
 	</app>
     ```
     - Wrapped longToken around all versions of "overjoyed, and, in the bustle of"    
+
 - [X] Misalignment
     ```
 	<app>
@@ -532,3 +539,4 @@
 	</app>
     ```	
     - Wrapped longToken around "pass the afternoon and night"    
+
