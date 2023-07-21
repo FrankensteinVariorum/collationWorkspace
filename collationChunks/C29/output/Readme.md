@@ -419,7 +419,9 @@
 	</app>
     ```    
     - 2023-7-19: wrapped all versions of "not answer it to-morrow, or the next day," in longToken    
+    
 - [x] 2023-7-19: Not a misalignment but is marked yellow. it is annoying.
+
     ```
     	<app>
 		<rdgGrp n="['spoke', 'or']">
@@ -445,7 +447,9 @@
 	</app>
     ```
     - Wrapped longToken around all versions of 'I neither spoke or looked, but sat'    
+
 - [x] Misalignment
+
     ```
 	<app>
 		<rdgGrp n="['', 'tranquillity–', 'and', 'indeed']">
@@ -472,7 +476,9 @@
 	</app>
     ```	
     - I wrapped a longToken around all versions of "gained a greater degree of tranquillity. Indeed,"    
+
 - [x] Misalignment
+
     ```
 		<rdgGrp n="['overjoyed', 'and']">
 			<rdg wit="fMS">&lt;w ana="start"/&gt;over&lt;lb n="c57-0144__main__9"/&gt;joyed&lt;w
@@ -506,3 +512,31 @@
 	</app>
     ```
     - Wrapped longToken around all versions of "overjoyed, and, in the bustle of"    
+
+- [X] Misalignment
+    ```
+	<app>
+		<rdgGrp n="['&lt;del&gt;pass the afternoon and night&lt;/del&gt;']">
+			<rdg wit="fThomas">&lt;del rend="strikethrough"&gt;pass the afternoon and
+				night&lt;/del&gt;</rdg>
+		</rdgGrp>
+		<rdgGrp n="['commence', 'our', 'journey', 'by', 'water,', 'sleeping', 'that']">
+			<rdg wit="f1831">commence our journey by water, sleeping that</rdg>
+		</rdgGrp>
+		<rdgGrp n="['pass', 'the', 'afternoon', 'and']">
+			<rdg wit="f1818">pass the afternoon and</rdg>
+			<rdg wit="f1823">pass the afternoon and</rdg>
+			<rdg wit="fMS">pass the afternoon &amp;</rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['night']">
+			<rdg wit="f1818">night</rdg>
+			<rdg wit="f1823">night</rdg>
+			<rdg wit="f1831">night</rdg>
+			<rdg wit="fMS">night</rdg>
+		</rdgGrp>
+	</app>
+    ```	
+    - Wrapped longToken around "pass the afternoon and night"    
+
