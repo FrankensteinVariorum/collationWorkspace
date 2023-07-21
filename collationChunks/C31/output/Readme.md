@@ -1,0 +1,15 @@
+# Chunk 31 Notes
+- [ ] Section has transdisposition for manuscript: "and the scene would have been"
+    - 2023-07-21: Wrapped longToken around all versions of `and the scene would have been solemn and affecting even to an uninterested observer. The`
+- [ ] Section has transdisposition found around "which was felt but"
+    - 2023-07-21: Wrapped longToken around all versions of `which was felt but seen not, around the head of the mourner.`
+- [ ] Manuscript section is misaligned "choked my utterance."
+    - 2023-07-21: Wrap all versions of `choked my utterance.` with longToken
+- [ ] This section is fine, however version 1831 and 1823 are marked yellow by the schema. "who feared that if I lost all trace of him"
+    - 2023-07-21: Wrap all versions of `who feared that if I lost all trace(of him).` with longToken
+- [ ] Section is fine, however it may look neater if put together: "and by the spirits that preside over" & "thee I swear to pursue the dæmon"
+    - 2023-07-21: Wrap all vrsions of `and by thee, O Night, and the spirits that preside over thee, to pursue the dæmon,` in longToken
+- [ ] Misalignment: "steps and"
+    - 2023-07-21: Wrap all vrsions of `steps and` in longToken
+- [ ] Misalignment: "The fare indeed was coarse such as the peasants of the country"
+    - 2023-07-21: Wrap all vrsions of `"The fare indeed was coarse such as the peasants of the country"` in longToken
