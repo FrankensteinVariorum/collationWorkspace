@@ -212,7 +212,7 @@
         (:  :)
         ">
         <xsl:variable name="currentApp" as="element()" select="current()"/>
-        <xsl:variable name="targetRdgGrps" as="element()+" select="rdgGrp[@n ! contains(., 'delstart') or descendant::rdg ! contains(., 'longToken')]"/>
+        <xsl:variable name="targetRdgGrps" as="element()+" select="rdgGrp[@n ! contains(., 'delstart') or descendant::rdg[contains(., 'longToken')]]"/>
         <xsl:variable name="prevApp" as="element()" select="($currentApp/preceding-sibling::app)[1]"/>
         <xsl:variable name="nextApp" as="element()" select="($currentApp/following-sibling::app)[1]"/>
         <xsl:choose>
