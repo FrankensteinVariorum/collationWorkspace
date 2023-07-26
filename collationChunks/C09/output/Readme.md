@@ -675,7 +675,7 @@
   ```
 **ebb checking**:
 - [x] correct 1831 base text error re "repulsivepedantry" (documented on PR)
-- [ ] Respace/longToken to pull MS token together around ever y:
+- [x] Respace/longToken to pull MS token together around ever y:
 ```xml
 	<app>
 		<rdgGrp n="['ever', 'y', '']">
@@ -691,8 +691,8 @@
 		</rdgGrp>
 	</app>
 ```
-- [ ] Misalignment of 1831 around "fluctuating and uncertain": extend longToken a little further.
-- [ ] Watch for two caret passages (strength become)
-- [ ] Chapter 6 aligned only to paragraph break. Added longToken to include it with "When I found"
+- [x] Misalignment of 1831 around "fluctuating and uncertain": extend longToken a little further.
+- [x] Watch for two caret passages (strength become)
+- [x] Chapter 6 aligned only to paragraph break. Added longToken to include it with "When I found"
 
   
