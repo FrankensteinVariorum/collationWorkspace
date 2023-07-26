@@ -691,5 +691,8 @@
 		</rdgGrp>
 	</app>
 ```
+- [ ] Misalignment of 1831 around "fluctuating and uncertain": extend longToken a little further.
+- [ ] Watch for two caret passages (strength become)
+- [ ] Chapter 6 aligned only to paragraph break. Added longToken to include it with "When I found"
 
   
