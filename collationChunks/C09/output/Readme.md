@@ -673,5 +673,23 @@
       </rdgGrp>
   </app>
   ```
+**ebb checking**:
+- [x] correct 1831 base text error re "repulsivepedantry" (documented on PR)
+- [ ] Respace/longToken to pull MS token together around ever y:
+```xml
+	<app>
+		<rdgGrp n="['ever', 'y', '']">
+			<rdg wit="fMS">ever &lt;sga-add hand="#pbs" place="intralinear"
+				sID="c56-0031__main__d5e6151"/&gt;y &lt;sga-add
+				eID="c56-0031__main__d5e6151"/&gt;</rdg>
+		</rdgGrp>
+		<rdgGrp n="['every']">
+			<rdg wit="f1818">every</rdg>
+			<rdg wit="f1823">every</rdg>
+			<rdg wit="fThomas">every</rdg>
+			<rdg wit="f1831">every</rdg>
+		</rdgGrp>
+	</app>
+```
 
   
