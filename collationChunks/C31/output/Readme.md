@@ -28,3 +28,9 @@
 - [ ] Misalignment: "do I dare to ask"
     - 2023-07-26: Wrap  longToken behind `do I dare to ask` 
     - 2023-07-26: Moved ending longToken after `pilgrimage`
+    
+- [ ] This section is fine, however it may look better if I were to put all versions of "The blue Mediterranean" around longToken
+    - 2023-07-26: put all versions of `The blue Mediterranean` around longToken
+
+- [ ] Misalignment: "Despair had indeed almost secured her prey"
+    - 2023-07-26: wrapped longToken around `Despair had indeed almost secured her prey, and I should soon have sunk beneath this`
