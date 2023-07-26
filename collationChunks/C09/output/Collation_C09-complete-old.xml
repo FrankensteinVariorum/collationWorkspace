@@ -4349,15 +4349,34 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp
-			n="['at', 'least', 'by', 'my', 'example,', 'how', 'dangerous', 'is', 'the', 'acquirement', 'of']">
-			<rdg wit="f1818">at least by my example, how dangerous is the acquirement of</rdg>
-			<rdg wit="f1823">at least by my example, how dangerous is the acquirement of</rdg>
-			<rdg wit="fThomas">at least by my example, how dangerous is the acquirement of</rdg>
-			<rdg wit="f1831">at least by my example, how dangerous is the acquirement of</rdg>
-			<rdg wit="fMS">at least by my &lt;w ana="start"/&gt;exam&lt;lb
-				n="c56-0037__main__3"/&gt;ple,&lt;w ana="end"/&gt; how dangerous is the acquirement
-				&lt;lb n="c56-0037__main__4"/&gt;of</rdg>
+		<rdgGrp n="['at', 'least', 'by', 'my']">
+			<rdg wit="f1818">at least by my</rdg>
+			<rdg wit="f1823">at least by my</rdg>
+			<rdg wit="fThomas">at least by my</rdg>
+			<rdg wit="f1831">at least by my</rdg>
+			<rdg wit="fMS">at least by my</rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['exam ple,']">
+			<rdg wit="fMS">&lt;longToken&gt;exam&lt;lb
+				n="c56-0037__main__3"/&gt;ple,&lt;/longToken&gt;</rdg>
+		</rdgGrp>
+		<rdgGrp n="['example,']">
+			<rdg wit="f1818">example,</rdg>
+			<rdg wit="f1823">example,</rdg>
+			<rdg wit="fThomas">example,</rdg>
+			<rdg wit="f1831">example,</rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['how', 'dangerous', 'is', 'the', 'acquirement', 'of']">
+			<rdg wit="f1818">how dangerous is the acquirement of</rdg>
+			<rdg wit="f1823">how dangerous is the acquirement of</rdg>
+			<rdg wit="fThomas">how dangerous is the acquirement of</rdg>
+			<rdg wit="f1831">how dangerous is the acquirement of</rdg>
+			<rdg wit="fMS">how dangerous is the acquirement &lt;lb
+				n="c56-0037__main__4"/&gt;of</rdg>
 		</rdgGrp>
 	</app>
 	<app>
@@ -6731,14 +6750,40 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['that', 'only', 'made', 'me', 'feel', 'with', 'renewed', 'acuteness']">
-			<rdg wit="f1818">that only made me feel with renewed acuteness</rdg>
-			<rdg wit="f1823">that only made me feel with renewed acuteness</rdg>
-			<rdg wit="fThomas">that only made me feel with renewed acuteness</rdg>
-			<rdg wit="f1831">that only made me feel with renewed acuteness</rdg>
-			<rdg wit="fMS">&lt;lb n="c56-0040__main__30"/&gt;that only made me feel with &lt;w
-				ana="start"/&gt;renew&lt;lb n="c56-0041__main__1"/&gt;ed&lt;w ana="end"/&gt;
-				acuteness</rdg>
+		<rdgGrp n="['that', 'only', 'made', 'me', 'feel', 'with']">
+			<rdg wit="f1818">that only made me feel with</rdg>
+			<rdg wit="f1823">that only made me feel with</rdg>
+			<rdg wit="fThomas">that only made me feel with</rdg>
+			<rdg wit="f1831">that only made me feel with</rdg>
+			<rdg wit="fMS">&lt;lb n="c56-0040__main__30"/&gt;that only made me feel with</rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp
+			n="['renew&lt;zone eid=&#34;c56-0040__main&#34;/&gt;&lt;surface eid=&#34;ox-ms_abinger_c56-0040&#34;/&gt;&lt;surface lrx=&#34;5364&#34; lry=&#34;7104&#34; partof=&#34;#ox-frankenstein_volume_i&#34; ulx=&#34;0&#34; uly=&#34;0&#34; folio=&#34;19r&#34; shelfmark=&#34;ms. abinger c. 56&#34; base=&#34;ox-ms_abinger_c56/ox-ms_abinger_c56-0041.xml&#34; id=&#34;ox-ms_abinger_c56-0041&#34; sid=&#34;ox-ms_abinger_c56-0041&#34;/&gt;&lt;graphic url=&#34;http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0041.jp2&#34;/&gt;&lt;zone type=&#34;main&#34; sid=&#34;c56-0041__main&#34;/&gt;ed']">
+			<rdg wit="fMS">&lt;longToken&gt;renew&lt;zone eID="c56-0040__main"/&gt;&lt;surface
+				eID="ox-ms_abinger_c56-0040"/&gt;&lt;surface lrx="5364" lry="7104"
+				partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" folio="19r" shelfmark="MS.
+				Abinger c. 56" base="ox-ms_abinger_c56/ox-ms_abinger_c56-0041.xml"
+				id="ox-ms_abinger_c56-0041" sID="ox-ms_abinger_c56-0041"/&gt;&lt;graphic
+				url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0041.jp2"/&gt;&lt;zone
+				type="main" sID="c56-0041__main"/&gt;&lt;lb
+				n="c56-0041__main__1"/&gt;ed&lt;/longToken&gt;</rdg>
+		</rdgGrp>
+		<rdgGrp n="['renewed']">
+			<rdg wit="f1818">renewed</rdg>
+			<rdg wit="f1823">renewed</rdg>
+			<rdg wit="fThomas">renewed</rdg>
+			<rdg wit="f1831">renewed</rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['acuteness']">
+			<rdg wit="f1818">acuteness</rdg>
+			<rdg wit="f1823">acuteness</rdg>
+			<rdg wit="fThomas">acuteness</rdg>
+			<rdg wit="f1831">acuteness</rdg>
+			<rdg wit="fMS">acuteness</rdg>
 		</rdgGrp>
 	</app>
 	<app>
@@ -8827,18 +8872,33 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp
-			n="['but', 'i', 'did', 'not', 'watch', 'the', 'blossom', 'or', 'the', 'expanding', 'leaves—sights', 'which', 'before']">
-			<rdg wit="f1818">but I did not watch the blossom or the expanding leaves—sights which
-				before</rdg>
-			<rdg wit="f1823">but I did not watch the blossom or the expanding leaves—sights which
-				before</rdg>
-			<rdg wit="fThomas">but I did not watch the blossom or the expanding leaves—sights which
-				before</rdg>
-			<rdg wit="f1831">but I did not watch the blossom or the expanding leaves—sights which
-				before</rdg>
+		<rdgGrp n="['but', 'i', 'did', 'not', 'watch', 'the', 'blossom', 'or', 'the', 'expanding']">
+			<rdg wit="f1818">but I did not watch the blossom or the expanding</rdg>
+			<rdg wit="f1823">but I did not watch the blossom or the expanding</rdg>
+			<rdg wit="fThomas">but I did not watch the blossom or the expanding</rdg>
+			<rdg wit="f1831">but I did not watch the blossom or the expanding</rdg>
 			<rdg wit="fMS">but &lt;lb n="c56-0043__main__29"/&gt;I did not watch the blossom or the
-				&lt;lb n="c56-0043__main__30"/&gt;expanding leaves—sights which before</rdg>
+				&lt;lb n="c56-0043__main__30"/&gt;expanding</rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['leaves–sights']">
+			<rdg wit="fMS">leaves–sights</rdg>
+		</rdgGrp>
+		<rdgGrp n="['leaves—sights']">
+			<rdg wit="f1818">leaves—sights</rdg>
+			<rdg wit="f1823">leaves—sights</rdg>
+			<rdg wit="fThomas">leaves—sights</rdg>
+			<rdg wit="f1831">leaves—sights</rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['which', 'before']">
+			<rdg wit="f1818">which before</rdg>
+			<rdg wit="f1823">which before</rdg>
+			<rdg wit="fThomas">which before</rdg>
+			<rdg wit="f1831">which before</rdg>
+			<rdg wit="fMS">which before</rdg>
 		</rdgGrp>
 	</app>
 	<app>
@@ -9350,4 +9410,4 @@
 
 
 </cx:apparatus>
-<!-- 2023-07-26 20:11:34.407079 -->
+<!-- 2023-07-26 19:24:21.316615 -->
