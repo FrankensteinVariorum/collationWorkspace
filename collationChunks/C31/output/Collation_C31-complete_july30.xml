@@ -61,7 +61,7 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['&lt;p-start/&gt;', 'm&lt;hi&gt;y&lt;/hi&gt;']">
+		<rdgGrp n="['&lt;p-start/&gt;', 'm y']">
 			<rdg wit="f1818">&lt;p sID="novel1_letter4_chapter23_div4_div25_p1"/&gt; M&lt;hi
 				sID="novel1_letter4_chapter23_div4_div25_p1_hi1"/&gt;Y&lt;hi
 				eID="novel1_letter4_chapter23_div4_div25_p1_hi1"/&gt;</rdg>
@@ -1586,7 +1586,7 @@
 
 	<app>
 		<rdgGrp
-			n="['', '&lt;del&gt;gentle&lt;/del&gt;', '&lt;del&gt;hallow&lt;/del&gt;', '', 'shadow  which  was felt but seen not', 'a round the  head of the mourner.', '&lt;del&gt;but&lt;/del&gt;']">
+			n="['', '&lt;del&gt;gentle&lt;/del&gt;', '&lt;del&gt;hallow&lt;/del&gt;', '', 'shadow  which  was felt but seen not', '&lt;zone eid=&#34;c57-0157__left_margin&#34;/&gt;   a round the  head of the mourner.', '&lt;del&gt;but&lt;/del&gt;']">
 			<rdg wit="fMS">&lt;lb n="c57-0157__main__37"/&gt;&lt;mod
 				sID="c57-0157__main__d4e30039"/&gt; &lt;del rend="strikethrough"
 				xml:id="c57-0157__main__d4e30041"&gt;gentle&lt;/del&gt; &lt;del rend="strikethrough"
@@ -4081,8 +4081,16 @@
 		</rdgGrp>
 	</app>
 	<app>
+		<rdgGrp n="['steps, and,']">
+			<rdg wit="f1818">&lt;longToken&gt;steps, and,&lt;/longToken&gt;</rdg>
+			<rdg wit="f1823">&lt;longToken&gt;steps, and,&lt;/longToken&gt;</rdg>
+			<rdg wit="fThomas">&lt;longToken&gt;steps, and,&lt;/longToken&gt;</rdg>
+		</rdgGrp>
+		<rdgGrp n="['steps; and,']">
+			<rdg wit="f1831">&lt;longToken&gt;steps; and,&lt;/longToken&gt;</rdg>
+		</rdgGrp>
 		<rdgGrp
-			n="['steps &lt;surface eid=&#34;ox-ms_abinger_c57-0159&#34;/&gt; &lt;surface lrx=&#34;5138&#34; lry=&#34;7032&#34; partof=&#34;#ox-frankenstein_volume_ii&#34; ulx=&#34;0&#34; uly=&#34;0&#34; folio=&#34;80v&#34; shelfmark=&#34;ms. abinger c. 57&#34; base=&#34;ox-ms_abinger_c57/ox-ms_abinger_c57-0160.xml&#34; id=&#34;ox-ms_abinger_c57-0160&#34; sid=&#34;ox-ms_abinger_c57-0160&#34;/&gt; &lt;graphic url=&#34;http://shelleygodwinarchive.org/images/ox/ms_abinger_c57/ms_abinger_c57-0160.jp2&#34;/&gt;   and']">
+			n="['steps&lt;zone eid=&#34;c57-0159__main&#34;/&gt; &lt;surface eid=&#34;ox-ms_abinger_c57-0159&#34;/&gt; &lt;surface lrx=&#34;5138&#34; lry=&#34;7032&#34; partof=&#34;#ox-frankenstein_volume_ii&#34; ulx=&#34;0&#34; uly=&#34;0&#34; folio=&#34;80v&#34; shelfmark=&#34;ms. abinger c. 57&#34; base=&#34;ox-ms_abinger_c57/ox-ms_abinger_c57-0160.xml&#34; id=&#34;ox-ms_abinger_c57-0160&#34; sid=&#34;ox-ms_abinger_c57-0160&#34;/&gt; &lt;graphic url=&#34;http://shelleygodwinarchive.org/images/ox/ms_abinger_c57/ms_abinger_c57-0160.jp2&#34;/&gt; &lt;zone type=&#34;main&#34; sid=&#34;c57-0160__main&#34;/&gt;  and']">
 			<rdg wit="fMS">&lt;longToken&gt;steps&lt;zone eID="c57-0159__main"/&gt; &lt;surface
 				eID="ox-ms_abinger_c57-0159"/&gt; &lt;surface lrx="5138" lry="7032"
 				partOf="#ox-frankenstein_volume_ii" ulx="0" uly="0" folio="80v" shelfmark="MS.
@@ -4091,14 +4099,6 @@
 				url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c57/ms_abinger_c57-0160.jp2"/&gt;
 				&lt;zone type="main" sID="c57-0160__main"/&gt; &lt;lb
 				n="c57-0160__main__1"/&gt;and&lt;/longToken&gt;</rdg>
-		</rdgGrp>
-		<rdgGrp n="['steps, and,']">
-			<rdg wit="f1818">&lt;longToken&gt;steps, and,&lt;/longToken&gt;</rdg>
-			<rdg wit="f1823">&lt;longToken&gt;steps, and,&lt;/longToken&gt;</rdg>
-			<rdg wit="fThomas">&lt;longToken&gt;steps, and,&lt;/longToken&gt;</rdg>
-		</rdgGrp>
-		<rdgGrp n="['steps; and,']">
-			<rdg wit="f1831">&lt;longToken&gt;steps; and,&lt;/longToken&gt;</rdg>
 		</rdgGrp>
 	</app>
 	<app>
@@ -5132,17 +5132,15 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['&lt;hi&gt;hours,&lt;/hi&gt;']">
-			<rdg wit="fThomas">&lt;hi
-				sID="novel1_letter4_chapter23_div4_div25_p12_hi1"/&gt;hours,&lt;hi
-				eID="novel1_letter4_chapter23_div4_div25_p12_hi1"/&gt;</rdg>
-		</rdgGrp>
 		<rdgGrp n="['hours']">
 			<rdg wit="fMS">hours</rdg>
 		</rdgGrp>
 		<rdgGrp n="['hours,']">
 			<rdg wit="f1818">hours,</rdg>
 			<rdg wit="f1823">hours,</rdg>
+			<rdg wit="fThomas">&lt;hi
+				sID="novel1_letter4_chapter23_div4_div25_p12_hi1"/&gt;hours,&lt;hi
+				eID="novel1_letter4_chapter23_div4_div25_p12_hi1"/&gt;</rdg>
 			<rdg wit="f1831">hours,</rdg>
 		</rdgGrp>
 	</app>
@@ -6505,8 +6503,8 @@
 	</app>
 	<app>
 		<rdgGrp
-			n="['death never will i  &lt;del&gt;leave&lt;/del&gt; omit   my search  untill he  &lt;del&gt;dies&lt;/del&gt; or i, perish.', '', '–']">
-			<rdg wit="fMS">&lt;longToken&gt;death never will I &lt;mod
+			n="['death', 'never will i  &lt;del&gt;leave&lt;/del&gt; omit   my search  untill he  &lt;del&gt;dies&lt;/del&gt; or i, perish.', '', '–']">
+			<rdg wit="fMS">death &lt;longToken&gt;never will I &lt;mod
 				sID="c57-0162__main__d4e31247"/&gt; &lt;del rend="strikethrough"
 				xml:id="c57-0162__main__d4e31249"&gt;leave&lt;/del&gt; &lt;sga-add hand="#pbs"
 				place="superlinear" sID="c57-0162__main__d4e31252"/&gt;omit &lt;sga-add
@@ -6518,16 +6516,24 @@
 				perish.&lt;/longToken&gt; &lt;sga-add eID="c57-0162__main__d4e31263"/&gt;&lt;mod
 				eID="c57-0162__main__d4e31258"/&gt; –</rdg>
 		</rdgGrp>
-		<rdgGrp n="['death. never will i give up my search, until he or i perish;']">
-			<rdg wit="f1823">&lt;longToken&gt;death. Never will I give up my search, until he or I
+		<rdgGrp n="['death.']">
+			<rdg wit="f1818">death.</rdg>
+			<rdg wit="f1823">death.</rdg>
+			<rdg wit="fThomas">death.</rdg>
+			<rdg wit="f1831">death.</rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['never will i give up my search, until he or i perish;']">
+			<rdg wit="f1823">&lt;longToken&gt;Never will I give up my search, until he or I
 				perish;&lt;/longToken&gt;</rdg>
-			<rdg wit="f1831">&lt;longToken&gt;death. Never will I give up my search, until he or I
+			<rdg wit="f1831">&lt;longToken&gt;Never will I give up my search, until he or I
 				perish;&lt;/longToken&gt;</rdg>
 		</rdgGrp>
-		<rdgGrp n="['death. never will i omit my search, until he or i perish;']">
-			<rdg wit="f1818">&lt;longToken&gt;death. Never will I omit my search, until he or I
+		<rdgGrp n="['never will i omit my search, until he or i perish;']">
+			<rdg wit="f1818">&lt;longToken&gt;Never will I omit my search, until he or I
 				perish;&lt;/longToken&gt;</rdg>
-			<rdg wit="fThomas">&lt;longToken&gt;death. Never will I omit my search, until he or I
+			<rdg wit="fThomas">&lt;longToken&gt;Never will I omit my search, until he or I
 				perish;&lt;/longToken&gt;</rdg>
 		</rdgGrp>
 	</app>
@@ -6541,9 +6547,20 @@
 		</rdgGrp>
 	</app>
 	<app>
+		<rdgGrp n="['ecstacy']">
+			<rdg wit="f1818">ecstacy</rdg>
+			<rdg wit="f1823">ecstacy</rdg>
+			<rdg wit="fThomas">ecstacy</rdg>
+		</rdgGrp>
 		<rdgGrp
-			n="['', 'extacy shall i &lt;del&gt;fe&lt;/del&gt; join my elizabeth and  those who even     now   prepare for me  &lt;mdel&gt;a&lt;/mdel&gt; the     reward  &lt;del&gt;for&lt;/del&gt; of   my tedious and &lt;del&gt; &lt;unclear extent=&#34;1&#34; unit=&#34;chars&#34;/&gt; &lt;/del&gt; horrible  pilgrimage']">
-			<rdg wit="fMS">&lt;lb n="c57-0162__main__8"/&gt; &lt;longToken&gt;extacy shall I &lt;del
+			n="['ecstasy', 'shall i join my elizabeth, and my departed friends, who even now prepare for me the reward of my tedious toil and horrible pilgrimage!']">
+			<rdg wit="f1831">ecstasy &lt;longToken&gt;shall I join my Elizabeth, and my departed
+				friends, who even now prepare for me the reward of my tedious toil and horrible
+				pilgrimage!&lt;/longToken&gt;</rdg>
+		</rdgGrp>
+		<rdgGrp
+			n="['extacy', 'shall i &lt;del&gt;fe&lt;/del&gt; join my elizabeth and  those who even     now   prepare for me  &lt;mdel&gt;a&lt;/mdel&gt; the     reward  &lt;del&gt;for&lt;/del&gt; of   my tedious and &lt;del&gt; &lt;unclear extent=&#34;1&#34; unit=&#34;chars&#34;/&gt; &lt;/del&gt; horrible  pilgrimage']">
+			<rdg wit="fMS">&lt;lb n="c57-0162__main__8"/&gt;extacy &lt;longToken&gt;shall I &lt;del
 				rend="strikethrough" xml:id="c57-0162__main__d4e31270"&gt;fe&lt;/del&gt; join my
 				Elizabeth &amp; &lt;lb n="c57-0162__main__9"/&gt;those who even &lt;mod
 				sID="c57-0162__main__d4e31275"/&gt; &lt;sga-add place="sublinear"
@@ -6565,26 +6582,22 @@
 				&lt;/del&gt; horrible &lt;lb
 				n="c57-0162__main__11"/&gt;pilgrimage&lt;/longToken&gt;</rdg>
 		</rdgGrp>
+	</app>
+	<app>
 		<rdgGrp
-			n="['ecstacy shall i join my elizabeth, and my departed friends, who even now prepare for me the reward of my tedious toil and horrible pilgrimage.']">
-			<rdg wit="f1823">&lt;longToken&gt;ecstacy shall I join my Elizabeth, and my departed
-				friends, who even now prepare for me the reward of my tedious toil and horrible
+			n="['shall i join my elizabeth, and my departed friends, who even now prepare for me the reward of my tedious toil and horrible pilgrimage.']">
+			<rdg wit="f1823">&lt;longToken&gt;shall I join my Elizabeth, and my departed friends,
+				who even now prepare for me the reward of my tedious toil and horrible
 				pilgrimage.&lt;/longToken&gt;</rdg>
 		</rdgGrp>
 		<rdgGrp
-			n="['ecstacy shall i join my elizabeth, and those who even now prepare for me the reward of my tedious toil and horrible pilgrimage.']">
-			<rdg wit="f1818">&lt;longToken&gt;ecstacy shall I join my Elizabeth, and those who even
-				now prepare for me the reward of my tedious toil and horrible
+			n="['shall i join my elizabeth, and those who even now prepare for me the reward of my tedious toil and horrible pilgrimage.']">
+			<rdg wit="f1818">&lt;longToken&gt;shall I join my Elizabeth, and those who even now
+				prepare for me the reward of my tedious toil and horrible
 				pilgrimage.&lt;/longToken&gt;</rdg>
-			<rdg wit="fThomas">&lt;longToken&gt;ecstacy shall I join my Elizabeth, and those who
-				even now prepare for me the reward of my tedious toil and horrible
+			<rdg wit="fThomas">&lt;longToken&gt;shall I join my Elizabeth, and those who even now
+				prepare for me the reward of my tedious toil and horrible
 				pilgrimage.&lt;/longToken&gt;</rdg>
-		</rdgGrp>
-		<rdgGrp
-			n="['ecstasy shall i join my elizabeth, and my departed friends, who even now prepare for me the reward of my tedious toil and horrible pilgrimage!']">
-			<rdg wit="f1831">&lt;longToken&gt;ecstasy shall I join my Elizabeth, and my departed
-				friends, who even now prepare for me the reward of my tedious toil and horrible
-				pilgrimage!&lt;/longToken&gt;</rdg>
 		</rdgGrp>
 	</app>
 	<app>
@@ -9501,24 +9514,31 @@
 	</app>
 	<app>
 		<rdgGrp
-			n="['eyes — despair indeed had  almost secured her prey and i should soon  have sunk under this misery–']">
-			<rdg wit="fMS">&lt;longToken&gt;eyes — Despair indeed had &lt;lb
+			n="['eyes', '—', 'despair indeed had  almost secured her prey and i should soon  have sunk under this', 'misery–']">
+			<rdg wit="fMS">eyes — &lt;longToken&gt;Despair indeed had &lt;lb
 				n="c57-0164__main__34"/&gt;almost secured her prey &amp; I should soon &lt;lb
-				n="c57-0164__main__35"/&gt;have sunk under this misery–&lt;/longToken&gt;</rdg>
+				n="c57-0164__main__35"/&gt;have sunk under this&lt;/longToken&gt; misery–</rdg>
 		</rdgGrp>
 		<rdgGrp
-			n="['eyes. despair had indeed almost secured her prey, and i should soon have sunk beneath this misery.']">
-			<rdg wit="f1823">&lt;longToken&gt;eyes. Despair had indeed almost secured her prey, and
-				I should soon have sunk beneath this misery.&lt;/longToken&gt;</rdg>
-			<rdg wit="f1831">&lt;longToken&gt;eyes. Despair had indeed almost secured her prey, and
-				I should soon have sunk beneath this misery.&lt;/longToken&gt;</rdg>
+			n="['eyes.', 'despair had indeed almost secured her prey, and i should soon have sunk beneath this']">
+			<rdg wit="f1818">eyes. &lt;longToken&gt;Despair had indeed almost secured her prey, and
+				I should soon have sunk beneath this&lt;/longToken&gt;</rdg>
+			<rdg wit="f1823">eyes. &lt;longToken&gt;Despair had indeed almost secured her prey, and
+				I should soon have sunk beneath this&lt;/longToken&gt;</rdg>
+			<rdg wit="fThomas">eyes. &lt;longToken&gt;Despair had indeed almost secured her prey,
+				and I should soon have sunk beneath this&lt;/longToken&gt;</rdg>
+			<rdg wit="f1831">eyes. &lt;longToken&gt;Despair had indeed almost secured her prey, and
+				I should soon have sunk beneath this&lt;/longToken&gt;</rdg>
 		</rdgGrp>
-		<rdgGrp
-			n="['eyes. despair had indeed almost secured her prey, and i should soon have sunk beneath this misery;']">
-			<rdg wit="f1818">&lt;longToken&gt;eyes. Despair had indeed almost secured her prey, and
-				I should soon have sunk beneath this misery;&lt;/longToken&gt;</rdg>
-			<rdg wit="fThomas">&lt;longToken&gt;eyes. Despair had indeed almost secured her prey,
-				and I should soon have sunk beneath this misery;&lt;/longToken&gt;</rdg>
+	</app>
+	<app>
+		<rdgGrp n="['misery.']">
+			<rdg wit="f1823">misery.</rdg>
+			<rdg wit="f1831">misery.</rdg>
+		</rdgGrp>
+		<rdgGrp n="['misery;']">
+			<rdg wit="f1818">misery;</rdg>
+			<rdg wit="fThomas">misery;</rdg>
 		</rdgGrp>
 	</app>
 	<app>
@@ -9570,7 +9590,7 @@
 	</app>
 	<app>
 		<rdgGrp
-			n="['&lt;del&gt;along&lt;/del&gt;', 'had  with incredible toil gained the summit of an ice  mountain &lt;del&gt;th&lt;/del&gt; they paused to rest and one unable to  move  &lt;del&gt;sunk&lt;/del&gt;    sinking   under the toil died—i &lt;del&gt;f&lt;/del&gt; viewed the expance  before, with anguish;']">
+			n="['&lt;del&gt;along&lt;/del&gt;', 'had  with incredible toil gained the summit of an ice  mountain &lt;del&gt;th&lt;/del&gt; they paused to rest and one unable to  move  &lt;del&gt;sunk&lt;/del&gt;    sinking   under the toil died—i &lt;del&gt;f&lt;/del&gt; viewed the expance  before, with', 'anguish;']">
 			<rdg wit="fMS">&lt;del rend="strikethrough"
 				xml:id="c57-0165__main__d4e31980"&gt;along&lt;/del&gt; &lt;longToken&gt;had &lt;lb
 				n="c57-0165__main__2"/&gt;with incredible toil gained the summit of an ice &lt;lb
@@ -9586,25 +9606,33 @@
 				eID="c57-0165__main__d4e32004"/&gt; &lt;mod eID="c57-0165__main__d4e31993"/&gt;
 				under the toil died—I &lt;del rend="strikethrough"
 				xml:id="c57-0165__main__d4e32008"&gt;f&lt;/del&gt; viewed the expance &lt;lb
-				n="c57-0165__main__5"/&gt;before, with anguish;&lt;/longToken&gt;</rdg>
+				n="c57-0165__main__5"/&gt;before, with&lt;/longToken&gt; anguish;</rdg>
 		</rdgGrp>
 		<rdgGrp
-			n="['had with incredible toil gained the summit of a sloping ice mountain, and one sinking under his fatigue died, i viewed the expanse before me with anguish,']">
+			n="['had with incredible toil gained the summit of a sloping ice mountain, and one sinking under his fatigue died, i viewed the expanse before me with']">
 			<rdg wit="f1818">&lt;longToken&gt;had with incredible toil gained the summit of a
 				sloping ice mountain, and one sinking under his fatigue died, I viewed the expanse
-				before me with anguish,&lt;/longToken&gt;</rdg>
+				before me with&lt;/longToken&gt;</rdg>
 			<rdg wit="fThomas">&lt;longToken&gt;had with incredible toil gained the summit of a
 				sloping ice mountain, and one sinking under his fatigue died, I viewed the expanse
-				before me with anguish,&lt;/longToken&gt;</rdg>
+				before me with&lt;/longToken&gt;</rdg>
 		</rdgGrp>
 		<rdgGrp
-			n="['had with incredible toil gained the summit of a sloping ice-mountain, and one, sinking under his fatigue, died, i viewed the expanse before me with anguish,']">
+			n="['had with incredible toil gained the summit of a sloping ice-mountain, and one, sinking under his fatigue, died, i viewed the expanse before me with']">
 			<rdg wit="f1823">&lt;longToken&gt;had with incredible toil gained the summit of a
 				sloping ice-mountain, and one, sinking under his fatigue, died, I viewed the expanse
-				before me with anguish,&lt;/longToken&gt;</rdg>
+				before me with&lt;/longToken&gt;</rdg>
 			<rdg wit="f1831">&lt;longToken&gt;had with incredible toil gained the summit of a
 				sloping ice-mountain, and one, sinking under his fatigue, died, I viewed the expanse
-				before me with anguish,&lt;/longToken&gt;</rdg>
+				before me with&lt;/longToken&gt;</rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['anguish,']">
+			<rdg wit="f1818">anguish,</rdg>
+			<rdg wit="f1823">anguish,</rdg>
+			<rdg wit="fThomas">anguish,</rdg>
+			<rdg wit="f1831">anguish,</rdg>
 		</rdgGrp>
 	</app>
 	<app>
@@ -12595,4 +12623,4 @@
 		</rdgGrp>
 	</app>
 </cx:apparatus>
-<!-- 2023-07-30 18:13:40.679257 -->
+<!-- 2023-07-28 14:59:34.359228 -->
