@@ -646,5 +646,7 @@
       </rdgGrp>
   </app>
   ```
+- [ ] Adjusting "unable to endure" passage to help editions line up properly (not variant really)
+- [ ] Adjusting "of a lustrous black" passage
 
   

@@ -73,6 +73,8 @@ RE_SHI_START = re.compile(r'<shi[^<>]*?>')
 RE_SHI_END = re.compile(r'</shi>')
 RE_METAMARK = re.compile(r'<metamark[^<>]*?>.+?</metamark>')
 RE_HI = re.compile(r'<hi\s.+?/>')
+RE_HI_START = re.compile(r'<hi\s*sID.+?>')
+RE_HI_END = re.compile(r'<hi\s*eID.+?>')
 RE_PB = re.compile(r'<pb.*?/>')
 RE_SPACE_LB = re.compile(r'([\w\s])<lb.*?/>')
 RE_LB = re.compile(r'<lb.*?/>')
@@ -101,6 +103,7 @@ RE_HEAD_START = re.compile(r'<head.*?>')
 RE_HEAD_END = re.compile(r'</head>')
 RE_DOTDASH = re.compile(r'\.–')
 RE_BIBL = re.compile(r'<bibl.+?>') #Added 2023-07-09 ebb
+RE_ZONE = re.compile(r'<zone.+?>') #Added 2023-07-30 ebb
 
 # RE_DOTDASH captures a period followed by a dash, frequently seen in the S-GA edition, and not a word-dividing hyphen.
 # 2022-08-08 ebb: I'm currently treating the "dotdash" as just a period for normalization to improve alignments.
@@ -249,6 +252,7 @@ def normalize(inputText):
     normalized = RE_WORD_END.sub(' ', normalized)
     normalized = RE_SPACE_LB.sub('\\1 ', normalized)
     normalized = RE_LB.sub('', normalized)
+    normalized = RE_ZONE.sub('', normalized)
     normalized = RE_NOTE_START.sub('<note>', normalized)
     normalized = RE_NOTE_END.sub('</note>', normalized)
     normalized = RE_SGA_ADDSTART.sub('', normalized)
@@ -262,8 +266,8 @@ def normalize(inputText):
     normalized = RE_HEAD_START.sub('', normalized)
     normalized = RE_HEAD_END.sub('', normalized)
     # 2023-06-30 nlh: added space inside <hi/> normalization.
-    normalized = RE_HI.sub(' ', normalized)
-
+    normalized = RE_HI_START.sub('<hi>', normalized) # ebb: 2023-07-30 We used to normalize <hi> as a space, but we're going to try supplying it as a start and end tag for the normalized tokens now.
+    normalized = RE_HI_END.sub('</hi>', normalized)
     # 2022-08-08 ebb: Sometimes <hi> in the print editions seems irrelevant, in highlighting words at
     # chapter beginnings. However, it also sometimes indicates emphasis on a word.
     # Example: one or two little <hi sID="xxx"/>wives<hi eID="novel1_letter4_chapter6_div4_div6_p9_hi1"/>

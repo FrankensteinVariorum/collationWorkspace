@@ -519,24 +519,30 @@
 	</app>
 
 	<app>
-		<rdgGrp
-			n="['&lt;zone corresp=&#34;#c56-0045.03&#34; type=&#34;left_margin&#34; sid=&#34;c56-0045__left_margin&#34;/&gt;of a lustrous black and', '&lt;zone eid=&#34;c56-0045__left_margin&#34;/&gt;', 'flowing']">
-			<rdg wit="fMS">&lt;longToken&gt;&lt;mod sID="c56-0045__main__d5e9743"/&gt;&lt;sga-add
-				place="sublinear" sID="c56-0045__main__d5e9745"/&gt;&lt;metamark
-				function="displacement" xml:id="c56-0045.03"&gt;^&lt;/metamark&gt;&lt;zone
-				corresp="#c56-0045.03" type="left_margin" sID="c56-0045__left_margin"/&gt;&lt;lb
-				n="c56-0045__left_margin__1"/&gt;&lt;sga-add hand="#pbs"
-				sID="c56-0045__left_margin__d5e9754"/&gt;of a lustrous black &amp;&lt;sga-add
-				eID="c56-0045__left_margin__d5e9754"/&gt; &lt;zone
-				eID="c56-0045__left_margin"/&gt;&lt;sga-add
-				eID="c56-0045__main__d5e9745"/&gt;&lt;mod
-				eID="c56-0045__main__d5e9743"/&gt;&lt;/longToken&gt; flowing</rdg>
+		<rdgGrp n="['of', 'a', 'lustrous']">
+			<rdg wit="f1818">of a lustrous</rdg>
+			<rdg wit="f1823">of a lustrous</rdg>
+			<rdg wit="fThomas">of a lustrous</rdg>
+			<rdg wit="f1831">of a lustrous</rdg>
 		</rdgGrp>
-		<rdgGrp n="['of', 'a', 'lustrous', 'black,']">
-			<rdg wit="f1818">of a lustrous black,</rdg>
-			<rdg wit="f1823">of a lustrous black,</rdg>
-			<rdg wit="fThomas">of a lustrous black,</rdg>
-			<rdg wit="f1831">of a lustrous black,</rdg>
+		<rdgGrp n="['', '', 'of', 'a', 'lustrous']">
+			<rdg wit="fMS">&lt;mod sID="c56-0045__main__d5e9743"/&gt;&lt;sga-add place="sublinear"
+				sID="c56-0045__main__d5e9745"/&gt; &lt;metamark function="displacement"
+				xml:id="c56-0045.03"&gt;^&lt;/metamark&gt; &lt;lb
+				n="c56-0045__left_margin__1"/&gt;&lt;sga-add hand="#pbs"
+				sID="c56-0045__left_margin__d5e9754"/&gt;of a lustrous</rdg>
+		</rdgGrp>
+	</app>
+
+	<app>
+		<rdgGrp n="['black']">
+			<rdg wit="fMS">black</rdg>
+		</rdgGrp>
+		<rdgGrp n="['black,']">
+			<rdg wit="f1818">black,</rdg>
+			<rdg wit="f1823">black,</rdg>
+			<rdg wit="fThomas">black,</rdg>
+			<rdg wit="f1831">black,</rdg>
 		</rdgGrp>
 	</app>
 	<app>
@@ -545,10 +551,14 @@
 			<rdg wit="f1823">and</rdg>
 			<rdg wit="fThomas">and</rdg>
 			<rdg wit="f1831">and</rdg>
-			<rdg wit="fMS">and</rdg>
+			<rdg wit="fMS">&amp;&lt;sga-add eID="c56-0045__left_margin__d5e9754"/&gt;&lt;sga-add
+				eID="c56-0045__main__d5e9745"/&gt;&lt;mod eID="c56-0045__main__d5e9743"/&gt;</rdg>
 		</rdgGrp>
 	</app>
 	<app>
+		<rdgGrp n="['flowing', 'and']">
+			<rdg wit="fMS">flowing and</rdg>
+		</rdgGrp>
 		<rdgGrp n="['flowing;']">
 			<rdg wit="f1818">flowing;</rdg>
 			<rdg wit="f1823">flowing;</rdg>
@@ -8776,4 +8786,4 @@
 		</rdgGrp>
 	</app>
 </cx:apparatus>
-<!-- 2023-07-30 15:03:04.657625 -->
+<!-- 2023-07-26 21:49:38.381347 -->
