@@ -266,9 +266,9 @@
 	</app>
 	<app>
 		<rdgGrp n="['breathed', 'hard,', 'and', 'a', 'convulsive', 'motion', 'agitated', 'its', 'limbs.', '&lt;p-end/&gt;', '&lt;p-start/&gt;']">
-			<rdg wit="f1818">&lt;longToken&gt;breathed&lt;/longToken&gt; &lt;longToken&gt;&lt;pb xml:id=&quot;F1818_v1_110&quot; n=&quot;098&quot;/&gt;hard,&lt;/longToken&gt; and a convulsive motion agitated its limbs. &lt;p eID=&quot;novel1_letter4_chapter4_div4_div4_p1&quot;/&gt; &lt;p sID=&quot;novel1_letter4_chapter4_div4_div4_p2&quot;/&gt; </rdg>
-			<rdg wit="f1823">&lt;longToken&gt;breathed&lt;/longToken&gt; &lt;longToken&gt;&lt;pb xml:id=&quot;F1823_v1_117&quot; n=&quot;98&quot;/&gt;hard,&lt;/longToken&gt; and a convulsive motion agitated its limbs. &lt;p eID=&quot;novel1_letter4_chapter4_div4_div4_p1&quot;/&gt; &lt;p sID=&quot;novel1_letter4_chapter4_div4_div4_p2&quot;/&gt; </rdg>
-			<rdg wit="fThomas">&lt;longToken&gt;breathed&lt;/longToken&gt; &lt;longToken&gt;&lt;pb xml:id=&quot;F1818_v1_110&quot; n=&quot;098&quot;/&gt;hard,&lt;/longToken&gt; and a convulsive motion agitated its limbs. &lt;p eID=&quot;novel1_letter4_chapter4_div4_div4_p1&quot;/&gt; &lt;p sID=&quot;novel1_letter4_chapter4_div4_div4_p2&quot;/&gt; </rdg>
+			<rdg wit="f1818">&lt;longToken&gt;breathed&lt;/longToken&gt; &lt;pb xml:id=&quot;F1818_v1_110&quot; n=&quot;098&quot;/&gt;hard, and a convulsive motion agitated its limbs. &lt;p eID=&quot;novel1_letter4_chapter4_div4_div4_p1&quot;/&gt; &lt;p sID=&quot;novel1_letter4_chapter4_div4_div4_p2&quot;/&gt; </rdg>
+			<rdg wit="f1823">&lt;longToken&gt;breathed&lt;/longToken&gt; &lt;pb xml:id=&quot;F1823_v1_117&quot; n=&quot;98&quot;/&gt;hard, and a convulsive motion agitated its limbs. &lt;p eID=&quot;novel1_letter4_chapter4_div4_div4_p1&quot;/&gt; &lt;p sID=&quot;novel1_letter4_chapter4_div4_div4_p2&quot;/&gt; </rdg>
+			<rdg wit="fThomas">&lt;longToken&gt;breathed&lt;/longToken&gt; &lt;pb xml:id=&quot;F1818_v1_110&quot; n=&quot;098&quot;/&gt;hard, and a convulsive motion agitated its limbs. &lt;p eID=&quot;novel1_letter4_chapter4_div4_div4_p1&quot;/&gt; &lt;p sID=&quot;novel1_letter4_chapter4_div4_div4_p2&quot;/&gt; </rdg>
 			<rdg wit="f1831">breathed hard, and a convulsive motion agitated its limbs. &lt;p eID=&quot;novel1_letter4_chapter5_div4_div5_p1&quot;/&gt; &lt;p sID=&quot;novel1_letter4_chapter5_div4_div5_p2&quot;/&gt; </rdg>
 			<rdg wit="fMS">breathed hard, &lt;lb n=&quot;c56-0045__main__15&quot;/&gt;and a convulsive motion agitated &lt;lb n=&quot;c56-0045__main__16&quot;/&gt;its limbs. &lt;milestone unit=&quot;tei:p-END&quot;/&gt; &lt;milestone unit=&quot;tei:p-START&quot;/&gt; </rdg>
 		</rdgGrp>
@@ -435,12 +435,26 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['skin', 'scarcely', 'covered', 'the', 'work', 'of', 'muscles', 'and', 'arteries', 'beneath;', 'his', 'hair', 'was', 'of', 'a', 'lustrous']">
-			<rdg wit="f1818">skin scarcely covered the work of muscles and arteries beneath; his hair was of a lustrous </rdg>
-			<rdg wit="f1823">skin scarcely covered the work of muscles and arteries beneath; his hair was of a lustrous </rdg>
-			<rdg wit="fThomas">skin scarcely covered the work of muscles and arteries beneath; his hair was of a lustrous </rdg>
-			<rdg wit="f1831">skin scarcely covered the work of muscles and arteries beneath; his hair was of a lustrous </rdg>
-			<rdg wit="fMS">skin scarcely covered the work of &lt;lb n=&quot;c56-0045__main__25&quot;/&gt;muscles and arteries beneath; his hair &lt;lb n=&quot;c56-0045__main__26&quot;/&gt;was &lt;longToken&gt;&lt;mod sID=&quot;c56-0045__main__d5e9743&quot;/&gt;&lt;sga-add place=&quot;sublinear&quot; sID=&quot;c56-0045__main__d5e9745&quot;/&gt;&lt;metamark function=&quot;displacement&quot; xml:id=&quot;c56-0045.03&quot;&gt;^&lt;/metamark&gt;&lt;zone corresp=&quot;#c56-0045.03&quot; type=&quot;left_margin&quot; sID=&quot;c56-0045__left_margin&quot;/&gt;&lt;lb n=&quot;c56-0045__left_margin__1&quot;/&gt;&lt;sga-add hand=&quot;#pbs&quot; sID=&quot;c56-0045__left_margin__d5e9754&quot;/&gt;of&lt;/longToken&gt; a lustrous </rdg>
+		<rdgGrp n="['skin', 'scarcely', 'covered', 'the', 'work', 'of', 'muscles', 'and', 'arteries', 'beneath;', 'his', 'hair', 'was']">
+			<rdg wit="f1818">skin scarcely covered the work of muscles and arteries beneath; his hair was </rdg>
+			<rdg wit="f1823">skin scarcely covered the work of muscles and arteries beneath; his hair was </rdg>
+			<rdg wit="fThomas">skin scarcely covered the work of muscles and arteries beneath; his hair was </rdg>
+			<rdg wit="f1831">skin scarcely covered the work of muscles and arteries beneath; his hair was </rdg>
+			<rdg wit="fMS">skin scarcely covered the work of &lt;lb n=&quot;c56-0045__main__25&quot;/&gt;muscles and arteries beneath; his hair &lt;lb n=&quot;c56-0045__main__26&quot;/&gt;was </rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['', '']">
+			<rdg wit="fMS">&lt;mod sID=&quot;c56-0045__main__d5e9743&quot;/&gt;&lt;sga-add place=&quot;sublinear&quot; sID=&quot;c56-0045__main__d5e9745&quot;/&gt; &lt;metamark function=&quot;displacement&quot; xml:id=&quot;c56-0045.03&quot;&gt;^&lt;/metamark&gt; </rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['of', 'a', 'lustrous']">
+			<rdg wit="f1818">of a lustrous </rdg>
+			<rdg wit="f1823">of a lustrous </rdg>
+			<rdg wit="fThomas">of a lustrous </rdg>
+			<rdg wit="f1831">of a lustrous </rdg>
+			<rdg wit="fMS">&lt;lb n=&quot;c56-0045__left_margin__1&quot;/&gt;&lt;sga-add hand=&quot;#pbs&quot; sID=&quot;c56-0045__left_margin__d5e9754&quot;/&gt;of a lustrous </rdg>
 		</rdgGrp>
 	</app>
 	<app>
@@ -2799,11 +2813,9 @@
 		<rdgGrp n="['me,']">
 			<rdg wit="fMS">me, </rdg>
 		</rdgGrp>
-		<rdgGrp n="['me:&lt;p-end/&gt; &lt;comment text=&quot; the poem and footnote are 2 points smaller than body text &quot;/&gt; &lt;p-start/&gt;']">
-			<rdg wit="f1823">&lt;longToken&gt;me:&lt;p eID=&quot;novel1_letter4_chapter4_div4_div4_p7&quot;/&gt; &lt;comment text=&quot; the poem and footnote are 2 points smaller than body text &quot;/&gt; &lt;p sID=&quot;novel1_letter4_chapter4_div4_div4_p8&quot;/&gt;&lt;/longToken&gt; </rdg>
-		</rdgGrp>
 		<rdgGrp n="['me:&lt;p-end/&gt; &lt;p-start/&gt;']">
 			<rdg wit="f1818">&lt;longToken&gt;me:&lt;p eID=&quot;novel1_letter4_chapter4_div4_div4_p7&quot;/&gt; &lt;p sID=&quot;novel1_letter4_chapter4_div4_div4_p8&quot;/&gt;&lt;/longToken&gt; </rdg>
+			<rdg wit="f1823">&lt;longToken&gt;me:&lt;p eID=&quot;novel1_letter4_chapter4_div4_div4_p7&quot;/&gt; &lt;p sID=&quot;novel1_letter4_chapter4_div4_div4_p8&quot;/&gt;&lt;/longToken&gt; </rdg>
 			<rdg wit="fThomas">&lt;longToken&gt;me:&lt;p eID=&quot;novel1_letter4_chapter4_div4_div4_p7&quot;/&gt; &lt;p sID=&quot;novel1_letter4_chapter4_div4_div4_p8&quot;/&gt;&lt;/longToken&gt; </rdg>
 		</rdgGrp>
 		<rdgGrp n="['me:—&lt;p-end/&gt; &lt;p-start/&gt;']">
@@ -7913,4 +7925,4 @@
 		</rdgGrp>
 	</app>
 </cx:apparatus>
-<!-- 2023-07-30 15:48:09.398574 -->
+<!-- 2023-08-01 13:11:11.568458 -->

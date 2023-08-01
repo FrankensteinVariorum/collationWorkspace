@@ -646,7 +646,10 @@
       </rdgGrp>
   </app>
   ```
-- [ ] Adjusting "unable to endure" passage to help editions line up properly (not variant really)
-- [ ] Adjusting "of a lustrous black" passage
+- [x] Adjusting "unable to endure" passage to help editions line up properly (not variant really)
+- [ ] Adjusting "of a lustrous black" passage: ebb: We ran into problems adjusting this.
+"of a lustrous black" is the same in all editions, but it's a left-margin insertion near a page-beginning in the MS edition (lots of surface, zone, and other markup makes it generate a couple of empty tokens)
+We tried wrapping longTokens to try to prevent the empty tokens from appearing, but it causes a problem in the postCollation pipeline, so I'm removing the longToken here. 
+We 
 
   
