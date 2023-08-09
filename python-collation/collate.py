@@ -51,9 +51,9 @@ RE_LT_AMP = re.compile(r'&amp;')
 # RE_DEL = re.compile(r'<del[^<\-]*?>.+?</del>', re.MULTILINE | re.DOTALL)
 RE_ADDSTART = re.compile(r'<add[^<>]*?>')
 RE_ADDEND = re.compile(r'</add>')
-RE_NOTE_START = re.compile(r'<note.*?>')
-RE_NOTE_END = re.compile(r'</note>')
-RE_DELSTART = re.compile(r'<del\s+.*?>')
+RE_NOTE_START = re.compile(r'<note[^<>]+?sID[^<>]+?>')
+RE_NOTE_END = re.compile(r'<note[^<>]+?eID[^<>]+?>')
+RE_DELSTART = re.compile(r'<del[^<>]*?>')
 RE_DELEND = re.compile(r'</del>')
 # 2023-05-17 ebb with nlh: We have altered the delSpans thus:
 # <delSpan spanTo="id"/> as a start marker and a <delSpan anchor="id"/> in the pre-processed msColl for collation.

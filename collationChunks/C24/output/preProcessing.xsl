@@ -2,6 +2,7 @@
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xmlns:xs="http://www.w3.org/2001/XMLSchema"
     xmlns:math="http://www.w3.org/2005/xpath-functions/math"
+    xmlns:fv="https://github.com/FrankensteinVariorum"
     exclude-result-prefixes="xs math"
     version="3.0">
     
@@ -25,6 +26,52 @@
         
         <delSpan spanTo="#id"/>......<delSpan anchor="id"/>
      -->
+   
+    <!-- CONVERT TO FUNCTION or NAMED TEMPLATES CALLS -->
+    
+<xsl:template name="notesProc">
+    <xsl:param name="currentDoc"/>
+    <xsl:apply-templates mode="notes"/>
+    
+</xsl:template>
+  
+    
+   
+    <xsl:template match="note[@sID]" mode="notes">
+        <note xml:id="{@sID}">
+            <xsl:for-each select="following::node()[following::note[@eID = current()/@sID]]">
+                <xsl:copy select="current()"/>
+            </xsl:for-each>         
+        </note>
+    </xsl:template>
+    
+    <xsl:template match="(* | text())[not(self::note)][preceding-sibling::note[1][@sID]]" mode="notes"/>
+    
+    <xsl:template match="note[@eID]" mode="notes"/>
+    
+    <!--END CONVERSION STUFF -->
+    
+    <xsl:template match="/">
+      
+        <xsl:variable name="notesPre">
+            <xsl:call-template name="notesProc">
+                <xsl:with-param name="currentDoc" as="document-node()" select="current()"/>
+            </xsl:call-template>  
+        </xsl:variable>
+        
+        <xsl:call-template name="notesPost">
+            <xsl:with-param name="preProcNotes" as="document-node()" select="$notesPre"/>
+        </xsl:call-template>
+            
+    </xsl:template>
+    
+    <xsl:template name="notesPost">
+        <xsl:param name="preProcNotes"/>
+        <xsl:apply-templates/>
+    </xsl:template>
+    
+    
+
     <xsl:template match="anchor[@xml:id = preceding::delSpan/substring-after(@spanTo, '#')]">
         <delSpan anchor="{@xml:id}"/>
     </xsl:template>  
