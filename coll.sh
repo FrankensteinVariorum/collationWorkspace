@@ -32,8 +32,14 @@ procChunk(){
   # ebb: batch pre-processing with XSLT here:
   echo -e "${Yellow}+-------This starts the XSLT batch pre-processing of the collation chunk $chunk-------+${resetColor}"
   mkdir $inputDir
-  java -jar xslt/SaxonHE12-0J/saxon-he-12.0.jar -xsl:xslt/preProcessing.xsl -s:$preprocDir -o:$inputDir
+  java -jar xslt/SaxonHE12-0J/saxon-he-12.0.jar -xsl:xslt/preProcessing-1.xsl -s:$preprocDir -o:$inputDir
   sleep 2
+
+  echo -e "${Yellow}+-------This starts the XSLT batch pre-processing of the collation chunk $chunk-------+${resetColor}"
+  mkdir $inputDir
+  java -jar xslt/SaxonHE12-0J/saxon-he-12.0.jar -xsl:xslt/preProcessing-2.xsl -s:$inputDir -o:$inputDir
+  sleep 2
+
   # Run collate.py
   echo -e "${Yellow}+-------This starts the Python processing of the collation chunk $chunk-------+${resetColor}"
   cd python-collation
