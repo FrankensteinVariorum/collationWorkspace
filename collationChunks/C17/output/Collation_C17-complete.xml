@@ -43,7 +43,7 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['&#34;i t']">
+		<rdgGrp n="['&#34;i&lt;hi&gt;t&lt;/hi&gt;']">
 			<rdg wit="f1818">“I&lt;hi sID="novel1_letter4_chapter10_div4_div11_p1_hi1"/&gt;T&lt;hi eID="novel1_letter4_chapter10_div4_div11_p1_hi1"/&gt;</rdg>
 			<rdg wit="f1823">“I&lt;hi sID="novel1_letter4_chapter10_div4_div10_p1_hi1"/&gt;T&lt;hi eID="novel1_letter4_chapter10_div4_div10_p1_hi1"/&gt;</rdg>
 			<rdg wit="fThomas">“I&lt;hi sID="novel1_letter4_chapter10_div4_div11_p1_hi1"/&gt;T&lt;hi eID="novel1_letter4_chapter10_div4_div11_p1_hi1"/&gt;</rdg>
@@ -4434,12 +4434,33 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['overcome', 'by']">
-			<rdg wit="f1818">&lt;pb xml:id="F1818_v2_046" n="042"/&gt;overcome by</rdg>
-			<rdg wit="f1823">overcome by</rdg>
-			<rdg wit="fThomas">&lt;pb xml:id="F1818_v2_046" n="042"/&gt;overcome by</rdg>
-			<rdg wit="f1831">overcome by</rdg>
-			<rdg wit="fMS">overcome &lt;lb n="c57-0008__main__7"/&gt;by</rdg>
+		<rdgGrp n="['']">
+			<rdg wit="f1818">&lt;pb xml:id="F1818_v2_046" n="042"/&gt;</rdg>
+			<rdg wit="fThomas">&lt;pb xml:id="F1818_v2_046" n="042"/&gt;</rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['overcome']">
+			<rdg wit="f1818">overcome</rdg>
+			<rdg wit="f1823">overcome</rdg>
+			<rdg wit="fThomas">overcome</rdg>
+			<rdg wit="f1831">overcome</rdg>
+			<rdg wit="fMS">overcome</rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['&lt;note&gt;the 1818 edition omits the word &#34;then&#34; at the start of this sentence in the other editions and begins the line at the top of the page with &#34;overcome&#34;.  this is apparently a typesetting error.&lt;/note&gt;']">
+			<rdg wit="f1818">&lt;note resp="FV-Team-ebb"&gt;The 1818 edition omits the word "Then" at the start of this sentence in the other editions and begins the line at the top of the page with "overcome". This is apparently a typesetting error.&lt;/note&gt;</rdg>
+			<rdg wit="fThomas">&lt;note resp="FV-Team-ebb"&gt;The 1818 edition omits the word "Then" at the start of this sentence in the other editions and begins the line at the top of the page with "overcome". This is apparently a typesetting error.&lt;/note&gt;</rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['by']">
+			<rdg wit="f1818">by</rdg>
+			<rdg wit="f1823">by</rdg>
+			<rdg wit="fThomas">by</rdg>
+			<rdg wit="f1831">by</rdg>
+			<rdg wit="fMS">&lt;lb n="c57-0008__main__7"/&gt;by</rdg>
 		</rdgGrp>
 	</app>
 	<app>
@@ -9404,4 +9425,4 @@
 	</app>
 	<app><rdgGrp n="['', '']"><rdg wit="f1818">&lt;milestone unit="chapter" type="end" n="10"/&gt;  </rdg><rdg wit="fThomas">&lt;milestone unit="chapter" type="end" n="10"/&gt;  </rdg><rdg wit="f1831">&lt;milestone unit="chapter" type="end" n="11"/&gt;  </rdg><rdg wit="f1823">&lt;pb xml:id="F1823_v1_253" n="234"/&gt;&lt;milestone unit="chapter" type="end" n="10"/&gt;</rdg></rdgGrp></app>
 	
-</cx:apparatus><!-- 2023-07-24 21:01:24.358652 -->
+</cx:apparatus><!-- 2023-08-09 05:35:54.940095 -->
