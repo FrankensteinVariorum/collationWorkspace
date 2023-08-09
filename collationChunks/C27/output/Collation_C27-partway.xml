@@ -33,12 +33,32 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['i', 'was', 'soon']">
-			<rdg wit="f1818">I &lt;hi sID=&quot;novel1_letter4_chapter20_div4_div22_p1_hi1&quot;/&gt;WAS&lt;hi eID=&quot;novel1_letter4_chapter20_div4_div22_p1_hi1&quot;/&gt; soon </rdg>
-			<rdg wit="f1823">I &lt;hi sID=&quot;novel1_letter4_chapter20_div4_div21_p1_hi1&quot;/&gt;WAS&lt;hi eID=&quot;novel1_letter4_chapter20_div4_div21_p1_hi1&quot;/&gt; soon </rdg>
-			<rdg wit="fThomas">I &lt;hi sID=&quot;novel1_letter4_chapter20_div4_div22_p1_hi1&quot;/&gt;WAS&lt;hi eID=&quot;novel1_letter4_chapter20_div4_div22_p1_hi1&quot;/&gt; soon </rdg>
-			<rdg wit="f1831">I &lt;hi sID=&quot;novel1_letter4_chapter21_div4_div21_p1_hi1&quot;/&gt;WAS&lt;hi eID=&quot;novel1_letter4_chapter21_div4_div21_p1_hi1&quot;/&gt; soon </rdg>
-			<rdg wit="fMS">&lt;anchor xml:id=&quot;c57-0117.02&quot;/&gt;&lt;lb n=&quot;c57-0117__main__2&quot;/&gt;&lt;anchor xml:id=&quot;c57-0117.01&quot;/&gt;&lt;lb n=&quot;c57-0117__left_margin__1&quot;/&gt;I was soon </rdg>
+		<rdgGrp n="['i']">
+			<rdg wit="f1818">I </rdg>
+			<rdg wit="f1823">I </rdg>
+			<rdg wit="fThomas">I </rdg>
+			<rdg wit="f1831">I </rdg>
+			<rdg wit="fMS">&lt;anchor xml:id=&quot;c57-0117.02&quot;/&gt;&lt;lb n=&quot;c57-0117__main__2&quot;/&gt;&lt;anchor xml:id=&quot;c57-0117.01&quot;/&gt;&lt;lb n=&quot;c57-0117__left_margin__1&quot;/&gt;I </rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['&lt;hi&gt;was&lt;/hi&gt;']">
+			<rdg wit="f1818">&lt;hi sID=&quot;novel1_letter4_chapter20_div4_div22_p1_hi1&quot;/&gt;WAS&lt;hi eID=&quot;novel1_letter4_chapter20_div4_div22_p1_hi1&quot;/&gt; </rdg>
+			<rdg wit="f1823">&lt;hi sID=&quot;novel1_letter4_chapter20_div4_div21_p1_hi1&quot;/&gt;WAS&lt;hi eID=&quot;novel1_letter4_chapter20_div4_div21_p1_hi1&quot;/&gt; </rdg>
+			<rdg wit="fThomas">&lt;hi sID=&quot;novel1_letter4_chapter20_div4_div22_p1_hi1&quot;/&gt;WAS&lt;hi eID=&quot;novel1_letter4_chapter20_div4_div22_p1_hi1&quot;/&gt; </rdg>
+			<rdg wit="f1831">&lt;hi sID=&quot;novel1_letter4_chapter21_div4_div21_p1_hi1&quot;/&gt;WAS&lt;hi eID=&quot;novel1_letter4_chapter21_div4_div21_p1_hi1&quot;/&gt; </rdg>
+		</rdgGrp>
+		<rdgGrp n="['was']">
+			<rdg wit="fMS">was </rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['soon']">
+			<rdg wit="f1818">soon </rdg>
+			<rdg wit="f1823">soon </rdg>
+			<rdg wit="fThomas">soon </rdg>
+			<rdg wit="f1831">soon </rdg>
+			<rdg wit="fMS">soon </rdg>
 		</rdgGrp>
 	</app>
 	<app>
@@ -6245,25 +6265,45 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['occurred.', 'you', 'were', 'thrown,', 'by', 'some', 'surprising', 'accident,', 'on', 'this', 'shore,', 'renowned', 'for', 'its']">
-			<rdg wit="f1818">occur&lt;pb xml:id=&quot;F1818_v3_082&quot; n=&quot;078&quot;/&gt;red. You were thrown, by some surprising accident, on this shore, renowned for its </rdg>
-			<rdg wit="f1823">occurred. You &lt;pb xml:id=&quot;F1823_v2_439&quot; n=&quot;166&quot;/&gt;were thrown, by some surprising accident, on this shore, renowned for its </rdg>
-			<rdg wit="fThomas">occur&lt;pb xml:id=&quot;F1818_v3_082&quot; n=&quot;078&quot;/&gt;red. You were thrown, by some surprising accident, on this shore, &lt;hi sID=&quot;novel1_letter4_chapter20_div4_div22_p26_hi1&quot;/&gt;renowned for its </rdg>
-			<rdg wit="f1831">occurred. You were thrown, by some surprising accident, on this shore, renowned for its </rdg>
-			<rdg wit="fMS">occurred. &lt;lb n=&quot;c57-0125__main__5&quot;/&gt;You were thrown, by some surprising &lt;lb n=&quot;c57-0125__main__6&quot;/&gt;accident, on this shore, renowned for its </rdg>
+		<rdgGrp n="['occurred.', 'you', 'were', 'thrown,', 'by', 'some', 'surprising', 'accident,', 'on', 'this', 'shore,']">
+			<rdg wit="f1818">occur&lt;pb xml:id=&quot;F1818_v3_082&quot; n=&quot;078&quot;/&gt;red. You were thrown, by some surprising accident, on this shore, </rdg>
+			<rdg wit="f1823">occurred. You &lt;pb xml:id=&quot;F1823_v2_439&quot; n=&quot;166&quot;/&gt;were thrown, by some surprising accident, on this shore, </rdg>
+			<rdg wit="fThomas">occur&lt;pb xml:id=&quot;F1818_v3_082&quot; n=&quot;078&quot;/&gt;red. You were thrown, by some surprising accident, on this shore, </rdg>
+			<rdg wit="f1831">occurred. You were thrown, by some surprising accident, on this shore, </rdg>
+			<rdg wit="fMS">occurred. &lt;lb n=&quot;c57-0125__main__5&quot;/&gt;You were thrown, by some surprising &lt;lb n=&quot;c57-0125__main__6&quot;/&gt;accident, on this shore, </rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['&lt;hi&gt;renowned']">
+			<rdg wit="fThomas">&lt;hi sID=&quot;novel1_letter4_chapter20_div4_div22_p26_hi1&quot;/&gt;renowned </rdg>
+		</rdgGrp>
+		<rdgGrp n="['renowned']">
+			<rdg wit="f1818">renowned </rdg>
+			<rdg wit="f1823">renowned </rdg>
+			<rdg wit="f1831">renowned </rdg>
+			<rdg wit="fMS">renowned </rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['for', 'its']">
+			<rdg wit="f1818">for its </rdg>
+			<rdg wit="f1823">for its </rdg>
+			<rdg wit="fThomas">for its </rdg>
+			<rdg wit="f1831">for its </rdg>
+			<rdg wit="fMS">for its </rdg>
 		</rdgGrp>
 	</app>
 	<app>
 		<rdgGrp n="['', 'hospitality &lt;del&gt;but prejudiced against you.&lt;/del&gt;  siezed immediately']">
 			<rdg wit="fMS">&lt;lb n=&quot;c57-0125__main__7&quot;/&gt; &lt;longToken&gt;hospitality &lt;del rend=&quot;strikethrough&quot; xml:id=&quot;c57-0125__main__d4e23123&quot;&gt;but prejudiced against you.&lt;/del&gt; &lt;lb n=&quot;c57-0125__main__8&quot;/&gt;Siezed immediately&lt;/longToken&gt; </rdg>
 		</rdgGrp>
-		<rdgGrp n="['hospitality ; seized immediately,']">
-			<rdg wit="fThomas">&lt;longToken&gt;hospitality&lt;hi eID=&quot;novel1_letter4_chapter20_div4_div22_p26_hi1&quot;/&gt;; seized immediately,&lt;/longToken&gt; </rdg>
-		</rdgGrp>
 		<rdgGrp n="['hospitality; seized immediately,']">
 			<rdg wit="f1818">&lt;longToken&gt;hospitality; seized immediately,&lt;/longToken&gt; </rdg>
 			<rdg wit="f1823">&lt;longToken&gt;hospitality; seized immediately,&lt;/longToken&gt; </rdg>
 			<rdg wit="f1831">&lt;longToken&gt;hospitality; seized immediately,&lt;/longToken&gt; </rdg>
+		</rdgGrp>
+		<rdgGrp n="['hospitality&lt;/hi&gt;; seized immediately,']">
+			<rdg wit="fThomas">&lt;longToken&gt;hospitality&lt;hi eID=&quot;novel1_letter4_chapter20_div4_div22_p26_hi1&quot;/&gt;; seized immediately,&lt;/longToken&gt; </rdg>
 		</rdgGrp>
 	</app>
 	<app>
@@ -9110,16 +9150,27 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['on', 'its', 'being', 'proved', 'that']">
-			<rdg wit="f1818">on its being proved that </rdg>
-			<rdg wit="f1823">on its being proved that </rdg>
-			<rdg wit="fThomas">&lt;hi sID=&quot;novel1_letter4_chapter20_div4_div22_p44_hi1&quot;/&gt;on&lt;hi eID=&quot;novel1_letter4_chapter20_div4_div22_p44_hi1&quot;/&gt; its being proved that </rdg>
-			<rdg wit="f1831">on its being proved that </rdg>
-			<rdg wit="fMS">on its being &lt;lb n=&quot;c57-0129__main__7&quot;/&gt;proved that </rdg>
+		<rdgGrp n="['&lt;hi&gt;on&lt;/hi&gt;']">
+			<rdg wit="fThomas">&lt;hi sID=&quot;novel1_letter4_chapter20_div4_div22_p44_hi1&quot;/&gt;on&lt;hi eID=&quot;novel1_letter4_chapter20_div4_div22_p44_hi1&quot;/&gt; </rdg>
+		</rdgGrp>
+		<rdgGrp n="['on']">
+			<rdg wit="f1818">on </rdg>
+			<rdg wit="f1823">on </rdg>
+			<rdg wit="f1831">on </rdg>
+			<rdg wit="fMS">on </rdg>
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['i was  on  in the orkney islands']">
+		<rdgGrp n="['its', 'being', 'proved', 'that']">
+			<rdg wit="f1818">its being proved that </rdg>
+			<rdg wit="f1823">its being proved that </rdg>
+			<rdg wit="fThomas">its being proved that </rdg>
+			<rdg wit="f1831">its being proved that </rdg>
+			<rdg wit="fMS">its being &lt;lb n=&quot;c57-0129__main__7&quot;/&gt;proved that </rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['i was &lt;hi&gt;on&lt;/hi&gt; in the orkney islands']">
 			<rdg wit="fThomas">&lt;longToken&gt;I was &lt;hi sID=&quot;novel1_letter4_chapter20_div4_div22_p44_hi2&quot;/&gt;on&lt;hi eID=&quot;novel1_letter4_chapter20_div4_div22_p44_hi2&quot;/&gt; &lt;add place=&quot;margin&quot;&gt;in&lt;/add&gt; the Orkney Islands&lt;/longToken&gt; </rdg>
 		</rdgGrp>
 		<rdgGrp n="['i was in the &lt;unclear reason=&quot;case&quot;&gt;o&lt;/unclear&gt;rkney island', '&lt;del&gt;the&lt;/del&gt;']">
@@ -9841,13 +9892,13 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['happiness; and thought, with melancholy delight, of my beloved cousin; or longed, with a devouring  maladie du pays , to see once more the blue lake and rapid rhone, that']">
+		<rdgGrp n="['happiness; and thought, with melancholy delight, of my beloved cousin; or longed, with a devouring &lt;hi&gt;maladie du pays&lt;/hi&gt;, to see once more the blue lake and rapid rhone, that']">
 			<rdg wit="f1818">&lt;longToken&gt;happiness; and thought, with melancholy delight, of my beloved cousin; or longed, with a devouring &lt;hi sID=&quot;novel1_letter4_chapter20_div4_div22_p46_hi1&quot;/&gt;maladie du pays&lt;hi eID=&quot;novel1_letter4_chapter20_div4_div22_p46_hi1&quot;/&gt;, to see once more the blue lake and rapid Rhone, that&lt;/longToken&gt; </rdg>
 			<rdg wit="f1823">&lt;longToken&gt;happiness; and thought, with melancholy delight, of my beloved cousin; or longed, with a devouring &lt;hi sID=&quot;novel1_letter4_chapter20_div4_div21_p46_hi1&quot;/&gt;maladie du pays&lt;hi eID=&quot;novel1_letter4_chapter20_div4_div21_p46_hi1&quot;/&gt;, to see once more the blue lake and rapid Rhone, that&lt;/longToken&gt; </rdg>
 			<rdg wit="fThomas">&lt;longToken&gt;happiness; and thought, with melancholy delight, of my beloved cousin; or longed, with a devouring &lt;hi sID=&quot;novel1_letter4_chapter20_div4_div22_p46_hi1&quot;/&gt;maladie du pays&lt;hi eID=&quot;novel1_letter4_chapter20_div4_div22_p46_hi1&quot;/&gt;, to see once more the blue lake and rapid Rhone, that&lt;/longToken&gt; </rdg>
 			<rdg wit="f1831">&lt;longToken&gt;happiness; and thought, with melancholy delight, of my beloved cousin; or longed, with a devouring &lt;hi sID=&quot;novel1_letter4_chapter21_div4_div21_p46_hi1&quot;/&gt;maladie du pays&lt;hi eID=&quot;novel1_letter4_chapter21_div4_div21_p46_hi1&quot;/&gt;, to see once more the blue lake and rapid Rhone, that&lt;/longToken&gt; </rdg>
 		</rdgGrp>
-		<rdgGrp n="['happiness;', '&lt;zone eid=&quot;c57-0130__left_margin&quot;/&gt;my beloved cousin and the blue lake which']">
+		<rdgGrp n="['happiness;', 'my beloved cousin and the blue lake which']">
 			<rdg wit="fMS">&lt;longToken&gt;happiness; &lt;sga-add eID=&quot;c57-0130__left_margin__d4e24009&quot;/&gt;   &lt;zone eID=&quot;c57-0130__left_margin&quot;/&gt;my beloved cousin &amp;amp; the blue lake which&lt;/longToken&gt; </rdg>
 		</rdgGrp>
 	</app>
@@ -10304,7 +10355,7 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['machinations', '', &quot;&lt;del&gt;and who is     &lt;del&gt;'&quot;, '', 'to be the', '&lt;/del-inner&gt;  next victim i exclaimed&lt;/del&gt;', 'and']">
+		<rdgGrp n="['machinations', '', '&lt;del&gt;and who is     &lt;del-inner rend=&quot;strikethrough&quot; xml:id=&quot;c57-0130__main__d4e24153&quot;&gt;\'', '', 'to be the', '&lt;/del-inner&gt;  next victim i exclaimed&lt;/del&gt;', 'and']">
 			<rdg wit="fMS">machinations &lt;lb n=&quot;c57-0130__main__18&quot;/&gt; &lt;del rend=&quot;strikethrough&quot; xml:id=&quot;c57-0130__main__d4e24143&quot;&gt;And who is &lt;mod sID=&quot;c57-0130__main__d4e24145&quot;/&gt; &lt;sga-add sID=&quot;c57-0130__main__d4e24147&quot;/&gt; &lt;metamark function=&quot;insert&quot;&gt;^&lt;/metamark&gt; &lt;sga-add eID=&quot;c57-0130__main__d4e24147&quot;/&gt; &lt;del-INNER rend=&quot;strikethrough&quot; xml:id=&quot;c57-0130__main__d4e24153&quot;&gt;'                                 &lt;sga-add place=&quot;superlinear&quot; sID=&quot;c57-0130__main__d4e24155&quot;/&gt;to be the &lt;sga-add eID=&quot;c57-0130__main__d4e24155&quot;/&gt;       &lt;/del-INNER&gt; &lt;mod eID=&quot;c57-0130__main__d4e24145&quot;/&gt; next victim I exclaimed&lt;/del&gt; And </rdg>
 		</rdgGrp>
 		<rdgGrp n="['machinations.']">
@@ -11058,10 +11109,12 @@
 		</rdgGrp>
 	</app>
 	<app>
+		<rdgGrp n="['&lt;hi&gt;i']">
+			<rdg wit="fThomas">&lt;hi sID=&quot;novel1_letter4_chapter20_div4_div22_p49_hi1&quot;/&gt;I </rdg>
+		</rdgGrp>
 		<rdgGrp n="['i']">
 			<rdg wit="f1818">I </rdg>
 			<rdg wit="f1823">I </rdg>
-			<rdg wit="fThomas">&lt;hi sID=&quot;novel1_letter4_chapter20_div4_div22_p49_hi1&quot;/&gt;I </rdg>
 			<rdg wit="f1831">I </rdg>
 			<rdg wit="fMS">I </rdg>
 		</rdgGrp>
@@ -11080,12 +11133,32 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['the', 'mad', 'enthusiasm', 'that', 'hurried', 'me', 'on', 'to', 'the', 'creation', 'of', 'my', 'hideous']">
-			<rdg wit="f1818">the mad enthusiasm that hurried me on to the crea&lt;pb xml:id=&quot;F1818_v3_093&quot; n=&quot;089&quot;/&gt;tion of my hideous </rdg>
-			<rdg wit="f1823">the mad enthusiasm that hurried me on to the crea&lt;pb xml:id=&quot;F1823_v2_450&quot; n=&quot;177&quot;/&gt;tion of my hideous </rdg>
-			<rdg wit="fThomas">the mad enthusiasm&lt;hi eID=&quot;novel1_letter4_chapter20_div4_div22_p49_hi1&quot;/&gt; that hurried me on to the crea&lt;pb xml:id=&quot;F1818_v3_093&quot; n=&quot;089&quot;/&gt;tion of my hideous </rdg>
-			<rdg wit="f1831">the mad enthusiasm that hurried me on to the creation of my hideous </rdg>
-			<rdg wit="fMS">the mad enthusiasm &lt;lb n=&quot;c57-0131__main__14&quot;/&gt;that hurried me on to the creation of &lt;lb n=&quot;c57-0131__main__15&quot;/&gt;my hideous </rdg>
+		<rdgGrp n="['the', 'mad']">
+			<rdg wit="f1818">the mad </rdg>
+			<rdg wit="f1823">the mad </rdg>
+			<rdg wit="fThomas">the mad </rdg>
+			<rdg wit="f1831">the mad </rdg>
+			<rdg wit="fMS">the mad </rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['enthusiasm']">
+			<rdg wit="f1818">enthusiasm </rdg>
+			<rdg wit="f1823">enthusiasm </rdg>
+			<rdg wit="f1831">enthusiasm </rdg>
+			<rdg wit="fMS">enthusiasm </rdg>
+		</rdgGrp>
+		<rdgGrp n="['enthusiasm&lt;/hi&gt;']">
+			<rdg wit="fThomas">enthusiasm&lt;hi eID=&quot;novel1_letter4_chapter20_div4_div22_p49_hi1&quot;/&gt; </rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['that', 'hurried', 'me', 'on', 'to', 'the', 'creation', 'of', 'my', 'hideous']">
+			<rdg wit="f1818">that hurried me on to the crea&lt;pb xml:id=&quot;F1818_v3_093&quot; n=&quot;089&quot;/&gt;tion of my hideous </rdg>
+			<rdg wit="f1823">that hurried me on to the crea&lt;pb xml:id=&quot;F1823_v2_450&quot; n=&quot;177&quot;/&gt;tion of my hideous </rdg>
+			<rdg wit="fThomas">that hurried me on to the crea&lt;pb xml:id=&quot;F1818_v3_093&quot; n=&quot;089&quot;/&gt;tion of my hideous </rdg>
+			<rdg wit="f1831">that hurried me on to the creation of my hideous </rdg>
+			<rdg wit="fMS">&lt;lb n=&quot;c57-0131__main__14&quot;/&gt;that hurried me on to the creation of &lt;lb n=&quot;c57-0131__main__15&quot;/&gt;my hideous </rdg>
 		</rdgGrp>
 	</app>
 	<app>
@@ -11321,13 +11394,15 @@
 		</rdgGrp>
 	</app>
 	<app>
+		<rdgGrp n="['&lt;hi&gt;oppressed']">
+			<rdg wit="fThomas">&lt;hi sID=&quot;novel1_letter4_chapter20_div4_div22_p50_hi1&quot;/&gt;Oppressed </rdg>
+		</rdgGrp>
 		<rdgGrp n="['o', '&lt;del&gt;p&lt;/del&gt;', 'pressed']">
 			<rdg wit="fMS">O &lt;del rend=&quot;strikethrough&quot; xml:id=&quot;c57-0131__main__d4e24409&quot;&gt;p&lt;/del&gt; pressed </rdg>
 		</rdgGrp>
 		<rdgGrp n="['oppressed']">
 			<rdg wit="f1818">Oppressed </rdg>
 			<rdg wit="f1823">Oppressed </rdg>
-			<rdg wit="fThomas">&lt;hi sID=&quot;novel1_letter4_chapter20_div4_div22_p50_hi1&quot;/&gt;Oppressed </rdg>
 			<rdg wit="f1831">Oppressed </rdg>
 		</rdgGrp>
 	</app>
@@ -11347,8 +11422,10 @@
 		<rdgGrp n="['misfortunes,']">
 			<rdg wit="f1818">misfortunes, </rdg>
 			<rdg wit="f1823">misfortunes, </rdg>
-			<rdg wit="fThomas">misfortunes,&lt;hi eID=&quot;novel1_letter4_chapter20_div4_div22_p50_hi1&quot;/&gt; </rdg>
 			<rdg wit="f1831">misfortunes, </rdg>
+		</rdgGrp>
+		<rdgGrp n="['misfortunes,&lt;/hi&gt;']">
+			<rdg wit="fThomas">misfortunes,&lt;hi eID=&quot;novel1_letter4_chapter20_div4_div22_p50_hi1&quot;/&gt; </rdg>
 		</rdgGrp>
 	</app>
 	<app>
@@ -11761,4 +11838,4 @@
 		</rdgGrp>
 	</app>
 </cx:apparatus>
-<!-- 2023-07-10 08:09:49.458611 -->
+<!-- 2023-08-09 14:36:10.966381 -->
