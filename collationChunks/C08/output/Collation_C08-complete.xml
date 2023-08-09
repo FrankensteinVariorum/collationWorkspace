@@ -10,8 +10,9 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['&lt;note&gt;from chapter 1&lt;/note&gt;', '', '&lt;del&gt;sevr&lt;/del&gt;']">
-			<rdg wit="fMS">&lt;note resp="fv:ebb"&gt;&lt;milestone spanTo="#c56-0011.01"
+		<rdgGrp
+			n="['&lt;note resp=&#34;fv-team-ebb&#34;&gt;from chapter 1&lt;/note&gt;', '', '&lt;del&gt;sevr&lt;/del&gt;']">
+			<rdg wit="fMS">&lt;note resp="FV-Team-ebb"&gt;&lt;milestone spanTo="#c56-0011.01"
 				unit="tei:head"/&gt;from Chapter 1&lt;anchor xml:id="c56-0011.01"/&gt;&lt;/note&gt;
 				&lt;lb n="c56-0011__main__1"/&gt; &lt;del instant="true" rend="strikethrough"
 				xml:id="c56-0011__main__d5e13"&gt;sevr&lt;/del&gt;</rdg>
@@ -28,7 +29,7 @@
 				Elizabeth.&lt;/longToken&gt; If the</rdg>
 		</rdgGrp>
 		<rdgGrp
-			n="['&lt;p-start/&gt;every one loved elizabeth.', 'the passionate and almost reverential attachment with which all regarded her became, while i shared it, my pride and my delight. on the evening previous to her being brought to my home, my mother had said playfully,—&#34;i have a pretty present for my victor—to-morrow he shall have it.&#34; and when, on the morrow, she presented elizabeth to me as her promised gift, i, with childish seriousness, interpreted her words literally, and looked upon elizabeth as mine—mine to protect, love, and cherish. all praises bestowed on her, i received as made to a possession of my own. we called each other familiarly by the name of cousin. no word, no expression could body forth the kind of relation in which she stood to me—my more than sister, since till death she was to be mine only.&lt;p-end/&gt; &lt;comment text=&#34;ebb: centered underscore a few lines below&#34;/&gt;', 'chapter ii. &lt;p-start/&gt; w e  were brought up together; there was not quite a year difference in our ages. i need not say that we were strangers to any species of disunion or dispute. harmony was the soul of our companionship, and the diversity and contrast that subsisted in our characters drew us nearer together. elizabeth was of a calmer and more concentrated disposition; but, with all my ardour, i was capable of a more intense application, and was more deeply smitten with the thirst for knowledge. she busied herself with following the aerial creations of the poets; and in the majestic and wondrous scenes which surrounded our swiss home—the sublime shapes of the mountains; the changes of the seasons; tempest and calm; the silence of winter, and the life and turbulence of our alpine summers,—she found ample scope for admiration and delight. while my companion contemplated with a serious and satisfied spirit the magnificent appearances of things, i delighted in investigating their causes. the world was to me a secret which i desired to divine. curiosity, earnest research to learn the hidden laws of nature, gladness akin to rapture, as they were unfolded to me, are among the earliest sensations i can remember.&lt;p-end/&gt;', '&lt;p-start/&gt;on the birth of a second son, my junior by seven years, my parents gave up entirely their wandering life, and fixed themselves in their native country. we possessed a house in geneva, and a  campagne  on belrive, the eastern shore of the lake, at the distance of rather more than a league from the city. we resided principally in the latter, and the lives of my parents were passed in considerable seclusion. it was my temper to avoid a crowd, and to attach myself fervently to a few. i was indifferent, therefore, to my schoolfellows in general; but i united myself in the bonds of the closest friendship to one among them.']">
+			n="['&lt;p-start/&gt;every one loved elizabeth.', 'the passionate and almost reverential attachment with which all regarded her became, while i shared it, my pride and my delight. on the evening previous to her being brought to my home, my mother had said playfully,—&#34;i have a pretty present for my victor—to-morrow he shall have it.&#34; and when, on the morrow, she presented elizabeth to me as her promised gift, i, with childish seriousness, interpreted her words literally, and looked upon elizabeth as mine—mine to protect, love, and cherish. all praises bestowed on her, i received as made to a possession of my own. we called each other familiarly by the name of cousin. no word, no expression could body forth the kind of relation in which she stood to me—my more than sister, since till death she was to be mine only.&lt;p-end/&gt;', 'chapter ii. &lt;p-start/&gt; w&lt;hi&gt;e&lt;/hi&gt; were brought up together; there was not quite a year difference in our ages. i need not say that we were strangers to any species of disunion or dispute. harmony was the soul of our companionship, and the diversity and contrast that subsisted in our characters drew us nearer together. elizabeth was of a calmer and more concentrated disposition; but, with all my ardour, i was capable of a more intense application, and was more deeply smitten with the thirst for knowledge. she busied herself with following the aerial creations of the poets; and in the majestic and wondrous scenes which surrounded our swiss home—the sublime shapes of the mountains; the changes of the seasons; tempest and calm; the silence of winter, and the life and turbulence of our alpine summers,—she found ample scope for admiration and delight. tigating their while my companion contemplated with a serious and satisfied spirit the magnificent appearances of things, i delighted in inves causes. the world was to me a secret which i desired to divine. curiosity, earnest research to learn the hidden laws of nature, gladness akin to rapture, as they were unfolded to me, are among the earliest sensations i can remember.&lt;p-end/&gt;', '&lt;p-start/&gt;on the birth of a second son, my junior by seven years, my parents gave up entirely their wandering life, and fixed themselves in their native country. we possessed a house in geneva, and a &lt;hi&gt;campagne&lt;/hi&gt; on belrive, the eastern shore of the lake, at the distance of rather more than a league from the city. we resided principally in the latter, and the lives of my parents were passed in considerable seclusion. it was my temper to avoid a crowd, and to attach myself fervently to a few. i was indifferent, therefore, to my schoolfellows in general; but i united myself in the bonds of the closest friendship to one among them.']">
 			<rdg wit="f1831">&lt;longToken&gt;&lt;p
 				sID="novel1_letter4_chapter1_div4_div1_p11"/&gt;Every one loved
 				Elizabeth.&lt;/longToken&gt; &lt;longToken&gt;The passionate and almost reverential
@@ -42,8 +43,7 @@
 				each other familiarly by the name of cousin. No word, no expression could body forth
 				the kind of relation in which she stood to me—my more than sister, since till death
 				she was to be mine only.&lt;p eID="novel1_letter4_chapter1_div4_div1_p11"/&gt;
-				&lt;comment text="ebb: centered underscore a few lines below"/&gt; &lt;milestone
-				unit="chapter" type="end" n="1"/&gt;&lt;/longToken&gt;
+				&lt;milestone unit="chapter" type="end" n="1"/&gt;&lt;/longToken&gt;
 				&lt;longToken&gt;&lt;milestone unit="chapter" type="start" n="2"/&gt;
 				&lt;head&gt;CHAPTER II.&lt;/head&gt; &lt;p
 				sID="novel1_letter4_chapter2_div4_div2_p1"/&gt; W&lt;hi
@@ -58,9 +58,9 @@
 				creations of the poets; and in the majestic and wondrous scenes which surrounded our
 				Swiss home—the sublime shapes of the mountains; the changes of the seasons; tempest
 				and calm; the silence of winter, and the life and turbulence of our Alpine
-				summers,—she found ample scope for admiration and delight. While my companion
-				contemplated with a serious and satisfied spirit the magnificent appearances of
-				things, I delighted in investigating their causes. The world was to me a secret
+				summers,—she found ample scope for admiration and delight. tigating their While my
+				companion contemplated with a serious and satisfied spirit the magnificent
+				appearances of things, I delighted in inves causes. The world was to me a secret
 				which I desired to divine. Curiosity, earnest research to learn the hidden laws of
 				nature, gladness akin to rapture, as they were unfolded to me, are among the
 				earliest sensations I can remember.&lt;p
@@ -89,7 +89,7 @@
 	</app>
 	<app>
 		<rdgGrp
-			n="['make', 'it always through', '', '&lt;del&gt;the&lt;/del&gt;', 'her', '', 'intercession &lt;del&gt;of  elizabeth', '&lt;/del&gt;', '&lt;del&gt; for me i loved he&lt;/del&gt;', '&lt;del&gt;we agreed  perfectly although there were many &lt;/del&gt;  &lt;zone corresp=&#34;#c56-0011.04&#34; lrx=&#34;1289&#34; lry=&#34;687&#34; type=&#34;left_margin&#34; ulx=&#34;0&#34; uly=&#34;46&#34; sid=&#34;c56-0011__left_margin&#34;/&gt;']">
+			n="['make', 'it always through', '', '&lt;del&gt;the&lt;/del&gt;', 'her', '', 'intercession &lt;del&gt;of  elizabeth', '&lt;/del&gt;', '&lt;del&gt; for me i loved he&lt;/del&gt;', '&lt;del&gt;we', 'agreed', 'perfectly', 'although', 'there', 'were', 'many', '&lt;/del&gt;', '&lt;metamark function=&#34;displacement&#34; spanto=&#34;#c56-0011.06&#34; xml:id=&#34;c56-0011.07&#34;&gt;&lt;/metamark&gt;', '', '']">
 			<rdg wit="fMS">make &lt;longToken&gt;&lt;lb n="c56-0011__main__2"/&gt;it always
 				through&lt;/longToken&gt; &lt;mod sID="c56-0011__main__d5e18"/&gt; &lt;del
 				rend="strikethrough" xml:id="c56-0011__main__d5e20"&gt;the&lt;/del&gt; &lt;sga-add
@@ -99,17 +99,13 @@
 				spanTo="#c56-0011.02"/&gt;of &lt;lb
 				n="c56-0011__main__3"/&gt;Elizabeth&lt;/longToken&gt; &lt;delSpan
 				anchor="c56-0011.02"/&gt; &lt;del rend="strikethrough"
-				xml:id="c56-0011__main__d5e34"&gt; For me I loved he&lt;/del&gt;
-				&lt;longToken&gt;&lt;delSpan rend="strikethrough" spanTo="#c56-0011.03"/&gt;We
-				agreed &lt;lb n="c56-0011__main__4"/&gt;perfectly although there were many
-				&lt;delSpan anchor="c56-0011.03"/&gt; &lt;anchor xml:id="c56-0011.04"/&gt; &lt;zone
-				corresp="#c56-0011.04" lrx="1289" lry="687" type="left_margin" ulx="0" uly="46"
-				sID="c56-0011__left_margin"/&gt; &lt;addSpan hand="#pbs" spanTo="#c56-0011.05"/&gt;
-				&lt;metamark function="displacement" spanTo="#c56-0011.06" xml:id="c56-0011.07"/&gt;
-				&lt;zone corresp="#c56-0011.07" type="left_margin" sID="c56-0011__left_margin"/&gt;
-				&lt;addSpan hand="#pbs" spanTo="#c56-0011.08"/&gt; &lt;lb
-				n="c56-0011__left_margin__1"/&gt; &lt;metamark
-				function="displacement"&gt;X&lt;/metamark&gt;&lt;/longToken&gt;</rdg>
+				xml:id="c56-0011__main__d5e34"&gt; For me I loved he&lt;/del&gt; &lt;delSpan
+				rend="strikethrough" spanTo="#c56-0011.03"/&gt;We agreed &lt;lb
+				n="c56-0011__main__4"/&gt;perfectly although there were many &lt;delSpan
+				anchor="c56-0011.03"/&gt;&lt;anchor xml:id="c56-0011.04"/&gt; &lt;metamark
+				function="displacement" spanTo="#c56-0011.06"
+				xml:id="c56-0011.07"&gt;&lt;/metamark&gt; &lt;lb n="c56-0011__left_margin__1"/&gt;
+				&lt;metamark function="displacement"&gt;X&lt;/metamark&gt;</rdg>
 		</rdgGrp>
 		<rdgGrp n="['make,', 'it was always through', 'her intercession.']">
 			<rdg wit="f1818">make, &lt;longToken&gt;it was always through&lt;/longToken&gt;
@@ -143,58 +139,45 @@
 
 	<app>
 		<rdgGrp
-			n="['and', 'dispute;', 'for', 'although there was a great dissimilitude in our characters,']">
-			<rdg wit="f1818">and dispute; for &lt;longToken&gt;although there was a great
-				dissimilitude in our characters,&lt;/longToken&gt;</rdg>
-			<rdg wit="f1823">and dispute; for &lt;longToken&gt;although there was a great
-				dissimilitude in our characters,&lt;/longToken&gt;</rdg>
-			<rdg wit="fThomas">and dispute; for &lt;longToken&gt;although there was a great
-				dissimilitude in our characters,&lt;/longToken&gt;</rdg>
+			n="['and', 'dispute;', 'for although there was a great dissimilitude in our characters, there was an harmony in that very dissimilitude.']">
+			<rdg wit="f1818">and dispute; &lt;longToken&gt;for although there was a great
+				dissimilitude in our characters, there was an harmony in that very
+				dissimilitude.&lt;/longToken&gt;</rdg>
+			<rdg wit="f1823">and dispute; &lt;longToken&gt;for although there was a great
+				dissimilitude in our characters, there was an harmony in that very
+				dissimilitude.&lt;/longToken&gt;</rdg>
+			<rdg wit="fThomas">and dispute; &lt;longToken&gt;for although there was a great
+				dissimilitude in our characters, there was an harmony in that very
+				dissimilitude.&lt;/longToken&gt;</rdg>
 		</rdgGrp>
 		<rdgGrp
-			n="['or', 'dispute', '', '', 'x', 'x', '', '&lt;del&gt;there&lt;/del&gt;', 'for,', 'although   was a great dissimilitude in our  characters.    &lt;zone corresp=&#34;#c56-0011.09&#34; lrx=&#34;1289&#34; lry=&#34;1804&#34; type=&#34;left_margin&#34; ulx=&#34;0&#34; uly=&#34;811&#34; sid=&#34;c56-0011__left_margin&#34;/&gt;     yet']">
+			n="['or', 'dispute', '', '', 'x', 'x', '', '&lt;del&gt;there&lt;/del&gt; for, although   was a great dissimilitude in our  characters.         yet  there was an  harmony in  that very  diss imilitude –', '', '']">
 			<rdg wit="fMS">&lt;lb n="c56-0011__left_margin__4"/&gt;or dispute &lt;lb
 				n="c56-0011__left_margin__5"/&gt; &lt;metamark
 				function="separate"&gt;_____________&lt;/metamark&gt; &lt;anchor
 				xml:id="c56-0011.08"/&gt;&lt;lb n="c56-0011__left_margin__1"/&gt;X &lt;lb
 				n="c56-0011__left_margin__2"/&gt;X &lt;anchor xml:id="c56-0011.06"/&gt;&lt;anchor
-				xml:id="c56-0011.05"/&gt;&lt;lb n="c56-0011__main__5"/&gt;&lt;sga-add hand="#pbs"
-				place="interlinear" sID="c56-0011__main__d5e90"/&gt; &lt;del rend="strikethrough"
-				xml:id="c56-0011__main__d5e92"&gt;There&lt;/del&gt; For, &lt;longToken&gt;although
-				&lt;sga-add eID="c56-0011__main__d5e90"/&gt; &lt;lb n="c56-0011__main__6"/&gt;was a
-				great dissimilitude in our &lt;lb n="c56-0011__main__7"/&gt;characters. &lt;mod
+				xml:id="c56-0011.05"/&gt;&lt;lb n="c56-0011__main__5"/&gt;
+				&lt;longToken&gt;&lt;sga-add hand="#pbs" place="interlinear"
+				sID="c56-0011__main__d5e90"/&gt; &lt;del rend="strikethrough"
+				xml:id="c56-0011__main__d5e92"&gt;There&lt;/del&gt; For, although &lt;sga-add
+				eID="c56-0011__main__d5e90"/&gt; &lt;lb n="c56-0011__main__6"/&gt;was a great
+				dissimilitude in our &lt;lb n="c56-0011__main__7"/&gt;characters. &lt;mod
 				sID="c56-0011__main__d5e101"/&gt; &lt;sga-add hand="#pbs"
 				sID="c56-0011__main__d5e103"/&gt; &lt;metamark function="displacement"
 				xml:id="c56-0011.09"&gt;X&lt;/metamark&gt; &lt;zone corresp="#c56-0011.09"
 				lrx="1289" lry="1804" type="left_margin" ulx="0" uly="811"
 				sID="c56-0011__left_margin"/&gt; &lt;addSpan hand="#pbs" spanTo="#c56-0011.10"/&gt;
-				&lt;lb n="c56-0011__left_margin__1"/&gt; &lt;metamark&gt;X&lt;/metamark&gt;
-				yet&lt;/longToken&gt;</rdg>
-		</rdgGrp>
-	</app>
-	<app>
-		<rdgGrp n="['there', 'was', 'an', 'harmony', 'in', 'that', 'very']">
-			<rdg wit="f1818">there was an harmony in that very</rdg>
-			<rdg wit="f1823">there was an harmony in that very</rdg>
-			<rdg wit="fThomas">there was an harmony in that very</rdg>
-			<rdg wit="fMS">&lt;lb n="c56-0011__left_margin__2"/&gt;there was an &lt;lb
+				&lt;lb n="c56-0011__left_margin__1"/&gt; &lt;metamark&gt;X&lt;/metamark&gt; yet
+				&lt;lb n="c56-0011__left_margin__2"/&gt;there was an &lt;lb
 				n="c56-0011__left_margin__3"/&gt;harmony in &lt;lb
-				n="c56-0011__left_margin__4"/&gt;that very</rdg>
-		</rdgGrp>
-	</app>
-	<app>
-		<rdgGrp n="['dissimilitude –', '', '', '']">
-			<rdg wit="fMS">&lt;w ana="start"/&gt;diss&lt;lb
+				n="c56-0011__left_margin__4"/&gt;that very &lt;w ana="start"/&gt;diss&lt;lb
 				n="c56-0011__left_margin__5"/&gt;imilitude&lt;w ana="end"/&gt;– &lt;lb
 				n="c56-0011__left_margin__6"/&gt; &lt;metamark
 				function="separate"&gt;_____________&lt;/metamark&gt; &lt;anchor
-				xml:id="c56-0011.10"/&gt;&lt;sga-add eID="c56-0011__main__d5e103"/&gt;&lt;mod
+				xml:id="c56-0011.10"/&gt; &lt;zone eID="c56-0011__left_margin"/&gt; &lt;sga-add
+				eID="c56-0011__main__d5e103"/&gt;&lt;/longToken&gt; &lt;mod
 				eID="c56-0011__main__d5e101"/&gt;</rdg>
-		</rdgGrp>
-		<rdgGrp n="['dissimilitude.']">
-			<rdg wit="f1818">dissimilitude.</rdg>
-			<rdg wit="f1823">dissimilitude.</rdg>
-			<rdg wit="fThomas">dissimilitude.</rdg>
 		</rdgGrp>
 	</app>
 	<app>
@@ -740,7 +723,7 @@
 
 	<app>
 		<rdgGrp
-			n="['chivalry  and romance', 'and     when very young, i can  remember that   we used to  act plays composed by him out of  th  &lt;mdel&gt;is&lt;/mdel&gt; ese    &lt;del&gt;favourite&lt;/del&gt; books, the principal   &lt;del&gt;car&lt;/del&gt;characters of which were orlando  robin hood, amadis and st. george–', 'no', 'youth', 'could', 'could be more happy &lt;zone eid=&#34;c56-0011__main&#34;/&gt; &lt;surface eid=&#34;ox-ms_abinger_c56-0011&#34;/&gt; &lt;surface lrx=&#34;5364&#34; lry=&#34;7104&#34; partof=&#34;#ox-frankenstein_volume_i&#34; ulx=&#34;0&#34; uly=&#34;0&#34; folio=&#34;4v&#34; shelfmark=&#34;ms. abinger c. 56&#34; base=&#34;ox-ms_abinger_c56/ox-ms_abinger_c56-0012.xml&#34; id=&#34;ox-ms_abinger_c56-0012&#34; sid=&#34;ox-ms_abinger_c56-0012&#34;/&gt; &lt;graphic url=&#34;http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0012.jp2&#34;/&gt; &lt;zone type=&#34;main&#34; sid=&#34;c56-0012__main&#34;/&gt;  than mine. –  &lt;del&gt;our&lt;/del&gt; my   parents were  indul gent , and my companions amiable.   &lt;del&gt;and our stud&lt;/del&gt; our studies were never  forced, and by some means we &lt;w ana=&#34;start&#34;/&gt;al ways  had an end placed in view which  excited us to ardour.     in the prosecution of them.   it was by this  &lt;mdel&gt;and&lt;/mdel&gt; method     not by emulation that we were  urged. elizabeth was not told to apply  herself to drawing  &lt;mdel&gt;or&lt;/mdel&gt; that   her companions    &lt;del&gt;would&lt;/del&gt; might not   outstrip her, but &lt;del&gt;she&lt;/del&gt; by  &lt;del&gt;was&lt;/del&gt; the   &lt;zone corresp=&#34;#c56-0012.03&#34; type=&#34;left_margin&#34; sid=&#34;c56-0012__left_margin&#34;/&gt;  desire of', '&lt;zone eid=&#34;c56-0012__left_margin&#34;/&gt;   &lt;del&gt;knew how&lt;/del&gt;  pleas  &lt;mdel&gt;ed&lt;/mdel&gt; ing   her aunt &lt;del&gt;would  be &lt;/del&gt; by  &lt;del&gt;a painting&lt;/del&gt; the representation   of some &lt;del&gt;of her&lt;/del&gt;  favourite scene&lt;del&gt;s&lt;/del&gt; done by her own  hand. &lt;del&gt;latin&lt;/del&gt; we learned latin and  english  &lt;mdel&gt;to&lt;/mdel&gt; that we might   read the writ  &lt;del&gt;ers&lt;/del&gt; ings     &lt;mdel&gt;of&lt;/mdel&gt; in   those  languages and so far from study  begin rendered odious &lt;del&gt;by&lt;/del&gt; to us  th    r   ough   punishment, we loved application  and our amusements  &lt;del&gt;were&lt;/del&gt; would have been   the  labours of other children. perhaps  we did not read so many books  or learn &lt;del&gt;a&lt;/del&gt; languages so quickly  as  &lt;del&gt;another child&lt;/del&gt; those who are disciplined according to the ordinary  method,   but what we  learned was impressed the more deeply  on our  memory.    &lt;zone corresp=&#34;#c56-0012.05&#34; type=&#34;left_margin&#34; sid=&#34;c56-0012__left_margin&#34;/&gt;', 'in', '', '&lt;del&gt;this&lt;/del&gt;', 'the']">
+			n="['chivalry  and romance', 'and     when very young, i can  remember that   we used to  act plays composed by him out of  th  &lt;mdel&gt;is&lt;/mdel&gt; ese    &lt;del&gt;favourite&lt;/del&gt; books, the principal   &lt;del&gt;car&lt;/del&gt;characters of which were orlando  robin hood, amadis and st. george–', 'no', 'youth', 'could', 'could be more happy  &lt;surface eid=&#34;ox-ms_abinger_c56-0011&#34;/&gt; &lt;surface lrx=&#34;5364&#34; lry=&#34;7104&#34; partof=&#34;#ox-frankenstein_volume_i&#34; ulx=&#34;0&#34; uly=&#34;0&#34; folio=&#34;4v&#34; shelfmark=&#34;ms. abinger c. 56&#34; base=&#34;ox-ms_abinger_c56/ox-ms_abinger_c56-0012.xml&#34; id=&#34;ox-ms_abinger_c56-0012&#34; sid=&#34;ox-ms_abinger_c56-0012&#34;/&gt; &lt;graphic url=&#34;http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0012.jp2&#34;/&gt;   than mine. –  &lt;del&gt;our&lt;/del&gt; my   parents were  indul gent , and my companions amiable.   &lt;del&gt;and our stud&lt;/del&gt; our studies were never  forced, and by some means we &lt;w ana=&#34;start&#34;/&gt;al ways  had an end placed in view which  excited us to ardour.     in the prosecution of them.   it was by this  &lt;mdel&gt;and&lt;/mdel&gt; method     not by emulation that we were  urged. elizabeth was not told to apply  herself to drawing  &lt;mdel&gt;or&lt;/mdel&gt; that   her companions    &lt;del&gt;would&lt;/del&gt; might not   outstrip her, but &lt;del&gt;she&lt;/del&gt; by  &lt;del&gt;was&lt;/del&gt; the     desire of', '&lt;del&gt;knew how&lt;/del&gt;  pleas  &lt;mdel&gt;ed&lt;/mdel&gt; ing   her aunt &lt;del&gt;would  be &lt;/del&gt; by  &lt;del&gt;a painting&lt;/del&gt; the representation   of some &lt;del&gt;of her&lt;/del&gt;  favourite scene&lt;del&gt;s&lt;/del&gt; done by her own  hand. &lt;del&gt;latin&lt;/del&gt; we learned latin and  english  &lt;mdel&gt;to&lt;/mdel&gt; that we might   read the writ  &lt;del&gt;ers&lt;/del&gt; ings     &lt;mdel&gt;of&lt;/mdel&gt; in   those  languages and so far from study  begin rendered odious &lt;del&gt;by&lt;/del&gt; to us  th    r   ough   punishment, we loved application  and our amusements  &lt;del&gt;were&lt;/del&gt; would have been   the  labours of other children. perhaps  we did not read so many books  or learn &lt;del&gt;a&lt;/del&gt; languages so quickly  as  &lt;del&gt;another child&lt;/del&gt; those who are disciplined according to the ordinary  method,   but what we  learned was impressed the more deeply  on our  memory.', 'in', '', '&lt;del&gt;this&lt;/del&gt;', 'the']">
 			<rdg wit="fMS">&lt;longToken&gt;&lt;w ana="start"/&gt;chi&lt;lb
 				n="c56-0011__main__29"/&gt;valry&lt;w ana="end"/&gt; &amp; romance&lt;/longToken&gt;
 				&lt;longToken&gt;and &lt;mod sID="c56-0011__main__d5e371"/&gt; &lt;sga-add
@@ -918,7 +901,7 @@
 	</app>
 	<app>
 		<rdgGrp
-			n="['&lt;del&gt;no youth could have passed more happily than mine. my parents were indulgent, and my companions amiable. our studies were never forced; and by some means we always had an end placed in view, which excited us to ardour in the prosecution of them. it was by this method, and not by emulation, that we were urged to application. elizabeth was not incited to apply herself to drawing, that her companions might not outstrip her; but through the desire of pleasing her aunt, by the representation of some favourite scene done by her own hand. we learned latin and english, that we might read the writings in those languages; and so far from study being made odious to us through punishment, we loved application, and our amusements would have been the labours of other children. perhaps we did not read so many books, or learn languages so quickly, as those who are disciplined according to the ordinary methods; but what we learned was impressed the more deeply on our memories.&lt;/del&gt;', '&lt;note&gt;bad&lt;/note&gt;', 'with what delight do i even now remember the details of our domestic circle, and the happy years of my childhood. joy attended on my steps—and the ardent affection that attached me to my excellent parents, my beloved elizabeth, and henry, the brother of my soul, has given almost a religious and sacred feeling to the recollections of a period passed beneath their eyes, and in their society.']">
+			n="['&lt;del&gt;no youth could have passed more happily than mine. my parents were indulgent, and my companions amiable. our studies were never forced; and by some means we always had an end placed in view, which excited us to ardour in the prosecution of them. it was by this method, and not by emulation, that we were urged to application. elizabeth was not incited to apply herself to drawing, that her companions might not outstrip her; but through the desire of pleasing her aunt, by the representation of some favourite scene done by her own hand. we learned latin and english, that we might read the writings in those languages; and so far from study being made odious to us through punishment, we loved application, and our amusements would have been the labours of other children. perhaps we did not read so many books, or learn languages so quickly, as those who are disciplined according to the ordinary methods; but what we learned was impressed the more deeply on our memories.&lt;/del&gt;', '&lt;note resp=&#34;#mws&#34;&gt;bad&lt;/note&gt;', 'with what delight do i even now remember the details of our domestic circle, and the happy years of my childhood. joy attended on my steps—and the ardent affection that attached me to my excellent parents, my beloved elizabeth, and henry, the brother of my soul, has given almost a religious and sacred feeling to the recollections of a period passed beneath their eyes, and in their society.']">
 			<rdg wit="fThomas">&lt;del rend="margin_line"&gt;No youth could have passed more &lt;pb
 				xml:id="F1818_v1_061" n="049"/&gt;happily than mine. My parents were indulgent, and
 				my companions amiable. Our studies were never forced; and by some means we always
@@ -1226,7 +1209,7 @@
 	</app>
 	<app>
 		<rdgGrp
-			n="['&lt;del&gt;&lt;del&gt;', 'in this account of my early  youth i wish particularly to  men tion   &lt;zone corresp=&#34;#c56-0013.04&#34; type=&#34;left_margin&#34; sid=&#34;c56-0013__pt1__left_margin&#34;/&gt;  &lt;del&gt; record  &lt;/del&gt;', '&lt;zone eid=&#34;c56-0013__pt1__left_margin&#34;/&gt;  those circumstances&lt;/del&gt; which  led to and nourished my taste  for that science which was  the principal amusement of my  boyish days and in &lt;del&gt;the end  decided  my destiny&lt;/del&gt;.', 'i mentioned before  my taste for old books of  chemist ry  and natural magic and i &lt;w ana=&#34;start&#34;/&gt;remem ber  very well that i learned latin  principally that i might read  pliny\'s natural history my father  refusing to allow me to read a  translation. i used when very young  to attend lectures of chemistry  given in geneva and athough  i did not understand them the  experiments never failed to  attract my attention. &lt;/del&gt; &lt;del&gt;i reme     m   ber&lt;/del&gt;  &lt;del&gt;also&lt;/del&gt;', '', '', 'chapt. 2', '', 'those events which materially influence our  fu ture  destinies &lt;del&gt;are&lt;/del&gt; often  &lt;del&gt;caused&lt;/del&gt; &lt;del&gt;by slight or&lt;/del&gt; derive thier origin from a    &lt;w ana=&#34;start&#34;/&gt;tri vial  occurence&lt;del&gt;s&lt;/del&gt;. &lt;del&gt;strange as the&lt;/del&gt;     &lt;del&gt; statement of the  &lt;/del&gt;   &lt;del&gt;simple fact&lt;/del&gt;  &lt;del&gt;may appear my fate had been&lt;/del&gt; &lt;del&gt;chemist&lt;/del&gt;']">
+			n="['&lt;del&gt;&lt;del&gt;', 'in this account of my early  youth i wish particularly to  men tion     &lt;del&gt; record  &lt;/del&gt;', 'those circumstances&lt;/del&gt; which  led to and nourished my taste  for that science which was  the principal amusement of my  boyish days and in &lt;del&gt;the end  decided  my destiny&lt;/del&gt;.', 'i mentioned before  my taste for old books of  chemist ry  and natural magic and i &lt;w ana=&#34;start&#34;/&gt;remem ber  very well that i learned latin  principally that i might read  pliny\'s natural history my father  refusing to allow me to read a  translation. i used when very young  to attend lectures of chemistry  given in geneva and athough  i did not understand them the  experiments never failed to  attract my attention. &lt;/del&gt; &lt;del&gt;i reme     m   ber&lt;/del&gt;  &lt;del&gt;also&lt;/del&gt;', '', '', 'chapt. 2', '', 'those events which materially influence our  fu ture  destinies &lt;del&gt;are&lt;/del&gt; often  &lt;del&gt;caused&lt;/del&gt; &lt;del&gt;by slight or&lt;/del&gt; derive thier origin from a    &lt;w ana=&#34;start&#34;/&gt;tri vial  occurence&lt;del&gt;s&lt;/del&gt;. &lt;del&gt;strange as the&lt;/del&gt;     &lt;del&gt; statement of the  &lt;/del&gt;   &lt;del&gt;simple fact&lt;/del&gt;  &lt;del&gt;may appear my fate had been&lt;/del&gt; &lt;del&gt;chemist&lt;/del&gt;']">
 			<rdg wit="fMS">&lt;delSpan rend="vertical_line" spanTo="#c56-0013.01"/&gt;&lt;delSpan
 				rend="strikethrough" spanTo="#c56-0013.02"/&gt; &lt;longToken&gt;&lt;lb
 				n="c56-0013__Pt1__main__8"/&gt;In this account of my early &lt;lb
@@ -2567,8 +2550,10 @@
 	</app>
 
 	<app>
-		<rdgGrp n="['greadest']">
-			<rdg wit="f1823">greadest</rdg>
+		<rdgGrp
+			n="['greadest', '&lt;note resp=&#34;fv-team-rm&#34;&gt;apparently a printer error for greatest&lt;/note&gt;']">
+			<rdg wit="f1823">greadest &lt;note resp="FV-Team-rm"&gt;Apparently a printer error for
+				greatest&lt;/note&gt;</rdg>
 		</rdgGrp>
 		<rdgGrp n="['greatest']">
 			<rdg wit="f1818">greatest</rdg>
@@ -4812,7 +4797,7 @@
 	</app>
 	<app>
 		<rdgGrp
-			n="['astonishment', '&lt;del&gt; &lt;del&gt;and&lt;/del&gt;  &lt;del&gt;caused&lt;/del&gt;    induced    &lt;del&gt;me to aply wi&lt;/del&gt; &lt;del&gt;ith&lt;/del&gt;   &lt;del&gt;fresh di&lt;/del&gt;ligence to the study of    &lt;del&gt;chemistry&lt;/del&gt; natural philosophy   which promised an  ex &lt;del&gt;clamatio&lt;/del&gt; planation  of th  &lt;mdel&gt;e&lt;/mdel&gt; i   se sort of &lt;/del&gt;', '&lt;zone eid=&#34;c56-0014__main&#34;/&gt; &lt;surface eid=&#34;ox-ms_abinger_c56-0014&#34;/&gt; &lt;surface lrx=&#34;5364&#34; lry=&#34;7104&#34; partof=&#34;#ox-frankenstein_volume_i&#34; ulx=&#34;0&#34; uly=&#34;0&#34; folio=&#34;6r&#34; shelfmark=&#34;ms. abinger c. 56&#34; base=&#34;ox-ms_abinger_c56/ox-ms_abinger_c56-0015.xml&#34; id=&#34;ox-ms_abinger_c56-0015__pt1&#34; sid=&#34;ox-ms_abinger_c56-0015__pt1&#34;/&gt; &lt;graphic url=&#34;http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0015.jp2&#34;/&gt; &lt;zone type=&#34;main&#34; sid=&#34;c56-0015__pt1__main&#34;/&gt; &lt;del&gt;  phænonema. on elizabeth and  clerval it produced a &lt;del&gt;di&lt;/del&gt; very different  effect. they admired the beauty  of the storm without wishing to  analyze its causes. henry said that  the fairies and giants were at  war and elizabeth attempted  a picture of it. &lt;/del&gt; &lt;p-end/&gt; &lt;p-start/&gt; &lt;del&gt;  as i grew older my attempts  in science were of a higher nature.  i &lt;del&gt;endeavou&lt;/del&gt; produced little earthquakes  and tried every kind of combination  of gasses &lt;del&gt;to&lt;/del&gt; and elements to ascertain  the results. &lt;/del&gt;', '&lt;zone eid=&#34;c56-0015__pt1__main&#34;/&gt; &lt;surface eid=&#34;ox-ms_abinger_c56-0015__pt1&#34;/&gt; &lt;surface lrx=&#34;5088&#34; lry=&#34;7082&#34; partof=&#34;#ox-frankenstein_volume_i&#34; ulx=&#34;0&#34; uly=&#34;0&#34; folio=&#34;3r&#34; shelfmark=&#34;ms. abinger c. 56&#34; base=&#34;ox-ms_abinger_c56/ox-ms_abinger_c56-0009.xml&#34; id=&#34;ox-ms_abinger_c56-0009__pt2&#34; sid=&#34;ox-ms_abinger_c56-0009__pt2&#34;/&gt; &lt;graphic url=&#34;http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0009.jp2&#34;/&gt; &lt;zone type=&#34;main&#34; sid=&#34;c56-0009__pt2__main&#34;/&gt;  &lt;p-end/&gt; &lt;p-start/&gt;    &lt;mdel&gt;an&lt;/mdel&gt; &lt;mdel&gt;d&lt;/mdel&gt;    among other questions suggested by natural objects', '']">
+			n="['astonishment', '&lt;del&gt; &lt;del&gt;and&lt;/del&gt;  &lt;del&gt;caused&lt;/del&gt;    induced    &lt;del&gt;me to aply wi&lt;/del&gt; &lt;del&gt;ith&lt;/del&gt;   &lt;del&gt;fresh di&lt;/del&gt;ligence to the study of    &lt;del&gt;chemistry&lt;/del&gt; natural philosophy   which promised an  ex &lt;del&gt;clamatio&lt;/del&gt; planation  of th  &lt;mdel&gt;e&lt;/mdel&gt; i   se sort of &lt;/del&gt;', '&lt;surface eid=&#34;ox-ms_abinger_c56-0014&#34;/&gt; &lt;surface lrx=&#34;5364&#34; lry=&#34;7104&#34; partof=&#34;#ox-frankenstein_volume_i&#34; ulx=&#34;0&#34; uly=&#34;0&#34; folio=&#34;6r&#34; shelfmark=&#34;ms. abinger c. 56&#34; base=&#34;ox-ms_abinger_c56/ox-ms_abinger_c56-0015.xml&#34; id=&#34;ox-ms_abinger_c56-0015__pt1&#34; sid=&#34;ox-ms_abinger_c56-0015__pt1&#34;/&gt; &lt;graphic url=&#34;http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0015.jp2&#34;/&gt;  &lt;del&gt;  phænonema. on elizabeth and  clerval it produced a &lt;del&gt;di&lt;/del&gt; very different  effect. they admired the beauty  of the storm without wishing to  analyze its causes. henry said that  the fairies and giants were at  war and elizabeth attempted  a picture of it. &lt;/del&gt; &lt;p-end/&gt; &lt;p-start/&gt; &lt;del&gt;  as i grew older my attempts  in science were of a higher nature.  i &lt;del&gt;endeavou&lt;/del&gt; produced little earthquakes  and tried every kind of combination  of gasses &lt;del&gt;to&lt;/del&gt; and elements to ascertain  the results. &lt;/del&gt;', '&lt;surface eid=&#34;ox-ms_abinger_c56-0015__pt1&#34;/&gt; &lt;surface lrx=&#34;5088&#34; lry=&#34;7082&#34; partof=&#34;#ox-frankenstein_volume_i&#34; ulx=&#34;0&#34; uly=&#34;0&#34; folio=&#34;3r&#34; shelfmark=&#34;ms. abinger c. 56&#34; base=&#34;ox-ms_abinger_c56/ox-ms_abinger_c56-0009.xml&#34; id=&#34;ox-ms_abinger_c56-0009__pt2&#34; sid=&#34;ox-ms_abinger_c56-0009__pt2&#34;/&gt; &lt;graphic url=&#34;http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0009.jp2&#34;/&gt;   &lt;p-end/&gt; &lt;p-start/&gt;    &lt;mdel&gt;an&lt;/mdel&gt; &lt;mdel&gt;d&lt;/mdel&gt;    among other questions suggested by natural objects', '']">
 			<rdg wit="fMS">&lt;w ana="start"/&gt;astonish&lt;lb n="c56-0014__main__25"/&gt;ment&lt;w
 				ana="end"/&gt; &lt;longToken&gt;&lt;delSpan rend="vertical_line"
 				spanTo="#c56-0014.11"/&gt; &lt;del next="#c56-0014.12" rend="strikethrough"
@@ -5125,7 +5110,7 @@
 				&lt;lb n="c56-0009__Pt2__main__12"/&gt;This last</rdg>
 		</rdgGrp>
 		<rdgGrp
-			n="['&lt;note&gt;you said your family was not sientific.&lt;/note&gt;', '&lt;p-end/&gt;', '&lt;p-start/&gt;', 'this', 'last']">
+			n="['&lt;note resp=&#34;#mws&#34; cert=&#34;low&#34;&gt;you said your family was not sientific.&lt;/note&gt;', '&lt;p-end/&gt;', '&lt;p-start/&gt;', 'this', 'last']">
 			<rdg wit="fThomas">&lt;note resp="#MWS" cert="low"&gt;you said your family was not
 				sientific.&lt;/note&gt; &lt;p eID="novel1_letter4_chapter1_div4_div1_p23"/&gt; &lt;p
 				sID="novel1_letter4_chapter1_div4_div1_p24"/&gt; This last</rdg>
@@ -6383,7 +6368,7 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['w hen']">
+		<rdgGrp n="['w&lt;hi&gt;hen&lt;/hi&gt;']">
 			<rdg wit="f1818">W&lt;hi sID="novel1_letter4_chapter2_div4_div2_p1_hi1"/&gt;HEN&lt;hi
 				eID="novel1_letter4_chapter2_div4_div2_p1_hi1"/&gt;</rdg>
 			<rdg wit="f1823">W&lt;hi sID="novel1_letter4_chapter2_div4_div2_p1_hi1"/&gt;HEN&lt;hi
@@ -6454,7 +6439,7 @@
 
 	<app>
 		<rdgGrp
-			n="['&lt;mdel&gt;go&lt;/mdel&gt; &lt;del&gt; to&lt;/del&gt;  &lt;zone corresp=&#34;#c56-0017.01&#34; type=&#34;left_margin&#34; sid=&#34;c56-0017__left_margin&#34;/&gt;   become a student', '&lt;zone eid=&#34;c56-0017__left_margin&#34;/&gt; at   the university of  ingolstadt .']">
+			n="['&lt;mdel&gt;go&lt;/mdel&gt; &lt;del&gt; to&lt;/del&gt;     become a student', 'at   the university of  ingolstadt .']">
 			<rdg wit="fMS">&lt;longToken&gt;&lt;mod sID="c56-0017__main__d5e3039"/&gt;
 				&lt;mdel&gt;go&lt;/mdel&gt; &lt;del rend="strikethrough"
 				xml:id="c56-0017__main__d5e3043"&gt; to&lt;/del&gt; &lt;anchor
@@ -8770,7 +8755,7 @@
 	</app>
 	<app>
 		<rdgGrp
-			n="['beheld her so enchanting as at this  time when she &lt;del&gt;sar sacrifised every  minut &lt;/del&gt; &lt;del&gt;e&lt;/del&gt; &lt;del&gt;of her time&lt;/del&gt; &lt;del&gt;to others&lt;/del&gt;     was      continual ly  endeavouring to contribute to the happiness of others entirely forgetful', '&lt;zone eid=&#34;c56-0020__main&#34;/&gt; &lt;surface eid=&#34;ox-ms_abinger_c56-0020&#34;/&gt; &lt;surface lrx=&#34;5364&#34; lry=&#34;7104&#34; partof=&#34;#ox-frankenstein_volume_i&#34; ulx=&#34;0&#34; uly=&#34;0&#34; folio=&#34;9r&#34; shelfmark=&#34;ms. abinger c. 56&#34; base=&#34;ox-ms_abinger_c56/ox-ms_abinger_c56-0021.xml&#34; id=&#34;ox-ms_abinger_c56-0021&#34; sid=&#34;ox-ms_abinger_c56-0021&#34;/&gt; &lt;graphic url=&#34;http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0021.jp2&#34;/&gt; &lt;zone type=&#34;main&#34; sid=&#34;c56-0021__main&#34;/&gt;  of &lt;del&gt;hels&lt;/del&gt; herself.']">
+			n="['beheld her so enchanting as at this  time when she &lt;del&gt;sar sacrifised every  minut &lt;/del&gt; &lt;del&gt;e&lt;/del&gt; &lt;del&gt;of her time&lt;/del&gt; &lt;del&gt;to others&lt;/del&gt;     was      continual ly  endeavouring to contribute to the happiness of others entirely forgetful', '&lt;surface eid=&#34;ox-ms_abinger_c56-0020&#34;/&gt; &lt;surface lrx=&#34;5364&#34; lry=&#34;7104&#34; partof=&#34;#ox-frankenstein_volume_i&#34; ulx=&#34;0&#34; uly=&#34;0&#34; folio=&#34;9r&#34; shelfmark=&#34;ms. abinger c. 56&#34; base=&#34;ox-ms_abinger_c56/ox-ms_abinger_c56-0021.xml&#34; id=&#34;ox-ms_abinger_c56-0021&#34; sid=&#34;ox-ms_abinger_c56-0021&#34;/&gt; &lt;graphic url=&#34;http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0021.jp2&#34;/&gt;   of &lt;del&gt;hels&lt;/del&gt; herself.']">
 			<rdg wit="fMS">&lt;longToken&gt;&lt;lb n="c56-0020__main__23"/&gt;beheld her so
 				enchanting as at this &lt;lb n="c56-0020__main__24"/&gt;time when she &lt;delSpan
 				rend="strikethrough" spanTo="#c56-0020.13"/&gt;sar sacrifised every &lt;lb
@@ -9104,7 +9089,7 @@
 				eID="c56-0021__main__d5e4190"/&gt;&lt;/longToken&gt;</rdg>
 		</rdgGrp>
 		<rdgGrp
-			n="['&lt;del&gt;had a refined mind; he had no desire to be idle, and was well pleased to become his father’s partner, but he believed that a man might be a very good trader, and yet possess a cultivated understanding.&lt;/del&gt;', 'loved poetry and his mind was filled with the imagery and sublime sentiments of the masters of that art. a poet himself, he turned with &lt;del-inner&gt;y&lt;/del-inner&gt; disgust from the details of ordinary life. his own &lt;del-inner&gt;soul&lt;/del-inner&gt; mind was all the possession that he prized, beautiful and majestic thoughts the only wealth he coveted—daring as the eagle and as free, common laws could not be applied to him; and while you gazed on him you felt his soul’s spark was more divine—more truly stolen from apollo’s sacred fire, than the glimmering ember that animates other men.']">
+			n="['&lt;del&gt;had a refined mind; he had no desire to be idle, and was well pleased to become his father’s partner, but he believed that a man might be a very good trader, and yet possess a cultivated understanding.&lt;/del&gt;', 'loved poetry and his mind was filled with the imagery and sublime sentiments of the masters of that art. a poet himself, he turned with &lt;del&gt;y&lt;/del-inner&gt; disgust from the details of ordinary life. his own &lt;del&gt;soul&lt;/del-inner&gt; mind was all the possession that he prized, beautiful and majestic thoughts the only wealth he coveted—daring as the eagle and as free, common laws could not be applied to him; and while you gazed on him you felt his soul’s spark was more divine—more truly stolen from apollo’s sacred fire, than the glimmering ember that animates other men.']">
 			<rdg wit="fThomas">&lt;del&gt;had a refined mind; he had no desire to be idle, and was
 				well pleased to become his father’s partner, but he believed that a man might be a
 				very good trader, and yet possess a cultivated understanding.&lt;/del&gt;
@@ -9434,8 +9419,11 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['in th e niversity,']">
-			<rdg wit="f1823">&lt;longToken&gt;In th e niversity,&lt;/longToken&gt;</rdg>
+		<rdgGrp
+			n="['in th e niversity,', '&lt;note text=&#34;fv-team-rm &#34;&gt;the facsimile of the 1823 edition shows this not \'the university\': apparently a typsetting error.&lt;/note&gt;']">
+			<rdg wit="f1823">&lt;longToken&gt;In th e niversity,&lt;/longToken&gt; &lt;note
+				text="FV-Team-rm "&gt;The facsimile of the 1823 edition shows this not 'the
+				university': apparently a typsetting error.&lt;/note&gt;</rdg>
 		</rdgGrp>
 		<rdgGrp n="['in the university &lt;del&gt;wi&lt;/del&gt;']">
 			<rdg wit="fMS">&lt;longToken&gt;&lt;lb n="c56-0022__main__8"/&gt;In the university
@@ -11844,7 +11832,7 @@
 
 	<app>
 		<rdgGrp
-			n="['', '&lt;del&gt;tw&lt;/del&gt;', 'two or three days     spent   almost  in  &lt;del&gt;solitary&lt;/del&gt;  &lt;zone corresp=&#34;#c56-0026.03&#34; type=&#34;left_margin&#34; sid=&#34;c56-0026__left_margin&#34;/&gt;   solitude:', '']">
+			n="['', '&lt;del&gt;tw&lt;/del&gt;', 'two or three days     spent   almost  in  &lt;del&gt;solitary&lt;/del&gt;     solitude:', '', '']">
 			<rdg wit="fMS">&lt;lb n="c56-0026__main__12"/&gt; &lt;del rend="strikethrough"
 				xml:id="c56-0026__main__d5e5035"&gt;tw&lt;/del&gt; &lt;longToken&gt;two or three
 				days &lt;mod sID="c56-0026__main__d5e5038"/&gt; &lt;sga-add place="sublinear"
@@ -11860,8 +11848,9 @@
 				xml:id="c56-0026.03"/&gt; &lt;zone corresp="#c56-0026.03" type="left_margin"
 				sID="c56-0026__left_margin"/&gt; &lt;lb n="c56-0026__left_margin__1"/&gt;
 				&lt;sga-add sID="c56-0026__left_margin__d5e5064"/&gt;solitude:&lt;sga-add
-				eID="c56-0026__left_margin__d5e5064"/&gt;&lt;/longToken&gt; &lt;mod
-				eID="c56-0026__main__d5e5050"/&gt;&lt;lb n="c56-0026__main__13"/&gt;</rdg>
+				eID="c56-0026__left_margin__d5e5064"/&gt; &lt;zone eID="c56-0026__left_margin"/&gt;
+				&lt;mod eID="c56-0026__main__d5e5050"/&gt;&lt;/longToken&gt; &lt;lb
+				n="c56-0026__main__13"/&gt;</rdg>
 		</rdgGrp>
 		<rdgGrp
 			n="['the first two or three days of my residence at ingolstadt, which were chiefly spent in becoming acquainted with the localities, and the principal residents in my new abode.']">
@@ -12488,7 +12477,7 @@
 
 	<app>
 		<rdgGrp
-			n="['learning   pronoucing  the names of the greatest discoverers    &lt;del&gt;with great warmth&lt;/del&gt;  &lt;zone corresp=&#34;#c56-0027.06&#34; type=&#34;left_margin&#34; sid=&#34;c56-0027__left_margin&#34;/&gt; with fervour', '&lt;zone eid=&#34;c56-0027__left_margin&#34;/&gt; .']">
+			n="['learning   pronoucing  the names of the greatest discoverers    &lt;del&gt;with great warmth&lt;/del&gt;   with fervour', '.']">
 			<rdg wit="fMS">&lt;longToken&gt;learning &lt;sga-add eID="c56-0027__main__d5e5279"/&gt;
 				&lt;mod eID="c56-0027__main__d5e5274"/&gt; pronoucing &lt;lb
 				n="c56-0027__main__9"/&gt;the names of the greatest discoverers &lt;lb
@@ -14941,7 +14930,7 @@
 				n="c56-0030__main__6"/&gt;destiny.&lt;/longToken&gt;</rdg>
 		</rdgGrp>
 		<rdgGrp
-			n="['me: it decided my future destiny.&lt;p-end/&gt; &lt;note&gt;if there were ever to be another edition of this book, i should re-write these two first chapters. the incidents are tame and ill-arranged—the language sometimes childish.—they are unworthy of the rest of the &lt;del&gt;w book&lt;/del&gt;narration.&lt;/note&gt;']">
+			n="['me: it decided my future destiny.&lt;p-end/&gt; &lt;note resp=&#34;#mws&#34;&gt;if there were ever to be another edition of this book, i should re-write these two first chapters. the incidents are tame and ill-arranged—the language sometimes childish.—they are unworthy of the rest of the &lt;del&gt;w book&lt;/del&gt;narration.&lt;/note&gt;']">
 			<rdg wit="fThomas">&lt;longToken&gt;me: it decided my future destiny.&lt;p
 				eID="novel1_letter4_chapter2_div4_div2_p18"/&gt; &lt;note resp="#MWS"&gt;If there
 				were ever to be another edition of this book, I should re-write these two first
@@ -14975,4 +14964,4 @@
 		</rdgGrp>
 	</app>
 </cx:apparatus>
-<!-- 2023-07-21 01:38:16.969140 -->
+<!-- 2023-08-09 22:52:27.308682 -->
