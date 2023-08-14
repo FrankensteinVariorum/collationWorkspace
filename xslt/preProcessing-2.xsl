@@ -36,7 +36,7 @@
     </xsl:template>
   
      
-    <xsl:template match="(head | del | mdel | add | note | longToken)/text()">
+    <xsl:template match="(head | del | mdel | add | note | longToken | metamark)/text()">
         <!--ebb: setting all longToken-style element text nodes on a single line to be processed as a single token:-->
         <xsl:analyze-string select="current()" regex="\n">
             <xsl:matching-substring>

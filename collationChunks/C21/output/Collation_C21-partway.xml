@@ -65,7 +65,7 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['cottagers .']">
+		<rdgGrp n="['cottagers']">
 			<rdg wit="fMS">&lt;w ana=&quot;start&quot;/&gt;cotta&lt;lb n=&quot;c57-0037__main__4&quot;/&gt;gers&lt;w ana=&quot;end&quot;/&gt;. </rdg>
 		</rdgGrp>
 		<rdgGrp n="['cottagers.']">
@@ -85,7 +85,7 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['', '&lt;del&gt;struck&lt;/del&gt;', '', '']">
+		<rdgGrp n="['', '&lt;del&gt;struck&lt;/del&gt;', '', '^']">
 			<rdg wit="fMS">&lt;mod sID=&quot;c57-0037__main__d4e5856&quot;/&gt; &lt;del rend=&quot;strikethrough&quot; xml:id=&quot;c57-0037__main__d4e5858&quot;&gt;struck&lt;/del&gt; &lt;sga-add place=&quot;sublinear&quot; sID=&quot;c57-0037__main__d4e5861&quot;/&gt; &lt;metamark function=&quot;insert&quot;&gt;^&lt;/metamark&gt; </rdg>
 		</rdgGrp>
 	</app>
@@ -113,7 +113,7 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['deeply,', '', '&lt;mdel&gt;–&lt;/mdel&gt;', '&lt;del&gt;and&lt;/del&gt;', '', '', '', '&lt;del&gt; &lt;unclear reason=&quot;illegible&quot;&gt;prom&lt;/unclear&gt; &lt;/del&gt;', '&lt;del&gt;it fr&lt;/del&gt;', '']">
+		<rdgGrp n="['deeply,', '', '&lt;mdel&gt;–&lt;/mdel&gt;', '&lt;del&gt;and&lt;/del&gt;', '', '^', '', '&lt;del&gt; &lt;unclear reason=&quot;illegible&quot;&gt;prom&lt;/unclear&gt; &lt;/del&gt;', '&lt;del&gt;it fr&lt;/del&gt;', '']">
 			<rdg wit="fMS">deeply, &lt;mod sID=&quot;c57-0037__main__d4e5871&quot;/&gt; &lt;mdel&gt;–&lt;/mdel&gt; &lt;del rend=&quot;strikethrough&quot; xml:id=&quot;c57-0037__main__d4e5875&quot;&gt;and&lt;/del&gt; &lt;sga-add place=&quot;sublinear&quot; sID=&quot;c57-0037__main__d4e5878&quot;/&gt; &lt;metamark function=&quot;insert&quot;&gt;^&lt;/metamark&gt; &lt;sga-add eID=&quot;c57-0037__main__d4e5878&quot;/&gt;&lt;sga-add place=&quot;superlinear&quot; sID=&quot;c57-0037__main__d4e5884&quot;/&gt; &lt;del rend=&quot;strikethrough&quot; xml:id=&quot;c57-0037__main__d4e5886&quot;&gt; &lt;unclear reason=&quot;illegible&quot;&gt;prom&lt;/unclear&gt; &lt;/del&gt; &lt;del rend=&quot;strikethrough&quot; xml:id=&quot;c57-0037__main__d4e5892&quot;&gt;it fr&lt;/del&gt; &lt;sga-add eID=&quot;c57-0037__main__d4e5884&quot;/&gt;&lt;mod eID=&quot;c57-0037__main__d4e5871&quot;/&gt; </rdg>
 		</rdgGrp>
 		<rdgGrp n="['deeply.']">
@@ -153,7 +153,7 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['&lt;mdel&gt;it&lt;/mdel&gt;', '', '', '', '']">
+		<rdgGrp n="['&lt;mdel&gt;it&lt;/mdel&gt;', '', '^', '', '^']">
 			<rdg wit="fMS">&lt;mdel&gt;it&lt;/mdel&gt; &lt;sga-add eID=&quot;c57-0037__main__d4e5899&quot;/&gt;&lt;sga-add place=&quot;sublinear&quot; sID=&quot;c57-0037__main__d4e5904&quot;/&gt; &lt;metamark function=&quot;displacement&quot; xml:id=&quot;c57-0037.02&quot;&gt;^&lt;/metamark&gt; &lt;lb n=&quot;c57-0037__left_margin__1&quot;/&gt; &lt;metamark function=&quot;displacement&quot;&gt;^&lt;/metamark&gt; </rdg>
 		</rdgGrp>
 	</app>
@@ -229,14 +229,25 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['', '&lt;del&gt;but&lt;/del&gt;', '&lt;del&gt; for  &lt;/del&gt;', 'benevolence and']">
-			<rdg wit="fMS">&lt;mod sID=&quot;c57-0037__main__d4e5951&quot;/&gt; &lt;del rend=&quot;strikethrough&quot; xml:id=&quot;c57-0037__main__d4e5953&quot;&gt;but&lt;/del&gt; &lt;del rend=&quot;strikethrough&quot; xml:id=&quot;c57-0037__main__d4e5956&quot;&gt; &lt;sga-add place=&quot;superlinear&quot; sID=&quot;c57-0037__main__d4e5958&quot;/&gt;for &lt;sga-add eID=&quot;c57-0037__main__d4e5958&quot;/&gt; &lt;/del&gt; &lt;mod eID=&quot;c57-0037__main__d4e5951&quot;/&gt;&lt;w ana=&quot;start&quot;/&gt;bene&lt;lb n=&quot;c57-0037__main__8&quot;/&gt;volence&lt;w ana=&quot;end&quot;/&gt;&amp; </rdg>
+		<rdgGrp n="['', '&lt;del&gt;but&lt;/del&gt;', '&lt;del&gt; for  &lt;/del&gt;']">
+			<rdg wit="fMS">&lt;mod sID=&quot;c57-0037__main__d4e5951&quot;/&gt; &lt;del rend=&quot;strikethrough&quot; xml:id=&quot;c57-0037__main__d4e5953&quot;&gt;but&lt;/del&gt; &lt;del rend=&quot;strikethrough&quot; xml:id=&quot;c57-0037__main__d4e5956&quot;&gt; &lt;sga-add place=&quot;superlinear&quot; sID=&quot;c57-0037__main__d4e5958&quot;/&gt;for &lt;sga-add eID=&quot;c57-0037__main__d4e5958&quot;/&gt; &lt;/del&gt; </rdg>
 		</rdgGrp>
-		<rdgGrp n="['benevolence', 'and']">
-			<rdg wit="f1818">benevolence and </rdg>
-			<rdg wit="f1823">benevolence and </rdg>
-			<rdg wit="fThomas">benevolence and </rdg>
-			<rdg wit="f1831">benevolence and </rdg>
+	</app>
+	<app>
+		<rdgGrp n="['benevolence']">
+			<rdg wit="f1818">benevolence </rdg>
+			<rdg wit="f1823">benevolence </rdg>
+			<rdg wit="fThomas">benevolence </rdg>
+			<rdg wit="f1831">benevolence </rdg>
+			<rdg wit="fMS">&lt;mod eID=&quot;c57-0037__main__d4e5951&quot;/&gt;&lt;w ana=&quot;start&quot;/&gt;bene&lt;lb n=&quot;c57-0037__main__8&quot;/&gt;volence&lt;w ana=&quot;end&quot;/&gt;&amp; </rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['and']">
+			<rdg wit="f1818">and </rdg>
+			<rdg wit="f1823">and </rdg>
+			<rdg wit="fThomas">and </rdg>
+			<rdg wit="f1831">and </rdg>
 		</rdgGrp>
 	</app>
 	<app>
@@ -249,7 +260,7 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['me', '–', '&lt;del&gt;and&lt;/del&gt;', '', &quot;&lt;del&gt;i     ardently     &lt;del&gt;'&quot;, 'longed&lt;/del-inner&gt;    desired    &lt;/del&gt;', '&lt;del&gt;to make one&lt;/del&gt;', '', '']">
+		<rdgGrp n="['me', '–', '&lt;del&gt;and&lt;/del&gt;', '', &quot;&lt;del&gt;i   ^  ardently     &lt;del&gt;'&quot;, 'longed&lt;/del-inner&gt;  ^  desired    &lt;/del&gt;', '&lt;del&gt;to make one&lt;/del&gt;', '', '^']">
 			<rdg wit="fMS">me – &lt;del rend=&quot;strikethrough&quot; xml:id=&quot;c57-0037__main__d4e5972&quot;&gt;and&lt;/del&gt; &lt;mod sID=&quot;c57-0037__main__d4e5975&quot;/&gt; &lt;del rend=&quot;strikethrough&quot; xml:id=&quot;c57-0037__main__d4e5977&quot;&gt;I &lt;mod sID=&quot;c57-0037__main__d4e5979&quot;/&gt; &lt;sga-add place=&quot;sublinear&quot; sID=&quot;c57-0037__main__d4e5981&quot;/&gt; &lt;metamark function=&quot;insert&quot;&gt;^&lt;/metamark&gt; &lt;sga-add eID=&quot;c57-0037__main__d4e5981&quot;/&gt; &lt;sga-add place=&quot;superlinear&quot; sID=&quot;c57-0037__main__d4e5987&quot;/&gt;ardently &lt;sga-add eID=&quot;c57-0037__main__d4e5987&quot;/&gt; &lt;mod eID=&quot;c57-0037__main__d4e5979&quot;/&gt;  &lt;mod sID=&quot;c57-0037__main__d4e5991&quot;/&gt; &lt;del-INNER rend=&quot;strikethrough&quot; xml:id=&quot;c57-0037__main__d4e5993&quot;&gt;'             longed&lt;/del-INNER&gt; &lt;sga-add place=&quot;sublinear&quot; sID=&quot;c57-0037__main__d4e5996&quot;/&gt; &lt;metamark function=&quot;insert&quot;&gt;^&lt;/metamark&gt; &lt;sga-add eID=&quot;c57-0037__main__d4e5996&quot;/&gt; &lt;sga-add place=&quot;superlinear&quot; sID=&quot;c57-0037__main__d4e6002&quot;/&gt;desired &lt;sga-add eID=&quot;c57-0037__main__d4e6002&quot;/&gt; &lt;mod eID=&quot;c57-0037__main__d4e5991&quot;/&gt;  &lt;/del&gt; &lt;del rend=&quot;strikethrough&quot; xml:id=&quot;c57-0037__main__d4e6007&quot;&gt;to make one&lt;/del&gt; &lt;sga-add place=&quot;sublinear&quot; sID=&quot;c57-0037__main__d4e6010&quot;/&gt; &lt;metamark function=&quot;insert&quot;&gt;^&lt;/metamark&gt; </rdg>
 		</rdgGrp>
 		<rdgGrp n="['me,']">
@@ -689,7 +700,7 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['werter', '–', '&lt;del&gt;and these&lt;/del&gt;', 'i', '&lt;del&gt;     was    &lt;/del&gt;', '&lt;del&gt;delighted&lt;/del&gt;', '', '&lt;mdel&gt;in&lt;/mdel&gt;', '&lt;mdel&gt; &lt;/mdel&gt;']">
+		<rdgGrp n="['werter', '–', '&lt;del&gt;and these&lt;/del&gt;', 'i', '&lt;del&gt;   ^  was    &lt;/del&gt;', '&lt;del&gt;delighted&lt;/del&gt;', '', '&lt;mdel&gt;in&lt;/mdel&gt;', '&lt;mdel&gt; &lt;/mdel&gt;']">
 			<rdg wit="fMS">Werter – &lt;del rend=&quot;strikethrough&quot; xml:id=&quot;c57-0037__main__d4e6122&quot;&gt;And these&lt;/del&gt; &lt;lb n=&quot;c57-0037__main__29&quot;/&gt;I &lt;del rend=&quot;strikethrough&quot; xml:id=&quot;c57-0037__main__d4e6127&quot;&gt; &lt;mod sID=&quot;c57-0037__main__d4e6129&quot;/&gt; &lt;sga-add place=&quot;sublinear&quot; sID=&quot;c57-0037__main__d4e6131&quot;/&gt; &lt;metamark function=&quot;insert&quot;&gt;^&lt;/metamark&gt; &lt;sga-add eID=&quot;c57-0037__main__d4e6131&quot;/&gt; &lt;sga-add place=&quot;superlinear&quot; sID=&quot;c57-0037__main__d4e6137&quot;/&gt;was &lt;sga-add eID=&quot;c57-0037__main__d4e6137&quot;/&gt; &lt;mod eID=&quot;c57-0037__main__d4e6129&quot;/&gt;  &lt;/del&gt; &lt;del rend=&quot;strikethrough&quot; xml:id=&quot;c57-0037__main__d4e6142&quot;&gt;delighted&lt;/del&gt; &lt;mod sID=&quot;c57-0037__main__d4e6145&quot;/&gt; &lt;mdel&gt;in&lt;/mdel&gt; &lt;mdel&gt; &lt;/mdel&gt; </rdg>
 		</rdgGrp>
 		<rdgGrp n="['werter.’']">
@@ -745,7 +756,7 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['', '&lt;del&gt;which&lt;/del&gt;', '', '']">
+		<rdgGrp n="['', '&lt;del&gt;which&lt;/del&gt;', '', 'x']">
 			<rdg wit="fMS">&lt;lb n=&quot;c57-0037__main__30&quot;/&gt;&lt;mod sID=&quot;c57-0037__main__d4e6175&quot;/&gt; &lt;del rend=&quot;strikethrough&quot; xml:id=&quot;c57-0037__main__d4e6177&quot;&gt;which&lt;/del&gt; &lt;sga-add sID=&quot;c57-0037__main__d4e6180&quot;/&gt; &lt;metamark function=&quot;displacement&quot; xml:id=&quot;c57-0037.08&quot;&gt;X&lt;/metamark&gt; </rdg>
 		</rdgGrp>
 	</app>
@@ -773,7 +784,7 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['delight', '', '']">
+		<rdgGrp n="['delight', '^', '']">
 			<rdg wit="fMS">&lt;sga-add eID=&quot;c57-0037__left_margin__d4e6198&quot;/&gt;&lt;mod eID=&quot;c57-0037__left_margin__d4e6193&quot;/&gt;&lt;lb n=&quot;c57-0037__left_margin__3&quot;/&gt;delight &lt;metamark function=&quot;displacement&quot;&gt;^&lt;/metamark&gt; &lt;anchor xml:id=&quot;c57-0037.09&quot;/&gt;&lt;sga-add eID=&quot;c57-0037__main__d4e6180&quot;/&gt;&lt;mod eID=&quot;c57-0037__main__d4e6175&quot;/&gt; </rdg>
 		</rdgGrp>
 		<rdgGrp n="['delight;']">
@@ -853,7 +864,7 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['', '', 'the', '', '&lt;mdel&gt;m&lt;/mdel&gt;', 'se', 'histories', '', 'when']">
+		<rdgGrp n="['', '^', 'the', '', '&lt;mdel&gt;m&lt;/mdel&gt;', 'se', 'histories', '', 'when']">
 			<rdg wit="fMS">&lt;mod sID=&quot;c57-0037__main__d4e6228&quot;/&gt;&lt;sga-add place=&quot;sublinear&quot; sID=&quot;c57-0037__main__d4e6230&quot;/&gt; &lt;metamark function=&quot;insert&quot;&gt;^&lt;/metamark&gt; &lt;sga-add eID=&quot;c57-0037__main__d4e6230&quot;/&gt;&lt;sga-add place=&quot;superlinear&quot; sID=&quot;c57-0037__main__d4e6236&quot;/&gt;the &lt;mod sID=&quot;c57-0037__main__d4e6238&quot;/&gt; &lt;mdel&gt;m&lt;/mdel&gt; &lt;sga-add hand=&quot;#pbs&quot; place=&quot;intralinear&quot; sID=&quot;c57-0037__main__d4e6242&quot;/&gt;se &lt;sga-add eID=&quot;c57-0037__main__d4e6242&quot;/&gt;&lt;mod eID=&quot;c57-0037__main__d4e6238&quot;/&gt;&lt;sga-add eID=&quot;c57-0037__main__d4e6236&quot;/&gt;&lt;mod eID=&quot;c57-0037__main__d4e6228&quot;/&gt;&lt;sga-add hand=&quot;#pbs&quot; place=&quot;superlinear&quot; sID=&quot;c57-0037__main__d4e6248&quot;/&gt;histories &lt;sga-add eID=&quot;c57-0037__main__d4e6248&quot;/&gt; when </rdg>
 		</rdgGrp>
 		<rdgGrp n="['these', 'histories,', 'whilst']">
@@ -1147,7 +1158,7 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['', '']">
+		<rdgGrp n="['', '^']">
 			<rdg wit="fMS">&lt;mod sID=&quot;c57-0038__left_margin__d4e6343&quot;/&gt;&lt;sga-add place=&quot;sublinear&quot; sID=&quot;c57-0038__left_margin__d4e6345&quot;/&gt; &lt;metamark function=&quot;insert&quot;&gt;^&lt;/metamark&gt; </rdg>
 		</rdgGrp>
 	</app>
@@ -1209,7 +1220,7 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['', '']">
+		<rdgGrp n="['', '^']">
 			<rdg wit="fMS">&lt;mod sID=&quot;c57-0038__main__d4e6371&quot;/&gt;&lt;sga-add place=&quot;sublinear&quot; sID=&quot;c57-0038__main__d4e6373&quot;/&gt; &lt;metamark function=&quot;insert&quot;&gt;^&lt;/metamark&gt; </rdg>
 		</rdgGrp>
 	</app>
@@ -1331,7 +1342,7 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['feelings', '', '']">
+		<rdgGrp n="['feelings', '', '^']">
 			<rdg wit="fMS">feelings &lt;mod sID=&quot;c57-0038__main__d4e6398&quot;/&gt;&lt;sga-add place=&quot;sublinear&quot; sID=&quot;c57-0038__main__d4e6400&quot;/&gt; &lt;metamark function=&quot;insert&quot;&gt;^&lt;/metamark&gt; </rdg>
 		</rdgGrp>
 		<rdgGrp n="['feelings,']">
@@ -1371,7 +1382,7 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['protectors .', '', '']">
+		<rdgGrp n="['protectors', '', '^']">
 			<rdg wit="fMS">&lt;w ana=&quot;start&quot;/&gt;pro&lt;lb n=&quot;c57-0038__main__13&quot;/&gt;tectors&lt;w ana=&quot;end&quot;/&gt;. &lt;mod sID=&quot;c57-0038__main__d4e6426&quot;/&gt;&lt;sga-add place=&quot;sublinear&quot; sID=&quot;c57-0038__main__d4e6428&quot;/&gt; &lt;metamark function=&quot;insert&quot;&gt;^&lt;/metamark&gt; </rdg>
 		</rdgGrp>
 		<rdgGrp n="['protectors,']">
@@ -1681,7 +1692,7 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['', '']">
+		<rdgGrp n="['', '^']">
 			<rdg wit="fMS">&lt;mod sID=&quot;c57-0038__main__d4e6530&quot;/&gt;&lt;sga-add place=&quot;sublinear&quot; sID=&quot;c57-0038__main__d4e6532&quot;/&gt; &lt;metamark function=&quot;insert&quot;&gt;^&lt;/metamark&gt; </rdg>
 		</rdgGrp>
 	</app>
@@ -1709,7 +1720,7 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['', '&lt;del&gt;self&lt;/del&gt;', '', '', '', '&lt;del&gt;and&lt;/del&gt;']">
+		<rdgGrp n="['', '&lt;del&gt;self&lt;/del&gt;', '', '^', '', '&lt;del&gt;and&lt;/del&gt;']">
 			<rdg wit="fMS">&lt;mod sID=&quot;c57-0038__main__d4e6542&quot;/&gt; &lt;del rend=&quot;strikethrough&quot; xml:id=&quot;c57-0038__main__d4e6544&quot;&gt;self&lt;/del&gt; &lt;sga-add place=&quot;sublinear&quot; sID=&quot;c57-0038__main__d4e6547&quot;/&gt; &lt;metamark function=&quot;insert&quot;&gt;^&lt;/metamark&gt; &lt;sga-add eID=&quot;c57-0038__main__d4e6547&quot;/&gt; &lt;del rend=&quot;strikethrough&quot; xml:id=&quot;c57-0038__main__d4e6553&quot;&gt;and&lt;/del&gt; </rdg>
 		</rdgGrp>
 	</app>
@@ -1763,7 +1774,7 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['', '']">
+		<rdgGrp n="['', '^']">
 			<rdg wit="fMS">&lt;lb n=&quot;c57-0038__main__25&quot;/&gt;&lt;sga-add sID=&quot;c57-0038__main__d4e6575&quot;/&gt; &lt;metamark function=&quot;displacement&quot; xml:id=&quot;c57-0038.07&quot;&gt;^&lt;/metamark&gt; </rdg>
 		</rdgGrp>
 	</app>
@@ -2425,7 +2436,7 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['', '&lt;del&gt;knowledge&lt;/del&gt;', '', '', 'experience', '']">
+		<rdgGrp n="['', '&lt;del&gt;knowledge&lt;/del&gt;', '', '^', 'experience', '']">
 			<rdg wit="fMS">&lt;mod sID=&quot;c57-0039__main__d4e6731&quot;/&gt; &lt;del rend=&quot;strikethrough&quot; xml:id=&quot;c57-0039__main__d4e6733&quot;&gt;knowledge&lt;/del&gt; &lt;sga-add place=&quot;sublinear&quot; sID=&quot;c57-0039__main__d4e6736&quot;/&gt; &lt;metamark function=&quot;insert&quot;&gt;^&lt;/metamark&gt; &lt;sga-add eID=&quot;c57-0039__main__d4e6736&quot;/&gt;&lt;sga-add place=&quot;superlinear&quot; sID=&quot;c57-0039__main__d4e6742&quot;/&gt;experience &lt;sga-add eID=&quot;c57-0039__main__d4e6742&quot;/&gt;&lt;mod eID=&quot;c57-0039__main__d4e6731&quot;/&gt; </rdg>
 		</rdgGrp>
 		<rdgGrp n="['experience.']">
@@ -2663,7 +2674,7 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['', '&lt;del&gt;threw a new light&lt;/del&gt;', '&lt;del&gt;upon&lt;/del&gt;', '', '']">
+		<rdgGrp n="['', '&lt;del&gt;threw a new light&lt;/del&gt;', '&lt;del&gt;upon&lt;/del&gt;', '', '^']">
 			<rdg wit="fMS">&lt;mod sID=&quot;c57-0039__main__d4e6832&quot;/&gt; &lt;del rend=&quot;strikethrough&quot; xml:id=&quot;c57-0039__main__d4e6834&quot;&gt;threw a new light&lt;/del&gt; &lt;del rend=&quot;strikethrough&quot; xml:id=&quot;c57-0039__main__d4e6837&quot;&gt;upon&lt;/del&gt; &lt;sga-add place=&quot;sublinear&quot; sID=&quot;c57-0039__main__d4e6840&quot;/&gt; &lt;metamark function=&quot;insert&quot;&gt;^&lt;/metamark&gt; </rdg>
 		</rdgGrp>
 	</app>
@@ -2731,14 +2742,14 @@
 		</rdgGrp>
 	</app>
 	<app>
+		<rdgGrp n="['&lt;w ana=&quot;start&quot;/&gt;masser c', '&lt;del&gt;e&lt;/del&gt;', 'ring&lt;w ana=&quot;end&quot;/&gt;']">
+			<rdg wit="fMS">&lt;w ana=&quot;start&quot;/&gt;masser&lt;lb n=&quot;c57-0039__main__22&quot;/&gt;c &lt;del rend=&quot;strikethrough&quot; xml:id=&quot;c57-0039__main__d4e6868&quot;&gt;e&lt;/del&gt; ring&lt;w ana=&quot;end&quot;/&gt; </rdg>
+		</rdgGrp>
 		<rdgGrp n="['massacring']">
 			<rdg wit="f1818">massacring </rdg>
 			<rdg wit="f1823">massacring </rdg>
 			<rdg wit="fThomas">massacring </rdg>
 			<rdg wit="f1831">massacring </rdg>
-		</rdgGrp>
-		<rdgGrp n="['masserc', '&lt;del&gt;e&lt;/del&gt;', 'ring']">
-			<rdg wit="fMS">&lt;w ana=&quot;start&quot;/&gt;masser&lt;lb n=&quot;c57-0039__main__22&quot;/&gt;c &lt;del rend=&quot;strikethrough&quot; xml:id=&quot;c57-0039__main__d4e6868&quot;&gt;e&lt;/del&gt; ring&lt;w ana=&quot;end&quot;/&gt; </rdg>
 		</rdgGrp>
 	</app>
 	<app>
@@ -2865,7 +2876,7 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['', '']">
+		<rdgGrp n="['', '^']">
 			<rdg wit="fMS">&lt;mod sID=&quot;c57-0039__main__d4e6900&quot;/&gt;&lt;sga-add place=&quot;sublinear&quot; sID=&quot;c57-0039__main__d4e6902&quot;/&gt; &lt;metamark function=&quot;insert&quot;&gt;^&lt;/metamark&gt; </rdg>
 		</rdgGrp>
 	</app>
@@ -3017,7 +3028,7 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['', '']">
+		<rdgGrp n="['', '^']">
 			<rdg wit="fMS">&lt;mod sID=&quot;c57-0039__main__d4e6950&quot;/&gt;&lt;sga-add place=&quot;sublinear&quot; sID=&quot;c57-0039__main__d4e6952&quot;/&gt; &lt;metamark function=&quot;insert&quot;&gt;^&lt;/metamark&gt; </rdg>
 		</rdgGrp>
 	</app>
@@ -3051,7 +3062,7 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['&lt;del&gt; resid ence &lt;/del&gt;', '&lt;del&gt; human  &lt;/del&gt;']">
+		<rdgGrp n="['residence', '&lt;del&gt; human  &lt;/del&gt;']">
 			<rdg wit="fMS">&lt;delSpan rend=&quot;strikethrough&quot; spanTo=&quot;#c57-0039.04&quot;/&gt;&lt;w ana=&quot;start&quot;/&gt;resid&lt;lb n=&quot;c57-0039__main__33&quot;/&gt;ence&lt;w ana=&quot;end&quot;/&gt;&lt;delSpan anchor=&quot;c57-0039.04&quot;/&gt;&lt;anchor xml:id=&quot;c57-0039.05&quot;/&gt;&lt;lb n=&quot;c57-0039__left_margin__1&quot;/&gt; &lt;del rend=&quot;strikethrough&quot; xml:id=&quot;c57-0039__left_margin__d4e6979&quot;&gt; &lt;sga-add hand=&quot;#pbs&quot; next=&quot;#c57-0039.07&quot; sID=&quot;c57-0039__left_margin__d4e6981&quot;/&gt;human &lt;sga-add eID=&quot;c57-0039__left_margin__d4e6981&quot;/&gt; &lt;/del&gt; </rdg>
 		</rdgGrp>
 	</app>
@@ -3093,7 +3104,7 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['', '', '', '&lt;del&gt;with&lt;/del&gt;']">
+		<rdgGrp n="['', '^', '', '&lt;del&gt;with&lt;/del&gt;']">
 			<rdg wit="fMS">&lt;mod sID=&quot;c57-0039__main__d4e7016&quot;/&gt;&lt;sga-add place=&quot;sublinear&quot; sID=&quot;c57-0039__main__d4e7018&quot;/&gt; &lt;metamark function=&quot;insert&quot;&gt;^&lt;/metamark&gt; &lt;sga-add eID=&quot;c57-0039__main__d4e7018&quot;/&gt; &lt;del rend=&quot;strikethrough&quot; xml:id=&quot;c57-0039__main__d4e7024&quot;&gt;with&lt;/del&gt; </rdg>
 		</rdgGrp>
 	</app>
@@ -3437,7 +3448,7 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['', '']">
+		<rdgGrp n="['', '^']">
 			<rdg wit="fMS">&lt;mod sID=&quot;c57-0040__main__d4e7163&quot;/&gt;&lt;sga-add place=&quot;sublinear&quot; sID=&quot;c57-0040__main__d4e7165&quot;/&gt; &lt;metamark function=&quot;insert&quot;&gt;^&lt;/metamark&gt; </rdg>
 		</rdgGrp>
 	</app>
@@ -3621,7 +3632,7 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['&lt;del&gt;and&lt;/del&gt;', 'prosperous', '', '']">
+		<rdgGrp n="['&lt;del&gt;and&lt;/del&gt;', 'prosperous', '', 'x']">
 			<rdg wit="fMS">&lt;del rend=&quot;strikethrough&quot; xml:id=&quot;c57-0040__main__d4e7245&quot;&gt;&amp;amp;&lt;/del&gt; prosperous &lt;mod sID=&quot;c57-0040__main__d4e7249&quot;/&gt;&lt;sga-add place=&quot;superlinear&quot; sID=&quot;c57-0040__main__d4e7251&quot;/&gt; &lt;metamark function=&quot;displacement&quot; xml:id=&quot;c57-0040.11&quot;&gt;X&lt;/metamark&gt; </rdg>
 		</rdgGrp>
 		<rdgGrp n="['and', 'prosperous,']">
@@ -4097,7 +4108,7 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['', '&lt;del&gt;them&lt;/del&gt;', '', '']">
+		<rdgGrp n="['', '&lt;del&gt;them&lt;/del&gt;', '', '^']">
 			<rdg wit="fMS">&lt;sga-add eID=&quot;c57-0041__left_margin__d4e7428&quot;/&gt;&lt;mod sID=&quot;c57-0041__main__d4e7431&quot;/&gt; &lt;del rend=&quot;strikethrough&quot; xml:id=&quot;c57-0041__main__d4e7433&quot;&gt;them&lt;/del&gt; &lt;sga-add place=&quot;sublinear&quot; sID=&quot;c57-0041__main__d4e7436&quot;/&gt; &lt;metamark function=&quot;insert&quot;&gt;^&lt;/metamark&gt; </rdg>
 		</rdgGrp>
 	</app>
@@ -4193,7 +4204,7 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['']">
+		<rdgGrp n="['^']">
 			<rdg wit="fMS">&lt;metamark function=&quot;insert&quot;&gt;^&lt;/metamark&gt; </rdg>
 		</rdgGrp>
 	</app>
@@ -4249,7 +4260,7 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['', '']">
+		<rdgGrp n="['', '^']">
 			<rdg wit="fMS">&lt;mod sID=&quot;c57-0041__main__d4e7499&quot;/&gt;&lt;sga-add place=&quot;sublinear&quot; sID=&quot;c57-0041__main__d4e7501&quot;/&gt; &lt;metamark function=&quot;insert&quot;&gt;^&lt;/metamark&gt; </rdg>
 		</rdgGrp>
 	</app>
@@ -4365,7 +4376,7 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['', '', '', '']">
+		<rdgGrp n="['', '^', '', '^']">
 			<rdg wit="fMS">&lt;sga-add place=&quot;sublinear&quot; sID=&quot;c57-0041__main__d4e7545&quot;/&gt; &lt;metamark function=&quot;displacement&quot; xml:id=&quot;c57-0041.02&quot;&gt;^&lt;/metamark&gt; &lt;lb n=&quot;c57-0041__left_margin__1&quot;/&gt;&lt;sga-add place=&quot;sublinear&quot; sID=&quot;c57-0041__left_margin__d4e7556&quot;/&gt; &lt;metamark function=&quot;displacement&quot;&gt;^&lt;/metamark&gt; </rdg>
 		</rdgGrp>
 	</app>
@@ -4379,7 +4390,7 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['origin .', '', '&lt;del&gt;and every&lt;/del&gt;']">
+		<rdgGrp n="['origin', '', '&lt;del&gt;and every&lt;/del&gt;']">
 			<rdg wit="fMS">&lt;w ana=&quot;start&quot;/&gt;ori&lt;lb n=&quot;c57-0041__left_margin__4&quot;/&gt;gin&lt;w ana=&quot;end&quot;/&gt;. &lt;anchor xml:id=&quot;c57-0041.03&quot;/&gt;&lt;sga-add eID=&quot;c57-0041__main__d4e7545&quot;/&gt; &lt;del rend=&quot;strikethrough&quot; xml:id=&quot;c57-0041__main__d4e7577&quot;&gt;&amp;amp; every&lt;/del&gt; </rdg>
 		</rdgGrp>
 		<rdgGrp n="['origin;']">
@@ -4399,7 +4410,7 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['&lt;w ana=&quot;start&quot;/&gt;', '&lt;del&gt;disgus&lt;/del&gt;', '', '&lt;del&gt;ting&lt;/del&gt;', '', '&lt;del&gt;circumstance&lt;/del&gt;']">
+		<rdgGrp n="['&lt;w ana=&quot;start&quot;/&gt;', '&lt;del&gt;disgus&lt;/del&gt;', '', '&lt;del&gt;ting&lt;/del&gt;', '&lt;w ana=&quot;end&quot;/&gt;', '&lt;del&gt;circumstance&lt;/del&gt;']">
 			<rdg wit="fMS">&lt;sga-add eID=&quot;c57-0041__main__d4e7581&quot;/&gt;&lt;w ana=&quot;start&quot;/&gt; &lt;del rend=&quot;unmarked&quot; xml:id=&quot;c57-0041__main__d4e7586&quot;&gt;disgus&lt;/del&gt; &lt;lb n=&quot;c57-0041__main__15&quot;/&gt; &lt;del rend=&quot;strikethrough&quot; xml:id=&quot;c57-0041__main__d4e7591&quot;&gt;ting&lt;/del&gt; &lt;w ana=&quot;end&quot;/&gt; &lt;del rend=&quot;strikethrough&quot; xml:id=&quot;c57-0041__main__d4e7597&quot;&gt;circumstance&lt;/del&gt; </rdg>
 		</rdgGrp>
 	</app>
@@ -4500,14 +4511,14 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['', '', '', 'given']">
-			<rdg wit="fMS">&lt;metamark function=&quot;displacement&quot; xml:id=&quot;c57-0041.05&quot;&gt;X&lt;/metamark&gt; &lt;lb n=&quot;c57-0041__left_margin__1&quot;/&gt; &lt;metamark function=&quot;displacement&quot;&gt;X&lt;/metamark&gt; given </rdg>
-		</rdgGrp>
 		<rdgGrp n="['given,']">
 			<rdg wit="f1818">given, </rdg>
 			<rdg wit="f1823">given, </rdg>
 			<rdg wit="fThomas">given, </rdg>
 			<rdg wit="f1831">given, </rdg>
+		</rdgGrp>
+		<rdgGrp n="['x', '', 'x', 'given']">
+			<rdg wit="fMS">&lt;metamark function=&quot;displacement&quot; xml:id=&quot;c57-0041.05&quot;&gt;X&lt;/metamark&gt; &lt;lb n=&quot;c57-0041__left_margin__1&quot;/&gt; &lt;metamark function=&quot;displacement&quot;&gt;X&lt;/metamark&gt; given </rdg>
 		</rdgGrp>
 	</app>
 	<app>
@@ -4828,7 +4839,7 @@
 			<rdg wit="fThomas">“These </rdg>
 			<rdg wit="f1831">&lt;pb xml:id=&quot;F1831_v_129&quot; n=&quot;113&quot;/&gt;“These </rdg>
 		</rdgGrp>
-		<rdgGrp n="['', '&lt;del&gt;such&lt;/del&gt;', '', '', 'these', '']">
+		<rdgGrp n="['', '&lt;del&gt;such&lt;/del&gt;', '', '^', 'these', '']">
 			<rdg wit="fMS">&lt;lb n=&quot;c57-0041__main__30&quot;/&gt;&lt;mod sID=&quot;c57-0041__main__d4e7710&quot;/&gt; &lt;del rend=&quot;strikethrough&quot; xml:id=&quot;c57-0041__main__d4e7712&quot;&gt;Such&lt;/del&gt; &lt;sga-add place=&quot;sublinear&quot; sID=&quot;c57-0041__main__d4e7715&quot;/&gt; &lt;metamark function=&quot;insert&quot;&gt;^&lt;/metamark&gt; &lt;sga-add eID=&quot;c57-0041__main__d4e7715&quot;/&gt;&lt;sga-add place=&quot;superlinear&quot; sID=&quot;c57-0041__main__d4e7721&quot;/&gt;These &lt;sga-add eID=&quot;c57-0041__main__d4e7721&quot;/&gt;&lt;mod eID=&quot;c57-0041__main__d4e7710&quot;/&gt; </rdg>
 		</rdgGrp>
 	</app>
@@ -4962,7 +4973,7 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['', '', '', '']">
+		<rdgGrp n="['', 'x', '', 'x']">
 			<rdg wit="fMS">&lt;mod sID=&quot;c57-0042__main__d4e7753&quot;/&gt;&lt;sga-add place=&quot;superlinear&quot; sID=&quot;c57-0042__main__d4e7755&quot;/&gt; &lt;metamark function=&quot;displacement&quot; xml:id=&quot;c57-0042.01&quot;&gt;X&lt;/metamark&gt; &lt;lb n=&quot;c57-0042__left_margin__1&quot;/&gt; &lt;metamark&gt;X&lt;/metamark&gt; </rdg>
 		</rdgGrp>
 	</app>
@@ -4976,7 +4987,7 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['', '']">
+		<rdgGrp n="['', '^']">
 			<rdg wit="fMS">&lt;mod sID=&quot;c57-0042__left_margin__d4e7768&quot;/&gt;&lt;sga-add place=&quot;sublinear&quot; sID=&quot;c57-0042__left_margin__d4e7770&quot;/&gt; &lt;metamark function=&quot;insert&quot;&gt;^&lt;/metamark&gt; </rdg>
 		</rdgGrp>
 	</app>
@@ -5050,7 +5061,7 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['deformity', '&lt;del&gt;when', 'they', 'should', 'know', 'my', 'admiration', 'of', 'their', 'virtues.', '&lt;/del&gt;&lt;del&gt;yes', 'i', '', '', '', '&lt;del&gt; was  &lt;/del&gt;', '', 'mad', 'enough', 'to', '', '', '', '&lt;del&gt; put  &lt;/del&gt;', '', 'my', 'trust', 'in', 'my', 'own', 'intentions', 'and', 'to', '&lt;/del&gt;could']">
+		<rdgGrp n="['deformity', '&lt;del&gt;when', 'they', 'should', 'know', 'my', 'admiration', 'of', 'their', 'virtues.', '&lt;/del&gt;&lt;del&gt;yes', 'i', '', '^', '', '&lt;del&gt; was  &lt;/del&gt;', '', 'mad', 'enough', 'to', '', '^', '', '&lt;del&gt; put  &lt;/del&gt;', '', 'my', 'trust', 'in', 'my', 'own', 'intentions', 'and', 'to', '&lt;/del&gt;could']">
 			<rdg wit="fMS">deformity &lt;delSpan rend=&quot;strikethrough&quot; spanTo=&quot;#c57-0042.03&quot;/&gt;when they &lt;lb n=&quot;c57-0042__main__4&quot;/&gt;should know my admiration of &lt;lb n=&quot;c57-0042__main__5&quot;/&gt;their virtues. &lt;delSpan anchor=&quot;c57-0042.03&quot;/&gt;&lt;delSpan rend=&quot;strikethrough&quot; spanTo=&quot;#c57-0042.04&quot;/&gt;Yes I &lt;mod sID=&quot;c57-0042__main__d4e7807&quot;/&gt;&lt;sga-add place=&quot;sublinear&quot; sID=&quot;c57-0042__main__d4e7809&quot;/&gt; &lt;metamark function=&quot;insert&quot;&gt;^&lt;/metamark&gt; &lt;sga-add eID=&quot;c57-0042__main__d4e7809&quot;/&gt; &lt;del rend=&quot;strikethrough&quot; xml:id=&quot;c57-0042__main__d4e7815&quot;&gt; &lt;sga-add place=&quot;superlinear&quot; sID=&quot;c57-0042__main__d4e7817&quot;/&gt;was &lt;sga-add eID=&quot;c57-0042__main__d4e7817&quot;/&gt; &lt;/del&gt; &lt;mod eID=&quot;c57-0042__main__d4e7807&quot;/&gt; mad enough to &lt;mod sID=&quot;c57-0042__main__d4e7822&quot;/&gt;&lt;sga-add place=&quot;sublinear&quot; sID=&quot;c57-0042__main__d4e7824&quot;/&gt; &lt;metamark function=&quot;insert&quot;&gt;^&lt;/metamark&gt; &lt;sga-add eID=&quot;c57-0042__main__d4e7824&quot;/&gt; &lt;del rend=&quot;strikethrough&quot; xml:id=&quot;c57-0042__main__d4e7830&quot;&gt; &lt;sga-add place=&quot;superlinear&quot; sID=&quot;c57-0042__main__d4e7832&quot;/&gt;put &lt;sga-add eID=&quot;c57-0042__main__d4e7832&quot;/&gt; &lt;/del&gt; &lt;mod eID=&quot;c57-0042__main__d4e7822&quot;/&gt; my &lt;lb n=&quot;c57-0042__main__6&quot;/&gt;trust in my own intentions and to &lt;delSpan anchor=&quot;c57-0042.04&quot;/&gt;&lt;lb n=&quot;c57-0042__main__7&quot;/&gt;Could </rdg>
 		</rdgGrp>
 		<rdgGrp n="['deformity.', 'could']">
@@ -5252,7 +5263,7 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['', '']">
+		<rdgGrp n="['', '^']">
 			<rdg wit="fMS">&lt;mod sID=&quot;c57-0042__main__d4e7890&quot;/&gt;&lt;sga-add place=&quot;sublinear&quot; sID=&quot;c57-0042__main__d4e7892&quot;/&gt; &lt;metamark function=&quot;insert&quot;&gt;^&lt;/metamark&gt; </rdg>
 		</rdgGrp>
 	</app>
@@ -5580,7 +5591,7 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['', '', '', '&lt;del&gt;and&lt;/del&gt;']">
+		<rdgGrp n="['', '^', '', '&lt;del&gt;and&lt;/del&gt;']">
 			<rdg wit="fMS">&lt;mod sID=&quot;c57-0042__main__d4e8005&quot;/&gt;&lt;sga-add place=&quot;sublinear&quot; sID=&quot;c57-0042__main__d4e8007&quot;/&gt; &lt;metamark function=&quot;insert&quot;&gt;^&lt;/metamark&gt; &lt;sga-add eID=&quot;c57-0042__main__d4e8007&quot;/&gt; &lt;del rend=&quot;strikethrough&quot; xml:id=&quot;c57-0042__main__d4e8013&quot;&gt;and&lt;/del&gt; </rdg>
 		</rdgGrp>
 	</app>
@@ -5716,7 +5727,7 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['']">
+		<rdgGrp n="['^']">
 			<rdg wit="fMS">&lt;metamark function=&quot;insert&quot;&gt;^&lt;/metamark&gt; </rdg>
 		</rdgGrp>
 	</app>
@@ -5820,7 +5831,7 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['', '&lt;del&gt;plainly&lt;/del&gt;', '', '']">
+		<rdgGrp n="['', '&lt;del&gt;plainly&lt;/del&gt;', '', '^']">
 			<rdg wit="fMS">&lt;mod sID=&quot;c57-0043__main__d4e8116&quot;/&gt; &lt;del rend=&quot;strikethrough&quot; xml:id=&quot;c57-0043__main__d4e8118&quot;&gt;plainly&lt;/del&gt; &lt;sga-add place=&quot;sublinear&quot; sID=&quot;c57-0043__main__d4e8121&quot;/&gt; &lt;metamark function=&quot;insert&quot;&gt;^&lt;/metamark&gt; </rdg>
 		</rdgGrp>
 	</app>
@@ -6662,7 +6673,7 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['', '']">
+		<rdgGrp n="['', '^']">
 			<rdg wit="fMS">&lt;mod sID=&quot;c57-0044__left_margin__d4e8370&quot;/&gt;&lt;sga-add place=&quot;sublinear&quot; sID=&quot;c57-0044__left_margin__d4e8372&quot;/&gt; &lt;metamark function=&quot;insert&quot;&gt;^&lt;/metamark&gt; </rdg>
 		</rdgGrp>
 	</app>
@@ -6776,7 +6787,7 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['the', 'ir', '', '&lt;del&gt;happiness&lt;/del&gt;', '', '', 'joys', '']">
+		<rdgGrp n="['the', 'ir', '', '&lt;del&gt;happiness&lt;/del&gt;', '', '^', 'joys', '']">
 			<rdg wit="fMS">the &lt;sga-add place=&quot;intralinear&quot; sID=&quot;c57-0044__main__d4e8397&quot;/&gt;ir &lt;sga-add eID=&quot;c57-0044__main__d4e8397&quot;/&gt;&lt;mod sID=&quot;c57-0044__main__d4e8400&quot;/&gt; &lt;del rend=&quot;strikethrough&quot; xml:id=&quot;c57-0044__main__d4e8402&quot;&gt;happiness&lt;/del&gt; &lt;sga-add place=&quot;sublinear&quot; sID=&quot;c57-0044__main__d4e8405&quot;/&gt; &lt;metamark function=&quot;insert&quot;&gt;^&lt;/metamark&gt; &lt;sga-add eID=&quot;c57-0044__main__d4e8405&quot;/&gt;&lt;sga-add place=&quot;superlinear&quot; sID=&quot;c57-0044__main__d4e8411&quot;/&gt;joys &lt;sga-add eID=&quot;c57-0044__main__d4e8411&quot;/&gt;&lt;mod eID=&quot;c57-0044__main__d4e8400&quot;/&gt; </rdg>
 		</rdgGrp>
 		<rdgGrp n="['their', 'joys,']">
@@ -6918,7 +6929,7 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['', '']">
+		<rdgGrp n="['', '^']">
 			<rdg wit="fMS">&lt;mod sID=&quot;c57-0044__main__d4e8440&quot;/&gt;&lt;sga-add place=&quot;sublinear&quot; sID=&quot;c57-0044__main__d4e8442&quot;/&gt; &lt;metamark function=&quot;insert&quot;&gt;^&lt;/metamark&gt; </rdg>
 		</rdgGrp>
 	</app>
@@ -7202,7 +7213,7 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['', '']">
+		<rdgGrp n="['', '^']">
 			<rdg wit="fMS">&lt;mod sID=&quot;c57-0044__main__d4e8484&quot;/&gt;&lt;sga-add place=&quot;sublinear&quot; sID=&quot;c57-0044__main__d4e8486&quot;/&gt; &lt;metamark function=&quot;insert&quot;&gt;^&lt;/metamark&gt; </rdg>
 		</rdgGrp>
 	</app>
@@ -7230,54 +7241,14 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['my', 'self']">
-			<rdg wit="fMS">my self </rdg>
+		<rdgGrp n="['my', 'self', 'utterly unworthy   of it', '&lt;surface eid=&quot;ox-ms_abinger_c57-0044&quot;/&gt;', '', '', 'chap. 7', 'the &lt;del&gt;season&lt;/del&gt; winter', '', 'advanced', 'and', '&lt;del&gt;it was now about a&lt;/del&gt;']">
+			<rdg wit="fMS">my self &lt;longToken&gt;utterly unworthy  &lt;lb n=&quot;c57-0044__main__26&quot;/&gt;of it  &lt;zone eID=&quot;c57-0044__main&quot;/&gt;&lt;surface eID=&quot;ox-ms_abinger_c57-0044&quot;/&gt;&lt;/longToken&gt; &lt;lb n=&quot;c57-0045__main__1&quot;/&gt; &lt;milestone spanTo=&quot;#c57-0045.06&quot; unit=&quot;tei:head&quot;/&gt; &lt;longToken&gt;Chap. 7&lt;shi rend=&quot;sup&quot;&gt;          &lt;/shi&gt; &lt;anchor xml:id=&quot;c57-0045.06&quot;/&gt; &lt;lb n=&quot;c57-0045__main__2&quot;/&gt;The&lt;mod sID=&quot;c57-0045__main__d4e8523&quot;/&gt; &lt;del rend=&quot;strikethrough&quot; xml:id=&quot;c57-0045__main__d4e8525&quot;&gt;season&lt;/del&gt; &lt;sga-add place=&quot;superlinear&quot; sID=&quot;c57-0045__main__d4e8528&quot;/&gt;winter&lt;sga-add eID=&quot;c57-0045__main__d4e8528&quot;/&gt;&lt;/longToken&gt; &lt;mod eID=&quot;c57-0045__main__d4e8523&quot;/&gt; advanced and &lt;del next=&quot;#c57-0045.02&quot; rend=&quot;strikethrough&quot; xml:id=&quot;c57-0045__main__d4e8532&quot;&gt;it was now about a&lt;/del&gt; </rdg>
 		</rdgGrp>
-		<rdgGrp n="['myself']">
-			<rdg wit="f1818">myself </rdg>
-			<rdg wit="f1823">myself </rdg>
-			<rdg wit="fThomas">myself </rdg>
-			<rdg wit="f1831">myself </rdg>
-		</rdgGrp>
-	</app>
-	<app>
-		<rdgGrp n="['utterly', 'unworthy', 'of']">
-			<rdg wit="f1818">utterly unworthy of </rdg>
-			<rdg wit="f1823">utterly unworthy of </rdg>
-			<rdg wit="fThomas">utterly unworthy of </rdg>
-			<rdg wit="f1831">utterly unworthy of </rdg>
-			<rdg wit="fMS">utterly unworthy &lt;lb n=&quot;c57-0044__main__26&quot;/&gt;of </rdg>
-		</rdgGrp>
-	</app>
-	<app>
-		<rdgGrp n="['it', '', '', 'chap. 7', '', 'the', '', '&lt;del&gt;season&lt;/del&gt;']">
-			<rdg wit="fMS">it &lt;lb n=&quot;c57-0045__main__1&quot;/&gt; &lt;milestone spanTo=&quot;#c57-0045.06&quot; unit=&quot;tei:head&quot;/&gt; &lt;longToken&gt;Chap. 7&lt;/longToken&gt; &lt;shi rend=&quot;sup&quot;&gt;&lt;/shi&gt; &lt;anchor xml:id=&quot;c57-0045.06&quot;/&gt;&lt;lb n=&quot;c57-0045__main__2&quot;/&gt;The &lt;mod sID=&quot;c57-0045__main__d4e8523&quot;/&gt; &lt;del rend=&quot;strikethrough&quot; xml:id=&quot;c57-0045__main__d4e8525&quot;&gt;season&lt;/del&gt; </rdg>
-		</rdgGrp>
-		<rdgGrp n="['it.', '&lt;p-end/&gt;', '&lt;p-start/&gt;', '&quot;the']">
-			<rdg wit="f1818">it. &lt;p eID=&quot;novel1_letter4_chapter14_div4_div15_p12&quot;/&gt; &lt;p sID=&quot;novel1_letter4_chapter14_div4_div15_p13&quot;/&gt; “The </rdg>
-			<rdg wit="f1823">it. &lt;p eID=&quot;novel1_letter4_chapter14_div4_div15_p12&quot;/&gt; &lt;p sID=&quot;novel1_letter4_chapter14_div4_div15_p13&quot;/&gt; “The </rdg>
-			<rdg wit="fThomas">it. &lt;p eID=&quot;novel1_letter4_chapter14_div4_div15_p11&quot;/&gt; &lt;p sID=&quot;novel1_letter4_chapter14_div4_div15_p12&quot;/&gt; “The </rdg>
-			<rdg wit="f1831">it. &lt;p eID=&quot;novel1_letter4_chapter15_div4_div15_p12&quot;/&gt; &lt;p sID=&quot;novel1_letter4_chapter15_div4_div15_p13&quot;/&gt; “The </rdg>
-		</rdgGrp>
-	</app>
-	<app>
-		<rdgGrp n="['winter']">
-			<rdg wit="f1818">winter </rdg>
-			<rdg wit="f1823">winter </rdg>
-			<rdg wit="fThomas">winter </rdg>
-			<rdg wit="f1831">winter </rdg>
-			<rdg wit="fMS">&lt;sga-add place=&quot;superlinear&quot; sID=&quot;c57-0045__main__d4e8528&quot;/&gt;winter </rdg>
-		</rdgGrp>
-	</app>
-	<app>
-		<rdgGrp n="['', 'advanced', 'and', '&lt;del&gt;it was now about a&lt;/del&gt;']">
-			<rdg wit="fMS">&lt;sga-add eID=&quot;c57-0045__main__d4e8528&quot;/&gt;&lt;mod eID=&quot;c57-0045__main__d4e8523&quot;/&gt; advanced and &lt;del next=&quot;#c57-0045.02&quot; rend=&quot;strikethrough&quot; xml:id=&quot;c57-0045__main__d4e8532&quot;&gt;it was now about a&lt;/del&gt; </rdg>
-		</rdgGrp>
-		<rdgGrp n="['advanced,']">
-			<rdg wit="f1818">advanced, </rdg>
-			<rdg wit="f1823">advanced, </rdg>
-			<rdg wit="fThomas">advanced, </rdg>
-			<rdg wit="f1831">advanced, </rdg>
+		<rdgGrp n="['myself', 'utterly unworthy of it.&lt;p-end/&gt;', '&lt;p-start/&gt;&quot;the winter', 'advanced,']">
+			<rdg wit="f1818">myself &lt;longToken&gt;utterly unworthy of it.&lt;p eID=&quot;novel1_letter4_chapter14_div4_div15_p12&quot;/&gt;&lt;/longToken&gt; &lt;longToken&gt;&lt;p sID=&quot;novel1_letter4_chapter14_div4_div15_p13&quot;/&gt;“The winter&lt;/longToken&gt; advanced, </rdg>
+			<rdg wit="f1823">myself &lt;longToken&gt;utterly unworthy of it.&lt;p eID=&quot;novel1_letter4_chapter14_div4_div15_p12&quot;/&gt;&lt;/longToken&gt; &lt;longToken&gt;&lt;p sID=&quot;novel1_letter4_chapter14_div4_div15_p13&quot;/&gt;“The winter&lt;/longToken&gt; advanced, </rdg>
+			<rdg wit="fThomas">myself &lt;longToken&gt;utterly unworthy of it.&lt;p eID=&quot;novel1_letter4_chapter14_div4_div15_p11&quot;/&gt;&lt;/longToken&gt; &lt;longToken&gt;&lt;p sID=&quot;novel1_letter4_chapter14_div4_div15_p12&quot;/&gt;“The winter&lt;/longToken&gt; advanced, </rdg>
+			<rdg wit="f1831">myself &lt;longToken&gt;utterly unworthy of it.&lt;p eID=&quot;novel1_letter4_chapter15_div4_div15_p12&quot;/&gt;&lt;/longToken&gt; &lt;longToken&gt;&lt;p sID=&quot;novel1_letter4_chapter15_div4_div15_p13&quot;/&gt;“The winter&lt;/longToken&gt; advanced, </rdg>
 		</rdgGrp>
 	</app>
 	<app>
@@ -7290,7 +7261,7 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['', '&lt;del&gt;year&lt;/del&gt;', '', '']">
+		<rdgGrp n="['', '&lt;del&gt;year&lt;/del&gt;', '', '^']">
 			<rdg wit="fMS">&lt;sga-add eID=&quot;c57-0045__main__d4e8535&quot;/&gt;&lt;lb n=&quot;c57-0045__main__3&quot;/&gt; &lt;del rend=&quot;strikethrough&quot; xml:id=&quot;c57-0045__main__d4e8540&quot;&gt;year&lt;/del&gt; &lt;sga-add place=&quot;sublinear&quot; sID=&quot;c57-0045__main__d4e8543&quot;/&gt; &lt;metamark function=&quot;insert&quot;&gt;^&lt;/metamark&gt; </rdg>
 		</rdgGrp>
 	</app>
@@ -7332,7 +7303,7 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['attention', '', '']">
+		<rdgGrp n="['attention', '', '^']">
 			<rdg wit="fMS">attention &lt;mod sID=&quot;c57-0045__main__d4e8568&quot;/&gt;&lt;sga-add place=&quot;sublinear&quot; sID=&quot;c57-0045__main__d4e8570&quot;/&gt; &lt;metamark function=&quot;insert&quot;&gt;^&lt;/metamark&gt; </rdg>
 		</rdgGrp>
 		<rdgGrp n="['attention,']">
@@ -7947,7 +7918,7 @@
 			<rdg wit="fThomas">airs, </rdg>
 			<rdg wit="f1831">airs, </rdg>
 		</rdgGrp>
-		<rdgGrp n="['airs:', '&lt;del&gt;that i had seldom&lt;/del&gt;', '', '']">
+		<rdgGrp n="['airs:', '&lt;del&gt;that i had seldom&lt;/del&gt;', '', '^']">
 			<rdg wit="fMS">&lt;lb n=&quot;c57-0045__main__29&quot;/&gt;airs:&lt;mod sID=&quot;c57-0045__main__d4e8708&quot;/&gt; &lt;del rend=&quot;strikethrough&quot; xml:id=&quot;c57-0045__main__d4e8710&quot;&gt;that I had seldom&lt;/del&gt; &lt;sga-add place=&quot;sublinear&quot; sID=&quot;c57-0045__main__d4e8713&quot;/&gt; &lt;metamark function=&quot;insert&quot;&gt;^&lt;/metamark&gt; </rdg>
 		</rdgGrp>
 	</app>
@@ -8135,7 +8106,7 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['', '&lt;del&gt;was to&lt;/del&gt;', '', '']">
+		<rdgGrp n="['', '&lt;del&gt;was to&lt;/del&gt;', '', '^']">
 			<rdg wit="fMS">&lt;mod sID=&quot;c57-0046__main__d4e8759&quot;/&gt; &lt;del rend=&quot;strikethrough&quot; xml:id=&quot;c57-0046__main__d4e8761&quot;&gt;was to&lt;/del&gt; &lt;sga-add place=&quot;sublinear&quot; sID=&quot;c57-0046__main__d4e8764&quot;/&gt; &lt;metamark function=&quot;insert&quot;&gt;^&lt;/metamark&gt; </rdg>
 		</rdgGrp>
 	</app>
@@ -8375,7 +8346,7 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['firm', '', '&lt;mdel&gt; &lt;/mdel&gt;', 'n', '', 'ess', '', '']">
+		<rdgGrp n="['firm', '', '&lt;mdel&gt; &lt;/mdel&gt;', 'n', '', 'ess', '', '^']">
 			<rdg wit="fMS">firm &lt;mod sID=&quot;c57-0046__main__d4e8833&quot;/&gt; &lt;mdel&gt; &lt;/mdel&gt; &lt;sga-add place=&quot;intralinear&quot; sID=&quot;c57-0046__main__d4e8840&quot;/&gt;n &lt;sga-add eID=&quot;c57-0046__main__d4e8840&quot;/&gt;&lt;mod eID=&quot;c57-0046__main__d4e8833&quot;/&gt; ess &lt;mod sID=&quot;c57-0046__main__d4e8844&quot;/&gt;&lt;sga-add place=&quot;sublinear&quot; sID=&quot;c57-0046__main__d4e8846&quot;/&gt; &lt;metamark function=&quot;insert&quot;&gt;^&lt;/metamark&gt; </rdg>
 		</rdgGrp>
 		<rdgGrp n="['firmness']">
@@ -8745,7 +8716,7 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['', 'and', '', '']">
+		<rdgGrp n="['', 'and', '', '^']">
 			<rdg wit="fMS">&lt;sga-add eID=&quot;c57-0046__main__d4e8920&quot;/&gt;&lt;mod eID=&quot;c57-0046__main__d4e8915&quot;/&gt; and &lt;mod sID=&quot;c57-0046__main__d4e8924&quot;/&gt;&lt;sga-add place=&quot;sublinear&quot; sID=&quot;c57-0046__main__d4e8926&quot;/&gt; &lt;metamark function=&quot;insert&quot;&gt;^&lt;/metamark&gt; </rdg>
 		</rdgGrp>
 		<rdgGrp n="['and,']">
@@ -8973,7 +8944,7 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['', '']">
+		<rdgGrp n="['', '^']">
 			<rdg wit="fMS">&lt;mod sID=&quot;c57-0047__main__d4e8974&quot;/&gt;&lt;sga-add place=&quot;sublinear&quot; sID=&quot;c57-0047__main__d4e8976&quot;/&gt; &lt;metamark function=&quot;insert&quot;&gt;^&lt;/metamark&gt; </rdg>
 		</rdgGrp>
 	</app>
@@ -9055,7 +9026,7 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['', '&lt;del&gt;began&lt;/del&gt;', '', '']">
+		<rdgGrp n="['', '&lt;del&gt;began&lt;/del&gt;', '', '^']">
 			<rdg wit="fMS">&lt;mod sID=&quot;c57-0047__main__d4e9009&quot;/&gt; &lt;del rend=&quot;strikethrough&quot; xml:id=&quot;c57-0047__main__d4e9011&quot;&gt;began&lt;/del&gt; &lt;sga-add place=&quot;sublinear&quot; sID=&quot;c57-0047__main__d4e9014&quot;/&gt; &lt;metamark function=&quot;insert&quot;&gt;^&lt;/metamark&gt; </rdg>
 		</rdgGrp>
 	</app>
@@ -9089,7 +9060,7 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['language', 'st', '', '', 'r', '', 'anger,']">
+		<rdgGrp n="['language', 'st', '', '^', 'r', '', 'anger,']">
 			<rdg wit="fMS">language St &lt;mod sID=&quot;c57-0047__main__d4e9027&quot;/&gt;&lt;sga-add place=&quot;sublinear&quot; sID=&quot;c57-0047__main__d4e9029&quot;/&gt; &lt;metamark function=&quot;insert&quot;&gt;^&lt;/metamark&gt; &lt;sga-add eID=&quot;c57-0047__main__d4e9029&quot;/&gt;&lt;sga-add place=&quot;superlinear&quot; sID=&quot;c57-0047__main__d4e9035&quot;/&gt;r &lt;sga-add eID=&quot;c57-0047__main__d4e9035&quot;/&gt;&lt;mod eID=&quot;c57-0047__main__d4e9027&quot;/&gt; anger, </rdg>
 		</rdgGrp>
 		<rdgGrp n="['language,', 'stranger,']">
@@ -9270,23 +9241,20 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['am', 'an']">
-			<rdg wit="f1818">am an </rdg>
-			<rdg wit="f1823">am an </rdg>
-			<rdg wit="fThomas">am an </rdg>
-			<rdg wit="f1831">am an </rdg>
-			<rdg wit="fMS">am an </rdg>
+		<rdgGrp n="['am', 'an', 'unfortunate']">
+			<rdg wit="f1818">am an unfortunate </rdg>
+			<rdg wit="f1823">am an unfortunate </rdg>
+			<rdg wit="fThomas">am an unfortunate </rdg>
+			<rdg wit="f1831">am an unfortunate </rdg>
+			<rdg wit="fMS">am an &lt;w ana=&quot;start&quot;/&gt;unfortu&lt;lb n=&quot;c57-0047__main__19&quot;/&gt;nate&lt;w ana=&quot;end&quot;/&gt;&amp; </rdg>
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['unfortunate and']">
-			<rdg wit="fMS">&lt;w ana=&quot;start&quot;/&gt;unfortu&lt;lb n=&quot;c57-0047__main__19&quot;/&gt;nate&lt;w ana=&quot;end&quot;/&gt;&amp; </rdg>
-		</rdgGrp>
-		<rdgGrp n="['unfortunate', 'and']">
-			<rdg wit="f1818">unfortunate and </rdg>
-			<rdg wit="f1823">unfortunate and </rdg>
-			<rdg wit="fThomas">unfortunate and </rdg>
-			<rdg wit="f1831">unfortunate and </rdg>
+		<rdgGrp n="['and']">
+			<rdg wit="f1818">and </rdg>
+			<rdg wit="f1823">and </rdg>
+			<rdg wit="fThomas">and </rdg>
+			<rdg wit="f1831">and </rdg>
 		</rdgGrp>
 	</app>
 	<app>
@@ -9339,7 +9307,7 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['', '&lt;mdel&gt;–&lt;/mdel&gt;', '', '', 'on', 'earth', '–', '', 'the', 'se', '', '&lt;del&gt;kind&lt;/del&gt;', '', '']">
+		<rdgGrp n="['', '&lt;mdel&gt;–&lt;/mdel&gt;', '', '^', 'on', 'earth', '–', '', 'the', 'se', '', '&lt;del&gt;kind&lt;/del&gt;', '', '^']">
 			<rdg wit="fMS">&lt;mod sID=&quot;c57-0047__main__d4e9094&quot;/&gt; &lt;mdel&gt;–&lt;/mdel&gt; &lt;sga-add place=&quot;intralinear&quot; sID=&quot;c57-0047__main__d4e9098&quot;/&gt; &lt;metamark function=&quot;insert&quot;&gt;^&lt;/metamark&gt; &lt;sga-add eID=&quot;c57-0047__main__d4e9098&quot;/&gt;&lt;sga-add place=&quot;superlinear&quot; sID=&quot;c57-0047__main__d4e9104&quot;/&gt;on earth – &lt;sga-add eID=&quot;c57-0047__main__d4e9104&quot;/&gt;&lt;mod eID=&quot;c57-0047__main__d4e9094&quot;/&gt; The &lt;mod sID=&quot;c57-0047__main__d4e9108&quot;/&gt;&lt;sga-add place=&quot;intralinear&quot; sID=&quot;c57-0047__main__d4e9110&quot;/&gt;se &lt;sga-add eID=&quot;c57-0047__main__d4e9110&quot;/&gt; &lt;del rend=&quot;strikethrough&quot; xml:id=&quot;c57-0047__main__d4e9113&quot;&gt;kind&lt;/del&gt; &lt;sga-add place=&quot;sublinear&quot; sID=&quot;c57-0047__main__d4e9116&quot;/&gt; &lt;metamark function=&quot;insert&quot;&gt;^&lt;/metamark&gt; </rdg>
 		</rdgGrp>
 		<rdgGrp n="['upon', 'earth.', 'these']">
@@ -9479,7 +9447,7 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['unfortunate :']">
+		<rdgGrp n="['unfortunate']">
 			<rdg wit="fMS">&lt;w ana=&quot;start&quot;/&gt;unfortu&lt;lb n=&quot;c57-0047__main__27&quot;/&gt;nate&lt;w ana=&quot;end&quot;/&gt;: </rdg>
 		</rdgGrp>
 		<rdgGrp n="['unfortunate;']">
@@ -9499,7 +9467,7 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['', '']">
+		<rdgGrp n="['', '^']">
 			<rdg wit="fMS">&lt;mod sID=&quot;c57-0047__main__d4e9150&quot;/&gt;&lt;sga-add place=&quot;sublinear&quot; sID=&quot;c57-0047__main__d4e9152&quot;/&gt; &lt;metamark function=&quot;insert&quot;&gt;^&lt;/metamark&gt; </rdg>
 		</rdgGrp>
 	</app>
@@ -9898,7 +9866,7 @@
 			<rdg wit="fThomas">“‘I </rdg>
 			<rdg wit="f1831">“‘I </rdg>
 		</rdgGrp>
-		<rdgGrp n="['', '&lt;del&gt;this is&lt;/del&gt;', '&lt;del&gt;that is&lt;/del&gt;', '', '&lt;del&gt;the task&lt;/del&gt;', '&lt;del&gt;that&lt;/del&gt;', '', '&lt;del&gt;what&lt;/del&gt;', '', 'i', '', '&lt;mdel&gt;am&lt;/mdel&gt;', '&lt;del&gt; shall  &lt;/del&gt;', '', '&lt;del&gt;goin&lt;/del&gt;', '', '']">
+		<rdgGrp n="['', '&lt;del&gt;this is&lt;/del&gt;', '&lt;del&gt;that is&lt;/del&gt;', '', '&lt;del&gt;the task&lt;/del&gt;', '&lt;del&gt;that&lt;/del&gt;', '', '&lt;del&gt;what&lt;/del&gt;', '', 'i', '', '&lt;mdel&gt;am&lt;/mdel&gt;', '&lt;del&gt; shall  &lt;/del&gt;', '', '&lt;del&gt;goin&lt;/del&gt;', '', '^']">
 			<rdg wit="fMS">&lt;lb n=&quot;c57-0048__main__14&quot;/&gt;&lt;mod sID=&quot;c57-0048__main__d4e9266&quot;/&gt; &lt;del rend=&quot;strikethrough&quot; xml:id=&quot;c57-0048__main__d4e9268&quot;&gt;This is&lt;/del&gt; &lt;del rend=&quot;strikethrough&quot; xml:id=&quot;c57-0048__main__d4e9271&quot;&gt;That is&lt;/del&gt; &lt;sga-add place=&quot;superlinear&quot; sID=&quot;c57-0048__main__d4e9274&quot;/&gt; &lt;del rend=&quot;strikethrough&quot; xml:id=&quot;c57-0048__main__d4e9276&quot;&gt;the task&lt;/del&gt; &lt;del rend=&quot;strikethrough&quot; xml:id=&quot;c57-0048__main__d4e9279&quot;&gt;that&lt;/del&gt; &lt;sga-add eID=&quot;c57-0048__main__d4e9274&quot;/&gt; &lt;del rend=&quot;strikethrough&quot; xml:id=&quot;c57-0048__main__d4e9283&quot;&gt;what&lt;/del&gt; &lt;mod eID=&quot;c57-0048__main__d4e9266&quot;/&gt; I &lt;mod sID=&quot;c57-0048__main__d4e9288&quot;/&gt;&lt;mod sID=&quot;c57-0048__main__d4e9290&quot;/&gt; &lt;mdel&gt;am&lt;/mdel&gt; &lt;del rend=&quot;strikethrough&quot; xml:id=&quot;c57-0048__main__d4e9294&quot;&gt; &lt;sga-add place=&quot;superlinear&quot; sID=&quot;c57-0048__main__d4e9296&quot;/&gt;shall &lt;sga-add eID=&quot;c57-0048__main__d4e9296&quot;/&gt; &lt;/del&gt; &lt;mod eID=&quot;c57-0048__main__d4e9290&quot;/&gt;&lt;mod sID=&quot;c57-0048__main__d4e9301&quot;/&gt; &lt;del rend=&quot;strikethrough&quot; xml:id=&quot;c57-0048__main__d4e9303&quot;&gt;goin&lt;/del&gt; &lt;sga-add place=&quot;sublinear&quot; sID=&quot;c57-0048__main__d4e9306&quot;/&gt; &lt;metamark function=&quot;insert&quot;&gt;^&lt;/metamark&gt; </rdg>
 		</rdgGrp>
 	</app>
@@ -9986,7 +9954,7 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['have', '', '', '', '&lt;del&gt; for many months  &lt;/del&gt;', '']">
+		<rdgGrp n="['have', '', '^', '', '&lt;del&gt; for many months  &lt;/del&gt;', '']">
 			<rdg wit="fMS">have &lt;mod sID=&quot;c57-0048__main__d4e9351&quot;/&gt;&lt;sga-add place=&quot;sublinear&quot; sID=&quot;c57-0048__main__d4e9353&quot;/&gt; &lt;metamark function=&quot;insert&quot;&gt;^&lt;/metamark&gt; &lt;sga-add eID=&quot;c57-0048__main__d4e9353&quot;/&gt; &lt;del rend=&quot;strikethrough&quot; xml:id=&quot;c57-0048__main__d4e9359&quot;&gt; &lt;sga-add place=&quot;superlinear&quot; sID=&quot;c57-0048__main__d4e9361&quot;/&gt;for many months &lt;sga-add eID=&quot;c57-0048__main__d4e9361&quot;/&gt; &lt;/del&gt; &lt;mod eID=&quot;c57-0048__main__d4e9351&quot;/&gt; </rdg>
 		</rdgGrp>
 		<rdgGrp n="['have,']">
@@ -10132,7 +10100,7 @@
 			<rdg wit="fThomas">“‘Near </rdg>
 			<rdg wit="f1831">“‘Near </rdg>
 		</rdgGrp>
-		<rdgGrp n="['near', 'here.', '', '&lt;del&gt;i replied&lt;/del&gt;', '', '', 'on']">
+		<rdgGrp n="['near', 'here.', '', '&lt;del&gt;i replied&lt;/del&gt;', '', '^', 'on']">
 			<rdg wit="fMS">&lt;lb n=&quot;c57-0048__main__25&quot;/&gt;Near here. &lt;mod sID=&quot;c57-0048__main__d4e9398&quot;/&gt; &lt;del rend=&quot;strikethrough&quot; xml:id=&quot;c57-0048__main__d4e9400&quot;&gt;I replied&lt;/del&gt; &lt;sga-add place=&quot;sublinear&quot; sID=&quot;c57-0048__main__d4e9403&quot;/&gt; &lt;metamark function=&quot;insert&quot;&gt;^&lt;/metamark&gt; &lt;sga-add eID=&quot;c57-0048__main__d4e9403&quot;/&gt;&lt;sga-add hand=&quot;#pbs&quot; place=&quot;superlinear&quot; sID=&quot;c57-0048__main__d4e9409&quot;/&gt;on </rdg>
 		</rdgGrp>
 	</app>
@@ -10146,7 +10114,7 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['spot.', '', '', '']">
+		<rdgGrp n="['spot.', '', '[', '']">
 			<rdg wit="fMS">spot. &lt;sga-add eID=&quot;c57-0048__main__d4e9412&quot;/&gt;&lt;mod eID=&quot;c57-0048__main__d4e9398&quot;/&gt;&lt;sga-add place=&quot;intralinear&quot; sID=&quot;c57-0048__main__d4e9416&quot;/&gt; &lt;metamark function=&quot;paragraph&quot;&gt;[&lt;/metamark&gt; &lt;sga-add eID=&quot;c57-0048__main__d4e9416&quot;/&gt; </rdg>
 		</rdgGrp>
 		<rdgGrp n="['spot.’']">
@@ -10459,7 +10427,7 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['', '']">
+		<rdgGrp n="['', '^']">
 			<rdg wit="fMS">&lt;mod sID=&quot;c57-0049__main__d4e9501&quot;/&gt;&lt;sga-add place=&quot;sublinear&quot; sID=&quot;c57-0049__main__d4e9503&quot;/&gt; &lt;metamark function=&quot;insert&quot;&gt;^&lt;/metamark&gt; </rdg>
 		</rdgGrp>
 	</app>
@@ -10473,8 +10441,8 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['', 'offer', '', '', '', '&lt;metamark&gt;&lt;/metamark&gt;']">
-			<rdg wit="fMS">&lt;sga-add eID=&quot;c57-0049__main__d4e9509&quot;/&gt;&lt;mod eID=&quot;c57-0049__main__d4e9501&quot;/&gt; offer &lt;lb n=&quot;c57-0049__main__6&quot;/&gt;&lt;sga-add place=&quot;superlinear&quot; sID=&quot;c57-0049__main__d4e9515&quot;/&gt; &lt;metamark function=&quot;displacement&quot; xml:id=&quot;c57-0049.02&quot;&gt;X&lt;/metamark&gt; &lt;lb n=&quot;c57-0049__left_margin__1&quot;/&gt; &lt;metamark&gt;&lt;/metamark&gt; </rdg>
+		<rdgGrp n="['', 'offer', '', 'x', '', '']">
+			<rdg wit="fMS">&lt;sga-add eID=&quot;c57-0049__main__d4e9509&quot;/&gt;&lt;mod eID=&quot;c57-0049__main__d4e9501&quot;/&gt; offer &lt;lb n=&quot;c57-0049__main__6&quot;/&gt;&lt;sga-add place=&quot;superlinear&quot; sID=&quot;c57-0049__main__d4e9515&quot;/&gt; &lt;metamark function=&quot;displacement&quot; xml:id=&quot;c57-0049.02&quot;&gt;X&lt;/metamark&gt; &lt;lb n=&quot;c57-0049__left_margin__1&quot;/&gt; &lt;metamark&gt; &lt;/metamark&gt; </rdg>
 		</rdgGrp>
 		<rdgGrp n="['offer.']">
 			<rdg wit="f1818">offer. </rdg>
@@ -10655,7 +10623,7 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['', '&lt;del&gt;reform&lt;/del&gt;', '', '']">
+		<rdgGrp n="['', '&lt;del&gt;reform&lt;/del&gt;', '', '^']">
 			<rdg wit="fMS">&lt;mod sID=&quot;c57-0049__main__d4e9573&quot;/&gt; &lt;del rend=&quot;strikethrough&quot; xml:id=&quot;c57-0049__main__d4e9575&quot;&gt;reform&lt;/del&gt; &lt;sga-add place=&quot;sublinear&quot; sID=&quot;c57-0049__main__d4e9578&quot;/&gt; &lt;metamark function=&quot;insert&quot;&gt;^&lt;/metamark&gt; </rdg>
 		</rdgGrp>
 	</app>
@@ -10683,7 +10651,7 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['', '']">
+		<rdgGrp n="['', '^']">
 			<rdg wit="fMS">&lt;mod sID=&quot;c57-0049__main__d4e9588&quot;/&gt;&lt;sga-add place=&quot;sublinear&quot; sID=&quot;c57-0049__main__d4e9590&quot;/&gt; &lt;metamark function=&quot;insert&quot;&gt;^&lt;/metamark&gt; </rdg>
 		</rdgGrp>
 	</app>
@@ -11039,7 +11007,7 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['', '', 'of', '']">
+		<rdgGrp n="['', '^', 'of', '']">
 			<rdg wit="fMS">&lt;mod sID=&quot;c57-0049__main__d4e9662&quot;/&gt;&lt;sga-add place=&quot;sublinear&quot; sID=&quot;c57-0049__main__d4e9664&quot;/&gt; &lt;metamark function=&quot;insert&quot;&gt;^&lt;/metamark&gt; &lt;sga-add eID=&quot;c57-0049__main__d4e9664&quot;/&gt;&lt;sga-add place=&quot;superlinear&quot; sID=&quot;c57-0049__main__d4e9670&quot;/&gt;of &lt;sga-add eID=&quot;c57-0049__main__d4e9670&quot;/&gt;&lt;mod eID=&quot;c57-0049__main__d4e9662&quot;/&gt; </rdg>
 		</rdgGrp>
 		<rdgGrp n="['of,']">
@@ -11059,7 +11027,7 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['', '']">
+		<rdgGrp n="['', '^']">
 			<rdg wit="fMS">&lt;mod sID=&quot;c57-0049__main__d4e9677&quot;/&gt;&lt;sga-add place=&quot;sublinear&quot; sID=&quot;c57-0049__main__d4e9679&quot;/&gt; &lt;metamark function=&quot;insert&quot;&gt;^&lt;/metamark&gt; </rdg>
 		</rdgGrp>
 	</app>
@@ -11360,7 +11328,7 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['des', '', '&lt;mdel&gt;a&lt;/mdel&gt;', '', '', 'e', '', 'rt']">
+		<rdgGrp n="['des', '', '&lt;mdel&gt;a&lt;/mdel&gt;', '', '^', 'e', '', 'rt']">
 			<rdg wit="fMS">&lt;lb n=&quot;c57-0050__main__8&quot;/&gt;des &lt;mod sID=&quot;c57-0050__main__d4e9764&quot;/&gt; &lt;mdel&gt;a&lt;/mdel&gt; &lt;sga-add place=&quot;sublinear&quot; sID=&quot;c57-0050__main__d4e9768&quot;/&gt; &lt;metamark function=&quot;insert&quot;&gt;^&lt;/metamark&gt; &lt;sga-add eID=&quot;c57-0050__main__d4e9768&quot;/&gt;&lt;sga-add place=&quot;superlinear&quot; sID=&quot;c57-0050__main__d4e9774&quot;/&gt;e &lt;sga-add eID=&quot;c57-0050__main__d4e9774&quot;/&gt;&lt;mod eID=&quot;c57-0050__main__d4e9764&quot;/&gt; rt </rdg>
 		</rdgGrp>
 		<rdgGrp n="['desert']">
@@ -11600,7 +11568,7 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['', '', 'me', '', '–agatha', 'fainted']">
+		<rdgGrp n="['', '^', 'me', '', '–agatha', 'fainted']">
 			<rdg wit="fMS">&lt;mod sID=&quot;c57-0050__main__d4e9845&quot;/&gt;&lt;sga-add place=&quot;sublinear&quot; sID=&quot;c57-0050__main__d4e9847&quot;/&gt; &lt;metamark function=&quot;insert&quot;&gt;^&lt;/metamark&gt; &lt;sga-add eID=&quot;c57-0050__main__d4e9847&quot;/&gt;&lt;sga-add place=&quot;superlinear&quot; sID=&quot;c57-0050__main__d4e9853&quot;/&gt;me &lt;sga-add eID=&quot;c57-0050__main__d4e9853&quot;/&gt;&lt;mod eID=&quot;c57-0050__main__d4e9845&quot;/&gt; –Agatha &lt;lb n=&quot;c57-0050__main__16&quot;/&gt;fainted </rdg>
 		</rdgGrp>
 		<rdgGrp n="['me?', 'agatha', 'fainted;']">
@@ -11931,4 +11899,4 @@
 		</rdgGrp>
 	</app>
 </cx:apparatus>
-<!-- 2023-08-10 04:49:47.685998 -->
+<!-- 2023-08-14 18:52:28.028236 -->

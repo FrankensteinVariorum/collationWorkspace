@@ -28,10 +28,9 @@ regexBlankLine = re.compile(r'\n{2,}')
 regexLeadingBlankLine = re.compile(r'^\n')
 regexPageBreak = re.compile(r'<pb.+?/>', re.DOTALL)
 RE_MARKUP = re.compile(r'<.+?>', re.DOTALL)
-RE_WORD_START = re.compile(r'<w ana="start"/>(.+)<lb[^<>]+>')
-RE_WORD_END = re.compile(r'<w ana="end"/>')
+RE_WORD = re.compile(r'<w ana="start"/>.+?<w ana="end"/>')
 # RE_HI_START = re.compile(r'<hi\ssID.+?/>')
-# RE_HI_END = re.compile(r'<hi\seID.+?/>')
+# RE_HI_END = re.compile('<hi\seID.+?/>')
 RE_PARASTART = re.compile(r'<p\ssID.+?/>')
 RE_PARAEND = re.compile(r'<p\seID.+?/>')
 RE_INCLUDE = re.compile(r'<include.*?/>')
@@ -50,11 +49,10 @@ RE_LT_AMP = re.compile(r'&amp;')
 # RE_NOTE = re.compile(r'<note[^<]*?>.+?</note>', re.MULTILINE | re.DOTALL)
 # RE_DEL = re.compile(r'<del[^<\-]*?>.+?</del>', re.MULTILINE | re.DOTALL)
 RE_ADDSTART = re.compile(r'<add[^<>]*?>')
-RE_ADDEND = re.compile(r'</add>')
-RE_NOTE_START = re.compile(r'<note[^<>]+?sID[^<>]+?>')
-RE_NOTE_END = re.compile(r'<note[^<>]+?eID[^<>]+?>')
+RE_ADDEND = re.compile(r'</add[^<>]*?>')
+RE_NOTE_START = re.compile(r'<note[^<>]+?xml:id[^<>]+?>')
 RE_DELSTART = re.compile(r'<del[^<>]*?>')
-RE_DELEND = re.compile(r'</del>')
+RE_DELEND = re.compile(r'</del[^<>]*?>')
 # 2023-05-17 ebb with nlh: We have altered the delSpans thus:
 # <delSpan spanTo="id"/> as a start marker and a <delSpan anchor="id"/> in the pre-processed msColl for collation.
 # Before the endpoints were <anchor> elements with only xml:ids,
@@ -71,7 +69,7 @@ RE_MDEL = re.compile(r'<mdel[^<>]*?>[^<>]+?</mdel>')
 # RE_SHI = re.compile(r'<shi.*?>.+?</shi>')
 RE_SHI_START = re.compile(r'<shi[^<>]*?>')
 RE_SHI_END = re.compile(r'</shi>')
-RE_METAMARK = re.compile(r'<metamark[^<>]*?>.+?</metamark>')
+RE_METAMARK = re.compile(r'<metamark.*?>(.*?)</metamark>')
 RE_HI = re.compile(r'<hi\s.+?/>')
 RE_HI_START = re.compile(r'<hi\s*sID.+?>')
 RE_HI_END = re.compile(r'<hi\s*eID.+?>')
@@ -126,8 +124,8 @@ RE_ZONE = re.compile(r'<zone.+?>') #Added 2023-07-30 ebb
 ignore = ['sourceDoc', 'xml', 'comment', 'include', 'addSpan', 'handShift', 'damage', 'unclear', 'restore', 'surface', 'zone', 'retrace']
 blockEmpty = ['p', 'div', 'milestone', 'lg', 'l', 'cit', 'quote', 'bibl']
 inlineEmpty = ['mod', 'pb', 'sga-add', 'delSpan', 'anchor', 'lb', 'gap', 'hi', 'w', 'ab']
-inlineContent = ['del-INNER', 'add-INNER', 'metamark', 'shi']
-inlineVariationEvent = ['head', 'del', 'mdel', 'add', 'note', 'longToken']
+inlineContent = ['del-INNER', 'add-INNER', 'shi']
+inlineVariationEvent = ['head', 'del', 'mdel', 'add', 'note', 'longToken', 'metamark']
 
 
 # 10-23-2017 ebb rv:
@@ -217,7 +215,7 @@ def normalize(inputText):
     # These need to run in sequence: the order of replacements matters.
     # The lower() at the end lowercases all the normalized strings to simplify the comparison.
 
-    normalized = RE_METAMARK.sub('', inputText)
+    normalized = RE_METAMARK.sub('\\1', inputText)
     normalized = RE_MOD.sub('', normalized)
     # 2023-03-16 How about we actually read it this time? <mod> is in the ignore list like anchor, etc, so why are we presuming it's being read?
     normalized = RE_GAP.sub('', normalized)
@@ -244,17 +242,18 @@ def normalize(inputText):
     normalized = RE_ANCHOR.sub('', normalized)
     normalized = RE_LT_AMP.sub('and', normalized)
     normalized = RE_AMP.sub('and', normalized)
-    normalized = RE_WORD_START.sub(' \\1', normalized)
+    normalized = re.sub(r'(<.*?>)|\s', '', re.search(RE_WORD, normalized).group(0)) if re.search(RE_WORD, normalized) else normalized
+    # 2023-08-14 ebb and yxj: Amending this to match an entire string marked with <w ana="start"/>....<w ana="end"/> and 
+    # to substitute any tags or space characters inside this string for nothing
+    # 2023-07-10 ebb and yxj: We no longer need the `<w ana="start"/>` to appear in the normalized tokens, so we're just replacing with a space.
     # 2023-05-22 ebb and yxj: We must replace WORD_START before the SPACE_LB.
     # WORD_START replacement ensures that the normalized token for <w ana='start'/>...<lb/>...<w ana="end"/>
     # does not get an added space. We need to ensure that these are treated as single word tokens
     # with no space added internally.
-    normalized = RE_WORD_END.sub(' ', normalized)
     normalized = RE_SPACE_LB.sub('\\1 ', normalized)
     normalized = RE_LB.sub('', normalized)
     normalized = RE_ZONE.sub('', normalized)
     normalized = RE_NOTE_START.sub('<note>', normalized)
-    normalized = RE_NOTE_END.sub('</note>', normalized)
     normalized = RE_SGA_ADDSTART.sub('', normalized)
     normalized = RE_SGA_ADDEND.sub('', normalized)
     normalized = RE_ADDSTART.sub('', normalized)
