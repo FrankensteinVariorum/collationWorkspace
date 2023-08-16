@@ -28,7 +28,7 @@ regexBlankLine = re.compile(r'\n{2,}')
 regexLeadingBlankLine = re.compile(r'^\n')
 regexPageBreak = re.compile(r'<pb.+?/>', re.DOTALL)
 RE_MARKUP = re.compile(r'<.+?>', re.DOTALL)
-RE_WORD = re.compile(r'<w ana="start"/>.+?<w ana="end"/>')
+RE_WORD = re.compile(r'<w ana="start"/>(.+?)<w ana="end"/>')
 # RE_HI_START = re.compile(r'<hi\ssID.+?/>')
 # RE_HI_END = re.compile('<hi\seID.+?/>')
 RE_PARASTART = re.compile(r'<p\ssID.+?/>')
@@ -242,10 +242,8 @@ def normalize(inputText):
     normalized = RE_ANCHOR.sub('', normalized)
     normalized = RE_LT_AMP.sub('and', normalized)
     normalized = RE_AMP.sub('and', normalized)
-    normalized = re.sub(r'(<.*?>)|\s', '', re.search(RE_WORD, normalized).group(0)) if re.search(RE_WORD, normalized) else normalized
-    # 2023-08-14 ebb and yxj: Amending this to match an entire string marked with <w ana="start"/>....<w ana="end"/> and 
-    # to substitute any tags or space characters inside this string for nothing
-    # 2023-07-10 ebb and yxj: We no longer need the `<w ana="start"/>` to appear in the normalized tokens, so we're just replacing with a space.
+    normalized = re.sub(RE_WORD, lambda match: match.group(1).replace('(<.*?>)|\s', ''), normalized)
+    # 2023-08-16 ebb and yxj: lambda is brilliant! We use it here to name a variable called match, and define the variable as capturing group 1 in RE_WORD. 
     # 2023-05-22 ebb and yxj: We must replace WORD_START before the SPACE_LB.
     # WORD_START replacement ensures that the normalized token for <w ana='start'/>...<lb/>...<w ana="end"/>
     # does not get an added space. We need to ensure that these are treated as single word tokens
