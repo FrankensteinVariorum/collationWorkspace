@@ -323,12 +323,8 @@
     <sga-add hand="#pbs" place="superlinear" sID="c56-0049__main__d5e10465"/>in the sickness of <sga-add eID="c56-0049__main__d5e10465"/>
    <mod eID="c56-0049__main__d5e10454"/>  fear and I hurried  
 <lb n="c56-0049__main__13"/>on with irregular steps not daring  
-<lb n="c56-0049__main__14"/>to look about me,<milestone spanTo="#c56-0049.01" unit="tei:lg"/>
-   <lb n="c56-0049__main__15"/>"Like one who on a lon 
-<mod sID="c56-0049__main__d5e10478"/>
-   <mdel>s</mdel>
-    <sga-add place="intralinear" sID="c56-0049__main__d5e10482"/>es <sga-add eID="c56-0049__main__d5e10482"/>
-   <mod eID="c56-0049__main__d5e10478"/> ome road<milestone spanTo="#a" unit="tei:l"/>
+<lb n="c56-0049__main__14"/>to look about <longToken>me,</longToken><milestone spanTo="#c56-0049.01" unit="tei:lg"/>
+   <lb n="c56-0049__main__15"/>"Like one who on a <w ana="start"/>lon<mod sID="c56-0049__main__d5e10478"/><mdel>s</mdel><sga-add place="intralinear" sID="c56-0049__main__d5e10482"/>es<sga-add eID="c56-0049__main__d5e10482"/><mod eID="c56-0049__main__d5e10478"/>ome<w ana="end"/> road<milestone spanTo="#a" unit="tei:l"/>
    <lb n="c56-0049__main__16"/>"doth walk in fear and dread 
 <anchor xml:id="a"/>
    <lb n="c56-0049__main__17"/>"and having once turned round  
@@ -338,8 +334,14 @@
       head <lb n="c56-0049__main__20"/>"Because he knows a frightful  
 <lb n="c56-0049__main__21"/>
    <metamark>L</metamark>fiend  
-<lb n="c56-0049__main__22"/>"doth close behind him tread."<metamark>*</metamark>
+<lb n="c56-0049__main__22"/>"doth close behind him tread."<longToken><metamark>*</metamark>
    <anchor xml:id="c56-0049.01"/>
+   <zone type="left_margin" sID="c56-0049__left_margin"/>
+   <metamark>_______________</metamark>
+   <milestone spanTo="#c56-0049.03" unit="tei:note"/>
+   <metamark>*</metamark>Coleridge's "Ancient Mariner." 
+   <anchor xml:id="c56-0049.03"/></longToken>
+   <zone eID="c56-0049__left_margin"/>
    <lb n="c56-0049__main__23"/>Continueing thus, I came at lenght  
 <lb n="c56-0049__main__24"/>
    <mod sID="c56-0049__main__d5e10522"/>
@@ -360,12 +362,7 @@
    <mod eID="c56-0049__main__d5e10549"/>  drew nearer I observed that it  
 <lb n="c56-0049__main__31"/>was the Swiss diligence; it stopped  
 <lb n="c56-0049__main__32"/>just where I was standing, and on<zone eID="c56-0049__main"/>
-   <zone type="left_margin" sID="c56-0049__left_margin"/>
-   <metamark>_______________</metamark>
-   <milestone spanTo="#c56-0049.03" unit="tei:note"/>
-   <metamark>*</metamark>Coleridge's "Ancient Mariner." 
-<anchor xml:id="c56-0049.03"/>
-   <zone eID="c56-0049__left_margin"/>
+   
    <surface eID="ox-ms_abinger_c56-0049"/>
    <surface lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" folio="23v" shelfmark="MS. Abinger c. 56" base="ox-ms_abinger_c56/ox-ms_abinger_c56-0050.xml" id="ox-ms_abinger_c56-0050" sID="ox-ms_abinger_c56-0050"/>
    <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0050.jp2"/>

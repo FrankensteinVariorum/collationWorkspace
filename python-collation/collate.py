@@ -242,7 +242,7 @@ def normalize(inputText):
     normalized = RE_ANCHOR.sub('', normalized)
     normalized = RE_LT_AMP.sub('and', normalized)
     normalized = RE_AMP.sub('and', normalized)
-    normalized = re.sub(RE_WORD, lambda match: match.group(1).replace('(<.*?>)|\s', ''), normalized)
+    normalized = re.sub(RE_WORD, lambda match: re.sub(r'(<.+?>)', '', match.group(1).replace(' ', '')), normalized)
     # 2023-08-16 ebb and yxj: lambda is brilliant! We use it here to name a variable called match, and define the variable as capturing group 1 in RE_WORD. 
     # 2023-05-22 ebb and yxj: We must replace WORD_START before the SPACE_LB.
     # WORD_START replacement ensures that the normalized token for <w ana='start'/>...<lb/>...<w ana="end"/>

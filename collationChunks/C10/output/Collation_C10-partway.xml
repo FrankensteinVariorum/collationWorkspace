@@ -2811,7 +2811,7 @@
 	</app>
 	<app>
 		<rdgGrp n="['me,']">
-			<rdg wit="fMS">me, </rdg>
+			<rdg wit="fMS">&lt;longToken&gt;me,&lt;/longToken&gt; </rdg>
 		</rdgGrp>
 		<rdgGrp n="['me:&lt;p-end/&gt; &lt;p-start/&gt;']">
 			<rdg wit="f1818">&lt;longToken&gt;me:&lt;p eID=&quot;novel1_letter4_chapter4_div4_div4_p7&quot;/&gt; &lt;p sID=&quot;novel1_letter4_chapter4_div4_div4_p8&quot;/&gt;&lt;/longToken&gt; </rdg>
@@ -2824,18 +2824,19 @@
 	</app>
 	<app>
 		<rdgGrp n="['']">
-			<rdg wit="f1818">&lt;cit sID=&quot;novel1_letter4_chapter4_div4_div4_p8_cit1&quot;/&gt; </rdg>
-			<rdg wit="f1823">&lt;cit sID=&quot;novel1_letter4_chapter4_div4_div4_p8_cit1&quot;/&gt; </rdg>
 			<rdg wit="fThomas">&lt;cit sID=&quot;novel1_letter4_chapter4_div4_div4_p8_cit1&quot;/&gt; </rdg>
-			<rdg wit="f1831">&lt;cit sID=&quot;novel1_letter4_chapter5_div4_div5_p8_cit1&quot;/&gt; </rdg>
+		</rdgGrp>
+		<rdgGrp n="['&lt;lg/&gt; &lt;l/&gt;like one who, on a lonely road,&lt;l/&gt; &lt;l/&gt;doth walk in fear and dread,&lt;l/&gt; &lt;l/&gt;and, having once turned round, walks on,&lt;l/&gt; &lt;l/&gt;and turns no more his head;&lt;l/&gt; &lt;l/&gt;because he knows a frightful fiend&lt;l/&gt; &lt;l/&gt;doth close behind him tread*.&lt;l/&gt; &lt;lg/&gt;']">
+			<rdg wit="f1823">&lt;longToken&gt;&lt;cit sID=&quot;novel1_letter4_chapter4_div4_div4_p8_cit1&quot;/&gt;&lt;quote sID=&quot;novel1_letter4_chapter4_div4_div4_p8_cit1_quote1&quot;/&gt; &lt;lg sID=&quot;novel1_letter4_chapter4_div4_div4_p8_cit1_quote1_lg1&quot;/&gt; &lt;l sID=&quot;novel1_letter4_chapter4_div4_div4_p8_cit1_quote1_lg1_l1&quot;/&gt;Like one who, on a lonely road,&lt;l eID=&quot;novel1_letter4_chapter4_div4_div4_p8_cit1_quote1_lg1_l1&quot;/&gt; &lt;l sID=&quot;novel1_letter4_chapter4_div4_div4_p8_cit1_quote1_lg1_l2&quot;/&gt;Doth walk in fear and dread,&lt;l eID=&quot;novel1_letter4_chapter4_div4_div4_p8_cit1_quote1_lg1_l2&quot;/&gt; &lt;l sID=&quot;novel1_letter4_chapter4_div4_div4_p8_cit1_quote1_lg1_l3&quot;/&gt;And, having once turned round, walks on,&lt;l eID=&quot;novel1_letter4_chapter4_div4_div4_p8_cit1_quote1_lg1_l3&quot;/&gt; &lt;l sID=&quot;novel1_letter4_chapter4_div4_div4_p8_cit1_quote1_lg1_l4&quot;/&gt;And turns no more his head;&lt;l eID=&quot;novel1_letter4_chapter4_div4_div4_p8_cit1_quote1_lg1_l4&quot;/&gt; &lt;l sID=&quot;novel1_letter4_chapter4_div4_div4_p8_cit1_quote1_lg1_l5&quot;/&gt;Because he knows a frightful fiend&lt;l eID=&quot;novel1_letter4_chapter4_div4_div4_p8_cit1_quote1_lg1_l5&quot;/&gt; &lt;l sID=&quot;novel1_letter4_chapter4_div4_div4_p8_cit1_quote1_lg1_l6&quot;/&gt;Doth close behind him tread*.&lt;l eID=&quot;novel1_letter4_chapter4_div4_div4_p8_cit1_quote1_lg1_l6&quot;/&gt; &lt;lg eID=&quot;novel1_letter4_chapter4_div4_div4_p8_cit1_quote1_lg1&quot;/&gt; &lt;quote eID=&quot;novel1_letter4_chapter4_div4_div4_p8_cit1_quote1&quot;/&gt;&lt;/longToken&gt; </rdg>
+			<rdg wit="f1831">&lt;longToken&gt;&lt;cit sID=&quot;novel1_letter4_chapter5_div4_div5_p8_cit1&quot;/&gt; &lt;quote sID=&quot;novel1_letter4_chapter5_div4_div5_p8_cit1_quote1&quot;/&gt; &lt;lg sID=&quot;novel1_letter4_chapter5_div4_div5_p8_cit1_quote1_lg1&quot;/&gt; &lt;l sID=&quot;novel1_letter4_chapter5_div4_div5_p8_cit1_quote1_lg1_l1&quot;/&gt;Like one who, on a lonely road,&lt;l eID=&quot;novel1_letter4_chapter5_div4_div5_p8_cit1_quote1_lg1_l1&quot;/&gt; &lt;l sID=&quot;novel1_letter4_chapter5_div4_div5_p8_cit1_quote1_lg1_l2&quot;/&gt;Doth walk in fear and dread,&lt;l eID=&quot;novel1_letter4_chapter5_div4_div5_p8_cit1_quote1_lg1_l2&quot;/&gt; &lt;l sID=&quot;novel1_letter4_chapter5_div4_div5_p8_cit1_quote1_lg1_l3&quot;/&gt;And, having once turned round, walks on,&lt;l eID=&quot;novel1_letter4_chapter5_div4_div5_p8_cit1_quote1_lg1_l3&quot;/&gt; &lt;l sID=&quot;novel1_letter4_chapter5_div4_div5_p8_cit1_quote1_lg1_l4&quot;/&gt;And turns no more his head;&lt;l eID=&quot;novel1_letter4_chapter5_div4_div5_p8_cit1_quote1_lg1_l4&quot;/&gt; &lt;l sID=&quot;novel1_letter4_chapter5_div4_div5_p8_cit1_quote1_lg1_l5&quot;/&gt;Because he knows a frightful fiend&lt;l eID=&quot;novel1_letter4_chapter5_div4_div5_p8_cit1_quote1_lg1_l5&quot;/&gt; &lt;l sID=&quot;novel1_letter4_chapter5_div4_div5_p8_cit1_quote1_lg1_l6&quot;/&gt;Doth close behind him tread*.&lt;l eID=&quot;novel1_letter4_chapter5_div4_div5_p8_cit1_quote1_lg1_l6&quot;/&gt; &lt;lg eID=&quot;novel1_letter4_chapter5_div4_div5_p8_cit1_quote1_lg1&quot;/&gt; &lt;quote eID=&quot;novel1_letter4_chapter5_div4_div5_p8_cit1_quote1&quot;/&gt;&lt;/longToken&gt; </rdg>
+		</rdgGrp>
+		<rdgGrp n="['&lt;lg/&gt; &lt;l/&gt;like one who, on a lonely road,&lt;l/&gt; &lt;l/&gt;doth walk in fear and dread,&lt;l/&gt; &lt;l/&gt;and, having once turn’d round, walks on,&lt;l/&gt; &lt;l/&gt;and turns no more his head;&lt;l/&gt; &lt;l/&gt;because he knows a frightful fiend&lt;l/&gt; &lt;l/&gt;doth close behind him tread*.&lt;l/&gt; &lt;lg/&gt;']">
+			<rdg wit="f1818">&lt;longToken&gt;&lt;cit sID=&quot;novel1_letter4_chapter4_div4_div4_p8_cit1&quot;/&gt; &lt;quote sID=&quot;novel1_letter4_chapter4_div4_div4_p8_cit1_quote1&quot;/&gt; &lt;lg sID=&quot;novel1_letter4_chapter4_div4_div4_p8_cit1_quote1_lg1&quot;/&gt; &lt;l sID=&quot;novel1_letter4_chapter4_div4_div4_p8_cit1_quote1_lg1_l1&quot;/&gt;Like one who, on a lonely road,&lt;l eID=&quot;novel1_letter4_chapter4_div4_div4_p8_cit1_quote1_lg1_l1&quot;/&gt; &lt;l sID=&quot;novel1_letter4_chapter4_div4_div4_p8_cit1_quote1_lg1_l2&quot;/&gt;Doth walk in fear and dread,&lt;l eID=&quot;novel1_letter4_chapter4_div4_div4_p8_cit1_quote1_lg1_l2&quot;/&gt; &lt;l sID=&quot;novel1_letter4_chapter4_div4_div4_p8_cit1_quote1_lg1_l3&quot;/&gt;And, having once turn’d round, walks on,&lt;l eID=&quot;novel1_letter4_chapter4_div4_div4_p8_cit1_quote1_lg1_l3&quot;/&gt; &lt;l sID=&quot;novel1_letter4_chapter4_div4_div4_p8_cit1_quote1_lg1_l4&quot;/&gt;And turns no more his head;&lt;l eID=&quot;novel1_letter4_chapter4_div4_div4_p8_cit1_quote1_lg1_l4&quot;/&gt; &lt;l sID=&quot;novel1_letter4_chapter4_div4_div4_p8_cit1_quote1_lg1_l5&quot;/&gt;Because he knows a frightful fiend&lt;l eID=&quot;novel1_letter4_chapter4_div4_div4_p8_cit1_quote1_lg1_l5&quot;/&gt; &lt;l sID=&quot;novel1_letter4_chapter4_div4_div4_p8_cit1_quote1_lg1_l6&quot;/&gt;Doth close behind him tread*.&lt;l eID=&quot;novel1_letter4_chapter4_div4_div4_p8_cit1_quote1_lg1_l6&quot;/&gt; &lt;lg eID=&quot;novel1_letter4_chapter4_div4_div4_p8_cit1_quote1_lg1&quot;/&gt; &lt;quote eID=&quot;novel1_letter4_chapter4_div4_div4_p8_cit1_quote1&quot;/&gt;&lt;/longToken&gt; </rdg>
 		</rdgGrp>
 	</app>
 	<app>
 		<rdgGrp n="['']">
-			<rdg wit="f1818">&lt;quote sID=&quot;novel1_letter4_chapter4_div4_div4_p8_cit1_quote1&quot;/&gt; </rdg>
-			<rdg wit="f1823">&lt;quote sID=&quot;novel1_letter4_chapter4_div4_div4_p8_cit1_quote1&quot;/&gt; </rdg>
 			<rdg wit="fThomas">&lt;quote sID=&quot;novel1_letter4_chapter4_div4_div4_p8_cit1_quote1&quot;/&gt; </rdg>
-			<rdg wit="f1831">&lt;quote sID=&quot;novel1_letter4_chapter5_div4_div5_p8_cit1_quote1&quot;/&gt; </rdg>
 			<rdg wit="fMS">&lt;milestone spanTo=&quot;#c56-0049.01&quot; unit=&quot;tei:lg&quot;/&gt; </rdg>
 		</rdgGrp>
 	</app>
@@ -2844,18 +2845,12 @@
 			<rdg wit="fMS">&lt;lb n=&quot;c56-0049__main__15&quot;/&gt;&quot;Like </rdg>
 		</rdgGrp>
 		<rdgGrp n="['&lt;lg/&gt;', '&lt;l/&gt;', 'like']">
-			<rdg wit="f1818">&lt;lg sID=&quot;novel1_letter4_chapter4_div4_div4_p8_cit1_quote1_lg1&quot;/&gt; &lt;l sID=&quot;novel1_letter4_chapter4_div4_div4_p8_cit1_quote1_lg1_l1&quot;/&gt; Like </rdg>
-			<rdg wit="f1823">&lt;lg sID=&quot;novel1_letter4_chapter4_div4_div4_p8_cit1_quote1_lg1&quot;/&gt; &lt;l sID=&quot;novel1_letter4_chapter4_div4_div4_p8_cit1_quote1_lg1_l1&quot;/&gt; Like </rdg>
 			<rdg wit="fThomas">&lt;lg sID=&quot;novel1_letter4_chapter4_div4_div4_p8_cit1_quote1_lg1&quot;/&gt; &lt;l sID=&quot;novel1_letter4_chapter4_div4_div4_p8_cit1_quote1_lg1_l1&quot;/&gt; Like </rdg>
-			<rdg wit="f1831">&lt;lg sID=&quot;novel1_letter4_chapter5_div4_div5_p8_cit1_quote1_lg1&quot;/&gt; &lt;l sID=&quot;novel1_letter4_chapter5_div4_div5_p8_cit1_quote1_lg1_l1&quot;/&gt; Like </rdg>
 		</rdgGrp>
 	</app>
 	<app>
 		<rdgGrp n="['one']">
-			<rdg wit="f1818">one </rdg>
-			<rdg wit="f1823">one </rdg>
 			<rdg wit="fThomas">one </rdg>
-			<rdg wit="f1831">one </rdg>
 			<rdg wit="fMS">one </rdg>
 		</rdgGrp>
 	</app>
@@ -2864,38 +2859,26 @@
 			<rdg wit="fMS">who </rdg>
 		</rdgGrp>
 		<rdgGrp n="['who,']">
-			<rdg wit="f1818">who, </rdg>
-			<rdg wit="f1823">who, </rdg>
 			<rdg wit="fThomas">who, </rdg>
-			<rdg wit="f1831">who, </rdg>
 		</rdgGrp>
 	</app>
 	<app>
 		<rdgGrp n="['on', 'a']">
-			<rdg wit="f1818">on a </rdg>
-			<rdg wit="f1823">on a </rdg>
 			<rdg wit="fThomas">on a </rdg>
-			<rdg wit="f1831">on a </rdg>
 			<rdg wit="fMS">on a </rdg>
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['lon', '', '&lt;mdel&gt;s&lt;/mdel&gt;', 'es', '', 'ome', 'road', '', '&quot;doth']">
-			<rdg wit="fMS">lon &lt;mod sID=&quot;c56-0049__main__d5e10478&quot;/&gt; &lt;mdel&gt;s&lt;/mdel&gt; &lt;sga-add place=&quot;intralinear&quot; sID=&quot;c56-0049__main__d5e10482&quot;/&gt;es &lt;sga-add eID=&quot;c56-0049__main__d5e10482&quot;/&gt;&lt;mod eID=&quot;c56-0049__main__d5e10478&quot;/&gt; ome road &lt;milestone spanTo=&quot;#a&quot; unit=&quot;tei:l&quot;/&gt; &lt;lb n=&quot;c56-0049__main__16&quot;/&gt;&quot;doth </rdg>
+		<rdgGrp n="['&lt;w ana=&quot;start&quot;/&gt;lon', '&lt;mdel&gt;s&lt;/mdel&gt;', 'esome&lt;w ana=&quot;end&quot;/&gt;', 'road', '', '&quot;doth']">
+			<rdg wit="fMS">&lt;w ana=&quot;start&quot;/&gt;lon&lt;mod sID=&quot;c56-0049__main__d5e10478&quot;/&gt; &lt;mdel&gt;s&lt;/mdel&gt; &lt;sga-add place=&quot;intralinear&quot; sID=&quot;c56-0049__main__d5e10482&quot;/&gt;es&lt;sga-add eID=&quot;c56-0049__main__d5e10482&quot;/&gt;&lt;mod eID=&quot;c56-0049__main__d5e10478&quot;/&gt;ome&lt;w ana=&quot;end&quot;/&gt; road &lt;milestone spanTo=&quot;#a&quot; unit=&quot;tei:l&quot;/&gt; &lt;lb n=&quot;c56-0049__main__16&quot;/&gt;&quot;doth </rdg>
 		</rdgGrp>
 		<rdgGrp n="['lonely', 'road,', '&lt;l/&gt;', '&lt;l/&gt;', 'doth']">
-			<rdg wit="f1818">lonely road, &lt;l eID=&quot;novel1_letter4_chapter4_div4_div4_p8_cit1_quote1_lg1_l1&quot;/&gt; &lt;l sID=&quot;novel1_letter4_chapter4_div4_div4_p8_cit1_quote1_lg1_l2&quot;/&gt; Doth </rdg>
-			<rdg wit="f1823">lonely road, &lt;l eID=&quot;novel1_letter4_chapter4_div4_div4_p8_cit1_quote1_lg1_l1&quot;/&gt; &lt;l sID=&quot;novel1_letter4_chapter4_div4_div4_p8_cit1_quote1_lg1_l2&quot;/&gt; Doth </rdg>
 			<rdg wit="fThomas">lonely road, &lt;l eID=&quot;novel1_letter4_chapter4_div4_div4_p8_cit1_quote1_lg1_l1&quot;/&gt; &lt;l sID=&quot;novel1_letter4_chapter4_div4_div4_p8_cit1_quote1_lg1_l2&quot;/&gt; Doth </rdg>
-			<rdg wit="f1831">lonely road, &lt;l eID=&quot;novel1_letter4_chapter5_div4_div5_p8_cit1_quote1_lg1_l1&quot;/&gt; &lt;l sID=&quot;novel1_letter4_chapter5_div4_div5_p8_cit1_quote1_lg1_l2&quot;/&gt; Doth </rdg>
 		</rdgGrp>
 	</app>
 	<app>
 		<rdgGrp n="['walk', 'in', 'fear', 'and']">
-			<rdg wit="f1818">walk in fear and </rdg>
-			<rdg wit="f1823">walk in fear and </rdg>
 			<rdg wit="fThomas">walk in fear and </rdg>
-			<rdg wit="f1831">walk in fear and </rdg>
 			<rdg wit="fMS">walk in fear and </rdg>
 		</rdgGrp>
 	</app>
@@ -2904,49 +2887,26 @@
 			<rdg wit="fMS">dread &lt;anchor xml:id=&quot;a&quot;/&gt;&lt;lb n=&quot;c56-0049__main__17&quot;/&gt;&quot;and </rdg>
 		</rdgGrp>
 		<rdgGrp n="['dread,', '&lt;l/&gt;', '&lt;l/&gt;', 'and,']">
-			<rdg wit="f1818">dread, &lt;l eID=&quot;novel1_letter4_chapter4_div4_div4_p8_cit1_quote1_lg1_l2&quot;/&gt; &lt;l sID=&quot;novel1_letter4_chapter4_div4_div4_p8_cit1_quote1_lg1_l3&quot;/&gt; And, </rdg>
-			<rdg wit="f1823">dread, &lt;l eID=&quot;novel1_letter4_chapter4_div4_div4_p8_cit1_quote1_lg1_l2&quot;/&gt; &lt;l sID=&quot;novel1_letter4_chapter4_div4_div4_p8_cit1_quote1_lg1_l3&quot;/&gt; And, </rdg>
 			<rdg wit="fThomas">dread, &lt;l eID=&quot;novel1_letter4_chapter4_div4_div4_p8_cit1_quote1_lg1_l2&quot;/&gt; &lt;l sID=&quot;novel1_letter4_chapter4_div4_div4_p8_cit1_quote1_lg1_l3&quot;/&gt; And, </rdg>
-			<rdg wit="f1831">dread, &lt;l eID=&quot;novel1_letter4_chapter5_div4_div5_p8_cit1_quote1_lg1_l2&quot;/&gt; &lt;l sID=&quot;novel1_letter4_chapter5_div4_div5_p8_cit1_quote1_lg1_l3&quot;/&gt; And, </rdg>
 		</rdgGrp>
 	</app>
 	<app>
 		<rdgGrp n="['having', 'once']">
-			<rdg wit="f1818">having once </rdg>
-			<rdg wit="f1823">having once </rdg>
 			<rdg wit="fThomas">having once </rdg>
-			<rdg wit="f1831">having once </rdg>
 			<rdg wit="fMS">having once </rdg>
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['turned']">
-			<rdg wit="f1823">turned </rdg>
-			<rdg wit="f1831">turned </rdg>
-			<rdg wit="fMS">turned </rdg>
+		<rdgGrp n="['turned', 'round', '', 'l']">
+			<rdg wit="fMS">turned round &lt;lb n=&quot;c56-0049__main__18&quot;/&gt; &lt;metamark&gt;L&lt;/metamark&gt; </rdg>
 		</rdgGrp>
-		<rdgGrp n="['turn’d']">
-			<rdg wit="f1818">turn’d </rdg>
-			<rdg wit="fThomas">turn’d </rdg>
-		</rdgGrp>
-	</app>
-	<app>
-		<rdgGrp n="['round', '', 'l']">
-			<rdg wit="fMS">round &lt;lb n=&quot;c56-0049__main__18&quot;/&gt; &lt;metamark&gt;L&lt;/metamark&gt; </rdg>
-		</rdgGrp>
-		<rdgGrp n="['round,']">
-			<rdg wit="f1818">round, </rdg>
-			<rdg wit="f1823">round, </rdg>
-			<rdg wit="fThomas">round, </rdg>
-			<rdg wit="f1831">round, </rdg>
+		<rdgGrp n="['turn’d', 'round,']">
+			<rdg wit="fThomas">turn’d round, </rdg>
 		</rdgGrp>
 	</app>
 	<app>
 		<rdgGrp n="['walks']">
-			<rdg wit="f1818">walks </rdg>
-			<rdg wit="f1823">walks </rdg>
 			<rdg wit="fThomas">walks </rdg>
-			<rdg wit="f1831">walks </rdg>
 			<rdg wit="fMS">walks </rdg>
 		</rdgGrp>
 	</app>
@@ -2955,18 +2915,12 @@
 			<rdg wit="fMS">on &lt;lb n=&quot;c56-0049__main__19&quot;/&gt;&quot; &lt;del rend=&quot;smear&quot; xml:id=&quot;c56-0049__main__d5e10502&quot;&gt;wal&lt;/del&gt; </rdg>
 		</rdgGrp>
 		<rdgGrp n="['on,', '&lt;l/&gt;', '&lt;l/&gt;']">
-			<rdg wit="f1818">on, &lt;l eID=&quot;novel1_letter4_chapter4_div4_div4_p8_cit1_quote1_lg1_l3&quot;/&gt; &lt;l sID=&quot;novel1_letter4_chapter4_div4_div4_p8_cit1_quote1_lg1_l4&quot;/&gt; </rdg>
-			<rdg wit="f1823">on, &lt;l eID=&quot;novel1_letter4_chapter4_div4_div4_p8_cit1_quote1_lg1_l3&quot;/&gt; &lt;l sID=&quot;novel1_letter4_chapter4_div4_div4_p8_cit1_quote1_lg1_l4&quot;/&gt; </rdg>
 			<rdg wit="fThomas">on, &lt;l eID=&quot;novel1_letter4_chapter4_div4_div4_p8_cit1_quote1_lg1_l3&quot;/&gt; &lt;l sID=&quot;novel1_letter4_chapter4_div4_div4_p8_cit1_quote1_lg1_l4&quot;/&gt; </rdg>
-			<rdg wit="f1831">on, &lt;l eID=&quot;novel1_letter4_chapter5_div4_div5_p8_cit1_quote1_lg1_l3&quot;/&gt; &lt;l sID=&quot;novel1_letter4_chapter5_div4_div5_p8_cit1_quote1_lg1_l4&quot;/&gt; </rdg>
 		</rdgGrp>
 	</app>
 	<app>
 		<rdgGrp n="['and', 'turns', 'no', 'more', 'his']">
-			<rdg wit="f1818">And turns no more his </rdg>
-			<rdg wit="f1823">And turns no more his </rdg>
 			<rdg wit="fThomas">And turns no more his </rdg>
-			<rdg wit="f1831">And turns no more his </rdg>
 			<rdg wit="fMS">And turns no more his </rdg>
 		</rdgGrp>
 	</app>
@@ -2975,18 +2929,12 @@
 			<rdg wit="fMS">head &lt;lb n=&quot;c56-0049__main__20&quot;/&gt;&quot;Because </rdg>
 		</rdgGrp>
 		<rdgGrp n="['head;', '&lt;l/&gt;', '&lt;l/&gt;', 'because']">
-			<rdg wit="f1818">head; &lt;l eID=&quot;novel1_letter4_chapter4_div4_div4_p8_cit1_quote1_lg1_l4&quot;/&gt; &lt;l sID=&quot;novel1_letter4_chapter4_div4_div4_p8_cit1_quote1_lg1_l5&quot;/&gt; Because </rdg>
-			<rdg wit="f1823">head; &lt;l eID=&quot;novel1_letter4_chapter4_div4_div4_p8_cit1_quote1_lg1_l4&quot;/&gt; &lt;l sID=&quot;novel1_letter4_chapter4_div4_div4_p8_cit1_quote1_lg1_l5&quot;/&gt; Because </rdg>
 			<rdg wit="fThomas">head; &lt;l eID=&quot;novel1_letter4_chapter4_div4_div4_p8_cit1_quote1_lg1_l4&quot;/&gt; &lt;l sID=&quot;novel1_letter4_chapter4_div4_div4_p8_cit1_quote1_lg1_l5&quot;/&gt; Because </rdg>
-			<rdg wit="f1831">head; &lt;l eID=&quot;novel1_letter4_chapter5_div4_div5_p8_cit1_quote1_lg1_l4&quot;/&gt; &lt;l sID=&quot;novel1_letter4_chapter5_div4_div5_p8_cit1_quote1_lg1_l5&quot;/&gt; Because </rdg>
 		</rdgGrp>
 	</app>
 	<app>
 		<rdgGrp n="['he', 'knows', 'a', 'frightful']">
-			<rdg wit="f1818">he knows a frightful </rdg>
-			<rdg wit="f1823">he knows a frightful </rdg>
 			<rdg wit="fThomas">he knows a frightful </rdg>
-			<rdg wit="f1831">he knows a frightful </rdg>
 			<rdg wit="fMS">he knows a frightful </rdg>
 		</rdgGrp>
 	</app>
@@ -2995,30 +2943,29 @@
 			<rdg wit="fMS">&lt;lb n=&quot;c56-0049__main__21&quot;/&gt; &lt;metamark&gt;L&lt;/metamark&gt; fiend &lt;lb n=&quot;c56-0049__main__22&quot;/&gt;&quot;doth </rdg>
 		</rdgGrp>
 		<rdgGrp n="['fiend', '&lt;l/&gt;', '&lt;l/&gt;', 'doth']">
-			<rdg wit="f1818">fiend &lt;l eID=&quot;novel1_letter4_chapter4_div4_div4_p8_cit1_quote1_lg1_l5&quot;/&gt; &lt;l sID=&quot;novel1_letter4_chapter4_div4_div4_p8_cit1_quote1_lg1_l6&quot;/&gt; Doth </rdg>
-			<rdg wit="f1823">fiend &lt;l eID=&quot;novel1_letter4_chapter4_div4_div4_p8_cit1_quote1_lg1_l5&quot;/&gt; &lt;l sID=&quot;novel1_letter4_chapter4_div4_div4_p8_cit1_quote1_lg1_l6&quot;/&gt; Doth </rdg>
 			<rdg wit="fThomas">fiend &lt;l eID=&quot;novel1_letter4_chapter4_div4_div4_p8_cit1_quote1_lg1_l5&quot;/&gt; &lt;l sID=&quot;novel1_letter4_chapter4_div4_div4_p8_cit1_quote1_lg1_l6&quot;/&gt; Doth </rdg>
-			<rdg wit="f1831">fiend &lt;l eID=&quot;novel1_letter4_chapter5_div4_div5_p8_cit1_quote1_lg1_l5&quot;/&gt; &lt;l sID=&quot;novel1_letter4_chapter5_div4_div5_p8_cit1_quote1_lg1_l6&quot;/&gt; Doth </rdg>
 		</rdgGrp>
 	</app>
 	<app>
 		<rdgGrp n="['close', 'behind', 'him']">
-			<rdg wit="f1818">close behind him </rdg>
-			<rdg wit="f1823">close behind him </rdg>
 			<rdg wit="fThomas">close behind him </rdg>
-			<rdg wit="f1831">close behind him </rdg>
 			<rdg wit="fMS">close behind him </rdg>
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['tread*.', '&lt;l/&gt;', '&lt;lg/&gt;', '', '&lt;note&gt;* coleridge’s &quot;ancient mariner.&quot; &lt;/note&gt;', '', '&lt;p-end/&gt;', '&lt;p-start/&gt;', 'continuing']">
-			<rdg wit="f1818">tread*. &lt;l eID=&quot;novel1_letter4_chapter4_div4_div4_p8_cit1_quote1_lg1_l6&quot;/&gt; &lt;lg eID=&quot;novel1_letter4_chapter4_div4_div4_p8_cit1_quote1_lg1&quot;/&gt; &lt;quote eID=&quot;novel1_letter4_chapter4_div4_div4_p8_cit1_quote1&quot;/&gt; &lt;note xml:id=&quot;novel1_letter4_chapter4_div4_div4_p8_cit1_note1&quot;&gt;* &lt;bibl/&gt;Coleridge’s “Ancient Mariner.”&lt;bibl/&gt; &lt;/note&gt; &lt;cit eID=&quot;novel1_letter4_chapter4_div4_div4_p8_cit1&quot;/&gt; &lt;p eID=&quot;novel1_letter4_chapter4_div4_div4_p8&quot;/&gt; &lt;p sID=&quot;novel1_letter4_chapter4_div4_div4_p9&quot;/&gt; Continuing </rdg>
-			<rdg wit="f1823">tread*. &lt;l eID=&quot;novel1_letter4_chapter4_div4_div4_p8_cit1_quote1_lg1_l6&quot;/&gt; &lt;lg eID=&quot;novel1_letter4_chapter4_div4_div4_p8_cit1_quote1_lg1&quot;/&gt; &lt;quote eID=&quot;novel1_letter4_chapter4_div4_div4_p8_cit1_quote1&quot;/&gt; &lt;note xml:id=&quot;novel1_letter4_chapter4_div4_div4_p8_cit1_note1&quot;&gt;* &lt;bibl/&gt;Coleridge’s “Ancient Mariner.”&lt;bibl/&gt; &lt;/note&gt; &lt;cit eID=&quot;novel1_letter4_chapter4_div4_div4_p8_cit1&quot;/&gt; &lt;p eID=&quot;novel1_letter4_chapter4_div4_div4_p8&quot;/&gt; &lt;p sID=&quot;novel1_letter4_chapter4_div4_div4_p9&quot;/&gt; Continuing </rdg>
-			<rdg wit="fThomas">tread*. &lt;l eID=&quot;novel1_letter4_chapter4_div4_div4_p8_cit1_quote1_lg1_l6&quot;/&gt; &lt;lg eID=&quot;novel1_letter4_chapter4_div4_div4_p8_cit1_quote1_lg1&quot;/&gt; &lt;quote eID=&quot;novel1_letter4_chapter4_div4_div4_p8_cit1_quote1&quot;/&gt; &lt;note xml:id=&quot;novel1_letter4_chapter4_div4_div4_p8_cit1_note1&quot;&gt;* &lt;bibl/&gt;Coleridge’s “Ancient Mariner.”&lt;bibl/&gt; &lt;/note&gt; &lt;cit eID=&quot;novel1_letter4_chapter4_div4_div4_p8_cit1&quot;/&gt; &lt;p eID=&quot;novel1_letter4_chapter4_div4_div4_p8&quot;/&gt; &lt;p sID=&quot;novel1_letter4_chapter4_div4_div4_p9&quot;/&gt; Continuing </rdg>
-			<rdg wit="f1831">tread*. &lt;l eID=&quot;novel1_letter4_chapter5_div4_div5_p8_cit1_quote1_lg1_l6&quot;/&gt; &lt;lg eID=&quot;novel1_letter4_chapter5_div4_div5_p8_cit1_quote1_lg1&quot;/&gt; &lt;quote eID=&quot;novel1_letter4_chapter5_div4_div5_p8_cit1_quote1&quot;/&gt; &lt;note xml:id=&quot;novel1_letter4_chapter5_div4_div5_p8_cit1_note1&quot;&gt;* &lt;bibl/&gt;Coleridge’s “Ancient Mariner.”&lt;bibl/&gt; &lt;/note&gt; &lt;cit eID=&quot;novel1_letter4_chapter5_div4_div5_p8_cit1&quot;/&gt; &lt;p eID=&quot;novel1_letter4_chapter5_div4_div5_p8&quot;/&gt; &lt;p sID=&quot;novel1_letter4_chapter5_div4_div5_p9&quot;/&gt; Continuing </rdg>
+		<rdgGrp n="['tread*.', '&lt;l/&gt;', '&lt;lg/&gt;', '']">
+			<rdg wit="fThomas">tread*. &lt;l eID=&quot;novel1_letter4_chapter4_div4_div4_p8_cit1_quote1_lg1_l6&quot;/&gt; &lt;lg eID=&quot;novel1_letter4_chapter4_div4_div4_p8_cit1_quote1_lg1&quot;/&gt; &lt;quote eID=&quot;novel1_letter4_chapter4_div4_div4_p8_cit1_quote1&quot;/&gt; </rdg>
 		</rdgGrp>
-		<rdgGrp n="['tread.&quot;', '*', 'continueing']">
-			<rdg wit="fMS">tread.&quot; &lt;metamark&gt;*&lt;/metamark&gt; &lt;anchor xml:id=&quot;c56-0049.01&quot;/&gt;&lt;lb n=&quot;c56-0049__main__23&quot;/&gt;Continueing </rdg>
+		<rdgGrp n="['tread.&quot;', &quot;*   _______________  *coleridge's andquot;ancient mariner.andquot;&quot;, 'continueing']">
+			<rdg wit="fMS">tread.&quot; &lt;longToken&gt;&lt;metamark&gt;*&lt;/metamark&gt; &lt;anchor xml:id=&quot;c56-0049.01&quot;/&gt; &lt;zone type=&quot;left_margin&quot; sID=&quot;c56-0049__left_margin&quot;/&gt; &lt;metamark&gt;_______________&lt;/metamark&gt; &lt;milestone spanTo=&quot;#c56-0049.03&quot; unit=&quot;tei:note&quot;/&gt; &lt;metamark&gt;*&lt;/metamark&gt;Coleridge's &amp;quot;Ancient Mariner.&amp;quot;  &lt;anchor xml:id=&quot;c56-0049.03&quot;/&gt;&lt;/longToken&gt; &lt;lb n=&quot;c56-0049__main__23&quot;/&gt;Continueing </rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['&lt;note&gt;* coleridge’s &quot;ancient mariner.&quot; &lt;/note&gt;', '', '&lt;p-end/&gt;', '&lt;p-start/&gt;', 'continuing']">
+			<rdg wit="f1818">&lt;note xml:id=&quot;novel1_letter4_chapter4_div4_div4_p8_cit1_note1&quot;&gt;* &lt;bibl/&gt;Coleridge’s “Ancient Mariner.”&lt;bibl/&gt; &lt;/note&gt; &lt;cit eID=&quot;novel1_letter4_chapter4_div4_div4_p8_cit1&quot;/&gt; &lt;p eID=&quot;novel1_letter4_chapter4_div4_div4_p8&quot;/&gt; &lt;p sID=&quot;novel1_letter4_chapter4_div4_div4_p9&quot;/&gt; Continuing </rdg>
+			<rdg wit="f1823">&lt;note xml:id=&quot;novel1_letter4_chapter4_div4_div4_p8_cit1_note1&quot;&gt;* &lt;bibl/&gt;Coleridge’s “Ancient Mariner.”&lt;bibl/&gt; &lt;/note&gt; &lt;cit eID=&quot;novel1_letter4_chapter4_div4_div4_p8_cit1&quot;/&gt; &lt;p eID=&quot;novel1_letter4_chapter4_div4_div4_p8&quot;/&gt; &lt;p sID=&quot;novel1_letter4_chapter4_div4_div4_p9&quot;/&gt; Continuing </rdg>
+			<rdg wit="fThomas">&lt;note xml:id=&quot;novel1_letter4_chapter4_div4_div4_p8_cit1_note1&quot;&gt;* &lt;bibl/&gt;Coleridge’s “Ancient Mariner.”&lt;bibl/&gt; &lt;/note&gt; &lt;cit eID=&quot;novel1_letter4_chapter4_div4_div4_p8_cit1&quot;/&gt; &lt;p eID=&quot;novel1_letter4_chapter4_div4_div4_p8&quot;/&gt; &lt;p sID=&quot;novel1_letter4_chapter4_div4_div4_p9&quot;/&gt; Continuing </rdg>
+			<rdg wit="f1831">&lt;note xml:id=&quot;novel1_letter4_chapter5_div4_div5_p8_cit1_note1&quot;&gt;* &lt;bibl/&gt;Coleridge’s “Ancient Mariner.”&lt;bibl/&gt; &lt;/note&gt; &lt;cit eID=&quot;novel1_letter4_chapter5_div4_div5_p8_cit1&quot;/&gt; &lt;p eID=&quot;novel1_letter4_chapter5_div4_div5_p8&quot;/&gt; &lt;p sID=&quot;novel1_letter4_chapter5_div4_div5_p9&quot;/&gt; Continuing </rdg>
 		</rdgGrp>
 	</app>
 	<app>
@@ -3204,26 +3151,12 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['on']">
-			<rdg wit="f1818">on </rdg>
-			<rdg wit="f1823">on </rdg>
-			<rdg wit="fThomas">on </rdg>
-			<rdg wit="f1831">on </rdg>
-			<rdg wit="fMS">on </rdg>
-		</rdgGrp>
-	</app>
-	<app>
-		<rdgGrp n="['_______________', '', '*', &quot;coleridge's&quot;, '&quot;ancient', 'mariner.&quot;']">
-			<rdg wit="fMS">&lt;metamark&gt;_______________&lt;/metamark&gt; &lt;milestone spanTo=&quot;#c56-0049.03&quot; unit=&quot;tei:note&quot;/&gt; &lt;metamark&gt;*&lt;/metamark&gt; Coleridge's &quot;Ancient Mariner.&quot; </rdg>
-		</rdgGrp>
-	</app>
-	<app>
-		<rdgGrp n="['the']">
-			<rdg wit="f1818">the </rdg>
-			<rdg wit="f1823">the </rdg>
-			<rdg wit="fThomas">the </rdg>
-			<rdg wit="f1831">the </rdg>
-			<rdg wit="fMS">&lt;anchor xml:id=&quot;c56-0049.03&quot;/&gt;&lt;lb n=&quot;c56-0050__main__1&quot;/&gt;the </rdg>
+		<rdgGrp n="['on', 'the']">
+			<rdg wit="f1818">on the </rdg>
+			<rdg wit="f1823">on the </rdg>
+			<rdg wit="fThomas">on the </rdg>
+			<rdg wit="f1831">on the </rdg>
+			<rdg wit="fMS">on &lt;lb n=&quot;c56-0050__main__1&quot;/&gt;the </rdg>
 		</rdgGrp>
 	</app>
 	<app>
@@ -4067,7 +4000,7 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['brothers', 'elizabeth', 'said', 'i']">
+		<rdgGrp n="['brothers', 'andelizabeth&quot;', 'said', 'i']">
 			<rdg wit="fMS">brothers &amp;&lt;w ana=&quot;start&quot;/&gt;Eliza&lt;lb n=&quot;c56-0051__main__14&quot;/&gt;beth&lt;w ana=&quot;end&quot;/&gt;&quot; said I </rdg>
 		</rdgGrp>
 		<rdgGrp n="['brothers,', 'and', 'elizabeth.&quot;']">
@@ -5322,32 +5255,12 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['but', 'i', 'was', 'unable', 'to', 'contain']">
-			<rdg wit="f1818">but I was unable to contain </rdg>
-			<rdg wit="f1823">but I was unable to contain </rdg>
-			<rdg wit="fThomas">but I was unable to contain </rdg>
-			<rdg wit="f1831">but I was unable to contain </rdg>
-			<rdg wit="fMS">&lt;lb n=&quot;c56-0053__main__8&quot;/&gt;but I was unable to contain </rdg>
-		</rdgGrp>
-	</app>
-	<app>
-		<rdgGrp n="['myself']">
-			<rdg wit="fMS">&lt;w ana=&quot;start&quot;/&gt;my&lt;lb n=&quot;c56-0053__main__9&quot;/&gt;self&lt;w ana=&quot;end&quot;/&gt;. </rdg>
-		</rdgGrp>
-		<rdgGrp n="['myself.']">
-			<rdg wit="f1818">myself. </rdg>
-			<rdg wit="f1823">myself. </rdg>
-			<rdg wit="fThomas">myself. </rdg>
-			<rdg wit="f1831">myself. </rdg>
-		</rdgGrp>
-	</app>
-	<app>
-		<rdgGrp n="['it', 'was', 'not', 'joy', 'only', 'that', 'possessed']">
-			<rdg wit="f1818">It was not joy only that possessed </rdg>
-			<rdg wit="f1823">It was not joy only that possessed </rdg>
-			<rdg wit="fThomas">It was not joy only that possessed </rdg>
-			<rdg wit="f1831">It was not joy only that possessed </rdg>
-			<rdg wit="fMS">It was not joy only that &lt;w ana=&quot;start&quot;/&gt;possess&lt;lb n=&quot;c56-0053__main__10&quot;/&gt;ed&lt;w ana=&quot;end&quot;/&gt; </rdg>
+		<rdgGrp n="['but', 'i', 'was', 'unable', 'to', 'contain', 'myself.', 'it', 'was', 'not', 'joy', 'only', 'that', 'possessed']">
+			<rdg wit="f1818">but I was unable to contain myself. It was not joy only that possessed </rdg>
+			<rdg wit="f1823">but I was unable to contain myself. It was not joy only that possessed </rdg>
+			<rdg wit="fThomas">but I was unable to contain myself. It was not joy only that possessed </rdg>
+			<rdg wit="f1831">but I was unable to contain myself. It was not joy only that possessed </rdg>
+			<rdg wit="fMS">&lt;lb n=&quot;c56-0053__main__8&quot;/&gt;but I was unable to contain &lt;w ana=&quot;start&quot;/&gt;my&lt;lb n=&quot;c56-0053__main__9&quot;/&gt;self&lt;w ana=&quot;end&quot;/&gt;. It was not joy only that &lt;w ana=&quot;start&quot;/&gt;possess&lt;lb n=&quot;c56-0053__main__10&quot;/&gt;ed&lt;w ana=&quot;end&quot;/&gt; </rdg>
 		</rdgGrp>
 	</app>
 	<app>
@@ -7885,4 +7798,4 @@
 		</rdgGrp>
 	</app>
 </cx:apparatus>
-<!-- 2023-08-15 03:08:44.386528 -->
+<!-- 2023-08-17 01:13:42.807705 -->
