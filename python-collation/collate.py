@@ -294,7 +294,7 @@ def normalize(inputText):
 
 
 def processToken(inputText):
-    return {"t": inputText + ' ', "n": normalize(inputText)}
+    return {"t": inputText + ' ', "n": normalize(re.sub(r'(“|”|")', '<q>' ,inputText))}
 
 
 def processWitness(inputWitness, id):
