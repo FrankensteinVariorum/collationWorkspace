@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../lookingForTrouble.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><cx:apparatus xmlns:cx="http://interedition.eu/collatex/ns/1.0">
+	<app>
+		<rdgGrp n="['']">
+			<rdg wit="f1818"/>
+			<rdg wit="f1823"/>
+			<rdg wit="fThomas"/>
+			<rdg wit="f1831"/>
+		</rdgGrp>
+		<rdgGrp n="['&lt;anchor type=%q%collate%q% xml:id=%q%C01%q%/&gt;']">
+			<rdg wit="fMS">&lt;anchor type="collate" xml:id="C01"/&gt;</rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['&lt;milestone unit=%q%volume%q% n=%q%1%q%/&gt;']">
+			<rdg wit="f1818">&lt;milestone unit="volume" n="1"/&gt;</rdg>
+			<rdg wit="f1823">&lt;milestone unit="volume" n="1"/&gt;</rdg>
+			<rdg wit="fThomas">&lt;milestone unit="volume" n="1"/&gt;</rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['&lt;milestone unit=%q%frontmatter%q% type=%q%start%q% n=%q%1%q%/&gt;', '&lt;milestone unit=%q%frontmatter%q% type=%q%end%q% n=%q%1%q%/&gt;']">
+			<rdg wit="f1818">&lt;milestone unit="frontmatter" type="start" n="1"/&gt; &lt;milestone unit="frontmatter" type="end" n="1"/&gt;</rdg>
+			<rdg wit="f1823">&lt;milestone unit="frontmatter" type="start" n="1"/&gt; &lt;milestone unit="frontmatter" type="end" n="1"/&gt;</rdg>
+			<rdg wit="fThomas">&lt;milestone unit="frontmatter" type="start" n="1"/&gt; &lt;milestone unit="frontmatter" type="end" n="1"/&gt;</rdg>
+			<rdg wit="f1831">&lt;milestone unit="frontmatter" type="start" n="1"/&gt; &lt;milestone unit="frontmatter" type="end" n="1"/&gt;</rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['&lt;milestone unit=%q%introduction%q% type=%q%start%q% n=%q%1%q%/&gt;', '&lt;milestone unit=%q%introduction%q% type=%q%end%q% n=%q%1%q%/&gt;']">
+			<rdg wit="f1831">&lt;milestone unit="introduction" type="start" n="1"/&gt; &lt;milestone unit="introduction" type="end" n="1"/&gt;</rdg>
+		</rdgGrp>
+		<rdgGrp n="['&lt;pb xml:id=%q%F1823_v1_012%q%/&gt;']">
+			<rdg wit="f1823">&lt;pb xml:id="F1823_v1_012"/&gt;</rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['&lt;milestone unit=%q%preface%q% type=%q%start%q% n=%q%1%q%/&gt;']">
+			<rdg wit="f1818">&lt;milestone unit="preface" type="start" n="1"/&gt;</rdg>
+			<rdg wit="f1823">&lt;milestone unit="preface" type="start" n="1"/&gt;</rdg>
+			<rdg wit="fThomas">&lt;milestone unit="preface" type="start" n="1"/&gt;</rdg>
+			<rdg wit="f1831">&lt;milestone unit="preface" type="start" n="1"/&gt;</rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['&lt;pb xml:id=%q%F1818_v1_007%q% n=%q%viii%q%/&gt;']">
+			<rdg wit="f1818">&lt;pb xml:id="F1818_v1_007" n="viii"/&gt;</rdg>
+			<rdg wit="fThomas">&lt;pb xml:id="F1818_v1_007" n="viii"/&gt;</rdg>
+		</rdgGrp>
+		<rdgGrp n="['&lt;pb xml:id=%q%F1831_v_017%q%/&gt;']">
+			<rdg wit="f1831">&lt;pb xml:id="F1831_v_017"/&gt;</rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['&lt;head&gt;PREFACE.&lt;/head&gt;', '&lt;p sID=%q%preface1_p1%q%/&gt;', 'T&lt;hi sID=%q%preface1_p1_hi1%q%/&gt;HE&lt;hi eID=%q%preface1_p1_hi1%q%/&gt;', 'event', 'on', 'which', 'this', 'fiction', 'is', 'founded', 'has', 'been', 'supposed,', 'by', 'Dr.', 'Darwin,', 'and', 'some', 'of', 'the', 'physiological', 'writers', 'of', 'Germany,', 'as', 'not', 'of', 'impossible', 'occurrence.', 'I', 'shall', 'not', 'be', 'supposed', 'as', 'according', 'the', 'remotest', 'degree', 'of', 'serious', 'faith', 'to', 'such', 'an', 'imagination;', 'yet,', 'in', 'assuming', 'it', 'as', 'the', 'basis', 'of', 'a', 'work', 'of', 'fancy,', 'I', 'have', 'not', 'considered', 'myself', 'as', 'merely']">
+			<rdg wit="f1818">&lt;head&gt;PREFACE.&lt;/head&gt; &lt;p sID="preface1_p1"/&gt; T&lt;hi sID="preface1_p1_hi1"/&gt;HE&lt;hi eID="preface1_p1_hi1"/&gt; event on which this fiction is founded has been supposed, by Dr. Darwin, and some of the physiological writers of Germany, as not of impossible occurrence. I shall not be supposed as according the remotest degree of serious faith to such an imagination; yet, in assuming it as the basis of a work of fancy, I have not considered myself as merely</rdg>
+			<rdg wit="f1823">&lt;head&gt;PREFACE.&lt;/head&gt; &lt;p sID="preface1_p1"/&gt; T&lt;hi sID="preface1_p1_hi1"/&gt;HE&lt;hi eID="preface1_p1_hi1"/&gt; event on which this fiction is founded has been supposed, by Dr. Darwin, and some of the physiological writers of Germany, as not of impossible occurrence. I shall not be supposed as according the remotest degree of serious faith to such an imagination; yet, in assuming it as the basis of a work of fancy, I have not considered myself as merely</rdg>
+			<rdg wit="fThomas">&lt;head&gt;PREFACE.&lt;/head&gt; &lt;p sID="preface1_p1"/&gt; T&lt;hi sID="preface1_p1_hi1"/&gt;HE&lt;hi eID="preface1_p1_hi1"/&gt; event on which this fiction is founded has been supposed, by Dr. Darwin, and some of the physiological writers of Germany, as not of impossible occurrence. I shall not be supposed as according the remotest degree of serious faith to such an imagination; yet, in assuming it as the basis of a work of fancy, I have not considered myself as merely</rdg>
+			<rdg wit="f1831">&lt;head&gt;PREFACE.&lt;/head&gt; &lt;p sID="preface1_p1"/&gt; T&lt;hi sID="preface1_p1_hi1"/&gt;HE&lt;hi eID="preface1_p1_hi1"/&gt; event on which this fiction is founded has been supposed, by Dr. Darwin, and some of the physiological writers of Germany, as not of impossible occurrence. I shall not be supposed as according the remotest degree of serious faith to such an imagination; yet, in assuming it as the basis of a work of fancy, I have not considered myself as merely</rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['&lt;pb xml:id=%q%F1823_v1_013%q% n=%q%vi%q%/&gt;weaving']">
+			<rdg wit="f1823">&lt;pb xml:id="F1823_v1_013" n="vi"/&gt;weaving</rdg>
+		</rdgGrp>
+		<rdgGrp n="['weaving']">
+			<rdg wit="f1818">weaving</rdg>
+			<rdg wit="fThomas">weaving</rdg>
+			<rdg wit="f1831">weaving</rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['a', 'series', 'of', 'supernatural', 'terrors.', 'The', 'event', 'on']">
+			<rdg wit="f1818">a series of supernatural terrors. The event on</rdg>
+			<rdg wit="f1823">a series of supernatural terrors. The event on</rdg>
+			<rdg wit="fThomas">a series of supernatural terrors. The event on</rdg>
+			<rdg wit="f1831">a series of supernatural terrors. The event on</rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['&lt;pb xml:id=%q%F1818_v1_008%q% n=%q%viii%q%/&gt;which']">
+			<rdg wit="f1818">&lt;pb xml:id="F1818_v1_008" n="viii"/&gt;which</rdg>
+			<rdg wit="fThomas">&lt;pb xml:id="F1818_v1_008" n="viii"/&gt;which</rdg>
+		</rdgGrp>
+		<rdgGrp n="['which']">
+			<rdg wit="f1823">which</rdg>
+			<rdg wit="f1831">which</rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['the', 'interest', 'of', 'the', 'story', 'depends', 'is', 'exempt', 'from', 'the', 'disadvantages', 'of', 'a', 'mere', 'tale', 'of', 'spectres', 'or', 'enchantment.', 'It', 'was', 'recommended', 'by', 'the', 'novelty', 'of', 'the', 'situations', 'which', 'it', 'developes;', 'and,', 'however', 'impossible', 'as', 'a', 'physical', 'fact,', 'affords', 'a', 'point', 'of', 'view', 'to', 'the', 'imagination', 'for', 'the', 'delineating', 'of', 'human', 'passions', 'more', 'comprehensive', 'and', 'commanding', 'than', 'any', 'which', 'the', 'ordinary', 'relations', 'of', 'existing', 'events', 'can', 'yield.', '&lt;p eID=%q%preface1_p1%q%/&gt;', '&lt;p sID=%q%preface1_p2%q%/&gt;', 'I', 'have', 'thus', 'endeavoured', 'to', 'preserve', 'the', 'truth', 'of', 'the', 'elementary']">
+			<rdg wit="f1818">the interest of the story depends is exempt from the disadvantages of a mere tale of spectres or enchantment. It was recommended by the novelty of the situations which it developes; and, however impossible as a physical fact, affords a point of view to the imagination for the delineating of human passions more comprehensive and commanding than any which the ordinary relations of existing events can yield. &lt;p eID="preface1_p1"/&gt; &lt;p sID="preface1_p2"/&gt; I have thus endeavoured to preserve the truth of the elementary</rdg>
+			<rdg wit="f1823">the interest of the story depends is exempt from the disadvantages of a mere tale of spectres or enchantment. It was recommended by the novelty of the situations which it developes; and, however impossible as a physical fact, affords a point of view to the imagination for the delineating of human passions more comprehensive and commanding than any which the ordinary relations of existing events can yield. &lt;p eID="preface1_p1"/&gt; &lt;p sID="preface1_p2"/&gt; I have thus endeavoured to preserve the truth of the elementary</rdg>
+			<rdg wit="fThomas">the interest of the story depends is exempt from the disadvantages of a mere tale of spectres or enchantment. It was recommended by the novelty of the situations which it developes; and, however impossible as a physical fact, affords a point of view to the imagination for the delineating of human passions more comprehensive and commanding than any which the ordinary relations of existing events can yield. &lt;p eID="preface1_p1"/&gt; &lt;p sID="preface1_p2"/&gt; I have thus endeavoured to preserve the truth of the elementary</rdg>
+			<rdg wit="f1831">the interest of the story depends is exempt from the disadvantages of a mere tale of spectres or enchantment. It was recommended by the novelty of the situations which it developes; and, however impossible as a physical fact, affords a point of view to the imagination for the delineating of human passions more comprehensive and commanding than any which the ordinary relations of existing events can yield. &lt;p eID="preface1_p1"/&gt; &lt;p sID="preface1_p2"/&gt; I have thus endeavoured to preserve the truth of the elementary</rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['&lt;pb xml:id=%q%F1823_v1_014%q% n=%q%vii%q%/&gt;principles']">
+			<rdg wit="f1823">&lt;pb xml:id="F1823_v1_014" n="vii"/&gt;principles</rdg>
+		</rdgGrp>
+		<rdgGrp n="['principles']">
+			<rdg wit="f1818">principles</rdg>
+			<rdg wit="fThomas">principles</rdg>
+			<rdg wit="f1831">principles</rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['of', 'human', 'nature,', 'while', 'I', 'have', 'not', 'scrupled', 'to', 'innovate', 'upon', 'their', 'combinations.', 'The']">
+			<rdg wit="f1818">of human nature, while I have not scrupled to innovate upon their combinations. The</rdg>
+			<rdg wit="f1823">of human nature, while I have not scrupled to innovate upon their combinations. The</rdg>
+			<rdg wit="fThomas">of human nature, while I have not scrupled to innovate upon their combinations. The</rdg>
+			<rdg wit="f1831">of human nature, while I have not scrupled to innovate upon their combinations. The</rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['&lt;hi sID=%q%preface1_p2_hi1%q%/&gt;Iliad&lt;hi eID=%q%preface1_p2_hi1%q%/&gt;,']">
+			<rdg wit="f1818">&lt;hi sID="preface1_p2_hi1"/&gt;Iliad&lt;hi eID="preface1_p2_hi1"/&gt;,</rdg>
+			<rdg wit="fThomas">&lt;hi sID="preface1_p2_hi1"/&gt;Iliad&lt;hi eID="preface1_p2_hi1"/&gt;,</rdg>
+		</rdgGrp>
+		<rdgGrp n="['Iliad,']">
+			<rdg wit="f1823">Iliad,</rdg>
+			<rdg wit="f1831">Iliad,</rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['the', 'tragic', 'poetry', 'of']">
+			<rdg wit="f1818">the tragic poetry of</rdg>
+			<rdg wit="f1823">the tragic poetry of</rdg>
+			<rdg wit="fThomas">the tragic poetry of</rdg>
+			<rdg wit="f1831">the tragic poetry of</rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['Greece,—Shakespeare,']">
+			<rdg wit="f1818">Greece,—Shakespeare,</rdg>
+			<rdg wit="f1823">Greece,—Shakespeare,</rdg>
+			<rdg wit="fThomas">Greece,—Shakespeare,</rdg>
+		</rdgGrp>
+		<rdgGrp n="['Greece,—Shakspeare', '&lt;note resp=%q%FV-Team-rm%q%&gt;printer error for Shakespeare&lt;/note&gt;', ',']">
+			<rdg wit="f1831">Greece,—Shakspeare &lt;note resp="FV-Team-rm"&gt;printer error for Shakespeare&lt;/note&gt; ,</rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['in', 'the']">
+			<rdg wit="f1818">in the</rdg>
+			<rdg wit="f1823">in the</rdg>
+			<rdg wit="fThomas">in the</rdg>
+			<rdg wit="f1831">in the</rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['&lt;hi sID=%q%preface1_p2_hi2%q%/&gt;Tempest&lt;hi eID=%q%preface1_p2_hi2%q%/&gt;']">
+			<rdg wit="f1818">&lt;hi sID="preface1_p2_hi2"/&gt;Tempest&lt;hi eID="preface1_p2_hi2"/&gt;</rdg>
+			<rdg wit="fThomas">&lt;hi sID="preface1_p2_hi2"/&gt;Tempest&lt;hi eID="preface1_p2_hi2"/&gt;</rdg>
+		</rdgGrp>
+		<rdgGrp n="['Tempest']">
+			<rdg wit="f1823">Tempest</rdg>
+		</rdgGrp>
+		<rdgGrp n="['Tempest,']">
+			<rdg wit="f1831">Tempest,</rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['and']">
+			<rdg wit="f1818">and</rdg>
+			<rdg wit="f1823">and</rdg>
+			<rdg wit="fThomas">and</rdg>
+			<rdg wit="f1831">and</rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['&lt;longToken&gt;&lt;hi sID=%q%preface1_p2_hi3%q%/&gt;Mid&lt;pb xml:id=%q%F1818_v1_009%q% n=%q%ix%q%/&gt;summer Night’s Dream&lt;hi eID=%q%preface1_p2_hi3%q%/&gt;,&lt;/longToken&gt;']">
+			<rdg wit="f1818">&lt;longToken&gt;&lt;hi sID="preface1_p2_hi3"/&gt;Mid&lt;pb xml:id="F1818_v1_009" n="ix"/&gt;summer Night’s Dream&lt;hi eID="preface1_p2_hi3"/&gt;,&lt;/longToken&gt;</rdg>
+			<rdg wit="fThomas">&lt;longToken&gt;&lt;hi sID="preface1_p2_hi3"/&gt;Mid&lt;pb xml:id="F1818_v1_009" n="ix"/&gt;summer Night’s Dream&lt;hi eID="preface1_p2_hi3"/&gt;,&lt;/longToken&gt;</rdg>
+		</rdgGrp>
+		<rdgGrp n="['&lt;longToken&gt;Midsummer Night’s Dream,&lt;/longToken&gt;']">
+			<rdg wit="f1823">&lt;longToken&gt;Midsummer Night’s Dream,&lt;/longToken&gt;</rdg>
+			<rdg wit="f1831">&lt;longToken&gt;Midsummer Night’s Dream,&lt;/longToken&gt;</rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['—and', 'most', 'especially', 'Milton,', 'in']">
+			<rdg wit="f1818">—and most especially Milton, in</rdg>
+			<rdg wit="f1823">—and most especially Milton, in</rdg>
+			<rdg wit="fThomas">—and most especially Milton, in</rdg>
+			<rdg wit="f1831">—and most especially Milton, in</rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['&lt;hi sID=%q%preface1_p2_hi4%q%/&gt;Paradise', 'Lost&lt;hi eID=%q%preface1_p2_hi4%q%/&gt;,']">
+			<rdg wit="f1818">&lt;hi sID="preface1_p2_hi4"/&gt;Paradise Lost&lt;hi eID="preface1_p2_hi4"/&gt;,</rdg>
+			<rdg wit="fThomas">&lt;hi sID="preface1_p2_hi4"/&gt;Paradise Lost&lt;hi eID="preface1_p2_hi4"/&gt;,</rdg>
+		</rdgGrp>
+		<rdgGrp n="['Paradise', 'Lost,']">
+			<rdg wit="f1823">Paradise Lost,</rdg>
+			<rdg wit="f1831">Paradise Lost,</rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['conform', 'to', 'this', 'rule;', 'and', 'the', 'most', 'humble', 'novelist,', 'who', 'seeks', 'to', 'confer', 'or', 'receive', 'amusement', 'from', 'his', 'labours,', 'may,', 'without', 'presumption,', 'apply', 'to', 'prose', 'fiction', 'a', 'licence,', 'or', 'rather', 'a', 'rule,', 'from', 'the', 'adoption', 'of', 'which', 'so', 'many', 'exquisite', 'combinations', 'of', 'human', 'feeling', 'have', 'resulted', 'in', 'the', 'highest', 'specimens', 'of', 'poetry.', '&lt;p eID=%q%preface1_p2%q%/&gt;', '&lt;p sID=%q%preface1_p3%q%/&gt;']">
+			<rdg wit="f1818">conform to this rule; and the most humble novelist, who seeks to confer or receive amusement from his labours, may, without presumption, apply to prose fiction a licence, or rather a rule, from the adoption of which so many exquisite combinations of human feeling have resulted in the highest specimens of poetry. &lt;p eID="preface1_p2"/&gt; &lt;p sID="preface1_p3"/&gt;</rdg>
+			<rdg wit="f1823">conform to this rule; and the most humble novelist, who seeks to confer or receive amusement from his labours, may, without presumption, apply to prose fiction a licence, or rather a rule, from the adoption of which so many exquisite combinations of human feeling have resulted in the highest specimens of poetry. &lt;p eID="preface1_p2"/&gt; &lt;p sID="preface1_p3"/&gt;</rdg>
+			<rdg wit="fThomas">conform to this rule; and the most humble novelist, who seeks to confer or receive amusement from his labours, may, without presumption, apply to prose fiction a licence, or rather a rule, from the adoption of which so many exquisite combinations of human feeling have resulted in the highest specimens of poetry. &lt;p eID="preface1_p2"/&gt; &lt;p sID="preface1_p3"/&gt;</rdg>
+			<rdg wit="f1831">conform to this rule; and the most humble novelist, who seeks to confer or receive amusement from his labours, may, without presumption, apply to prose fiction a licence, or rather a rule, from the adoption of which so many exquisite combinations of human feeling have resulted in the highest specimens of poetry. &lt;p eID="preface1_p2"/&gt; &lt;p sID="preface1_p3"/&gt;</rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['&lt;pb xml:id=%q%F1823_v1_015%q% n=%q%viii%q%/&gt;The']">
+			<rdg wit="f1823">&lt;pb xml:id="F1823_v1_015" n="viii"/&gt;The</rdg>
+		</rdgGrp>
+		<rdgGrp n="['The']">
+			<rdg wit="f1818">The</rdg>
+			<rdg wit="fThomas">The</rdg>
+			<rdg wit="f1831">The</rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['circumstance', 'on', 'which', 'my', 'story', 'rests', 'was', 'suggested', 'in', 'casual', 'conversation.', 'It', 'was']">
+			<rdg wit="f1818">circumstance on which my story rests was suggested in casual conversation. It was</rdg>
+			<rdg wit="f1823">circumstance on which my story rests was suggested in casual conversation. It was</rdg>
+			<rdg wit="fThomas">circumstance on which my story rests was suggested in casual conversation. It was</rdg>
+			<rdg wit="f1831">circumstance on which my story rests was suggested in casual conversation. It was</rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['commenced']">
+			<rdg wit="f1818">commenced</rdg>
+			<rdg wit="fThomas">commenced</rdg>
+			<rdg wit="f1831">commenced</rdg>
+		</rdgGrp>
+		<rdgGrp n="['commenced,']">
+			<rdg wit="f1823">commenced,</rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['partly', 'as', 'a', 'source', 'of', 'amusement,', 'and', 'partly', 'as', 'an', 'expedient', 'for', 'exercising', 'any', 'untried', 'resources', 'of', 'mind.', 'Other', 'motives', 'were']">
+			<rdg wit="f1818">partly as a source of amusement, and partly as an expedient for exercising any untried resources of mind. Other motives were</rdg>
+			<rdg wit="f1823">partly as a source of amusement, and partly as an expedient for exercising any untried resources of mind. Other motives were</rdg>
+			<rdg wit="fThomas">partly as a source of amusement, and partly as an expedient for exercising any untried resources of mind. Other motives were</rdg>
+			<rdg wit="f1831">partly as a source of amusement, and partly as an expedient for exercising any untried resources of mind. Other motives were</rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['&lt;pb xml:id=%q%F1831_v_018%q% n=%q%2%q%/&gt;mingled']">
+			<rdg wit="f1831">&lt;pb xml:id="F1831_v_018" n="2"/&gt;mingled</rdg>
+		</rdgGrp>
+		<rdgGrp n="['mingled']">
+			<rdg wit="f1818">mingled</rdg>
+			<rdg wit="f1823">mingled</rdg>
+			<rdg wit="fThomas">mingled</rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['with', 'these,', 'as', 'the', 'work']">
+			<rdg wit="f1818">with these, as the work</rdg>
+			<rdg wit="f1823">with these, as the work</rdg>
+			<rdg wit="fThomas">with these, as the work</rdg>
+			<rdg wit="f1831">with these, as the work</rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['pro&lt;pb xml:id=%q%F1818_v1_010%q% n=%q%x%q%/&gt;ceeded.']">
+			<rdg wit="f1818">pro&lt;pb xml:id="F1818_v1_010" n="x"/&gt;ceeded.</rdg>
+			<rdg wit="fThomas">pro&lt;pb xml:id="F1818_v1_010" n="x"/&gt;ceeded.</rdg>
+		</rdgGrp>
+		<rdgGrp n="['proceeded.']">
+			<rdg wit="f1823">proceeded.</rdg>
+			<rdg wit="f1831">proceeded.</rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['I', 'am', 'by', 'no', 'means', 'indifferent', 'to', 'the', 'manner', 'in', 'which', 'whatever', 'moral', 'tendencies', 'exist', 'in', 'the', 'sentiments', 'or', 'characters', 'it', 'contains', 'shall', 'affect', 'the', 'reader;', 'yet', 'my', 'chief', 'concern', 'in', 'this', 'respect', 'has', 'been', 'limited', 'to', 'the', 'avoiding', 'the', 'enervating', 'effects', 'of', 'the', 'novels', 'of', 'the', 'present', 'day,', 'and', 'to', 'the', 'exhibition']">
+			<rdg wit="f1818">I am by no means indifferent to the manner in which whatever moral tendencies exist in the sentiments or characters it contains shall affect the reader; yet my chief concern in this respect has been limited to the avoiding the enervating effects of the novels of the present day, and to the exhibition</rdg>
+			<rdg wit="f1823">I am by no means indifferent to the manner in which whatever moral tendencies exist in the sentiments or characters it contains shall affect the reader; yet my chief concern in this respect has been limited to the avoiding the enervating effects of the novels of the present day, and to the exhibition</rdg>
+			<rdg wit="fThomas">I am by no means indifferent to the manner in which whatever moral tendencies exist in the sentiments or characters it contains shall affect the reader; yet my chief concern in this respect has been limited to the avoiding the enervating effects of the novels of the present day, and to the exhibition</rdg>
+			<rdg wit="f1831">I am by no means indifferent to the manner in which whatever moral tendencies exist in the sentiments or characters it contains shall affect the reader; yet my chief concern in this respect has been limited to the avoiding the enervating effects of the novels of the present day, and to the exhibition</rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['&lt;pb xml:id=%q%F1823_v1_016%q% n=%q%ix%q%/&gt;of']">
+			<rdg wit="f1823">&lt;pb xml:id="F1823_v1_016" n="ix"/&gt;of</rdg>
+		</rdgGrp>
+		<rdgGrp n="['of']">
+			<rdg wit="f1818">of</rdg>
+			<rdg wit="fThomas">of</rdg>
+			<rdg wit="f1831">of</rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['the', 'amiableness', 'of', 'domestic', 'affection,', 'and', 'the', 'excellence', 'of', 'universal', 'virtue.', 'The', 'opinions', 'which', 'naturally', 'spring', 'from', 'the', 'character', 'and', 'situation', 'of', 'the', 'hero', 'are', 'by', 'no', 'means', 'to', 'be', 'conceived', 'as', 'existing', 'always', 'in', 'my', 'own', 'conviction;', 'nor', 'is', 'any', 'inference', 'justly', 'to', 'be', 'drawn', 'from', 'the', 'following', 'pages', 'as', 'prejudicing', 'any', 'philosophical', 'doctrine', 'of', 'whatever', 'kind.', '&lt;p eID=%q%preface1_p3%q%/&gt;', '&lt;p sID=%q%preface1_p4%q%/&gt;']">
+			<rdg wit="f1818">the amiableness of domestic affection, and the excellence of universal virtue. The opinions which naturally spring from the character and situation of the hero are by no means to be conceived as existing always in my own conviction; nor is any inference justly to be drawn from the following pages as prejudicing any philosophical doctrine of whatever kind. &lt;p eID="preface1_p3"/&gt; &lt;p sID="preface1_p4"/&gt;</rdg>
+			<rdg wit="f1823">the amiableness of domestic affection, and the excellence of universal virtue. The opinions which naturally spring from the character and situation of the hero are by no means to be conceived as existing always in my own conviction; nor is any inference justly to be drawn from the following pages as prejudicing any philosophical doctrine of whatever kind. &lt;p eID="preface1_p3"/&gt; &lt;p sID="preface1_p4"/&gt;</rdg>
+			<rdg wit="fThomas">the amiableness of domestic affection, and the excellence of universal virtue. The opinions which naturally spring from the character and situation of the hero are by no means to be conceived as existing always in my own conviction; nor is any inference justly to be drawn from the following pages as prejudicing any philosophical doctrine of whatever kind. &lt;p eID="preface1_p3"/&gt; &lt;p sID="preface1_p4"/&gt;</rdg>
+			<rdg wit="f1831">the amiableness of domestic affection, and the excellence of universal virtue. The opinions which naturally spring from the character and situation of the hero are by no means to be conceived as existing always in my own conviction; nor is any inference justly to be drawn from the following pages as prejudicing any philosophical doctrine of whatever kind. &lt;p eID="preface1_p3"/&gt; &lt;p sID="preface1_p4"/&gt;</rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['&lt;pb xml:id=%q%F1818_v1_011%q% n=%q%xi%q%/&gt;It']">
+			<rdg wit="f1818">&lt;pb xml:id="F1818_v1_011" n="xi"/&gt;It</rdg>
+			<rdg wit="fThomas">&lt;pb xml:id="F1818_v1_011" n="xi"/&gt;It</rdg>
+		</rdgGrp>
+		<rdgGrp n="['It']">
+			<rdg wit="f1823">It</rdg>
+			<rdg wit="f1831">It</rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['is', 'a', 'subject', 'also', 'of', 'additional', 'interest', 'to', 'the', 'author,', 'that', 'this', 'story', 'was', 'begun', 'in', 'the', 'majestic', 'region', 'where', 'the', 'scene', 'is', 'principally', 'laid,', 'and', 'in', 'society', 'which', 'cannot', 'cease', 'to']">
+			<rdg wit="f1818">is a subject also of additional interest to the author, that this story was begun in the majestic region where the scene is principally laid, and in society which cannot cease to</rdg>
+			<rdg wit="f1823">is a subject also of additional interest to the author, that this story was begun in the majestic region where the scene is principally laid, and in society which cannot cease to</rdg>
+			<rdg wit="fThomas">is a subject also of additional interest to the author, that this story was begun in the majestic region where the scene is principally laid, and in society which cannot cease to</rdg>
+			<rdg wit="f1831">is a subject also of additional interest to the author, that this story was begun in the majestic region where the scene is principally laid, and in society which cannot cease to</rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['&lt;pb xml:id=%q%F1823_v1_017%q% n=%q%x%q%/&gt;be']">
+			<rdg wit="f1823">&lt;pb xml:id="F1823_v1_017" n="x"/&gt;be</rdg>
+		</rdgGrp>
+		<rdgGrp n="['be']">
+			<rdg wit="f1818">be</rdg>
+			<rdg wit="fThomas">be</rdg>
+			<rdg wit="f1831">be</rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['regretted.', 'I', 'passed', 'the', 'summer', 'of', '1816', 'in', 'the', 'environs', 'of', 'Geneva.', 'The', 'season', 'was', 'cold', 'and', 'rainy,', 'and', 'in', 'the', 'evenings', 'we', 'crowded', 'around', 'a', 'blazing', 'wood', 'fire,', 'and', 'occasionally', 'amused', 'ourselves', 'with', 'some', 'German', 'stories', 'of', 'ghosts,', 'which', 'happened', 'to', 'fall', 'into', 'our', 'hands.', 'These', 'tales', 'excited', 'in', 'us', 'a', 'playful', 'desire', 'of', 'imitation.', 'Two', 'other', 'friends', '(a', 'tale', 'from', 'the', 'pen', 'of', 'one', 'of', 'whom', 'would', 'be', 'far', 'more', 'acceptable', 'to', 'the', 'public', 'than', 'any', 'thing', 'I', 'can', 'ever', 'hope', 'to', 'produce)', 'and']">
+			<rdg wit="f1818">regretted. I passed the summer of 1816 in the environs of Geneva. The season was cold and rainy, and in the evenings we crowded around a blazing wood fire, and occasionally amused ourselves with some German stories of ghosts, which happened to fall into our hands. These tales excited in us a playful desire of imitation. Two other friends (a tale from the pen of one of whom would be far more acceptable to the public than any thing I can ever hope to produce) and</rdg>
+			<rdg wit="f1823">regretted. I passed the summer of 1816 in the environs of Geneva. The season was cold and rainy, and in the evenings we crowded around a blazing wood fire, and occasionally amused ourselves with some German stories of ghosts, which happened to fall into our hands. These tales excited in us a playful desire of imitation. Two other friends (a tale from the pen of one of whom would be far more acceptable to the public than any thing I can ever hope to produce) and</rdg>
+			<rdg wit="fThomas">regretted. I passed the summer of 1816 in the environs of Geneva. The season was cold and rainy, and in the evenings we crowded around a blazing wood fire, and occasionally amused ourselves with some German stories of ghosts, which happened to fall into our hands. These tales excited in us a playful desire of imitation. Two other friends (a tale from the pen of one of whom would be far more acceptable to the public than any thing I can ever hope to produce) and</rdg>
+			<rdg wit="f1831">regretted. I passed the summer of 1816 in the environs of Geneva. The season was cold and rainy, and in the evenings we crowded around a blazing wood fire, and occasionally amused ourselves with some German stories of ghosts, which happened to fall into our hands. These tales excited in us a playful desire of imitation. Two other friends (a tale from the pen of one of whom would be far more acceptable to the public than any thing I can ever hope to produce) and</rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['&lt;pb xml:id=%q%F1818_v1_012%q% n=%q%xii%q%/&gt;myself']">
+			<rdg wit="f1818">&lt;pb xml:id="F1818_v1_012" n="xii"/&gt;myself</rdg>
+			<rdg wit="fThomas">&lt;pb xml:id="F1818_v1_012" n="xii"/&gt;myself</rdg>
+		</rdgGrp>
+		<rdgGrp n="['myself']">
+			<rdg wit="f1823">myself</rdg>
+			<rdg wit="f1831">myself</rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['agreed', 'to', 'write', 'each', 'a', 'story,', 'founded', 'on', 'some', 'supernatural', 'occurrence.', '&lt;p eID=%q%preface1_p4%q%/&gt;', '&lt;p sID=%q%preface1_p5%q%/&gt;']">
+			<rdg wit="f1818">agreed to write each a story, founded on some supernatural occurrence. &lt;p eID="preface1_p4"/&gt; &lt;p sID="preface1_p5"/&gt;</rdg>
+			<rdg wit="f1823">agreed to write each a story, founded on some supernatural occurrence. &lt;p eID="preface1_p4"/&gt; &lt;p sID="preface1_p5"/&gt;</rdg>
+			<rdg wit="fThomas">agreed to write each a story, founded on some supernatural occurrence. &lt;p eID="preface1_p4"/&gt; &lt;p sID="preface1_p5"/&gt;</rdg>
+			<rdg wit="f1831">agreed to write each a story, founded on some supernatural occurrence. &lt;p eID="preface1_p4"/&gt; &lt;p sID="preface1_p5"/&gt;</rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['&lt;pb xml:id=%q%F1823_v1_018%q% n=%q%xi%q%/&gt;The']">
+			<rdg wit="f1823">&lt;pb xml:id="F1823_v1_018" n="xi"/&gt;The</rdg>
+		</rdgGrp>
+		<rdgGrp n="['The']">
+			<rdg wit="f1818">The</rdg>
+			<rdg wit="fThomas">The</rdg>
+			<rdg wit="f1831">The</rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['weather,', 'however,', 'suddenly', 'became', 'serene;', 'and', 'my', 'two', 'friends', 'left', 'me', 'on', 'a', 'journey', 'among', 'the', 'Alps,', 'and', 'lost,', 'in', 'the', 'magnificent', 'scenes', 'which', 'they', 'present,', 'all', 'memory', 'of', 'their', 'ghostly', 'visions.', 'The', 'following', 'tale', 'is', 'the', 'only', 'one', 'which', 'has', 'been', 'completed.', '&lt;p eID=%q%preface1_p5%q%/&gt;']">
+			<rdg wit="f1818">weather, however, suddenly became serene; and my two friends left me on a journey among the Alps, and lost, in the magnificent scenes which they present, all memory of their ghostly visions. The following tale is the only one which has been completed. &lt;p eID="preface1_p5"/&gt;</rdg>
+			<rdg wit="f1823">weather, however, suddenly became serene; and my two friends left me on a journey among the Alps, and lost, in the magnificent scenes which they present, all memory of their ghostly visions. The following tale is the only one which has been completed. &lt;p eID="preface1_p5"/&gt;</rdg>
+			<rdg wit="fThomas">weather, however, suddenly became serene; and my two friends left me on a journey among the Alps, and lost, in the magnificent scenes which they present, all memory of their ghostly visions. The following tale is the only one which has been completed. &lt;p eID="preface1_p5"/&gt;</rdg>
+			<rdg wit="f1831">weather, however, suddenly became serene; and my two friends left me on a journey among the Alps, and lost, in the magnificent scenes which they present, all memory of their ghostly visions. The following tale is the only one which has been completed. &lt;p eID="preface1_p5"/&gt;</rdg>
+		</rdgGrp>
+	</app>
+	<app><rdgGrp n="['&lt;milestone unit=%q%preface%q% type=%q%end%q% n=%q%1%q%/&gt;', '']"><rdg wit="f1818">&lt;milestone unit="preface" type="end" n="1"/&gt;</rdg><rdg wit="f1823">&lt;milestone unit="preface" type="end" n="1"/&gt;</rdg><rdg wit="fThomas">&lt;milestone unit="preface" type="end" n="1"/&gt;</rdg></rdgGrp><rdgGrp n="['&lt;p sID=%q%preface1_p6%q%/&gt;', 'Marlow,', 'September,', '1817.', '&lt;p eID=%q%preface1_p6%q%/&gt;', '&lt;milestone unit=%q%preface%q% type=%q%end%q% n=%q%1%q%/&gt;', '']"><rdg wit="f1831">&lt;p sID="preface1_p6"/&gt; Marlow, September, 1817. &lt;p eID="preface1_p6"/&gt; &lt;milestone unit="preface" type="end" n="1"/&gt;</rdg></rdgGrp></app>
+	
+</cx:apparatus><!-- 2023-10-05 21:32:24.338700 -->

@@ -214,7 +214,6 @@ def normalize(inputText):
     # 2022-08-06 ebb: I have rewritten this series of operations using a normalized variable for legibility.
     # These need to run in sequence: the order of replacements matters.
     # The lower() at the end lowercases all the normalized strings to simplify the comparison.
-
     normalized = RE_METAMARK.sub('\\1', inputText)
     normalized = RE_MOD.sub('', normalized)
     # 2023-03-16 How about we actually read it this time? <mod> is in the ignore list like anchor, etc, so why are we presuming it's being read?
@@ -290,12 +289,12 @@ def normalize(inputText):
     normalized = re.sub(r'^\s+', '', normalized) # 2023-06-26 yxj: remvoe the space at the beginning
     normalized = re.sub(r'\s+$', '', normalized) # 2023-06-26 yxj: remvoe the space at the end
     normalized = normalized.lower()
+    normalized = re.sub(r'(“|”|")', '%q%', normalized)
     return normalized
 
 
 def processToken(inputText):
-    return {"t": inputText + ' ', "n": normalize(re.sub(r'(“|”|")', '<q>' ,inputText))}
-
+    return {"t": inputText + ' ', "n": normalize(inputText)}
 
 def processWitness(inputWitness, id):
     return {'id': id, 'tokens': [processToken(token) for token in inputWitness]}
