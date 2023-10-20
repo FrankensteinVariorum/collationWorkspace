@@ -1112,14 +1112,28 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['', 'observation and']">
-			<rdg wit="fMS">&lt;lb n=&quot;c57-0093__main__4&quot;/&gt;&lt;anchor xml:id=&quot;c57-0093.01&quot;/&gt;&lt;lb n=&quot;c57-0093__left_margin__1&quot;/&gt;&lt;sga-add sID=&quot;c57-0093__left_margin__d4e16680&quot;/&gt; &lt;longToken&gt;observation &amp;amp; &lt;sga-add eID=&quot;c57-0093__left_margin__d4e16680&quot;/&gt;   </rdg>
+		<rdgGrp n="['instruction']">
+			<rdg wit="f1818">instruction </rdg>
+			<rdg wit="f1823">instruction </rdg>
+			<rdg wit="fThomas">instruction </rdg>
+			<rdg wit="f1831">instruction </rdg>
 		</rdgGrp>
-		<rdgGrp n="['instruction', 'and']">
-			<rdg wit="f1818">instruction and </rdg>
-			<rdg wit="f1823">instruction and </rdg>
-			<rdg wit="fThomas">instruction and </rdg>
-			<rdg wit="f1831">instruction and </rdg>
+		<rdgGrp n="['observation']">
+			<rdg wit="fMS">&lt;lb n=&quot;c57-0093__main__4&quot;/&gt;&lt;anchor xml:id=&quot;c57-0093.01&quot;/&gt;&lt;lb n=&quot;c57-0093__left_margin__1&quot;/&gt;&lt;sga-add sID=&quot;c57-0093__left_margin__d4e16680&quot;/&gt;observation </rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['and']">
+			<rdg wit="f1818">and </rdg>
+			<rdg wit="f1823">and </rdg>
+			<rdg wit="fThomas">and </rdg>
+			<rdg wit="f1831">and </rdg>
+			<rdg wit="fMS">&lt;longToken&gt;&amp;amp;&lt;/longToken&gt; </rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['']">
+			<rdg wit="fMS">&lt;sga-add eID=&quot;c57-0093__left_margin__d4e16680&quot;/&gt; </rdg>
 		</rdgGrp>
 	</app>
 	<app>
@@ -1128,7 +1142,7 @@
 			<rdg wit="f1823">amusement. </rdg>
 			<rdg wit="fThomas">amusement. </rdg>
 			<rdg wit="f1831">amusement. </rdg>
-			<rdg wit="fMS">&lt;zone eID=&quot;c57-0093__left_margin&quot;/&gt; amusement.&lt;/longToken&gt; </rdg>
+			<rdg wit="fMS">amusement. </rdg>
 		</rdgGrp>
 	</app>
 	<app>
@@ -8139,4 +8153,4 @@
 		</rdgGrp>
 	</app>
 </cx:apparatus>
-<!-- 2023-10-07 21:42:45.006867 -->
+<!-- 2023-10-20 02:15:07.027341 -->

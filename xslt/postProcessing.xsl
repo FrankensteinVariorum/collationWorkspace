@@ -64,7 +64,7 @@
 
     <xsl:function name="fv:ampFix"  as="xs:string">
         <xsl:param name="text" as="item()?"/> 
-        <xsl:value-of select="$text ! replace(.,'&amp;amp;','&amp;') ! replace(.,'&amp;quot;', '&#34;') ! replace(.,'andquot;', '&#34;')"/>
+        <xsl:value-of select="$text ! replace(.,'&amp;amp;','&amp;') ! replace(., 'andamp;', '&amp;') ! replace(.,'&amp;quot;', '%q%') ! replace(.,'andquot;', '%q%')"/>
     </xsl:function>
     
     
