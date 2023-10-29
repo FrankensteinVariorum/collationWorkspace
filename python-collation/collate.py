@@ -51,8 +51,8 @@ RE_LT_AMP = re.compile(r'&amp;')
 RE_ADDSTART = re.compile(r'<add[^<>]*?>')
 RE_ADDEND = re.compile(r'</add[^<>]*?>')
 RE_NOTE_START = re.compile(r'<note[^<>]+?xml:id[^<>]+?>')
-RE_DELSTART = re.compile(r'<del[^<>]*?>')
-RE_DELEND = re.compile(r'</del[^<>]*?>')
+RE_DELSTART = re.compile(r'<del\s+[^<>]*?>')
+RE_DELEND = re.compile(r'</del\s+[^<>]*?>')
 # 2023-05-17 ebb with nlh: We have altered the delSpans thus:
 # <delSpan spanTo="id"/> as a start marker and a <delSpan anchor="id"/> in the pre-processed msColl for collation.
 # Before the endpoints were <anchor> elements with only xml:ids,
