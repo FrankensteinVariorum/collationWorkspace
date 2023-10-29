@@ -2920,7 +2920,7 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['&lt;del&gt;i', 'was', 'morning', 'when', 'i', '&lt;/del&gt;', 'it']">
+		<rdgGrp n="['&lt;delspanstart/&gt;i', 'was', 'morning', 'when', 'i', '&lt;delspanend/&gt;', 'it']">
 			<rdg wit="fMS">&lt;delSpan rend="strikethrough" spanTo="#c57-0006.01"/&gt;I was morning &lt;lb n="c57-0006__main__2"/&gt;when I &lt;delSpan anchor="c57-0006.01"/&gt; It</rdg>
 		</rdgGrp>
 		<rdgGrp n="['&lt;p-end/&gt;', '&lt;p-start/&gt;', '%q%it']">
@@ -4210,7 +4210,7 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['dry', '&lt;del&gt;and', 'wind', 'expelled', '&lt;/del&gt;']">
+		<rdgGrp n="['dry', '&lt;delspanstart/&gt;and', 'wind', 'expelled', '&lt;delspanend/&gt;']">
 			<rdg wit="fMS">dry &lt;delSpan rend="strikethrough" spanTo="#c57-0007.04"/&gt;and wind &lt;lb n="c57-0007__main__30"/&gt;expelled &lt;delSpan anchor="c57-0007.04"/&gt;</rdg>
 		</rdgGrp>
 		<rdgGrp n="['dry;']">
@@ -4430,8 +4430,8 @@
 	</app>
 	<app>
 		<rdgGrp n="['&lt;note resp=%q%fv-team-ebb%q%&gt;the 1818 edition omits the word %q%then%q% at the start of this sentence in the other editions and begins the line at the top of the page with %q%overcome%q%.  this is apparently a typesetting error.&lt;/note&gt;']">
-			<rdg wit="f1818">&lt;note resp="FV-Team-ebb"&gt;The 1818 edition omits the word %q%Then%q% at the start of this sentence in the other editions and begins the line at the top of the page with %q%overcome%q%. This is apparently a typesetting error.&lt;/note&gt;</rdg>
-			<rdg wit="fThomas">&lt;note resp="FV-Team-ebb"&gt;The 1818 edition omits the word %q%Then%q% at the start of this sentence in the other editions and begins the line at the top of the page with %q%overcome%q%. This is apparently a typesetting error.&lt;/note&gt;</rdg>
+			<rdg wit="f1818">&lt;note resp="FV-Team-ebb"&gt;The 1818 edition omits the word "Then" at the start of this sentence in the other editions and begins the line at the top of the page with "overcome". This is apparently a typesetting error.&lt;/note&gt;</rdg>
+			<rdg wit="fThomas">&lt;note resp="FV-Team-ebb"&gt;The 1818 edition omits the word "Then" at the start of this sentence in the other editions and begins the line at the top of the page with "overcome". This is apparently a typesetting error.&lt;/note&gt;</rdg>
 		</rdgGrp>
 	</app>
 	<app>
@@ -4863,7 +4863,7 @@
 			<rdg wit="fMS">and one of the</rdg>
 		</rdgGrp>
 	</app>
-	<app><rdgGrp n="['women']"><rdg wit="f1818">women</rdg><rdg wit="f1823">women</rdg><rdg wit="fThomas">women</rdg><rdg wit="f1831">women</rdg></rdgGrp><rdgGrp n="['&lt;del&gt;children&lt;/del&gt;', 'women']"><rdg wit="fMS">&lt;delSpan rend="strikethrough" spanTo="#c57-0008.04"/&gt;&lt;w ana="start"/&gt;child&lt;lb n="c57-0008__main__25"/&gt;ren&lt;w ana="end"/&gt;&lt;delSpan anchor="c57-0008.04"/&gt; women</rdg></rdgGrp></app>
+	<app><rdgGrp n="['women']"><rdg wit="f1818">women</rdg><rdg wit="f1823">women</rdg><rdg wit="fThomas">women</rdg><rdg wit="f1831">women</rdg></rdgGrp><rdgGrp n="['&lt;delspanstart/&gt;children&lt;delspanend/&gt;', 'women']"><rdg wit="fMS">&lt;delSpan rend="strikethrough" spanTo="#c57-0008.04"/&gt;&lt;w ana="start"/&gt;child&lt;lb n="c57-0008__main__25"/&gt;ren&lt;w ana="end"/&gt;&lt;delSpan anchor="c57-0008.04"/&gt; women</rdg></rdgGrp></app>
 	
 	<app>
 		<rdgGrp n="['fainted,']">
@@ -5139,7 +5139,7 @@
 			<rdg wit="fMS">&lt;lb n="c57-0009__main__8"/&gt;I dared not enter it. My place of refuge</rdg>
 		</rdgGrp>
 	</app>
-	<app><rdgGrp n="['was', 'constructed', 'of', 'wood,']"><rdg wit="f1818">was constructed of wood,</rdg><rdg wit="f1823">was constructed of wood,</rdg><rdg wit="fThomas">was constructed of wood,</rdg><rdg wit="f1831">was constructed of wood,</rdg></rdgGrp><rdgGrp n="['', 'x', '&lt;del&gt;', '&lt;del&gt;was the tool house and had not been&lt;/del&gt;', 'was', 'not', 'used', '&lt;del&gt;for&lt;/del&gt;', 'by', 'the', 'inhabitants', 'of', 'the', 'adjoining', 'dwelling', 'and', 'was', 'entirely', 'shut', 'out', 'from', 'view', 'by', 'a', 'pigstye', 'on', 'one', 'side', 'and', 'a', 'dunghill', 'and', 'small', '&lt;del&gt;s&lt;/del&gt;', 'pool', 'on', '&lt;del&gt;the&lt;/del&gt;', 'another', '–', 'the', 'two', 'others', 'were', 'formed', 'by', 'the', 'wall', 'of', 'the', 'cottage.&lt;/del&gt;', 'here', 'then', 'i', 'retreated', 'and', 'lay', 'down', 'happy', 'to', 'have', 'found', 'a', 'shelter', 'from', 'the', 'inclemency', 'of', 'the', 'season', 'and', 'still', 'more', 'from', 'the', 'barbarity', 'of', 'man', '', '___________________________', '', 'was', 'constructed', 'of', 'wood,']"><rdg wit="fMS">&lt;sga-add place="superlinear" sID="c57-0009__main__d4e1557"/&gt; &lt;metamark function="displacement" xml:id="c57-0009.04"&gt;X&lt;/metamark&gt; &lt;sga-add eID="c57-0009__main__d4e1557"/&gt;&lt;lb n="c57-0009__main__9"/&gt;&lt;delSpan rend="vertical_line" spanTo="#c57-0009.01"/&gt; &lt;del rend="strikethrough" xml:id="c57-0009__main__d4e1567"&gt;was the tool house and had not been&lt;/del&gt; &lt;lb n="c57-0009__main__10"/&gt;&lt;anchor xml:id="c57-0009.02"/&gt;&lt;sga-add sID="c57-0009__left_margin__d4e1577"/&gt;was not &lt;sga-add eID="c57-0009__left_margin__d4e1577"/&gt;used &lt;del rend="strikethrough" xml:id="c57-0009__main__d4e1580"&gt;for&lt;/del&gt; by the inhabitants of the &lt;w ana="start"/&gt;ad&lt;lb n="c57-0009__main__11"/&gt;joining&lt;w ana="end"/&gt; dwelling and was entirely shut &lt;lb n="c57-0009__main__12"/&gt;out from view by a pigstye on one &lt;lb n="c57-0009__main__13"/&gt;side and a dunghill &amp; small &lt;del rend="strikethrough" xml:id="c57-0009__main__d4e1594"&gt;s&lt;/del&gt; pool &lt;lb n="c57-0009__main__14"/&gt;on &lt;del rend="strikethrough" xml:id="c57-0009__main__d4e1599"&gt;the&lt;/del&gt; another – the two others were &lt;lb n="c57-0009__main__15"/&gt;formed by the wall of the cottage.&lt;delSpan anchor="c57-0009.01"/&gt; Here &lt;lb n="c57-0009__main__16"/&gt;&lt;anchor xml:id="c57-0009.03"/&gt;&lt;sga-add sID="c57-0009__left_margin__d4e1615"/&gt;then &lt;sga-add eID="c57-0009__left_margin__d4e1615"/&gt;I retreated and lay down happy to have &lt;lb n="c57-0009__main__17"/&gt;found a shelter from the inclemency &lt;lb n="c57-0009__main__18"/&gt;of the season &amp; still more from the &lt;lb n="c57-0009__main__19"/&gt;barbarity of man &lt;lb n="c57-0009__main__20"/&gt; &lt;metamark function="separate"&gt;___________________________&lt;/metamark&gt; &lt;lb n="c57-0009__main__21"/&gt; was constructed of wood,</rdg></rdgGrp></app>
+	<app><rdgGrp n="['was', 'constructed', 'of', 'wood,']"><rdg wit="f1818">was constructed of wood,</rdg><rdg wit="f1823">was constructed of wood,</rdg><rdg wit="fThomas">was constructed of wood,</rdg><rdg wit="f1831">was constructed of wood,</rdg></rdgGrp><rdgGrp n="['', 'x', '&lt;delspanstart/&gt;', '&lt;del&gt;was the tool house and had not been&lt;/del&gt;', 'was', 'not', 'used', '&lt;del&gt;for&lt;/del&gt;', 'by', 'the', 'inhabitants', 'of', 'the', 'adjoining', 'dwelling', 'and', 'was', 'entirely', 'shut', 'out', 'from', 'view', 'by', 'a', 'pigstye', 'on', 'one', 'side', 'and', 'a', 'dunghill', 'and', 'small', '&lt;del&gt;s&lt;/del&gt;', 'pool', 'on', '&lt;del&gt;the&lt;/del&gt;', 'another', '–', 'the', 'two', 'others', 'were', 'formed', 'by', 'the', 'wall', 'of', 'the', 'cottage.&lt;delspanend/&gt;', 'here', 'then', 'i', 'retreated', 'and', 'lay', 'down', 'happy', 'to', 'have', 'found', 'a', 'shelter', 'from', 'the', 'inclemency', 'of', 'the', 'season', 'and', 'still', 'more', 'from', 'the', 'barbarity', 'of', 'man', '', '___________________________', '', 'was', 'constructed', 'of', 'wood,']"><rdg wit="fMS">&lt;sga-add place="superlinear" sID="c57-0009__main__d4e1557"/&gt; &lt;metamark function="displacement" xml:id="c57-0009.04"&gt;X&lt;/metamark&gt; &lt;sga-add eID="c57-0009__main__d4e1557"/&gt;&lt;lb n="c57-0009__main__9"/&gt;&lt;delSpan rend="vertical_line" spanTo="#c57-0009.01"/&gt; &lt;del rend="strikethrough" xml:id="c57-0009__main__d4e1567"&gt;was the tool house and had not been&lt;/del&gt; &lt;lb n="c57-0009__main__10"/&gt;&lt;anchor xml:id="c57-0009.02"/&gt;&lt;sga-add sID="c57-0009__left_margin__d4e1577"/&gt;was not &lt;sga-add eID="c57-0009__left_margin__d4e1577"/&gt;used &lt;del rend="strikethrough" xml:id="c57-0009__main__d4e1580"&gt;for&lt;/del&gt; by the inhabitants of the &lt;w ana="start"/&gt;ad&lt;lb n="c57-0009__main__11"/&gt;joining&lt;w ana="end"/&gt; dwelling and was entirely shut &lt;lb n="c57-0009__main__12"/&gt;out from view by a pigstye on one &lt;lb n="c57-0009__main__13"/&gt;side and a dunghill &amp; small &lt;del rend="strikethrough" xml:id="c57-0009__main__d4e1594"&gt;s&lt;/del&gt; pool &lt;lb n="c57-0009__main__14"/&gt;on &lt;del rend="strikethrough" xml:id="c57-0009__main__d4e1599"&gt;the&lt;/del&gt; another – the two others were &lt;lb n="c57-0009__main__15"/&gt;formed by the wall of the cottage.&lt;delSpan anchor="c57-0009.01"/&gt; Here &lt;lb n="c57-0009__main__16"/&gt;&lt;anchor xml:id="c57-0009.03"/&gt;&lt;sga-add sID="c57-0009__left_margin__d4e1615"/&gt;then &lt;sga-add eID="c57-0009__left_margin__d4e1615"/&gt;I retreated and lay down happy to have &lt;lb n="c57-0009__main__17"/&gt;found a shelter from the inclemency &lt;lb n="c57-0009__main__18"/&gt;of the season &amp; still more from the &lt;lb n="c57-0009__main__19"/&gt;barbarity of man &lt;lb n="c57-0009__main__20"/&gt; &lt;metamark function="separate"&gt;___________________________&lt;/metamark&gt; &lt;lb n="c57-0009__main__21"/&gt; was constructed of wood,</rdg></rdgGrp></app>
 	
 	<app><rdgGrp n="['but']"><rdg wit="f1818">but</rdg><rdg wit="f1823">but</rdg><rdg wit="fThomas">but</rdg><rdg wit="f1831">but</rdg></rdgGrp><rdgGrp n="['', '&lt;mdel&gt;and&lt;/mdel&gt;', 'but']"><rdg wit="fMS">&lt;mod sID="c57-0009__main__d4e1635"/&gt; &lt;mdel&gt;&amp;&lt;/mdel&gt; &lt;sga-add place="superlinear" sID="c57-0009__main__d4e1639"/&gt;but</rdg></rdgGrp></app>
 	
@@ -7233,7 +7233,7 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['disconslate', 'atti', 'tude', '—', '', 'x', '&lt;del&gt;his', 'hair', 'was', 'grey', '&lt;/del&gt;']">
+		<rdgGrp n="['disconslate', 'atti', 'tude', '—', '', 'x', '&lt;delspanstart/&gt;his', 'hair', 'was', 'grey', '&lt;delspanend/&gt;']">
 			<rdg wit="fMS">disconslate atti &lt;lb n="c57-0012__main__24"/&gt;tude — &lt;sga-add place="superlinear" sID="c57-0012__main__d4e2361"/&gt; &lt;metamark function="displacement" xml:id="c57-0012.01"&gt;X&lt;/metamark&gt; &lt;delSpan rend="strikethrough" spanTo="#c57-0012.03"/&gt;&lt;lb n="c57-0012__left_margin__1"/&gt;his hair &lt;lb n="c57-0012__left_margin__2"/&gt;was grey &lt;anchor xml:id="c57-0012.02"/&gt;&lt;delSpan anchor="c57-0012.03"/&gt;&lt;sga-add eID="c57-0012__main__d4e2361"/&gt;</rdg>
 		</rdgGrp>
 		<rdgGrp n="['disconsolate', 'attitude.']">
@@ -7274,7 +7274,7 @@
 			<rdg wit="fMS">&lt;sga-add place="superlinear" sID="c57-0012__main__d4e2392"/&gt;but presently</rdg>
 		</rdgGrp>
 	</app>
-	<app><rdgGrp n="['she', 'took']"><rdg wit="f1818">she took</rdg><rdg wit="f1823">she took</rdg><rdg wit="fThomas">she took</rdg><rdg wit="f1831">she took</rdg></rdgGrp><rdgGrp n="['&lt;del&gt;when', 'that', 'was', 'done', '&lt;/del&gt;', 'she', 'took']"><rdg wit="fMS">&lt;sga-add eID="c57-0012__main__d4e2392"/&gt;&lt;delSpan rend="strikethrough" spanTo="#c57-0012.07"/&gt;when that was &lt;lb n="c57-0012__main__26"/&gt;done &lt;delSpan anchor="c57-0012.07"/&gt;&lt;anchor xml:id="c57-0012.06"/&gt; she took</rdg></rdgGrp></app>
+	<app><rdgGrp n="['she', 'took']"><rdg wit="f1818">she took</rdg><rdg wit="f1823">she took</rdg><rdg wit="fThomas">she took</rdg><rdg wit="f1831">she took</rdg></rdgGrp><rdgGrp n="['&lt;delspanstart/&gt;when', 'that', 'was', 'done', '&lt;delspanend/&gt;', 'she', 'took']"><rdg wit="fMS">&lt;sga-add eID="c57-0012__main__d4e2392"/&gt;&lt;delSpan rend="strikethrough" spanTo="#c57-0012.07"/&gt;when that was &lt;lb n="c57-0012__main__26"/&gt;done &lt;delSpan anchor="c57-0012.07"/&gt;&lt;anchor xml:id="c57-0012.06"/&gt; she took</rdg></rdgGrp></app>
 	
 	<app>
 		<rdgGrp n="['something']">
@@ -8567,7 +8567,7 @@
 	
 	<app><rdgGrp n="['cheerful', 'air,', 'and', 'they', 'sat', 'down', 'to', 'eat.']"><rdg wit="f1818">cheerful air, and they sat down to eat. </rdg><rdg wit="f1823">cheerful air, and they sat down to eat. </rdg><rdg wit="fThomas">cheerful air, and they sat down to eat. </rdg><rdg wit="f1831">cheerful air, and they sat down to eat. </rdg><rdg wit="fMS">&lt;sga-add eID="c57-0014__main__d4e2863"/&gt;&lt;mod eID="c57-0014__main__d4e2858"/&gt;cheerful &lt;lb n="c57-0014__main__7"/&gt;air, and they sat down to eat.</rdg></rdgGrp></app>
 	
-	<app><rdgGrp n="['the']"><rdg wit="f1818">The</rdg><rdg wit="f1823">The</rdg><rdg wit="fThomas">The</rdg><rdg wit="f1831">The</rdg></rdgGrp><rdgGrp n="['&lt;del&gt;they', 'quickly', 'finished', '&lt;/del&gt;', 'the']"><rdg wit="fMS">&lt;delSpan rend="strikethrough" spanTo="#c57-0014.01"/&gt;They quickly &lt;lb n="c57-0014__main__8"/&gt;finished &lt;delSpan anchor="c57-0014.01"/&gt; the</rdg></rdgGrp></app>
+	<app><rdgGrp n="['the']"><rdg wit="f1818">The</rdg><rdg wit="f1823">The</rdg><rdg wit="fThomas">The</rdg><rdg wit="f1831">The</rdg></rdgGrp><rdgGrp n="['&lt;delspanstart/&gt;they', 'quickly', 'finished', '&lt;delspanend/&gt;', 'the']"><rdg wit="fMS">&lt;delSpan rend="strikethrough" spanTo="#c57-0014.01"/&gt;They quickly &lt;lb n="c57-0014__main__8"/&gt;finished &lt;delSpan anchor="c57-0014.01"/&gt; the</rdg></rdgGrp></app>
 	
 	<app><rdgGrp n="['meal']"><rdg wit="f1818">meal</rdg><rdg wit="f1823">meal</rdg><rdg wit="fThomas">meal</rdg><rdg wit="f1831">meal</rdg></rdgGrp><rdgGrp n="['&lt;del&gt;ir&lt;/del&gt;', 'meal']"><rdg wit="fMS">&lt;del rend="strikethrough" xml:id="c57-0014__main__d4e2876"&gt;ir&lt;/del&gt; meal</rdg></rdgGrp></app>
 	
@@ -9348,7 +9348,7 @@
 	<app><rdgGrp n="['i', 'knew', 'nothing', 'of', 'the', 'science', 'of', 'words', 'or', 'letters.']"><rdg wit="f1818">I knew nothing of the science of words or letters. </rdg><rdg wit="f1823">I knew nothing of the science of words or letters. </rdg><rdg wit="fThomas">I knew nothing of the science of words or letters. </rdg><rdg wit="f1831">I knew nothing of the science of words or letters. </rdg><rdg wit="fMS">&lt;sga-add eID="c57-0015__main__d4e3104"/&gt;I knew nothing of the &lt;lb n="c57-0015__main__15"/&gt;science of words or letters.</rdg></rdgGrp></app>
 	
 	<app>
-		<rdgGrp n="['&lt;del&gt;a&lt;mdel/&gt;t  that  time &lt;/del&gt;&lt;del&gt;.&lt;/del&gt; the family soon']">
+		<rdgGrp n="['&lt;delspanstart/&gt;a&lt;mdel/&gt;t  that  time &lt;delspanend/&gt;&lt;del&gt;.&lt;/del&gt; the family soon']">
 			<rdg wit="fMS">&lt;longToken&gt;&lt;delSpan rend="strikethrough" spanTo="#c57-0015.01"/&gt;a&lt;mod sID="c57-0015__main__d4e3111"/&gt;&lt;mdel/&gt;&lt;sga-add place="intralinear" sID="c57-0015__main__d4e3118"/&gt;t &lt;sga-add eID="c57-0015__main__d4e3118"/&gt;&lt;mod eID="c57-0015__main__d4e3111"/&gt; that &lt;lb n="c57-0015__main__16"/&gt;time &lt;delSpan anchor="c57-0015.01"/&gt;&lt;del rend="unmarked" xml:id="c57-0015__main__d4e3127"&gt;.&lt;/del&gt; The family soon&lt;/longToken&gt;</rdg>
 		</rdgGrp>
 		<rdgGrp n="['i continued however to watch the countenances of the cottagers and the changes i perceived were at once the excitements and the aliments of a boundless curiosity.']">
@@ -9405,4 +9405,4 @@
 	</app>
 	<app><rdgGrp n="['', '']"><rdg wit="f1818">&lt;milestone unit="chapter" type="end" n="10"/&gt;  </rdg><rdg wit="fThomas">&lt;milestone unit="chapter" type="end" n="10"/&gt;  </rdg><rdg wit="f1831">&lt;milestone unit="chapter" type="end" n="11"/&gt;  </rdg><rdg wit="f1823">&lt;pb xml:id="F1823_v1_253" n="234"/&gt;&lt;milestone unit="chapter" type="end" n="10"/&gt;</rdg></rdgGrp></app>
 	
-</cx:apparatus><!-- 2023-10-20 05:04:22.271580 -->
+</cx:apparatus><!-- 2023-10-29 20:19:31.187957 -->

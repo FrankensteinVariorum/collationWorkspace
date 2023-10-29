@@ -648,7 +648,7 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['man', '&lt;del&gt;and', 'who', 'confine', 'her', 'eyes', 'or', 'wishes', '&lt;/del&gt;.']">
+		<rdgGrp n="['man', '&lt;delspanstart/&gt;and', 'who', 'confine', 'her', 'eyes', 'or', 'wishes', '&lt;delspanend/&gt;.']">
 			<rdg wit="fMS">man &lt;delSpan rend="strikethrough" spanTo="#c57-0103.01"/&gt;&amp; who &lt;lb n="c57-0103__main__21"/&gt;confine her eyes or wishes &lt;delSpan anchor="c57-0103.01"/&gt;.</rdg>
 		</rdgGrp>
 		<rdgGrp n="['man;']">
@@ -1079,7 +1079,7 @@
 	</app>
 	<app><rdgGrp n="['at', 'the']"><rdg wit="f1818">at the</rdg><rdg wit="f1823">at the</rdg><rdg wit="fThomas">at the</rdg><rdg wit="f1831">at the</rdg></rdgGrp><rdgGrp n="['', '&lt;del&gt;with&lt;/del&gt;', 'at', 'the']"><rdg wit="fMS">&lt;mod sID="c57-0104__main__d4e19122"/&gt; &lt;del rend="strikethrough" xml:id="c57-0104__main__d4e19124"&gt;with&lt;/del&gt; &lt;sga-add hand="#pbs" place="superlinear" sID="c57-0104__main__d4e19127"/&gt;at the</rdg></rdgGrp></app>
 	
-	<app><rdgGrp n="['casement.', 'a', 'ghastly', 'grin']"><rdg wit="f1818">casement. A ghastly grin</rdg><rdg wit="f1823">casement. A ghastly grin</rdg><rdg wit="fThomas">casement. A ghastly grin</rdg><rdg wit="f1831">casement. A ghastly grin</rdg></rdgGrp><rdgGrp n="['', &#34;&lt;del&gt; &lt;del&gt;'&#34;, '', 'window', '&lt;/del&gt; &lt;/del&gt;', 'casement.', 'a', 'ghastly', 'grin']"><rdg wit="fMS">&lt;sga-add eID="c57-0104__main__d4e19127"/&gt;&lt;anchor xml:id="c57-0104.02"/&gt;&lt;lb n="c57-0104__left_margin__1"/&gt;&lt;mod sID="c57-0104__left_margin__d4e19136"/&gt; &lt;del rend="overwritten" xml:id="c57-0104__left_margin__d4e19138"&gt; &lt;del-INNER rend="smear" xml:id="c57-0104__left_margin__d4e19140"&gt;'                                       &lt;sga-add hand="#pbs" sID="c57-0104__left_margin__d4e19142"/&gt;window &lt;sga-add eID="c57-0104__left_margin__d4e19142"/&gt;       &lt;/del-INNER&gt; &lt;/del&gt; &lt;sga-add hand="#pbs" place="intralinear" sID="c57-0104__left_margin__d4e19147"/&gt;casement. &lt;sga-add eID="c57-0104__left_margin__d4e19147"/&gt;&lt;mod eID="c57-0104__left_margin__d4e19136"/&gt;&lt;mod eID="c57-0104__main__d4e19122"/&gt;&lt;lb n="c57-0104__main__9"/&gt;A ghastly grin</rdg></rdgGrp></app>
+	<app><rdgGrp n="['casement.', 'a', 'ghastly', 'grin']"><rdg wit="f1818">casement. A ghastly grin</rdg><rdg wit="f1823">casement. A ghastly grin</rdg><rdg wit="fThomas">casement. A ghastly grin</rdg><rdg wit="f1831">casement. A ghastly grin</rdg></rdgGrp><rdgGrp n="['', &#34;&lt;del&gt; &lt;del-inner rend=%q%smear%q% xml:id=%q%c57-0104__left_margin__d4e19140%q%&gt;'&#34;, '', 'window', '&lt;/del-inner&gt; &lt;/del&gt;', 'casement.', 'a', 'ghastly', 'grin']"><rdg wit="fMS">&lt;sga-add eID="c57-0104__main__d4e19127"/&gt;&lt;anchor xml:id="c57-0104.02"/&gt;&lt;lb n="c57-0104__left_margin__1"/&gt;&lt;mod sID="c57-0104__left_margin__d4e19136"/&gt; &lt;del rend="overwritten" xml:id="c57-0104__left_margin__d4e19138"&gt; &lt;del-INNER rend="smear" xml:id="c57-0104__left_margin__d4e19140"&gt;'                                       &lt;sga-add hand="#pbs" sID="c57-0104__left_margin__d4e19142"/&gt;window &lt;sga-add eID="c57-0104__left_margin__d4e19142"/&gt;       &lt;/del-INNER&gt; &lt;/del&gt; &lt;sga-add hand="#pbs" place="intralinear" sID="c57-0104__left_margin__d4e19147"/&gt;casement. &lt;sga-add eID="c57-0104__left_margin__d4e19147"/&gt;&lt;mod eID="c57-0104__left_margin__d4e19136"/&gt;&lt;mod eID="c57-0104__main__d4e19122"/&gt;&lt;lb n="c57-0104__main__9"/&gt;A ghastly grin</rdg></rdgGrp></app>
 	
 	<app><rdgGrp n="['wrinkled']"><rdg wit="f1818">wrinkled</rdg><rdg wit="f1823">wrinkled</rdg><rdg wit="fThomas">wrinkled</rdg><rdg wit="f1831">wrinkled</rdg></rdgGrp><rdgGrp n="['&lt;del&gt;on his countena&lt;/del&gt;', 'wrinkled']"><rdg wit="fMS">&lt;del instant="true" rend="strikethrough" xml:id="c57-0104__main__d4e19155"&gt;on his countena&lt;/del&gt; wrinkled</rdg></rdgGrp></app>
 	
@@ -4039,7 +4039,7 @@
 			<rdg wit="fMS">and at &lt;lb n="c57-0108__main__26"/&gt;once satisfy and extinguish his malice.</rdg>
 		</rdgGrp>
 	</app>
-	<app><rdgGrp n="['the', 'prospect', 'did']"><rdg wit="f1818">The prospect did</rdg><rdg wit="f1823">The prospect did</rdg><rdg wit="fThomas">The prospect did</rdg><rdg wit="f1831">The prospect did</rdg></rdgGrp><rdgGrp n="['&lt;del&gt;yet', 'when', 'i', 'thought', 'of', 'elizabeth', '&lt;/del&gt;', 'the', 'prospect', 'did']"><rdg wit="fMS">&lt;delSpan rend="strikethrough" spanTo="#c57-0108.01"/&gt;Yet &lt;lb n="c57-0108__main__27"/&gt;when I thought of Elizabeth &lt;delSpan anchor="c57-0108.01"/&gt; The prospect did</rdg></rdgGrp></app>
+	<app><rdgGrp n="['the', 'prospect', 'did']"><rdg wit="f1818">The prospect did</rdg><rdg wit="f1823">The prospect did</rdg><rdg wit="fThomas">The prospect did</rdg><rdg wit="f1831">The prospect did</rdg></rdgGrp><rdgGrp n="['&lt;delspanstart/&gt;yet', 'when', 'i', 'thought', 'of', 'elizabeth', '&lt;delspanend/&gt;', 'the', 'prospect', 'did']"><rdg wit="fMS">&lt;delSpan rend="strikethrough" spanTo="#c57-0108.01"/&gt;Yet &lt;lb n="c57-0108__main__27"/&gt;when I thought of Elizabeth &lt;delSpan anchor="c57-0108.01"/&gt; The prospect did</rdg></rdgGrp></app>
 	
 	<app><rdgGrp n="['not', 'move', 'me', 'to']"><rdg wit="f1818">not move me to</rdg><rdg wit="f1823">not move me to</rdg><rdg wit="fThomas">not move me to</rdg><rdg wit="f1831">not move me to</rdg></rdgGrp><rdgGrp n="['not', 'not', 'move', 'me', 'to']"><rdg wit="fMS">&lt;lb n="c57-0108__main__28"/&gt;not not move me to</rdg></rdgGrp></app>
 	
@@ -7762,7 +7762,7 @@
 			<rdg wit="fThomas">misery!</rdg>
 			<rdg wit="f1831">misery!</rdg>
 		</rdgGrp>
-		<rdgGrp n="['misery.', '&lt;del&gt;i', 'steered', 'my', 'boat', 'towards', 'the', 'shore', 'and', '&lt;/del&gt;']">
+		<rdgGrp n="['misery.', '&lt;delspanstart/&gt;i', 'steered', 'my', 'boat', 'towards', 'the', 'shore', 'and', '&lt;delspanend/&gt;']">
 			<rdg wit="fMS">&lt;lb n="c57-0113__main__30"/&gt;misery. &lt;delSpan rend="strikethrough" spanTo="#c57-0113.02"/&gt;I steered my boat towards the shore &lt;lb n="c57-0113__main__31"/&gt;and &lt;delSpan anchor="c57-0113.02"/&gt;&lt;anchor xml:id="c57-0113.03"/&gt;&lt;lb n="c57-0113__left_margin__1"/&gt;&lt;sga-add sID="c57-0113__left_margin__d4e20827"/&gt;</rdg>
 		</rdgGrp>
 	</app>
@@ -8003,7 +8003,7 @@
 			<rdg wit="fMS">&lt;sga-add eID="c57-0114__main__d4e20904"/&gt;&lt;mod eID="c57-0114__main__d4e20895"/&gt;&amp; hailed a steeple which</rdg>
 		</rdgGrp>
 	</app>
-	<app><rdgGrp n="['i', 'at', 'length', 'saw']"><rdg wit="f1818">I at length saw</rdg><rdg wit="f1823">I at length saw</rdg><rdg wit="fThomas">I at length saw</rdg><rdg wit="f1831">I at length saw</rdg></rdgGrp><rdgGrp n="['&lt;del&gt;after', 'sailing', '&lt;/del&gt;', 'i', 'at', 'length', 'saw']"><rdg wit="fMS">&lt;delSpan rend="strikethrough" spanTo="#c57-0114.01"/&gt;after &lt;lb n="c57-0114__main__7"/&gt;sailing &lt;delSpan anchor="c57-0114.01"/&gt; I at length saw</rdg></rdgGrp></app>
+	<app><rdgGrp n="['i', 'at', 'length', 'saw']"><rdg wit="f1818">I at length saw</rdg><rdg wit="f1823">I at length saw</rdg><rdg wit="fThomas">I at length saw</rdg><rdg wit="f1831">I at length saw</rdg></rdgGrp><rdgGrp n="['&lt;delspanstart/&gt;after', 'sailing', '&lt;delspanend/&gt;', 'i', 'at', 'length', 'saw']"><rdg wit="fMS">&lt;delSpan rend="strikethrough" spanTo="#c57-0114.01"/&gt;after &lt;lb n="c57-0114__main__7"/&gt;sailing &lt;delSpan anchor="c57-0114.01"/&gt; I at length saw</rdg></rdgGrp></app>
 	
 	<app>
 		<rdgGrp n="['issueing']">
@@ -8683,7 +8683,7 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['th', 'e', '&lt;del&gt;the', 'countenance', 'of', 'this', 'man', 'an', 'his', 'companions', '&lt;/del&gt;', 'frow', '', '^', 'n', '', 'ing']">
+		<rdgGrp n="['th', 'e', '&lt;delspanstart/&gt;the', 'countenance', 'of', 'this', 'man', 'an', 'his', 'companions', '&lt;delspanend/&gt;', 'frow', '', '^', 'n', '', 'ing']">
 			<rdg wit="fMS">th &lt;sga-add place="intralinear" sID="c57-0115__main__d4e21088"/&gt;e &lt;sga-add eID="c57-0115__main__d4e21088"/&gt;&lt;lb n="c57-0115__main__6"/&gt;&lt;delSpan rend="strikethrough" spanTo="#c57-0115.01"/&gt;the countenance of this man an his &lt;lb n="c57-0115__main__7"/&gt;companions &lt;delSpan anchor="c57-0115.01"/&gt; frow &lt;mod sID="c57-0115__main__d4e21100"/&gt;&lt;sga-add sID="c57-0115__main__d4e21102"/&gt; &lt;metamark function="insert"&gt;^&lt;/metamark&gt; &lt;sga-add eID="c57-0115__main__d4e21102"/&gt;&lt;sga-add place="superlinear" sID="c57-0115__main__d4e21108"/&gt;n &lt;sga-add eID="c57-0115__main__d4e21108"/&gt;&lt;mod eID="c57-0115__main__d4e21100"/&gt; ing</rdg>
 		</rdgGrp>
 		<rdgGrp n="['the', 'frowning']">
@@ -9713,7 +9713,7 @@
 	<app><rdgGrp n="['requires']"><rdg wit="f1818">requires </rdg><rdg wit="f1823">requires </rdg><rdg wit="fThomas">requires </rdg><rdg wit="f1831">requires </rdg><rdg wit="fMS">&lt;sga-add eID="c57-0116__main__d4e21381"/&gt;requires</rdg></rdgGrp></app>
 	
 	<app>
-		<rdgGrp n="['&lt;del&gt;and', 'strength', 'to', 'suffer', 'me', '&lt;/del&gt;']">
+		<rdgGrp n="['&lt;delspanstart/&gt;and', 'strength', 'to', 'suffer', 'me', '&lt;delspanend/&gt;']">
 			<rdg wit="fMS">&lt;lb n="c57-0116__main__18"/&gt;&lt;mod sID="c57-0116__main__d4e21386"/&gt;&lt;mod eID="c57-0116__main__d4e21386"/&gt;&lt;delSpan rend="strikethrough" spanTo="#c57-0116.01"/&gt;&amp; strength to suffer &lt;lb n="c57-0116__main__19"/&gt;me &lt;delSpan anchor="c57-0116.01"/&gt;</rdg>
 		</rdgGrp>
 		<rdgGrp n="['all', 'my', 'fortitude']">
@@ -9816,4 +9816,4 @@
 			<rdg wit="fMS"/>
 		</rdgGrp>
 	</app>
-</cx:apparatus><!-- 2023-10-20 05:28:21.212585 -->
+</cx:apparatus><!-- 2023-10-29 20:42:01.740420 -->

@@ -104,7 +104,7 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['horror', '&lt;del&gt;mine', 'of', 'ten', 'did', 'as', 'he', 'related', 'it', '&lt;/del&gt;']">
+		<rdgGrp n="['horror', '&lt;delspanstart/&gt;mine', 'of', 'ten', 'did', 'as', 'he', 'related', 'it', '&lt;delspanend/&gt;']">
 			<rdg wit="fMS">horror &lt;delSpan rend="strikethrough" spanTo="#c57-0168.04"/&gt;Mine of &lt;sga-add place="sublinear" sID="c57-0168__main__d4e32863"/&gt;ten &lt;sga-add eID="c57-0168__main__d4e32863"/&gt;did as he &lt;lb n="c57-0168__main__8"/&gt;related it &lt;delSpan anchor="c57-0168.04"/&gt;&lt;anchor xml:id="c57-0168.05"/&gt;&lt;lb n="c57-0168__left_margin__1"/&gt;</rdg>
 		</rdgGrp>
 		<rdgGrp n="['horror,']">
@@ -1911,7 +1911,7 @@
 		</rdgGrp>
 	</app>
 	<app>
-		<rdgGrp n="['&lt;del&gt;gr', '', '&lt;mdel&gt;an&lt;/mdel&gt;', 'eat', '', '&lt;mdel&gt;d&lt;/mdel&gt;', 'enterprises&lt;/del&gt;illustrious', 'atchievements', '.']">
+		<rdgGrp n="['&lt;delspanstart/&gt;gr', '', '&lt;mdel&gt;an&lt;/mdel&gt;', 'eat', '', '&lt;mdel&gt;d&lt;/mdel&gt;', 'enterprises&lt;delspanend/&gt;illustrious', 'atchievements', '.']">
 			<rdg wit="fMS">&lt;delSpan rend="strikethrough" spanTo="#c57-0170.09"/&gt;gr &lt;mod sID="c57-0170__main__d4e33757"/&gt; &lt;mdel&gt;an&lt;/mdel&gt; &lt;sga-add hand="#pbs" place="intralinear" sID="c57-0170__main__d4e33761"/&gt;eat &lt;sga-add eID="c57-0170__main__d4e33761"/&gt; &lt;mdel&gt;d&lt;/mdel&gt; &lt;mod eID="c57-0170__main__d4e33757"/&gt;&lt;w ana="start"/&gt;enter&lt;lb n="c57-0170__main__24"/&gt;prises&lt;w ana="end"/&gt;&lt;delSpan anchor="c57-0170.09"/&gt;&lt;anchor xml:id="c57-0170.04"/&gt;&lt;lb n="c57-0170__left_margin__1"/&gt;illustrious &lt;lb n="c57-0170__left_margin__2"/&gt;atchievements &lt;anchor xml:id="c57-0170.05"/&gt;&lt;anchor xml:id="c57-0170.08"/&gt;.</rdg>
 		</rdgGrp>
 		<rdgGrp n="['illustrious', 'achievements.']">
@@ -2889,7 +2889,7 @@
 			<rdg wit="fThomas">“for</rdg>
 			<rdg wit="f1831">“for</rdg>
 		</rdgGrp>
-		<rdgGrp n="['&lt;del&gt;but', 'when', '&lt;/del&gt;', 'for']">
+		<rdgGrp n="['&lt;delspanstart/&gt;but', 'when', '&lt;delspanend/&gt;', 'for']">
 			<rdg wit="fMS">&lt;delSpan rend="strikethrough" spanTo="#c57-0171.01"/&gt;but &lt;lb n="c57-0171__main__26"/&gt;When &lt;delSpan anchor="c57-0171.01"/&gt; for</rdg>
 		</rdgGrp>
 	</app>
@@ -3689,4 +3689,4 @@
 			<rdg wit="fMS">die.</rdg>
 		</rdgGrp>
 	</app>
-</cx:apparatus><!-- 2023-10-20 05:49:26.777141 -->
+</cx:apparatus><!-- 2023-10-29 21:01:48.555295 -->
