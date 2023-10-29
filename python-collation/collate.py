@@ -236,8 +236,8 @@ def normalize(inputText):
     # 2023-05-17 ebb with nlh: Noting that delSpan needs a way to be expressed
     # in the output normalized tokens for the new interface.
     # Freshly altered delSpan and anchor in msColl files to delspan...delspan, normalizing in next two lines:
-    normalized = RE_DELSPAN_START.sub('<del>', normalized)
-    normalized = RE_DELSPAN_END.sub('</del>', normalized)
+    normalized = RE_DELSPAN_START.sub('<delSpanStart/>', normalized)
+    normalized = RE_DELSPAN_END.sub('<delSpanEnd/>', normalized)
     normalized = RE_ANCHOR.sub('', normalized)
     normalized = RE_LT_AMP.sub('and', normalized)
     normalized = RE_AMP.sub('and', normalized)

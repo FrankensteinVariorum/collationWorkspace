@@ -61,10 +61,11 @@
        </xsl:for-each> 
     </xsl:template>-->
 
-
+    <!-- 2023-10-26 yxj ebb: &amp;quot; is generated inside the text nodes of longToken elements, so we need to handle it differently. 
+        andquot; only appears in normalized tokens, and ONLY the double quotes in notmalized tokens should be escaped as %q% -->
     <xsl:function name="fv:ampFix"  as="xs:string">
         <xsl:param name="text" as="item()?"/> 
-        <xsl:value-of select="$text ! replace(.,'&amp;amp;','&amp;') ! replace(., 'andamp;', '&amp;') ! replace(.,'&amp;quot;', '%q%') ! replace(.,'andquot;', '%q%')"/>
+        <xsl:value-of select="$text ! replace(.,'&amp;amp;','&amp;') ! replace(., 'andamp;', '&amp;') ! replace(.,'&amp;quot;', '&quot;') ! replace(.,'andquot;', '%q%')"/>
     </xsl:function>
     
     
