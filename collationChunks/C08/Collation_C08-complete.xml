@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../lookingForTrouble.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <cx:apparatus xmlns:cx="http://interedition.eu/collatex/ns/1.0">
+	<!-- 2023-11-02 ebb: This collation file has been manually adjusted at points marked by comments below. Check and as needed, copy the manual adjustments to new automated collation output.-->
 	<app>
 		<rdgGrp n="['']">
 			<rdg wit="f1818">&lt;anchor type="collate" xml:id="C08"/&gt;</rdg>
@@ -723,7 +724,7 @@
 
 	<app>
 		<rdgGrp
-			n="['chivalry and romance', 'and   ^  when very young, i can  remember that   we used to  act plays composed by him out of  th  &lt;mdel&gt;is&lt;/mdel&gt; ese    &lt;del&gt;favourite&lt;/del&gt; books, the principal   &lt;del&gt;car&lt;/del&gt;characters of which were orlando  robin hood, amadis and st. george–', 'no youth could could be more happy', 'than mine. –', '&lt;del&gt;our&lt;/del&gt; my   parents were indulgent, and my companions amiable.   &lt;del&gt;and our stud&lt;/del&gt; our studies were never  forced, and by some means we always had an end placed in view which  excited us to ardour.   ^  in the prosecution of them.   it was by this  &lt;mdel&gt;and&lt;/mdel&gt; method     not by emulation that we were  urged. elizabeth was not told to apply  herself to drawing  &lt;mdel&gt;or&lt;/mdel&gt; that   her companions    &lt;del&gt;would&lt;/del&gt; might not   outstrip her, but &lt;del&gt;she&lt;/del&gt; by  &lt;del&gt;was&lt;/del&gt; the      desire of', '&lt;del&gt;knew how&lt;/del&gt;  pleas  &lt;mdel&gt;ed&lt;/mdel&gt; ing   her aunt &lt;delspanstart/&gt;would  be &lt;delspanend/&gt; by  &lt;del&gt;a painting&lt;/del&gt; the representation   of some &lt;del&gt;of her&lt;/del&gt;  favourite scene&lt;del&gt;s&lt;/del&gt; done by her own  hand. &lt;del&gt;latin&lt;/del&gt; we learned latin and  english  &lt;mdel&gt;to&lt;/mdel&gt; that we might   read the writ  &lt;del&gt;ers&lt;/del&gt; ings     &lt;mdel&gt;of&lt;/mdel&gt; in   those  languages and so far from study  begin rendered odious &lt;del&gt;by&lt;/del&gt; to us th^rough  punishment, we loved application  and our amusements  &lt;del&gt;were&lt;/del&gt; would have been   the  labours of other children. perhaps  we did not read so many books  or learn &lt;del&gt;a&lt;/del&gt; languages so quickly  as  &lt;del&gt;another child&lt;/del&gt; those who are disciplined according to the ordinary  method,   but what we  learned was impressed the more deeply  on our  memory.', 'x      x  in  &lt;del&gt;this&lt;/del&gt; the']">
+			n="['chivalry and romance', 'and   ^  when very young, i can  remember that   we used to  act plays composed by him out of  th  &lt;mdel&gt;is&lt;/mdel&gt; ese    &lt;del&gt;favourite&lt;/del&gt; books, the principal   &lt;del&gt;car&lt;/del&gt;characters of which were orlando  robin hood, amadis and st. george–']">
 			<rdg wit="fMS">&lt;longToken&gt;&lt;w ana="start"/&gt;chi&lt;lb
 				n="c56-0011__main__29"/&gt;valry&lt;w ana="end"/&gt; &amp; romance&lt;/longToken&gt;
 				&lt;longToken&gt;and &lt;mod sID="c56-0011__main__d5e371"/&gt; &lt;sga-add
@@ -744,8 +745,50 @@
 				n="c56-0011__main__32"/&gt; &lt;del instant="true" rend="strikethrough"
 				xml:id="c56-0011__main__d5e401"&gt;car&lt;/del&gt;characters of which were Orlando
 				&lt;lb n="c56-0011__main__33"/&gt;Robin Hood, Amadis and St.
-				George–&lt;/longToken&gt; &lt;longToken&gt;&lt;lb n="c56-0011__main__34"/&gt;No
-				youth could could be more happy&lt;/longToken&gt; &lt;longToken&gt;&lt;lb
+				George–&lt;/longToken&gt;</rdg>
+		</rdgGrp>
+		<rdgGrp
+			n="['chivalry and romance.', 'he composed heroic songs, and began to write many a tale of enchantment and knightly adventure. he tried to make us act plays, and to enter into masquerades, in which the characters were drawn from the heroes of roncesvalles, of the round table of king arthur, and the chivalrous train who shed their blood to redeem the holy sepulchre from the hands of the infidels.']">
+			<rdg wit="f1831">&lt;longToken&gt;chivalry and romance.&lt;/longToken&gt;
+				&lt;longToken&gt;He composed heroic songs, and began to write many a tale of
+				enchantment and knightly adventure. He tried to make us act plays, and to enter into
+				masquerades, in which the characters were drawn from the heroes of Roncesvalles, of
+				the Round Table of King Arthur, and the chivalrous train who shed their blood to
+				redeem the holy sepulchre from the hands of the infidels.&lt;/longToken&gt;</rdg>
+		</rdgGrp>
+		<rdgGrp
+			n="['chivalry and romance;', 'and when very young, i can remember, that we used to act plays composed by him out of these favourite books, the principal characters of which were orlando, robin hood, amadis, and st. george.']">
+			<rdg wit="f1818">&lt;longToken&gt;chivalry and romance;&lt;/longToken&gt;
+				&lt;longToken&gt;and when very young, I can remember, that we used to act plays
+				composed by him out of these favourite books, the principal characters of which were
+				Orlando, Robin Hood, Amadis, and St. George.&lt;/longToken&gt;</rdg>
+			<rdg wit="f1823">&lt;longToken&gt;chivalry and romance;&lt;/longToken&gt;
+				&lt;longToken&gt;and when very young, I can remember, that we used to act plays
+				composed by him out of these favourite books, the principal characters of which were
+				Orlando, Robin Hood, Amadis, and St. George.&lt;/longToken&gt;</rdg>
+			<rdg wit="fThomas">&lt;longToken&gt;chivalry and romance;&lt;/longToken&gt;
+				&lt;longToken&gt;and when very young, I can remember, that we used to act plays
+				composed by him out of these favourite books, the principal characters of which were
+				Orlando, Robin Hood, Amadis, and St. George.&lt;/longToken&gt;</rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp n="['&lt;p-end/&gt;', '&lt;p-start/&gt;']">
+			<rdg wit="f1818">&lt;p eID="novel1_letter4_chapter1_div4_div1_p11"/&gt; &lt;p
+				sID="novel1_letter4_chapter1_div4_div1_p12"/&gt;</rdg>
+			<rdg wit="f1823">&lt;p eID="novel1_letter4_chapter1_div4_div1_p11"/&gt; &lt;p
+				sID="novel1_letter4_chapter1_div4_div1_p12"/&gt;</rdg>
+			<rdg wit="fThomas">&lt;p eID="novel1_letter4_chapter1_div4_div1_p11"/&gt; &lt;p
+				sID="novel1_letter4_chapter1_div4_div1_p12"/&gt;</rdg>
+			<rdg wit="f1831">&lt;p eID="novel1_letter4_chapter2_div4_div2_p2"/&gt; &lt;p
+				sID="novel1_letter4_chapter2_div4_div2_p3"/&gt;</rdg>
+		</rdgGrp>
+	</app>
+	<app>
+		<rdgGrp
+			n="['no youth could could be more happy', 'than mine. –', '&lt;del&gt;our&lt;/del&gt; my   parents were indulgent, and my companions amiable. &lt;del&gt;and our stud&lt;/del&gt; our studies were never  forced, and by some means we always had an end placed in view which  excited us to ardour.   ^  in the prosecution of them. it was by this  &lt;mdel&gt;and&lt;/mdel&gt; method     not by emulation that we were  urged. elizabeth was not told to apply  herself to drawing  &lt;mdel&gt;or&lt;/mdel&gt; that  her companions  &lt;del&gt;would&lt;/del&gt; might not   outstrip her, but &lt;del&gt;she&lt;/del&gt; by  &lt;del&gt;was&lt;/del&gt; the desire of', '&lt;del&gt;knew how&lt;/del&gt; pleas&lt;mdel&gt;ed&lt;/mdel&gt;ing   her aunt &lt;delspanstart/&gt;would  be &lt;delspanend/&gt; by  &lt;del&gt;a painting&lt;/del&gt; the representation   of some &lt;del&gt;of her&lt;/del&gt;  favourite scene&lt;del&gt;s&lt;/del&gt; done by her own  hand. &lt;del&gt;latin&lt;/del&gt; we learned latin and  english  &lt;mdel&gt;to&lt;/mdel&gt; that we might   read the writ  &lt;del&gt;ers&lt;/del&gt; ings     &lt;mdel&gt;of&lt;/mdel&gt; in   those  languages and so far from study  begin rendered odious &lt;del&gt;by&lt;/del&gt; to us th^rough  punishment, we loved application  and our amusements  &lt;del&gt;were&lt;/del&gt; would have been   the  labours of other children. perhaps  we did not read so many books  or learn &lt;del&gt;a&lt;/del&gt; languages so quickly  as  &lt;del&gt;another child&lt;/del&gt; those who are disciplined according to the ordinary  method,   but what we  learned was impressed the more deeply  on our  memory.']">
+			<rdg wit="fMS">&lt;longToken&gt;&lt;lb n="c56-0011__main__34"/&gt;No youth could could
+				be more happy&lt;/longToken&gt; &lt;longToken&gt;&lt;lb
 				n="c56-0012__main__1"/&gt;than mine. –&lt;/longToken&gt; &lt;longToken&gt;&lt;mod
 				sID="c56-0012__main__d5e418"/&gt; &lt;del rend="strikethrough"
 				xml:id="c56-0012__main__d5e420"&gt;Our&lt;/del&gt; &lt;sga-add hand="#pbs"
@@ -845,59 +888,8 @@
 				we &lt;lb n="c56-0012__main__24"/&gt;learned was impressed &lt;sga-add hand="#pbs"
 				place="superlinear" sID="c56-0012__main__d5e650"/&gt;the more deeply &lt;sga-add
 				eID="c56-0012__main__d5e650"/&gt; on our &lt;lb
-				n="c56-0012__main__25"/&gt;memory.&lt;/longToken&gt; &lt;longToken&gt;&lt;mod
-				sID="c56-0012__main__d5e655"/&gt; &lt;sga-add hand="#pbs" place="superlinear"
-				sID="c56-0012__main__d5e657"/&gt; &lt;metamark function="displacement"
-				xml:id="c56-0012.05"&gt;X&lt;/metamark&gt; &lt;zone corresp="#c56-0012.05"
-				type="left_margin" sID="c56-0012__left_margin"/&gt; &lt;addSpan
-				spanTo="#c56-0012.06"/&gt; &lt;lb n="c56-0012__left_margin__1"/&gt; &lt;sga-add
-				hand="#pbs" place="superlinear" sID="c56-0012__left_margin__d5e668"/&gt;
-				&lt;metamark function="displacement"&gt;X&lt;/metamark&gt; &lt;sga-add
-				eID="c56-0012__left_margin__d5e668"/&gt; In &lt;mod
-				sID="c56-0012__left_margin__d5e674"/&gt; &lt;del rend="strikethrough"
-				xml:id="c56-0012__left_margin__d5e676"&gt;this&lt;/del&gt; &lt;sga-add hand="#pbs"
-				place="superlinear" sID="c56-0012__left_margin__d5e679"/&gt;the &lt;sga-add
-				eID="c56-0012__left_margin__d5e679"/&gt; &lt;mod
-				eID="c56-0012__left_margin__d5e674"/&gt;&lt;/longToken&gt;</rdg>
+				n="c56-0012__main__25"/&gt;memory.&lt;/longToken&gt;</rdg>
 		</rdgGrp>
-		<rdgGrp
-			n="['chivalry and romance.', 'he composed heroic songs, and began to write many a tale of enchantment and knightly adventure. he tried to make us act plays, and to enter into masquerades, in which the characters were drawn from the heroes of roncesvalles, of the round table of king arthur, and the chivalrous train who shed their blood to redeem the holy sepulchre from the hands of the infidels.']">
-			<rdg wit="f1831">&lt;longToken&gt;chivalry and romance.&lt;/longToken&gt;
-				&lt;longToken&gt;He composed heroic songs, and began to write many a tale of
-				enchantment and knightly adventure. He tried to make us act plays, and to enter into
-				masquerades, in which the characters were drawn from the heroes of Roncesvalles, of
-				the Round Table of King Arthur, and the chivalrous train who shed their blood to
-				redeem the holy sepulchre from the hands of the infidels.&lt;/longToken&gt;</rdg>
-		</rdgGrp>
-		<rdgGrp
-			n="['chivalry and romance;', 'and when very young, i can remember, that we used to act plays composed by him out of these favourite books, the principal characters of which were orlando, robin hood, amadis, and st. george.']">
-			<rdg wit="f1818">&lt;longToken&gt;chivalry and romance;&lt;/longToken&gt;
-				&lt;longToken&gt;and when very young, I can remember, that we used to act plays
-				composed by him out of these favourite books, the principal characters of which were
-				Orlando, Robin Hood, Amadis, and St. George.&lt;/longToken&gt;</rdg>
-			<rdg wit="f1823">&lt;longToken&gt;chivalry and romance;&lt;/longToken&gt;
-				&lt;longToken&gt;and when very young, I can remember, that we used to act plays
-				composed by him out of these favourite books, the principal characters of which were
-				Orlando, Robin Hood, Amadis, and St. George.&lt;/longToken&gt;</rdg>
-			<rdg wit="fThomas">&lt;longToken&gt;chivalry and romance;&lt;/longToken&gt;
-				&lt;longToken&gt;and when very young, I can remember, that we used to act plays
-				composed by him out of these favourite books, the principal characters of which were
-				Orlando, Robin Hood, Amadis, and St. George.&lt;/longToken&gt;</rdg>
-		</rdgGrp>
-	</app>
-	<app>
-		<rdgGrp n="['&lt;p-end/&gt;', '&lt;p-start/&gt;']">
-			<rdg wit="f1818">&lt;p eID="novel1_letter4_chapter1_div4_div1_p11"/&gt; &lt;p
-				sID="novel1_letter4_chapter1_div4_div1_p12"/&gt;</rdg>
-			<rdg wit="f1823">&lt;p eID="novel1_letter4_chapter1_div4_div1_p11"/&gt; &lt;p
-				sID="novel1_letter4_chapter1_div4_div1_p12"/&gt;</rdg>
-			<rdg wit="fThomas">&lt;p eID="novel1_letter4_chapter1_div4_div1_p11"/&gt; &lt;p
-				sID="novel1_letter4_chapter1_div4_div1_p12"/&gt;</rdg>
-			<rdg wit="f1831">&lt;p eID="novel1_letter4_chapter2_div4_div2_p2"/&gt; &lt;p
-				sID="novel1_letter4_chapter2_div4_div2_p3"/&gt;</rdg>
-		</rdgGrp>
-	</app>
-	<app>
 		<rdgGrp
 			n="['&lt;del&gt;no youth could have passed more happily than mine. my parents were indulgent, and my companions amiable. our studies were never forced; and by some means we always had an end placed in view, which excited us to ardour in the prosecution of them. it was by this method, and not by emulation, that we were urged to application. elizabeth was not incited to apply herself to drawing, that her companions might not outstrip her; but through the desire of pleasing her aunt, by the representation of some favourite scene done by her own hand. we learned latin and english, that we might read the writings in those languages; and so far from study being made odious to us through punishment, we loved application, and our amusements would have been the labours of other children. perhaps we did not read so many books, or learn languages so quickly, as those who are disciplined according to the ordinary methods; but what we learned was impressed the more deeply on our memories.&lt;/del&gt;', '&lt;note resp=%q%#mws%q%&gt;bad&lt;/note&gt;', 'with what delight do i even now remember the details of our domestic circle, and the happy years of my childhood. joy attended on my steps—and the ardent affection that attached me to my excellent parents, my beloved elizabeth, and henry, the brother of my soul, has given almost a religious and sacred feeling to the recollections of a period passed beneath their eyes, and in their society.']">
 			<rdg wit="fThomas">&lt;del rend="margin_line"&gt;No youth could have passed more &lt;pb
@@ -975,6 +967,21 @@
 		</rdgGrp>
 	</app>
 	<app>
+		<rdgGrp n="['x      x  in  &lt;del&gt;this&lt;/del&gt; the']">
+			<rdg wit="fMS">&lt;longToken&gt;&lt;mod sID="c56-0012__main__d5e655"/&gt; &lt;sga-add
+				hand="#pbs" place="superlinear" sID="c56-0012__main__d5e657"/&gt; &lt;metamark
+				function="displacement" xml:id="c56-0012.05"&gt;X&lt;/metamark&gt; &lt;zone
+				corresp="#c56-0012.05" type="left_margin" sID="c56-0012__left_margin"/&gt;
+				&lt;addSpan spanTo="#c56-0012.06"/&gt; &lt;lb n="c56-0012__left_margin__1"/&gt;
+				&lt;sga-add hand="#pbs" place="superlinear" sID="c56-0012__left_margin__d5e668"/&gt;
+				&lt;metamark function="displacement"&gt;X&lt;/metamark&gt; &lt;sga-add
+				eID="c56-0012__left_margin__d5e668"/&gt; In &lt;mod
+				sID="c56-0012__left_margin__d5e674"/&gt; &lt;del rend="strikethrough"
+				xml:id="c56-0012__left_margin__d5e676"&gt;this&lt;/del&gt; &lt;sga-add hand="#pbs"
+				place="superlinear" sID="c56-0012__left_margin__d5e679"/&gt;the &lt;sga-add
+				eID="c56-0012__left_margin__d5e679"/&gt; &lt;mod
+				eID="c56-0012__left_margin__d5e674"/&gt;&lt;/longToken&gt;</rdg>
+		</rdgGrp>
 		<rdgGrp n="['&lt;p-start/&gt;', 'in', 'this']">
 			<rdg wit="f1818">&lt;p sID="novel1_letter4_chapter1_div4_div1_p13"/&gt; In this</rdg>
 			<rdg wit="f1823">&lt;p sID="novel1_letter4_chapter1_div4_div1_p13"/&gt; In this</rdg>
